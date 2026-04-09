@@ -18,6 +18,7 @@ from kaku_decomposer.phases.phase4_lt_generation import phase4_lt_generation
 from kaku_decomposer.phases.phase5_formatting import phase5_formatting
 from kaku_decomposer.output_naming import next_available_artifact_path
 from kaku_decomposer.state import DecomposerState
+from kaku_decomposer.types import ArchitectureDiagnosis
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -210,6 +211,26 @@ def output_node(state: DecomposerState) -> dict[str, Any]:
         lines.extend(["", f"_Classification notes:_ {profile_notes}", ""])
     else:
         lines.append("")
+
+    arch_diag = ArchitectureDiagnosis.from_dict(architecture)
+    content_themes = arch_diag.content_theme_strands()
+    lines.extend(
+        [
+            "",
+            "## Curriculum coverage (content themes)",
+            "",
+            "_These strands describe topic or period coverage. They are **not** used for learning-target "
+            "assignment in Phase 5._",
+            "",
+        ]
+    )
+    if content_themes:
+        for s in content_themes:
+            lines.append(f"- **{s.label}** (`{s.id}`): {s.values_basis}")
+    else:
+        lines.append("- _(none listed)_")
+    lines.append("")
+
     lines.extend(
         [
         "## Learning targets",

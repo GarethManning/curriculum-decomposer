@@ -23,18 +23,48 @@ from kaku_decomposer.types import (
 
 TOOL_NAME = "curriculum-knowledge-architecture-designer"
 
-SYSTEM_DIRECT = """You are a curriculum architecture analyst. Without external tools, read the curriculum \
-and output ONLY valid JSON matching this shape:
-{
-  "architecture_type": "hierarchical" | "horizontal" | "mixed",
-  "proportions": {"hierarchical": float, "horizontal": float, "dispositional": float},
-  "hierarchical_elements": [string],
-  "horizontal_elements": [string],
-  "dispositional_elements": [string],
-  "structural_flaw": string,
-  "auto_assessable_pct": float
-}
-Use evidence from the document. No markdown outside the JSON object."""
+STRANDS_JSON_RULES = """
+Each item in "strands" MUST include:
+- "id": unique kebab-case slug (e.g. historical-thinking-inquiry).
+- "label": 3-6 words, title case, teacher-facing.
+- "lane": one of "hierarchical" | "horizontal_analytical" | "content_theme" | "dispositional".
+- "expected_lt_types": JSON array of integers: use [1] for hierarchical strands, [2] for horizontal_analytical,
+  [3] for dispositional, [] (empty) for content_theme (content themes are NOT used to assign learning targets).
+- "values_basis": one short sentence explaining why this strand is classified in this lane (transparent for review).
+
+Lane rules (critical):
+- horizontal_analytical: cross-cutting, subject-wide SKILLS and interpretive frameworks (inquiry, evidence,
+  source analysis, argumentation, historiographical thinking) — the correct home for Type 2 (T2) learning targets.
+- content_theme: topic-, period-, or content-area strands (e.g. church-state relations, a specific war,
+  a region) — document them for curriculum coverage but they MUST NOT receive LT assignment in Phase 5.
+- hierarchical: substantive knowledge structures, prerequisites, conceptual progressions — Type 1 (T1) LTs.
+- dispositional: habits, stances, curiosity, collaboration — Type 3 (T3) LTs.
+
+Do NOT put topic-style content strands in horizontal_analytical. If the MCP/tool output mixes them,
+split them in your final JSON: skills → horizontal_analytical; topics → content_theme.
+"""
+
+SYSTEM_DIRECT = (
+    "You are a curriculum architecture analyst. Without external tools, read the curriculum "
+    "and output ONLY valid JSON matching this shape:\n"
+    "{\n"
+    '  "architecture_type": "hierarchical" | "horizontal" | "mixed",\n'
+    '  "proportions": {"hierarchical": float, "horizontal": float, "dispositional": float},\n'
+    '  "strands": [\n'
+    "    {\n"
+    '      "id": string,\n'
+    '      "label": string,\n'
+    '      "lane": "hierarchical" | "horizontal_analytical" | "content_theme" | "dispositional",\n'
+    '      "expected_lt_types": [int],\n'
+    '      "values_basis": string\n'
+    "    }\n"
+    "  ],\n"
+    '  "structural_flaw": string,\n'
+    '  "auto_assessable_pct": float\n'
+    "}\n"
+    f"{STRANDS_JSON_RULES}\n"
+    "Use evidence from the document. No markdown outside the JSON object."
+)
 
 
 async def _direct_sonnet_diagnosis(raw_curriculum: str) -> ArchitectureDiagnosis:
@@ -83,16 +113,15 @@ async def phase2_architecture(state: DecomposerState) -> dict[str, Any]:
     user_instruction = (
         "Use the MCP tool "
         f"`{TOOL_NAME}` to diagnose the curriculum architecture. "
-        "Then summarize the diagnosis as JSON in your reply (same schema as tool output / "
-        "the fields: architecture_type, proportions, hierarchical_elements, horizontal_elements, "
-        "dispositional_elements, structural_flaw, auto_assessable_pct). "
+        "Then reply with ONLY a JSON object (parseable) that includes at minimum: architecture_type, "
+        "proportions, strands (array), structural_flaw, auto_assessable_pct. "
         "Prefer numeric proportions that sum to ~1.0. "
-        "Return descriptive, subject-specific element names for hierarchical_elements, "
-        "horizontal_elements, and dispositional_elements. Do NOT use generic labels like "
-        "'prerequisite_chains', 'conceptual_hubs', or 'competencies'. "
-        "Use names that describe the actual content strand, e.g. 'Geographic and Chronological Skills', "
-        "'Historical Thinking and Inquiry', 'Historical Empathy and Citizenship'. "
-        "Names should be 3-6 words, title case, meaningful to a teacher reading the output."
+        "If the tool returns only legacy flat lists (hierarchical_elements, horizontal_elements, "
+        "dispositional_elements), you MUST translate them into v1.2 `strands`: "
+        "put topic- or period-specific former horizontal items in lane content_theme with "
+        "expected_lt_types []; put subject-wide inquiry/skills frameworks in horizontal_analytical "
+        "with expected_lt_types [2]. Every strand needs id, label, lane, expected_lt_types, values_basis. "
+        f"{STRANDS_JSON_RULES}"
     )
 
     messages = [{

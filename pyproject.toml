@@ -20,10 +20,16 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["ruff>=0.8.0"]
+dev = ["ruff>=0.8.0", "pytest>=8.0"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["kaku_decomposer"]
 
 [tool.hatch.build.targets.sdist]
 include = ["kaku_decomposer", "configs", "README.md", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: full pipeline tests requiring ANTHROPIC_API_KEY and network",
+]
+testpaths = ["tests"]

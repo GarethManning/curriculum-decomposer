@@ -311,6 +311,51 @@ def _scope_system_prompt(profile: dict[str, Any], subject: str, grade: str, juri
     )
 
 
+def _document_indicates_multi_level_progression(text: str) -> bool:
+    """
+    True when the document text clearly spans multiple stages/years/bands.
+    Used to correct misclassification (e.g. UK NC as single_intended_level).
+    """
+    if not text or len(text.strip()) < 80:
+        return False
+    sample = text[:800_000]
+    low = sample.lower()
+
+    if re.search(r"key\s*stages?\b", low):
+        return True
+    if re.search(r"\bks\s*[1-4]\b", low) or re.search(r"\bks[1-4]\b", low):
+        return True
+    if re.search(r"foundation\s+to\s+year", low):
+        return True
+    if re.search(r"(?:grades?|year\s*levels?)\s+k\s*[-–]\s*12\b", low):
+        return True
+    if re.search(r"\bk\s*[-–]\s*12\b", low):
+        return True
+    if re.search(r"\bf\s*[-–]\s*10\b", low):
+        return True
+
+    stage_hits = re.findall(r"\bstage\s*[123]\b", low)
+    if len(stage_hits) >= 2:
+        return True
+    if re.search(r"stage\s*1[/\s,]+(?:stage\s*)?2", low):
+        return True
+    if re.search(r"stage\s*2[/\s,]+(?:stage\s*)?3", low):
+        return True
+
+    year_nums = re.findall(r"\byear\s*(?:([1-9]|1[0-3]))\b", low)
+    if len(set(year_nums)) >= 2:
+        return True
+    if re.search(
+        r"\byears?\s*(?:[1-9]|1[0-3])\s*(?:[-–,]|to|through|until)\s*(?:[1-9]|1[0-3])\b",
+        low,
+    ):
+        return True
+    if re.search(r"\byears?\s*[1-9]\s*[,;]\s*(?:[1-9]|1[0-3])\b", low):
+        return True
+
+    return False
+
+
 async def _haiku_classify_curriculum(
     excerpt: str,
     hints: dict[str, Any],
@@ -330,6 +375,9 @@ async def _haiku_classify_curriculum(
         '  "rationale": short string (max 200 chars)\n'
         "}\n"
         "Use the document excerpt and the hints; if unsure, set confidence low and document_family other.\n"
+        "If the document spans Key Stages (e.g. UK), multiple school years (e.g. Years 1–10), "
+        "Stages 1–3, K–12, or F–10 bands, set level_model to multi_level_progression — "
+        "not single_intended_level — even when hints name one target grade or key stage.\n"
         "No markdown."
     )
     user_blocks: list[dict[str, Any]] = [
@@ -488,6 +536,18 @@ async def phase1_ingestion(state: DecomposerState) -> dict[str, Any]:
         errs.append(f"phase1: classification failed — defaults applied: {exc}")
         classification_notes_parts.append(str(exc))
         inferred = normalize_curriculum_profile_fragment({})
+
+    if _document_indicates_multi_level_progression(full_text):
+        idict = dict(inferred)
+        if idict.get("level_model") != "multi_level_progression":
+            prev = str(idict.get("rationale") or "").strip()
+            note = "[heuristic: multi-level progression signals in document]"
+            idict["level_model"] = "multi_level_progression"
+            idict["rationale"] = f"{prev} {note}".strip() if prev else note
+            inferred = normalize_curriculum_profile_fragment(idict)
+            classification_notes_parts.append(
+                "phase1: level_model set to multi_level_progression (document text signals)"
+            )
 
     profile_dict = merge_curriculum_profile_with_config(inferred, cfg)
     sh = dict(profile_dict.get("source_hints") or {})

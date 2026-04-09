@@ -11,7 +11,13 @@ from typing import Any
 from kaku_decomposer._anthropic import beta_messages_create, get_async_client, response_text_content
 from kaku_decomposer.output_naming import next_available_structured_lts_paths
 from kaku_decomposer.state import DecomposerState
-from kaku_decomposer.types import SONNET_MODEL, StructuredLT, extract_json_object
+from kaku_decomposer.types import (
+    SONNET_MODEL,
+    ArchitectureDiagnosis,
+    ArchitectureStrand,
+    StructuredLT,
+    extract_json_object,
+)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -49,16 +55,6 @@ def _effective_levels(output_structure: dict[str, Any]) -> list[dict[str, str]]:
     return expanded
 
 
-def _knowledge_bucket(lt: dict[str, Any]) -> str:
-    k = str(lt.get("knowledge_type", "")).lower()
-    t = int(lt.get("type") or 0)
-    if "hierarchical" in k or t == 1:
-        return "hierarchical"
-    if "horizontal" in k or t == 2:
-        return "horizontal"
-    return "dispositional"
-
-
 def _competency_name_variants(competency_name: str) -> list[str]:
     raw = competency_name.strip()
     if not raw:
@@ -89,26 +85,65 @@ def _competency_relevance_score(lt: dict[str, Any], competency_name: str) -> flo
     return best
 
 
-def _map_to_competency(
-    lt: dict[str, Any],
-    groups: list[dict[str, str]],
-) -> tuple[str, bool]:
-    if not groups:
-        return "", True
+def _lt_type_int(lt: dict[str, Any]) -> int:
+    t = int(lt.get("type") or 1)
+    return t if t in (1, 2, 3) else 1
 
-    kind = _knowledge_bucket(lt)
-    candidates = [g for g in groups if g["kind"] == kind]
+
+def _assignable_strands_for_type(strands: list[ArchitectureStrand], T: int) -> list[ArchitectureStrand]:
+    """Type-first: only strands in the correct lane; content_theme never assignable."""
+    out: list[ArchitectureStrand] = []
+    for s in strands:
+        if s.lane == "content_theme":
+            continue
+        if T == 1 and s.lane == "hierarchical":
+            if not s.expected_lt_types or 1 in s.expected_lt_types:
+                out.append(s)
+        elif T == 2 and s.lane == "horizontal_analytical":
+            if not s.expected_lt_types or 2 in s.expected_lt_types:
+                out.append(s)
+        elif T == 3 and s.lane == "dispositional":
+            if not s.expected_lt_types or 3 in s.expected_lt_types:
+                out.append(s)
+    return out
+
+
+def _lane_relaxed_strands_for_type(strands: list[ArchitectureStrand], T: int) -> list[ArchitectureStrand]:
+    """Same lane as T, ignore expected_lt_types (still never content_theme)."""
+    out: list[ArchitectureStrand] = []
+    for s in strands:
+        if s.lane == "content_theme":
+            continue
+        if T == 1 and s.lane == "hierarchical":
+            out.append(s)
+        elif T == 2 and s.lane == "horizontal_analytical":
+            out.append(s)
+        elif T == 3 and s.lane == "dispositional":
+            out.append(s)
+    return out
+
+
+def map_lt_to_strand_label(lt: dict[str, Any], strands: list[ArchitectureStrand]) -> tuple[str, bool]:
+    """
+    Map one LT to a strand label for Phase 5 grouping. Similarity is tiebreaker only among
+    strands that already pass lane + expected_lt_types. Exported for tests.
+    """
+    if not strands:
+        return "", True
+    T = _lt_type_int(lt)
+    candidates = _assignable_strands_for_type(strands, T)
     kind_relaxed = False
     if not candidates:
-        candidates = list(groups)
-        kind_relaxed = True
+        candidates = _lane_relaxed_strands_for_type(strands, T)
+        kind_relaxed = bool(candidates)
+    if not candidates:
+        return "", True
 
-    scored = [(g["name"], _competency_relevance_score(lt, g["name"])) for g in candidates]
+    scored = [(s.label, _competency_relevance_score(lt, s.label)) for s in candidates]
     scored.sort(key=lambda x: -x[1])
     best_name, best_s = scored[0]
     second_s = scored[1][1] if len(scored) > 1 else -1.0
 
-    # Reserve COMPETENCY_MAPPING_UNCERTAIN for kind-mismatch fallback or a high-score dead heat.
     uncertain = kind_relaxed
     if (
         not uncertain
@@ -120,6 +155,75 @@ def _map_to_competency(
         uncertain = True
 
     return best_name, uncertain
+
+
+_HISTORY_CIVIC_DRIFT = re.compile(
+    r"\b(school council|classroom rules|playground rules|rules in my community|rules in my school|"
+    r"my school community|good citizen|citizenship class|following rules at school|"
+    r"basic rules in my community)\b",
+    re.I,
+)
+
+_T2_ANALYTICAL_IN_T3 = re.compile(
+    r"(evaluate|assess|analy[sz]e).{0,40}(reliability|bias|perspective).{0,30}source|"
+    r"reliability.{0,20}historical source|"
+    r"interpret.{0,30}as evidence|"
+    r"compare.{0,40}sources?.{0,20}(to|for) construct|"
+    r"perspective of different historical sources",
+    re.I | re.DOTALL,
+)
+
+_T2_LIKE_FOR_T1 = re.compile(
+    r"\bevaluate\s+the\s+reliability\b|\bcompare\s+multiple\s+interpretations\b|"
+    r"\bjudge\s+which\s+source\b",
+    re.I,
+)
+
+_T3_LIKE_FOR_T2 = re.compile(
+    r"^\s*i can (be|show|demonstrate) (curiosity|open[- ]mindedness|persistence|empathy)\b",
+    re.I,
+)
+
+
+def _statement_domain_drift(subject: str, statement: str) -> bool:
+    subj = (subject or "").strip().lower()
+    if "history" in subj or subj == "":
+        return bool(_HISTORY_CIVIC_DRIFT.search(statement))
+    return False
+
+
+def _statement_type_drift(lt_type: int, statement: str) -> bool:
+    if lt_type == 3:
+        return bool(_T2_ANALYTICAL_IN_T3.search(statement))
+    if lt_type == 1:
+        return bool(_T2_LIKE_FOR_T1.search(statement))
+    if lt_type == 2:
+        return bool(_T3_LIKE_FOR_T2.search(statement))
+    return False
+
+
+def _level_statement_validation_flags(
+    subject: str,
+    lt_type: int,
+    level_statements: dict[str, str],
+) -> list[str]:
+    """Required v1.2 checks on all generated level columns."""
+    domain_hit = False
+    type_hit = False
+    for stmt in level_statements.values():
+        st = (stmt or "").strip()
+        if not st:
+            continue
+        if _statement_domain_drift(subject, st):
+            domain_hit = True
+        if _statement_type_drift(lt_type, st):
+            type_hit = True
+    out: list[str] = []
+    if domain_hit:
+        out.append("LEVEL_STATEMENT_DOMAIN_DRIFT")
+    if type_hit:
+        out.append("LEVEL_STATEMENT_TYPE_DRIFT")
+    return out
 
 
 def _level_statement_fallback(statement: str, max_words: int = 20) -> str:
@@ -145,13 +249,26 @@ async def _format_competency_batch(
     levels: list[dict[str, str]],
     subject: str,
     grade: str,
+    anchor_level_id: str,
 ) -> list[dict[str, Any]]:
     client = get_async_client()
+    level_payload = []
+    for lvl in levels:
+        lid = str(lvl.get("id"))
+        level_payload.append(
+            {
+                "id": lid,
+                "label": str(lvl.get("label", lid)),
+                "cognitive_demand": str(lvl.get("cognitive_demand", "")),
+                "is_anchor": bool(anchor_level_id and lid == anchor_level_id),
+            }
+        )
     payload = {
         "competency": competency,
         "subject": subject,
         "grade": grade,
-        "levels": levels,
+        "anchor_level_id": anchor_level_id,
+        "levels": level_payload,
         "learning_targets": [
             {
                 "idx": i,
@@ -165,6 +282,7 @@ async def _format_competency_batch(
     }
     subj = subject.strip() or "this subject"
     gr = grade.strip() or "this grade"
+    anchor = anchor_level_id.strip() or "(see levels marked is_anchor)"
     comp_def_rules = (
         f"For each row, competency_definition must be ONE sentence defining this competency group "
         f"as it applies to {subj} at {gr} level. "
@@ -183,7 +301,16 @@ async def _format_competency_batch(
         "each level_statement must be I-can and <=20 words; align each level statement to its "
         "cognitive_demand (concrete/transitional/abstract). "
         "level_statements MUST be an object whose keys are EXACTLY the strings in levels[].id from "
-        "the input payload (no other keys)."
+        "the input payload (no other keys). "
+        f"Domain: all level statements must stay within {subj} — do not drift to unrelated subjects "
+        f"(e.g. generic citizenship or school rules when the subject is history). "
+        "Type lock: for each row, every entry in level_statements must preserve that row's learning target "
+        "type from field 'type' (1=hierarchical knowledge, 2=horizontal/analytical, 3=dispositional). "
+        "A T3 disposition must remain a disposition at every level (habits, stance, curiosity, persistence) "
+        "— never rewrite it as T2 analytical skills such as evaluating source reliability. "
+        "Similarly, do not rewrite T1 or T2 rows into the wrong type. "
+        f"The anchor curriculum level id is '{anchor}'; levels with is_anchor true match the original LT; "
+        "other level ids may be adjacent cognitive levels — still obey domain and type lock for those too."
     )
     msg = await beta_messages_create(
         client,
@@ -281,18 +408,11 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
 
     levels = _effective_levels(output_structure)
 
-    groups: list[dict[str, str]] = []
-    for x in arch.get("hierarchical_elements") or []:
-        groups.append({"kind": "hierarchical", "name": str(x)})
-    for x in arch.get("horizontal_elements") or []:
-        groups.append({"kind": "horizontal", "name": str(x)})
-    for x in arch.get("dispositional_elements") or []:
-        groups.append({"kind": "dispositional", "name": str(x)})
-
-    if not groups:
+    diagnosis = ArchitectureDiagnosis.from_dict(arch)
+    if not diagnosis.strands:
         return {
             "current_phase": "phase5:skipped",
-            "errors": errs + ["phase5: skipped — architecture_diagnosis has no competency elements"],
+            "errors": errs + ["phase5: skipped — architecture_diagnosis has no strands"],
             "human_review_queue": review,
             "structured_lts": [],
             "phase5_summary": {},
@@ -300,20 +420,29 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
 
     by_comp: dict[str, list[dict[str, Any]]] = {}
     uncertain_count = 0
+    skipped_no_strand = 0
     for lt in lts:
-        comp, uncertain = _map_to_competency(lt, groups)
+        comp, uncertain = map_lt_to_strand_label(lt, diagnosis.strands)
         if not comp:
+            skipped_no_strand += 1
             continue
         row = dict(lt)
         row["_uncertain"] = uncertain
         by_comp.setdefault(comp, []).append(row)
         if uncertain:
             uncertain_count += 1
+    if skipped_no_strand:
+        errs.append(
+            f"phase5: {skipped_no_strand} learning targets had no assignable strand "
+            "(e.g. missing horizontal_analytical strands for T2 — re-run Phase 2)."
+        )
 
     structured: list[StructuredLT] = []
     group_counts: dict[str, int] = {}
     for comp, comp_lts in by_comp.items():
-        rows = await _format_competency_batch(comp, comp_lts, levels, subject, grade)
+        rows = await _format_competency_batch(
+            comp, comp_lts, levels, subject, grade, anchor_level_id=input_level_id
+        )
         rows_by_idx = {int(r.get("idx")): r for r in rows if str(r.get("idx", "")).isdigit()}
 
         for i, lt in enumerate(comp_lts):
@@ -334,6 +463,11 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
                 ):
                     val = _level_statement_fallback(str(lt.get("statement", "")))
                 level_statements[lvl_id] = val
+
+            lt_type_i = _lt_type_int(lt)
+            for drift_flag in _level_statement_validation_flags(subject, lt_type_i, level_statements):
+                if drift_flag not in flags:
+                    flags.append(drift_flag)
 
             structured.append(
                 {

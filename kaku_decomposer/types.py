@@ -181,6 +181,81 @@ class StructuredLT(TypedDict):
     flags: list[str]
 
 
+STRAND_LANES = frozenset({
+    "horizontal_analytical",
+    "content_theme",
+    "hierarchical",
+    "dispositional",
+})
+
+_MIGRATION_HIER = (
+    "Migrated from legacy hierarchical_elements; re-run Phase 2 for full strand metadata."
+)
+_MIGRATION_HORIZ = (
+    "Migrated from legacy horizontal_elements without lane — treated as content_theme until "
+    "Phase 2 re-run produces horizontal_analytical strands."
+)
+_MIGRATION_DISP = (
+    "Migrated from legacy dispositional_elements; re-run Phase 2 for full strand metadata."
+)
+
+
+def _slugify_strand_id(label: str, idx: int, prefix: str) -> str:
+    base = re.sub(r"[^a-z0-9]+", "-", (label or "").lower().strip())
+    base = base.strip("-")[:60]
+    return base if base else f"{prefix}-{idx}"
+
+
+@dataclass
+class ArchitectureStrand:
+    """v1.2: one curriculum strand with lane, LT routing, and reviewable rationale."""
+
+    id: str
+    label: str
+    lane: str
+    expected_lt_types: list[int] = field(default_factory=list)
+    values_basis: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "id": self.id,
+            "label": self.label,
+            "lane": self.lane,
+            "expected_lt_types": list(self.expected_lt_types),
+            "values_basis": self.values_basis,
+        }
+
+    @classmethod
+    def from_raw(cls, raw: dict[str, Any], *, fallback_idx: int, prefix: str) -> ArchitectureStrand:
+        label = str(raw.get("label") or raw.get("name") or "").strip()
+        sid = str(raw.get("id") or "").strip() or _slugify_strand_id(label, fallback_idx, prefix)
+        lane = str(raw.get("lane", "")).strip().lower().replace(" ", "_").replace("-", "_")
+        if lane in ("horizontal", "horizontalanalytical"):
+            lane = "horizontal_analytical"
+        elif lane in ("content", "contentthemes", "topic", "topics"):
+            lane = "content_theme"
+        elif lane not in STRAND_LANES:
+            lane = "content_theme"
+        elt = raw.get("expected_lt_types")
+        types_list: list[int] = []
+        if isinstance(elt, list):
+            for x in elt:
+                try:
+                    t = int(x)
+                except (TypeError, ValueError):
+                    continue
+                if 1 <= t <= 3:
+                    types_list.append(t)
+        vb = str(raw.get("values_basis", "")).strip()
+        return cls(
+            id=sid,
+            label=label or sid,
+            lane=lane,
+            expected_lt_types=types_list,
+            values_basis=vb or "Unspecified.",
+        )
+
+
 @dataclass
 class ArchitectureDiagnosis:
     architecture_type: str = ""
@@ -188,6 +263,7 @@ class ArchitectureDiagnosis:
     hierarchical_elements: list[str] = field(default_factory=list)
     horizontal_elements: list[str] = field(default_factory=list)
     dispositional_elements: list[str] = field(default_factory=list)
+    strands: list[ArchitectureStrand] = field(default_factory=list)
     structural_flaw: str = ""
     auto_assessable_pct: float = 0.0
 
@@ -200,18 +276,88 @@ class ArchitectureDiagnosis:
             proportions = {str(k): float(v) for k, v in props.items()}
         else:
             proportions = {}
-        return cls(
+
+        raw_strands = data.get("strands")
+        strands: list[ArchitectureStrand] = []
+        if isinstance(raw_strands, list) and raw_strands:
+            for i, item in enumerate(raw_strands):
+                if isinstance(item, dict):
+                    strands.append(ArchitectureStrand.from_raw(item, fallback_idx=i, prefix="strand"))
+        if not strands:
+            # Legacy: no strands — synthesize. Old horizontal lists were often topic strands, not T2
+            # analytical homes — default them to content_theme so T2 LTs are not mis-assigned until
+            # Phase 2 is re-run with the v1.2 prompt.
+            for i, label in enumerate(data.get("hierarchical_elements") or []):
+                lab = str(label).strip()
+                if not lab:
+                    continue
+                strands.append(
+                    ArchitectureStrand(
+                        id=_slugify_strand_id(lab, i, "hier"),
+                        label=lab,
+                        lane="hierarchical",
+                        expected_lt_types=[1],
+                        values_basis=_MIGRATION_HIER,
+                    )
+                )
+            for i, label in enumerate(data.get("horizontal_elements") or []):
+                lab = str(label).strip()
+                if not lab:
+                    continue
+                strands.append(
+                    ArchitectureStrand(
+                        id=_slugify_strand_id(lab, i, "theme"),
+                        label=lab,
+                        lane="content_theme",
+                        expected_lt_types=[],
+                        values_basis=_MIGRATION_HORIZ,
+                    )
+                )
+            for i, label in enumerate(data.get("dispositional_elements") or []):
+                lab = str(label).strip()
+                if not lab:
+                    continue
+                strands.append(
+                    ArchitectureStrand(
+                        id=_slugify_strand_id(lab, i, "disp"),
+                        label=lab,
+                        lane="dispositional",
+                        expected_lt_types=[3],
+                        values_basis=_MIGRATION_DISP,
+                    )
+                )
+
+        diag = cls(
             architecture_type=str(data.get("architecture_type", "")),
             proportions=proportions,
-            hierarchical_elements=list(data.get("hierarchical_elements") or []),
-            horizontal_elements=list(data.get("horizontal_elements") or []),
-            dispositional_elements=list(data.get("dispositional_elements") or []),
             structural_flaw=str(data.get("structural_flaw", "")),
             auto_assessable_pct=float(data.get("auto_assessable_pct") or 0.0),
+            strands=strands,
         )
+        diag._sync_derived_element_lists()
+        return diag
+
+    def _sync_derived_element_lists(self) -> None:
+        """Teacher-facing labels for Phase 3/4 context; excludes content_theme."""
+        self.hierarchical_elements = [s.label for s in self.strands if s.lane == "hierarchical"]
+        self.horizontal_elements = [s.label for s in self.strands if s.lane == "horizontal_analytical"]
+        self.dispositional_elements = [s.label for s in self.strands if s.lane == "dispositional"]
 
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        self._sync_derived_element_lists()
+        return {
+            "architecture_type": self.architecture_type,
+            "proportions": dict(self.proportions),
+            "hierarchical_elements": list(self.hierarchical_elements),
+            "horizontal_elements": list(self.horizontal_elements),
+            "dispositional_elements": list(self.dispositional_elements),
+            "strands": [s.to_dict() for s in self.strands],
+            "structural_flaw": self.structural_flaw,
+            "auto_assessable_pct": self.auto_assessable_pct,
+        }
+
+    def content_theme_strands(self) -> list[ArchitectureStrand]:
+        return [s for s in self.strands if s.lane == "content_theme"]
 
 
 @dataclass
