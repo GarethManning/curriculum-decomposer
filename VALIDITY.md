@@ -2,8 +2,10 @@
 
 **Project:** curriculum-decomposer — LangGraph pipeline that ingests a
 curriculum document and emits a KUD map + learning targets.
-**Last reviewed:** 2026-04-17 (scaffold — no gate scripts have run yet;
-every assertion below is `pending` or `deferred`).
+**Last reviewed:** 2026-04-17 (Session 2 — foundation-moment-1 gates
+(a/b/c) promoted from `pending` to `implemented`; first baseline
+measurements captured in `docs/project-log/baseline-measurements-
+2026-04-17.md`).
 **Next quarterly review:** 2026-07-17.
 
 > **Quarterly review ritual.** On the date above, re-read this file
@@ -95,22 +97,36 @@ material the source does not teach, or (c) imports conventions from a
 different curriculum's commentary (e.g. AQA command words applied to
 a non-AQA source).
 
-**Gate scripts — status `pending`:**
+**Gate scripts — status `implemented` (Session 2, 2026-04-17):**
 - `scripts/validity-gate/validate_source_coverage.py` — every source
-  content element in Phase 1 / Phase 2 outputs traces to ≥1 LT in
-  `..._learning_targets_v1.json`.
+  content element in the Phase 1 `curriculum_profile` + Phase 2
+  `architecture` source-proxy corpus traces to ≥1 LT in
+  `..._learning_targets_v1.json` at match score ≥ 0.20.
 - `scripts/validity-gate/validate_source_faithfulness.py` — no LT
-  introduces content not supported by the source (no-fabrication
-  check).
-- `scripts/validity-gate/validate_architecture_diagnosis.py` — the
-  Phase 2 architecture (strand labels, level model, scoping strategy)
-  is verifiable against Phase 1 output and source text.
+  introduces content unsupported by the source-proxy corpus
+  (no-invention check). LTs below threshold are flagged as potentially
+  invented. Known test case: the felvételi `factorial` LT (REVIEW.md §2)
+  is correctly flagged.
+- `scripts/validity-gate/validate_architecture_diagnosis.py` — every
+  strand label in the architecture traces to an independent source
+  corpus item (excluding the strand's own `values_basis`).
 
-None of these scripts exist yet. All three are **pending**, not
-deferred — the artefacts they would read (source text, Phase 1/2
-JSON, learning-targets JSON) already land in `outputs/<run>/` on
-every run. Implementation is a matter of writing the check, not of
-building new pipeline phases.
+All three gates share a common primitive,
+`eval/source_evidence_matcher.py`, verified against known-good and
+known-bad fixtures (`eval/test_cases/`, `eval/test_matcher.py`, 18/18
+assertions passing).
+
+**Known limit — proxy-ceiling.** The matcher reads Phase 1/2 English
+output as the source corpus (raw source may be non-English, e.g. the
+Hungarian felvételi source). This means the gate measures fidelity
+against the pipeline's own rendering of the source, not against the
+primary text directly. Baseline measurements in
+`docs/project-log/baseline-measurements-2026-04-17.md` document the
+precision/recall trade-off; the gate is currently *high-sensitivity,
+lower-precision* for runs with thin English proxy content, meaning
+faithful LTs can be flagged as invented when their support only
+exists in non-English raw source. Upgrade path: per-run
+`_source_bullets_v1.json` artefact (not yet produced by the harness).
 
 ### 2. Learning-target surface form
 

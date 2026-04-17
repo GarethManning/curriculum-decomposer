@@ -16,9 +16,9 @@ See that file for the full claim, foundation moments, and pre-mortem.
 
 | Script | Foundation moment | Status |
 | --- | --- | --- |
-| `validate_source_coverage.py` | 1 — source → LT coverage | pending |
-| `validate_source_faithfulness.py` | 1 — no-fabrication | pending |
-| `validate_architecture_diagnosis.py` | 1 — architecture verifiable from source | pending |
+| `validate_source_coverage.py` | 1 — source → LT coverage | **implemented** |
+| `validate_source_faithfulness.py` | 1 — no-fabrication | **implemented** |
+| `validate_architecture_diagnosis.py` | 1 — architecture verifiable from source | **implemented** |
 | `validate_lt_surface_form.py` | 2 — word count / format / compound-check | pending |
 | `validate_regenerate_loop.py` | 2 — regenerate loop ran for any initial failure | pending (known gap) |
 | `validate_exam_block_scope.py` | 3 — `GCSE_AQA_EXAM_BLOCK` only on AQA sources | pending (known bug) |
@@ -34,6 +34,15 @@ python scripts/validity-gate/run_all.py outputs/<run>/
 The runner prints a per-script status table and exits 0 (scaffold
 reports but does not block). When individual scripts are promoted to
 real checks, the runner will exit non-zero on any FAIL.
+
+Individual gates can also be run directly:
+
+```bash
+python scripts/validity-gate/validate_source_faithfulness.py outputs/<run>/ --out faithfulness.json
+```
+
+Each gate prints its JSON report to stdout (or `--out`) and a
+one-line `[PASS]`/`[FAIL]` summary to stderr.
 
 ## Promoting a stub to a real gate
 
