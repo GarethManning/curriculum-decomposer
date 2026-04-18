@@ -468,6 +468,15 @@ class LearningTarget:
     word_count: int = 0
     flags: list[str] = field(default_factory=list)
     lt_statement_format: str = ""
+    # Session 3a — source faithfulness threading.
+    # source_provenance: top-k source_bullets matches as
+    # {bullet_id, score, matched_text, bullet_type}. Empty when no
+    # source_bullets corpus is available.
+    source_provenance: list[dict[str, Any]] = field(default_factory=list)
+    # kud_provenance: top-1 KUD-item match as
+    # {parent_id, score, matched_text}. parent_id is the KUDItem's
+    # kud_source-style index; matched_text is the KUD item's content.
+    kud_provenance: list[dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> LearningTarget:
@@ -482,6 +491,8 @@ class LearningTarget:
             word_count=wc,
             flags=list(data.get("flags") or []),
             lt_statement_format=str(data.get("lt_statement_format", "")).strip(),
+            source_provenance=list(data.get("source_provenance") or []),
+            kud_provenance=list(data.get("kud_provenance") or []),
         )
 
     def to_dict(self) -> dict[str, Any]:

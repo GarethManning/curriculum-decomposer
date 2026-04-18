@@ -17,6 +17,11 @@ from curriculum_harness._anthropic import (
     response_text_content,
 )
 from curriculum_harness.phases.phase3_kud import is_recall_only_know_content
+from curriculum_harness.source_faithfulness import (
+    SOURCE_FAITHFULNESS_FAIL_FLAG,
+    compute_parent_provenance,
+    compute_source_provenance,
+)
 from curriculum_harness.state import DecomposerState
 from curriculum_harness.types import (
     HE_DISPOSITION_INFERRED,
@@ -525,9 +530,42 @@ async def phase4_lt_generation(state: DecomposerState) -> dict[str, Any]:
         except Exception as exc:
             errs.append(f"phase4: HE disposition supplement failed: {exc}")
 
+    # Source faithfulness threading — Session 3a Step 7.
+    # Every LT is matched against (a) the KUD-item corpus for parent
+    # provenance, (b) the source_bullets corpus for source provenance.
+    # LTs whose best source match falls below the matcher's threshold
+    # are flagged SOURCE_FAITHFULNESS_FAIL and ship with the flag. No
+    # regeneration — Session 3b adds that. See
+    # `curriculum_harness/source_faithfulness.py` for the matcher's
+    # adjacent-mechanism declaration (grain, language boundary, etc.).
+    source_bullets = list(state.get("source_bullets") or [])
+    kud_parents = [
+        {"id": f"{bucket}[{idx}]", "content": it.content}
+        for idx, (bucket, it) in enumerate(kud.all_items())
+    ]
+    phase4_flagged = 0
+    for t in targets:
+        stmt = str(t.get("statement", ""))
+        kud_prov, _ = compute_parent_provenance(stmt, kud_parents, top_k=1)
+        src_prov, src_passed = compute_source_provenance(stmt, source_bullets)
+        t["kud_provenance"] = kud_prov
+        t["source_provenance"] = src_prov
+        if not src_passed and source_bullets:
+            flags = list(t.get("flags") or [])
+            if SOURCE_FAITHFULNESS_FAIL_FLAG not in flags:
+                flags.append(SOURCE_FAITHFULNESS_FAIL_FLAG)
+            t["flags"] = flags
+            phase4_flagged += 1
+    if not source_bullets:
+        errs.append(
+            "phase4: no source_bullets corpus available — "
+            "SOURCE_FAITHFULNESS_FAIL flags suppressed for this run"
+        )
+
     return {
         "current_phase": "phase4:complete",
         "errors": errs,
         "human_review_queue": review_dicts,
         "learning_targets": targets,
+        "phase4_faithfulness_flagged_count": phase4_flagged,
     }
