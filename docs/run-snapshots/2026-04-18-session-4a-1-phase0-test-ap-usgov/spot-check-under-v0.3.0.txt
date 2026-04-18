@@ -1,0 +1,100 @@
+========================================================================
+Phase 0 manifest spot-check — /Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-1-phase0-test-ap-usgov/manifest.json
+========================================================================
+
+Source reference : outputs/phase0-test-ap-usgov-unit1-2026-04-18/_source.pdf
+Source type      : flat_pdf_linear
+Phase 0 version  : 0.2.0
+Timestamp        : 2026-04-18T12:19:06.090361+00:00
+Content hash     : 47d41e8bc6031c9bc91decaa0be5b65f11357452022202d26d662ef0bea7215a
+Detection hash   : 1798f5cb42351397d17814760e95fd23066c69ea98a0c5433d7e156a5be9ac87
+Encoding detected: None
+
+-- Scope requested --
+  notes: AP US Government and Politics Course and Exam Description, Unit 1 'Foundations of American Democracy'. Origin URL: https://apcentral.collegeboard.org/media/pdf…
+  page_range: [40, 55]
+  section_heading: Foundations of American Democracy
+  source_reference: outputs/phase0-test-ap-usgov-unit1-2026-04-18/_source.pdf
+
+-- Scope acquired --
+  chars: 26338
+  verification_excerpt:
+    line_count : 690
+    first_chars: AP U.S. GOVERNMENT
+AND POLITICS
+UNIT 1
+Foundations
+of American
+Democracy
+15–22%
+AP EXAM WEIGHTING
+~16/~8
+CLASS PERIODS
+AAPP UU..SS.. GGoovveerrnnmmeenntt aanndd PPoolliittiiccss CCoouurrssee aanndd EE
+    last_chars : .11 || 4488
+RReettuurrnn ttoo TTaabbllee ooff CCoonntteennttss
+©© 22002233 CCoolllleeggee BBooaarrdd
+
+-- Primitive sequence --
+  1. fetch_pdf_file
+  2. extract_pdf_text
+  3. normalise_whitespace
+  4. content_hash
+
+-- Acquisition trace --
+  [1] fetch_pdf_file  (6 ms)
+      bytes: 11627002
+      pdf_magic_ok: True
+      source_kind: path
+      source_path: outputs/phase0-test-ap-usgov-unit1-2026-04-18/_source.pdf
+      status: ok
+  [2] extract_pdf_text  (8523 ms)
+      chars_out: 26338
+      extraction_mode: page_range
+      heading_verification: {'heading_found': True, 'heading_line': '1 Foundations of American Democracy', 'heading_line_index': 105, 'next_heading_line_index': 153}
+      pages_extracted: [40, 55]
+      pdfplumber_version: 0.11.9
+      source_page_count: 198
+      status: ok
+  [3] normalise_whitespace  (0 ms)
+      chars_in: 26338
+      chars_out: 26338
+  [4] content_hash  (0 ms)
+      bytes: 26485
+      content_hash: 47d41e8bc6031c9bc91decaa0be5b65f11357452022202d26d662ef0bea7215a
+
+-- Verification trace --
+  (none — this artefact predates schema 0.3.0)
+
+-- Content files --
+  outputs/phase0-test-ap-usgov-unit1-2026-04-18/content.txt
+
+-- Content preview --
+  outputs/phase0-test-ap-usgov-unit1-2026-04-18/content.txt  (26338 chars)
+
+  --- first 500 chars ---
+  | AP U.S. GOVERNMENT
+  | AND POLITICS
+  | UNIT 1
+  | Foundations
+  | of American
+  | Democracy
+  | 15–22%
+  | AP EXAM WEIGHTING
+  | ~16/~8
+  | CLASS PERIODS
+  | AAPP UU..SS.. GGoovveerrnnmmeenntt aanndd PPoolliittiiccss CCoouurrssee aanndd EExxaamm DDeessccrriippttiioonn CCoouurrssee FFrraammeewwoorrkk VV..11 || 33
+  | RReettuurrnn ttoo TTaabbllee ooff CCoonntteennttss
+  | ©© 22002233 CCoolllleeggee BBooaarrdd
+  | 
+  | Remember to go to AP Classroom
+  | to assign students the online
+  | Progress Check for this unit.
+  | Whether assigned as homework
+  | or completed in
+
+  --- last 200 chars ---
+  | lliittiiccss CCoouurrssee aanndd EExxaamm DDeessccrriippttiioonn CCoouurrssee FFrraammeewwoorrkk VV..11 || 4488
+  | RReettuurrnn ttoo TTaabbllee ooff CCoonntteennttss
+  | ©© 22002233 CCoolllleeggee BBooaarrdd
+
