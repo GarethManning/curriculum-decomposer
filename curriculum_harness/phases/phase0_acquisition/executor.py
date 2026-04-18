@@ -19,6 +19,7 @@ from typing import Any
 from curriculum_harness.phases.phase0_acquisition.manifest import (
     AcquisitionManifest,
     PrimitiveTraceEntry,
+    RawContentFile,
     ScopeSpec,
     SourceType,
     UserInteraction,
@@ -191,6 +192,47 @@ def run_pipeline(
                 rel = str(target)
                 if rel not in manifest.content_files:
                     manifest.content_files.append(rel)
+
+        # Raw-content cache entries (Session 4a-4.5). Each fetch
+        # primitive emits zero or more entries describing bytes to
+        # persist alongside the extracted content, or a pointer to a
+        # local file that was deliberately not copied. Each entry
+        # carries the SHA-256 precomputed by the primitive so the
+        # executor does not need to re-hash.
+        raw_content_entries = result.meta.get("raw_content") or []
+        for entry in raw_content_entries:
+            file_type = entry.get("file_type")
+            hash_hex = entry.get("hash") or ""
+            bytes_count = int(entry.get("bytes_count") or 0)
+            if not file_type or not hash_hex:
+                continue
+            if file_type == "source_reference":
+                ref_path = entry.get("path")
+                if not ref_path:
+                    continue
+                manifest.raw_content_files.append(
+                    RawContentFile(
+                        path=str(ref_path),
+                        hash=hash_hex,
+                        file_type=file_type,
+                        bytes=bytes_count,
+                    )
+                )
+                continue
+            filename = entry.get("filename")
+            payload = entry.get("bytes")
+            if not filename or not isinstance(payload, (bytes, bytearray)):
+                continue
+            target = out_dir / filename
+            target.write_bytes(bytes(payload))
+            manifest.raw_content_files.append(
+                RawContentFile(
+                    path=str(target),
+                    hash=hash_hex,
+                    file_type=file_type,
+                    bytes=bytes_count or len(payload),
+                )
+            )
         if result.meta.get("verification"):
             v = result.meta["verification"]
             manifest.append_verification(

@@ -17,6 +17,16 @@ union of per-source-type scope models defined in ``scope.py``. The
 field names ``ScopeSpec``/``Scope`` are both exported so external
 callers can use whichever they prefer; ``ScopeSpec`` is now an alias
 for the discriminated union.
+
+Schema 0.6.0 (Session 4a-4.5) — adds raw-content caching fields:
+``raw_content_files`` (list of ``RawContentFile`` records) and
+``raw_content_unavailable`` (nullable ``RawContentUnavailable``
+record). Every fetch primitive that can cache its fetched bytes
+emits the cache entries via ``result.meta['raw_content']``; the
+executor writes them to the run-snapshot directory and records
+them on the manifest. Known-gapped sources (Cloudflare, bot
+detection) are marked with ``raw_content_unavailable`` plus a
+timestamp so future sessions can re-check.
 """
 
 from __future__ import annotations
@@ -88,6 +98,67 @@ KnownPathology = Literal[
     "character_stream_doubling",
     "aoda_tagged_content_overlap",
 ]
+
+
+# Raw-content caching file-type literal (Session 4a-4.5). Each fetch
+# primitive tags its cache entries with the exact kind of raw content
+# being preserved so consumers can pick the right re-extraction path.
+#
+# - ``source_html`` — raw HTTP response body for a static-HTML source
+#   (``fetch_requests``).
+# - ``source_pdf`` — raw PDF bytes for a URL-sourced PDF
+#   (``fetch_pdf_file`` URL path).
+# - ``rendered_html`` — rendered DOM HTML after JS execution
+#   (``fetch_via_browser``). NOT the initial server response; the
+#   rendered DOM is what downstream extraction consumes.
+# - ``rendered_screenshot`` — full-page PNG for JS-rendered sources,
+#   kept as a visual reference (not extraction input).
+# - ``source_reference`` — pointer + hash to a local file that was
+#   deliberately NOT copied to the run-snapshot directory
+#   (``fetch_pdf_file`` local-path case). Disk-space discipline:
+#   local PDFs are often large and already archived elsewhere.
+RawContentFileType = Literal[
+    "source_html",
+    "source_pdf",
+    "rendered_html",
+    "rendered_screenshot",
+    "source_reference",
+]
+
+
+class RawContentFile(BaseModel):
+    """One entry in a manifest's ``raw_content_files`` list.
+
+    For cached files (``file_type != source_reference``), ``path`` is
+    the cache-file path (written by the executor into the run-snapshot
+    directory) and ``hash`` is the SHA-256 of the cached bytes.
+
+    For ``source_reference``, ``path`` is the original filesystem path
+    (not copied) and ``hash`` is the SHA-256 of that file's current
+    bytes. The regression-from-cache utility re-hashes the referenced
+    file at run start and reports ``LocalSourceReferenceInvalid`` on
+    drift.
+    """
+
+    path: str
+    hash: str
+    file_type: RawContentFileType
+    bytes: int = 0
+
+
+class RawContentUnavailable(BaseModel):
+    """Marker for sources whose raw content could not be preserved.
+
+    Set on the manifest when a re-fetch was attempted and failed
+    (Cloudflare challenge, bot detection) and no preserved raw HTML
+    exists for the source. ``first_observed_at`` is the ISO timestamp
+    at which the unavailability was first recorded, so future sessions
+    can re-check whether the source has become available again.
+    """
+
+    value: bool
+    reason: str
+    first_observed_at: str
 
 
 class UserInteraction(BaseModel):
@@ -184,10 +255,29 @@ class AcquisitionManifest(BaseModel):
             "pathology). Empty list if none."
         ),
     )
+    raw_content_files: list[RawContentFile] = Field(
+        default_factory=list,
+        description=(
+            "Cached raw fetched content (bytes before extraction) plus "
+            "hashes and file-type tags. Populated by the executor from "
+            "fetch primitives' ``result.meta['raw_content']`` entries. "
+            "Allows regression tests to re-run extraction against the "
+            "cache rather than re-fetching from the source."
+        ),
+    )
+    raw_content_unavailable: RawContentUnavailable | None = Field(
+        default=None,
+        description=(
+            "Set when raw caching failed or no preserved raw bytes are "
+            "available (e.g. Cloudflare challenge on re-fetch). "
+            "Carries a first-observed timestamp so future sessions can "
+            "re-check."
+        ),
+    )
     timestamp: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat(),
     )
-    phase0_version: str = "0.5.0"
+    phase0_version: str = "0.6.0"
     notes: str | None = None
 
     @model_validator(mode="before")
@@ -250,6 +340,9 @@ __all__ = [
     "KnownPathology",
     "MultiSectionPdfScope",
     "PrimitiveTraceEntry",
+    "RawContentFile",
+    "RawContentFileType",
+    "RawContentUnavailable",
     "Scope",
     "ScopeSpec",
     "SourceType",
