@@ -1,7 +1,8 @@
 # Validity
 
-**Project:** curriculum-decomposer — LangGraph pipeline that ingests a
-curriculum document and emits a KUD map + learning targets.
+**Project:** Curriculum Harness (package `curriculum_harness`, formerly
+`curriculum-decomposer` / `kaku_decomposer`) — LangGraph pipeline that
+ingests a curriculum document and emits a KUD map + learning targets.
 **Last reviewed:** 2026-04-17 (Session 2 — foundation-moment-1 gates
 (a/b/c) promoted from `pending` to `implemented`; first baseline
 measurements captured in `docs/project-log/baseline-measurements-
@@ -19,7 +20,7 @@ measurements captured in `docs/project-log/baseline-measurements-
 
 ## The claim
 
-curriculum-decomposer takes a curriculum document (URL — PDF or plain
+Curriculum Harness takes a curriculum document (URL — PDF or plain
 text), diagnoses its knowledge architecture (document family, level
 model, scoping strategy, strands), produces a KUD (Know / Understand /
 Do) map, and emits a set of learning targets whose wording is
@@ -198,7 +199,7 @@ this section.
 
 ## Pre-mortem
 
-Imagining curriculum-decomposer has failed catastrophically. Specific
+Imagining Curriculum Harness has failed catastrophically. Specific
 failure modes:
 
 ### Silent content drop
@@ -303,7 +304,7 @@ now would force premature schema decisions.
 ### 4. No cross-run corpus
 
 Palya has a `felveteli_corpus.json` that multiple gates read against.
-curriculum-decomposer runs are one-shot against a single source per
+Curriculum Harness runs are one-shot against a single source per
 run config. The gates described above read per-run outputs, not a
 shared corpus. If a shared corpus emerges later (e.g. a library of
 decomposed curricula), this section should be revisited.
@@ -312,14 +313,14 @@ decomposed curricula), this section should be revisited.
 
 Per the harness design, V1 (skills + hooks) is deferred until V0
 proves valuable on at least one project. Palya is the first V0
-project; curriculum-decomposer is the second. V1 is still out of
+project; Curriculum Harness is the second. V1 is still out of
 scope.
 
 ---
 
 ## Meta-note
 
-This file was created at the moment curriculum-decomposer had a
+This file was created at the moment Curriculum Harness had a
 mature enough output shape (`curriculum_profile`,
 `architecture`, `kud`, `learning_targets`, `structured_lts`,
 `run_report`) to make construct-validity assertions meaningful, but

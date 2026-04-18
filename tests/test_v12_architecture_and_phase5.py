@@ -7,8 +7,8 @@ from pathlib import Path
 
 import pytest
 
-from kaku_decomposer.phases.phase5_formatting import map_lt_to_strand_label, _level_statement_validation_flags
-from kaku_decomposer.types import ArchitectureDiagnosis, ArchitectureStrand
+from curriculum_harness.phases.phase5_formatting import map_lt_to_strand_label, _level_statement_validation_flags
+from curriculum_harness.types import ArchitectureDiagnosis, ArchitectureStrand
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 UK_CONFIG = REPO_ROOT / "configs" / "uk_national_curriculum_history_v1_0.json"
@@ -149,7 +149,7 @@ def test_uk_nc_full_pipeline_v12_invariants(tmp_path: Path) -> None:
     cfg["runId"] = run_id
 
     async def _run() -> None:
-        from kaku_decomposer.graph import build_initial_state, compile_graph
+        from curriculum_harness.graph import build_initial_state, compile_graph
 
         st = build_initial_state(str(UK_CONFIG), cfg)
         st["output_structure"] = cfg.get("outputStructure")

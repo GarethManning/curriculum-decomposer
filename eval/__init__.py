@@ -2,7 +2,7 @@
 
 Anything in this package is a *judge* — code that reads pipeline output
 and tests whether it matches its primary-source artefact. Judges are
-separate from the harness (`kaku_decomposer/`). Session rule:
+separate from the harness (`curriculum_harness/`). Session rule:
 harness code changes never live here; judge code changes never live
 in the harness.
 """

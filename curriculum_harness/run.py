@@ -1,4 +1,4 @@
-"""CLI: `python -m kaku_decomposer.run --config path.json [--dry-run] [--resume]`."""
+"""CLI: `python -m curriculum_harness.run --config path.json [--dry-run] [--resume]`."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 def _parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Curriculum decomposer (LangGraph)")
+    p = argparse.ArgumentParser(description="Curriculum Harness (LangGraph)")
     p.add_argument("--config", required=True, help="Path to run config JSON")
     p.add_argument(
         "--dry-run",
@@ -55,7 +55,7 @@ def _has_checkpoint(db_path: Path, thread_id: str) -> bool:
 
 def preflight(config_path: str, cfg: dict) -> list[str]:
     errors: list[str] = []
-    from kaku_decomposer.graph import build_initial_state, compile_graph
+    from curriculum_harness.graph import build_initial_state, compile_graph
 
     try:
         st = build_initial_state(config_path, cfg)
@@ -95,7 +95,7 @@ def preflight(config_path: str, cfg: dict) -> list[str]:
 
 
 async def _run_pipeline(args: argparse.Namespace, cfg: dict) -> None:
-    from kaku_decomposer.graph import build_initial_state, compile_graph
+    from curriculum_harness.graph import build_initial_state, compile_graph
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("[run] ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr)

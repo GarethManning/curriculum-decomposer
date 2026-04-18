@@ -8,15 +8,16 @@ import re
 from pathlib import Path
 from typing import Any
 
-from kaku_decomposer._anthropic import beta_messages_create, get_async_client, response_text_content
-from kaku_decomposer.output_naming import next_available_structured_lts_paths
-from kaku_decomposer.state import DecomposerState
-from kaku_decomposer.types import (
+from curriculum_harness._anthropic import beta_messages_create, get_async_client, response_text_content
+from curriculum_harness.output_naming import next_available_structured_lts_paths
+from curriculum_harness.state import DecomposerState
+from curriculum_harness.types import (
     SONNET_MODEL,
     ArchitectureDiagnosis,
     ArchitectureStrand,
     StructuredLT,
     extract_json_object,
+    resolve_lt_statement_format,
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -226,14 +227,25 @@ def _level_statement_validation_flags(
     return out
 
 
-def _level_statement_fallback(statement: str, max_words: int = 20) -> str:
+def _level_statement_fallback(statement: str, fmt: str, max_words: int = 20) -> str:
+    """Anchor column fallback when the model omits a level cell (v1.3: word cap for all formats)."""
     s = (statement or "").strip()
     if not s:
         return ""
-    if not s.startswith("I can "):
-        return s
     words = s.split()
     return " ".join(words[:max_words])
+
+
+def _phase5_lt_format_rules_block() -> str:
+    return (
+        "Each learning target row includes `lt_statement_format`. Apply it to that row only:\n"
+        "- i_can: lt_definition must start with 'I can ' and be <=15 words; each level_statement must "
+        "start with 'I can ' and be <=20 words.\n"
+        "- outcome_statement: no 'I can' prefix; plain student-facing outcomes; lt_definition <=15 words; "
+        "each level_statement <=20 words.\n"
+        "- competency_descriptor: third-person competency clause (e.g. Uses…, Demonstrates…); no 'I can' "
+        "and no first person; lt_definition <=15 words; each level_statement <=20 words.\n"
+    )
 
 
 
@@ -250,6 +262,7 @@ async def _format_competency_batch(
     subject: str,
     grade: str,
     anchor_level_id: str,
+    profile_fmt: str,
 ) -> list[dict[str, Any]]:
     client = get_async_client()
     level_payload = []
@@ -276,6 +289,7 @@ async def _format_competency_batch(
                 "knowledge_type": x["knowledge_type"],
                 "kud_source": x["kud_source"],
                 "type": x["type"],
+                "lt_statement_format": str(x.get("lt_statement_format") or "").strip() or profile_fmt,
             }
             for i, x in enumerate(items)
         ],
@@ -292,14 +306,15 @@ async def _format_competency_batch(
         "information as foundations for historical analysis.' "
         "(Use different wording per row; this is style only.) "
     )
+    fmt_rules = _phase5_lt_format_rules_block()
     system = (
         "You convert learning targets into a structured competency table. Return ONLY JSON object with "
         "'rows' list. Each row must have keys: idx, competency_definition, lt_name, lt_definition, "
         "level_statements. "
         f"{comp_def_rules}"
-        "Constraints: lt_name 2-4 words; lt_definition must be I-can and <=15 words, generic across levels; "
-        "each level_statement must be I-can and <=20 words; align each level statement to its "
-        "cognitive_demand (concrete/transitional/abstract). "
+        f"{fmt_rules}"
+        "Constraints: lt_name 2-4 words; obey lt_statement_format per row for lt_definition and "
+        "level_statements; align each level statement to its cognitive_demand (concrete/transitional/abstract). "
         "level_statements MUST be an object whose keys are EXACTLY the strings in levels[].id from "
         "the input payload (no other keys). "
         f"Domain: all level statements must stay within {subj} — do not drift to unrelated subjects "
@@ -406,6 +421,8 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
     review = list(state.get("human_review_queue") or [])
     errs = list(state.get("errors") or [])
 
+    profile_fmt = resolve_lt_statement_format(dict(state.get("curriculum_profile") or {}))
+
     levels = _effective_levels(output_structure)
 
     diagnosis = ArchitectureDiagnosis.from_dict(arch)
@@ -441,7 +458,13 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
     group_counts: dict[str, int] = {}
     for comp, comp_lts in by_comp.items():
         rows = await _format_competency_batch(
-            comp, comp_lts, levels, subject, grade, anchor_level_id=input_level_id
+            comp,
+            comp_lts,
+            levels,
+            subject,
+            grade,
+            anchor_level_id=input_level_id,
+            profile_fmt=profile_fmt,
         )
         rows_by_idx = {int(r.get("idx")): r for r in rows if str(r.get("idx", "")).isdigit()}
 
@@ -450,6 +473,7 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
             flags = list(lt.get("flags") or [])
             if lt.get("_uncertain"):
                 flags.append("COMPETENCY_MAPPING_UNCERTAIN")
+            row_fmt = str(lt.get("lt_statement_format") or "").strip() or profile_fmt
             level_statements = {}
             for lvl in levels:
                 lvl_id = str(lvl.get("id"))
@@ -461,7 +485,7 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
                     and input_level_id
                     and lvl_id == input_level_id
                 ):
-                    val = _level_statement_fallback(str(lt.get("statement", "")))
+                    val = _level_statement_fallback(str(lt.get("statement", "")), row_fmt)
                 level_statements[lvl_id] = val
 
             lt_type_i = _lt_type_int(lt)
@@ -478,6 +502,7 @@ async def phase5_formatting(state: DecomposerState) -> dict[str, Any]:
                     "level_statements": level_statements,
                     "knowledge_type": _type_label(lt),
                     "flags": list(dict.fromkeys(flags)),
+                    "lt_statement_format": row_fmt,
                 }
             )
         group_counts[comp] = len(comp_lts)

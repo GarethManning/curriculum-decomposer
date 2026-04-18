@@ -1,4 +1,4 @@
-"""Helpers for validity-gate scripts that read a curriculum-decomposer
+"""Helpers for validity-gate scripts that read a curriculum-harness
 run directory.
 
 A "run directory" is `outputs/<run>/` and contains some subset of:

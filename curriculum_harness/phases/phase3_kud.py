@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from kaku_decomposer._anthropic import (
+from curriculum_harness._anthropic import (
     AnthropicCallTimeout,
     beta_messages_create,
     get_async_client,
@@ -14,8 +14,8 @@ from kaku_decomposer._anthropic import (
     response_debug_dump,
     response_text_content,
 )
-from kaku_decomposer.state import DecomposerState
-from kaku_decomposer.types import (
+from curriculum_harness.state import DecomposerState
+from curriculum_harness.types import (
     HumanReviewItem,
     KUD,
     KUDItem,

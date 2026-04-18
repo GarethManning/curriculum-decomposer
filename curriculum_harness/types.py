@@ -32,6 +32,23 @@ LT_STATEMENT_FORMATS = frozenset({
     "competency_descriptor",
 })
 
+HE_DISPOSITION_INFERRED = "HE_DISPOSITION_INFERRED"
+
+
+def resolve_lt_statement_format(profile: dict[str, Any] | None) -> str:
+    """
+    Active LT wording format from merged curriculum_profile (Phase 1 + config).
+    Defaults: higher_ed_syllabus → outcome_statement; all other families → i_can.
+    """
+    raw = dict(profile or {})
+    oc = raw.get("output_conventions")
+    if isinstance(oc, dict):
+        fmt = str(oc.get("lt_statement_format", "")).strip().lower()
+        if fmt in LT_STATEMENT_FORMATS:
+            return fmt
+    fam = str(raw.get("document_family", "other")).strip().lower().replace(" ", "_")
+    return default_output_conventions_for_family(fam)["lt_statement_format"]
+
 
 class CurriculumProfile(TypedDict, total=False):
     """v1.1 curriculum classification + conventions (stored; Phase 4/5 rendering deferred)."""
@@ -151,6 +168,8 @@ def merge_curriculum_profile_with_config(
         )["lt_statement_format"]
     profile = normalize_curriculum_profile_fragment({**dict(profile), "output_conventions": oc})
     return profile
+
+
 SONNET_MODEL = "claude-sonnet-4-20250514"
 API_HARD_TIMEOUT = 240.0
 MCP_BETA = "mcp-client-2025-11-20"
@@ -179,6 +198,7 @@ class StructuredLT(TypedDict):
     level_statements: dict[str, str]
     knowledge_type: str
     flags: list[str]
+    lt_statement_format: str
 
 
 STRAND_LANES = frozenset({
@@ -433,6 +453,7 @@ class LearningTarget:
     kud_source: str = ""
     word_count: int = 0
     flags: list[str] = field(default_factory=list)
+    lt_statement_format: str = ""
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> LearningTarget:
@@ -446,6 +467,7 @@ class LearningTarget:
             kud_source=str(data.get("kud_source", "")),
             word_count=wc,
             flags=list(data.get("flags") or []),
+            lt_statement_format=str(data.get("lt_statement_format", "")).strip(),
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -483,5 +505,32 @@ def extract_json_object(text: str) -> dict[str, Any] | None:
             pass
     try:
         return json.loads(text.strip())
+    except json.JSONDecodeError:
+        return None
+
+
+def extract_json_array(text: str) -> list[Any] | None:
+    """Parse a JSON array from model output (fenced or raw)."""
+    if not text or not text.strip():
+        return None
+    fence = re.search(r"```(?:json)?\s*([\s\S]*?)```", text, re.IGNORECASE)
+    if fence:
+        blob = fence.group(1).strip()
+        try:
+            val = json.loads(blob)
+            return val if isinstance(val, list) else None
+        except json.JSONDecodeError:
+            pass
+    start = text.find("[")
+    end = text.rfind("]")
+    if start >= 0 and end > start:
+        try:
+            val = json.loads(text[start : end + 1])
+            return val if isinstance(val, list) else None
+        except json.JSONDecodeError:
+            pass
+    try:
+        val = json.loads(text.strip())
+        return val if isinstance(val, list) else None
     except json.JSONDecodeError:
         return None

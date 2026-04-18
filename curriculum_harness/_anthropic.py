@@ -8,7 +8,7 @@ from typing import Any
 
 from anthropic import AsyncAnthropic
 
-from kaku_decomposer.types import API_HARD_TIMEOUT, MCP_BETA
+from curriculum_harness.types import API_HARD_TIMEOUT, MCP_BETA
 
 API_HEARTBEAT_INTERVAL = 30.0
 

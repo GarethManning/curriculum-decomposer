@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "curriculum-decomposer"
+name = "curriculum-harness"
 version = "0.1.0"
 description = "LangGraph pipeline: curriculum documents → KUD framework and learning targets (Claude + Education Skills MCP)."
 readme = "README.md"
@@ -23,10 +23,10 @@ dependencies = [
 dev = ["ruff>=0.8.0", "pytest>=8.0"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["kaku_decomposer"]
+packages = ["curriculum_harness"]
 
 [tool.hatch.build.targets.sdist]
-include = ["kaku_decomposer", "configs", "README.md", "pyproject.toml"]
+include = ["curriculum_harness", "configs", "README.md", "pyproject.toml"]
 
 [tool.pytest.ini_options]
 markers = [

@@ -10,9 +10,9 @@ from typing import Any
 import httpx
 from pypdf import PdfReader
 
-from kaku_decomposer._anthropic import get_async_client, haiku_stream_text
-from kaku_decomposer.state import DecomposerState
-from kaku_decomposer.types import (
+from curriculum_harness._anthropic import get_async_client, haiku_stream_text
+from curriculum_harness.state import DecomposerState
+from curriculum_harness.types import (
     HAIKU_MODEL,
     extract_json_object,
     merge_curriculum_profile_with_config,

@@ -11,14 +11,18 @@ import aiosqlite
 from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from langgraph.graph import END, StateGraph
 
-from kaku_decomposer.phases.phase1_ingestion import phase1_ingestion
-from kaku_decomposer.phases.phase2_architecture import phase2_architecture
-from kaku_decomposer.phases.phase3_kud import phase3_kud
-from kaku_decomposer.phases.phase4_lt_generation import phase4_lt_generation
-from kaku_decomposer.phases.phase5_formatting import phase5_formatting
-from kaku_decomposer.output_naming import next_available_artifact_path
-from kaku_decomposer.state import DecomposerState
-from kaku_decomposer.types import ArchitectureDiagnosis
+from curriculum_harness.phases.phase1_ingestion import phase1_ingestion
+from curriculum_harness.phases.phase2_architecture import phase2_architecture
+from curriculum_harness.phases.phase3_kud import phase3_kud
+from curriculum_harness.phases.phase4_lt_generation import phase4_lt_generation
+from curriculum_harness.phases.phase5_formatting import phase5_formatting
+from curriculum_harness.output_naming import next_available_artifact_path
+from curriculum_harness.state import DecomposerState
+from curriculum_harness.types import (
+    ArchitectureDiagnosis,
+    HE_DISPOSITION_INFERRED,
+    resolve_lt_statement_format,
+)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -183,16 +187,20 @@ def output_node(state: DecomposerState) -> dict[str, Any]:
     profile_notes = str(state.get("curriculum_classification_notes") or "").strip()
     oc = curriculum_profile.get("output_conventions") or {}
     lt_fmt = oc.get("lt_statement_format", "")
+    lt_fmt_resolved = resolve_lt_statement_format(curriculum_profile)
     adj_r = oc.get("recommended_adjacent_radius", "")
 
     lt_flags: set[str] = set()
+    he_disposition_lts: list[dict[str, Any]] = []
     for lt in lts:
         for fl in lt.get("flags") or []:
             if isinstance(fl, str) and fl.strip():
                 lt_flags.add(fl.strip())
+        if HE_DISPOSITION_INFERRED in (lt.get("flags") or []):
+            he_disposition_lts.append(lt)
 
     lines = [
-        "# Curriculum decomposer run report",
+        "# Curriculum Harness run report",
         "",
         f"**Run ID:** {run_id}",
         f"**Output directory:** `{out_dir}`",
@@ -202,7 +210,8 @@ def output_node(state: DecomposerState) -> dict[str, Any]:
         f"- document_family: {curriculum_profile.get('document_family', '')}",
         f"- level_model: {curriculum_profile.get('level_model', '')}",
         f"- scoping_strategy: {curriculum_profile.get('scoping_strategy', '')}",
-        f"- lt_statement_format (stored; rendering in v1.3+): {lt_fmt}",
+        f"- lt_statement_format (profile output_conventions): {lt_fmt}",
+        f"- lt_statement_format (resolved for pipeline): {lt_fmt_resolved}",
         f"- recommended_adjacent_radius (product default ±1): {adj_r}",
         f"- confidence: {curriculum_profile.get('confidence', '')}",
         f"- Profile JSON: `{profile_path}`",
@@ -239,9 +248,21 @@ def output_node(state: DecomposerState) -> dict[str, Any]:
         f"- Word count stats: {wc_stats}",
         f"- Items with any validation flag: {flag_items}",
         f"- Total flags across items: {total_flags}",
+        f"- HE disposition inferred (Phase 4 supplement): {len(he_disposition_lts)}",
         "",
     ]
     )
+    if he_disposition_lts:
+        lines.append("_HE supplement statements (truncated):_")
+        for lt in he_disposition_lts[:12]:
+            st = str(lt.get("statement") or "").strip()
+            if len(st) > 220:
+                st = st[:217] + "..."
+            lines.append(f"- {st}")
+        remainder = len(he_disposition_lts) - 12
+        if remainder > 0:
+            lines.append(f"- _…and {remainder} more_")
+        lines.append("")
     lines.extend(
         [
         "## Phase 3 recall filter",

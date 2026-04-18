@@ -1,4 +1,4 @@
-# curriculum-decomposer harness log
+# Curriculum Harness — harness log
 
 In-repo session log. Every substantive Claude Code session on this
 project appends an entry here at session close covering: what was

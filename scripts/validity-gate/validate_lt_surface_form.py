@@ -27,7 +27,7 @@ def main() -> None:
             "config's ltConstraints and curriculumProfile"
         ),
         notes=(
-            "the surface-form rules already live in kaku_decomposer/phases/"
+            "the surface-form rules already live in curriculum_harness/phases/"
             "phase4_lt_generation.py and phase5_formatting.py — lift them "
             "into a shared validator both Phase 4 and this gate can call. "
             "Compound-check should go beyond naive 'and'-splitting "
