@@ -108,8 +108,14 @@ async def haiku_stream_text(
     system: str,
     user_blocks: list[dict[str, Any]],
     label: str,
+    temperature: float = 0.0,
 ) -> str:
-    """Accumulate assistant text from a streaming Haiku call with hard timeout."""
+    """Accumulate assistant text from a streaming Haiku call with hard timeout.
+
+    Temperature defaults to 0.0 so Phase 1 classification and scope
+    extraction are deterministic across runs. See
+    `docs/diagnostics/2026-04-18-phase1-scoping-diagnosis.md`.
+    """
     started = time.monotonic()
 
     async def _consume() -> str:
@@ -119,6 +125,7 @@ async def haiku_stream_text(
             max_tokens=max_tokens,
             system=system,
             messages=[{"role": "user", "content": user_blocks}],
+            temperature=temperature,
         ) as stream:
             async for text in stream.text_stream:
                 parts.append(text)

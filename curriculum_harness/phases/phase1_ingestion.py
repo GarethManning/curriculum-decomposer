@@ -659,10 +659,31 @@ async def phase1_ingestion(state: DecomposerState) -> dict[str, Any]:
     except Exception as exc:
         errs.append(f"phase1: Haiku metadata pass failed (non-fatal): {exc}")
 
-    # Source bullets — rule-based structural extraction on the scoped
-    # text. Adjacent-mechanism declaration in
+    # Source bullets — rule-based structural extraction. Fed from the
+    # DETERMINISTIC profile-aware slice (`_scope_fallback_slice`), not
+    # from the Haiku-scoped `raw_curriculum`. Haiku at temperature 0
+    # still paraphrases between runs (see
+    # `docs/diagnostics/2026-04-18-phase1-scoping-diagnosis.md`), so
+    # rule-based extraction from Haiku output was the dominant source
+    # of inter-run variance. Feeding the deterministic slice pins the
+    # bullet set; `raw_curriculum` keeps the Haiku narrowing for
+    # downstream LLM phases. Adjacent-mechanism declaration in
     # `curriculum_harness/source_bullets.py`.
-    bullets = extract_source_bullets(raw_curriculum.strip())
+    bullet_source = _scope_fallback_slice(
+        full_text,
+        profile_dict,
+        subject,
+        grade,
+        jurisdiction,
+        str(src.get("pages") or ""),
+    )
+    bullets = extract_source_bullets(bullet_source)
+    if not bullets:
+        # Fallback: if the deterministic slice yielded no bullets
+        # (unusual — suggests a document with no structural markers),
+        # retry on the Haiku-scoped text so the pipeline does not ship
+        # zero bullets from a document that clearly contains outcomes.
+        bullets = extract_source_bullets(raw_curriculum.strip())
 
     return {
         "current_phase": "phase1:complete",
