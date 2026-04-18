@@ -1,0 +1,79 @@
+{
+  "architecture_type": "Primarily Hierarchical",
+  "proportions": {
+    "hierarchical": 0.75,
+    "horizontal_analytical": 0.2,
+    "content_theme": 0.0,
+    "dispositional": 0.05
+  },
+  "hierarchical_elements": [
+    "Number Operations And Properties",
+    "Algebraic Expressions And Equations",
+    "Geometric Properties And Transformations"
+  ],
+  "horizontal_elements": [
+    "Mathematical Problem Solving Methods",
+    "Statistical And Probabilistic Reasoning"
+  ],
+  "dispositional_elements": [
+    "Mathematical Discourse And Justification"
+  ],
+  "strands": [
+    {
+      "id": "number-operations-foundational",
+      "label": "Number Operations And Properties",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Operations with fractions, decimals, and integers form prerequisite chains where mastery of basic operations is required before complex calculations."
+    },
+    {
+      "id": "algebraic-thinking-progression",
+      "label": "Algebraic Expressions And Equations",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Algebraic manipulation builds systematically from basic operations to complex expressions, with clear prerequisite relationships."
+    },
+    {
+      "id": "geometric-relationships",
+      "label": "Geometric Properties And Transformations",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Geometric concepts build from basic shape properties to advanced transformations and area/volume calculations in hierarchical progression."
+    },
+    {
+      "id": "mathematical-reasoning-inquiry",
+      "label": "Mathematical Problem Solving Methods",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Cross-cutting analytical skills for approaching mathematical problems using various strategies and verification methods."
+    },
+    {
+      "id": "data-probability-analysis",
+      "label": "Statistical And Probabilistic Reasoning",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Interpretive frameworks for analyzing data patterns, understanding probability, and making statistical inferences."
+    },
+    {
+      "id": "mathematical-communication",
+      "label": "Mathematical Discourse And Justification",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Developing habits of mathematical reasoning, clear communication of mathematical ideas, and persistence in problem-solving."
+    }
+  ],
+  "structural_flaw": "Assessment-driven curriculum lacks authentic problem-solving contexts and overemphasizes procedural fluency at expense of conceptual understanding",
+  "auto_assessable_pct": 0.82
+}

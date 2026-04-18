@@ -1,0 +1,196 @@
+{
+  "source_bullets": [
+    {
+      "id": "sb_001",
+      "text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+      "source_location": "line 122 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_002",
+      "text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+      "source_location": "line 123 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_003",
+      "text": "M\u0171veletek t\u00f6rtekkel.",
+      "source_location": "line 124 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_004",
+      "text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos).",
+      "source_location": "line 125 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_005",
+      "text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+      "source_location": "line 126 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_006",
+      "text": "Pozit\u00edv eg\u00e9sz kitev\u0151j\u0171 hatv\u00e1nyok ismerete, a vel\u00fck v\u00e9gzett m\u0171veletek azonoss\u00e1gainak alkalmaz\u00e1sa (azonos alap\u00fa hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa, hatv\u00e1ny hatv\u00e1nyoz\u00e1sa, azonos kitev\u0151j\u0171 hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa).",
+      "source_location": "line 127 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_007",
+      "text": "Sz\u00e1mrendszerek ismerete.",
+      "source_location": "line 128 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_008",
+      "text": "\u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s.",
+      "source_location": "line 129 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_009",
+      "text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+      "source_location": "line 130 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_010",
+      "text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+      "source_location": "line 131 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_011",
+      "text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+      "source_location": "line 132 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_012",
+      "text": "Sz\u00e1zal\u00e9k\u00e9rt\u00e9k, sz\u00e1zal\u00e9kl\u00e1b \u00e9s alap meghat\u00e1roz\u00e1sa \u00f6sszetett feladatokban.",
+      "source_location": "line 133 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_013",
+      "text": "K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma, meghat\u00e1roz\u00e1sa egyszer\u0171 esetekben, egy\u00e9rtelm\u0171, t\u00f6bb\u00e9rtelm\u0171 hozz\u00e1rendel\u00e9s.",
+      "source_location": "line 134 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_014",
+      "text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+      "source_location": "line 135 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_015",
+      "text": "Grafikonok \u00e9rtelmez\u00e9se, elemz\u00e9se, adatok leolvas\u00e1sa.",
+      "source_location": "line 136 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_016",
+      "text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+      "source_location": "line 137 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_017",
+      "text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+      "source_location": "line 138 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_018",
+      "text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n.",
+      "source_location": "line 139 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_019",
+      "text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+      "source_location": "line 140 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_020",
+      "text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+      "source_location": "line 141 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_021",
+      "text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+      "source_location": "line 142 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_022",
+      "text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+      "source_location": "line 143 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_023",
+      "text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+      "source_location": "line 144 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_024",
+      "text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+      "source_location": "line 145 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_025",
+      "text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+      "source_location": "line 146 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_026",
+      "text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+      "source_location": "line 147 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_027",
+      "text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+      "source_location": "line 148 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_028",
+      "text": "Soksz\u00f6gek fogalma.",
+      "source_location": "line 149 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_029",
+      "text": "A soksz\u00f6gek sz\u00f6geire, \u00e1tl\u00f3ira vonatkoz\u00f3 \u00f6sszef\u00fcgg\u00e9sek.",
+      "source_location": "line 150 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_030",
+      "text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+      "source_location": "line 151 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_031",
+      "text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+      "source_location": "line 152 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    },
+    {
+      "id": "sb_032",
+      "text": "A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata.",
+      "source_location": "line 153 (under: 2020-as Nat-hoz kiadott kerettanterv 5-8. \u00e9vfolyamos matematika tant\u00e1rgy\u00e1nak t\u00e9m)",
+      "bullet_type": "topic_statement"
+    }
+  ]
+}

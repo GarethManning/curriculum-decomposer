@@ -1,0 +1,512 @@
+{
+  "know": [
+    {
+      "content": "Characteristics of New France in early 18th century including social structure, Catholic Church role, fur trade operations",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Basic factual knowledge of colonial society structure",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_100",
+          "score": 0.0952,
+          "matched_text": "connected to background, language, family structure, and social or cultural identity.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_581",
+          "score": 0.0784,
+          "matched_text": "characteristics over time.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_051",
+          "score": 0.0773,
+          "matched_text": "Instructional accommodations are changes in teaching strategies, including styles of",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Characteristics of British North America in late 18th century including British institutions and Loyalist arrival",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Foundational knowledge of British colonial administration",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_715",
+          "score": 0.0909,
+          "matched_text": "characteristics.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_581",
+          "score": 0.0875,
+          "matched_text": "characteristics over time.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_583",
+          "score": 0.0854,
+          "matched_text": "What are some of the characteristics of the natural environment in regions of Ontario that",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical inquiry process components and methodology",
+      "knowledge_type": "horizontal",
+      "assessment_route": "observation_protocol",
+      "notes": "Transferable research methodology applicable across historical contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_649",
+          "score": 0.6,
+          "matched_text": "historical inquiry process.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_547",
+          "score": 0.4,
+          "matched_text": "inquiry process.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_430",
+          "score": 0.375,
+          "matched_text": "The inquiry process: Students use the components of the inquiry process to investigate, and to",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Multiple perspective analysis framework for understanding diverse viewpoints on historical events",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Analytical framework that applies to any historical event or period",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_456",
+          "score": 0.125,
+          "matched_text": "to investigate and make judgements about issues, developments, and events of historical importance.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_419",
+          "score": 0.1111,
+          "matched_text": "understanding the",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_255",
+          "score": 0.1,
+          "matched_text": "and understanding relationships.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "understand": [
+    {
+      "content": "How to assess historical significance using criteria that apply across different events and periods",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Conceptual framework for evaluating importance transfers across contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_116",
+          "score": 0.125,
+          "matched_text": "communicate their findings to different audiences, using a variety of formats and technologies;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_407",
+          "score": 0.125,
+          "matched_text": "develop the ability to determine and apply appropriate criteria to evaluate information and",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_291",
+          "score": 0.1176,
+          "matched_text": "Students communicate effectively in different contexts, orally and in writing, using a variety of",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Cause and consequence relationships and how to analyze them systematically",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Analytical thinking pattern applicable to understanding any historical development",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_255",
+          "score": 0.1667,
+          "matched_text": "and understanding relationships.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_272",
+          "score": 0.1667,
+          "matched_text": "healthy relationships.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_228",
+          "score": 0.1518,
+          "matched_text": "build relationships and communicate",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "How perspectives of different groups reflect their experiences, interests, and circumstances",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Understanding of perspective formation applies across historical contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_130",
+          "score": 0.2222,
+          "matched_text": "reflect on the experiences to derive meaning; and",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_591",
+          "score": 0.1818,
+          "matched_text": "perspectives they convey and of gathering sources that reflect multiple perspectives.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_106",
+          "score": 0.1429,
+          "matched_text": "background and experiences, as well as the interests, aptitudes, and learning needs, of all students.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Impact of specific developments on First Nations, M\u00e9tis, and Inuit communities during 1713-1850 period",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Period-specific understanding of colonial impacts on Indigenous peoples",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_755",
+          "score": 0.4615,
+          "matched_text": "A1.5 identify some of the ways in which First Nations, M\u00e9tis, and Inuit individuals and communities are",
+          "bullet_type": "numbered_outcome"
+        },
+        {
+          "bullet_id": "sb_593",
+          "score": 0.3846,
+          "matched_text": "What were some differences between the ways in which First Nations, M\u00e9tis, Inuit, and",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_470",
+          "score": 0.3571,
+          "matched_text": "Ontario First Nation, M\u00e9tis, and Inuit Education Policy Framework (2007)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Validity and limitations of different historical perspectives and how to assess them",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Critical evaluation framework that transfers across historical analysis",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_279",
+          "score": 0.1667,
+          "matched_text": "perspectives.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_321",
+          "score": 0.1429,
+          "matched_text": "benefits and limitations.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_420",
+          "score": 0.1429,
+          "matched_text": "developing historical",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_skills": [
+    {
+      "content": "Formulate focused historical questions to guide investigations",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Question formulation skill transfers across all historical inquiry contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_766",
+          "score": 0.4444,
+          "matched_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "numbered_outcome"
+        },
+        {
+          "bullet_id": "sb_852",
+          "score": 0.4,
+          "matched_text": "B2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "numbered_outcome"
+        },
+        {
+          "bullet_id": "sb_509",
+          "score": 0.1667,
+          "matched_text": "Formulating questions: Students formulate questions related to the type of map or maps best",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Gather and organize evidence from primary and secondary sources including community sources",
+      "knowledge_type": "horizontal",
+      "assessment_route": "observation_protocol",
+      "notes": "Research skills applicable to any historical investigation",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_604",
+          "score": 0.3333,
+          "matched_text": "collect relevant data, evidence, and/or information from primary sources,a secondary",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_421",
+          "score": 0.25,
+          "matched_text": "secondary sources.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_652",
+          "score": 0.2308,
+          "matched_text": "collect relevant evidence and information from a variety of primary sourcesa and secondary",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Analyze and construct maps to investigate historical developments",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_criterion",
+      "notes": "Spatial analysis skills transfer across different historical contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_456",
+          "score": 0.25,
+          "matched_text": "to investigate and make judgements about issues, developments, and events of historical importance.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_614",
+          "score": 0.25,
+          "matched_text": "construct graphs, charts, diagrams, and/or maps to help them analyse events, developments,",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_708",
+          "score": 0.2,
+          "matched_text": "extract information from and construct maps for specific purposes.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Interpret and analyze evidence using tools like timelines, graphic organizers, and maps",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Evidence analysis skills applicable across historical periods",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_659",
+          "score": 0.2667,
+          "matched_text": "use different types of graphic organizers to help them interpret and/or analyse their evidence",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_611",
+          "score": 0.1875,
+          "matched_text": "use different types of graphic organizers to help them interpret and/or analyse their data,",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_872",
+          "score": 0.1765,
+          "matched_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+          "bullet_type": "numbered_outcome"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Evaluate evidence quality and draw supported conclusions from historical investigations",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Critical evaluation skills that transfer across all historical analysis",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_790",
+          "score": 0.3333,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "numbered_outcome"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.3077,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "numbered_outcome"
+        },
+        {
+          "bullet_id": "sb_490",
+          "score": 0.2727,
+          "matched_text": "evaluating information, evidence, and/or data and drawing conclusions",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_dispositions": [
+    {
+      "content": "Communicate historical findings using appropriate terminology and formats for different audiences",
+      "knowledge_type": "dispositional",
+      "assessment_route": "observation_protocol",
+      "notes": "Communication capacity develops through practice across various historical contexts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_116",
+          "score": 0.5455,
+          "matched_text": "communicate their findings to different audiences, using a variety of formats and technologies;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_291",
+          "score": 0.2,
+          "matched_text": "Students communicate effectively in different contexts, orally and in writing, using a variety of",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_292",
+          "score": 0.1875,
+          "matched_text": "Students communicate using the appropriate digital tools, taking care to create a positive digital",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Demonstrate respect for diverse historical perspectives and experiences",
+      "knowledge_type": "dispositional",
+      "assessment_route": "observation_protocol",
+      "notes": "Respectful engagement with multiple viewpoints develops through sustained practice",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_279",
+          "score": 0.1667,
+          "matched_text": "perspectives.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_741",
+          "score": 0.1667,
+          "matched_text": "experiences.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_181",
+          "score": 0.1538,
+          "matched_text": "STEM education is implemented, it is important to engage diverse perspectives and ways of thinking.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Show commitment to evidence-based historical reasoning and analysis",
+      "knowledge_type": "dispositional",
+      "assessment_route": "observation_protocol",
+      "notes": "Disposition toward rigorous historical thinking develops through repeated application",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_156",
+          "score": 0.1429,
+          "matched_text": "show foresight;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_420",
+          "score": 0.1429,
+          "matched_text": "developing historical",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_489",
+          "score": 0.1357,
+          "matched_text": "interpreting and analysing information, evidence, and/or data",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ]
+}

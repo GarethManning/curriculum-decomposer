@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "item_type": "phase3_mcp",
+      "summary": "phase3: MCP/tools failed: Connection error.",
+      "decision_needed": "Review MCP failure; fallback JSON follows in pipeline output."
+    },
+    {
+      "item_type": "phase3_mcp_raw",
+      "summary": "MCP response / error (truncated)",
+      "decision_needed": "Connection error."
+    },
+    {
+      "item_type": "phase5_outputs",
+      "summary": "Structured outputs generated.",
+      "decision_needed": "CSV: /Users/garethmanning/Github/curriculum-harness/outputs/ontario-2026-04-18-session-3b-e2e/ontario_session3b_e2e_structured_lts_v1.csv | JSON: /Users/garethmanning/Github/curriculum-harness/outputs/ontario-2026-04-18-session-3b-e2e/ontario_session3b_e2e_structured_lts_v1.json"
+    }
+  ]
+}

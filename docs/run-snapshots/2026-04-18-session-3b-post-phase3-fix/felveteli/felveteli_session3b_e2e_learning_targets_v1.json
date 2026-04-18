@@ -1,0 +1,1254 @@
+{
+  "learning_targets": [
+    {
+      "statement": "I can calculate combinations and permutations using standard counting principles and selection formulas.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s)",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0196,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0057,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0056,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[0]",
+          "score": 0.0196,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s)"
+        }
+      ]
+    },
+    {
+      "statement": "I can perform calculations with fractions using addition, subtraction, multiplication and division operations",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: M\u0171veletek t\u00f6rtekkel",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0163,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0058,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0057,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0163,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can classify decimal fractions as finite, infinite non-repeating, or infinite repeating and describe their mathematical properties.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos)",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0065,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.005,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0049,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[18]",
+          "score": 0.0065,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa)"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply rounding rules to round numbers to specified decimal places or significant figures",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_020",
+          "score": 0.0164,
+          "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0059,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0053,
+          "matched_text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[10]",
+          "score": 0.0164,
+          "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply properties of powers with positive integer exponents to simplify expressions.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: Pozit\u00edv eg\u00e9sz kitev\u0151j\u0171 hatv\u00e1nyok ismerete, a vel\u00fck v\u00e9gzett m\u0171veletek azonoss\u00e1gainak alkalmaz\u00e1sa",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_013",
+          "score": 0.0038,
+          "matched_text": "K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma, meghat\u00e1roz\u00e1sa egyszer\u0171 esetekben, egy\u00e9rtelm\u0171, t\u00f6bb\u00e9rtelm\u0171 hozz\u00e1rendel\u00e9s.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[0]",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s)"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify properties of natural numbers, integers, rational numbers, and real numbers.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: Sz\u00e1mrendszerek ismerete",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_031",
+          "score": 0.0067,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[17]",
+          "score": 0.0067,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma"
+        }
+      ]
+    },
+    {
+      "statement": "I can find prime factorizations of composite numbers using systematic decomposition methods.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: \u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0111,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0061,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.006,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[18]",
+          "score": 0.0111,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa)"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify the domain and range of mappings between sets.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma",
+      "word_count": 11,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0069,
+          "matched_text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[2]",
+          "score": 0.0069,
+          "matched_text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos)"
+        }
+      ]
+    },
+    {
+      "statement": "I can calculate mean, mode, and median from numerical datasets.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: \u00c1tlag, m\u00f3dusz, medi\u00e1n",
+      "word_count": 10,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_018",
+          "score": 0.02,
+          "matched_text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[8]",
+          "score": 0.02,
+          "matched_text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n"
+        }
+      ]
+    },
+    {
+      "statement": "I can calculate relative frequencies from frequency data and explain their connection to probability values.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0625,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_011",
+          "score": 0.0052,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.0052,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[9]",
+          "score": 0.0625,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata"
+        }
+      ]
+    },
+    {
+      "statement": "I can classify triangles and quadrilaterals by identifying their defining geometric properties.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0328,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.014,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0042,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0328,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify properties of axial reflection including line of symmetry and distance relationships.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai",
+      "word_count": 14,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0157,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.009,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0051,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[9]",
+          "score": 0.0157,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply point reflection transformations using coordinate rules to determine image coordinates and verify properties.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0189,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0156,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.0147,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0189,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify properties and derive relationships for parallelograms, trapezoids, and deltoids using geometric principles.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_027",
+          "score": 0.0695,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.0677,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0284,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[30]",
+          "score": 0.0695,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify polygons by their defining characteristics and classify them by number of sides.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: Soksz\u00f6gek fogalma",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0059,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0058,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.0048,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[11]",
+          "score": 0.0059,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply angle sum and diagonal count formulas to solve polygon problems.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A soksz\u00f6gek sz\u00f6geire, \u00e1tl\u00f3ira vonatkoz\u00f3 \u00f6sszef\u00fcgg\u00e9sek",
+      "word_count": 13,
+      "flags": [
+        "POSSIBLE_COMPOUND",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_031",
+          "score": 0.0065,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0061,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[17]",
+          "score": 0.0065,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify the fundamental relationships between the sides and angles of triangles.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0178,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0058,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0057,
+          "matched_text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[9]",
+          "score": 0.0178,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify special lines in triangles by their geometric properties and relationships",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "know: A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0339,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0167,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_020",
+          "score": 0.0164,
+          "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0339,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze the logical structure and truth value of mathematical statements using conditional reasoning.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "understand: Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezete",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0101,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.01,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_031",
+          "score": 0.0052,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[18]",
+          "score": 0.0101,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa)"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse proportional relationships using coordinate systems and graphical representations.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "understand: Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon",
+      "word_count": 11,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0177,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.0174,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0167,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[19]",
+          "score": 0.0177,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse graphical data representations to identify patterns and draw evidence-based conclusions.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "understand: Grafikonok \u00e9rtelmez\u00e9se, elemz\u00e9se, adatok leolvas\u00e1sa",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0124,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0055,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0054,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[19]",
+          "score": 0.0124,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse triangle congruence relationships using multiple geometric reasoning strategies.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "understand: H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga",
+      "word_count": 11,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0331,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0163,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.0141,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0331,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can perform operations with algebraic expressions using order of operations and substitution.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyette",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_009",
+          "score": 0.023,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0116,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0063,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[22]",
+          "score": 0.023,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k)"
+        }
+      ]
+    },
+    {
+      "statement": "I can solve first-degree equations by applying inverse operations systematically.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: Els\u0151fok\u00fa egyenletek megold\u00e1sa",
+      "word_count": 10,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0116,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0067,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.0065,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[18]",
+          "score": 0.0116,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa)"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse word problems and construct algebraic equations that accurately model the mathematical relationships described.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "do_skills: Sz\u00f6veges feladatok megold\u00e1sa egyenlettel",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_009",
+          "score": 0.0189,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0133,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_017",
+          "score": 0.013,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[22]",
+          "score": 0.0189,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k)"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze relationships between percentage values, rates, and base amounts in multi-step mathematical contexts.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "do_skills: Sz\u00e1zal\u00e9k\u00e9rt\u00e9k, sz\u00e1zal\u00e9kl\u00e1b \u00e9s alap meghat\u00e1roz\u00e1sa \u00f6sszetett feladatokban",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0189,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0097,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_009",
+          "score": 0.0097,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[9]",
+          "score": 0.0189,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata"
+        }
+      ]
+    },
+    {
+      "statement": "I can plot number pairs accurately on coordinate systems",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben",
+      "word_count": 9,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_016",
+          "score": 0.0239,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0224,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0065,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[26]",
+          "score": 0.0239,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse patterns in graphs and tables to identify mathematical relationships.",
+      "type": 2,
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "kud_source": "do_skills: Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0176,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0074,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.0063,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[9]",
+          "score": 0.0176,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply geometric transformations using coordinate rules and calculate resulting image coordinates.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0512,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_014",
+          "score": 0.0175,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.0171,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0512,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply point and axial symmetry to identify and construct symmetric shapes",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok",
+      "word_count": 13,
+      "flags": [
+        "POSSIBLE_COMPOUND",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_025",
+          "score": 0.0163,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0126,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0063,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[29]",
+          "score": 0.0163,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok"
+        }
+      ]
+    },
+    {
+      "statement": "I can calculate perimeter and area for triangles, parallelograms, trapezoids and rhombuses using appropriate formulas.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_027",
+          "score": 0.0503,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.0443,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0141,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[30]",
+          "score": 0.0503,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete"
+        }
+      ]
+    },
+    {
+      "statement": "I can calculate surface area and volume of rectangular and triangular prisms by applying appropriate formulas accurately.",
+      "type": 1,
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "kud_source": "do_skills: A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 0.0093,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.0041,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[28]",
+          "score": 0.0093,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa"
+        }
+      ]
+    }
+  ]
+}

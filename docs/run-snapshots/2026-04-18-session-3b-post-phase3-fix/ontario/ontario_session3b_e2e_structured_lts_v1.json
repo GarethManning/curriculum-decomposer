@@ -1,0 +1,240 @@
+{
+  "structured_lts": [
+    {
+      "competency": "Chronology And Basic Facts",
+      "competency_definition": "The ability to recognize and describe foundational characteristics of colonial societies and their organizational structures in early Canadian history.",
+      "lt_name": "New France Society",
+      "lt_definition": "I can identify key characteristics of New France society structure.",
+      "level_statements": {
+        "grade_7": "I can identify the key characteristics of New France society including social structure and Catholic Church influence."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Chronology And Basic Facts",
+      "competency_definition": "The capacity to identify and understand the institutional features and population changes that shaped British colonial territories.",
+      "lt_name": "British Colonial Development",
+      "lt_definition": "I can identify characteristics of British colonial institutions and changes.",
+      "level_statements": {
+        "grade_7": "I can identify characteristics of British colonial institutions and demographic changes in late 18th century America."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Chronology And Basic Facts",
+      "competency_definition": "The skill to recognize specific consequences of European colonization on Indigenous peoples across different time periods and regions.",
+      "lt_name": "Indigenous Community Impacts",
+      "lt_definition": "I can identify specific impacts of colonial developments on Indigenous communities.",
+      "level_statements": {
+        "grade_7": "I can identify specific impacts of colonial developments on First Nations Métis and Inuit communities 1713-1850."
+      },
+      "knowledge_type": "T1",
+      "flags": [],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry And Investigation",
+      "competency_definition": "The ability to design and execute systematic historical investigations using established methodological approaches to explore questions across various time periods and contexts.",
+      "lt_name": "Historical Inquiry Construction",
+      "lt_definition": "I can construct systematic historical inquiries using appropriate methodological frameworks.",
+      "level_statements": {
+        "grade_7": "I can construct systematic historical inquiries using appropriate methodological frameworks to investigate questions."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry And Investigation",
+      "competency_definition": "The capacity to develop precise, researchable questions that effectively direct historical investigation and analysis.",
+      "lt_name": "Question Formulation",
+      "lt_definition": "I can formulate focused historical questions that guide investigation.",
+      "level_statements": {
+        "grade_7": "I can formulate focused historical questions that guide investigation and research."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry And Investigation",
+      "competency_definition": "The skill to examine, create, and utilize geographical representations as tools for understanding historical changes and developments.",
+      "lt_name": "Historical Mapping",
+      "lt_definition": "I can analyze and construct maps to investigate historical developments.",
+      "level_statements": {
+        "grade_7": "I can analyze and construct maps to investigate historical developments and changes."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry And Investigation",
+      "competency_definition": "The ability to examine historical sources using specialized analytical methods to identify meaningful patterns and connections within evidence.",
+      "lt_name": "Evidence Interpretation",
+      "lt_definition": "I can interpret historical evidence using appropriate analytical tools.",
+      "level_statements": {
+        "grade_7": "I can interpret historical evidence by selecting appropriate analytical tools to reveal patterns."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL",
+        "COMPETENCY_MAPPING_UNCERTAIN"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry And Investigation",
+      "competency_definition": "The capacity to assess source credibility and reliability while forming well-supported conclusions based on historical investigation findings.",
+      "lt_name": "Evidence Evaluation",
+      "lt_definition": "I can evaluate evidence quality and draw supported conclusions.",
+      "level_statements": {
+        "grade_7": "I can evaluate evidence quality and draw supported conclusions from historical investigations."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Perspective Analysis",
+      "competency_definition": "The ability to examine historical events through multiple viewpoints using systematic analytical approaches to understand diverse interpretations.",
+      "lt_name": "Multiple Perspective Analysis",
+      "lt_definition": "I can analyze historical events through multiple perspectives using analytical frameworks.",
+      "level_statements": {
+        "grade_7": "I can analyze historical events through multiple perspectives using analytical frameworks."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Perspective Analysis",
+      "competency_definition": "The capacity to connect different groups' historical viewpoints to their lived experiences, motivations, and situational contexts.",
+      "lt_name": "Perspective Origins",
+      "lt_definition": "I can analyze how different groups' perspectives emerge from their experiences and circumstances.",
+      "level_statements": {
+        "grade_7": "I can analyze how different groups' historical perspectives emerge from their specific experiences, interests, and circumstances."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Perspective Analysis",
+      "competency_definition": "The skill to assess the strengths, weaknesses, and reliability of various historical viewpoints through established evaluation standards.",
+      "lt_name": "Perspective Evaluation",
+      "lt_definition": "I can evaluate the validity and limitations of different historical perspectives.",
+      "level_statements": {
+        "grade_7": "I can evaluate the validity and limitations of different historical perspectives using credibility criteria."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Significance And Impact Assessment",
+      "competency_definition": "The ability to analyze and judge the relative importance of historical events using established criteria to determine their lasting consequences and broader meaning.",
+      "lt_name": "Historical Significance Evaluation",
+      "lt_definition": "I can evaluate historical significance using multiple criteria across different time periods.",
+      "level_statements": {
+        "grade_7": "I can evaluate historical significance by applying multiple criteria to assess importance and lasting impact."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Cause And Consequence Analysis",
+      "competency_definition": "The ability to examine and evaluate how multiple factors interact to produce historical events and their resulting effects.",
+      "lt_name": "Cause Consequence Analysis",
+      "lt_definition": "I can analyze cause and consequence relationships by identifying multiple factors.",
+      "level_statements": {
+        "grade_7": "I can identify multiple contributing factors and evaluate their significance in historical events."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Source Analysis And Evidence",
+      "competency_definition": "The ability to systematically collect, evaluate, and synthesize evidence from multiple historical sources to build substantiated arguments about past events and their significance.",
+      "lt_name": "Historical Evidence Gathering",
+      "lt_definition": "I can gather evidence from diverse sources to construct well-supported historical arguments.",
+      "level_statements": {
+        "grade_7": "I can gather evidence from diverse primary and secondary sources to construct well-supported arguments about historical questions."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Communication Skills",
+      "competency_definition": "The capacity to effectively convey historical understanding through purposeful selection of language, evidence, and presentation methods suited to specific audiences.",
+      "lt_name": "Historical Communication",
+      "lt_definition": "I can communicate historical findings using appropriate terminology and formats for different audiences",
+      "level_statements": {
+        "grade_7": "I can communicate historical findings using appropriate terminology and formats for different audiences"
+      },
+      "knowledge_type": "T3",
+      "flags": [],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Communication Skills",
+      "competency_definition": "The disposition to value and honor multiple viewpoints and cultural experiences when examining and discussing historical events and developments.",
+      "lt_name": "Respectful Historical Engagement",
+      "lt_definition": "I can engage respectfully with diverse historical perspectives and experiences in discussions.",
+      "level_statements": {
+        "grade_7": "I can engage respectfully with diverse historical perspectives and experiences when participating in historical discussions and activities."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Communication Skills",
+      "competency_definition": "The scholarly habit of consistently grounding historical conclusions and interpretations in documented sources and systematic analytical processes.",
+      "lt_name": "Evidence-Based Reasoning",
+      "lt_definition": "I can show commitment to evidence-based historical reasoning and analysis.",
+      "level_statements": {
+        "grade_7": "I can show commitment to evidence-based historical reasoning and analysis."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    }
+  ]
+}

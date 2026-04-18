@@ -1,0 +1,109 @@
+{
+  "architecture_type": "Mixed",
+  "proportions": {
+    "hierarchical": 0.25,
+    "horizontal": 0.65,
+    "dispositional": 0.1
+  },
+  "hierarchical_elements": [
+    "Chronology And Basic Facts"
+  ],
+  "horizontal_elements": [
+    "Historical Inquiry And Investigation",
+    "Historical Perspective Analysis",
+    "Source Analysis And Evidence",
+    "Significance And Impact Assessment",
+    "Cause And Consequence Analysis"
+  ],
+  "dispositional_elements": [
+    "Historical Communication Skills"
+  ],
+  "strands": [
+    {
+      "id": "historical-inquiry-process",
+      "label": "Historical Inquiry And Investigation",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Cross-cutting inquiry skills that develop through application across different historical contexts."
+    },
+    {
+      "id": "perspective-analysis",
+      "label": "Historical Perspective Analysis",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Analytical framework for understanding multiple viewpoints that applies across all historical content."
+    },
+    {
+      "id": "evidence-evaluation",
+      "label": "Source Analysis And Evidence",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Skills for interpreting primary and secondary sources that transfer across historical periods."
+    },
+    {
+      "id": "historical-significance",
+      "label": "Significance And Impact Assessment",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Conceptual framework for evaluating importance that applies to any historical event or development."
+    },
+    {
+      "id": "causation-consequence",
+      "label": "Cause And Consequence Analysis",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Analytical thinking pattern for understanding historical causation across different contexts."
+    },
+    {
+      "id": "chronological-foundations",
+      "label": "Chronology And Basic Facts",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Foundational knowledge of dates, events, and sequences that must precede deeper analysis."
+    },
+    {
+      "id": "new-france-period",
+      "label": "New France 1713-1800",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Period-specific content theme covering particular historical era and developments."
+    },
+    {
+      "id": "early-canada-period",
+      "label": "Canada 1800-1850",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Period-specific content theme covering particular historical era and developments."
+    },
+    {
+      "id": "indigenous-experiences",
+      "label": "First Nations M\u00e9tis Inuit",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Thematic focus on specific cultural groups' experiences across both time periods."
+    },
+    {
+      "id": "historical-communication",
+      "label": "Historical Communication Skills",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Developing capacity to communicate historical understanding through various formats and audiences."
+    }
+  ],
+  "structural_flaw": "Content themes receive equal curriculum emphasis as analytical skills despite being knowledge containers rather than learning objectives",
+  "auto_assessable_pct": 0.35
+}

@@ -1,0 +1,969 @@
+{
+  "know": [
+    {
+      "content": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s)",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Basic combinatorial counting principles and selection methods",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_001",
+          "score": 1.0,
+          "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_030",
+          "score": 0.1429,
+          "matched_text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.1176,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_001"
+      ]
+    },
+    {
+      "content": "M\u0171veletek t\u00f6rtekkel",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Operations with fractions as foundational number skills",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 1.0,
+          "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_009",
+          "score": 0.15,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_018",
+          "score": 0.125,
+          "matched_text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_003"
+      ]
+    },
+    {
+      "content": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos)",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Types of decimal fractions and their properties",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_004",
+          "score": 1.0,
+          "matched_text": "A tizedes t\u00f6rtek fajt\u00e1i (v\u00e9ges, v\u00e9gtelen, v\u00e9gtelen szakaszos).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0909,
+          "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_032",
+          "score": 0.0769,
+          "matched_text": "A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_004"
+      ]
+    },
+    {
+      "content": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Rules for rounding numbers",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_005",
+          "score": 1.0,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_017",
+          "score": 0.2667,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.2143,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_005"
+      ]
+    },
+    {
+      "content": "Pozit\u00edv eg\u00e9sz kitev\u0151j\u0171 hatv\u00e1nyok ismerete, a vel\u00fck v\u00e9gzett m\u0171veletek azonoss\u00e1gainak alkalmaz\u00e1sa",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Power operations and their properties with positive integer exponents",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_006",
+          "score": 0.75,
+          "matched_text": "Pozit\u00edv eg\u00e9sz kitev\u0151j\u0171 hatv\u00e1nyok ismerete, a vel\u00fck v\u00e9gzett m\u0171veletek azonoss\u00e1gainak alkalmaz\u00e1sa (azonos alap\u00fa hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa, hatv\u00e1ny hatv\u00e1nyoz\u00e1sa, azonos kitev\u0151j\u0171 hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_021",
+          "score": 0.1364,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_009",
+          "score": 0.1212,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_006"
+      ]
+    },
+    {
+      "content": "Sz\u00e1mrendszerek ismerete",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Knowledge of number systems",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_007",
+          "score": 1.0,
+          "matched_text": "Sz\u00e1mrendszerek ismerete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_011",
+          "score": 0.125,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.1,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_007"
+      ]
+    },
+    {
+      "content": "\u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Prime factorization and divisibility concepts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_008",
+          "score": 1.0,
+          "matched_text": "\u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_012",
+          "score": 0.2,
+          "matched_text": "Sz\u00e1zal\u00e9k\u00e9rt\u00e9k, sz\u00e1zal\u00e9kl\u00e1b \u00e9s alap meghat\u00e1roz\u00e1sa \u00f6sszetett feladatokban.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.1905,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_008"
+      ]
+    },
+    {
+      "content": "K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Set mappings and domain/range concepts",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_013",
+          "score": 0.55,
+          "matched_text": "K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma, meghat\u00e1roz\u00e1sa egyszer\u0171 esetekben, egy\u00e9rtelm\u0171, t\u00f6bb\u00e9rtelm\u0171 hozz\u00e1rendel\u00e9s.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_030",
+          "score": 0.1905,
+          "matched_text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.1875,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_013"
+      ]
+    },
+    {
+      "content": "\u00c1tlag, m\u00f3dusz, medi\u00e1n",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Measures of central tendency",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_018",
+          "score": 1.0,
+          "matched_text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.125,
+          "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_019",
+          "score": 0.0769,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_018"
+      ]
+    },
+    {
+      "content": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Frequency concepts and probability relationships",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_019",
+          "score": 1.0,
+          "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_030",
+          "score": 0.15,
+          "matched_text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_022",
+          "score": 0.1429,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_019"
+      ]
+    },
+    {
+      "content": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Classification of triangles and quadrilaterals",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_020",
+          "score": 1.0,
+          "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_022",
+          "score": 0.2143,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_017",
+          "score": 0.1579,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_020"
+      ]
+    },
+    {
+      "content": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Axial reflection and its properties",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_023",
+          "score": 1.0,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.6667,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.3077,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_023"
+      ]
+    },
+    {
+      "content": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Point reflection and its properties",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_024",
+          "score": 1.0,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.6667,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.2857,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_024"
+      ]
+    },
+    {
+      "content": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Properties and derivation of parallelograms, trapezoids, and deltoids",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_026",
+          "score": 1.0,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_027",
+          "score": 0.3125,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.3077,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_026"
+      ]
+    },
+    {
+      "content": "Soksz\u00f6gek fogalma",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Concept of polygons",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_028",
+          "score": 1.0,
+          "matched_text": "Soksz\u00f6gek fogalma.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_029",
+          "score": 0.1818,
+          "matched_text": "A soksz\u00f6gek sz\u00f6geire, \u00e1tl\u00f3ira vonatkoz\u00f3 \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_031",
+          "score": 0.125,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_028"
+      ]
+    },
+    {
+      "content": "A soksz\u00f6gek sz\u00f6geire, \u00e1tl\u00f3ira vonatkoz\u00f3 \u00f6sszef\u00fcgg\u00e9sek",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Relationships between polygon angles and diagonals",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_029",
+          "score": 1.0,
+          "matched_text": "A soksz\u00f6gek sz\u00f6geire, \u00e1tl\u00f3ira vonatkoz\u00f3 \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_030",
+          "score": 0.2,
+          "matched_text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_028",
+          "score": 0.1818,
+          "matched_text": "Soksz\u00f6gek fogalma.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_029"
+      ]
+    },
+    {
+      "content": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Basic relationships between triangle sides and angles",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_030",
+          "score": 1.0,
+          "matched_text": "A h\u00e1romsz\u00f6g oldalai \u00e9s sz\u00f6gei k\u00f6z\u00f6tti elemi \u00f6sszef\u00fcgg\u00e9sek.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_027",
+          "score": 0.25,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_022",
+          "score": 0.2353,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_030"
+      ]
+    },
+    {
+      "content": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Concept of special lines in triangles",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_031",
+          "score": 1.0,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_022",
+          "score": 0.3,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_027",
+          "score": 0.2143,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_031"
+      ]
+    }
+  ],
+  "understand": [
+    {
+      "content": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa)",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Understanding mathematical logic and statement structures",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 1.0,
+          "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.16,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_017",
+          "score": 0.1333,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_002"
+      ]
+    },
+    {
+      "content": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Understanding relationships, proportionality, and coordinate systems",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_014",
+          "score": 1.0,
+          "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_017",
+          "score": 0.1364,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_032",
+          "score": 0.1176,
+          "matched_text": "A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_014"
+      ]
+    },
+    {
+      "content": "Grafikonok \u00e9rtelmez\u00e9se, elemz\u00e9se, adatok leolvas\u00e1sa",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Interpreting and analyzing graphical data representations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_015",
+          "score": 1.0,
+          "matched_text": "Grafikonok \u00e9rtelmez\u00e9se, elemz\u00e9se, adatok leolvas\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_010",
+          "score": 0.0909,
+          "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_011",
+          "score": 0.0833,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_015"
+      ]
+    },
+    {
+      "content": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Understanding triangle congruence relationships",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_022",
+          "score": 1.0,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_031",
+          "score": 0.3,
+          "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_027",
+          "score": 0.2857,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_022"
+      ]
+    }
+  ],
+  "do_skills": [
+    {
+      "content": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k)",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Performing operations with algebraic expressions",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_009",
+          "score": 1.0,
+          "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_008",
+          "score": 0.1613,
+          "matched_text": "\u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.15,
+          "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_009"
+      ]
+    },
+    {
+      "content": "Els\u0151fok\u00fa egyenletek megold\u00e1sa",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Solving first-degree equations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_010",
+          "score": 1.0,
+          "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_011",
+          "score": 0.2222,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0909,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_010"
+      ]
+    },
+    {
+      "content": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Solving word problems using equations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_011",
+          "score": 1.0,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_010",
+          "score": 0.2222,
+          "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_016",
+          "score": 0.1667,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_011"
+      ]
+    },
+    {
+      "content": "Sz\u00e1zal\u00e9k\u00e9rt\u00e9k, sz\u00e1zal\u00e9kl\u00e1b \u00e9s alap meghat\u00e1roz\u00e1sa \u00f6sszetett feladatokban",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Determining percentage values in complex problems",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_012",
+          "score": 1.0,
+          "matched_text": "Sz\u00e1zal\u00e9k\u00e9rt\u00e9k, sz\u00e1zal\u00e9kl\u00e1b \u00e9s alap meghat\u00e1roz\u00e1sa \u00f6sszetett feladatokban.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_008",
+          "score": 0.2,
+          "matched_text": "\u00d6sszetett sz\u00e1mok pr\u00edmt\u00e9nyez\u0151s felbont\u00e1sa, oszt\u00f3, t\u00f6bbsz\u00f6r\u00f6s, legnagyobb k\u00f6z\u00f6s oszt\u00f3, legkisebb k\u00f6z\u00f6s t\u00f6bbsz\u00f6r\u00f6s.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_013",
+          "score": 0.1786,
+          "matched_text": "K\u00e9t halmaz k\u00f6z\u00f6tti hozz\u00e1rendel\u00e9sek, alaphalmaz, k\u00e9phalmaz fogalma, meghat\u00e1roz\u00e1sa egyszer\u0171 esetekben, egy\u00e9rtelm\u0171, t\u00f6bb\u00e9rtelm\u0171 hozz\u00e1rendel\u00e9s.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_012"
+      ]
+    },
+    {
+      "content": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Plotting number pairs in coordinate systems",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_016",
+          "score": 1.0,
+          "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_011",
+          "score": 0.1667,
+          "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.125,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_016"
+      ]
+    },
+    {
+      "content": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n",
+      "knowledge_type": "horizontal",
+      "assessment_route": "rubric_reasoning",
+      "notes": "Determining patterns from graphs and tables",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_017",
+          "score": 1.0,
+          "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.2667,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_020",
+          "score": 0.1579,
+          "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_017"
+      ]
+    },
+    {
+      "content": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Applying geometric transformations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_021",
+          "score": 1.0,
+          "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_025",
+          "score": 0.2143,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.1667,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_021"
+      ]
+    },
+    {
+      "content": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Applying point and axial symmetry to symmetric shapes",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_025",
+          "score": 1.0,
+          "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.2857,
+          "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.2143,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_025"
+      ]
+    },
+    {
+      "content": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Calculating perimeter and area of geometric shapes",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_027",
+          "score": 1.0,
+          "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_026",
+          "score": 0.3125,
+          "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_022",
+          "score": 0.2857,
+          "matched_text": "H\u00e1romsz\u00f6gek egybev\u00e1g\u00f3s\u00e1ga.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_027"
+      ]
+    },
+    {
+      "content": "A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata",
+      "knowledge_type": "hierarchical",
+      "assessment_route": "rubric_criterion",
+      "notes": "Calculating surface area and volume of prisms",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_032",
+          "score": 1.0,
+          "matched_text": "A has\u00e1b felsz\u00edne \u00e9s t\u00e9rfogata.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.1818,
+          "matched_text": "A kerek\u00edt\u00e9s szab\u00e1lyainak alkalmaz\u00e1sa.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_023",
+          "score": 0.1818,
+          "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": [
+        "sb_032"
+      ]
+    }
+  ],
+  "do_dispositions": []
+}

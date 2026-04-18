@@ -1,0 +1,24 @@
+{
+  "document_family": "exam_specification",
+  "level_model": "single_intended_level",
+  "scoping_strategy": "full_document",
+  "assessment_signals": {
+    "has_assessment_objectives": false,
+    "has_command_words": false,
+    "has_mark_scheme": false,
+    "format": "10 short tasks, 45 minutes, 50 points total"
+  },
+  "confidence": "high",
+  "rationale": "Hungarian central written entrance exam specification for 8th-graders applying to 9th grade. Lists required content from grades 1\u20134 and 5\u20138 curricula (2012 and 2020 Nat frameworks). Multi-level because it spans grades 1\u20138.",
+  "source_hints": {
+    "subject": "Mathematics",
+    "grade": "8",
+    "jurisdiction": "Hungary (Oktat\u00e1si Hivatal) \u2014 k\u00f6zponti \u00edr\u00e1sbeli felv\u00e9teli, 9. \u00e9vfolyamra jelentkez\u0151k",
+    "pages_note": "single page \u2014 canonical topic list for 8th-grade central written entrance exam in maths",
+    "url": "https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/kozponti_feladatsorok/temakorok_matek_9"
+  },
+  "output_conventions": {
+    "lt_statement_format": "i_can",
+    "recommended_adjacent_radius": 1
+  }
+}
