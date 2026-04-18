@@ -1,0 +1,14 @@
+{
+  "confidence": "high",
+  "is_supported_now": true,
+  "rationale": "HTML with server-rendered content and no JS framework shell markers detected.",
+  "signals": {
+    "bytes": 38910,
+    "content_type": "text/html",
+    "div_count": 45,
+    "js_framework_markers": [],
+    "tag_count": 457,
+    "text_ratio": 0.2115
+  },
+  "source_type": "static_html_linear"
+}

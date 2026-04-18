@@ -1,0 +1,107 @@
+========================================================================
+Phase 0 manifest spot-check — /Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-2a-regression-dfe-ks3/manifest.json
+========================================================================
+
+Source reference : https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf
+Source type      : flat_pdf_linear
+Phase 0 version  : 0.3.0
+Timestamp        : 2026-04-18T12:57:58.651224+00:00
+Content hash     : 260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa
+Detection hash   : 82db12aa4671a79871cfa6e1cddef86b5aa4201bc895b0342a56f40c9c28193f
+Encoding detected: None
+
+-- Scope requested --
+  notes: DfE / UK statutory National Curriculum — Mathematics programme of study, Key Stage 3 (England). Full-document extraction, no page_range or section_heading scop…
+  pdf_dedup_coord_tolerance: 1
+  source_reference: https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf
+
+-- Scope acquired --
+  chars: 15737
+  verification_excerpt:
+    line_count : 283
+    first_chars: Mathematics
+programmes of study:
+key stage 3
+National curriculum in England
+September 2013
+
+Mathematics – key stage 3
+Purpose of study
+Mathematics is a creative and highly inter-connected discipline t
+    last_chars : /doc/open-government-licence/ or email:
+psi@nationalarchives.gsi.gov.uk.
+Reference: DFE-00179-2013
+9
+
+-- Primitive sequence --
+  1. fetch_pdf_file
+  2. extract_pdf_text
+  3. normalise_whitespace
+  4. verify_extraction_quality
+  5. content_hash
+
+-- Acquisition trace --
+  [1] fetch_pdf_file  (320 ms)
+      bytes: 209954
+      content_type: application/pdf
+      content_type_mismatch: False
+      final_url: https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf
+      http_status: 200
+      pdf_magic_ok: True
+      robots_reason: allowed
+      source_kind: url
+      status: ok
+  [2] extract_pdf_text  (324 ms)
+      chars_out: 15737
+      extraction_mode: full_document
+      pages_extracted: [1, 9]
+      pdfplumber_version: 0.11.9
+      source_page_count: 9
+      status: ok
+  [3] normalise_whitespace  (0 ms)
+      chars_in: 15737
+      chars_out: 15737
+  [4] verify_extraction_quality  (4 ms)
+      chars_in: 15737
+      checks: [{'countable_lines': 244, 'docwide_failure': False, 'flagged': False, 'lines_flagged': 0, 'mean_flagged_ratio': 0.0, 'name': 'character_doubling', 'passed': Tr…
+      line_count: 283
+      verdict: clean
+  [5] content_hash  (0 ms)
+      bytes: 15984
+      content_hash: 260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa
+
+-- Verification trace --
+  [1] verify_extraction_quality -> verdict: clean
+      character_doubling        value=0.0        threshold=0.2        [ok]
+      repeated_bigram           value=0.184      threshold=0.75       [ok]
+      whitespace_runs           value=0          threshold=50         [ok]
+      empty_line_ratio          value=0.028      threshold=0.6000000000000001 [ok]
+
+-- Content files --
+  /Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-dfe-maths-ks3-2026-04-18/content.txt
+
+-- Content preview --
+  /Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-dfe-maths-ks3-2026-04-18/content.txt  (15737 chars)
+
+  --- first 500 chars ---
+  | Mathematics
+  | programmes of study:
+  | key stage 3
+  | National curriculum in England
+  | September 2013
+  | 
+  | Mathematics – key stage 3
+  | Purpose of study
+  | Mathematics is a creative and highly inter-connected discipline that has been developed
+  | over centuries, providing the solution to some of history’s most intriguing problems. It is
+  | essential to everyday life, critical to science, technology and engineering, and necessary
+  | for financial literacy and most forms of employment. A high-quality mathematics education
+  | ther
+
+  --- last 200 chars ---
+  | terms of the Open Government Licence. To view this licence, visit
+  | http://www.nationalarchives.gov.uk/doc/open-government-licence/ or email:
+  | psi@nationalarchives.gsi.gov.uk.
+  | Reference: DFE-00179-2013
+  | 9
+
