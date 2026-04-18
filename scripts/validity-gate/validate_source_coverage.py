@@ -34,6 +34,13 @@ both runId-prefixed and legacy plain filenames.
    `source_evidence_matcher.DEFAULT_THRESHOLD` (0.35 since Session 3a).
    Baseline measurements are captured under this threshold; moving it
    invalidates prior baselines.
+5. **Bullet-type weighting** (Session 3d). The denominator is
+   coverage-relevant bullets only (specific_expectation +
+   overall_expectation). Illustrative bullets (sample_question,
+   teacher_prompt), excluded bullets (front_matter, other), and
+   extraction errors (cross_grade) are reported separately but not
+   required to trace. The weighting is structural, not grade-aware —
+   a specific_expectation at the wrong grade is still counted.
 """
 
 from __future__ import annotations
@@ -79,18 +86,37 @@ def run(run_dir: str) -> dict:
     total = len(arte.source_corpus)
     covered = total - len(orphans)
     coverage_pct = round((covered / total) * 100, 1) if total else 0.0
+    illustrative = [
+        {"provenance": it.provenance, "bullet_type": it.bullet_type, "text": it.text}
+        for it in arte.illustrative_bullets
+    ]
+    excluded = [
+        {"provenance": it.provenance, "bullet_type": it.bullet_type, "text": it.text}
+        for it in arte.excluded_bullets
+    ]
+    extraction_errors = [
+        {"provenance": it.provenance, "bullet_type": it.bullet_type, "text": it.text}
+        for it in arte.extraction_error_bullets
+    ]
     return {
         "gate": "validate_source_coverage",
         "run_dir": str(arte.run_dir),
         "threshold": MATCH_THRESHOLD,
         "corpus_mode": arte.corpus_mode,
         "corpus_warning": arte.corpus_warning,
+        "bullet_type_counts": arte.bullet_type_counts,
         "total_source_items": total,
         "covered": covered,
         "orphan_count": len(orphans),
         "coverage_pct": coverage_pct,
         "orphans": orphans,
         "per_item": per_item,
+        "illustrative_count": len(illustrative),
+        "illustrative": illustrative,
+        "excluded_count": len(excluded),
+        "excluded": excluded,
+        "extraction_error_count": len(extraction_errors),
+        "extraction_errors": extraction_errors,
     }
 
 

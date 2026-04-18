@@ -41,6 +41,12 @@ If it doesn't, the gate or the matcher is miscalibrated.
 5. **Threshold shared with coverage gate** via
    `source_evidence_matcher.DEFAULT_THRESHOLD` (0.35 since Session 3a).
    If the two gates ever need different thresholds, split them here.
+6. **Bullet-type weighting** (Session 3d). LTs are matched against the
+   coverage-relevant bucket only (specific_expectation +
+   overall_expectation). An LT whose only support is in an illustrative
+   bullet (sample_question / teacher_prompt) will be flagged as
+   potentially invented. That is by design — an LT that only traces to
+   a sample question is not demonstrably faithful.
 """
 
 from __future__ import annotations
@@ -97,6 +103,8 @@ def run(run_dir: str) -> dict:
         "threshold": MATCH_THRESHOLD,
         "corpus_mode": arte.corpus_mode,
         "corpus_warning": arte.corpus_warning,
+        "bullet_type_counts": arte.bullet_type_counts,
+        "coverage_relevant_bullets": len(arte.source_corpus),
         "total_lts": total,
         "faithful": faithful,
         "invented_count": len(invented),

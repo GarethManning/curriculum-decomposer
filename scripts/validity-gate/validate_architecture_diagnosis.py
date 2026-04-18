@@ -42,6 +42,11 @@ unverifiable. 2 = could not run.
 4. **Language.** English-only matcher. For non-English sources the
    gate reads Phase 1/2 English rendering, same as the other
    foundation-moment-1 gates.
+5. **Bullet-type weighting** (Session 3d). Strand labels are matched
+   against the coverage-relevant bucket only (specific_expectation +
+   overall_expectation), not against sample questions or front-matter.
+   A strand whose support is purely in front-matter text will now be
+   flagged as unverifiable even if it was not before.
 """
 
 from __future__ import annotations
@@ -145,6 +150,8 @@ def run(run_dir: str) -> dict:
         "threshold": MATCH_THRESHOLD,
         "corpus_mode": arte.corpus_mode,
         "corpus_warning": arte.corpus_warning,
+        "bullet_type_counts": arte.bullet_type_counts,
+        "coverage_relevant_bullets": len(arte.source_corpus),
         "total_strands": total,
         "verifiable": verifiable,
         "unverifiable_count": len(unverifiable),
