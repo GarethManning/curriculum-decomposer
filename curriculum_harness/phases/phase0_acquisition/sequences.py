@@ -40,6 +40,9 @@ from curriculum_harness.phases.phase0_acquisition.primitives.fetch_requests impo
 from curriculum_harness.phases.phase0_acquisition.primitives.normalise_whitespace import (
     NormaliseWhitespacePrimitive,
 )
+from curriculum_harness.phases.phase0_acquisition.primitives.verify_extraction_quality import (
+    VerifyExtractionQualityPrimitive,
+)
 
 
 def static_html_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
@@ -74,6 +77,7 @@ def static_html_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
         EncodingDetectionPrimitive(),
         extractor,
         NormaliseWhitespacePrimitive(),
+        VerifyExtractionQualityPrimitive(),
         ContentHashPrimitive(),
     ]
 
@@ -104,6 +108,7 @@ def flat_pdf_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
         FetchPdfFilePrimitive(),
         extractor,
         NormaliseWhitespacePrimitive(),
+        VerifyExtractionQualityPrimitive(),
         ContentHashPrimitive(),
     ]
 

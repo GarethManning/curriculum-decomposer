@@ -117,6 +117,37 @@ def _render(manifest: dict[str, Any], manifest_path: Path) -> str:
             out.append(f"      resolved: {ui.get('resolved')}")
         out.append("")
 
+    verification_trace = manifest.get("verification_trace") or []
+    out.append("-- Verification trace --")
+    if not verification_trace:
+        out.append("  (none — this artefact predates schema 0.3.0)")
+    else:
+        for i, entry in enumerate(verification_trace, start=1):
+            out.append(
+                f"  [{i}] {entry.get('primitive')} -> "
+                f"verdict: {entry.get('verdict')}"
+            )
+            for c in entry.get("checks_run") or []:
+                passed = c.get("passed")
+                flagged = c.get("flagged")
+                status = (
+                    "FAIL" if not passed else ("flag" if flagged else "ok")
+                )
+                out.append(
+                    f"      {c.get('name'):25s} "
+                    f"value={c.get('value')!s:10s} "
+                    f"threshold={c.get('threshold')!s:10s} [{status}]"
+                )
+            samples = (entry.get("details") or {}).get(
+                "sample_failures"
+            ) or []
+            for s in samples[:3]:
+                out.append(
+                    f"      sample line {s.get('line_index')}: "
+                    f"{_truncate(s.get('preview'), 100)}"
+                )
+    out.append("")
+
     out.append("-- Content files --")
     for p in manifest.get("content_files") or []:
         out.append(f"  {p}")

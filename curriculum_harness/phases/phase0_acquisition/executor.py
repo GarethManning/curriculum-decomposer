@@ -22,6 +22,7 @@ from curriculum_harness.phases.phase0_acquisition.manifest import (
     ScopeSpec,
     SourceType,
     UserInteraction,
+    VerificationEntry,
 )
 from curriculum_harness.phases.phase0_acquisition.primitives.base import (
     Primitive,
@@ -150,9 +151,25 @@ def run_pipeline(
             manifest.encoding_failure = result.meta["encoding_failure"]
         if result.meta.get("content_hash"):
             manifest.content_hash = result.meta["content_hash"]
+        if result.meta.get("verification"):
+            v = result.meta["verification"]
+            manifest.append_verification(
+                VerificationEntry(
+                    primitive=prim.name,
+                    verdict=v.get("verdict", "unknown"),
+                    checks_run=v.get("checks", []),
+                    details={
+                        "sample_failures": v.get("sample_failures", []),
+                    },
+                )
+            )
         if result.meta.get("pause_request"):
             pause: PauseState = result.meta["pause_request"]
-            paths = write_pause_state(Path(pause.state_dir), pause)
+            resolved_state_dir = Path(pause.state_dir)
+            if not resolved_state_dir.is_absolute():
+                resolved_state_dir = out_dir / resolved_state_dir
+            pause.state_dir = str(resolved_state_dir)
+            paths = write_pause_state(resolved_state_dir, pause)
             entry.user_interaction = UserInteraction(
                 primitive=prim.name,
                 needed=pause.needed,
@@ -162,7 +179,7 @@ def run_pipeline(
             _write_manifest(manifest, out_dir)
             raise Phase0Paused(
                 manifest,
-                pause.state_dir,
+                str(resolved_state_dir),
                 f"Phase 0 paused: {pause.reason} on {prim.name}",
             )
 

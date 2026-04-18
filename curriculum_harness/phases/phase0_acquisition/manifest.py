@@ -132,6 +132,27 @@ class PrimitiveTraceEntry(BaseModel):
     )
 
 
+class VerificationEntry(BaseModel):
+    """Per-verification-primitive entry in the verification trace.
+
+    Schema 0.3.0 (Session 4a-2a): records what checks ran on
+    extracted content and what verdict they returned. Separate from
+    ``acquisition_trace`` so downstream consumers can distinguish
+    'content was verified clean' from 'content was produced but not
+    verified' by inspecting this field alone.
+    """
+
+    primitive: str
+    verdict: str = Field(
+        description="One of: 'clean', 'suspicious', 'failed'.",
+    )
+    checks_run: list[dict[str, Any]] = Field(default_factory=list)
+    details: dict[str, Any] = Field(default_factory=dict)
+    timestamp: str = Field(
+        default_factory=lambda: datetime.now(timezone.utc).isoformat(),
+    )
+
+
 class AcquisitionManifest(BaseModel):
     """Top-level manifest for a single Phase 0 acquisition.
 
@@ -154,6 +175,7 @@ class AcquisitionManifest(BaseModel):
     scope_acquired: dict[str, Any] = Field(default_factory=dict)
     primitive_sequence: list[str] = Field(default_factory=list)
     acquisition_trace: list[PrimitiveTraceEntry] = Field(default_factory=list)
+    verification_trace: list[VerificationEntry] = Field(default_factory=list)
     content_files: list[str] = Field(default_factory=list)
     content_hash: str | None = None
     detection_hash: str | None = None
@@ -163,7 +185,7 @@ class AcquisitionManifest(BaseModel):
     timestamp: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat(),
     )
-    phase0_version: str = "0.2.0"
+    phase0_version: str = "0.3.0"
     notes: str | None = None
 
     def append_trace(self, entry: PrimitiveTraceEntry) -> None:
@@ -172,3 +194,6 @@ class AcquisitionManifest(BaseModel):
             self.primitive_sequence.append(entry.primitive)
         if entry.user_interaction is not None:
             self.user_interactions.append(entry.user_interaction)
+
+    def append_verification(self, entry: VerificationEntry) -> None:
+        self.verification_trace.append(entry)
