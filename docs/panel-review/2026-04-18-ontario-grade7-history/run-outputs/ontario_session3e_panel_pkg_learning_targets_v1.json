@@ -1,0 +1,865 @@
+{
+  "learning_targets": [
+    {
+      "statement": "I can match key early Canadian historical events to their correct dates between 1713 and 1840.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "quiz, test, structured response, auto-assessable",
+      "kud_source": "know: Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 17",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_739",
+          "score": 0.0769,
+          "matched_text": "A1.3 compare some of the significant events in their own lives and/or the lives of their family20",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_766",
+          "score": 0.0667,
+          "matched_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_771",
+          "score": 0.0625,
+          "matched_text": "A2.2 gather and organize information on significant events, people, and/or places in their lives that",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[0]",
+          "score": 0.2105,
+          "matched_text": "Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 1791, War of 1812, Rebellions of 1837-38, Act of Union 1840)"
+        }
+      ]
+    },
+    {
+      "statement": "I can identify key historical figures and groups that shaped early Canadian history.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "quiz, test, structured response, auto-assessable",
+      "kud_source": "know: Historical figures and groups (First Nations, M\u00e9tis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_929",
+          "score": 0.0769,
+          "matched_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_815",
+          "score": 0.0732,
+          "matched_text": "A3.4 identify some elements of positive and inclusive behaviour and actions that they can practise in",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_804",
+          "score": 0.0667,
+          "matched_text": "A3.2 identify some of the significant people, places, and things in their life, including their life in the",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[6]",
+          "score": 0.3125,
+          "matched_text": "How geographic location, social position, and gender shaped different groups' experiences in early Canadian history"
+        }
+      ]
+    },
+    {
+      "statement": "I can explain how historical systems like the fur trade and seigneurial system operated within their colonial contexts.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "structured response with defined criteria",
+      "kud_source": "know: Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "word_count": 18,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_840",
+          "score": 0.0563,
+          "matched_text": "B1.2 identify some services and service-related occupations in their community (e.g., occupations such",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_888",
+          "score": 0.0395,
+          "matched_text": "B3.1 identify the traditional Indigenous and treaty territory or territories on which their school is located",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_804",
+          "score": 0.0385,
+          "matched_text": "A3.2 identify some of the significant people, places, and things in their life, including their life in the",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[2]",
+          "score": 0.3125,
+          "matched_text": "Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyse multiple historical perspectives to reveal how different interpretive frameworks create distinct meanings from the same events.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "know: Multiple historical perspectives and interpretive frameworks",
+      "word_count": 19,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_872",
+          "score": 0.1,
+          "matched_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_785",
+          "score": 0.0952,
+          "matched_text": "A2.4 interpret and analyse information relevant to their investigations, using a variety of tools (e.g., use",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_739",
+          "score": 0.0625,
+          "matched_text": "A1.3 compare some of the significant events in their own lives and/or the lives of their family20",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[3]",
+          "score": 0.4167,
+          "matched_text": "Multiple historical perspectives and interpretive frameworks"
+        }
+      ]
+    },
+    {
+      "statement": "I can examine historical relationships by identifying patterns of cause and consequence within specific contexts.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "know: Cause and consequence as analytical framework",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_929",
+          "score": 0.0769,
+          "matched_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_790",
+          "score": 0.0739,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.0739,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[4]",
+          "score": 0.1818,
+          "matched_text": "Cause and consequence as analytical framework"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply historical perspective as an analytical framework to examine how context shapes different viewpoints.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "know: Historical perspective as analytical framework",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_749",
+          "score": 0.0625,
+          "matched_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_867",
+          "score": 0.0274,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_718",
+          "score": 0.0259,
+          "matched_text": "A1.1 describe how and why a person\u2019s roles, relationships, and responsibilities, in relation to others and",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[5]",
+          "score": 0.4,
+          "matched_text": "Historical perspective as analytical framework"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how geographic location, social position, and gender intersected to shape different groups' experiences in early Canadian history.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "understand: How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "word_count": 20,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_749",
+          "score": 0.0633,
+          "matched_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_872",
+          "score": 0.0486,
+          "matched_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_905",
+          "score": 0.0435,
+          "matched_text": "B3.4 describe the location of some significant places in their community, using relative location (e.g.,",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[6]",
+          "score": 0.7333,
+          "matched_text": "How geographic location, social position, and gender shaped different groups' experiences in early Canadian history"
+        }
+      ]
+    },
+    {
+      "statement": "I can evaluate how colonialism created interconnected effects across social, cultural, and economic dimensions within Indigenous communities.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "understand: The short-term and long-term impacts of colonialism on Indigenous communities",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_929",
+          "score": 0.0625,
+          "matched_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_790",
+          "score": 0.0609,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.0609,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[7]",
+          "score": 0.2,
+          "matched_text": "The short-term and long-term impacts of colonialism on Indigenous communities"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how different groups responded to changing circumstances in New France and British North America.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "understand: How different groups adapted to changing circumstances in New France and British North America",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_749",
+          "score": 0.0588,
+          "matched_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_718",
+          "score": 0.0538,
+          "matched_text": "A1.1 describe how and why a person\u2019s roles, relationships, and responsibilities, in relation to others and",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_795",
+          "score": 0.0289,
+          "matched_text": "A3.1 describe some of their own roles, relationships, and responsibilities (e.g., as a student, member of",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[8]",
+          "score": 0.75,
+          "matched_text": "How different groups adapted to changing circumstances in New France and British North America"
+        }
+      ]
+    },
+    {
+      "statement": "I can evaluate how the same historical development affected different communities in varying ways.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "understand: The relationship between historical developments and their impacts on diverse communities",
+      "word_count": 14,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_755",
+          "score": 0.1333,
+          "matched_text": "A1.5 identify some of the ways in which First Nations, M\u00e9tis, and Inuit individuals and communities are",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_929",
+          "score": 0.0833,
+          "matched_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_749",
+          "score": 0.0714,
+          "matched_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[9]",
+          "score": 0.1538,
+          "matched_text": "The relationship between historical developments and their impacts on diverse communities"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how historical events connect to create patterns of continuity and change across time periods.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "kud_source": "understand: How historical events connect to create patterns of continuity and change",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_739",
+          "score": 0.0667,
+          "matched_text": "A1.3 compare some of the significant events in their own lives and/or the lives of their family20",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_771",
+          "score": 0.0556,
+          "matched_text": "A2.2 gather and organize information on significant events, people, and/or places in their lives that",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_847",
+          "score": 0.0526,
+          "matched_text": "B1.3 create a plan that outlines some specific ways in which they can responsibly interact with the built",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[10]",
+          "score": 0.6364,
+          "matched_text": "How historical events connect to create patterns of continuity and change"
+        }
+      ]
+    },
+    {
+      "statement": "I can formulate focused historical inquiry questions that are specific, researchable, and drive meaningful investigation.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "kud_source": "do_skills: Formulate focused historical inquiry questions",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_766",
+          "score": 0.1333,
+          "matched_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_852",
+          "score": 0.125,
+          "matched_text": "B2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_779",
+          "score": 0.0963,
+          "matched_text": "A2.3 analyse and construct simple maps as part of their investigations into places that are significant to",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[11]",
+          "score": 0.5,
+          "matched_text": "Formulate focused historical inquiry questions"
+        }
+      ]
+    },
+    {
+      "statement": "I can gather and organize evidence from primary and secondary sources using systematic research methods.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "kud_source": "do_skills: Gather and organize evidence from primary and secondary sources",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_771",
+          "score": 0.125,
+          "matched_text": "A2.2 gather and organize information on significant events, people, and/or places in their lives that",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_860",
+          "score": 0.1176,
+          "matched_text": "B2.2 gather and organize information on the interrelationship between people and the natural and built",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_790",
+          "score": 0.0588,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[12]",
+          "score": 0.6,
+          "matched_text": "Gather and organize evidence from primary and secondary sources"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze historical sources to evaluate their reliability and construct evidence-based interpretations.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "kud_source": "do_skills: Analyze and interpret historical evidence using various tools",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_790",
+          "score": 0.0982,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.0982,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_779",
+          "score": 0.0962,
+          "matched_text": "A2.3 analyse and construct simple maps as part of their investigations into places that are significant to",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[15]",
+          "score": 0.3,
+          "matched_text": "Construct and analyze maps for historical investigations"
+        }
+      ]
+    },
+    {
+      "statement": "I can evaluate evidence quality and draw historically defensible conclusions using multiple sources and historical reasoning.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "kud_source": "do_skills: Evaluate evidence quality and draw historically defensible conclusions",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_790",
+          "score": 0.25,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.2353,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_867",
+          "score": 0.05,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[14]",
+          "score": 0.5833,
+          "matched_text": "Evaluate evidence quality and draw historically defensible conclusions"
+        }
+      ]
+    },
+    {
+      "statement": "I can construct historically accurate maps using appropriate cartographic techniques and data sources.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "kud_source": "do_skills: Construct and analyze maps for historical investigations",
+      "word_count": 13,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_867",
+          "score": 0.2667,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_921",
+          "score": 0.1765,
+          "matched_text": "B3.7 demonstrate the ability to construct simple maps of places they have visited, using symbols and",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_885",
+          "score": 0.1667,
+          "matched_text": "B2.6 communicate the results of their inquiries using appropriate vocabulary (e.g., location, map,",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[15]",
+          "score": 0.1538,
+          "matched_text": "Construct and analyze maps for historical investigations"
+        }
+      ]
+    },
+    {
+      "statement": "I can communicate historical findings using appropriate historical terminology and established formats",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "kud_source": "do_skills: Communicate historical findings using appropriate terminology and formats",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_794",
+          "score": 0.2,
+          "matched_text": "A2.6 communicate the results of their inquiries, using appropriate vocabulary (e.g., role, relationship,",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_885",
+          "score": 0.1875,
+          "matched_text": "B2.6 communicate the results of their inquiries using appropriate vocabulary (e.g., location, map,",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_867",
+          "score": 0.1333,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[16]",
+          "score": 0.875,
+          "matched_text": "Communicate historical findings using appropriate terminology and formats"
+        }
+      ]
+    },
+    {
+      "statement": "I can develop historical arguments that analyze causes and consequences using relevant evidence and logical reasoning.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "kud_source": "do_skills: Develop and support historical arguments about causes and consequences",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_872",
+          "score": 0.1053,
+          "matched_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_785",
+          "score": 0.1,
+          "matched_text": "A2.4 interpret and analyse information relevant to their investigations, using a variety of tools (e.g., use",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_867",
+          "score": 0.0737,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[17]",
+          "score": 0.3846,
+          "matched_text": "Develop and support historical arguments about causes and consequences"
+        }
+      ]
+    },
+    {
+      "statement": "I can appreciate past peoples' perspectives within their historical context without imposing modern values or judgments.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "kud_source": "do_dispositions: Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "word_count": 16,
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_771",
+          "score": 0.0553,
+          "matched_text": "A2.2 gather and organize information on significant events, people, and/or places in their lives that",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_804",
+          "score": 0.0492,
+          "matched_text": "A3.2 identify some of the significant people, places, and things in their life, including their life in the",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_867",
+          "score": 0.0464,
+          "matched_text": "B2.3 analyse maps, and construct simple maps using appropriate elements, as part of their",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_dispositions[18]",
+          "score": 0.2857,
+          "matched_text": "Historical empathy - ability to understand past peoples' perspectives without presentism"
+        }
+      ]
+    },
+    {
+      "statement": "I can recognise multiple perspectives when examining historical sources and acknowledge limitations in historical knowledge.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "kud_source": "do_dispositions: Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "word_count": 15,
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_840",
+          "score": 0.0483,
+          "matched_text": "B1.2 identify some services and service-related occupations in their community (e.g., occupations such",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_718",
+          "score": 0.0418,
+          "matched_text": "A1.1 describe how and why a person\u2019s roles, relationships, and responsibilities, in relation to others and",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_815",
+          "score": 0.041,
+          "matched_text": "A3.4 identify some elements of positive and inclusive behaviour and actions that they can practise in",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_dispositions[19]",
+          "score": 0.3846,
+          "matched_text": "Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives"
+        }
+      ]
+    },
+    {
+      "statement": "I can consistently seek and use appropriate historical evidence to support my claims during inquiry investigations.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "kud_source": "do_dispositions: Commitment to evidence-based reasoning in historical inquiry",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_794",
+          "score": 0.1111,
+          "matched_text": "A2.6 communicate the results of their inquiries, using appropriate vocabulary (e.g., role, relationship,",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_785",
+          "score": 0.1053,
+          "matched_text": "A2.4 interpret and analyse information relevant to their investigations, using a variety of tools (e.g., use",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_885",
+          "score": 0.1053,
+          "matched_text": "B2.6 communicate the results of their inquiries using appropriate vocabulary (e.g., location, map,",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[11]",
+          "score": 0.1538,
+          "matched_text": "Formulate focused historical inquiry questions"
+        }
+      ]
+    },
+    {
+      "statement": "I can acknowledge different groups' historical experiences as valid and valuable.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "kud_source": "do_dispositions: Respect for diverse historical experiences and perspectives",
+      "word_count": 11,
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_749",
+          "score": 0.0769,
+          "matched_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_790",
+          "score": 0.0217,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.0217,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_dispositions[21]",
+          "score": 0.2,
+          "matched_text": "Respect for diverse historical experiences and perspectives"
+        }
+      ]
+    }
+  ]
+}

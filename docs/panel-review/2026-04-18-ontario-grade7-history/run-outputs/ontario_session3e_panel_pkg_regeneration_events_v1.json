@@ -1,0 +1,2652 @@
+{
+  "regeneration_events": [
+    {
+      "source_label": "know: Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 17",
+      "bucket": "know",
+      "kud_content": "Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 1791, War of 1812, Rebellions of 1837-38, Act of Union 1840)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can sequence major pre-Confederation events chronologically and identify their constitutional or political significance for British North America.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can identify the correct dates and names of key pre-Confederation events from 1713 to 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3895
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify the chronological order of key events in early Canadian history from 1713 to 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6471
+        },
+        {
+          "attempt": 3,
+          "statement": "I can match key early Canadian historical events to their correct dates between 1713 and 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5457
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Historical figures and groups (First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "bucket": "know",
+      "kud_content": "Historical figures and groups (First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify key historical figures and groups in Canadian history including First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, and Hudson's Bay Company.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can identify key historical figures and groups who shaped early Canadian development.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5241
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, and Hudson's Bay Company roles in Canadian development.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3631
+        },
+        {
+          "attempt": 3,
+          "statement": "I can identify key historical figures and groups that shaped early Canadian history.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3026
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "bucket": "know",
+      "kud_content": "Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify and explain key historical concepts and systems including their defining characteristics.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated in early Canada.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4244
+        },
+        {
+          "attempt": 2,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated in their specific contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8575
+        },
+        {
+          "attempt": 3,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated within their colonial contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8889
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Multiple historical perspectives and interpretive frameworks",
+      "bucket": "know",
+      "kud_content": "Multiple historical perspectives and interpretive frameworks",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events through different interpretive frameworks to reveal how perspective shapes historical understanding.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can apply multiple historical interpretive frameworks to analyze events and demonstrate how different perspectives yield distinct insights.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6111
+        },
+        {
+          "attempt": 2,
+          "statement": "I can interpret historical events through different analytical frameworks to explain how perspective shapes historical meaning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyse multiple historical perspectives to reveal how different interpretive frameworks create distinct meanings from the same events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4867
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Cause and consequence as analytical framework",
+      "bucket": "know",
+      "kud_content": "Cause and consequence as analytical framework",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply cause and consequence as an analytical framework to interpret relationships between historical events.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can construct analytical explanations using cause and consequence frameworks to examine historical relationships.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6013
+        },
+        {
+          "attempt": 2,
+          "statement": "I can apply cause and consequence frameworks to analyse historical relationships across different contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6429
+        },
+        {
+          "attempt": 3,
+          "statement": "I can examine historical relationships by identifying patterns of cause and consequence within specific contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5521
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Historical perspective as analytical framework",
+      "bucket": "know",
+      "kud_content": "Historical perspective as analytical framework",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events by applying different contextual frameworks to explain how perspectives vary.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret historical events through contextual frameworks that reveal how circumstances shape different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse historical events using perspective frameworks that examine how contextual factors influence different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6455
+        },
+        {
+          "attempt": 3,
+          "statement": "I can apply historical perspective as an analytical framework to examine how context shapes different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "bucket": "understand",
+      "kud_content": "How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze how intersecting factors shaped diverse groups' experiences in early Canadian history",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how geographic location, social position, and gender intersected to shape different groups' experiences in early Canadian history",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5379
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze how geographic location, social position, and gender intersected to shape different groups' experiences in early Canadian history.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [
+            "REGENERATION_NEAR_IDENTICAL"
+          ],
+          "similarity_to_prev": 0.95
+        }
+      ],
+      "outcome": "near_identical_retry_abort",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: The short-term and long-term impacts of colonialism on Indigenous communities",
+      "bucket": "understand",
+      "kud_content": "The short-term and long-term impacts of colonialism on Indigenous communities",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze the interconnected short-term and long-term impacts of colonialism on Indigenous communities across multiple perspectives.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate how colonial policies produced cascading effects on Indigenous social structures over time.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2254
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse the short-term and long-term impacts of colonialism on Indigenous communities across multiple perspectives.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2309
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate how colonialism created interconnected effects across social, cultural, and economic dimensions within Indigenous communities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3796
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: How different groups adapted to changing circumstances in New France and British North America",
+      "bucket": "understand",
+      "kud_content": "How different groups adapted to changing circumstances in New France and British North America",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze how different groups adapted to changing circumstances through examination of their strategic responses.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze how groups in New France and British North America adapted to changing circumstances.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5625
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate different adaptation strategies used by groups in New France and British North America during periods of change.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.559
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze how different groups responded to changing circumstances in New France and British North America.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5966
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: The relationship between historical developments and their impacts on diverse communities",
+      "bucket": "understand",
+      "kud_content": "The relationship between historical developments and their impacts on diverse communities",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse how historical developments impacted different communities using multiple interpretive perspectives",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate relationships between historical developments and their varied impacts across different communities",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze how historical developments created different impacts across diverse communities within the same time period.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5186
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate how the same historical development affected different communities in varying ways.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5186
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: How historical events connect to create patterns of continuity and change",
+      "bucket": "understand",
+      "kud_content": "How historical events connect to create patterns of continuity and change",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events to identify patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze how historical events connect to create patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8767
+        },
+        {
+          "attempt": 2,
+          "statement": "I can explain how historical events connect to form patterns of continuity and change.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7778
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze how historical events connect to create patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7778
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Formulate focused historical inquiry questions",
+      "bucket": "do_skills",
+      "kud_content": "Formulate focused historical inquiry questions",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can formulate historical inquiry questions that target specific aspects of cause, effect, and significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can formulate focused historical inquiry questions that are specific, researchable, and connect to broader historical themes.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5923
+        },
+        {
+          "attempt": 2,
+          "statement": "I can formulate focused historical inquiry questions that specify time period, geographic scope, and causal relationships to be investigated.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5789
+        },
+        {
+          "attempt": 3,
+          "statement": "I can formulate focused historical inquiry questions that are specific, researchable, and drive meaningful investigation.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5331
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Gather and organize evidence from primary and secondary sources",
+      "bucket": "do_skills",
+      "kud_content": "Gather and organize evidence from primary and secondary sources",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can organize evidence from multiple sources into coherent categories that support specific inquiry questions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can gather and organize evidence from primary and secondary sources using systematic categorization methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3757
+        },
+        {
+          "attempt": 2,
+          "statement": "I can collect and sort evidence from primary and secondary sources into logical categories.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can gather and organize evidence from primary and secondary sources using systematic research methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.667
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Analyze and interpret historical evidence using various tools",
+      "bucket": "do_skills",
+      "kud_content": "Analyze and interpret historical evidence using various tools",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can interpret historical evidence by analyzing multiple sources to construct reasoned arguments about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze historical evidence using various interpretive tools to draw reasoned conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5625
+        },
+        {
+          "attempt": 2,
+          "statement": "I can interpret historical evidence using analytical tools to construct reasoned conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7746
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze historical sources to evaluate their reliability and construct evidence-based interpretations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.414
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Evaluate evidence quality and draw historically defensible conclusions",
+      "bucket": "do_skills",
+      "kud_content": "Evaluate evidence quality and draw historically defensible conclusions",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can evaluate historical evidence quality and construct defensible conclusions about the past.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can assess evidence strength and construct historically defensible conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6923
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate evidence quality and justify defensible historical conclusions through systematic analysis.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4615
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate evidence quality and draw historically defensible conclusions using multiple sources and historical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6537
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Construct and analyze maps for historical investigations",
+      "bucket": "do_skills",
+      "kud_content": "Construct and analyze maps for historical investigations",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct accurate maps and analyze cartographic evidence to support historical investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can construct maps using appropriate cartographic techniques and conventions for historical investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6154
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze maps to identify spatial patterns and historical relationships in investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4615
+        },
+        {
+          "attempt": 3,
+          "statement": "I can construct historically accurate maps using appropriate cartographic techniques and data sources.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3077
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Communicate historical findings using appropriate terminology and formats",
+      "bucket": "do_skills",
+      "kud_content": "Communicate historical findings using appropriate terminology and formats",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can present historical findings using accurate terminology and appropriate format conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can communicate historical findings using accurate terminology and established format conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can present historical findings using discipline-specific vocabulary and formatting conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5833
+        },
+        {
+          "attempt": 3,
+          "statement": "I can communicate historical findings using appropriate historical terminology and established formats",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5401
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Develop and support historical arguments about causes and consequences",
+      "bucket": "do_skills",
+      "kud_content": "Develop and support historical arguments about causes and consequences",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct historical arguments that explain causes and consequences using evidence and reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can develop historical arguments about causes and consequences supported with evidence and reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.75
+        },
+        {
+          "attempt": 2,
+          "statement": "I can construct historical arguments analyzing causes and consequences using relevant evidence and logical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7276
+        },
+        {
+          "attempt": 3,
+          "statement": "I can develop historical arguments that analyze causes and consequences using relevant evidence and logical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8575
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "bucket": "do_dispositions",
+      "kud_content": "Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently engage with historical perspectives using authentic period frameworks rather than present-day values",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can approach historical figures and events with curiosity about their context",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2887
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently resist imposing modern values when interpreting past peoples' actions",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.1667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can appreciate past peoples' perspectives within their historical context without imposing modern values or judgments.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5052
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "bucket": "do_dispositions",
+      "kud_content": "Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can recognize limitations and multiple perspectives in historical knowledge",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can acknowledge limitations in historical sources and consider multiple perspectives when discussing past events.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6532
+        },
+        {
+          "attempt": 2,
+          "statement": "I can approach historical discussions with intellectual humility about the nature of historical knowledge.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2582
+        },
+        {
+          "attempt": 3,
+          "statement": "I can recognise multiple perspectives when examining historical sources and acknowledge limitations in historical knowledge.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4244
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Commitment to evidence-based reasoning in historical inquiry",
+      "bucket": "do_dispositions",
+      "kud_content": "Commitment to evidence-based reasoning in historical inquiry",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently seek and reference evidence when making claims about historical events and contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can maintain commitment to grounding historical reasoning in appropriate evidence across different investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2593
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently seek and use appropriate historical evidence to support my claims during investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.483
+        },
+        {
+          "attempt": 3,
+          "statement": "I can consistently seek and use appropriate historical evidence to support my claims during inquiry investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [
+            "REGENERATION_NEAR_IDENTICAL"
+          ],
+          "similarity_to_prev": 0.9682
+        }
+      ],
+      "outcome": "near_identical_retry_abort",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Respect for diverse historical experiences and perspectives",
+      "bucket": "do_dispositions",
+      "kud_content": "Respect for diverse historical experiences and perspectives",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can respect diverse historical experiences when engaging with historical content.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can respect diverse historical experiences and perspectives when engaging with multiple viewpoints in historical discussions and analysis.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7096
+        },
+        {
+          "attempt": 2,
+          "statement": "I can respect diverse historical experiences and perspectives when engaging with multiple accounts of past events.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7462
+        },
+        {
+          "attempt": 3,
+          "statement": "I can acknowledge different groups' historical experiences as valid and valuable.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3769
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    }
+  ],
+  "human_review_required": [
+    {
+      "source_label": "know: Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 17",
+      "kud_content": "Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 1791, War of 1812, Rebellions of 1837-38, Act of Union 1840)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can sequence major pre-Confederation events chronologically and identify their constitutional or political significance for British North America.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can identify the correct dates and names of key pre-Confederation events from 1713 to 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3895
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify the chronological order of key events in early Canadian history from 1713 to 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6471
+        },
+        {
+          "attempt": 3,
+          "statement": "I can match key early Canadian historical events to their correct dates between 1713 and 1840.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5457
+        }
+      ]
+    },
+    {
+      "source_label": "know: Historical figures and groups (First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "kud_content": "Historical figures and groups (First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify key historical figures and groups in Canadian history including First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, and Hudson's Bay Company.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can identify key historical figures and groups who shaped early Canadian development.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5241
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify First Nations, Métis, Inuit, French, British, Loyalists, voyageurs, and Hudson's Bay Company roles in Canadian development.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3631
+        },
+        {
+          "attempt": 3,
+          "statement": "I can identify key historical figures and groups that shaped early Canadian history.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3026
+        }
+      ]
+    },
+    {
+      "source_label": "know: Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "kud_content": "Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify and explain key historical concepts and systems including their defining characteristics.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated in early Canada.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4244
+        },
+        {
+          "attempt": 2,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated in their specific contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8575
+        },
+        {
+          "attempt": 3,
+          "statement": "I can explain how historical systems like the fur trade and seigneurial system operated within their colonial contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8889
+        }
+      ]
+    },
+    {
+      "source_label": "know: Multiple historical perspectives and interpretive frameworks",
+      "kud_content": "Multiple historical perspectives and interpretive frameworks",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events through different interpretive frameworks to reveal how perspective shapes historical understanding.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can apply multiple historical interpretive frameworks to analyze events and demonstrate how different perspectives yield distinct insights.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6111
+        },
+        {
+          "attempt": 2,
+          "statement": "I can interpret historical events through different analytical frameworks to explain how perspective shapes historical meaning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyse multiple historical perspectives to reveal how different interpretive frameworks create distinct meanings from the same events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4867
+        }
+      ]
+    },
+    {
+      "source_label": "know: Cause and consequence as analytical framework",
+      "kud_content": "Cause and consequence as analytical framework",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply cause and consequence as an analytical framework to interpret relationships between historical events.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can construct analytical explanations using cause and consequence frameworks to examine historical relationships.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6013
+        },
+        {
+          "attempt": 2,
+          "statement": "I can apply cause and consequence frameworks to analyse historical relationships across different contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6429
+        },
+        {
+          "attempt": 3,
+          "statement": "I can examine historical relationships by identifying patterns of cause and consequence within specific contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5521
+        }
+      ]
+    },
+    {
+      "source_label": "know: Historical perspective as analytical framework",
+      "kud_content": "Historical perspective as analytical framework",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events by applying different contextual frameworks to explain how perspectives vary.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret historical events through contextual frameworks that reveal how circumstances shape different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse historical events using perspective frameworks that examine how contextual factors influence different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6455
+        },
+        {
+          "attempt": 3,
+          "statement": "I can apply historical perspective as an analytical framework to examine how context shapes different viewpoints.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ]
+    },
+    {
+      "source_label": "understand: How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "kud_content": "How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "near_identical_retry_abort",
+      "attempt_count": 3,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze how intersecting factors shaped diverse groups' experiences in early Canadian history",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how geographic location, social position, and gender intersected to shape different groups' experiences in early Canadian history",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5379
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze how geographic location, social position, and gender intersected to shape different groups' experiences in early Canadian history.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [
+            "REGENERATION_NEAR_IDENTICAL"
+          ],
+          "similarity_to_prev": 0.95
+        }
+      ]
+    },
+    {
+      "source_label": "understand: The short-term and long-term impacts of colonialism on Indigenous communities",
+      "kud_content": "The short-term and long-term impacts of colonialism on Indigenous communities",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze the interconnected short-term and long-term impacts of colonialism on Indigenous communities across multiple perspectives.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate how colonial policies produced cascading effects on Indigenous social structures over time.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2254
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse the short-term and long-term impacts of colonialism on Indigenous communities across multiple perspectives.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2309
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate how colonialism created interconnected effects across social, cultural, and economic dimensions within Indigenous communities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3796
+        }
+      ]
+    },
+    {
+      "source_label": "understand: How different groups adapted to changing circumstances in New France and British North America",
+      "kud_content": "How different groups adapted to changing circumstances in New France and British North America",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze how different groups adapted to changing circumstances through examination of their strategic responses.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze how groups in New France and British North America adapted to changing circumstances.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5625
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate different adaptation strategies used by groups in New France and British North America during periods of change.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.559
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze how different groups responded to changing circumstances in New France and British North America.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5966
+        }
+      ]
+    },
+    {
+      "source_label": "understand: The relationship between historical developments and their impacts on diverse communities",
+      "kud_content": "The relationship between historical developments and their impacts on diverse communities",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse how historical developments impacted different communities using multiple interpretive perspectives",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate relationships between historical developments and their varied impacts across different communities",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze how historical developments created different impacts across diverse communities within the same time period.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5186
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate how the same historical development affected different communities in varying ways.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5186
+        }
+      ]
+    },
+    {
+      "source_label": "understand: How historical events connect to create patterns of continuity and change",
+      "kud_content": "How historical events connect to create patterns of continuity and change",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events to identify patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze how historical events connect to create patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8767
+        },
+        {
+          "attempt": 2,
+          "statement": "I can explain how historical events connect to form patterns of continuity and change.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7778
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze how historical events connect to create patterns of continuity and change across time periods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7778
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Formulate focused historical inquiry questions",
+      "kud_content": "Formulate focused historical inquiry questions",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can formulate historical inquiry questions that target specific aspects of cause, effect, and significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can formulate focused historical inquiry questions that are specific, researchable, and connect to broader historical themes.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5923
+        },
+        {
+          "attempt": 2,
+          "statement": "I can formulate focused historical inquiry questions that specify time period, geographic scope, and causal relationships to be investigated.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5789
+        },
+        {
+          "attempt": 3,
+          "statement": "I can formulate focused historical inquiry questions that are specific, researchable, and drive meaningful investigation.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5331
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Gather and organize evidence from primary and secondary sources",
+      "kud_content": "Gather and organize evidence from primary and secondary sources",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can organize evidence from multiple sources into coherent categories that support specific inquiry questions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can gather and organize evidence from primary and secondary sources using systematic categorization methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3757
+        },
+        {
+          "attempt": 2,
+          "statement": "I can collect and sort evidence from primary and secondary sources into logical categories.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can gather and organize evidence from primary and secondary sources using systematic research methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.667
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Analyze and interpret historical evidence using various tools",
+      "kud_content": "Analyze and interpret historical evidence using various tools",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can interpret historical evidence by analyzing multiple sources to construct reasoned arguments about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze historical evidence using various interpretive tools to draw reasoned conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5625
+        },
+        {
+          "attempt": 2,
+          "statement": "I can interpret historical evidence using analytical tools to construct reasoned conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7746
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze historical sources to evaluate their reliability and construct evidence-based interpretations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.414
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Evaluate evidence quality and draw historically defensible conclusions",
+      "kud_content": "Evaluate evidence quality and draw historically defensible conclusions",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can evaluate historical evidence quality and construct defensible conclusions about the past.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can assess evidence strength and construct historically defensible conclusions about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6923
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate evidence quality and justify defensible historical conclusions through systematic analysis.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4615
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate evidence quality and draw historically defensible conclusions using multiple sources and historical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6537
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Construct and analyze maps for historical investigations",
+      "kud_content": "Construct and analyze maps for historical investigations",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct accurate maps and analyze cartographic evidence to support historical investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can construct maps using appropriate cartographic techniques and conventions for historical investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6154
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze maps to identify spatial patterns and historical relationships in investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4615
+        },
+        {
+          "attempt": 3,
+          "statement": "I can construct historically accurate maps using appropriate cartographic techniques and data sources.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3077
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Communicate historical findings using appropriate terminology and formats",
+      "kud_content": "Communicate historical findings using appropriate terminology and formats",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can present historical findings using accurate terminology and appropriate format conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can communicate historical findings using accurate terminology and established format conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can present historical findings using discipline-specific vocabulary and formatting conventions",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5833
+        },
+        {
+          "attempt": 3,
+          "statement": "I can communicate historical findings using appropriate historical terminology and established formats",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5401
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Develop and support historical arguments about causes and consequences",
+      "kud_content": "Develop and support historical arguments about causes and consequences",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct historical arguments that explain causes and consequences using evidence and reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can develop historical arguments about causes and consequences supported with evidence and reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.75
+        },
+        {
+          "attempt": 2,
+          "statement": "I can construct historical arguments analyzing causes and consequences using relevant evidence and logical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7276
+        },
+        {
+          "attempt": 3,
+          "statement": "I can develop historical arguments that analyze causes and consequences using relevant evidence and logical reasoning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.8575
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "kud_content": "Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently engage with historical perspectives using authentic period frameworks rather than present-day values",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can approach historical figures and events with curiosity about their context",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2887
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently resist imposing modern values when interpreting past peoples' actions",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.1667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can appreciate past peoples' perspectives within their historical context without imposing modern values or judgments.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5052
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "kud_content": "Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can recognize limitations and multiple perspectives in historical knowledge",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can acknowledge limitations in historical sources and consider multiple perspectives when discussing past events.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6532
+        },
+        {
+          "attempt": 2,
+          "statement": "I can approach historical discussions with intellectual humility about the nature of historical knowledge.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2582
+        },
+        {
+          "attempt": 3,
+          "statement": "I can recognise multiple perspectives when examining historical sources and acknowledge limitations in historical knowledge.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4244
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Commitment to evidence-based reasoning in historical inquiry",
+      "kud_content": "Commitment to evidence-based reasoning in historical inquiry",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "near_identical_retry_abort",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently seek and reference evidence when making claims about historical events and contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can maintain commitment to grounding historical reasoning in appropriate evidence across different investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2593
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently seek and use appropriate historical evidence to support my claims during investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.483
+        },
+        {
+          "attempt": 3,
+          "statement": "I can consistently seek and use appropriate historical evidence to support my claims during inquiry investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [
+            "REGENERATION_NEAR_IDENTICAL"
+          ],
+          "similarity_to_prev": 0.9682
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Respect for diverse historical experiences and perspectives",
+      "kud_content": "Respect for diverse historical experiences and perspectives",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can respect diverse historical experiences when engaging with historical content.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can respect diverse historical experiences and perspectives when engaging with multiple viewpoints in historical discussions and analysis.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7096
+        },
+        {
+          "attempt": 2,
+          "statement": "I can respect diverse historical experiences and perspectives when engaging with multiple accounts of past events.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7462
+        },
+        {
+          "attempt": 3,
+          "statement": "I can acknowledge different groups' historical experiences as valid and valuable.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3769
+        }
+      ]
+    }
+  ],
+  "source_language": "en",
+  "source_language_signal": {
+    "status": "measured",
+    "total_tokens": 10427,
+    "en_stopword_hits": 4493,
+    "en_stopword_ratio": 0.4309,
+    "threshold": 0.05
+  },
+  "output_mode": "curriculum"
+}

@@ -688,5 +688,22 @@ Session 3d run: coverage 3.0 %, faithfulness 5.6 %, verifiability
 6. **Phase 3 MCP reliability** still flaky in this run (Sonnet-direct
    fallback active); unchanged in Session 3d.
 
+## Session 3e-run — Ontario panel-review package (2026-04-18)
+
+Non-fix packaging session. Ran the harness end-to-end on Ontario Grade 7
+History against commit `f023c8e` using `configs/ontario_session3e_panel_pkg.json`
+(Session 3d config, fresh runId + output path). Exit 0. Phase 2 architecture
+diagnosis hit the 240 s API timeout and wrote an empty
+`architecture_v1.json` with `structural_flaw: timeout_phase2`; Phase 5
+consequently skipped (no strands to structure). Phases 1, 3, 4 completed
+normally via Sonnet-direct fallback where MCP failed. 22 KUD items, 22 LTs,
+all LTs exited Phase 4 flagged SOURCE_FAITHFULNESS_FAIL (20 exhausted
+retries, 2 near-identical aborts). Run artefacts archived under
+`outputs/ontario-2026-04-18-session-3e-panel-pkg/` and copied verbatim into
+the panel-review package at
+`docs/panel-review/2026-04-18-ontario-grade7-history/`. Package includes
+README (orienting panelists to the known Phase 1 scoping failure), source
+pointer, and verbatim panel questions. No code commits in this session.
+
 <!-- next session entry goes here -->
 

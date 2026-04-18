@@ -1,0 +1,664 @@
+{
+  "know": [
+    {
+      "content": "Key historical events and dates (Treaty of Utrecht 1713, Royal Proclamation 1763, Quebec Act 1774, Constitutional Act 1791, War of 1812, Rebellions of 1837-38, Act of Union 1840)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "quiz, test, structured response, auto-assessable",
+      "notes": "Factual chronological knowledge with correct dates and event names",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_637",
+          "score": 0.1053,
+          "matched_text": "What were some of the key social, economic, and political issues that led to the Rebellions of",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_650",
+          "score": 0.1053,
+          "matched_text": "to help them determine which key concept (or concepts) of historical thinking is relevant to",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_668",
+          "score": 0.1,
+          "matched_text": "legislative acts, oral histories, photographs, speeches, treaties, and some maps.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical figures and groups (First Nations, M\u00e9tis, Inuit, French, British, Loyalists, voyageurs, Hudson's Bay Company)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "quiz, test, structured response, auto-assessable",
+      "notes": "Factual identification of key actors in Canadian history",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_593",
+          "score": 0.2778,
+          "matched_text": "What were some differences between the ways in which First Nations, M\u00e9tis, Inuit, and",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_470",
+          "score": 0.2632,
+          "matched_text": "Ontario First Nation, M\u00e9tis, and Inuit Education Policy Framework (2007)",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_755",
+          "score": 0.2632,
+          "matched_text": "A1.5 identify some of the ways in which First Nations, M\u00e9tis, and Inuit individuals and communities are",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical concepts and systems (fur trade, seigneurial system, colonialism, assimilation policies, residential schools)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "structured response with defined criteria",
+      "notes": "Concepts with established definitions that can be assessed for accuracy",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_756",
+          "score": 0.2,
+          "matched_text": "How did the residential school system impact the children, families, and/or communities",
+          "bullet_type": "other"
+        },
+        {
+          "bullet_id": "sb_472",
+          "score": 0.1875,
+          "matched_text": "contemporary realities, including those related to the residential school system and treaties.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_639",
+          "score": 0.1875,
+          "matched_text": "Why did the residential school system meet with growing resistance from Indigenous families",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Multiple historical perspectives and interpretive frameworks",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Understanding that history can be viewed through different lenses and perspectives",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_591",
+          "score": 0.2222,
+          "matched_text": "perspectives they convey and of gathering sources that reflect multiple perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_279",
+          "score": 0.2,
+          "matched_text": "perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_680",
+          "score": 0.2,
+          "matched_text": "need to develop their ability to examine issues from multiple perspectives.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Cause and consequence as analytical framework",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Interpretive lens for understanding historical relationships",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_361",
+          "score": 0.1,
+          "matched_text": "provide a common framework that encompasses all curriculum expectations for all",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_426",
+          "score": 0.1,
+          "matched_text": "The citizenship education framework: This framework brings together the main elements of",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_635",
+          "score": 0.0846,
+          "matched_text": "one factor and may have many consequences, both intended and unintended.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical perspective as analytical framework",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Understanding how context shapes viewpoints and experiences",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_420",
+          "score": 0.2,
+          "matched_text": "developing historical",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_649",
+          "score": 0.1667,
+          "matched_text": "historical inquiry process.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_279",
+          "score": 0.1333,
+          "matched_text": "perspectives.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "understand": [
+    {
+      "content": "How geographic location, social position, and gender shaped different groups' experiences in early Canadian history",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Complex understanding requiring analysis of intersecting factors - admits multiple valid formulations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_527",
+          "score": 0.1429,
+          "matched_text": "social studies, history, and geography.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_497",
+          "score": 0.125,
+          "matched_text": "inquiry process in social studies, history, and geography.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_438",
+          "score": 0.1189,
+          "matched_text": "achievement of expectations in the social studies, history, and geography curriculum.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "The short-term and long-term impacts of colonialism on Indigenous communities",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Requires sophisticated analysis of complex historical impacts with multiple perspectives",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_182",
+          "score": 0.25,
+          "matched_text": "solutions that impact communities or ecosystems.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_455",
+          "score": 0.2222,
+          "matched_text": "racism on Indigenous individuals and communities in Canada.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_565",
+          "score": 0.2222,
+          "matched_text": "short- and/or long-term impact on people and or places.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "How different groups adapted to changing circumstances in New France and British North America",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Understanding of adaptation strategies varies by analytical stance and evidence interpretation",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_873",
+          "score": 0.1176,
+          "matched_text": "Let\u2019s look at these old and new pictures of this area of town. What do you see that\u2019s different?",
+          "bullet_type": "sample_question"
+        },
+        {
+          "bullet_id": "sb_202",
+          "score": 0.0909,
+          "matched_text": "people or groups).",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_264",
+          "score": 0.0909,
+          "matched_text": "changing world.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "The relationship between historical developments and their impacts on diverse communities",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Complex causal relationships requiring interpretive analysis",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_182",
+          "score": 0.2222,
+          "matched_text": "solutions that impact communities or ecosystems.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_727",
+          "score": 0.2,
+          "matched_text": "How might your relationship with the natural environment or your community change as you",
+          "bullet_type": "other"
+        },
+        {
+          "bullet_id": "sb_621",
+          "score": 0.1667,
+          "matched_text": "determine the impact of events, developments, and/or issues on people and/or places",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "How historical events connect to create patterns of continuity and change",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "analytical task assessed by teacher judgment using criteria",
+      "notes": "Synthetic understanding requiring historical thinking and pattern recognition",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_630",
+          "score": 0.1818,
+          "matched_text": "past, including how it connects to a current issue or event.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_728",
+          "score": 0.1667,
+          "matched_text": "How do your family\u2019s outdoor activities that are connected to the land change with each",
+          "bullet_type": "other"
+        },
+        {
+          "bullet_id": "sb_456",
+          "score": 0.1429,
+          "matched_text": "to investigate and make judgements about issues, developments, and events of historical importance.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_skills": [
+    {
+      "content": "Formulate focused historical inquiry questions",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "notes": "Skill with demonstrable quality criteria for effective historical questions",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_649",
+          "score": 0.3333,
+          "matched_text": "historical inquiry process.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_119",
+          "score": 0.25,
+          "matched_text": "design inquiry questions for research projects;",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_766",
+          "score": 0.2,
+          "matched_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Gather and organize evidence from primary and secondary sources",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "notes": "Research skills with clear procedural steps and quality indicators",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_604",
+          "score": 0.4,
+          "matched_text": "collect relevant data, evidence, and/or information from primary sources,a secondary",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_421",
+          "score": 0.3333,
+          "matched_text": "secondary sources.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_652",
+          "score": 0.2727,
+          "matched_text": "collect relevant evidence and information from a variety of primary sourcesa and secondary",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Analyze and interpret historical evidence using various tools",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "notes": "Interpretive skill where quality exists on a continuum of analytical sophistication",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_371",
+          "score": 0.2222,
+          "matched_text": "analyse and interpret evidence of learning;",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_872",
+          "score": 0.2143,
+          "matched_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_489",
+          "score": 0.2,
+          "matched_text": "interpreting and analysing information, evidence, and/or data",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Evaluate evidence quality and draw historically defensible conclusions",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "notes": "Critical analysis skill requiring judgment about evidence strength and validity",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_790",
+          "score": 0.3636,
+          "matched_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_881",
+          "score": 0.3333,
+          "matched_text": "B2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_490",
+          "score": 0.3,
+          "matched_text": "evaluating information, evidence, and/or data and drawing conclusions",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Construct and analyze maps for historical investigations",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "notes": "Technical cartographic skills with demonstrable accuracy criteria",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_779",
+          "score": 0.3,
+          "matched_text": "A2.3 analyse and construct simple maps as part of their investigations into places that are significant to",
+          "bullet_type": "specific_expectation"
+        },
+        {
+          "bullet_id": "sb_708",
+          "score": 0.2222,
+          "matched_text": "extract information from and construct maps for specific purposes.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_517",
+          "score": 0.2,
+          "matched_text": "constructing, extracting information from, and analysing maps in a variety of contexts.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Communicate historical findings using appropriate terminology and formats",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "procedural demonstration, criterion-referenced rubric",
+      "notes": "Communication skills with clear criteria for historical writing conventions",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_116",
+          "score": 0.3636,
+          "matched_text": "communicate their findings to different audiences, using a variety of formats and technologies;",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_292",
+          "score": 0.2143,
+          "matched_text": "Students communicate using the appropriate digital tools, taking care to create a positive digital",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_794",
+          "score": 0.2143,
+          "matched_text": "A2.6 communicate the results of their inquiries, using appropriate vocabulary (e.g., role, relationship,",
+          "bullet_type": "specific_expectation"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Develop and support historical arguments about causes and consequences",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "performance task, rubric with qualitative descriptors (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "notes": "Argumentation skill where quality depends on analytical depth and evidence use",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_420",
+          "score": 0.2857,
+          "matched_text": "developing historical",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_665",
+          "score": 0.1667,
+          "matched_text": "reach conclusions about events, developments, and/or issues, and support them with",
+          "bullet_type": "other"
+        },
+        {
+          "bullet_id": "sb_697",
+          "score": 0.1667,
+          "matched_text": "reach conclusions about their inquiry and support them with data and/or evidence",
+          "bullet_type": "other"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_dispositions": [
+    {
+      "content": "Historical empathy - ability to understand past peoples' perspectives without presentism",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Enacted capacity requiring consistent demonstration across multiple contexts over time",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_680",
+          "score": 0.1538,
+          "matched_text": "need to develop their ability to examine issues from multiple perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_273",
+          "score": 0.1333,
+          "matched_text": "Students learn to take the past into account in order to understand the present and approach",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_279",
+          "score": 0.125,
+          "matched_text": "perspectives.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Intellectual humility about historical knowledge - recognition of limitations and multiple perspectives",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Disposition toward nuanced thinking that develops through sustained practice",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_591",
+          "score": 0.1538,
+          "matched_text": "perspectives they convey and of gathering sources that reflect multiple perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_680",
+          "score": 0.1429,
+          "matched_text": "need to develop their ability to examine issues from multiple perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_184",
+          "score": 0.125,
+          "matched_text": "survivors and communities bring their perspectives to students\u2019 learning about our shared history.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Commitment to evidence-based reasoning in historical inquiry",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Consistent orientation toward supporting claims with appropriate evidence across investigations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_649",
+          "score": 0.3333,
+          "matched_text": "historical inquiry process.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_420",
+          "score": 0.1667,
+          "matched_text": "developing historical",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_510",
+          "score": 0.1667,
+          "matched_text": "suited to their inquiry.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Respect for diverse historical experiences and perspectives",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Ongoing commitment to acknowledging and valuing different groups' experiences",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_279",
+          "score": 0.2,
+          "matched_text": "perspectives.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_741",
+          "score": 0.2,
+          "matched_text": "experiences.",
+          "bullet_type": "front_matter"
+        },
+        {
+          "bullet_id": "sb_181",
+          "score": 0.1667,
+          "matched_text": "STEM education is implemented, it is important to engage diverse perspectives and ways of thinking.",
+          "bullet_type": "front_matter"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ]
+}
