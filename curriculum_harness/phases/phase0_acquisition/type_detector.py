@@ -40,7 +40,12 @@ import httpx
 from curriculum_harness.phases.phase0_acquisition.manifest import SourceType
 
 
-SUPPORTED_IN_SESSION_4A_0: tuple[SourceType, ...] = ("static_html_linear",)
+SUPPORTED_SOURCE_TYPES: tuple[SourceType, ...] = (
+    "static_html_linear",
+    "flat_pdf_linear",
+)
+
+SUPPORTED_IN_SESSION_4A_0: tuple[SourceType, ...] = SUPPORTED_SOURCE_TYPES
 
 
 @dataclass
@@ -340,12 +345,12 @@ def unsupported_type_pause_message(
 ) -> str:
     """Human-readable user-in-the-loop message for deferred types."""
 
+    supported = ", ".join(f"`{t}`" for t in SUPPORTED_SOURCE_TYPES)
     return (
         f"Phase 0 detected source type `{detected.source_type}` for "
         f"`{source_reference}`.\n\n"
-        "Session 4a-0 only ships the `static_html_linear` primitive "
-        "sequence. The primitive for this type is scheduled for a "
-        "later session (Session 4a-1 through 4a-4).\n\n"
+        f"Supported source types: {supported}. The primitive sequence "
+        f"for `{detected.source_type}` is deferred to a later session.\n\n"
         "Options while the primitive is pending:\n"
         "- Provide the scoped content manually as plain text (write it "
         "to `provided.txt` in this directory).\n"

@@ -5,7 +5,8 @@ them in order; each primitive's output becomes the next primitive's
 ``previous``. New sequences (one per deferred source type) are added
 here in later sessions — the executor and manifest do not change.
 
-Session 4a-0 ships only the ``static_html_linear`` sequence.
+- ``static_html_linear``  — Session 4a-0.
+- ``flat_pdf_linear``     — Session 4a-1 (this module).
 """
 
 from __future__ import annotations
@@ -23,6 +24,12 @@ from curriculum_harness.phases.phase0_acquisition.primitives.extract_css_selecto
 )
 from curriculum_harness.phases.phase0_acquisition.primitives.extract_heading_section import (
     ExtractHeadingSectionPrimitive,
+)
+from curriculum_harness.phases.phase0_acquisition.primitives.extract_pdf_text import (
+    ExtractPdfTextPrimitive,
+)
+from curriculum_harness.phases.phase0_acquisition.primitives.fetch_pdf_file import (
+    FetchPdfFilePrimitive,
 )
 from curriculum_harness.phases.phase0_acquisition.primitives.fetch_requests import (
     FetchRequestsPrimitive,
@@ -68,6 +75,28 @@ def static_html_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
     ]
 
 
+def flat_pdf_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
+    """Build the ``flat_pdf_linear`` primitive chain.
+
+    Required: ``source_reference`` (URL or local path).
+    Optional: ``page_range`` ([start, end] or 'start-end'),
+    ``section_heading`` (literal or regex via ``heading_regex``).
+
+    No ``encoding_detection`` primitive: pdfplumber handles PDF
+    encoding internally and emits UTF-8 strings. The executor records
+    the absence in the trace via the primitive_sequence list (no
+    encoding entry) and the manifest's encoding_detected remains None.
+    """
+
+    return [
+        FetchPdfFilePrimitive(),
+        ExtractPdfTextPrimitive(),
+        NormaliseWhitespacePrimitive(),
+        ContentHashPrimitive(),
+    ]
+
+
 SEQUENCE_BUILDERS = {
     "static_html_linear": static_html_linear_sequence,
+    "flat_pdf_linear": flat_pdf_linear_sequence,
 }
