@@ -1,0 +1,14 @@
+{
+  "confidence": "medium",
+  "is_supported_now": false,
+  "rationale": "Short PDF with no multi-section TOC markers.",
+  "signals": {
+    "bytes": 209954,
+    "content_type": "application/pdf",
+    "dot_leader_lines": 0,
+    "has_toc_heading": false,
+    "n_pages": 9,
+    "numbered_sections": 0
+  },
+  "source_type": "flat_pdf_linear"
+}

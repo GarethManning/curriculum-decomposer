@@ -1,0 +1,109 @@
+{
+  "acquisition_trace": [
+    {
+      "duration_ms": 383,
+      "error": null,
+      "inputs": {
+        "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf"
+      },
+      "outputs_summary": {
+        "bytes": 209954,
+        "content_type": "application/pdf",
+        "content_type_mismatch": false,
+        "final_url": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+        "http_status": 200,
+        "pdf_magic_ok": true,
+        "robots_reason": "allowed",
+        "source_kind": "url",
+        "status": "ok"
+      },
+      "primitive": "fetch_pdf_file",
+      "started_at": "2026-04-18T12:16:15.286735+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 381,
+      "error": null,
+      "inputs": {
+        "heading_regex": false
+      },
+      "outputs_summary": {
+        "chars_out": 15737,
+        "extraction_mode": "full_document",
+        "pages_extracted": [
+          1,
+          9
+        ],
+        "pdfplumber_version": "0.11.9",
+        "source_page_count": 9,
+        "status": "ok"
+      },
+      "primitive": "extract_pdf_text",
+      "started_at": "2026-04-18T12:16:15.670678+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 15737,
+        "chars_out": 15737
+      },
+      "primitive": "normalise_whitespace",
+      "started_at": "2026-04-18T12:16:16.052704+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "bytes": 15984,
+        "content_hash": "260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa"
+      },
+      "primitive": "content_hash",
+      "started_at": "2026-04-18T12:16:16.053344+00:00",
+      "user_interaction": null
+    }
+  ],
+  "content_files": [
+    "outputs/phase0-test-dfe-maths-ks3-2026-04-18/content.txt"
+  ],
+  "content_hash": "260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa",
+  "detection_hash": "82db12aa4671a79871cfa6e1cddef86b5aa4201bc895b0342a56f40c9c28193f",
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "notes": null,
+  "phase0_version": "0.2.0",
+  "primitive_sequence": [
+    "fetch_pdf_file",
+    "extract_pdf_text",
+    "normalise_whitespace",
+    "content_hash"
+  ],
+  "scope_acquired": {
+    "chars": 15737,
+    "verification_excerpt": {
+      "first_chars": "Mathematics\nprogrammes of study:\nkey stage 3\nNational curriculum in England\nSeptember 2013\n\nMathematics \u2013 key stage 3\nPurpose of study\nMathematics is a creative and highly inter-connected discipline t",
+      "last_chars": "/doc/open-government-licence/ or email:\npsi@nationalarchives.gsi.gov.uk.\nReference: DFE-00179-2013\n9",
+      "line_count": 283
+    }
+  },
+  "scope_requested": {
+    "css_selector": null,
+    "follow_links": false,
+    "heading_regex": false,
+    "heading_text": null,
+    "notes": "DfE / UK statutory National Curriculum \u2014 Mathematics programme of study, Key Stage 3 (England). Full-document extraction, no page_range or section_heading scope. Source URL resolved from www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study on 2026-04-18.",
+    "page_range": null,
+    "section_heading": null,
+    "section_identifier": null,
+    "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+    "url": null
+  },
+  "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+  "source_type": "flat_pdf_linear",
+  "timestamp": "2026-04-18T12:16:15.286507+00:00",
+  "user_interactions": []
+}
