@@ -11,6 +11,7 @@ UTF-8 string deterministically.
 
 from __future__ import annotations
 
+import hashlib
 import urllib.robotparser
 from urllib.parse import urlparse
 
@@ -92,21 +93,37 @@ class FetchRequestsPrimitive:
         declared = resp.encoding
         content_type = resp.headers.get("content-type", "")
 
+        raw_bytes = resp.content
+        raw_hash = hashlib.sha256(raw_bytes).hexdigest()
+        raw_filename = "raw.html"
+        raw_entry = {
+            "filename": raw_filename,
+            "bytes": raw_bytes,
+            "file_type": "source_html",
+            "hash": raw_hash,
+            "bytes_count": len(raw_bytes),
+        }
+
         return PrimitiveResult(
-            output=resp.content,
+            output=raw_bytes,
             summary={
                 "status": "ok",
                 "http_status": resp.status_code,
                 "final_url": resp.url,
                 "content_type": content_type,
                 "declared_encoding": declared,
-                "bytes": len(resp.content),
+                "bytes": len(raw_bytes),
                 "robots_reason": robots_reason,
+                "raw_saved": True,
+                "raw_path": raw_filename,
+                "raw_hash": raw_hash,
+                "raw_bytes": len(raw_bytes),
             },
             meta={
                 "declared_encoding": declared,
                 "final_url": resp.url,
                 "http_status": resp.status_code,
                 "content_type": content_type,
+                "raw_content": [raw_entry],
             },
         )
