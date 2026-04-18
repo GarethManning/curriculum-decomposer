@@ -106,7 +106,45 @@ def _render(manifest: dict[str, Any], manifest_path: Path) -> str:
         )
         if entry.get("error"):
             out.append(f"      ERROR: {entry['error']}")
-        for k, v in (entry.get("outputs_summary") or {}).items():
+        outputs = entry.get("outputs_summary") or {}
+        # Promote common multi-section fields for readability.
+        prim = entry.get("primitive")
+        if prim == "detect_toc":
+            out.append(
+                f"      detection_method: {outputs.get('detection_method')}"
+            )
+            out.append(f"      entries_count   : {outputs.get('entries_count')}")
+            if outputs.get("struct_tree_present"):
+                out.append("      aoda_struct_tree: present")
+            if outputs.get("detection_reason"):
+                out.append(
+                    f"      detection_reason: {outputs['detection_reason']}"
+                )
+            for s in (outputs.get("sample_entries") or [])[:3]:
+                out.append(
+                    "      sample: "
+                    f"p{s.get('page_number')} d{s.get('depth')} "
+                    f"{_truncate(s.get('title'), 80)}"
+                )
+            continue
+        if prim == "resolve_section_scope":
+            out.append(f"      status            : {outputs.get('status')}")
+            if outputs.get("resolved_page_range"):
+                out.append(
+                    f"      resolved_range    : {outputs['resolved_page_range']}"
+                )
+            if outputs.get("resolution_source"):
+                out.append(
+                    f"      resolution_source : {outputs['resolution_source']}"
+                )
+            if outputs.get("matched_entry_title"):
+                out.append(
+                    "      matched_entry     : "
+                    f"{_truncate(outputs['matched_entry_title'], 100)} "
+                    f"(page {outputs.get('matched_entry_page')})"
+                )
+            continue
+        for k, v in outputs.items():
             out.append(f"      {k}: {_truncate(v)}")
         if entry.get("user_interaction"):
             ui = entry["user_interaction"]
