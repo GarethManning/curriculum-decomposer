@@ -1,0 +1,34 @@
+{
+  "source_bullets": [
+    {
+      "id": "sb_001",
+      "text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+      "source_location": "line 33",
+      "bullet_type": "marker_bullet"
+    },
+    {
+      "id": "sb_002",
+      "text": "Using maps to show territorial claims or territorial changes over time (see, e.g., A3.3, A3.5)",
+      "source_location": "line 34",
+      "bullet_type": "marker_bullet"
+    },
+    {
+      "id": "sb_003",
+      "text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+      "source_location": "line 35",
+      "bullet_type": "marker_bullet"
+    },
+    {
+      "id": "sb_004",
+      "text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+      "source_location": "line 69",
+      "bullet_type": "marker_bullet"
+    },
+    {
+      "id": "sb_005",
+      "text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+      "source_location": "line 70",
+      "bullet_type": "marker_bullet"
+    }
+  ]
+}

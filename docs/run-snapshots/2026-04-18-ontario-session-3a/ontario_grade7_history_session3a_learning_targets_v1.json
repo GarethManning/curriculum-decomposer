@@ -1,0 +1,551 @@
+{
+  "learning_targets": [
+    {
+      "statement": "I can identify major First Nations, M\u00e9tis, Inuit, French, and British communities by their geographical locations.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Map-based assessments and factual identification tasks",
+      "kud_source": "know: Major First Nations, M\u00e9tis, Inuit, French, and British communities and their geographical locations",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0769,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0644,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0152,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[0]",
+          "score": 0.9167,
+          "matched_text": "Major First Nations, M\u00e9tis, Inuit, French, and British communities and their geographical locations"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply historical thinking concepts to analyze significance and consequence in historical evidence.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Analytical task where students apply concepts to interpret evidence",
+      "kud_source": "know: Historical thinking concepts (historical significance, cause and consequence, historical perspective)",
+      "word_count": 14,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0713,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0235,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0178,
+          "matched_text": "Using maps to show territorial claims or territorial changes over time (see, e.g., A3.3, A3.5)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[1]",
+          "score": 0.5,
+          "matched_text": "Historical thinking concepts (historical significance, cause and consequence, historical perspective)"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how different groups held distinct viewpoints and experiences regarding the same historical events.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Perspective analysis tasks requiring interpretive depth",
+      "kud_source": "know: Multiple perspectives framework - understanding that different groups had distinct viewpoints and experiences",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0568,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0503,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0292,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[2]",
+          "score": 0.3571,
+          "matched_text": "Multiple perspectives framework - understanding that different groups had distinct viewpoints and experiences"
+        }
+      ]
+    },
+    {
+      "statement": "I can recognize and reflect on my own biases and assumptions when studying historical events.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Embedded in developmental conversation and self-reflection",
+      "kud_source": "know: Self-awareness of one's own biases and assumptions when studying history",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0669,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0625,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0284,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "know[3]",
+          "score": 0.3,
+          "matched_text": "Self-awareness of one's own biases and assumptions when studying history"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how interactions among diverse communities created competing perspectives that shaped early Canadian development.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Analytical essay or presentation with interpretive criteria",
+      "kud_source": "understand: The complexity of interactions among diverse communities shaped what would become Canada",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0583,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.037,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0076,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[4]",
+          "score": 0.3333,
+          "matched_text": "The complexity of interactions among diverse communities shaped what would become Canada"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze how colonial policies created lasting consequences for Indigenous communities across multiple perspectives",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Cause-and-consequence analysis with multiple valid interpretations",
+      "kud_source": "understand: Colonial policies and actions had profound, lasting impacts on Indigenous communities",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_004",
+          "score": 0.05,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0455,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0398,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[5]",
+          "score": 0.3571,
+          "matched_text": "Colonial policies and actions had profound, lasting impacts on Indigenous communities"
+        }
+      ]
+    },
+    {
+      "statement": "I can interpret historical sources by evaluating different perspectives and the quality of evidence presented.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Source analysis task with quality continuum assessment",
+      "kud_source": "understand: Historical evidence requires careful evaluation and interpretation from multiple perspectives",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0554,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0479,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0303,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[6]",
+          "score": 0.2143,
+          "matched_text": "Historical evidence requires careful evaluation and interpretation from multiple perspectives"
+        }
+      ]
+    },
+    {
+      "statement": "I can appreciate that my capacity for historical empathy develops over time through practice.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Embedded in developmental conversation",
+      "kud_source": "understand: Understanding that one's capacity for historical empathy develops over time through practice",
+      "word_count": 14,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0625,
+          "matched_text": "Using maps to show territorial claims or territorial changes over time (see, e.g., A3.3, A3.5)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0556,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0061,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "understand[7]",
+          "score": 0.6667,
+          "matched_text": "Understanding that one's capacity for historical empathy develops over time through practice"
+        }
+      ]
+    },
+    {
+      "statement": "I can apply systematic inquiry methods to investigate historical events and issues.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Performance task rubric with qualitative descriptors (Emerging \u2192 Extending)",
+      "kud_source": "do_skills: Apply the historical inquiry process to investigate events and issues",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0603,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.025,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0161,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[8]",
+          "score": 0.6667,
+          "matched_text": "Apply the historical inquiry process to investigate events and issues"
+        }
+      ]
+    },
+    {
+      "statement": "I can analyze historical sources for perspective, bias, and reliability using evidence to support interpretations.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Source analysis rubric focused on depth of interpretation",
+      "kud_source": "do_skills: Analyze primary and secondary sources for perspective, bias, and reliability",
+      "word_count": 15,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.1,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0526,
+          "matched_text": "Using maps to show territorial claims or territorial changes over time (see, e.g., A3.3, A3.5)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0526,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[9]",
+          "score": 0.4167,
+          "matched_text": "Analyze primary and secondary sources for perspective, bias, and reliability"
+        }
+      ]
+    },
+    {
+      "statement": "I can construct historical interpretations by analyzing evidence and making reasoned arguments about causes, consequences, or significance.",
+      "type": 2,
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Argumentation rubric assessing reasoning quality and evidence use",
+      "kud_source": "do_skills: Construct and support historical interpretations with evidence",
+      "word_count": 17,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.049,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0184,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_002",
+          "score": 0.0178,
+          "matched_text": "Using maps to show territorial claims or territorial changes over time (see, e.g., A3.3, A3.5)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[10]",
+          "score": 0.3077,
+          "matched_text": "Construct and support historical interpretations with evidence"
+        }
+      ]
+    },
+    {
+      "statement": "I can organize historical information into clear, structured formats with appropriate conventions.",
+      "type": 1,
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Communication rubric with clear criteria for organization, clarity, conventions",
+      "kud_source": "do_skills: Communicate historical understanding through various formats",
+      "word_count": 12,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0526,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_004",
+          "score": 0.0163,
+          "matched_text": "Locating on a map the communities mentioned in the study of this period (see, e.g., B3.1, B3.2, B3.3)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0154,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_skills[11]",
+          "score": 0.1818,
+          "matched_text": "Communicate historical understanding through various formats"
+        }
+      ]
+    },
+    {
+      "statement": "I can engage respectfully with diverse historical experiences and viewpoints.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation protocol tracking empathetic responses over time",
+      "kud_source": "do_dispositions: Historical empathy - developing capacity to understand and engage respectfully with diverse historical experiences and p",
+      "word_count": 10,
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0588,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0165,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0102,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_dispositions[12]",
+          "score": 0.4545,
+          "matched_text": "Historical empathy - developing capacity to understand and engage respectfully with diverse historical experiences and perspectives"
+        }
+      ]
+    },
+    {
+      "statement": "I can habitually question sources, examine bias, and consider multiple interpretations when engaging with historical evidence.",
+      "type": 3,
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Observation protocol documenting questioning patterns and reflective practices across multiple inquiries",
+      "kud_source": "do_dispositions: Critical thinking disposition - growing habit of questioning sources, examining bias, and considering multiple interpret",
+      "word_count": 16,
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_003",
+          "score": 0.0952,
+          "matched_text": "Using historical maps to examine Indigenous land use and settlement patterns (see, e.g., A3.2)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_001",
+          "score": 0.0277,
+          "matched_text": "Locating on a map the major Indigenous nations of what would eventually become Canada at different points in the early eighteenth century (see, e.g., A3.1)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_005",
+          "score": 0.0115,
+          "matched_text": "Using maps to show the spread and impacts of colonialism (see, e.g., B1.1)",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "kud_provenance": [
+        {
+          "parent_id": "do_dispositions[13]",
+          "score": 0.2512,
+          "matched_text": "Critical thinking disposition - growing habit of questioning sources, examining bias, and considering multiple interpretations"
+        }
+      ]
+    }
+  ]
+}

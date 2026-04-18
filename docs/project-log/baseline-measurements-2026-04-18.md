@@ -134,6 +134,81 @@ without that caveat attached.
   the only per-case guarantee Session 3a makes. It is sufficient to
   keep Session 3b's regeneration-loop work unblocked.
 
+## Session 3a end-to-end re-run — Ontario only
+
+A fresh full-pipeline run with the Session 3a code active (Phase 3/4
+faithfulness threading and run-time bullet emission). Felvételi
+re-run is deferred to the multilingual-matcher session — running it
+end-to-end now produces the same 0/0/0 blocked by the English-only
+matcher and doesn't inform Session 3b's design.
+
+- **Config:** `configs/ontario_grade7_history_session3a.json`.
+- **Snapshot:** `docs/run-snapshots/2026-04-18-ontario-session-3a/`.
+
+### Flag counts — Ontario, Session 3a run
+
+| Measure | Count |
+|---|---:|
+| Source bullets emitted (Phase 1 artefact) | **5** (all `marker_bullet`) |
+| Phase 1 `raw_curriculum` length | **6 285 chars** |
+| KUD items total | 14 |
+| Phase 3 KUD items flagged `SOURCE_FAITHFULNESS_FAIL` | **14 / 14** |
+| LTs total | 14 |
+| Phase 4 LTs flagged `SOURCE_FAITHFULNESS_FAIL` | **14 / 14** |
+| LT best-source-score — min / median / max | 0.049 / 0.060 / 0.100 |
+| LTs clearing 0.35 threshold | **0 / 14** |
+| Other Phase 4 flags | `COMPOUND_TYPE` (1 LT) |
+
+### Why this run scores worse than the 2026-04-17 Ontario baseline (bullets mode)
+
+The earlier Ontario baseline (this doc's top section — 237 bullets,
+22 LTs, 54.5 % faithfulness) was computed against the *checkpointed
+raw_curriculum* of an older run (50 962 chars — full Overview Chart
+plus many A1.*/B1.* Specific Expectations). This fresh run's Phase 1
+Haiku-scoped extract is only 6 285 chars — Haiku selected a much
+narrower slice of the 500+-page Ontario PDF, keeping the Overview
+paragraph + five Sample-Spatial-Skills bullets and dropping the
+Specific Expectations entirely. The bullet extractor worked correctly
+(it found the 5 `•` markers) — the Phase 1 scope selection is the
+problem.
+
+Two separate issues compound:
+
+1. **Haiku scope nondeterminism.** Two runs against the same URL
+   produced 6 285-char and 50 962-char scoped extracts. For
+   multi-hundred-page documents with `grade_subject_filter` strategy,
+   the anchor-based windowing + Haiku extraction is unstable.
+2. **Consolidation bias (known from Session 1 Q1).** Phase 3 emitted
+   only 14 KUD items, collapsed into 3 content-theme strands. This is
+   the same consolidation failure Session 1 diagnosed; Session 3b
+   Shape-C branching is the planned fix. The faithfulness flagging
+   this session added will be its measuring stick.
+
+### What this baseline does mean
+
+- **The faithfulness-flag plumbing is live and measuring.** Every
+  emitted KUD item and LT carries a `source_provenance` entry and a
+  `SOURCE_FAITHFULNESS_FAIL` flag where appropriate; the run report
+  surfaces the counts.
+- **The threshold (0.35) is strict enough that with a 5-bullet corpus
+  dominated by spatial-skills content, only LTs about maps /
+  locations could clear — and Phase 4 generated 14 LTs none of which
+  were that.** 14/14 flagged is the correct measurement *for this
+  run's corpus*, not a claim about the pipeline's general
+  faithfulness.
+- **Session 3b's work will be measurable against this baseline**
+  once Phase 3 branching stabilises the bullet corpus and KUD
+  cardinality. Today's 0/14 becomes the floor; any move upward is a
+  real signal.
+
+### Felvételi measurement — pending
+
+The felvételi end-to-end re-run was deferred. Mechanism unchanged
+since Session 2: matcher is English-only, source is Hungarian → every
+LT scores ≈ 0 regardless of faithfulness. Running the pipeline again
+will produce 0/0/0 again, so the re-run is only worth doing after
+the multilingual-matcher upgrade (Session 3c or later).
+
 ## Session 3b / follow-ups
 
 1. **Translation pass for non-English sources.** Until bullets can be

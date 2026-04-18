@@ -1,0 +1,99 @@
+{
+  "architecture_type": "Mixed",
+  "proportions": {
+    "hierarchical": 0.25,
+    "horizontal": 0.55,
+    "dispositional": 0.2
+  },
+  "hierarchical_elements": [
+    "Chronological Understanding"
+  ],
+  "horizontal_elements": [
+    "Historical Inquiry Process",
+    "Historical Thinking Concepts",
+    "Primary Secondary Source Analysis"
+  ],
+  "dispositional_elements": [
+    "Historical Empathy Perspective",
+    "Critical Thinking Disposition"
+  ],
+  "strands": [
+    {
+      "id": "historical-inquiry-process",
+      "label": "Historical Inquiry Process",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Cross-cutting inquiry framework that develops analytical thinking across all historical content."
+    },
+    {
+      "id": "historical-thinking-concepts",
+      "label": "Historical Thinking Concepts",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Subject-wide interpretive frameworks for analyzing historical significance, cause and consequence, and perspective."
+    },
+    {
+      "id": "primary-secondary-source-analysis",
+      "label": "Primary Secondary Source Analysis",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Cross-cutting skills for evaluating and interpreting historical evidence across all periods."
+    },
+    {
+      "id": "new-france-british-north-america",
+      "label": "New France British North America",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Period-specific content theme covering 1713-1800 time period and territorial developments."
+    },
+    {
+      "id": "canada-1800-1850",
+      "label": "Canada 1800 1850",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Period-specific content theme covering early Canadian confederation period."
+    },
+    {
+      "id": "indigenous-european-interactions",
+      "label": "Indigenous European Interactions",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Thematic content covering specific relationships and conflicts between cultural groups."
+    },
+    {
+      "id": "chronological-understanding",
+      "label": "Chronological Understanding",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Sequential temporal knowledge where later periods build on understanding of earlier events."
+    },
+    {
+      "id": "historical-empathy-perspective",
+      "label": "Historical Empathy Perspective",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Developing capacity to understand multiple viewpoints and engage respectfully with diverse historical experiences."
+    },
+    {
+      "id": "critical-thinking-disposition",
+      "label": "Critical Thinking Disposition",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Growing habit of questioning sources, examining bias, and considering multiple interpretations."
+    }
+  ],
+  "structural_flaw": "Potential tension between emphasizing diverse perspectives (horizontal) while maintaining chronological progression (hierarchical) may create sequencing challenges.",
+  "auto_assessable_pct": 0.3
+}

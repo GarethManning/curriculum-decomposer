@@ -1,0 +1,25 @@
+{
+  "document_family": "national_framework",
+  "level_model": "multi_level_progression",
+  "scoping_strategy": "grade_subject_filter",
+  "assessment_signals": {
+    "has_assessment_objectives": true,
+    "has_command_words": false,
+    "has_mark_scheme": false,
+    "has_achievement_levels": true,
+    "has_learning_expectations": true
+  },
+  "confidence": "high",
+  "rationale": "Ontario provincial curriculum document (2023) covering Grades 1\u20138 Social Studies, History, Geography. Multi-level structure with Grade 7 History as subset. Contains assessment frameworks, achievement levels, learning expectations. No exam specification or mark scheme.",
+  "source_hints": {
+    "subject": "History",
+    "grade": "7",
+    "jurisdiction": "Ontario",
+    "pages_note": "targeted \u2014 Grade 7 History section",
+    "url": "https://assets-us-01.kc-usercontent.com/fbd574c4-da36-0066-a0c5-849ffb2de96e/f6f2efba-a7aa-4c70-94ce-f7593a7490ca/SocialStudiesHistoryGeography-AODA.pdf"
+  },
+  "output_conventions": {
+    "lt_statement_format": "i_can",
+    "recommended_adjacent_radius": 1
+  }
+}
