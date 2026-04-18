@@ -85,6 +85,24 @@ class ScopeSpec(BaseModel):
         default=None,
         description="Human-readable note about why this scope was chosen.",
     )
+    pdf_dedup_coords: bool = Field(
+        default=False,
+        description=(
+            "When True, route PDF extraction through the "
+            "``extract_pdf_text_deduped`` primitive instead of the fast "
+            "``extract_pdf_text`` path. Use for PDFs where the source "
+            "renders text twice at identical coordinates (e.g. overlaid "
+            "headers/footers). See Session 4a-2a investigation memo."
+        ),
+    )
+    pdf_dedup_coord_tolerance: int = Field(
+        default=1,
+        description=(
+            "Coordinate rounding precision in pixels used by the deduped "
+            "extraction primitive to identify overlapping characters. "
+            "Only read when ``pdf_dedup_coords`` is True."
+        ),
+    )
 
 
 class UserInteraction(BaseModel):

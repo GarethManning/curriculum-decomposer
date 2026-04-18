@@ -28,6 +28,9 @@ from curriculum_harness.phases.phase0_acquisition.primitives.extract_heading_sec
 from curriculum_harness.phases.phase0_acquisition.primitives.extract_pdf_text import (
     ExtractPdfTextPrimitive,
 )
+from curriculum_harness.phases.phase0_acquisition.primitives.extract_pdf_text_deduped import (
+    ExtractPdfTextDedupedPrimitive,
+)
 from curriculum_harness.phases.phase0_acquisition.primitives.fetch_pdf_file import (
     FetchPdfFilePrimitive,
 )
@@ -81,6 +84,9 @@ def flat_pdf_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
     Required: ``source_reference`` (URL or local path).
     Optional: ``page_range`` ([start, end] or 'start-end'),
     ``section_heading`` (literal or regex via ``heading_regex``).
+    When ``pdf_dedup_coords`` is True, swap in the coordinate-level
+    dedup extractor for PDFs with overlaid-text footers
+    (Session 4a-2a).
 
     No ``encoding_detection`` primitive: pdfplumber handles PDF
     encoding internally and emits UTF-8 strings. The executor records
@@ -88,9 +94,15 @@ def flat_pdf_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
     encoding entry) and the manifest's encoding_detected remains None.
     """
 
+    extractor: Primitive
+    if getattr(scope, "pdf_dedup_coords", False):
+        extractor = ExtractPdfTextDedupedPrimitive()
+    else:
+        extractor = ExtractPdfTextPrimitive()
+
     return [
         FetchPdfFilePrimitive(),
-        ExtractPdfTextPrimitive(),
+        extractor,
         NormaliseWhitespacePrimitive(),
         ContentHashPrimitive(),
     ]
