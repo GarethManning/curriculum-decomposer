@@ -57,9 +57,21 @@ class ScopeSpec(BaseModel):
         default=False,
         description="Interpret heading_text as a regex.",
     )
-    page_range: str | None = Field(
+    page_range: list[int] | str | None = Field(
         default=None,
-        description="PDF page range, e.g. '12-18'. Reserved for future primitives.",
+        description=(
+            "PDF page range. Preferred form: ``[start, end]`` (1-indexed, "
+            "inclusive on both ends). String form ``'start-end'`` is "
+            "accepted for legacy configs."
+        ),
+    )
+    section_heading: str | None = Field(
+        default=None,
+        description=(
+            "Section heading (literal or regex) to scope a PDF extraction. "
+            "Used by PDF primitives; interpreted as a regex if "
+            "heading_regex is True."
+        ),
     )
     section_identifier: str | None = Field(
         default=None,
@@ -103,7 +115,20 @@ class PrimitiveTraceEntry(BaseModel):
 
 
 class AcquisitionManifest(BaseModel):
-    """Top-level manifest for a single Phase 0 acquisition."""
+    """Top-level manifest for a single Phase 0 acquisition.
+
+    ``scope_acquired`` is a dict whose canonical shape is:
+
+    - ``chars`` — int, total characters of extracted content.
+    - ``verification_excerpt`` — dict with ``first_chars`` (first 200
+      characters), ``last_chars`` (last 100 characters) and
+      ``line_count``. A lightweight, stable summary for visual
+      inspection without reading the full content file.
+
+    ``detection_hash`` is the SHA-256 of the ``_detection.json`` payload
+    written alongside the manifest, so the type-detector output is
+    tamper-evident and part of the audit trail.
+    """
 
     source_reference: str
     source_type: SourceType
@@ -113,13 +138,14 @@ class AcquisitionManifest(BaseModel):
     acquisition_trace: list[PrimitiveTraceEntry] = Field(default_factory=list)
     content_files: list[str] = Field(default_factory=list)
     content_hash: str | None = None
+    detection_hash: str | None = None
     encoding_detected: str | None = None
     encoding_failure: str | None = None
     user_interactions: list[UserInteraction] = Field(default_factory=list)
     timestamp: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat(),
     )
-    phase0_version: str = "0.1.0"
+    phase0_version: str = "0.2.0"
     notes: str | None = None
 
     def append_trace(self, entry: PrimitiveTraceEntry) -> None:

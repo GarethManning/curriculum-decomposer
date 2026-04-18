@@ -1,7 +1,7 @@
 {
   "acquisition_trace": [
     {
-      "duration_ms": 332,
+      "duration_ms": 282,
       "error": null,
       "inputs": {
         "url": "https://www.thecorestandards.org/Math/Content/7/RP/"
@@ -16,11 +16,11 @@
         "status": "ok"
       },
       "primitive": "fetch_requests",
-      "started_at": "2026-04-18T11:54:17.329224+00:00",
+      "started_at": "2026-04-18T12:12:22.352559+00:00",
       "user_interaction": null
     },
     {
-      "duration_ms": 10,
+      "duration_ms": 11,
       "error": null,
       "inputs": {},
       "outputs_summary": {
@@ -30,11 +30,11 @@
         "status": "detected"
       },
       "primitive": "encoding_detection",
-      "started_at": "2026-04-18T11:54:17.662042+00:00",
+      "started_at": "2026-04-18T12:12:22.635453+00:00",
       "user_interaction": null
     },
     {
-      "duration_ms": 18,
+      "duration_ms": 23,
       "error": null,
       "inputs": {
         "css_selector": "article section.content"
@@ -46,7 +46,7 @@
         "status": "ok"
       },
       "primitive": "extract_css_selector",
-      "started_at": "2026-04-18T11:54:17.673096+00:00",
+      "started_at": "2026-04-18T12:12:22.646944+00:00",
       "user_interaction": null
     },
     {
@@ -58,7 +58,7 @@
         "chars_out": 1799
       },
       "primitive": "normalise_whitespace",
-      "started_at": "2026-04-18T11:54:17.691980+00:00",
+      "started_at": "2026-04-18T12:12:22.670619+00:00",
       "user_interaction": null
     },
     {
@@ -70,7 +70,7 @@
         "content_hash": "c48297f2cd0daecc97afc2a861deb036940f1799919b90e3ed3b7a60ec0162d3"
       },
       "primitive": "content_hash",
-      "started_at": "2026-04-18T11:54:17.692140+00:00",
+      "started_at": "2026-04-18T12:12:22.671293+00:00",
       "user_interaction": null
     }
   ],
@@ -78,10 +78,11 @@
     "outputs/phase0-test-common-core-7rp-2026-04-18/content.txt"
   ],
   "content_hash": "c48297f2cd0daecc97afc2a861deb036940f1799919b90e3ed3b7a60ec0162d3",
+  "detection_hash": "d067e2827c868ae47417dc8e9ef1c2ace340365cff1d72cf3ce4784570d2d1d4",
   "encoding_detected": "utf_8",
   "encoding_failure": null,
   "notes": null,
-  "phase0_version": "0.1.0",
+  "phase0_version": "0.2.0",
   "primitive_sequence": [
     "fetch_requests",
     "encoding_detection",
@@ -91,7 +92,11 @@
   ],
   "scope_acquired": {
     "chars": 1799,
-    "first_line": "Standards in this domain:"
+    "verification_excerpt": {
+      "first_chars": "Standards in this domain:\nCCSS.Math.Content.7.RP.A.1\nCCSS.Math.Content.7.RP.A.2\nCCSS.Math.Content.7.RP.A.3\nAnalyze proportional relationships and use them to solve real-world and mathematical problems",
+      "last_chars": "rkups and markdowns, gratuities and commissions, fees, percent increase and decrease, percent error.",
+      "line_count": 33
+    }
   },
   "scope_requested": {
     "css_selector": "article section.content",
@@ -100,12 +105,13 @@
     "heading_text": null,
     "notes": "CCSS 7.RP cluster \u2014 article > section.content wraps the whole cluster (h2 + identifiers + h4 + standard/substandard divs). Verified by DOM inspection 2026-04-18.",
     "page_range": null,
+    "section_heading": null,
     "section_identifier": null,
     "source_reference": "https://www.thecorestandards.org/Math/Content/7/RP/",
     "url": "https://www.thecorestandards.org/Math/Content/7/RP/"
   },
   "source_reference": "https://www.thecorestandards.org/Math/Content/7/RP/",
   "source_type": "static_html_linear",
-  "timestamp": "2026-04-18T11:54:17.329111+00:00",
+  "timestamp": "2026-04-18T12:12:22.352251+00:00",
   "user_interactions": []
 }

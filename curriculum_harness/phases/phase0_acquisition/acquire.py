@@ -12,6 +12,7 @@ containing the scoped content the user produced by hand.
 
 from __future__ import annotations
 
+import hashlib
 from pathlib import Path
 from typing import Any
 
@@ -57,16 +58,15 @@ def acquire(
 
     detection = detection_override or detect_source_type(scope.source_reference)
 
-    (out_dir / "_detection.json").write_text(
-        _detection_as_json(detection),
-        encoding="utf-8",
-    )
+    detection_payload = _detection_as_json(detection)
+    (out_dir / "_detection.json").write_text(detection_payload, encoding="utf-8")
+    detection_hash = hashlib.sha256(detection_payload.encode("utf-8")).hexdigest()
 
     if detection.source_type not in SUPPORTED_IN_SESSION_4A_0:
         pause_dir = out_dir / "_paused"
         pause = PauseState(
             primitive="type_detector",
-            reason="unsupported_source_type_in_session_4a_0",
+            reason="unsupported_source_type",
             needed=unsupported_type_pause_message(
                 scope.source_reference, detection
             ),
@@ -92,10 +92,11 @@ def acquire(
             source_reference=scope.source_reference,
             source_type=detection.source_type,
             scope_requested=scope,
+            detection_hash=detection_hash,
         )
         manifest.notes = (
             f"Phase 0 paused — source type `{detection.source_type}` is "
-            "not supported in Session 4a-0."
+            "not yet supported by a primitive sequence."
         )
         _write_manifest(manifest, out_dir)
         raise Phase0Paused(
@@ -113,6 +114,7 @@ def acquire(
         primitives=primitives,
         output_dir=out_dir,
         content_filename=content_filename,
+        detection_hash=detection_hash,
     )
     return manifest
 

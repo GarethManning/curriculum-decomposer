@@ -53,6 +53,7 @@ def _render(manifest: dict[str, Any], manifest_path: Path) -> str:
     out.append(f"Phase 0 version  : {manifest.get('phase0_version')}")
     out.append(f"Timestamp        : {manifest.get('timestamp')}")
     out.append(f"Content hash     : {manifest.get('content_hash')}")
+    out.append(f"Detection hash   : {manifest.get('detection_hash')}")
     out.append(f"Encoding detected: {manifest.get('encoding_detected')}")
     if manifest.get("encoding_failure"):
         out.append(f"Encoding failure : {manifest['encoding_failure']}")
@@ -72,6 +73,13 @@ def _render(manifest: dict[str, Any], manifest_path: Path) -> str:
     out.append("-- Scope acquired --")
     acquired = manifest.get("scope_acquired") or {}
     for key in sorted(acquired.keys()):
+        if key == "verification_excerpt" and isinstance(acquired[key], dict):
+            ve = acquired[key]
+            out.append(f"  {key}:")
+            out.append(f"    line_count : {ve.get('line_count')}")
+            out.append(f"    first_chars: {_truncate(ve.get('first_chars'), 200)}")
+            out.append(f"    last_chars : {_truncate(ve.get('last_chars'), 120)}")
+            continue
         out.append(f"  {key}: {_truncate(acquired[key])}")
     out.append("")
 

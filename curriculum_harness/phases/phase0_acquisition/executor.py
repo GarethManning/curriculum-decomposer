@@ -67,6 +67,7 @@ def run_pipeline(
     output_dir: str | Path,
     content_filename: str = "content.txt",
     pause_dirname: str = "_paused",
+    detection_hash: str | None = None,
 ) -> AcquisitionManifest:
     """Execute the primitive sequence and write manifest + content.
 
@@ -83,6 +84,7 @@ def run_pipeline(
         source_reference=source_reference,
         source_type=source_type,
         scope_requested=scope,
+        detection_hash=detection_hash,
     )
 
     previous: PrimitiveResult | None = None
@@ -173,11 +175,33 @@ def run_pipeline(
     manifest.content_files.append(str(content_path))
     manifest.scope_acquired = {
         "chars": len(final_text),
-        "first_line": final_text.splitlines()[0] if final_text else "",
+        "verification_excerpt": _verification_excerpt(final_text),
     }
 
     _write_manifest(manifest, out_dir)
     return manifest
+
+
+_VERIFICATION_HEAD_CHARS = 200
+_VERIFICATION_TAIL_CHARS = 100
+
+
+def _verification_excerpt(text: str) -> dict[str, Any]:
+    """Canonical verification excerpt written into ``scope_acquired``."""
+
+    if not text:
+        return {"first_chars": "", "last_chars": "", "line_count": 0}
+
+    first_chars = text[:_VERIFICATION_HEAD_CHARS]
+    if len(text) <= _VERIFICATION_HEAD_CHARS:
+        last_chars = ""
+    else:
+        last_chars = text[-_VERIFICATION_TAIL_CHARS:]
+    return {
+        "first_chars": first_chars,
+        "last_chars": last_chars,
+        "line_count": text.count("\n") + (1 if text else 0),
+    }
 
 
 def _write_manifest(manifest: AcquisitionManifest, out_dir: Path) -> None:
