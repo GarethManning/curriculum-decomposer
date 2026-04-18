@@ -18,7 +18,7 @@ Downstream phases never read raw URLs. They read:
 | `static_html_linear`                 | `fetch_requests → encoding_detection → extract_* → verify_raw → normalise_whitespace → verify_normalised → content_hash`                                                                                                                                        | implemented  |
 | `flat_pdf_linear`                    | `fetch_pdf_file → (extract_pdf_text \| extract_pdf_text_deduped) → verify_raw → normalise_whitespace → verify_normalised → content_hash`                                                                                                                        | implemented  |
 | `multi_section_pdf`                  | `fetch_pdf_file → detect_toc → resolve_section_scope → (extract_pdf_text \| extract_pdf_text_deduped) → verify_raw → normalise_whitespace → verify_normalised → content_hash`                                                                                   | implemented  |
-| `js_rendered_progressive_disclosure` | pending                                                                                                                                                                                                                                                          | deferred     |
+| `js_rendered_progressive_disclosure` | `fetch_via_browser → dom_hash → extract_css_selector → verify_raw → normalise_whitespace → verify_normalised → content_hash`                                                                                                                                     | implemented  |
 | `html_nested_dom`                    | pending                                                                                                                                                                                                                                                          | deferred     |
 
 Deferred types raise `Phase0Paused` with a user-in-the-loop request file.
@@ -141,6 +141,78 @@ until a source with >1 confirmed pathology is observed.
   outcome PASS WITH NOTES (Check C threshold recalibration
   recommended).
 
+## `js_rendered_progressive_disclosure` primitive sequence (Session 4a-3)
+
+For JS-heavy curriculum sites: SPA shells with content injected
+client-side (React / Vue / Angular), or heavy-scripted server-rendered
+pages that ship enough JS that a requests-based fetch is unreliable.
+The detector routes a URL here when JS framework markers
+(`#root`, `#app`, `__NUXT__`, `__INITIAL_STATE__`, `data-reactroot`,
+`ng-version`, `<mat-*>` Angular Material custom elements) are present
+AND the visible-text ratio is thin. Callers can also force-route via
+`detection_override` when the auto-detector is ambiguous.
+
+**Scope.** Required: `url`, `wait_for_selector`, `css_selector` (the
+extract selector). Optional: `dismiss_modal_selector`, `click_sequence`,
+`browser_timeout_ms` (default 30 000).
+
+**`fetch_via_browser` primitive.** Pure capability — Playwright
+headless Chromium, no site-specific branching:
+
+- **Fixed viewport 1280 × 720.** Non-configurable by design. The
+  rendered-state hash and extraction are tied to the viewport;
+  leaving it configurable invites silent reproducibility breakage.
+- **Navigation waits for `networkidle`**, not `domcontentloaded`.
+  JS frameworks frequently render content via post-DCL XHR, and a
+  DCL-level wait lets `wait_for_selector` match an empty shell —
+  caught in Session 4a-3's smoke test.
+- **Per-click observability.** `click_sequence` is a list of steps,
+  each traced individually in the manifest (one entry per click).
+  The v3 review chose this explicitly over a terser DSL.
+- **Bot-detection taxonomy.** Three distinct pause reasons:
+  `bot_detection_http_403`, `bot_detection_rate_limited`
+  (429 or Retry-After on a non-2xx), `bot_detection_challenge_page`
+  (Cloudflare / verify-human markers). Each pauses Phase 0 for user-
+  in-the-loop rather than retrying silently.
+- **Side artefacts.** The primitive emits a full-page screenshot as
+  `rendered_state.png`; the executor writes it to the output
+  directory and appends it to `manifest.content_files`.
+
+**`dom_hash` primitive.** Runs directly after `fetch_via_browser`.
+SHA-256s the rendered HTML so consumers can detect "page shape
+changed" independently of "extracted text changed" — a JS SPA that
+ships identical visible text but swaps an accordion for a tab control
+has the same `content_hash` and a different `dom_hash`. The manifest's
+`dom_hash` field is null for non-JS source types.
+
+**Multi-source generalisation.** Session 4a-3 validates the primitive
+on two structurally different curriculum sites — Ontario DCP (Angular
+Material SPA, grade-based) and NZ Curriculum Online (custom CMS,
+levels-based, consent modal present). The same primitive handles both
+with scope-level differences only (NZ adds `dismiss_modal_selector`,
+Ontario does not). Extended multi-jurisdiction robustness testing
+(Australian Curriculum, Singapore MOE, US state standards) is
+deferred to a potential Session 4a-3.5.
+
+**Site-specific choreography lives in the scope, not in the primitive.**
+If the primitive grows an `if site == ...` branch, that is a design
+failure — refactor to scope before merging.
+
+**Test artefacts.**
+
+- `docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/` —
+  Ontario Grade 7 History strand-index route. Cross-validated against
+  the 4a-2b PDF extraction: Check A structural PASS, Check B 6/6
+  exact overall-expectation titles, Check B2 6/6 FOCUS ON match,
+  Check C flagged (3 706 < 5 000 threshold, scope caveat — `/strands`
+  route intentionally excludes specific-expectations content, which
+  lives on SPA-routed sub-pages). Outcome PASS WITH NOTES.
+- `docs/run-snapshots/2026-04-18-session-4a-3-nz-curriculum/` —
+  NZ Social Sciences Phase 2 (Years 4–6). Check A structural PASS
+  (four strands × Knowledge + Practices), Check C volume PASS
+  (37 245 chars). Architectural verdict: validated — same primitive,
+  one extra optional scope field.
+
 ## Scope spec
 
 `ScopeSpec` (Pydantic) carries the union of fields across all primitive
@@ -169,6 +241,10 @@ converts that into a hand-editable `request.md` + `state.json` pause.
 - `investigation_memo_refs` (new in 0.4.0) — list of diagnostic-memo
   paths relevant to this acquisition (e.g. a memo recording the
   investigation that identified a pathology).
+- `dom_hash` (new in 0.4.0 via Session 4a-3) — SHA-256 of the
+  rendered DOM HTML for JS-rendered acquisitions, null for
+  PDF / static-HTML acquisitions. Complements `content_hash`: the
+  latter tracks extracted text, the former tracks rendered shape.
 
 ## `verify_extraction_quality` primitive
 
@@ -273,9 +349,19 @@ column-aware extraction primitive is shipped.
 
 ## Scheduled (next sessions)
 
-- Session 4a-3: `js_rendered_progressive_disclosure` source-type
-  primitive sequence.
+- Session 4a-4: `html_nested_dom` source-type primitive sequence
+  (UK gov.uk-style deeply nested / tabbed HTML).
+- Session 4a-3.5 (optional): extended multi-source robustness test of
+  the browser primitive against additional jurisdictions (Australian
+  Curriculum, Singapore MOE, US state standards).
+- Scope-aware volume thresholds so Check C in triangulated
+  verification can honour "overall-expectations-only" scopes without
+  flagging correctly-extracted content below the full-document
+  threshold (Session 4a-3 Step 6 caveat).
 - Column-aware extraction for dense multi-column pages (per-page
   bounding-box cropping or x-sorted column-band grouping).
 - Multi-pathology chained dedup (only when a source with >1
   confirmed pathology is observed in the test corpus).
+- Multi-URL aggregation primitive for sites that split sections
+  across SPA-routed sub-URLs (Ontario DCP specific-expectations
+  use case).
