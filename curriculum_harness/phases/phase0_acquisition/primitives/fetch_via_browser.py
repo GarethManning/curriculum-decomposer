@@ -37,6 +37,7 @@ not written directly — the executor owns the output directory).
 
 from __future__ import annotations
 
+import hashlib
 import time
 from pathlib import Path
 from typing import Any
@@ -507,16 +508,37 @@ class FetchViaBrowserPrimitive:
 
             browser.close()
 
-        # Side artefact — the screenshot. The executor writes it to
-        # the output directory; we don't own the path.
-        side_artefacts: list[dict[str, Any]] = []
+        # Raw-content cache entries (Session 4a-4.5). Two entries per
+        # JS-rendered acquisition:
+        #
+        # - ``raw_rendered.html`` carries the rendered DOM HTML (the
+        #   string ``extract_css_selector`` consumes). This is the
+        #   extraction input; ``dom_hash`` verifies its hash matches the
+        #   one computed here, and halts the pipeline on divergence.
+        # - ``rendered_state.png`` carries the full-page screenshot as a
+        #   visual reference. The executor lists rendered_screenshot
+        #   entries in ``manifest.content_files`` for backward
+        #   compatibility with Session 4a-3 output shape.
+        rendered_html_bytes = rendered_html.encode("utf-8")
+        rendered_html_hash = hashlib.sha256(rendered_html_bytes).hexdigest()
+        raw_content: list[dict[str, Any]] = [
+            {
+                "filename": "raw_rendered.html",
+                "bytes": rendered_html_bytes,
+                "file_type": "rendered_html",
+                "hash": rendered_html_hash,
+                "bytes_count": len(rendered_html_bytes),
+            }
+        ]
         if screenshot_png:
-            side_artefacts.append(
+            screenshot_hash = hashlib.sha256(bytes(screenshot_png)).hexdigest()
+            raw_content.append(
                 {
                     "filename": "rendered_state.png",
-                    "bytes": screenshot_png,
-                    "content_type": "image/png",
-                    "list_in_content_files": True,
+                    "bytes": bytes(screenshot_png),
+                    "file_type": "rendered_screenshot",
+                    "hash": screenshot_hash,
+                    "bytes_count": len(screenshot_png),
                 }
             )
 
@@ -531,6 +553,10 @@ class FetchViaBrowserPrimitive:
                 "click_count": len(click_events),
                 "modal_dismissed": modal_dismissed,
                 "console_error_count": len(console_errors),
+                "raw_saved": True,
+                "raw_rendered_path": "raw_rendered.html",
+                "raw_rendered_hash": rendered_html_hash,
+                "raw_rendered_bytes": len(rendered_html_bytes),
             },
             meta={
                 "final_url": final_url,
@@ -539,11 +565,12 @@ class FetchViaBrowserPrimitive:
                 "user_agent": USER_AGENT,
                 "rendered_html_bytes": len(rendered_html),
                 "rendered_html": rendered_html,
+                "rendered_html_hash": rendered_html_hash,
                 "screenshot_png_bytes": len(screenshot_png),
                 "click_events": click_events,
                 "console_errors": console_errors[:20],
                 "modal_dismissed": modal_dismissed,
-                "side_artefacts": side_artefacts,
+                "raw_content": raw_content,
                 "fetched_bytes": len(rendered_html),
             },
         )

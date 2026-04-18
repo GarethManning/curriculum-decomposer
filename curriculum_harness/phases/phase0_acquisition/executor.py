@@ -233,6 +233,15 @@ def run_pipeline(
                     bytes=bytes_count or len(payload),
                 )
             )
+            # Backward compat with Session 4a-3 output shape: the
+            # rendered-state screenshot was previously listed in
+            # ``manifest.content_files``. Keep that listing so external
+            # consumers reading older 4a-3 snapshots and new 4a-4.5
+            # snapshots see the same field.
+            if file_type == "rendered_screenshot":
+                rel = str(target)
+                if rel not in manifest.content_files:
+                    manifest.content_files.append(rel)
         if result.meta.get("verification"):
             v = result.meta["verification"]
             manifest.append_verification(

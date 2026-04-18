@@ -25,6 +25,18 @@ from curriculum_harness.phases.phase0_acquisition.primitives.base import (
 )
 
 
+class DomHashDivergenceError(RuntimeError):
+    """Raised when the dom_hash primitive's digest disagrees with the
+    raw-content entry for the rendered HTML.
+
+    Both hashes cover the same ``rendered_html`` string produced by
+    ``fetch_via_browser``; if they differ, either the DOM-hash
+    computation or the raw-content capture is buggy, and proceeding
+    past this point would compound the bug. The exception halts the
+    pipeline so the divergence can be investigated.
+    """
+
+
 class DomHashPrimitive:
     name = "dom_hash"
     required_scope_fields: tuple[str, ...] = ()
@@ -36,13 +48,34 @@ class DomHashPrimitive:
 
     def run(self, scope, previous: PrimitiveResult | None) -> PrimitiveResult:
         rendered_html: str = ""
+        raw_content_entries: list[dict] = []
         if previous is not None:
             # Prefer the dedicated meta field; fall back to output for
             # robustness if a future primitive renames the meta key.
             rendered_html = (
                 previous.meta.get("rendered_html") or str(previous.output or "")
             )
+            raw_content_entries = list(previous.meta.get("raw_content") or [])
         digest = hashlib.sha256(rendered_html.encode("utf-8")).hexdigest()
+
+        # Session 4a-4.5 equivalence check: the rendered_html raw-cache
+        # entry from fetch_via_browser must hash the same bytes this
+        # primitive just hashed. Halt on divergence.
+        rendered_html_entry = next(
+            (e for e in raw_content_entries if e.get("file_type") == "rendered_html"),
+            None,
+        )
+        if rendered_html_entry is not None:
+            cached_hash = rendered_html_entry.get("hash")
+            if cached_hash and cached_hash != digest:
+                raise DomHashDivergenceError(
+                    "dom_hash computed over previous.meta['rendered_html'] "
+                    f"({digest}) does not match the raw_content "
+                    f"rendered_html entry hash ({cached_hash}). Either the "
+                    "DOM-hash computation or the raw HTML capture in "
+                    "fetch_via_browser is buggy."
+                )
+
         passthrough_output = (
             previous.output if previous is not None else ""
         )
@@ -53,6 +86,10 @@ class DomHashPrimitive:
             summary={
                 "dom_hash": digest,
                 "rendered_html_bytes": len(rendered_html),
+                "raw_rendered_hash_match": (
+                    rendered_html_entry is not None
+                    and rendered_html_entry.get("hash") == digest
+                ),
             },
             meta=passthrough_meta,
         )
