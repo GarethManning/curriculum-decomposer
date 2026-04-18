@@ -398,6 +398,11 @@ class KUDItem:
     # rather than being dropped (Session 3b will add a regeneration
     # loop).
     flags: list[str] = field(default_factory=list)
+    # source_bullet_ids: set by the per_bullet branch of Phase 3 so
+    # bullet-to-KUD mapping is visible in the artefact. A list of two
+    # or more ids is a merge event and is surfaced in the run report.
+    # Empty when Phase 3 ran in strand_aggregated / default mode.
+    source_bullet_ids: list[str] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> KUDItem:
@@ -408,6 +413,9 @@ class KUDItem:
             notes=str(data.get("notes", "")),
             source_provenance=list(data.get("source_provenance") or []),
             flags=list(data.get("flags") or []),
+            source_bullet_ids=[
+                str(x) for x in (data.get("source_bullet_ids") or [])
+            ],
         )
 
     def to_dict(self) -> dict[str, Any]:

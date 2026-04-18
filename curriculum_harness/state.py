@@ -33,3 +33,8 @@ class DecomposerState(TypedDict, total=False):
     source_bullets: list[dict[str, Any]]
     phase3_faithfulness_flagged_count: int
     phase4_faithfulness_flagged_count: int
+    # Session 3b — Phase 3 profile-conditional branch (Shape C fix).
+    phase3_branch: str
+    phase3_input_bullet_count: int
+    phase3_output_kud_item_count: int
+    phase3_merge_events: list[dict[str, Any]]

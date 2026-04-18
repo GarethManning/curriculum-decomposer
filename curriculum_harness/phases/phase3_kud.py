@@ -1,4 +1,40 @@
-"""Phase 3 — KUD mapping (Sonnet + MCP kud-knowledge-type-mapper)."""
+"""Phase 3 — KUD mapping (Sonnet + MCP kud-knowledge-type-mapper).
+
+## Profile-conditional branch (Session 3b — Shape C fix)
+
+Phase 3 reads `curriculum_profile` from state and selects one of three
+branches at entry:
+
+- **per_bullet** — bare-bullet exam spec (document_family=exam_specification
+  AND has_command_words=false AND has_mark_scheme=false AND
+  scoping_strategy=full_document). Bullets are passed in the prompt
+  one-per-line and the Sonnet instruction forbids consolidation;
+  target cardinality is 1 KUD item per source bullet.
+- **strand_aggregated** — the pre-Session-3b behaviour: Sonnet is
+  instructed to "align with the architecture diagnosis" with no bullet
+  enumeration. This is chosen for every profile that carries command-
+  words, a mark scheme, or is a non-exam-spec family (national_framework,
+  school_scoped_programme, higher_ed_syllabus).
+- **default** — anything that matches neither shape cleanly. Runs the
+  strand_aggregated path and records the defaulting in the run report.
+
+## Adjacent-mechanism declaration — what this branch does NOT decide
+
+1. **Criterion grain.** Per-bullet KUDs still produce Phase 4 LTs and
+   Phase 5 criteria at whatever grain those phases decide. This branch
+   only pins KUD cardinality at entry.
+2. **Which phase handles dispositions.** Disposition items live in
+   `kud.do_dispositions`; Phase 4 and 5 decide LT type and format.
+   Nothing here forces a per-bullet mode to drop dispositions — v4.1's
+   "exam-spec mode refuses Understands and Dispositions" rule is
+   deferred to Session 3c per the brief.
+3. **Whether Understands are produced.** This branch neither adds nor
+   suppresses the `understand` array; downstream output-shape
+   discipline for exam-spec mode is Session 3c's work.
+4. **Source-faithfulness matching.** Orthogonal — still computed by
+   ``_attach_source_faithfulness`` against the ``source_bullets``
+   artefact after the KUD is generated, regardless of branch.
+"""
 
 from __future__ import annotations
 
@@ -103,6 +139,111 @@ SYSTEM_DIRECT = """You map curriculum expectations into KUD lists. Output ONLY v
 }
 Tags must align with the architecture diagnosis provided. No markdown."""
 
+SYSTEM_DIRECT_PER_BULLET = """You map curriculum source bullets into KUD lists, one KUD item per source bullet.
+The input is a numbered list of source bullets from an exam specification or content list.
+
+Cardinality rule: produce exactly one KUD item per source bullet where the
+bullet expresses a distinct piece of content. Do not consolidate multiple
+bullets into a single KUD item. Do not group bullets by theme. If two
+bullets restate the same content verbatim (rare — the source-bullet
+extractor already dedupes), you may emit one KUD item and note the
+merger in the `notes` field.
+
+Output ONLY valid JSON:
+{
+  "know": [{"content": str, "knowledge_type": "hierarchical"|"horizontal"|"dispositional",
+            "assessment_route": "rubric_criterion"|"rubric_reasoning"|"observation_protocol",
+            "notes": str, "source_bullet_ids": [str]}],
+  "understand": [same shape],
+  "do_skills": [same shape],
+  "do_dispositions": [same shape]
+}
+
+`source_bullet_ids` lists the sb_NNN IDs the KUD item was derived from
+(usually a single ID; a list of two or more means you merged those
+bullets and the merge must be justified in `notes`). Tags must align
+with the architecture diagnosis provided. No markdown."""
+
+
+def _classify_profile_mode(profile: dict[str, Any]) -> str:
+    """Return one of ``per_bullet``, ``strand_aggregated``, ``default``.
+
+    Reads `document_family`, `scoping_strategy`, and
+    `assessment_signals.has_command_words` /
+    `assessment_signals.has_mark_scheme` from the curriculum profile.
+    See Session 1 diagnosis (`docs/diagnostics/2026-04-17-session-1-diagnosis.md`)
+    Q2 / Q5 for why these three signals, and the module docstring above
+    for the resolution rules.
+    """
+    if not profile:
+        return "default"
+    fam = str(profile.get("document_family") or "").strip().lower()
+    strategy = str(profile.get("scoping_strategy") or "").strip().lower()
+    signals = profile.get("assessment_signals") or {}
+    has_cmd = bool(signals.get("has_command_words"))
+    has_mark = bool(signals.get("has_mark_scheme"))
+
+    if (
+        fam == "exam_specification"
+        and not has_cmd
+        and not has_mark
+        and strategy == "full_document"
+    ):
+        return "per_bullet"
+    # Richer designed source: any non-exam family, or an exam spec that
+    # carries command words or a mark scheme.
+    rich_families = {
+        "national_framework",
+        "school_scoped_programme",
+        "higher_ed_syllabus",
+        "curriculum_document",
+    }
+    if fam in rich_families or has_cmd or has_mark:
+        return "strand_aggregated"
+    return "default"
+
+
+def _format_bullets_for_prompt(bullets: list[dict]) -> str:
+    lines = []
+    for b in bullets:
+        bid = b.get("id") or ""
+        text = (b.get("text") or "").strip()
+        if not bid or not text:
+            continue
+        lines.append(f"{bid}: {text}")
+    return "\n".join(lines)
+
+
+async def _direct_sonnet_kud_per_bullet(
+    bullets: list[dict],
+    arch_summary: str,
+) -> KUD:
+    client = get_async_client()
+    bullet_block = _format_bullets_for_prompt(bullets)
+    body = (
+        f"Architecture diagnosis (JSON):\n{arch_summary}\n\n"
+        f"Source bullets ({len(bullets)} total, one per line, `sb_NNN: text`):\n\n"
+        f"{bullet_block[:90000]}"
+    )
+    msg = await beta_messages_create(
+        client,
+        model=SONNET_MODEL,
+        max_tokens=16384,
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": SYSTEM_DIRECT_PER_BULLET},
+                {"type": "text", "text": body},
+            ],
+        }],
+        label="phase3_sonnet_direct_kud_per_bullet",
+    )
+    text = response_text_content(msg)
+    parsed = extract_json_object(text)
+    if parsed:
+        return KUD.from_dict(parsed)
+    return KUD()
+
 
 async def _direct_sonnet_kud(
     raw_curriculum: str,
@@ -136,6 +277,15 @@ async def phase3_kud(state: DecomposerState) -> dict[str, Any]:
 
     raw = state.get("raw_curriculum") or ""
     arch = state.get("architecture_diagnosis") or {}
+    # Session 3b — Shape C fix. See module docstring.
+    profile = state.get("curriculum_profile") or {}
+    source_bullets = list(state.get("source_bullets") or [])
+    branch = _classify_profile_mode(profile)
+    if branch == "default":
+        errs.append(
+            "phase3: curriculum_profile did not match per_bullet or "
+            "strand_aggregated cleanly — defaulting to strand_aggregated branch"
+        )
     if not raw.strip():
         errs.append("phase3: skipped — empty raw_curriculum")
         return {
@@ -143,26 +293,50 @@ async def phase3_kud(state: DecomposerState) -> dict[str, Any]:
             "errors": errs,
             "kud": KUD().to_dict(),
             "recall_filtered_count": 0,
+            "phase3_branch": branch,
+            "phase3_input_bullet_count": len(source_bullets),
         }
 
     mcp_url = state.get("mcp_server_url") or ""
     mcp_name = state.get("mcp_server_name") or "claude-education-skills"
     arch_text = str(arch)[:20000]
 
-    instruction = (
-        f"Invoke `{TOOL_NAME}` using the curriculum text and this architecture diagnosis:\n"
-        f"{arch_text}\n\n"
-        "After tool results, reply with ONLY a JSON object for know, understand, do_skills, "
-        "do_dispositions arrays (items with content, knowledge_type, assessment_route, notes)."
-    )
+    if branch == "per_bullet":
+        if not source_bullets:
+            errs.append(
+                "phase3: per_bullet branch selected but source_bullets empty — "
+                "falling back to strand_aggregated instruction"
+            )
+            branch = "strand_aggregated"
 
-    messages = [{
-        "role": "user",
-        "content": [
+    if branch == "per_bullet":
+        bullet_block = _format_bullets_for_prompt(source_bullets)
+        instruction = (
+            f"Invoke `{TOOL_NAME}` using these source bullets and architecture diagnosis.\n\n"
+            f"Cardinality rule: produce exactly one KUD item per source bullet. Do not "
+            f"consolidate multiple bullets into a single KUD item. Do not group bullets by "
+            f"theme.\n\n"
+            f"Architecture diagnosis (JSON):\n{arch_text}\n\n"
+            f"Source bullets ({len(source_bullets)} total, one per line, `sb_NNN: text`):\n\n"
+            f"{bullet_block[:90000]}\n\n"
+            "After tool results, reply with ONLY a JSON object for know, understand, do_skills, "
+            "do_dispositions arrays (items with content, knowledge_type, assessment_route, "
+            "notes, source_bullet_ids)."
+        )
+        user_content = [{"type": "text", "text": instruction}]
+    else:
+        instruction = (
+            f"Invoke `{TOOL_NAME}` using the curriculum text and this architecture diagnosis:\n"
+            f"{arch_text}\n\n"
+            "After tool results, reply with ONLY a JSON object for know, understand, do_skills, "
+            "do_dispositions arrays (items with content, knowledge_type, assessment_route, notes)."
+        )
+        user_content = [
             {"type": "text", "text": instruction},
             {"type": "text", "text": f"Curriculum text:\n\n{raw[:100000]}"},
-        ],
-    }]
+        ]
+
+    messages = [{"role": "user", "content": user_content}]
 
     kud = KUD()
     used_mcp = False
@@ -194,6 +368,8 @@ async def phase3_kud(state: DecomposerState) -> dict[str, Any]:
             "human_review_queue": review_dicts,
             "kud": KUD().to_dict(),
             "recall_filtered_count": 0,
+            "phase3_branch": branch,
+            "phase3_input_bullet_count": len(source_bullets),
         }
     except Exception as exc:
         raw_dump = response_debug_dump(resp) if resp is not None else str(exc)
@@ -213,17 +389,32 @@ async def phase3_kud(state: DecomposerState) -> dict[str, Any]:
                 decision_needed=raw_dump[:8000],
             ).to_dict(),
         )
-        kud = await _direct_sonnet_kud(raw, arch_text)
+        if branch == "per_bullet":
+            kud = await _direct_sonnet_kud_per_bullet(source_bullets, arch_text)
+        else:
+            kud = await _direct_sonnet_kud(raw, arch_text)
 
     kud, recall_filtered_count = _filter_recall_only_know(kud)
 
-    source_bullets = list(state.get("source_bullets") or [])
     faithfulness_flagged = _attach_source_faithfulness(kud, source_bullets)
     if not source_bullets:
         errs.append(
             "phase3: no source_bullets corpus available — "
             "SOURCE_FAITHFULNESS_FAIL flags suppressed for this run"
         )
+
+    kud_item_count = sum(1 for _b, _i in kud.all_items())
+    merge_events: list[dict[str, Any]] = []
+    if branch == "per_bullet":
+        for _bucket, item in kud.all_items():
+            ids = getattr(item, "source_bullet_ids", None) or []
+            if len(ids) > 1:
+                merge_events.append(
+                    {
+                        "kud_content": item.content,
+                        "merged_bullet_ids": list(ids),
+                    }
+                )
 
     return {
         "current_phase": "phase3:complete" if used_mcp else "phase3:fallback",
@@ -232,4 +423,8 @@ async def phase3_kud(state: DecomposerState) -> dict[str, Any]:
         "kud": kud.to_dict(),
         "recall_filtered_count": recall_filtered_count,
         "phase3_faithfulness_flagged_count": faithfulness_flagged,
+        "phase3_branch": branch,
+        "phase3_input_bullet_count": len(source_bullets),
+        "phase3_output_kud_item_count": kud_item_count,
+        "phase3_merge_events": merge_events,
     }

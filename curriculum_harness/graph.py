@@ -280,6 +280,37 @@ def output_node(state: DecomposerState) -> dict[str, Any]:
         if remainder > 0:
             lines.append(f"- _…and {remainder} more_")
         lines.append("")
+    phase3_branch = str(state.get("phase3_branch") or "")
+    phase3_input_bullets = int(state.get("phase3_input_bullet_count") or 0)
+    phase3_output_items = int(state.get("phase3_output_kud_item_count") or 0)
+    phase3_merge_events = list(state.get("phase3_merge_events") or [])
+    lines.extend(
+        [
+        "## Phase 3 profile-conditional branch (Session 3b)",
+        "",
+        f"- Branch selected: **{phase3_branch or 'unknown'}**",
+        f"- Input source bullets: {phase3_input_bullets}",
+        f"- Output KUD items: {phase3_output_items}",
+        f"- Merge events (per_bullet only): {len(phase3_merge_events)}",
+        "",
+        ]
+    )
+    if phase3_branch == "default":
+        lines.append(
+            "_Profile did not match per_bullet or strand_aggregated cleanly; "
+            "defaulted to strand_aggregated._"
+        )
+        lines.append("")
+    if phase3_merge_events:
+        lines.append("_Bullet merges recorded in Phase 3 per_bullet branch:_")
+        for ev in phase3_merge_events[:20]:
+            ids = ", ".join(ev.get("merged_bullet_ids") or [])
+            content = (ev.get("kud_content") or "")[:160]
+            lines.append(f"- `{ids}` → {content}")
+        remainder = len(phase3_merge_events) - 20
+        if remainder > 0:
+            lines.append(f"- _…and {remainder} more_")
+        lines.append("")
     lines.extend(
         [
         "## Phase 3 recall filter",
