@@ -616,5 +616,77 @@ in Session 3c:
 
 ---
 
+## Session 3d — Ontario corpus calibration (2026-04-18)
+
+**Scope.** Bullet-type metadata + coverage-gate weighting so the 937-
+bullet Ontario denominator stops masking Phase 1 scoping failures.
+
+**Step 1 — classification.** Read-only pass over the Session 3c
+Ontario `source_bullets_v1.json`. 937 bullets broke down as 676
+`front_matter`, 181 `other`, 38 `sample_question`, 33
+`specific_expectation` (all Grade 1, not Grade 7), 9 `cross_grade`,
+zero `overall_expectation` / `teacher_prompt`. Diagnostic written to
+`docs/diagnostics/2026-04-18-ontario-bullet-classification.md`. The
+over-extraction is not a detector bug — it's the Phase 1 scoped
+slice capturing the whole document through Grade 1's specific
+expectations.
+
+**Step 2 — bullet_type schema.** Renamed the existing `bullet_type`
+field (the detector name) to `detector` and added a new `bullet_type`
+semantic field with the enum from the brief. `classify_bullet_type`
+is a pure function over (text, source_location, detector,
+target_grade); Phase 1 threads the config's grade through so
+`(Grade N)` cross-references can be disambiguated against the target.
+Retroactive classification on the Session 3c bullets produces counts
+matching the Step 1 diagnosis exactly. All 59 tests pass.
+
+**Step 3 — gate filter.** `_run_loader.py` now buckets bullets into
+coverage-relevant / illustrative / excluded / extraction-errors and
+feeds the coverage-relevant bucket to every gate as `source_corpus`.
+Diagnostic buckets are exposed on `RunArtefacts` so gate reports can
+cite sample-questions and flag large front-matter sets. Backwards-
+compat: pre-Session-3d artefacts (where `bullet_type` held the
+detector name) are reclassified on the fly so the Session 3c snapshot
+can be rebaselined without a Phase-1 re-run.
+
+**Step 4 — rebaseline.** Ran the three foundation-moment-1 gates
+against the Session 3c Ontario snapshot under the Session 3d filter;
+appended the side-by-side comparison to `baseline-measurements-
+2026-04-18.md`. Coverage 0.1 % → 0.0 %, faithfulness 5.6 % → 0.0 %,
+verifiability 36.4 % → 0.0 %. Every previously "covered" / "faithful"
+/ "verifiable" match was against a front-matter or sample-question
+bullet; removing those from the denominator reveals the Phase 1
+scoping failure that was hiding behind the noise.
+
+**Step 5 — end-to-end re-run.** Extended the filter into Phase 4's
+per-LT faithfulness check (with a fallback for the edge case where
+the filter collapses to zero) and ran the full harness on Ontario.
+Regen event distribution is identical to Session 3c in aggregate (1
+`success@retry_1`, 17 `exhausted_retries`, 0 language-bypass), but
+the one successful retry now traces to a real specific_expectation
+bullet rather than to a front-matter line. Gate numbers on the
+Session 3d run: coverage 3.0 %, faithfulness 5.6 %, verifiability
+0.0 %, surface-form PASS 100 %, regen-loop PASS. Snapshot archived at
+`docs/run-snapshots/2026-04-18-session-3d-calibrated/ontario/`.
+
+**What Session 3e should pick up.**
+1. **Phase 1 scoping to Grade 7.** The scoped slice still misses the
+   Grade 7 History section of Ontario's PDF entirely. The Session 3d
+   calibration made this visible; fixing it is a separate session.
+2. **Per-curriculum heuristic calibration.** `classify_bullet_type`'s
+   front-matter tokens and 8000-line cutoff are Ontario-shaped. AP
+   CED, IB, UK NC bullets will mis-tag until recalibrated.
+3. **overall_expectation detector.** Ontario's overall expectations
+   live in section headers the current extractors do not emit as
+   bullets. Zero bullets tagged overall_expectation in this run; a
+   header-level detector is required.
+4. **Phase 3 bullet_type filter.** Session 3d only threaded the
+   filter into Phase 4. Phase 3's faithfulness and per_bullet-branch
+   KUD generation still run against the unfiltered corpus.
+5. **Multilingual matcher / translation step** still deferred from
+   Sessions 3b / 3c; unchanged in Session 3d.
+6. **Phase 3 MCP reliability** still flaky in this run (Sonnet-direct
+   fallback active); unchanged in Session 3d.
+
 <!-- next session entry goes here -->
 
