@@ -82,6 +82,8 @@ def run(run_dir: str) -> dict:
         "gate": "validate_source_coverage",
         "run_dir": str(arte.run_dir),
         "threshold": MATCH_THRESHOLD,
+        "corpus_mode": arte.corpus_mode,
+        "corpus_warning": arte.corpus_warning,
         "total_source_items": total,
         "covered": covered,
         "orphan_count": len(orphans),
@@ -108,6 +110,9 @@ def main() -> int:
         Path(args.out).write_text(out)
     else:
         print(out)
+
+    if report.get("corpus_warning"):
+        print(f"[WARN] {report['corpus_warning']}", file=sys.stderr)
 
     if report["orphan_count"] == 0:
         print(

@@ -143,6 +143,8 @@ def run(run_dir: str) -> dict:
         "gate": "validate_architecture_diagnosis",
         "run_dir": str(arte.run_dir),
         "threshold": MATCH_THRESHOLD,
+        "corpus_mode": arte.corpus_mode,
+        "corpus_warning": arte.corpus_warning,
         "total_strands": total,
         "verifiable": verifiable,
         "unverifiable_count": len(unverifiable),
@@ -169,6 +171,9 @@ def main() -> int:
         Path(args.out).write_text(out)
     else:
         print(out)
+
+    if report.get("corpus_warning"):
+        print(f"[WARN] {report['corpus_warning']}", file=sys.stderr)
 
     if report["unverifiable_count"] == 0:
         print(
