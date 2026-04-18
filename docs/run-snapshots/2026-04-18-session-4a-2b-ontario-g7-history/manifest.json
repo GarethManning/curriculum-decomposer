@@ -1,0 +1,382 @@
+{
+  "acquisition_trace": [
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {
+        "source_reference": "outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf"
+      },
+      "outputs_summary": {
+        "bytes": 5774184,
+        "pdf_magic_ok": true,
+        "source_kind": "path",
+        "source_path": "outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf",
+        "status": "ok"
+      },
+      "primitive": "fetch_pdf_file",
+      "started_at": "2026-04-18T15:28:41.152140+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 113,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "detection_method": "embedded_outline",
+        "entries_count": 146,
+        "sample_entries": [
+          {
+            "depth": 0,
+            "page_number": 7,
+            "source": "embedded_outline",
+            "title": "Considerations for program planning"
+          },
+          {
+            "depth": 1,
+            "page_number": 7,
+            "source": "embedded_outline",
+            "title": "Introduction"
+          },
+          {
+            "depth": 1,
+            "page_number": 7,
+            "source": "embedded_outline",
+            "title": "Student Well-Being and Mental Health"
+          },
+          {
+            "depth": 2,
+            "page_number": 9,
+            "source": "embedded_outline",
+            "title": "The Role of Mental Health and Well-Being"
+          },
+          {
+            "depth": 1,
+            "page_number": 9,
+            "source": "embedded_outline",
+            "title": "Instructional Approaches"
+          }
+        ],
+        "status": "ok",
+        "struct_tree_present": true
+      },
+      "primitive": "detect_toc",
+      "started_at": "2026-04-18T15:28:41.152981+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {
+        "heading_regex": false,
+        "section_identifier": "History, Grade 7"
+      },
+      "outputs_summary": {
+        "matched_entry_page": 245,
+        "matched_entry_title": "History, Grade 7",
+        "resolution_source": "section_identifier_match",
+        "resolved_page_range": [
+          245,
+          266
+        ],
+        "status": "resolved"
+      },
+      "primitive": "resolve_section_scope",
+      "started_at": "2026-04-18T15:28:41.266920+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 20452,
+      "error": null,
+      "inputs": {
+        "heading_regex": false
+      },
+      "outputs_summary": {
+        "chars_out": 46227,
+        "extraction_mode": "page_range",
+        "pages_extracted": [
+          245,
+          266
+        ],
+        "pdfplumber_version": "0.11.9",
+        "source_page_count": 369,
+        "status": "ok"
+      },
+      "primitive": "extract_pdf_text",
+      "started_at": "2026-04-18T15:28:41.266955+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 46227,
+        "checks": [
+          {
+            "flagged": false,
+            "name": "whitespace_runs",
+            "passed": true,
+            "threshold": 50,
+            "value": 0
+          }
+        ],
+        "line_count": 726,
+        "mode": "raw",
+        "verdict": "clean"
+      },
+      "primitive": "verify_raw_extraction",
+      "started_at": "2026-04-18T15:29:01.718703+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 1,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 46227,
+        "chars_out": 46227
+      },
+      "primitive": "normalise_whitespace",
+      "started_at": "2026-04-18T15:29:01.719344+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 15,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 46227,
+        "checks": [
+          {
+            "countable_lines": 653,
+            "docwide_failure": false,
+            "flagged": false,
+            "lines_flagged": 0,
+            "mean_flagged_ratio": 0.0,
+            "name": "character_doubling",
+            "passed": true,
+            "systematic_failure": false,
+            "threshold": 0.2,
+            "value": 0.0
+          },
+          {
+            "flagged": false,
+            "language_details": {
+              "english_hits": 2361,
+              "ratio": 0.3391,
+              "threshold": 0.03,
+              "total_words": 6962
+            },
+            "language_detected": "english_confident",
+            "name": "repeated_bigram",
+            "passed": true,
+            "threshold": 0.75,
+            "top_bigrams": [
+              [
+                "an",
+                884
+              ],
+              [
+                "in",
+                807
+              ],
+              [
+                "ti",
+                768
+              ],
+              [
+                "es",
+                744
+              ],
+              [
+                "th",
+                736
+              ]
+            ],
+            "total_bigrams": 37002,
+            "value": 0.184
+          },
+          {
+            "flagged": false,
+            "name": "empty_line_ratio",
+            "passed": true,
+            "threshold": 0.6000000000000001,
+            "value": 0.029
+          },
+          {
+            "chars_total": 46227,
+            "flagged": false,
+            "name": "completeness",
+            "pages_extracted_count": 22,
+            "passed": true,
+            "source_kind": "pdf",
+            "threshold": 50,
+            "value": 2101.2
+          }
+        ],
+        "line_count": 726,
+        "mode": "normalised",
+        "verdict": "clean"
+      },
+      "primitive": "verify_normalised_extraction",
+      "started_at": "2026-04-18T15:29:01.720850+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "bytes": 46648,
+        "content_hash": "bc7ef9d3b36f9da9a7ffa3182e50aa7977d555c1ea37c2ad2a4d641ccf1d8b93"
+      },
+      "primitive": "content_hash",
+      "started_at": "2026-04-18T15:29:01.736367+00:00",
+      "user_interaction": null
+    }
+  ],
+  "content_files": [
+    "docs/run-snapshots/2026-04-18-session-4a-2b-ontario-g7-history/content.txt"
+  ],
+  "content_hash": "bc7ef9d3b36f9da9a7ffa3182e50aa7977d555c1ea37c2ad2a4d641ccf1d8b93",
+  "detection_hash": "b84fd26bedb3d37491b988d3de8f8f395b89aa9408a6063a70baa19a8cbe914e",
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [
+    "docs/diagnostics/2026-04-18-ontario-overlap-pre-check.md"
+  ],
+  "known_pathology_handling": [],
+  "notes": null,
+  "phase0_version": "0.4.0",
+  "primitive_sequence": [
+    "fetch_pdf_file",
+    "detect_toc",
+    "resolve_section_scope",
+    "extract_pdf_text",
+    "verify_raw_extraction",
+    "normalise_whitespace",
+    "verify_normalised_extraction",
+    "content_hash"
+  ],
+  "scope_acquired": {
+    "chars": 46227,
+    "verification_excerpt": {
+      "first_chars": "History, Grade 7\nOverview\nIn Grade 7 history, students will examine social, political, economic, and legal changes in Canada\nbetween 1713 and 1850. They will explore the experiences of and challenges ",
+      "last_chars": "le in Quebec? What does this memorial tell us about the\nchallenges immigrants faced at the time?\n265",
+      "line_count": 726
+    }
+  },
+  "scope_requested": {
+    "css_selector": null,
+    "follow_links": false,
+    "heading_regex": false,
+    "heading_text": null,
+    "notes": "Ontario K-8 Social Studies / History / Geography (revised 2023), Grade 7 History strand. Origin URL: https://assets-us-01.kc-usercontent.com/fbd574c4-da36-0066-a0c5-849ffb2de96e/f6f2efba-a7aa-4c70-94ce-f7593a7490ca/SocialStudiesHistoryGeography-AODA.pdf. Local-path acquisition; dedup off per Step 3 pre-check findings.",
+    "page_range": null,
+    "pdf_dedup_coord_tolerance": 1,
+    "pdf_dedup_coords": false,
+    "section_heading": null,
+    "section_identifier": "History, Grade 7",
+    "source_reference": "outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf",
+    "url": null
+  },
+  "source_reference": "outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf",
+  "source_type": "multi_section_pdf",
+  "timestamp": "2026-04-18T15:28:41.151426+00:00",
+  "user_interactions": [],
+  "verification_trace": [
+    {
+      "checks_run": [
+        {
+          "flagged": false,
+          "name": "whitespace_runs",
+          "passed": true,
+          "threshold": 50,
+          "value": 0
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_raw_extraction",
+      "timestamp": "2026-04-18T15:29:01.719335+00:00",
+      "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "countable_lines": 653,
+          "docwide_failure": false,
+          "flagged": false,
+          "lines_flagged": 0,
+          "mean_flagged_ratio": 0.0,
+          "name": "character_doubling",
+          "passed": true,
+          "systematic_failure": false,
+          "threshold": 0.2,
+          "value": 0.0
+        },
+        {
+          "flagged": false,
+          "language_details": {
+            "english_hits": 2361,
+            "ratio": 0.3391,
+            "threshold": 0.03,
+            "total_words": 6962
+          },
+          "language_detected": "english_confident",
+          "name": "repeated_bigram",
+          "passed": true,
+          "threshold": 0.75,
+          "top_bigrams": [
+            [
+              "an",
+              884
+            ],
+            [
+              "in",
+              807
+            ],
+            [
+              "ti",
+              768
+            ],
+            [
+              "es",
+              744
+            ],
+            [
+              "th",
+              736
+            ]
+          ],
+          "total_bigrams": 37002,
+          "value": 0.184
+        },
+        {
+          "flagged": false,
+          "name": "empty_line_ratio",
+          "passed": true,
+          "threshold": 0.6000000000000001,
+          "value": 0.029
+        },
+        {
+          "chars_total": 46227,
+          "flagged": false,
+          "name": "completeness",
+          "pages_extracted_count": 22,
+          "passed": true,
+          "source_kind": "pdf",
+          "threshold": 50,
+          "value": 2101.2
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_normalised_extraction",
+      "timestamp": "2026-04-18T15:29:01.736353+00:00",
+      "verdict": "clean"
+    }
+  ]
+}

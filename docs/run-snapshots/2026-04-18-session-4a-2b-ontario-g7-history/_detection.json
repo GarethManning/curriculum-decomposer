@@ -1,0 +1,14 @@
+{
+  "confidence": "high",
+  "is_supported_now": true,
+  "rationale": "PDF has 369 pages and an embedded outline with 16 top-level entries.",
+  "signals": {
+    "bytes": 5774184,
+    "dot_leader_lines": 73,
+    "extension": ".pdf",
+    "has_toc_heading": true,
+    "n_pages": 369,
+    "outline_top_level_entries": 16
+  },
+  "source_type": "multi_section_pdf"
+}
