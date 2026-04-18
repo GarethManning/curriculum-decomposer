@@ -1,0 +1,144 @@
+========================================================================
+Phase 0 manifest spot-check — docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/manifest.json
+========================================================================
+
+Source reference : https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands
+Source type      : js_rendered_progressive_disclosure
+Phase 0 version  : 0.4.0
+Timestamp        : 2026-04-18T16:45:41.814600+00:00
+Content hash     : 3587c48c97efc32b3a2830ead58ba448fe843e63c2ca97d62408a046671ec4e4
+Detection hash   : 4a3c9d129870d3c7aa8e4cf6ddf5efea4e22e1b119a94c69e326d288574f752d
+Encoding detected: None
+Pathologies      : (none)
+
+-- Scope requested --
+  browser_timeout_ms: 60000
+  css_selector: main
+  notes: Ontario DCP Grade 7 History, Expectations by strand. Session 4a-3 Step 6 — first test of js_rendered_progressive_disclosure primitive sequence. Extracts overal…
+  pdf_dedup_coord_tolerance: 1
+  source_reference: https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands
+  url: https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands
+  wait_for_selector: main
+
+-- Scope acquired --
+  chars: 3706
+  verification_excerpt:
+    line_count : 115
+    first_chars: Add
+to my notes
+Expectations by strand
+Add
+to my notes
+A.
+New France and British North America, 1713–1800
+Link
+Why is my child learning this?
+Overall Expectations
+By the end of Grade 7, students will:
+    last_chars : nges
+Back to top
+Previous
+Overview
+Next
+A1. Application: Colonial and Present-day Canada
+Back to top
+
+-- Primitive sequence --
+  1. fetch_via_browser
+  2. dom_hash
+  3. extract_css_selector
+  4. verify_raw_extraction
+  5. normalise_whitespace
+  6. verify_normalised_extraction
+  7. content_hash
+
+-- Acquisition trace --
+  [1] fetch_via_browser  (8832 ms)
+      click_count: 0
+      console_error_count: 0
+      final_url: https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands
+      http_status: 200
+      modal_dismissed: None
+      rendered_html_bytes: 6655212
+      status: ok
+      viewport: 1280x720
+  [2] dom_hash  (7 ms)
+      dom_hash: f158ec221b2aef79fb594fc0144ff9e3f901bb3c6a7eb7504470bf2a0bf0ca38
+      rendered_html_bytes: 6655212
+  [3] extract_css_selector  (36 ms)
+      chars_out: 3706
+      match_count: 1
+      selector: main
+      status: ok
+  [4] verify_raw_extraction  (0 ms)
+      chars_in: 3706
+      checks: [{'flagged': False, 'name': 'whitespace_runs', 'passed': True, 'threshold': 50, 'value': 0}]
+      line_count: 115
+      mode: raw
+      verdict: clean
+  [5] normalise_whitespace  (0 ms)
+      chars_in: 3706
+      chars_out: 3706
+  [6] verify_normalised_extraction  (1 ms)
+      chars_in: 3706
+      checks: [{'countable_lines': 72, 'docwide_failure': False, 'flagged': False, 'lines_flagged': 0, 'mean_flagged_ratio': 0.0, 'name': 'character_doubling', 'passed': Tru…
+      completeness_skipped_reason: no source metadata (fetched_bytes or pages_extracted) available in executor accumulator
+      line_count: 115
+      mode: normalised
+      verdict: clean
+  [7] content_hash  (0 ms)
+      bytes: 3720
+      content_hash: 3587c48c97efc32b3a2830ead58ba448fe843e63c2ca97d62408a046671ec4e4
+
+-- Verification trace --
+  [1] verify_raw_extraction -> verdict: clean
+      whitespace_runs           value=0          threshold=50         [ok]
+  [2] verify_normalised_extraction -> verdict: clean
+      character_doubling        value=0.0        threshold=0.2        [ok]
+      repeated_bigram           value=0.203      threshold=0.75       [ok]
+      empty_line_ratio          value=0.0        threshold=0.6000000000000001 [ok]
+
+-- Content files --
+  docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/rendered_state.png
+  docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/content.txt
+
+-- Content preview --
+  docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/rendered_state.png  (675581 bytes, .png — binary, preview skipped)
+  docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/content.txt  (3706 chars)
+
+  --- first 500 chars ---
+  | Add
+  | to my notes
+  | Expectations by strand
+  | Add
+  | to my notes
+  | A.
+  | New France and British North America, 1713–1800
+  | Link
+  | Why is my child learning this?
+  | Overall Expectations
+  | By the end of Grade 7, students will:
+  | A1.
+  | Application: Colonial and Present-day Canada
+  | Link
+  | analyse aspects of the experiences of various groups and communities, including
+  | First Nations
+  | ,
+  | Métis
+  | , and
+  | Inuit
+  | communities, in Canada between 1713 and 1800, and compare them to the lives of people in present-day Canada (
+  | FOCUS ON:
+  | Continuity
+
+  --- last 200 chars ---
+  | is page
+  | A. New France and British North America, 1713–1800
+  | B. Canada, 1800–1850: Conflict and Challenges
+  | Back to top
+  | Previous
+  | Overview
+  | Next
+  | A1. Application: Colonial and Present-day Canada
+  | Back to top
+

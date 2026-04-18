@@ -216,7 +216,23 @@ def _render(manifest: dict[str, Any], manifest_path: Path) -> str:
             if not cp.exists():
                 out.append(f"  [missing] {p}")
                 continue
-            text = cp.read_text(encoding="utf-8")
+            # Skip binary artefacts (e.g. rendered_state.png for JS-
+            # rendered acquisitions) — spot-check is a text-content
+            # preview tool.
+            if cp.suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".pdf"}:
+                out.append(
+                    f"  {cp}  ({cp.stat().st_size} bytes, "
+                    f"{cp.suffix.lower()} — binary, preview skipped)"
+                )
+                continue
+            try:
+                text = cp.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                out.append(
+                    f"  {cp}  ({cp.stat().st_size} bytes — non-UTF-8, "
+                    "preview skipped)"
+                )
+                continue
             out.append(f"  {cp}  ({len(text)} chars)")
             out.append("")
             head = text[:_PREVIEW_HEAD].rstrip()

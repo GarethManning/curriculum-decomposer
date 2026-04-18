@@ -1,0 +1,9 @@
+{
+  "confidence": "high",
+  "is_supported_now": true,
+  "rationale": "Session 4a-3 Step 6 deterministic override \u2014 Ontario DCP is an Angular Material SPA (ng-version + mat-* markers).",
+  "signals": {
+    "override_source": "session_4a_3_step_6_runner"
+  },
+  "source_type": "js_rendered_progressive_disclosure"
+}
