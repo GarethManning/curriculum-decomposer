@@ -313,3 +313,92 @@ construction.
   `docs/run-snapshots/2026-04-18-session-3b-phase1-stability/runA_source_bullets.json`
   (runA and runB are byte-identical on bullet text — see variance report)
 
+## Session 3d — Ontario calibrated baseline
+
+Re-running the three foundation-moment-1 gates on the **Session 3c**
+Ontario snapshot (`outputs/ontario-2026-04-18-session-3c-e2e/`) under
+the Session-3d weighted coverage gate. The Session 3c snapshot bullets
+are still schema-v3a (bullet_type = detector name); the loader
+reclassifies them on the fly via `classify_bullet_type`, so the same
+artefact produces different gate numbers depending on whether the
+filter is active. Both readings are kept side by side so the
+calibration effect is visible rather than retold.
+
+### Ontario — Session 3c snapshot, before vs after bullet_type filter
+
+Both columns use the same learning_targets and source_bullets artefact
+files. "Before" treats all 937 bullets as coverage-relevant (the
+pre-Session-3d behaviour). "After" filters the corpus to the 33
+`specific_expectation` bullets before running each gate.
+
+| Gate                             | Session 3c (unfiltered, 937 bullets) | Session 3d (filtered, 33 bullets) |
+|---------------------------------|------------------------------------:|----------------------------------:|
+| source_coverage                 |  **0.1 %** (1 / 937)                | **0.0 %** (0 / 33)                |
+| source_faithfulness             |  **5.6 %** (1 / 18)                 | **0.0 %** (0 / 18)                |
+| architecture_diagnosis verifiability | **36.4 %** (4 / 11)            | **0.0 %** (0 / 11)                |
+
+Bullet-type counts for this snapshot (see
+`docs/diagnostics/2026-04-18-ontario-bullet-classification.md`):
+
+| bullet_type            | count |
+|------------------------|------:|
+| front_matter           |  676  |
+| other                  |  181  |
+| sample_question        |   38  |
+| specific_expectation   |   33  |
+| cross_grade            |    9  |
+| overall_expectation    |    0  |
+| teacher_prompt         |    0  |
+| **total**              |  937  |
+
+### Reading the move
+
+- **Coverage 0.1 % → 0.0 %.** The one "covered" bullet under the old
+  denominator was a front-matter match; removing front_matter from
+  the corpus removes it from the count. The denominator drops from
+  937 → 33. Zero of the 33 specific_expectation bullets match any LT
+  because the 33 are Grade 1 content (A1.1 `describe how and why a
+  person's roles … change`) while the LTs are at Grade 7 grain.
+  Session 3d's number is the honest measurement; Session 3c's was
+  masked noise.
+- **Faithfulness 5.6 % → 0.0 %.** The one LT clearing threshold in
+  Session 3c was matching against a non-content bullet (a
+  front-matter or sample-question line). Removing the illustrative /
+  excluded buckets from the corpus drops it. Every LT now fails
+  faithfulness because the only coverage-relevant bullets available
+  are Grade-1-grain. This is consistent with Session 3c's 17 / 18
+  human_review_required signal: the content mismatch is real.
+- **Verifiability 36.4 % → 0.0 %.** Four of eleven strand labels
+  previously cleared threshold against the 937-bullet corpus; all
+  four of those matches were against front-matter or sample-question
+  bullets (e.g., strand "Historical Significance" finding a
+  sample-question line mentioning history). Under the filtered corpus
+  no strand label finds a Grade 1 specific_expectation that matches
+  — a true-zero verifiability against the coverage-relevant corpus.
+
+### What this baseline is actually measuring
+
+The calibrated numbers are a composite of two phenomena:
+
+1. **Phase 1 scoping failure** (out of scope for Session 3d). The
+   scoped slice captured the document's introduction through Grade 1
+   expectations. Grade 7 History is not in the corpus at all. The
+   coverage-relevant bullets are therefore all at the wrong grade.
+2. **Coverage-gate denominator calibration** (Session 3d's scope).
+   The filter correctly rejects illustrative + excluded content so
+   the gate reports against the right structural set. What the
+   structural set contains is a different problem.
+
+Session 3d's calibration is what turned (1) from an invisible problem
+into a visible one. Pre-calibration, the non-zero numbers
+(0.1 / 5.6 / 36.4) masked the scoping failure — a reviewer would read
+them as "some coverage exists, a few LTs are faithful" rather than
+"the source corpus and the LT set are disjoint at the grade level".
+
+### Artefacts
+
+- Full gate JSON: `docs/project-log/baseline-2026-04-18-session-3d/*.json`
+- Input run dir: `outputs/ontario-2026-04-18-session-3c-e2e/`
+- Classification diagnostic:
+  `docs/diagnostics/2026-04-18-ontario-bullet-classification.md`
+

@@ -1,0 +1,278 @@
+{
+  "gate": "validate_source_faithfulness",
+  "run_dir": "outputs/ontario-2026-04-18-session-3c-e2e",
+  "threshold": 0.35,
+  "corpus_mode": "bullets",
+  "corpus_warning": "excluded bucket has 857 bullets (front_matter + other), above review threshold 20 — Phase 1 scoping may be letting in non-content. | extraction-error bucket has 9 cross-grade bullet(s); Phase 1 scoping captured content outside the target grade.",
+  "bullet_type_counts": {
+    "specific_expectation": 33,
+    "overall_expectation": 0,
+    "sample_question": 38,
+    "teacher_prompt": 0,
+    "cross_grade": 9,
+    "front_matter": 676,
+    "other": 181,
+    "total": 937
+  },
+  "coverage_relevant_bullets": 33,
+  "total_lts": 18,
+  "faithful": 0,
+  "invented_count": 18,
+  "faithfulness_pct": 0.0,
+  "potentially_invented": [
+    {
+      "lt_index": 0,
+      "statement": "I can sequence historical events accurately on timelines showing their chronological order.",
+      "best_source_provenance": "source_bullets.sb_739 (specific_expectation)",
+      "best_source_text": "A1.3 compare some of the significant events in their own lives and/or the lives of their family20",
+      "best_score": 0.0833
+    },
+    {
+      "lt_index": 1,
+      "statement": "I can interpret First Nations, Métis, and Inuit worldviews to explain their distinct cultural contributions.",
+      "best_source_provenance": "source_bullets.sb_755 (specific_expectation)",
+      "best_source_text": "A1.5 identify some of the ways in which First Nations, Métis, and Inuit individuals and communities are",
+      "best_score": 0.3333
+    },
+    {
+      "lt_index": 2,
+      "statement": "I can analyze civic structures through different governance frameworks to explain how democratic processes function.",
+      "best_source_provenance": "source_bullets.sb_929 (specific_expectation)",
+      "best_source_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+      "best_score": 0.0714
+    },
+    {
+      "lt_index": 3,
+      "statement": "I can articulate personal learning preferences and identity patterns that support effective choice-making.",
+      "best_source_provenance": "source_bullets.sb_815 (specific_expectation)",
+      "best_source_text": "A3.4 identify some elements of positive and inclusive behaviour and actions that they can practise in",
+      "best_score": 0.0622
+    },
+    {
+      "lt_index": 4,
+      "statement": "I can explain how physical geographic features influence human settlement patterns and activities.",
+      "best_source_provenance": "source_bullets.sb_892 (specific_expectation)",
+      "best_source_text": "B3.2 identify some of the natural and built features of their community (e.g., rivers, lakes, forests, parks,",
+      "best_score": 0.05
+    },
+    {
+      "lt_index": 5,
+      "statement": "I can trace how specific historical events created the conditions that shaped current situations.",
+      "best_source_provenance": "source_bullets.sb_749 (specific_expectation)",
+      "best_source_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+      "best_score": 0.0838
+    },
+    {
+      "lt_index": 6,
+      "statement": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance.",
+      "best_source_provenance": "source_bullets.sb_779 (specific_expectation)",
+      "best_source_text": "A2.3 analyse and construct simple maps as part of their investigations into places that are significant to",
+      "best_score": 0.1
+    },
+    {
+      "lt_index": 7,
+      "statement": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments.",
+      "best_source_provenance": "source_bullets.sb_766 (specific_expectation)",
+      "best_source_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+      "best_score": 0.0556
+    },
+    {
+      "lt_index": 8,
+      "statement": "I can evaluate civic engagement as shared responsibility necessary for democratic systems to function.",
+      "best_source_provenance": "source_bullets.sb_718 (specific_expectation)",
+      "best_source_text": "A1.1 describe how and why a person’s roles, relationships, and responsibilities, in relation to others and",
+      "best_score": 0.0625
+    },
+    {
+      "lt_index": 9,
+      "statement": "I can articulate how my abilities and mindset have changed through specific learning experiences.",
+      "best_source_provenance": "source_bullets.sb_847 (specific_expectation)",
+      "best_source_text": "B1.3 create a plan that outlines some specific ways in which they can responsibly interact with the built",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 10,
+      "statement": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps.",
+      "best_source_provenance": "source_bullets.sb_872 (specific_expectation)",
+      "best_source_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+      "best_score": 0.1111
+    },
+    {
+      "lt_index": 11,
+      "statement": "I can evaluate historical evidence and develop reasoned interpretations about past events.",
+      "best_source_provenance": "source_bullets.sb_790 (specific_expectation)",
+      "best_source_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+      "best_score": 0.2143
+    },
+    {
+      "lt_index": 12,
+      "statement": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts.",
+      "best_source_provenance": "source_bullets.sb_794 (specific_expectation)",
+      "best_source_text": "A2.6 communicate the results of their inquiries, using appropriate vocabulary (e.g., role, relationship,",
+      "best_score": 0.1
+    },
+    {
+      "lt_index": 13,
+      "statement": "I can evaluate civic engagement strategies by analyzing how they address democratic participation across different governance contexts.",
+      "best_source_provenance": "source_bullets.sb_929 (specific_expectation)",
+      "best_source_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+      "best_score": 0.0625
+    },
+    {
+      "lt_index": 14,
+      "statement": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions.",
+      "best_source_provenance": "source_bullets.sb_766 (specific_expectation)",
+      "best_source_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+      "best_score": 0.1176
+    },
+    {
+      "lt_index": 15,
+      "statement": "I can show empathy toward different perspectives during classroom discussions and collaborative work.",
+      "best_source_provenance": "source_bullets.sb_749 (specific_expectation)",
+      "best_source_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 16,
+      "statement": "I can habitually question claims and seek evidence as natural thinking patterns.",
+      "best_source_provenance": "source_bullets.sb_790 (specific_expectation)",
+      "best_source_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 17,
+      "statement": "I can sustain productive collaboration by building on others' ideas and managing group dynamics constructively.",
+      "best_source_provenance": "source_bullets.sb_718 (specific_expectation)",
+      "best_source_text": "A1.1 describe how and why a person’s roles, relationships, and responsibilities, in relation to others and",
+      "best_score": 0.0588
+    }
+  ],
+  "per_lt": [
+    {
+      "lt_index": 0,
+      "statement": "I can sequence historical events accurately on timelines showing their chronological order.",
+      "best_source_provenance": "source_bullets.sb_739 (specific_expectation)",
+      "best_source_text": "A1.3 compare some of the significant events in their own lives and/or the lives of their family20",
+      "best_score": 0.0833
+    },
+    {
+      "lt_index": 1,
+      "statement": "I can interpret First Nations, Métis, and Inuit worldviews to explain their distinct cultural contributions.",
+      "best_source_provenance": "source_bullets.sb_755 (specific_expectation)",
+      "best_source_text": "A1.5 identify some of the ways in which First Nations, Métis, and Inuit individuals and communities are",
+      "best_score": 0.3333
+    },
+    {
+      "lt_index": 2,
+      "statement": "I can analyze civic structures through different governance frameworks to explain how democratic processes function.",
+      "best_source_provenance": "source_bullets.sb_929 (specific_expectation)",
+      "best_source_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+      "best_score": 0.0714
+    },
+    {
+      "lt_index": 3,
+      "statement": "I can articulate personal learning preferences and identity patterns that support effective choice-making.",
+      "best_source_provenance": "source_bullets.sb_815 (specific_expectation)",
+      "best_source_text": "A3.4 identify some elements of positive and inclusive behaviour and actions that they can practise in",
+      "best_score": 0.0622
+    },
+    {
+      "lt_index": 4,
+      "statement": "I can explain how physical geographic features influence human settlement patterns and activities.",
+      "best_source_provenance": "source_bullets.sb_892 (specific_expectation)",
+      "best_source_text": "B3.2 identify some of the natural and built features of their community (e.g., rivers, lakes, forests, parks,",
+      "best_score": 0.05
+    },
+    {
+      "lt_index": 5,
+      "statement": "I can trace how specific historical events created the conditions that shaped current situations.",
+      "best_source_provenance": "source_bullets.sb_749 (specific_expectation)",
+      "best_source_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+      "best_score": 0.0838
+    },
+    {
+      "lt_index": 6,
+      "statement": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance.",
+      "best_source_provenance": "source_bullets.sb_779 (specific_expectation)",
+      "best_source_text": "A2.3 analyse and construct simple maps as part of their investigations into places that are significant to",
+      "best_score": 0.1
+    },
+    {
+      "lt_index": 7,
+      "statement": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments.",
+      "best_source_provenance": "source_bullets.sb_766 (specific_expectation)",
+      "best_source_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+      "best_score": 0.0556
+    },
+    {
+      "lt_index": 8,
+      "statement": "I can evaluate civic engagement as shared responsibility necessary for democratic systems to function.",
+      "best_source_provenance": "source_bullets.sb_718 (specific_expectation)",
+      "best_source_text": "A1.1 describe how and why a person’s roles, relationships, and responsibilities, in relation to others and",
+      "best_score": 0.0625
+    },
+    {
+      "lt_index": 9,
+      "statement": "I can articulate how my abilities and mindset have changed through specific learning experiences.",
+      "best_source_provenance": "source_bullets.sb_847 (specific_expectation)",
+      "best_source_text": "B1.3 create a plan that outlines some specific ways in which they can responsibly interact with the built",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 10,
+      "statement": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps.",
+      "best_source_provenance": "source_bullets.sb_872 (specific_expectation)",
+      "best_source_text": "B2.4 interpret and analyse information and data relevant to their investigations, using a variety of tools",
+      "best_score": 0.1111
+    },
+    {
+      "lt_index": 11,
+      "statement": "I can evaluate historical evidence and develop reasoned interpretations about past events.",
+      "best_source_provenance": "source_bullets.sb_790 (specific_expectation)",
+      "best_source_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+      "best_score": 0.2143
+    },
+    {
+      "lt_index": 12,
+      "statement": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts.",
+      "best_source_provenance": "source_bullets.sb_794 (specific_expectation)",
+      "best_source_text": "A2.6 communicate the results of their inquiries, using appropriate vocabulary (e.g., role, relationship,",
+      "best_score": 0.1
+    },
+    {
+      "lt_index": 13,
+      "statement": "I can evaluate civic engagement strategies by analyzing how they address democratic participation across different governance contexts.",
+      "best_source_provenance": "source_bullets.sb_929 (specific_expectation)",
+      "best_source_text": "B3.8 identify some of the services in the community for which the government and/or community is",
+      "best_score": 0.0625
+    },
+    {
+      "lt_index": 14,
+      "statement": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions.",
+      "best_source_provenance": "source_bullets.sb_766 (specific_expectation)",
+      "best_source_text": "A2.1 formulate questions to guide investigations into some aspects of the interrelationship between",
+      "best_score": 0.1176
+    },
+    {
+      "lt_index": 15,
+      "statement": "I can show empathy toward different perspectives during classroom discussions and collaborative work.",
+      "best_source_provenance": "source_bullets.sb_749 (specific_expectation)",
+      "best_source_text": "A1.4 describe the impact that people can have on each other in some different situations (e.g., when a",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 16,
+      "statement": "I can habitually question claims and seek evidence as natural thinking patterns.",
+      "best_source_provenance": "source_bullets.sb_790 (specific_expectation)",
+      "best_source_text": "A2.5 evaluate evidence and draw conclusions about some aspects of the interrelationship between",
+      "best_score": 0.0667
+    },
+    {
+      "lt_index": 17,
+      "statement": "I can sustain productive collaboration by building on others' ideas and managing group dynamics constructively.",
+      "best_source_provenance": "source_bullets.sb_718 (specific_expectation)",
+      "best_source_text": "A1.1 describe how and why a person’s roles, relationships, and responsibilities, in relation to others and",
+      "best_score": 0.0588
+    }
+  ]
+}
