@@ -1,0 +1,132 @@
+{
+  "run_at": "2026-04-18T19:18:03.108777+00:00",
+  "preflight": {
+    "ap_ced_local_pdf": {
+      "expected_path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+      "found": true,
+      "bytes": 11627002
+    },
+    "common_core_raw_html_search": {
+      "ran": true,
+      "found": true,
+      "notes": "outputs/phase0-test-common-core-7rp-2026-04-18/content.txt"
+    },
+    "ontario_k8_pdf": {
+      "expected_path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf",
+      "found": true,
+      "bytes": 5774184
+    }
+  },
+  "artefacts": [
+    {
+      "slug": "common-core-7rp",
+      "outcome": "unavailable",
+      "reason": "Cloudflare challenge blocks programmatic re-fetch; no preserved raw HTML available. [pause: Unsupported source_type: unknown]",
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-common-core-7rp/manifest.json",
+      "raw_content_files": []
+    },
+    {
+      "slug": "dfe-ks3-maths-pdf",
+      "outcome": "ok",
+      "content_hash": "260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa",
+      "source_type": "flat_pdf_linear",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-dfe-ks3-maths-pdf/raw.pdf",
+          "hash": "faf4c691aae8012836f162f6f2d041bb83849024b1c80496bdcb1b30289cf7a3",
+          "file_type": "source_pdf",
+          "bytes": 209954
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-dfe-ks3-maths-pdf/manifest.json"
+    },
+    {
+      "slug": "ap-usgov-ced-unit1",
+      "outcome": "ok",
+      "content_hash": "e6eea33806b8ab5ef1b17955d3417032ec549e602262c45f48d20b40c06f396d",
+      "source_type": "flat_pdf_linear",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+          "hash": "bf9f4aabe761a385a24be0ea2071c303cfc06dbf304d73ba34271161bb060c14",
+          "file_type": "source_reference",
+          "bytes": 11627002
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ap-usgov-ced-unit1/manifest.json"
+    },
+    {
+      "slug": "ontario-k8-g7-history-pdf",
+      "outcome": "ok",
+      "content_hash": "bc7ef9d3b36f9da9a7ffa3182e50aa7977d555c1ea37c2ad2a4d641ccf1d8b93",
+      "source_type": "multi_section_pdf",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ontario-g7-history-2026-04-18/_source.pdf",
+          "hash": "9d5aaf958affc56d9144cfa0b15da387e37cf170ce8b49aa18490c1ad8a46f0a",
+          "file_type": "source_reference",
+          "bytes": 5774184
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-k8-g7-history-pdf/manifest.json"
+    },
+    {
+      "slug": "ontario-dcp-g7-history",
+      "outcome": "ok",
+      "content_hash": "3587c48c97efc32b3a2830ead58ba448fe843e63c2ca97d62408a046671ec4e4",
+      "source_type": "js_rendered_progressive_disclosure",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/raw_rendered.html",
+          "hash": "f7be7160d1ff67a420857cf1f26b1a9eb16153b8c2ab560fd50b3a08d5c06730",
+          "file_type": "rendered_html",
+          "bytes": 6661671
+        },
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/rendered_state.png",
+          "hash": "c1ad5972173cf2315102a65dad0e501a984eaab8cb4a7b013a0081737b465a72",
+          "file_type": "rendered_screenshot",
+          "bytes": 675581
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/manifest.json"
+    },
+    {
+      "slug": "nz-curriculum-social-sciences",
+      "outcome": "unavailable",
+      "reason": "Bot detection on live fetch (observed 4a-4); no preserved rendered DOM HTML available. [extraction returned empty content \u2014 source appears to be serving a bot-detection shell rather than real curriculum content]",
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-nz-curriculum-social-sciences/manifest.json",
+      "raw_content_files": []
+    },
+    {
+      "slug": "gov-uk-nc-maths-ks3",
+      "outcome": "ok",
+      "content_hash": "42231e74d2256d517b4d0bb9c94076d0dac5ccce381d6b67794cbe7c940d8ca9",
+      "source_type": "html_nested_dom",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-gov-uk-nc-maths-ks3/raw.html",
+          "hash": "6de4d7fc5549fb4b0629ec60a68bc77354e4e44903910a63224cb39a9c25b475",
+          "file_type": "source_html",
+          "bytes": 302525
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-gov-uk-nc-maths-ks3/manifest.json"
+    },
+    {
+      "slug": "wales-cfw-maths-sow",
+      "outcome": "ok",
+      "content_hash": "e3a265920c2664bc12a1127e9d8c5623e59acac475bfda4fea0abaee6c1aff65",
+      "source_type": "html_nested_dom",
+      "raw_content_files": [
+        {
+          "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-wales-cfw-maths-sow/raw.html",
+          "hash": "abcbffc45b0f28d1ccbfb32d6d77b8b5adb5057135e07c408f2ec2f06c83080d",
+          "file_type": "source_html",
+          "bytes": 121028
+        }
+      ],
+      "manifest": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-wales-cfw-maths-sow/manifest.json"
+    }
+  ]
+}

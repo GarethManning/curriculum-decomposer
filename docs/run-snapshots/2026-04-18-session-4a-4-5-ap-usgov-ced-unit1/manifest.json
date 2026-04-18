@@ -1,0 +1,339 @@
+{
+  "acquisition_trace": [
+    {
+      "duration_ms": 11,
+      "error": null,
+      "inputs": {
+        "source_reference": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf"
+      },
+      "outputs_summary": {
+        "bytes": 11627002,
+        "pdf_magic_ok": true,
+        "raw_bytes": 11627002,
+        "raw_hash": "bf9f4aabe761a385a24be0ea2071c303cfc06dbf304d73ba34271161bb060c14",
+        "raw_reference_path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+        "raw_saved": false,
+        "source_kind": "path",
+        "source_path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+        "status": "ok"
+      },
+      "primitive": "fetch_pdf_file",
+      "started_at": "2026-04-18T19:18:04.638393+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 8666,
+      "error": null,
+      "inputs": {
+        "heading_regex": false,
+        "page_range": [
+          40,
+          55
+        ],
+        "pdf_dedup_coord_tolerance": 1,
+        "section_heading": "Foundations of American Democracy"
+      },
+      "outputs_summary": {
+        "chars_before_total": 26218,
+        "chars_out": 25075,
+        "chars_removed_total": 2067,
+        "coord_tolerance": 1,
+        "extraction_mode": "page_range",
+        "heading_verification": {
+          "heading_found": true,
+          "heading_line": "Foundations of American Democracy",
+          "heading_line_index": 134,
+          "next_heading_line_index": 137
+        },
+        "pages_extracted": [
+          40,
+          55
+        ],
+        "pdfplumber_version": "0.11.9",
+        "source_page_count": 198,
+        "status": "ok"
+      },
+      "primitive": "extract_pdf_text_deduped",
+      "started_at": "2026-04-18T19:18:04.649561+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 25075,
+        "checks": [
+          {
+            "flagged": false,
+            "name": "whitespace_runs",
+            "passed": true,
+            "threshold": 50,
+            "value": 0
+          }
+        ],
+        "line_count": 828,
+        "mode": "raw",
+        "verdict": "clean"
+      },
+      "primitive": "verify_raw_extraction",
+      "started_at": "2026-04-18T19:18:13.316223+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 25075,
+        "chars_out": 24586
+      },
+      "primitive": "normalise_whitespace",
+      "started_at": "2026-04-18T19:18:13.316626+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 8,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 24586,
+        "checks": [
+          {
+            "countable_lines": 633,
+            "docwide_failure": false,
+            "flagged": false,
+            "lines_flagged": 0,
+            "mean_flagged_ratio": 0.0,
+            "name": "character_doubling",
+            "passed": true,
+            "systematic_failure": false,
+            "threshold": 0.2,
+            "value": 0.0
+          },
+          {
+            "flagged": false,
+            "language_details": {
+              "english_hits": 1115,
+              "ratio": 0.3147,
+              "threshold": 0.03,
+              "total_words": 3543
+            },
+            "language_detected": "english_confident",
+            "name": "repeated_bigram",
+            "passed": true,
+            "threshold": 0.75,
+            "top_bigrams": [
+              [
+                "ti",
+                473
+              ],
+              [
+                "on",
+                434
+              ],
+              [
+                "es",
+                389
+              ],
+              [
+                "nt",
+                381
+              ],
+              [
+                "th",
+                347
+              ]
+            ],
+            "total_bigrams": 19730,
+            "value": 0.183
+          },
+          {
+            "flagged": false,
+            "name": "empty_line_ratio",
+            "passed": true,
+            "threshold": 0.6000000000000001,
+            "value": 0.021
+          },
+          {
+            "chars_total": 24586,
+            "flagged": false,
+            "name": "completeness",
+            "pages_extracted_count": 16,
+            "passed": true,
+            "source_kind": "pdf",
+            "threshold": 50,
+            "value": 1536.6
+          }
+        ],
+        "line_count": 828,
+        "mode": "normalised",
+        "verdict": "clean"
+      },
+      "primitive": "verify_normalised_extraction",
+      "started_at": "2026-04-18T19:18:13.317628+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "bytes": 24850,
+        "content_hash": "e6eea33806b8ab5ef1b17955d3417032ec549e602262c45f48d20b40c06f396d"
+      },
+      "primitive": "content_hash",
+      "started_at": "2026-04-18T19:18:13.326539+00:00",
+      "user_interaction": null
+    }
+  ],
+  "content_files": [
+    "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ap-usgov-ced-unit1/content.txt"
+  ],
+  "content_hash": "e6eea33806b8ab5ef1b17955d3417032ec549e602262c45f48d20b40c06f396d",
+  "detection_hash": "2dbccef220073fca4d2855eaee845be9d94557204456eec5bea89772f2c458bc",
+  "dom_hash": null,
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [],
+  "known_pathology_handling": [],
+  "notes": null,
+  "phase0_version": "0.6.0",
+  "primitive_sequence": [
+    "fetch_pdf_file",
+    "extract_pdf_text_deduped",
+    "verify_raw_extraction",
+    "normalise_whitespace",
+    "verify_normalised_extraction",
+    "content_hash"
+  ],
+  "raw_content_files": [
+    {
+      "bytes": 11627002,
+      "file_type": "source_reference",
+      "hash": "bf9f4aabe761a385a24be0ea2071c303cfc06dbf304d73ba34271161bb060c14",
+      "path": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf"
+    }
+  ],
+  "raw_content_unavailable": null,
+  "scope_acquired": {
+    "chars": 24586,
+    "verification_excerpt": {
+      "first_chars": "AP U.S. GOVERNMENT\nAND POLITICS\nUNIT\n1\nFoundations\nof American\nDemocracy\n15\u201322%\nAP EXAM WEIGHTING\n~16/~8\nCLASS PERIODS\n|\nAP U.S. Government and Politics\u2002Course and Exam Description Course Framework\u2002V.",
+      "last_chars": "ourse and Exam Description Course Framework\u2002V.1\u2003\u200348\nReturn to Table of Contents\n\u00a9 2023 College Board",
+      "line_count": 828
+    }
+  },
+  "scope_requested": {
+    "heading_regex": false,
+    "notes": null,
+    "page_range": [
+      40,
+      55
+    ],
+    "pdf_dedup_coord_tolerance": 1,
+    "pdf_dedup_coords": true,
+    "section_heading": "Foundations of American Democracy",
+    "source_reference": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+    "source_type": "flat_pdf_linear"
+  },
+  "source_reference": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+  "source_type": "flat_pdf_linear",
+  "timestamp": "2026-04-18T19:18:04.638369+00:00",
+  "user_interactions": [],
+  "verification_trace": [
+    {
+      "checks_run": [
+        {
+          "flagged": false,
+          "name": "whitespace_runs",
+          "passed": true,
+          "threshold": 50,
+          "value": 0
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_raw_extraction",
+      "timestamp": "2026-04-18T19:18:13.316613+00:00",
+      "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "countable_lines": 633,
+          "docwide_failure": false,
+          "flagged": false,
+          "lines_flagged": 0,
+          "mean_flagged_ratio": 0.0,
+          "name": "character_doubling",
+          "passed": true,
+          "systematic_failure": false,
+          "threshold": 0.2,
+          "value": 0.0
+        },
+        {
+          "flagged": false,
+          "language_details": {
+            "english_hits": 1115,
+            "ratio": 0.3147,
+            "threshold": 0.03,
+            "total_words": 3543
+          },
+          "language_detected": "english_confident",
+          "name": "repeated_bigram",
+          "passed": true,
+          "threshold": 0.75,
+          "top_bigrams": [
+            [
+              "ti",
+              473
+            ],
+            [
+              "on",
+              434
+            ],
+            [
+              "es",
+              389
+            ],
+            [
+              "nt",
+              381
+            ],
+            [
+              "th",
+              347
+            ]
+          ],
+          "total_bigrams": 19730,
+          "value": 0.183
+        },
+        {
+          "flagged": false,
+          "name": "empty_line_ratio",
+          "passed": true,
+          "threshold": 0.6000000000000001,
+          "value": 0.021
+        },
+        {
+          "chars_total": 24586,
+          "flagged": false,
+          "name": "completeness",
+          "pages_extracted_count": 16,
+          "passed": true,
+          "source_kind": "pdf",
+          "threshold": 50,
+          "value": 1536.6
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_normalised_extraction",
+      "timestamp": "2026-04-18T19:18:13.326520+00:00",
+      "verdict": "clean"
+    }
+  ]
+}

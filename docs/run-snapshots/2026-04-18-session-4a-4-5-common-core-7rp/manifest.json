@@ -1,0 +1,36 @@
+{
+  "acquisition_trace": [],
+  "content_files": [],
+  "content_hash": null,
+  "detection_hash": null,
+  "dom_hash": null,
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [],
+  "known_pathology_handling": [],
+  "notes": "Session 4a-4.5 Step 5 regeneration for `Common Core 7.RP` attempted but source is unavailable for programmatic re-fetch. Extracted content persists under the canonical 4a-N snapshot.",
+  "phase0_version": "0.6.0",
+  "primitive_sequence": [],
+  "raw_content_files": [],
+  "raw_content_unavailable": {
+    "first_observed_at": "2026-04-18",
+    "reason": "Cloudflare challenge blocks programmatic re-fetch; no preserved raw HTML available. [pause: Unsupported source_type: unknown]",
+    "value": true
+  },
+  "scope_acquired": {},
+  "scope_requested": {
+    "css_selector": "article section.content",
+    "follow_links": false,
+    "heading_regex": false,
+    "heading_text": null,
+    "notes": null,
+    "source_reference": "https://www.thecorestandards.org/Math/Content/7/RP/",
+    "source_type": "static_html_linear",
+    "url": "https://www.thecorestandards.org/Math/Content/7/RP/"
+  },
+  "source_reference": "https://www.thecorestandards.org/Math/Content/7/RP/",
+  "source_type": "unknown",
+  "timestamp": "2026-04-18T19:18:03.269063+00:00",
+  "user_interactions": [],
+  "verification_trace": []
+}

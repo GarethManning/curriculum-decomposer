@@ -1,0 +1,325 @@
+{
+  "acquisition_trace": [
+    {
+      "duration_ms": 256,
+      "error": null,
+      "inputs": {
+        "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf"
+      },
+      "outputs_summary": {
+        "bytes": 209954,
+        "content_type": "application/pdf",
+        "content_type_mismatch": false,
+        "final_url": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+        "http_status": 200,
+        "pdf_magic_ok": true,
+        "raw_bytes": 209954,
+        "raw_hash": "faf4c691aae8012836f162f6f2d041bb83849024b1c80496bdcb1b30289cf7a3",
+        "raw_path": "raw.pdf",
+        "raw_saved": true,
+        "robots_reason": "allowed",
+        "source_kind": "url",
+        "status": "ok"
+      },
+      "primitive": "fetch_pdf_file",
+      "started_at": "2026-04-18T19:18:03.768658+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 364,
+      "error": null,
+      "inputs": {
+        "heading_regex": false
+      },
+      "outputs_summary": {
+        "chars_out": 15737,
+        "extraction_mode": "full_document",
+        "pages_extracted": [
+          1,
+          9
+        ],
+        "pdfplumber_version": "0.11.9",
+        "source_page_count": 9,
+        "status": "ok"
+      },
+      "primitive": "extract_pdf_text",
+      "started_at": "2026-04-18T19:18:04.025897+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 15737,
+        "checks": [
+          {
+            "flagged": false,
+            "name": "whitespace_runs",
+            "passed": true,
+            "threshold": 50,
+            "value": 0
+          }
+        ],
+        "line_count": 283,
+        "mode": "raw",
+        "verdict": "clean"
+      },
+      "primitive": "verify_raw_extraction",
+      "started_at": "2026-04-18T19:18:04.390736+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 15737,
+        "chars_out": 15737
+      },
+      "primitive": "normalise_whitespace",
+      "started_at": "2026-04-18T19:18:04.391014+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 5,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 15737,
+        "checks": [
+          {
+            "countable_lines": 244,
+            "docwide_failure": false,
+            "flagged": false,
+            "lines_flagged": 0,
+            "mean_flagged_ratio": 0.0,
+            "name": "character_doubling",
+            "passed": true,
+            "systematic_failure": false,
+            "threshold": 0.2,
+            "value": 0.0
+          },
+          {
+            "flagged": false,
+            "language_details": {
+              "english_hits": 696,
+              "ratio": 0.3146,
+              "threshold": 0.03,
+              "total_words": 2212
+            },
+            "language_detected": "english_confident",
+            "name": "repeated_bigram",
+            "passed": true,
+            "threshold": 0.75,
+            "top_bigrams": [
+              [
+                "an",
+                300
+              ],
+              [
+                "in",
+                291
+              ],
+              [
+                "ti",
+                270
+              ],
+              [
+                "at",
+                261
+              ],
+              [
+                "nd",
+                255
+              ]
+            ],
+            "total_bigrams": 12866,
+            "value": 0.184
+          },
+          {
+            "flagged": false,
+            "name": "empty_line_ratio",
+            "passed": true,
+            "threshold": 0.6000000000000001,
+            "value": 0.028
+          },
+          {
+            "chars_total": 15737,
+            "flagged": false,
+            "name": "completeness",
+            "pages_extracted_count": 9,
+            "passed": true,
+            "source_kind": "pdf",
+            "threshold": 50,
+            "value": 1748.6
+          }
+        ],
+        "line_count": 283,
+        "mode": "normalised",
+        "verdict": "clean"
+      },
+      "primitive": "verify_normalised_extraction",
+      "started_at": "2026-04-18T19:18:04.391644+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "bytes": 15984,
+        "content_hash": "260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa"
+      },
+      "primitive": "content_hash",
+      "started_at": "2026-04-18T19:18:04.396931+00:00",
+      "user_interaction": null
+    }
+  ],
+  "content_files": [
+    "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-dfe-ks3-maths-pdf/content.txt"
+  ],
+  "content_hash": "260154d50a6016f499e866d6e6e71c4f90dae7ac1c8f7800eeb552fa8336bafa",
+  "detection_hash": "4e6fada5d30ef42171087e3a1d91a5e7a52757958a9a1ab3e1a16c4b8a326e0c",
+  "dom_hash": null,
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [],
+  "known_pathology_handling": [],
+  "notes": null,
+  "phase0_version": "0.6.0",
+  "primitive_sequence": [
+    "fetch_pdf_file",
+    "extract_pdf_text",
+    "verify_raw_extraction",
+    "normalise_whitespace",
+    "verify_normalised_extraction",
+    "content_hash"
+  ],
+  "raw_content_files": [
+    {
+      "bytes": 209954,
+      "file_type": "source_pdf",
+      "hash": "faf4c691aae8012836f162f6f2d041bb83849024b1c80496bdcb1b30289cf7a3",
+      "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-dfe-ks3-maths-pdf/raw.pdf"
+    }
+  ],
+  "raw_content_unavailable": null,
+  "scope_acquired": {
+    "chars": 15737,
+    "verification_excerpt": {
+      "first_chars": "Mathematics\nprogrammes of study:\nkey stage 3\nNational curriculum in England\nSeptember 2013\n\nMathematics \u2013 key stage 3\nPurpose of study\nMathematics is a creative and highly inter-connected discipline t",
+      "last_chars": "/doc/open-government-licence/ or email:\npsi@nationalarchives.gsi.gov.uk.\nReference: DFE-00179-2013\n9",
+      "line_count": 283
+    }
+  },
+  "scope_requested": {
+    "heading_regex": false,
+    "notes": null,
+    "page_range": null,
+    "pdf_dedup_coord_tolerance": 1,
+    "pdf_dedup_coords": false,
+    "section_heading": null,
+    "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+    "source_type": "flat_pdf_linear"
+  },
+  "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+  "source_type": "flat_pdf_linear",
+  "timestamp": "2026-04-18T19:18:03.768624+00:00",
+  "user_interactions": [],
+  "verification_trace": [
+    {
+      "checks_run": [
+        {
+          "flagged": false,
+          "name": "whitespace_runs",
+          "passed": true,
+          "threshold": 50,
+          "value": 0
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_raw_extraction",
+      "timestamp": "2026-04-18T19:18:04.391004+00:00",
+      "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "countable_lines": 244,
+          "docwide_failure": false,
+          "flagged": false,
+          "lines_flagged": 0,
+          "mean_flagged_ratio": 0.0,
+          "name": "character_doubling",
+          "passed": true,
+          "systematic_failure": false,
+          "threshold": 0.2,
+          "value": 0.0
+        },
+        {
+          "flagged": false,
+          "language_details": {
+            "english_hits": 696,
+            "ratio": 0.3146,
+            "threshold": 0.03,
+            "total_words": 2212
+          },
+          "language_detected": "english_confident",
+          "name": "repeated_bigram",
+          "passed": true,
+          "threshold": 0.75,
+          "top_bigrams": [
+            [
+              "an",
+              300
+            ],
+            [
+              "in",
+              291
+            ],
+            [
+              "ti",
+              270
+            ],
+            [
+              "at",
+              261
+            ],
+            [
+              "nd",
+              255
+            ]
+          ],
+          "total_bigrams": 12866,
+          "value": 0.184
+        },
+        {
+          "flagged": false,
+          "name": "empty_line_ratio",
+          "passed": true,
+          "threshold": 0.6000000000000001,
+          "value": 0.028
+        },
+        {
+          "chars_total": 15737,
+          "flagged": false,
+          "name": "completeness",
+          "pages_extracted_count": 9,
+          "passed": true,
+          "source_kind": "pdf",
+          "threshold": 50,
+          "value": 1748.6
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_normalised_extraction",
+      "timestamp": "2026-04-18T19:18:04.396917+00:00",
+      "verdict": "clean"
+    }
+  ]
+}

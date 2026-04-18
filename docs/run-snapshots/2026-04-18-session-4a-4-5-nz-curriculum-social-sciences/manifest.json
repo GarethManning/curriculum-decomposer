@@ -1,0 +1,37 @@
+{
+  "acquisition_trace": [],
+  "content_files": [],
+  "content_hash": null,
+  "detection_hash": null,
+  "dom_hash": null,
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [],
+  "known_pathology_handling": [],
+  "notes": "Session 4a-4.5 Step 5 regeneration for `NZ Curriculum Social Sciences Phase 2 (JS)` attempted but source is unavailable for programmatic re-fetch. Extracted content persists under the canonical 4a-N snapshot.",
+  "phase0_version": "0.6.0",
+  "primitive_sequence": [],
+  "raw_content_files": [],
+  "raw_content_unavailable": {
+    "first_observed_at": "2026-04-18",
+    "reason": "Bot detection on live fetch (observed 4a-4); no preserved rendered DOM HTML available. [extraction returned empty content \u2014 source appears to be serving a bot-detection shell rather than real curriculum content]",
+    "value": true
+  },
+  "scope_acquired": {},
+  "scope_requested": {
+    "browser_timeout_ms": 60000,
+    "click_sequence": null,
+    "css_selector": "main",
+    "dismiss_modal_selector": "button[aria-label*='cookie' i]",
+    "notes": null,
+    "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+    "source_type": "js_rendered_progressive_disclosure",
+    "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+    "wait_for_selector": "main"
+  },
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "source_type": "js_rendered_progressive_disclosure",
+  "timestamp": "2026-04-18T19:18:55.832667+00:00",
+  "user_interactions": [],
+  "verification_trace": []
+}

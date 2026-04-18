@@ -1,0 +1,324 @@
+{
+  "acquisition_trace": [
+    {
+      "duration_ms": 6258,
+      "error": null,
+      "inputs": {
+        "browser_timeout_ms": 60000,
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands",
+        "wait_for_selector": "main"
+      },
+      "outputs_summary": {
+        "click_count": 0,
+        "console_error_count": 0,
+        "final_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands",
+        "http_status": 200,
+        "modal_dismissed": null,
+        "raw_rendered_bytes": 6661671,
+        "raw_rendered_hash": "f7be7160d1ff67a420857cf1f26b1a9eb16153b8c2ab560fd50b3a08d5c06730",
+        "raw_rendered_path": "raw_rendered.html",
+        "raw_saved": true,
+        "rendered_html_bytes": 6655212,
+        "status": "ok",
+        "viewport": "1280x720"
+      },
+      "primitive": "fetch_via_browser",
+      "started_at": "2026-04-18T19:18:38.866569+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 7,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "dom_hash": "f7be7160d1ff67a420857cf1f26b1a9eb16153b8c2ab560fd50b3a08d5c06730",
+        "raw_rendered_hash_match": true,
+        "rendered_html_bytes": 6655212
+      },
+      "primitive": "dom_hash",
+      "started_at": "2026-04-18T19:18:45.126940+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 39,
+      "error": null,
+      "inputs": {
+        "css_selector": "main"
+      },
+      "outputs_summary": {
+        "chars_out": 3706,
+        "match_count": 1,
+        "selector": "main",
+        "status": "ok"
+      },
+      "primitive": "extract_css_selector",
+      "started_at": "2026-04-18T19:18:45.134229+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 3706,
+        "checks": [
+          {
+            "flagged": false,
+            "name": "whitespace_runs",
+            "passed": true,
+            "threshold": 50,
+            "value": 0
+          }
+        ],
+        "line_count": 115,
+        "mode": "raw",
+        "verdict": "clean"
+      },
+      "primitive": "verify_raw_extraction",
+      "started_at": "2026-04-18T19:18:45.174033+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 3706,
+        "chars_out": 3706
+      },
+      "primitive": "normalise_whitespace",
+      "started_at": "2026-04-18T19:18:45.174177+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 1,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "chars_in": 3706,
+        "checks": [
+          {
+            "countable_lines": 72,
+            "docwide_failure": false,
+            "flagged": false,
+            "lines_flagged": 0,
+            "mean_flagged_ratio": 0.0,
+            "name": "character_doubling",
+            "passed": true,
+            "systematic_failure": false,
+            "threshold": 0.2,
+            "value": 0.0
+          },
+          {
+            "flagged": false,
+            "language_details": {
+              "english_hits": 128,
+              "ratio": 0.2678,
+              "threshold": 0.03,
+              "total_words": 478
+            },
+            "language_detected": "english_confident",
+            "name": "repeated_bigram",
+            "passed": true,
+            "threshold": 0.75,
+            "top_bigrams": [
+              [
+                "an",
+                91
+              ],
+              [
+                "in",
+                77
+              ],
+              [
+                "ti",
+                75
+              ],
+              [
+                "nd",
+                64
+              ],
+              [
+                "pe",
+                56
+              ]
+            ],
+            "total_bigrams": 3004,
+            "value": 0.203
+          },
+          {
+            "flagged": false,
+            "name": "empty_line_ratio",
+            "passed": true,
+            "threshold": 0.6000000000000001,
+            "value": 0.0
+          }
+        ],
+        "completeness_skipped_reason": "no source metadata (fetched_bytes or pages_extracted) available in executor accumulator",
+        "line_count": 115,
+        "mode": "normalised",
+        "verdict": "clean"
+      },
+      "primitive": "verify_normalised_extraction",
+      "started_at": "2026-04-18T19:18:45.174357+00:00",
+      "user_interaction": null
+    },
+    {
+      "duration_ms": 0,
+      "error": null,
+      "inputs": {},
+      "outputs_summary": {
+        "bytes": 3720,
+        "content_hash": "3587c48c97efc32b3a2830ead58ba448fe843e63c2ca97d62408a046671ec4e4"
+      },
+      "primitive": "content_hash",
+      "started_at": "2026-04-18T19:18:45.175767+00:00",
+      "user_interaction": null
+    }
+  ],
+  "content_files": [
+    "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/rendered_state.png",
+    "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/content.txt"
+  ],
+  "content_hash": "3587c48c97efc32b3a2830ead58ba448fe843e63c2ca97d62408a046671ec4e4",
+  "detection_hash": "50bb85294a156e00d717b6cae201cc53b32bde132d4d265809776b400ec8a09b",
+  "dom_hash": "f7be7160d1ff67a420857cf1f26b1a9eb16153b8c2ab560fd50b3a08d5c06730",
+  "encoding_detected": null,
+  "encoding_failure": null,
+  "investigation_memo_refs": [],
+  "known_pathology_handling": [],
+  "notes": null,
+  "phase0_version": "0.6.0",
+  "primitive_sequence": [
+    "fetch_via_browser",
+    "dom_hash",
+    "extract_css_selector",
+    "verify_raw_extraction",
+    "normalise_whitespace",
+    "verify_normalised_extraction",
+    "content_hash"
+  ],
+  "raw_content_files": [
+    {
+      "bytes": 6661671,
+      "file_type": "rendered_html",
+      "hash": "f7be7160d1ff67a420857cf1f26b1a9eb16153b8c2ab560fd50b3a08d5c06730",
+      "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/raw_rendered.html"
+    },
+    {
+      "bytes": 675581,
+      "file_type": "rendered_screenshot",
+      "hash": "c1ad5972173cf2315102a65dad0e501a984eaab8cb4a7b013a0081737b465a72",
+      "path": "/Users/garethmanning/Github/curriculum-harness/docs/run-snapshots/2026-04-18-session-4a-4-5-ontario-dcp-g7-history/rendered_state.png"
+    }
+  ],
+  "raw_content_unavailable": null,
+  "scope_acquired": {
+    "chars": 3706,
+    "verification_excerpt": {
+      "first_chars": "Add\nto my notes\nExpectations by strand\nAdd\nto my notes\nA.\nNew France and British North America, 1713\u20131800\nLink\nWhy is my child learning this?\nOverall Expectations\nBy the end of Grade 7, students will:",
+      "last_chars": "nges\nBack to top\nPrevious\nOverview\nNext\nA1. Application: Colonial and Present-day Canada\nBack to top",
+      "line_count": 115
+    }
+  },
+  "scope_requested": {
+    "browser_timeout_ms": 60000,
+    "click_sequence": null,
+    "css_selector": "main",
+    "dismiss_modal_selector": null,
+    "notes": null,
+    "source_reference": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands",
+    "source_type": "js_rendered_progressive_disclosure",
+    "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands",
+    "wait_for_selector": "main"
+  },
+  "source_reference": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg/grades/g7-history/strands",
+  "source_type": "js_rendered_progressive_disclosure",
+  "timestamp": "2026-04-18T19:18:38.866551+00:00",
+  "user_interactions": [],
+  "verification_trace": [
+    {
+      "checks_run": [
+        {
+          "flagged": false,
+          "name": "whitespace_runs",
+          "passed": true,
+          "threshold": 50,
+          "value": 0
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_raw_extraction",
+      "timestamp": "2026-04-18T19:18:45.174169+00:00",
+      "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "countable_lines": 72,
+          "docwide_failure": false,
+          "flagged": false,
+          "lines_flagged": 0,
+          "mean_flagged_ratio": 0.0,
+          "name": "character_doubling",
+          "passed": true,
+          "systematic_failure": false,
+          "threshold": 0.2,
+          "value": 0.0
+        },
+        {
+          "flagged": false,
+          "language_details": {
+            "english_hits": 128,
+            "ratio": 0.2678,
+            "threshold": 0.03,
+            "total_words": 478
+          },
+          "language_detected": "english_confident",
+          "name": "repeated_bigram",
+          "passed": true,
+          "threshold": 0.75,
+          "top_bigrams": [
+            [
+              "an",
+              91
+            ],
+            [
+              "in",
+              77
+            ],
+            [
+              "ti",
+              75
+            ],
+            [
+              "nd",
+              64
+            ],
+            [
+              "pe",
+              56
+            ]
+          ],
+          "total_bigrams": 3004,
+          "value": 0.203
+        },
+        {
+          "flagged": false,
+          "name": "empty_line_ratio",
+          "passed": true,
+          "threshold": 0.6000000000000001,
+          "value": 0.0
+        }
+      ],
+      "details": {
+        "sample_failures": []
+      },
+      "primitive": "verify_normalised_extraction",
+      "timestamp": "2026-04-18T19:18:45.175758+00:00",
+      "verdict": "clean"
+    }
+  ]
+}

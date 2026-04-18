@@ -1,0 +1,14 @@
+{
+  "confidence": "medium",
+  "is_supported_now": true,
+  "rationale": "PDF with 198 pages and no multi-section structure (outline + TOC signals below thresholds).",
+  "signals": {
+    "bytes": 11627002,
+    "dot_leader_lines": 0,
+    "extension": ".pdf",
+    "has_toc_heading": true,
+    "n_pages": 198,
+    "outline_top_level_entries": 1
+  },
+  "source_type": "flat_pdf_linear"
+}

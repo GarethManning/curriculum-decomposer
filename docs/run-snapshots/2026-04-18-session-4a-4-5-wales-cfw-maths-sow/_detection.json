@@ -1,0 +1,9 @@
+{
+  "confidence": "high",
+  "is_supported_now": true,
+  "rationale": "Session 4a-4.5 Step 5 deterministic override.",
+  "signals": {
+    "override_source": "session_4a_4_5_regen"
+  },
+  "source_type": "html_nested_dom"
+}

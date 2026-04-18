@@ -1,0 +1,14 @@
+{
+  "confidence": "medium",
+  "is_supported_now": true,
+  "rationale": "PDF with 9 pages and no multi-section structure (outline + TOC signals below thresholds).",
+  "signals": {
+    "bytes": 209954,
+    "content_type": "application/pdf",
+    "dot_leader_lines": 0,
+    "has_toc_heading": false,
+    "n_pages": 9,
+    "outline_top_level_entries": 8
+  },
+  "source_type": "flat_pdf_linear"
+}

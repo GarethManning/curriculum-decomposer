@@ -97,6 +97,12 @@ def run_pipeline(
     # primitive having to forward-propagate fields explicitly.
     source_metrics: dict[str, Any] = {}
 
+    # Tracks raw-content entries already persisted this run so that
+    # primitives that pass through ``previous.meta`` (dom_hash,
+    # extract_*) do not cause duplicate file writes or manifest
+    # listings. Keyed by (file_type, hash).
+    seen_raw_content: set[tuple[str, str]] = set()
+
     previous: PrimitiveResult | None = None
     for prim in primitives:
         if previous is not None:
@@ -199,15 +205,24 @@ def run_pipeline(
         # local file that was deliberately not copied. Each entry
         # carries the SHA-256 precomputed by the primitive so the
         # executor does not need to re-hash.
+        # Primitives that pass through ``previous.meta`` (e.g. dom_hash,
+        # extract_*) will carry forward any ``raw_content`` emitted by
+        # the upstream fetch primitive. Dedupe by (file_type, hash) so
+        # the same bytes are not written twice and the manifest does
+        # not list the same cache file more than once.
         raw_content_entries = result.meta.get("raw_content") or []
-        for entry in raw_content_entries:
-            file_type = entry.get("file_type")
-            hash_hex = entry.get("hash") or ""
-            bytes_count = int(entry.get("bytes_count") or 0)
+        for raw_entry in raw_content_entries:
+            file_type = raw_entry.get("file_type")
+            hash_hex = raw_entry.get("hash") or ""
+            bytes_count = int(raw_entry.get("bytes_count") or 0)
             if not file_type or not hash_hex:
                 continue
+            dedupe_key = (file_type, hash_hex)
+            if dedupe_key in seen_raw_content:
+                continue
+            seen_raw_content.add(dedupe_key)
             if file_type == "source_reference":
-                ref_path = entry.get("path")
+                ref_path = raw_entry.get("path")
                 if not ref_path:
                     continue
                 manifest.raw_content_files.append(
@@ -219,8 +234,8 @@ def run_pipeline(
                     )
                 )
                 continue
-            filename = entry.get("filename")
-            payload = entry.get("bytes")
+            filename = raw_entry.get("filename")
+            payload = raw_entry.get("bytes")
             if not filename or not isinstance(payload, (bytes, bytearray)):
                 continue
             target = out_dir / filename
