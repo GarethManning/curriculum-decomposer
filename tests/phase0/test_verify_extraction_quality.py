@@ -98,10 +98,12 @@ def test_ap_ced_original_content_fails_character_doubling() -> None:
     )
 
 
-def test_whitespace_runs_synthetic_failure() -> None:
-    # Current verifier thresholds: ws_failed when count of 80+ char
-    # whitespace runs > whitespace_run_max * 10 = 50. Construct 60
-    # separate 80-space runs to trip the failure branch.
+def test_whitespace_runs_synthetic_failure_raw_mode() -> None:
+    # Runs the raw-mode verifier (the mode that production sequences use
+    # pre-normalise-whitespace) against a document with many 80-char
+    # whitespace runs. Step 4 confirmed empirically that the post-
+    # normalise verifier cannot see this pattern, so this case asserts
+    # the raw-mode primitive catches it.
     block = " " * 80
     real_line = "The quick brown fox jumps over the lazy dog. "
     parts = []
@@ -111,7 +113,7 @@ def test_whitespace_runs_synthetic_failure() -> None:
         parts.append("\n")
     text = "".join(parts)
 
-    result = _run_verifier(text)
+    result = _run_verifier(text, mode="raw")
 
     assert result.summary["verdict"] == "failed"
     ws = _check_by_name(result.summary["checks"], "whitespace_runs")
@@ -132,6 +134,38 @@ def test_empty_lines_synthetic_failure() -> None:
     el = _check_by_name(result.summary["checks"], "empty_line_ratio")
     assert el["passed"] is False, (
         "empty_line_ratio must fail when > 60 % of lines are empty"
+    )
+
+
+def test_whitespace_runs_dead_after_normalisation() -> None:
+    """Step 4 empirical result: ``normalise_whitespace`` collapses the
+    pattern ``whitespace_runs`` is designed to detect. The
+    ``normalised``-mode verifier therefore must not include the check,
+    and post-normalise text feeding the default ("all") mode must
+    report zero whitespace runs. This test is the regression guard
+    against re-merging the whitespace check into the post-normalise
+    verifier in a future refactor.
+    """
+    from curriculum_harness.phases.phase0_acquisition.primitives.normalise_whitespace import (
+        normalise_text,
+    )
+
+    block = " " * 80
+    parts = ["Line. " + block + "\n" for _ in range(60)]
+    raw = "".join(parts)
+
+    # Raw mode on the raw text: catches it.
+    raw_result = _run_verifier(raw, mode="raw")
+    assert raw_result.summary["verdict"] == "failed"
+
+    # Normalised mode on the normalised text: passes (cannot see it).
+    normalised = normalise_text(raw)
+    norm_result = _run_verifier(normalised, mode="normalised")
+    check_names = [c["name"] for c in norm_result.summary["checks"]]
+    assert "whitespace_runs" not in check_names, (
+        "whitespace_runs must not run in normalised mode — the signal "
+        "has been collapsed upstream and the check would be a false "
+        "reassurance"
     )
 
 

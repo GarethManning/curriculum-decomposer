@@ -76,8 +76,9 @@ def static_html_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
         FetchRequestsPrimitive(),
         EncodingDetectionPrimitive(),
         extractor,
+        VerifyExtractionQualityPrimitive(mode="raw"),
         NormaliseWhitespacePrimitive(),
-        VerifyExtractionQualityPrimitive(),
+        VerifyExtractionQualityPrimitive(mode="normalised"),
         ContentHashPrimitive(),
     ]
 
@@ -107,8 +108,9 @@ def flat_pdf_linear_sequence(scope: ScopeSpec) -> list[Primitive]:
     return [
         FetchPdfFilePrimitive(),
         extractor,
+        VerifyExtractionQualityPrimitive(mode="raw"),
         NormaliseWhitespacePrimitive(),
-        VerifyExtractionQualityPrimitive(),
+        VerifyExtractionQualityPrimitive(mode="normalised"),
         ContentHashPrimitive(),
     ]
 

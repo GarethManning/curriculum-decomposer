@@ -12,13 +12,34 @@ extraction that looks fine by byte-count but is structurally corrupt
 now fails at the verification step and pauses the pipeline for
 user-in-the-loop recovery.
 
+Modes (Session 4a-2b Step 4)
+----------------------------
+
+``normalise_whitespace`` collapses horizontal whitespace runs and
+triple+ newlines, which destroys the signal ``whitespace_runs`` was
+designed to catch. The primitive is therefore run twice in production
+sequences:
+
+- ``mode="raw"``      — only ``whitespace_runs``. Inserted between the
+  extractor and ``normalise_whitespace``. Primitive name recorded in
+  the trace: ``verify_raw_extraction``.
+- ``mode="normalised"`` — the other checks (``character_doubling``,
+  ``repeated_bigram``, ``empty_line_ratio``, ``completeness``). Runs
+  after ``normalise_whitespace``. Primitive name recorded in the
+  trace: ``verify_normalised_extraction``.
+- ``mode="all"``       — backward-compatible default that runs every
+  check in a single pass. Primitive name: ``verify_extraction_quality``.
+  Not used by the production sequences but preserved for callers that
+  want a single-shot verification on arbitrary content.
+
 Checks
 ------
 
-1. **character_doubling** — per line, compute the fraction of consecutive
-   character pairs with identical text (letter/digit/punct; whitespace
-   excluded). A line with ratio ≥ ``doubling_line_threshold`` is
-   flagged. Failure triggers by EITHER of:
+1. **character_doubling** (normalised-mode) — per line, fraction of
+   consecutive character pairs with identical text (letter/digit/punct;
+   whitespace excluded). A line with ratio ≥
+   ``doubling_line_threshold`` is flagged. Failure triggers by EITHER
+   of:
    (a) flagged fraction of countable lines > ``doubling_doc_threshold``
        (document-wide doubling);
    (b) ≥ ``doubling_systematic_min_count`` flagged lines with mean
@@ -28,21 +49,20 @@ Checks
    lines per page are doubled, so the flagged-line fraction is ~8 %,
    but the pattern is clearly systematic and a production-blocker.
 
-2. **repeated_bigram** — across the document, count character bigrams
-   (letters only, case-folded). If the top-10 bigrams account for
-   > ``top_bigram_threshold`` of all bigrams (typical English ~0.25),
-   flag as suspicious. A ratio > ``top_bigram_failure_threshold``
-   triggers failure.
+2. **repeated_bigram** (normalised-mode) — across the document, count
+   character bigrams (letters only, case-folded). If the top-10
+   bigrams account for > ``top_bigram_threshold`` of all bigrams
+   (typical English ~0.25), flag as suspicious. A ratio >
+   ``top_bigram_failure_threshold`` triggers failure.
 
-3. **whitespace_runs** — count runs of 80+ contiguous whitespace
-   characters (spaces, tabs, newlines). More than
-   ``whitespace_run_max`` such runs flags the document — the usual
-   cause is a PDF with layout-preserved extraction that the upstream
-   didn't normalise.
+3. **whitespace_runs** (raw-mode) — count runs of 80+ contiguous
+   whitespace characters. More than ``whitespace_run_max`` such runs
+   flags; more than ``whitespace_run_max * 10`` fails. Must run
+   pre-normalisation — ``normalise_whitespace`` collapses the pattern.
 
-4. **empty_line_ratio** — fraction of lines in the document that are
-   empty or whitespace-only. A ratio > ``empty_line_threshold``
-   indicates either structural issue or failed extraction.
+4. **empty_line_ratio** (normalised-mode) — fraction of lines that
+   are empty or whitespace-only. A ratio > ``empty_line_threshold``
+   indicates structural issue or failed extraction.
 
 Verdicts
 --------
@@ -113,6 +133,18 @@ def _top_bigram_share(text: str, top_n: int = 10) -> tuple[float, int, list]:
     return share, total, top
 
 
+_MODE_NAMES = {
+    "all": "verify_extraction_quality",
+    "raw": "verify_raw_extraction",
+    "normalised": "verify_normalised_extraction",
+}
+
+_RAW_CHECKS = frozenset({"whitespace_runs"})
+_NORMALISED_CHECKS = frozenset(
+    {"character_doubling", "repeated_bigram", "empty_line_ratio"}
+)
+
+
 class VerifyExtractionQualityPrimitive:
     """Gate extraction output on statistical quality checks.
 
@@ -120,9 +152,12 @@ class VerifyExtractionQualityPrimitive:
     the verdict, check results, and sample failures. On verdict
     ``failed``, ``meta["pause_request"]`` is populated so the executor
     raises ``Phase0Paused``.
+
+    ``mode`` selects which checks run (see module docstring). The
+    primitive's recorded ``name`` tracks the mode so the verification
+    trace distinguishes pre- and post-normalisation entries.
     """
 
-    name = "verify_extraction_quality"
     required_scope_fields: tuple[str, ...] = ()
     optional_scope_fields: tuple[str, ...] = ()
     side_effects: frozenset[str] = frozenset()
@@ -130,6 +165,7 @@ class VerifyExtractionQualityPrimitive:
     def __init__(
         self,
         *,
+        mode: str = "all",
         doubling_line_threshold: float = 0.3,
         doubling_doc_threshold: float = 0.2,
         doubling_systematic_min_count: int = 5,
@@ -141,6 +177,12 @@ class VerifyExtractionQualityPrimitive:
         sample_limit: int = 5,
         output_dir: str | None = None,
     ) -> None:
+        if mode not in _MODE_NAMES:
+            raise ValueError(
+                f"mode must be one of {list(_MODE_NAMES)}, got {mode!r}"
+            )
+        self.mode = mode
+        self.name = _MODE_NAMES[mode]
         self.doubling_line_threshold = doubling_line_threshold
         self.doubling_doc_threshold = doubling_doc_threshold
         self.doubling_systematic_min_count = doubling_systematic_min_count
@@ -152,6 +194,13 @@ class VerifyExtractionQualityPrimitive:
         self.sample_limit = sample_limit
         self.output_dir = output_dir
 
+    def _runs_check(self, check_name: str) -> bool:
+        if self.mode == "all":
+            return True
+        if self.mode == "raw":
+            return check_name in _RAW_CHECKS
+        return check_name in _NORMALISED_CHECKS
+
     def validate_scope(self, scope) -> None:
         return None
 
@@ -159,99 +208,105 @@ class VerifyExtractionQualityPrimitive:
         text = "" if previous is None else str(previous.output or "")
         lines = text.splitlines()
 
-        # Check 1 — character doubling
+        checks: list[dict[str, Any]] = []
         flagged_lines: list[dict[str, Any]] = []
-        countable_lines = 0
-        for i, line in enumerate(lines):
-            ratio, pair_count = _doubling_ratio(line)
-            # Ignore very short lines — signal is too noisy
-            if pair_count < 10:
-                continue
-            countable_lines += 1
-            if ratio >= self.doubling_line_threshold:
-                flagged_lines.append(
-                    {
-                        "line_index": i,
-                        "ratio": round(ratio, 3),
-                        "pair_count": pair_count,
-                        "preview": line[:120],
-                    }
-                )
-        doubling_fraction = (
-            len(flagged_lines) / countable_lines if countable_lines else 0.0
-        )
-        doubling_flagged = len(flagged_lines) > 0
-        # Failure (a): document-wide — many lines flagged
-        doubling_failed_docwide = doubling_fraction > self.doubling_doc_threshold
-        # Failure (b): systematic — multiple flagged lines with high mean ratio
-        mean_flagged_ratio = (
-            sum(ln["ratio"] for ln in flagged_lines) / len(flagged_lines)
-            if flagged_lines
-            else 0.0
-        )
-        doubling_failed_systematic = (
-            len(flagged_lines) >= self.doubling_systematic_min_count
-            and mean_flagged_ratio >= self.doubling_systematic_mean_ratio
-        )
-        doubling_failed = doubling_failed_docwide or doubling_failed_systematic
 
-        # Check 2 — top bigram share
-        share, bigram_total, top = _top_bigram_share(text, top_n=10)
-        bigram_failed = share > self.top_bigram_failure_threshold
-        bigram_flagged = share > self.top_bigram_threshold
+        if self._runs_check("character_doubling"):
+            countable_lines = 0
+            for i, line in enumerate(lines):
+                ratio, pair_count = _doubling_ratio(line)
+                if pair_count < 10:
+                    continue
+                countable_lines += 1
+                if ratio >= self.doubling_line_threshold:
+                    flagged_lines.append(
+                        {
+                            "line_index": i,
+                            "ratio": round(ratio, 3),
+                            "pair_count": pair_count,
+                            "preview": line[:120],
+                        }
+                    )
+            doubling_fraction = (
+                len(flagged_lines) / countable_lines if countable_lines else 0.0
+            )
+            doubling_flagged = len(flagged_lines) > 0
+            doubling_failed_docwide = (
+                doubling_fraction > self.doubling_doc_threshold
+            )
+            mean_flagged_ratio = (
+                sum(ln["ratio"] for ln in flagged_lines) / len(flagged_lines)
+                if flagged_lines
+                else 0.0
+            )
+            doubling_failed_systematic = (
+                len(flagged_lines) >= self.doubling_systematic_min_count
+                and mean_flagged_ratio >= self.doubling_systematic_mean_ratio
+            )
+            doubling_failed = doubling_failed_docwide or doubling_failed_systematic
+            checks.append(
+                {
+                    "name": "character_doubling",
+                    "value": round(doubling_fraction, 3),
+                    "threshold": self.doubling_doc_threshold,
+                    "passed": not doubling_failed,
+                    "flagged": doubling_flagged,
+                    "lines_flagged": len(flagged_lines),
+                    "countable_lines": countable_lines,
+                    "mean_flagged_ratio": round(mean_flagged_ratio, 3),
+                    "systematic_failure": doubling_failed_systematic,
+                    "docwide_failure": doubling_failed_docwide,
+                }
+            )
 
-        # Check 3 — whitespace runs
-        ws_runs = _WHITESPACE_RUN_RX.findall(text)
-        ws_run_count = len(ws_runs)
-        ws_failed = ws_run_count > self.whitespace_run_max * 10
-        ws_flagged = ws_run_count > self.whitespace_run_max
+        if self._runs_check("repeated_bigram"):
+            share, bigram_total, top = _top_bigram_share(text, top_n=10)
+            bigram_failed = share > self.top_bigram_failure_threshold
+            bigram_flagged = share > self.top_bigram_threshold
+            checks.append(
+                {
+                    "name": "repeated_bigram",
+                    "value": round(share, 3),
+                    "threshold": self.top_bigram_failure_threshold,
+                    "passed": not bigram_failed,
+                    "flagged": bigram_flagged,
+                    "top_bigrams": [(b, c) for b, c in top[:5]],
+                    "total_bigrams": bigram_total,
+                }
+            )
 
-        # Check 4 — empty line ratio
-        if lines:
-            empty_lines = sum(1 for ln in lines if not ln.strip())
-            empty_fraction = empty_lines / len(lines)
-        else:
-            empty_fraction = 0.0
-        empty_failed = empty_fraction > (self.empty_line_threshold + 0.2)
-        empty_flagged = empty_fraction > self.empty_line_threshold
+        if self._runs_check("whitespace_runs"):
+            ws_runs = _WHITESPACE_RUN_RX.findall(text)
+            ws_run_count = len(ws_runs)
+            ws_failed = ws_run_count > self.whitespace_run_max * 10
+            ws_flagged = ws_run_count > self.whitespace_run_max
+            checks.append(
+                {
+                    "name": "whitespace_runs",
+                    "value": ws_run_count,
+                    "threshold": self.whitespace_run_max * 10,
+                    "passed": not ws_failed,
+                    "flagged": ws_flagged,
+                }
+            )
 
-        checks = [
-            {
-                "name": "character_doubling",
-                "value": round(doubling_fraction, 3),
-                "threshold": self.doubling_doc_threshold,
-                "passed": not doubling_failed,
-                "flagged": doubling_flagged,
-                "lines_flagged": len(flagged_lines),
-                "countable_lines": countable_lines,
-                "mean_flagged_ratio": round(mean_flagged_ratio, 3),
-                "systematic_failure": doubling_failed_systematic,
-                "docwide_failure": doubling_failed_docwide,
-            },
-            {
-                "name": "repeated_bigram",
-                "value": round(share, 3),
-                "threshold": self.top_bigram_failure_threshold,
-                "passed": not bigram_failed,
-                "flagged": bigram_flagged,
-                "top_bigrams": [(b, c) for b, c in top[:5]],
-                "total_bigrams": bigram_total,
-            },
-            {
-                "name": "whitespace_runs",
-                "value": ws_run_count,
-                "threshold": self.whitespace_run_max * 10,
-                "passed": not ws_failed,
-                "flagged": ws_flagged,
-            },
-            {
-                "name": "empty_line_ratio",
-                "value": round(empty_fraction, 3),
-                "threshold": self.empty_line_threshold + 0.2,
-                "passed": not empty_failed,
-                "flagged": empty_flagged,
-            },
-        ]
+        if self._runs_check("empty_line_ratio"):
+            if lines:
+                empty_lines = sum(1 for ln in lines if not ln.strip())
+                empty_fraction = empty_lines / len(lines)
+            else:
+                empty_fraction = 0.0
+            empty_failed = empty_fraction > (self.empty_line_threshold + 0.2)
+            empty_flagged = empty_fraction > self.empty_line_threshold
+            checks.append(
+                {
+                    "name": "empty_line_ratio",
+                    "value": round(empty_fraction, 3),
+                    "threshold": self.empty_line_threshold + 0.2,
+                    "passed": not empty_failed,
+                    "flagged": empty_flagged,
+                }
+            )
 
         any_failed = any(not c["passed"] for c in checks)
         any_flagged = any(c.get("flagged") for c in checks)
@@ -267,6 +322,7 @@ class VerifyExtractionQualityPrimitive:
 
         summary: dict[str, Any] = {
             "verdict": verdict,
+            "mode": self.mode,
             "checks": checks,
             "chars_in": len(text),
             "line_count": len(lines),
@@ -276,6 +332,7 @@ class VerifyExtractionQualityPrimitive:
         meta: dict[str, Any] = {
             "verification": {
                 "verdict": verdict,
+                "mode": self.mode,
                 "checks": checks,
                 "sample_failures": sample_failures,
             }
