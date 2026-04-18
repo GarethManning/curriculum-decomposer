@@ -1,0 +1,33 @@
+Standards in this domain:
+CCSS.Math.Content.7.RP.A.1
+CCSS.Math.Content.7.RP.A.2
+CCSS.Math.Content.7.RP.A.3
+Analyze proportional relationships and use them to solve real-world and mathematical problems.
+CCSS.Math.Content.7.RP.A.1
+Compute unit rates associated with ratios of fractions, including ratios of lengths, areas and other quantities measured in like or different units.
+For example, if a person walks 1/2 mile in each 1/4 hour, compute the unit rate as the complex fraction
+1/2
+/
+1/4
+miles per hour, equivalently 2 miles per hour
+.
+CCSS.Math.Content.7.RP.A.2
+Recognize and represent proportional relationships between quantities.
+CCSS.Math.Content.7.RP.A.2.a
+Decide whether two quantities are in a proportional relationship, e.g., by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin.
+CCSS.Math.Content.7.RP.A.2.b
+Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships.
+CCSS.Math.Content.7.RP.A.2.c
+Represent proportional relationships by equations.
+For example, if total cost t is proportional to the number n of items purchased at a constant price p, the relationship between the total cost and the number of items can be expressed as t = pn
+.
+CCSS.Math.Content.7.RP.A.2.d
+Explain what a point (
+x
+,
+y
+) on the graph of a proportional relationship means in terms of the situation, with special attention to the points (0, 0) and (1,
+r
+) where r is the unit rate.
+CCSS.Math.Content.7.RP.A.3
+Use proportional relationships to solve multistep ratio and percent problems. Examples: simple interest, tax, markups and markdowns, gratuities and commissions, fees, percent increase and decrease, percent error.
