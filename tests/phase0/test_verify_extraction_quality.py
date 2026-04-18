@@ -186,5 +186,30 @@ def test_bigram_synthetic_failure() -> None:
     )
 
 
+def test_bigram_non_english_failure_is_downgraded_to_suspicious() -> None:
+    # Hungarian synthetic text that trips the bigram threshold without
+    # triggering the English-stopword detector. "ő" repeated with
+    # a few filler accented characters gives a very skewed bigram
+    # distribution but contains no English stopwords. Expected: the
+    # verifier records a failing raw bigram measure but downgrades the
+    # verdict so the pipeline is not blocked on a threshold with no
+    # Hungarian calibration.
+    text = "árvíztűrő ő ő ő ő " * 5000
+
+    result = _run_verifier(text)
+
+    bg = _check_by_name(result.summary["checks"], "repeated_bigram")
+    # Raw signal still fails the threshold.
+    assert bg["value"] > 0.75
+    # But the verdict is not 'failed' — the downgrade kicks in.
+    assert result.summary["verdict"] in {"suspicious", "clean"}, (
+        "non-English bigram failure must not produce verdict 'failed'"
+    )
+    assert bg.get("downgraded_from_failed") is True, (
+        "the bigram check entry must record the downgrade for audit"
+    )
+    assert bg["language_detected"] == "non_english_or_unknown"
+
+
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-v"]))

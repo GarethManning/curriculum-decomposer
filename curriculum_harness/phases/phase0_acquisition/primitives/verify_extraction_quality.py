@@ -95,6 +95,50 @@ from curriculum_harness.phases.phase0_acquisition.session_state import (
 
 _LETTER_RX = re.compile(r"[A-Za-z]")
 _WHITESPACE_RUN_RX = re.compile(r"[ \t\n\r\f\v]{80,}")
+_WORD_RX = re.compile(r"[A-Za-zÀ-ÿ]+")
+
+
+# Conservative English stopword list. Presence of these at >=
+# ``_ENGLISH_STOPWORD_CONFIDENT_RATIO`` of all alphabetic tokens flags
+# the document as high-confidence English. Below the flagged threshold,
+# we treat the document as "not confidently English" and downgrade
+# bigram FAILURES to `suspicious` — the project has no calibrated
+# bigram thresholds for any other language and should not block on a
+# threshold with no empirical basis.
+_ENGLISH_STOPWORDS = frozenset({
+    "the", "and", "of", "to", "in", "a", "is", "that", "for", "it",
+    "on", "with", "as", "at", "by", "this", "be", "are", "from", "or",
+    "an", "was", "were", "which", "but", "not", "have", "has", "had",
+    "they", "their", "these", "those", "been", "will", "would", "can",
+    "could", "should", "may", "might", "into", "over", "under", "also",
+})
+_ENGLISH_STOPWORD_CONFIDENT_RATIO = 0.03
+
+
+def _detect_english_confidence(text: str) -> tuple[bool, dict[str, Any]]:
+    """Conservative English detector.
+
+    Returns ``(is_confident_english, details)``. ``details`` goes into
+    the verification trace so the downgrade decision is auditable.
+
+    Deterministic, no model call. The stopword list is intentionally
+    small and generic — we only need to distinguish "clearly English"
+    from "not clearly English". Calibrated thresholds for other
+    languages require real data; see module docstring for rationale.
+    """
+    words = [w.lower() for w in _WORD_RX.findall(text)]
+    total = len(words)
+    if total == 0:
+        return False, {"total_words": 0, "english_hits": 0, "ratio": 0.0}
+    hits = sum(1 for w in words if w in _ENGLISH_STOPWORDS)
+    ratio = hits / total
+    is_english = ratio >= _ENGLISH_STOPWORD_CONFIDENT_RATIO
+    return is_english, {
+        "total_words": total,
+        "english_hits": hits,
+        "ratio": round(ratio, 4),
+        "threshold": _ENGLISH_STOPWORD_CONFIDENT_RATIO,
+    }
 
 
 def _doubling_ratio(line: str) -> tuple[float, int]:
@@ -261,19 +305,39 @@ class VerifyExtractionQualityPrimitive:
 
         if self._runs_check("repeated_bigram"):
             share, bigram_total, top = _top_bigram_share(text, top_n=10)
-            bigram_failed = share > self.top_bigram_failure_threshold
+            is_english, lang_details = _detect_english_confidence(text)
+            bigram_hard_failed = share > self.top_bigram_failure_threshold
             bigram_flagged = share > self.top_bigram_threshold
-            checks.append(
-                {
-                    "name": "repeated_bigram",
-                    "value": round(share, 3),
-                    "threshold": self.top_bigram_failure_threshold,
-                    "passed": not bigram_failed,
-                    "flagged": bigram_flagged,
-                    "top_bigrams": [(b, c) for b, c in top[:5]],
-                    "total_bigrams": bigram_total,
-                }
-            )
+            # Conservative language-aware calibration (Step 5): only
+            # English has calibrated thresholds. For non-English or
+            # low-confidence text, downgrade a failure to `suspicious`
+            # so the finding is surfaced but does not block extraction
+            # on a threshold with no empirical basis for the language.
+            downgraded = False
+            if bigram_hard_failed and not is_english:
+                bigram_failed = False
+                downgraded = True
+            else:
+                bigram_failed = bigram_hard_failed
+            bigram_check = {
+                "name": "repeated_bigram",
+                "value": round(share, 3),
+                "threshold": self.top_bigram_failure_threshold,
+                "passed": not bigram_failed,
+                "flagged": bigram_flagged,
+                "top_bigrams": [(b, c) for b, c in top[:5]],
+                "total_bigrams": bigram_total,
+                "language_detected": (
+                    "english_confident" if is_english else "non_english_or_unknown"
+                ),
+                "language_details": lang_details,
+            }
+            if downgraded:
+                bigram_check["downgraded_from_failed"] = True
+                bigram_check["downgrade_reason"] = (
+                    "bigram_failure_downgraded_due_to_non_english_content"
+                )
+            checks.append(bigram_check)
 
         if self._runs_check("whitespace_runs"):
             ws_runs = _WHITESPACE_RUN_RX.findall(text)
