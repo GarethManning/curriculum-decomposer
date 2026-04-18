@@ -1,0 +1,2079 @@
+{
+  "regeneration_events": [
+    {
+      "source_label": "know: Historical chronology and key dates (timelines, sequence of events, cause-effect relationships)",
+      "bucket": "know",
+      "kud_content": "Historical chronology and key dates (timelines, sequence of events, cause-effect relationships)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct chronological sequences that identify causal relationships between historical events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can order historical events into accurate chronological sequences using key dates.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 2,
+          "statement": "I can construct chronological frameworks showing cause-effect relationships between historical events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4167
+        },
+        {
+          "attempt": 3,
+          "statement": "I can sequence historical events accurately on timelines showing their chronological order.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Indigenous perspectives and reconciliation frameworks (diverse First Nations, Métis, and Inuit cultures and contribution",
+      "bucket": "know",
+      "kud_content": "Indigenous perspectives and reconciliation frameworks (diverse First Nations, Métis, and Inuit cultures and contributions)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze diverse Indigenous perspectives and cultural frameworks to interpret their contributions within reconciliation contexts.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret First Nations, Métis, and Inuit worldviews to explain their distinct cultural contributions.",
+          "flags": [
+            "POSSIBLE_COMPOUND"
+          ],
+          "fail_flags": [],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ],
+      "outcome": "success@retry_1",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Civic structures and democratic processes (levels of government, rights and responsibilities, democratic participation)",
+      "bucket": "know",
+      "kud_content": "Civic structures and democratic processes (levels of government, rights and responsibilities, democratic participation)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze civic structures and democratic processes through multiple interpretive frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze levels of government, rights and responsibilities, and democratic participation using multiple governance frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5443
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate civic structures and democratic processes through multiple interpretive frameworks to assess their effectiveness.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4125
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze civic structures through different governance frameworks to explain how democratic processes function.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5809
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "know: Personal identity patterns and learning preferences",
+      "bucket": "know",
+      "kud_content": "Personal identity patterns and learning preferences",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can recognize patterns in how I learn best across different situations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can articulate patterns in my personal identity and learning preferences through sustained reflection.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3571
+        },
+        {
+          "attempt": 2,
+          "statement": "I can recognize my own learning patterns and identity characteristics through ongoing reflection.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6671
+        },
+        {
+          "attempt": 3,
+          "statement": "I can articulate personal learning preferences and identity patterns that support effective choice-making.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Spatial relationships and geographic patterns (how physical features influence human settlement and activities)",
+      "bucket": "understand",
+      "kud_content": "Spatial relationships and geographic patterns (how physical features influence human settlement and activities)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify spatial relationships between physical features and human settlement patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how physical features influence human settlement patterns and economic activities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6405
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify cause-effect relationships between physical geographic features and human settlement patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.593
+        },
+        {
+          "attempt": 3,
+          "statement": "I can explain how physical geographic features influence human settlement patterns and activities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6671
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Historical causation and consequence (how past events influence present conditions)",
+      "bucket": "understand",
+      "kud_content": "Historical causation and consequence (how past events influence present conditions)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify specific cause-and-effect relationships between past events and present conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can trace how specific historical events connect to and influence current conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4854
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify specific cause-effect relationships between historical events and present conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5385
+        },
+        {
+          "attempt": 3,
+          "statement": "I can trace how specific historical events created the conditions that shaped current situations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Multiple historical perspectives and significance (different interpretations of the same events)",
+      "bucket": "understand",
+      "kud_content": "Multiple historical perspectives and significance (different interpretations of the same events)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events through multiple interpretive frameworks to evaluate their varied significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret historical events through competing perspectives to compare their different meanings and significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5521
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze historical events using different perspectives to evaluate their varying significance and meaning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5809
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Geographic inquiry as systems thinking (interconnectedness of human and physical systems)",
+      "bucket": "understand",
+      "kud_content": "Geographic inquiry as systems thinking (interconnectedness of human and physical systems)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse geographical phenomena by examining the interconnectedness of human and physical systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can investigate geographical questions using systems thinking to examine interconnections between human and physical systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.504
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse how human and physical systems interconnect by evaluating multiple factors that influence geographical patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4573
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4118
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Civic engagement as shared responsibility (understanding that democracy requires active participation)",
+      "bucket": "understand",
+      "kud_content": "Civic engagement as shared responsibility (understanding that democracy requires active participation)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse civic engagement as shared responsibility through multiple democratic frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate democratic participation as shared responsibility across different governance contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze civic engagement as shared responsibility within democratic systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5222
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate civic engagement as shared responsibility necessary for democratic systems to function.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7252
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "understand: Personal growth as developmental process (understanding that dispositions and capacities develop over time)",
+      "bucket": "understand",
+      "kud_content": "Personal growth as developmental process (understanding that dispositions and capacities develop over time)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can appreciate my own capacity for growth through sustained reflection on my learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can articulate specific changes in my thinking through sustained metacognitive reflection on learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6262
+        },
+        {
+          "attempt": 2,
+          "statement": "I can recognize patterns in my own dispositional growth across multiple learning contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3581
+        },
+        {
+          "attempt": 3,
+          "statement": "I can articulate how my abilities and mindset have changed through specific learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2965
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Map reading and geographic representation (use compass, scale, symbols, create maps)",
+      "bucket": "do_skills",
+      "kud_content": "Map reading and geographic representation (use compass, scale, symbols, create maps)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can use compass directions, scale, and symbols to read and create maps for geographic analysis.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret compass directions, scale relationships, and map symbols to extract geographic information accurately.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6086
+        },
+        {
+          "attempt": 2,
+          "statement": "I can use compass directions, scale, and map symbols to read geographic information and create maps.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7303
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7303
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Historical source analysis and evidence evaluation",
+      "bucket": "do_skills",
+      "kud_content": "Historical source analysis and evidence evaluation",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical sources to evaluate evidence quality and construct supported interpretations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can assess the credibility and limitations of historical sources to justify interpretative claims.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze historical sources and evaluate evidence to construct interpretative claims.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6172
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate historical evidence and develop reasoned interpretations about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Geographic inquiry and fieldwork methods (observation, data collection, spatial analysis)",
+      "bucket": "do_skills",
+      "kud_content": "Geographic inquiry and fieldwork methods (observation, data collection, spatial analysis)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can conduct geographic fieldwork using systematic observation and data collection to analyse spatial relationships.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyse spatial patterns by synthesising observational data and geographic evidence from fieldwork investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can conduct geographic fieldwork investigations by collecting observational data and applying spatial analysis methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4869
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Civic participation and democratic engagement strategies",
+      "bucket": "do_skills",
+      "kud_content": "Civic participation and democratic engagement strategies",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze civic issues using multiple democratic frameworks to evaluate participation strategies.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate democratic engagement strategies by applying multiple civic frameworks to assess their effectiveness.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6445
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze civic participation strategies by comparing their democratic principles across multiple political frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate civic engagement strategies by analyzing how they address democratic participation across different governance contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.501
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_skills: Research and inquiry processes (questioning, investigating, synthesizing, communicating)",
+      "bucket": "do_skills",
+      "kud_content": "Research and inquiry processes (questioning, investigating, synthesizing, communicating)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can investigate complex questions by formulating focused inquiries, evaluating multiple sources critically, and synthesizing findings into reasoned conclusions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can conduct research inquiries that integrate multiple analytical approaches to generate well-reasoned interpretations from diverse evidence sources.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3158
+        },
+        {
+          "attempt": 2,
+          "statement": "I can synthesize findings from multiple sources using questioning strategies to communicate research conclusions with supporting evidence.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4451
+        },
+        {
+          "attempt": 3,
+          "statement": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4118
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Global citizenship mindset (demonstrates ethical reasoning, empathy, and commitment to democratic values in daily intera",
+      "bucket": "do_dispositions",
+      "kud_content": "Global citizenship mindset (demonstrates ethical reasoning, empathy, and commitment to democratic values in daily interactions)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can approach conflicts with curiosity about different perspectives and consider multiple viewpoints before forming judgments.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can demonstrate ethical reasoning, empathy, and commitment to democratic values in daily interactions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2004
+        },
+        {
+          "attempt": 2,
+          "statement": "I can apply ethical reasoning when making decisions affecting others in classroom and community settings.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.414
+        },
+        {
+          "attempt": 3,
+          "statement": "I can show empathy toward different perspectives during classroom discussions and collaborative work.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2864
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Critical thinking disposition (consistently asks probing questions, seeks evidence, considers multiple perspectives as h",
+      "bucket": "do_dispositions",
+      "kud_content": "Critical thinking disposition (consistently asks probing questions, seeks evidence, considers multiple perspectives as habit of mind)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently exhibit critical thinking habits including questioning, evidence-seeking, and perspective-taking.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can habitually question information sources and seek evidence across learning contexts.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3086
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently question information sources and seek evidence as habit of mind.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6405
+        },
+        {
+          "attempt": 3,
+          "statement": "I can habitually question claims and seek evidence as natural thinking patterns.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5604
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    },
+    {
+      "source_label": "do_dispositions: Collaborative inquiry capacity (sustains productive academic collaboration, builds on others' ideas, manages group dynam",
+      "bucket": "do_dispositions",
+      "kud_content": "Collaborative inquiry capacity (sustains productive academic collaboration, builds on others' ideas, manages group dynamics constructively)",
+      "source_bullet_ids": [],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can sustain collaborative inquiry by building constructively on others' ideas and managing group dynamics thoughtfully.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can sustain productive academic collaboration while building on others' ideas and managing group dynamics.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.71
+        },
+        {
+          "attempt": 2,
+          "statement": "I can approach collaborative inquiry with openness to others' perspectives and commitment to shared understanding.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2505
+        },
+        {
+          "attempt": 3,
+          "statement": "I can sustain productive collaboration by building on others' ideas and managing group dynamics constructively.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2505
+        }
+      ],
+      "outcome": "exhausted_retries",
+      "annotations": []
+    }
+  ],
+  "human_review_required": [
+    {
+      "source_label": "know: Historical chronology and key dates (timelines, sequence of events, cause-effect relationships)",
+      "kud_content": "Historical chronology and key dates (timelines, sequence of events, cause-effect relationships)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct chronological sequences that identify causal relationships between historical events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can order historical events into accurate chronological sequences using key dates.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 2,
+          "statement": "I can construct chronological frameworks showing cause-effect relationships between historical events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4167
+        },
+        {
+          "attempt": 3,
+          "statement": "I can sequence historical events accurately on timelines showing their chronological order.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ]
+    },
+    {
+      "source_label": "know: Civic structures and democratic processes (levels of government, rights and responsibilities, democratic participation)",
+      "kud_content": "Civic structures and democratic processes (levels of government, rights and responsibilities, democratic participation)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze civic structures and democratic processes through multiple interpretive frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyze levels of government, rights and responsibilities, and democratic participation using multiple governance frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5443
+        },
+        {
+          "attempt": 2,
+          "statement": "I can evaluate civic structures and democratic processes through multiple interpretive frameworks to assess their effectiveness.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4125
+        },
+        {
+          "attempt": 3,
+          "statement": "I can analyze civic structures through different governance frameworks to explain how democratic processes function.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5809
+        }
+      ]
+    },
+    {
+      "source_label": "know: Personal identity patterns and learning preferences",
+      "kud_content": "Personal identity patterns and learning preferences",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can recognize patterns in how I learn best across different situations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can articulate patterns in my personal identity and learning preferences through sustained reflection.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3571
+        },
+        {
+          "attempt": 2,
+          "statement": "I can recognize my own learning patterns and identity characteristics through ongoing reflection.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6671
+        },
+        {
+          "attempt": 3,
+          "statement": "I can articulate personal learning preferences and identity patterns that support effective choice-making.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Spatial relationships and geographic patterns (how physical features influence human settlement and activities)",
+      "kud_content": "Spatial relationships and geographic patterns (how physical features influence human settlement and activities)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify spatial relationships between physical features and human settlement patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can explain how physical features influence human settlement patterns and economic activities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6405
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify cause-effect relationships between physical geographic features and human settlement patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.593
+        },
+        {
+          "attempt": 3,
+          "statement": "I can explain how physical geographic features influence human settlement patterns and activities.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6671
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Historical causation and consequence (how past events influence present conditions)",
+      "kud_content": "Historical causation and consequence (how past events influence present conditions)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify specific cause-and-effect relationships between past events and present conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can trace how specific historical events connect to and influence current conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4854
+        },
+        {
+          "attempt": 2,
+          "statement": "I can identify specific cause-effect relationships between historical events and present conditions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5385
+        },
+        {
+          "attempt": 3,
+          "statement": "I can trace how specific historical events created the conditions that shaped current situations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Multiple historical perspectives and significance (different interpretations of the same events)",
+      "kud_content": "Multiple historical perspectives and significance (different interpretations of the same events)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical events through multiple interpretive frameworks to evaluate their varied significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret historical events through competing perspectives to compare their different meanings and significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5521
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze historical events using different perspectives to evaluate their varying significance and meaning.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5809
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Geographic inquiry as systems thinking (interconnectedness of human and physical systems)",
+      "kud_content": "Geographic inquiry as systems thinking (interconnectedness of human and physical systems)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse geographical phenomena by examining the interconnectedness of human and physical systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can investigate geographical questions using systems thinking to examine interconnections between human and physical systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.504
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyse how human and physical systems interconnect by evaluating multiple factors that influence geographical patterns.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4573
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4118
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Civic engagement as shared responsibility (understanding that democracy requires active participation)",
+      "kud_content": "Civic engagement as shared responsibility (understanding that democracy requires active participation)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyse civic engagement as shared responsibility through multiple democratic frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate democratic participation as shared responsibility across different governance contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze civic engagement as shared responsibility within democratic systems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5222
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate civic engagement as shared responsibility necessary for democratic systems to function.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7252
+        }
+      ]
+    },
+    {
+      "source_label": "understand: Personal growth as developmental process (understanding that dispositions and capacities develop over time)",
+      "kud_content": "Personal growth as developmental process (understanding that dispositions and capacities develop over time)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can appreciate my own capacity for growth through sustained reflection on my learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can articulate specific changes in my thinking through sustained metacognitive reflection on learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6262
+        },
+        {
+          "attempt": 2,
+          "statement": "I can recognize patterns in my own dispositional growth across multiple learning contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3581
+        },
+        {
+          "attempt": 3,
+          "statement": "I can articulate how my abilities and mindset have changed through specific learning experiences.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2965
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Map reading and geographic representation (use compass, scale, symbols, create maps)",
+      "kud_content": "Map reading and geographic representation (use compass, scale, symbols, create maps)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can use compass directions, scale, and symbols to read and create maps for geographic analysis.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can interpret compass directions, scale relationships, and map symbols to extract geographic information accurately.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6086
+        },
+        {
+          "attempt": 2,
+          "statement": "I can use compass directions, scale, and map symbols to read geographic information and create maps.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7303
+        },
+        {
+          "attempt": 3,
+          "statement": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.7303
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Historical source analysis and evidence evaluation",
+      "kud_content": "Historical source analysis and evidence evaluation",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze historical sources to evaluate evidence quality and construct supported interpretations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can assess the credibility and limitations of historical sources to justify interpretative claims.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4447
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze historical sources and evaluate evidence to construct interpretative claims.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6172
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate historical evidence and develop reasoned interpretations about past events.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Geographic inquiry and fieldwork methods (observation, data collection, spatial analysis)",
+      "kud_content": "Geographic inquiry and fieldwork methods (observation, data collection, spatial analysis)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can conduct geographic fieldwork using systematic observation and data collection to analyse spatial relationships.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can analyse spatial patterns by synthesising observational data and geographic evidence from fieldwork investigations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5333
+        },
+        {
+          "attempt": 2,
+          "statement": "I can conduct geographic fieldwork investigations by collecting observational data and applying spatial analysis methods.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6667
+        },
+        {
+          "attempt": 3,
+          "statement": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4869
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Civic participation and democratic engagement strategies",
+      "kud_content": "Civic participation and democratic engagement strategies",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can analyze civic issues using multiple democratic frameworks to evaluate participation strategies.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can evaluate democratic engagement strategies by applying multiple civic frameworks to assess their effectiveness.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6445
+        },
+        {
+          "attempt": 2,
+          "statement": "I can analyze civic participation strategies by comparing their democratic principles across multiple political frameworks.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6
+        },
+        {
+          "attempt": 3,
+          "statement": "I can evaluate civic engagement strategies by analyzing how they address democratic participation across different governance contexts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.501
+        }
+      ]
+    },
+    {
+      "source_label": "do_skills: Research and inquiry processes (questioning, investigating, synthesizing, communicating)",
+      "kud_content": "Research and inquiry processes (questioning, investigating, synthesizing, communicating)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can investigate complex questions by formulating focused inquiries, evaluating multiple sources critically, and synthesizing findings into reasoned conclusions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can conduct research inquiries that integrate multiple analytical approaches to generate well-reasoned interpretations from diverse evidence sources.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3158
+        },
+        {
+          "attempt": 2,
+          "statement": "I can synthesize findings from multiple sources using questioning strategies to communicate research conclusions with supporting evidence.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4451
+        },
+        {
+          "attempt": 3,
+          "statement": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.4118
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Global citizenship mindset (demonstrates ethical reasoning, empathy, and commitment to democratic values in daily intera",
+      "kud_content": "Global citizenship mindset (demonstrates ethical reasoning, empathy, and commitment to democratic values in daily interactions)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can approach conflicts with curiosity about different perspectives and consider multiple viewpoints before forming judgments.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can demonstrate ethical reasoning, empathy, and commitment to democratic values in daily interactions.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2004
+        },
+        {
+          "attempt": 2,
+          "statement": "I can apply ethical reasoning when making decisions affecting others in classroom and community settings.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.414
+        },
+        {
+          "attempt": 3,
+          "statement": "I can show empathy toward different perspectives during classroom discussions and collaborative work.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2864
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Critical thinking disposition (consistently asks probing questions, seeks evidence, considers multiple perspectives as h",
+      "kud_content": "Critical thinking disposition (consistently asks probing questions, seeks evidence, considers multiple perspectives as habit of mind)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can consistently exhibit critical thinking habits including questioning, evidence-seeking, and perspective-taking.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can habitually question information sources and seek evidence across learning contexts.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.3086
+        },
+        {
+          "attempt": 2,
+          "statement": "I can consistently question information sources and seek evidence as habit of mind.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.6405
+        },
+        {
+          "attempt": 3,
+          "statement": "I can habitually question claims and seek evidence as natural thinking patterns.",
+          "flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "COMPOUND_TYPE",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.5604
+        }
+      ]
+    },
+    {
+      "source_label": "do_dispositions: Collaborative inquiry capacity (sustains productive academic collaboration, builds on others' ideas, manages group dynam",
+      "kud_content": "Collaborative inquiry capacity (sustains productive academic collaboration, builds on others' ideas, manages group dynamics constructively)",
+      "source_bullet_ids": [],
+      "final_fail_flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "outcome": "exhausted_retries",
+      "attempt_count": 4,
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can sustain collaborative inquiry by building constructively on others' ideas and managing group dynamics thoughtfully.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        },
+        {
+          "attempt": 1,
+          "statement": "I can sustain productive academic collaboration while building on others' ideas and managing group dynamics.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.71
+        },
+        {
+          "attempt": 2,
+          "statement": "I can approach collaborative inquiry with openness to others' perspectives and commitment to shared understanding.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2505
+        },
+        {
+          "attempt": 3,
+          "statement": "I can sustain productive collaboration by building on others' ideas and managing group dynamics constructively.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": 0.2505
+        }
+      ]
+    }
+  ],
+  "source_language": "en",
+  "source_language_signal": {
+    "status": "measured",
+    "total_tokens": 10427,
+    "en_stopword_hits": 4493,
+    "en_stopword_ratio": 0.4309,
+    "threshold": 0.05
+  },
+  "output_mode": "curriculum"
+}

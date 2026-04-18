@@ -1,0 +1,257 @@
+{
+  "structured_lts": [
+    {
+      "competency": "Historical Chronological Knowledge",
+      "competency_definition": "The ability to organize historical events in proper sequence and understand their temporal relationships within broader historical contexts.",
+      "lt_name": "Timeline Sequencing",
+      "lt_definition": "I can sequence historical events accurately on timelines showing their chronological order.",
+      "level_statements": {
+        "grade_7": "I can sequence historical events accurately on timelines showing their chronological order."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Chronological Knowledge",
+      "competency_definition": "The capacity to identify and explain how past events created conditions that directly influence contemporary circumstances and developments.",
+      "lt_name": "Historical Causation",
+      "lt_definition": "I can trace how specific historical events created the conditions that shaped current situations.",
+      "level_statements": {
+        "grade_7": "I can trace how specific historical events created the conditions that shaped current situations."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The ability to analyze and interpret diverse Indigenous worldviews and cultural frameworks to understand their unique contributions to historical understanding.",
+      "lt_name": "Indigenous Worldview Interpretation",
+      "lt_definition": "I can interpret First Nations, Métis, and Inuit worldviews to explain their distinct cultural contributions.",
+      "level_statements": {
+        "grade_7": "I can interpret First Nations, Métis, and Inuit worldviews to explain their distinct cultural contributions."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "POSSIBLE_COMPOUND"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The capacity to examine historical events through multiple analytical lenses to construct diverse interpretations of their historical importance and meaning.",
+      "lt_name": "Multiple Perspective Analysis",
+      "lt_definition": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance.",
+      "level_statements": {
+        "grade_7": "I can interpret historical events through different analytical frameworks to construct varying assessments of their significance."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The skill to analyze geographic phenomena by understanding complex interconnections between human societies and their physical environments throughout history.",
+      "lt_name": "Geographic Systems Thinking",
+      "lt_definition": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments.",
+      "level_statements": {
+        "grade_7": "I can interpret geographic phenomena through systems thinking by examining interconnections between human activities and physical environments."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The ability to critically assess historical sources and construct well-supported interpretations about events and developments in the past.",
+      "lt_name": "Historical Evidence Evaluation",
+      "lt_definition": "I can evaluate historical evidence and develop reasoned interpretations about past events.",
+      "level_statements": {
+        "grade_7": "I can evaluate historical evidence and develop reasoned interpretations about past events."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The capacity to conduct systematic geographic investigation using direct observation and data collection to analyze spatial relationships in historical contexts.",
+      "lt_name": "Geographic Fieldwork Inquiry",
+      "lt_definition": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts.",
+      "level_statements": {
+        "grade_7": "I can conduct geographic inquiry using fieldwork methods to analyze spatial patterns and relationships in real-world contexts."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Historical Inquiry and Analysis",
+      "competency_definition": "The skill to formulate focused research questions and synthesize multiple sources of evidence to develop well-reasoned conclusions about historical topics.",
+      "lt_name": "Research Question Development",
+      "lt_definition": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions.",
+      "level_statements": {
+        "grade_7": "I can develop investigation questions that guide synthesis of evidence across sources to construct reasoned research conclusions."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Civic Engagement and Understanding",
+      "competency_definition": "The ability to examine and compare different systems of government to understand how democratic institutions operate and evolve throughout history.",
+      "lt_name": "Democratic Governance Analysis",
+      "lt_definition": "I can analyze civic structures through different governance frameworks to explain democratic processes.",
+      "level_statements": {
+        "grade_7": "I can analyze civic structures through different governance frameworks to explain democratic processes."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Civic Engagement and Understanding",
+      "competency_definition": "The capacity to assess the role of citizen participation in maintaining democratic societies across different historical periods and contexts.",
+      "lt_name": "Civic Responsibility Evaluation",
+      "lt_definition": "I can evaluate civic engagement as shared responsibility necessary for democratic systems.",
+      "level_statements": {
+        "grade_7": "I can evaluate civic engagement as shared responsibility necessary for democratic systems."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Civic Engagement and Understanding",
+      "competency_definition": "The skill to critically examine various methods of political participation and their effectiveness in different historical and governmental settings.",
+      "lt_name": "Participation Strategy Assessment",
+      "lt_definition": "I can evaluate civic engagement strategies by analyzing democratic participation across governance contexts.",
+      "level_statements": {
+        "grade_7": "I can evaluate civic engagement strategies by analyzing democratic participation across governance contexts."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Global Citizenship Mindset",
+      "competency_definition": "The capacity to understand one's own historical perspective and learning approaches when studying diverse cultures and civilizations.",
+      "lt_name": "Personal Learning Identity",
+      "lt_definition": "I can articulate personal learning preferences and identity patterns that support effective choice-making.",
+      "level_statements": {
+        "grade_7": "I can articulate personal learning preferences and identity patterns that support effective choice-making."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Global Citizenship Mindset",
+      "competency_definition": "The disposition to recognize personal intellectual development through engagement with historical content and perspectives.",
+      "lt_name": "Growth Mindset Reflection",
+      "lt_definition": "I can articulate how my abilities and mindset have changed through specific learning experiences.",
+      "level_statements": {
+        "grade_7": "I can articulate how my abilities and mindset have changed through specific learning experiences."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Global Citizenship Mindset",
+      "competency_definition": "The habit of demonstrating respect and understanding for diverse historical viewpoints and cultural experiences in academic settings.",
+      "lt_name": "Historical Empathy Practice",
+      "lt_definition": "I can show empathy toward different perspectives during classroom discussions and collaborative work.",
+      "level_statements": {
+        "grade_7": "I can show empathy toward different perspectives during classroom discussions and collaborative work."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geographical Foundational Concepts",
+      "competency_definition": "The ability to analyze how physical environments shape human settlement decisions and influence cultural and economic activities throughout history.",
+      "lt_name": "Geographic Settlement Patterns",
+      "lt_definition": "I can explain how physical geographic features influence human settlement patterns and activities.",
+      "level_statements": {
+        "grade_7": "I can explain how physical geographic features influence human settlement patterns and activities."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geographical Foundational Concepts",
+      "competency_definition": "The capacity to decode and utilize cartographic elements to gather spatial information essential for understanding historical contexts and movements.",
+      "lt_name": "Map Reading Skills",
+      "lt_definition": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps.",
+      "level_statements": {
+        "grade_7": "I can interpret compass directions, scale, and symbols to extract geographic information from existing maps."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Critical Thinking Disposition",
+      "competency_definition": "The habitual practice of questioning historical claims, seeking evidence, and maintaining intellectual curiosity when studying the past.",
+      "lt_name": "Critical Thinking Disposition",
+      "lt_definition": "I can habitually question claims and seek evidence as natural thinking patterns.",
+      "level_statements": {
+        "grade_7": "I can habitually question claims and seek evidence as natural thinking patterns."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "COMPOUND_TYPE",
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Collaborative Inquiry Capacity",
+      "competency_definition": "The capacity to maintain constructive partnerships and build upon collective thinking during historical investigations and discussions.",
+      "lt_name": "Collaborative Historical Inquiry",
+      "lt_definition": "I can sustain productive collaboration by building on others' ideas during historical investigations.",
+      "level_statements": {
+        "grade_7": "I can build on others' historical ideas and manage group dynamics constructively during inquiry."
+      },
+      "knowledge_type": "T3",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    }
+  ]
+}

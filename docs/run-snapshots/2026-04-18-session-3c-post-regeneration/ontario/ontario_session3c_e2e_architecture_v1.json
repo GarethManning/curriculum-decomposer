@@ -1,0 +1,115 @@
+{
+  "architecture_type": "Mixed",
+  "proportions": {},
+  "hierarchical_elements": [
+    "Geographical Foundational Concepts",
+    "Historical Chronological Knowledge"
+  ],
+  "horizontal_elements": [
+    "Historical Inquiry and Analysis",
+    "Geographical Inquiry Methods",
+    "Civic Engagement and Understanding"
+  ],
+  "dispositional_elements": [
+    "Global Citizenship Mindset",
+    "Critical Thinking Disposition",
+    "Collaborative Inquiry Capacity"
+  ],
+  "strands": [
+    {
+      "id": "geographical-foundational-concepts",
+      "label": "Geographical Foundational Concepts",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Spatial relationships, map skills, and geographical terminology follow clear prerequisite chains where basic concepts must precede complex analysis."
+    },
+    {
+      "id": "historical-chronological-knowledge",
+      "label": "Historical Chronological Knowledge",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Understanding of time periods, cause-effect relationships, and factual historical knowledge builds cumulatively with clear sequencing constraints."
+    },
+    {
+      "id": "historical-inquiry-analysis",
+      "label": "Historical Inquiry and Analysis",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Historical thinking involves multiple interpretive lenses (evidence analysis, perspective-taking, significance assessment) that can be developed across various content contexts."
+    },
+    {
+      "id": "geographical-inquiry-methods",
+      "label": "Geographical Inquiry Methods",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Geographical thinking encompasses fieldwork methods, spatial analysis, and systems thinking that transfer across different geographical contexts."
+    },
+    {
+      "id": "civic-engagement-understanding",
+      "label": "Civic Engagement and Understanding",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Citizenship education involves multiple analytical frameworks for understanding governance, rights, responsibilities, and democratic participation."
+    },
+    {
+      "id": "indigenous-perspectives-reconciliation",
+      "label": "Indigenous Perspectives and Reconciliation",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "This represents specific content coverage integrated throughout the curriculum rather than a skills-based learning target category."
+    },
+    {
+      "id": "new-france-early-settlement",
+      "label": "New France and Early Settlement",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Specific historical period content that provides context for skill development but is not itself a learning target type."
+    },
+    {
+      "id": "canadian-confederation-development",
+      "label": "Canadian Confederation and Development",
+      "lane": "content_theme",
+      "expected_lt_types": [],
+      "values_basis": "Specific historical content area that serves as context for applying historical thinking skills."
+    },
+    {
+      "id": "global-citizenship-mindset",
+      "label": "Global Citizenship Mindset",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Developing responsible citizenship involves dispositional growth in ethical reasoning, empathy, and commitment to democratic values."
+    },
+    {
+      "id": "critical-thinking-disposition",
+      "label": "Critical Thinking Disposition",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Critical thinking as a habit of mind represents dispositional development rather than just procedural skill acquisition."
+    },
+    {
+      "id": "collaborative-inquiry-capacity",
+      "label": "Collaborative Inquiry Capacity",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Collaboration skills in academic contexts represent developmental capacity that emerges through practice and reflection over time."
+    }
+  ],
+  "structural_flaw": "Content themes may overwhelm skills development without explicit learning target assignment protocols",
+  "auto_assessable_pct": 0.3
+}

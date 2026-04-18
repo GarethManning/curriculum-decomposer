@@ -1,0 +1,916 @@
+{
+  "output_mode": "exam_specification",
+  "schema_version": "1.0",
+  "assessed_demonstrations_map": {
+    "assessed_topics": [
+      {
+        "content": "Basic counting principles, permutations, and combinations",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz/test with calculation problems",
+        "notes": "Formulaic knowledge with correct calculations",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0277,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_023",
+            "score": 0.0086,
+            "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_024",
+            "score": 0.0084,
+            "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_001"
+        ]
+      },
+      {
+        "content": "Logical structure of mathematical statements (if...then, negation)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Structured response tasks identifying statement forms",
+        "notes": "Definable logical structures with correct forms",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_002",
+            "score": 0.013,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_019",
+            "score": 0.0073,
+            "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_002"
+        ]
+      },
+      {
+        "content": "Fraction operations procedures and rules",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation tasks",
+        "notes": "Algorithmic procedures with verifiable correctness",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_023",
+            "score": 0.0103,
+            "matched_text": "A tengelyes t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_024",
+            "score": 0.01,
+            "matched_text": "A k\u00f6z\u00e9ppontos t\u00fckr\u00f6z\u00e9s \u00e9s tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_026",
+            "score": 0.0074,
+            "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_003"
+        ]
+      },
+      {
+        "content": "Classification of decimal types (finite, infinite, infinite periodic)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with classification questions",
+        "notes": "Definitive categorical knowledge",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_011",
+            "score": 0.0082,
+            "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_004"
+        ]
+      },
+      {
+        "content": "Rounding rules and procedures",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation tasks",
+        "notes": "Procedural rules with correct applications",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0069,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_005"
+        ]
+      },
+      {
+        "content": "Exponent laws and identities for positive integers",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz/test with rule application",
+        "notes": "Mathematical laws with verifiable applications",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_010",
+            "score": 0.0099,
+            "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_011",
+            "score": 0.0084,
+            "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0057,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_006"
+        ]
+      },
+      {
+        "content": "Number system structures and conversions",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Structured response with conversion tasks",
+        "notes": "Systematic knowledge with correct procedures",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0062,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_007"
+        ]
+      },
+      {
+        "content": "Prime factorization, divisibility concepts (GCD, LCM)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation problems",
+        "notes": "Algorithmic procedures with verifiable results",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0069,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_003",
+            "score": 0.0,
+            "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_008"
+        ]
+      },
+      {
+        "content": "Algebraic expression manipulation rules",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Calculation tasks with symbolic manipulation",
+        "notes": "Rule-based procedures with correct forms",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_009",
+            "score": 0.025,
+            "matched_text": "M\u0171veletek algebrai kifejez\u00e9sekkel (z\u00e1r\u00f3jelfelbont\u00e1sok, \u00f6sszetett m\u0171veletek, a m\u0171veleti sorrend biztos ismerete, helyettes\u00edt\u00e9si \u00e9rt\u00e9k).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_009"
+        ]
+      },
+      {
+        "content": "Linear equation solving procedures",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable equation solving tasks",
+        "notes": "Algorithmic procedures with verifiable solutions",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_017",
+            "score": 0.0092,
+            "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_010"
+        ]
+      },
+      {
+        "content": "Percentage calculation formulas and relationships",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Calculation tasks with percentage problems",
+        "notes": "Formulaic knowledge with correct calculations",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_019",
+            "score": 0.0253,
+            "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0081,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_012"
+        ]
+      },
+      {
+        "content": "Set mapping terminology (domain, range, function types)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with definition matching",
+        "notes": "Mathematical vocabulary with precise definitions",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_027",
+            "score": 0.0068,
+            "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_013"
+        ]
+      },
+      {
+        "content": "Coordinate system structure and point notation",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Tasks plotting and identifying coordinates",
+        "notes": "Systematic notation with correct usage",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_016",
+            "score": 0.0269,
+            "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0181,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0071,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_016"
+        ]
+      },
+      {
+        "content": "Statistical measures formulas (mean, median, mode)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation tasks",
+        "notes": "Formulaic calculations with verifiable results",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_018",
+            "score": 0.0259,
+            "matched_text": "\u00c1tlag, m\u00f3dusz, medi\u00e1n.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_010",
+            "score": 0.0108,
+            "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_011",
+            "score": 0.0091,
+            "matched_text": "Sz\u00f6veges feladatok megold\u00e1sa egyenlettel.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_018"
+        ]
+      },
+      {
+        "content": "Frequency and probability relationship definitions",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with concept identification",
+        "notes": "Mathematical definitions with precise meanings",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_019",
+            "score": 0.0247,
+            "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_019"
+        ]
+      },
+      {
+        "content": "Triangle and quadrilateral classification systems",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Classification tasks with geometric figures",
+        "notes": "Categorical systems with definitive criteria",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0079,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_017",
+            "score": 0.0077,
+            "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_025",
+            "score": 0.0065,
+            "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_020"
+        ]
+      },
+      {
+        "content": "Geometric transformation definitions and properties",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with transformation identification",
+        "notes": "Precise mathematical definitions",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0768,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_026",
+            "score": 0.0133,
+            "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_025",
+            "score": 0.013,
+            "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_021"
+        ]
+      },
+      {
+        "content": "Congruence criteria for triangles",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Tasks identifying congruent triangles",
+        "notes": "Definitive criteria with verifiable application",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_025",
+            "score": 0.0154,
+            "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0096,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_022"
+        ]
+      },
+      {
+        "content": "Reflection properties and characteristics",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with property identification",
+        "notes": "Mathematical properties with precise definitions",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0062,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_023",
+          "sb_024"
+        ]
+      },
+      {
+        "content": "Special quadrilateral properties (parallelogram, trapezoid, kite)",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Classification and property identification tasks",
+        "notes": "Categorical knowledge with definitive characteristics",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_027",
+            "score": 0.0824,
+            "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_026",
+            "score": 0.072,
+            "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_020",
+            "score": 0.0139,
+            "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_026"
+        ]
+      },
+      {
+        "content": "Area and perimeter formulas for polygons",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation tasks",
+        "notes": "Formulaic knowledge with verifiable calculations",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_010",
+            "score": 0.0117,
+            "matched_text": "Els\u0151fok\u00fa egyenletek megold\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0089,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_027",
+            "score": 0.0077,
+            "matched_text": "A h\u00e1romsz\u00f6g, paralelogramma, trap\u00e9z \u00e9s a deltoid ker\u00fclete, ter\u00fclete.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_027"
+        ]
+      },
+      {
+        "content": "Polygon angle and diagonal formulas",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Calculation tasks using polygon formulas",
+        "notes": "Mathematical formulas with correct applications",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_031",
+            "score": 0.0103,
+            "matched_text": "A h\u00e1romsz\u00f6g nevezetes vonalainak fogalma.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0093,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_028",
+          "sb_029"
+        ]
+      },
+      {
+        "content": "Triangle side-angle relationships and special lines",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Quiz with relationship identification",
+        "notes": "Mathematical relationships with definitive properties",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_019",
+            "score": 0.0247,
+            "matched_text": "Gyakoris\u00e1g \u00e9s relat\u00edv gyakoris\u00e1g, val\u00f3sz\u00edn\u0171s\u00e9g \u00e9s relat\u00edv gyakoris\u00e1g kapcsolata.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_020",
+            "score": 0.0241,
+            "matched_text": "A h\u00e1romsz\u00f6gek csoportos\u00edt\u00e1sa, n\u00e9gysz\u00f6gek, speci\u00e1lis n\u00e9gysz\u00f6gek.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_021",
+            "score": 0.008,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_030",
+          "sb_031"
+        ]
+      },
+      {
+        "content": "Prism surface area and volume formulas",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable 3D calculation tasks",
+        "notes": "Formulaic knowledge with verifiable calculations",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_021",
+            "score": 0.009,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_032"
+        ]
+      }
+    ],
+    "tested_demonstrations": [
+      {
+        "content": "Solve word problems by setting up equations",
+        "knowledge_type": "Horizontal",
+        "assessment_route": "Performance rubric - problem-solving approach quality",
+        "notes": "Skill quality exists on continuum - multiple valid approaches",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_002",
+            "score": 0.0,
+            "matched_text": "Matematikai \u00e1ll\u00edt\u00e1sok (igaz \u00e9s hamis \u00e1ll\u00edt\u00e1sok megfogalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok igazs\u00e1g\u00e1nak eld\u00f6nt\u00e9se, ha...akkor sz\u00f3szerkezetek meg\u00e9rt\u00e9se, alkalmaz\u00e1sa, \u00e1ll\u00edt\u00e1sok tagad\u00e1sa).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_003",
+            "score": 0.0,
+            "matched_text": "M\u0171veletek t\u00f6rtekkel.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_011"
+        ]
+      },
+      {
+        "content": "Construct and interpret coordinate graphs",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Criterion-referenced rubric - correct plotting procedures",
+        "notes": "Demonstrable procedures with verifiable accuracy",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_016",
+            "score": 0.0288,
+            "matched_text": "Sz\u00e1mp\u00e1rok \u00e1br\u00e1zol\u00e1sa koordin\u00e1tarendszerben.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_014",
+            "score": 0.0255,
+            "matched_text": "Megfeleltet\u00e9s, ar\u00e1nyos oszt\u00e1s, egyenes ar\u00e1nyoss\u00e1g, koordin\u00e1ta-rendszer, pont koordin\u00e1t\u00e1i, grafikon.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_017",
+            "score": 0.0084,
+            "matched_text": "Szab\u00e1ly meg\u00e1llap\u00edt\u00e1sa grafikon \u00e9s t\u00e1bl\u00e1zat alapj\u00e1n.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_016",
+          "sb_017"
+        ]
+      },
+      {
+        "content": "Apply geometric transformations accurately",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Criterion-referenced rubric - transformation accuracy",
+        "notes": "Procedural skill with demonstrable correctness",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0851,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_026",
+            "score": 0.0144,
+            "matched_text": "A paralelogramma, trap\u00e9z \u00e9s a deltoid sz\u00e1rmaztat\u00e1sa, tulajdons\u00e1gai.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_025",
+            "score": 0.014,
+            "matched_text": "A k\u00f6z\u00e9ppontos \u00e9s a tengelyes szimmetria alkalmaz\u00e1sa, szimmetrikus alakzatok.",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_021",
+          "sb_023",
+          "sb_024"
+        ]
+      },
+      {
+        "content": "Calculate areas and volumes using appropriate formulas",
+        "knowledge_type": "Hierarchical",
+        "assessment_route": "Auto-assessable calculation tasks",
+        "notes": "Procedural calculations with verifiable correctness",
+        "source_provenance": [
+          {
+            "bullet_id": "sb_021",
+            "score": 0.0075,
+            "matched_text": "Geometriai transzform\u00e1ci\u00f3k megad\u00e1sa, alkalmaz\u00e1sa.",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_006",
+            "score": 0.004,
+            "matched_text": "Pozit\u00edv eg\u00e9sz kitev\u0151j\u0171 hatv\u00e1nyok ismerete, a vel\u00fck v\u00e9gzett m\u0171veletek azonoss\u00e1gainak alkalmaz\u00e1sa (azonos alap\u00fa hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa, hatv\u00e1ny hatv\u00e1nyoz\u00e1sa, azonos kitev\u0151j\u0171 hatv\u00e1nyok szorz\u00e1sa, oszt\u00e1sa).",
+            "bullet_type": "topic_statement"
+          },
+          {
+            "bullet_id": "sb_001",
+            "score": 0.0,
+            "matched_text": "Elemi kombinatorika (\u00f6sszesz\u00e1mol\u00e1s, sorrendek sz\u00e1ma, kiv\u00e1laszt\u00e1s).",
+            "bullet_type": "topic_statement"
+          }
+        ],
+        "flags": [
+          "SOURCE_FAITHFULNESS_FAIL"
+        ],
+        "source_bullet_ids": [
+          "sb_027",
+          "sb_032"
+        ]
+      }
+    ],
+    "understandings": null,
+    "dispositions": null,
+    "pedagogical_criteria": null
+  }
+}

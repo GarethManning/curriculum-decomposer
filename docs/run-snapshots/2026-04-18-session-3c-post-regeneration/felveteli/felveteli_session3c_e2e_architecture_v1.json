@@ -1,0 +1,79 @@
+{
+  "architecture_type": "Primarily Hierarchical",
+  "proportions": {
+    "hierarchical": 0.85,
+    "horizontal_analytical": 0.1,
+    "content_theme": 0.0,
+    "dispositional": 0.05
+  },
+  "hierarchical_elements": [
+    "Number Systems and Operations",
+    "Algebraic Expressions and Equations",
+    "Geometric Properties and Transformations",
+    "Statistics and Probability Concepts"
+  ],
+  "horizontal_elements": [
+    "Mathematical Problem-Solving Approaches"
+  ],
+  "dispositional_elements": [
+    "Problem-Solving Persistence and Communication"
+  ],
+  "strands": [
+    {
+      "id": "number-operations-hierarchy",
+      "label": "Number Systems and Operations",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Strict prerequisite chains from natural numbers through fractions, decimals, and percentage calculations."
+    },
+    {
+      "id": "algebraic-progression",
+      "label": "Algebraic Expressions and Equations",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Sequential build from basic operations through variables to equation solving."
+    },
+    {
+      "id": "geometric-concepts-hierarchy",
+      "label": "Geometric Properties and Transformations",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Foundational shapes and properties must precede transformations and advanced calculations."
+    },
+    {
+      "id": "data-probability-foundation",
+      "label": "Statistics and Probability Concepts",
+      "lane": "hierarchical",
+      "expected_lt_types": [
+        1
+      ],
+      "values_basis": "Basic counting and data concepts build toward statistical measures and probability."
+    },
+    {
+      "id": "mathematical-reasoning-inquiry",
+      "label": "Mathematical Problem-Solving Approaches",
+      "lane": "horizontal_analytical",
+      "expected_lt_types": [
+        2
+      ],
+      "values_basis": "Cross-cutting analytical frameworks for approaching problems through multiple mathematical lenses."
+    },
+    {
+      "id": "mathematical-persistence-mindset",
+      "label": "Problem-Solving Persistence and Communication",
+      "lane": "dispositional",
+      "expected_lt_types": [
+        3
+      ],
+      "values_basis": "Dispositional capacity for sustained mathematical reasoning and clear explanation of thinking."
+    }
+  ],
+  "structural_flaw": "Minimal horizontal development of mathematical reasoning relative to content coverage - problem-solving approaches receive insufficient explicit attention",
+  "auto_assessable_pct": 0.85
+}

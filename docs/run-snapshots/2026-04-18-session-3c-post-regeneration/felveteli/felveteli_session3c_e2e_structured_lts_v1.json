@@ -1,0 +1,454 @@
+{
+  "structured_lts": [
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to apply systematic counting methods and probability principles to determine arrangements and selections in mathematical contexts.",
+      "lt_name": "Counting Principles",
+      "lt_definition": "I can calculate arrangements and selections using counting principles and combinations.",
+      "level_statements": {
+        "y6": "I can count simple arrangements using basic multiplication principles.",
+        "y7": "I can calculate permutations and combinations for basic selection problems.",
+        "y8": "I can calculate arrangements and selections using counting principles and combinations."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to recognize and work with logical constructs that form the foundation of mathematical reasoning and proof.",
+      "lt_name": "Logical Structures",
+      "lt_definition": "I can identify logical structures in mathematical statements and conditions.",
+      "level_statements": {
+        "y6": "I can identify simple mathematical patterns and basic logical connections.",
+        "y7": "I can recognize if-then statements and simple logical structures in mathematics.",
+        "y8": "I can identify logical structures in mathematical statements and conditions."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to perform computational procedures with fractional numbers using established mathematical algorithms.",
+      "lt_name": "Fraction Operations",
+      "lt_definition": "I can perform arithmetic operations with fractions using standard algorithms.",
+      "level_statements": {
+        "y6": "I can add and subtract fractions with like denominators using procedures.",
+        "y7": "I can multiply and divide simple fractions using standard algorithms.",
+        "y8": "I can perform arithmetic operations with fractions using standard algorithms."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to categorize decimal representations according to their mathematical properties and characteristics.",
+      "lt_name": "Decimal Classification",
+      "lt_definition": "I can classify decimal numbers as finite, infinite, or periodic.",
+      "level_statements": {
+        "y6": "I can identify basic decimal types like finite and simple repeating decimals.",
+        "y7": "I can distinguish between finite and infinite decimal representations.",
+        "y8": "I can classify decimal numbers as finite, infinite, or periodic."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to apply systematic procedures for approximating numerical values to specified levels of precision.",
+      "lt_name": "Rounding Rules",
+      "lt_definition": "I can apply rounding rules to whole numbers and decimals.",
+      "level_statements": {
+        "y6": "I can round whole numbers to the nearest ten or hundred.",
+        "y7": "I can round decimals to one decimal place using rounding rules.",
+        "y8": "I can apply rounding rules to whole numbers and decimals."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to transform numerical representations between different mathematical systems using conversion procedures.",
+      "lt_name": "Number System Conversions",
+      "lt_definition": "I can convert between different number systems using correct procedures.",
+      "level_statements": {
+        "y6": "I can convert between simple fractions and decimals using basic procedures.",
+        "y7": "I can convert between fractions, decimals and percentages using standard methods.",
+        "y8": "I can convert between different number systems using correct procedures."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to decompose numbers into prime components and apply divisibility concepts to find common factors and multiples.",
+      "lt_name": "Prime Factorization",
+      "lt_definition": "I can identify prime factors and find greatest common divisors.",
+      "level_statements": {
+        "y6": "I can find factors of numbers using simple division methods.",
+        "y7": "I can identify prime factors and apply basic divisibility rules.",
+        "y8": "I can identify prime factors and find greatest common divisors."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "POSSIBLE_COMPOUND",
+        "SOURCE_FAITHFULNESS_FAIL",
+        "COMPETENCY_MAPPING_UNCERTAIN"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to isolate variables in algebraic equations using systematic solution procedures.",
+      "lt_name": "Linear Equations",
+      "lt_definition": "I can solve one-step linear equations using inverse operations.",
+      "level_statements": {
+        "y6": "I can solve simple addition and subtraction equations using inverse operations.",
+        "y7": "I can solve basic multiplication and division equations using inverse operations.",
+        "y8": "I can solve one-step linear equations using inverse operations."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to compute proportional relationships and percentage changes using established mathematical formulas.",
+      "lt_name": "Percentage Calculations",
+      "lt_definition": "I can apply percentage formulas to calculate increases and decreases.",
+      "level_statements": {
+        "y6": "I can calculate simple percentages using basic multiplication methods.",
+        "y7": "I can calculate percentage increases and decreases using formulas.",
+        "y8": "I can apply percentage formulas to calculate increases and decreases."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to identify and describe the mathematical properties of relations and mappings between sets.",
+      "lt_name": "Function Properties",
+      "lt_definition": "I can identify domain, range, and function types accurately.",
+      "level_statements": {
+        "y6": "I can identify simple input-output relationships in basic patterns.",
+        "y7": "I can identify domain and range in simple function relationships.",
+        "y8": "I can identify domain, range, and function types accurately."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to locate and represent points within coordinate systems using mathematical notation conventions.",
+      "lt_name": "Coordinate Points",
+      "lt_definition": "I can identify and plot points using coordinate notation.",
+      "level_statements": {
+        "y6": "I can plot simple points on a coordinate grid using whole numbers.",
+        "y7": "I can identify and plot points using positive coordinate notation.",
+        "y8": "I can identify and plot points using coordinate notation."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to compute measures of central tendency from numerical data using statistical procedures.",
+      "lt_name": "Statistical Measures",
+      "lt_definition": "I can calculate mean, median, and mode from data sets.",
+      "level_statements": {
+        "y6": "I can find the mode and median from simple data sets.",
+        "y7": "I can calculate mean and median from organized data sets.",
+        "y8": "I can calculate mean, median, and mode from data sets."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to recognize geometric figures with identical shape and size using established mathematical criteria.",
+      "lt_name": "Triangle Congruence",
+      "lt_definition": "I can identify congruent triangles using standard criteria.",
+      "level_statements": {
+        "y6": "I can identify triangles that look identical in shape and size.",
+        "y7": "I can recognize congruent triangles using basic comparison methods.",
+        "y8": "I can identify congruent triangles using standard criteria."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to compute linear and spatial measurements of polygonal shapes using geometric formulas.",
+      "lt_name": "Polygon Measurements",
+      "lt_definition": "I can apply area and perimeter formulas to calculate polygon measurements.",
+      "level_statements": {
+        "y6": "I can calculate perimeter and area of simple rectangles and squares.",
+        "y7": "I can apply area and perimeter formulas to basic polygon shapes.",
+        "y8": "I can apply area and perimeter formulas to calculate polygon measurements."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to compute angular and linear properties of many-sided figures using geometric relationships.",
+      "lt_name": "Polygon Properties",
+      "lt_definition": "I can apply polygon angle and diagonal formulas accurately.",
+      "level_statements": {
+        "y6": "I can identify angles in simple polygons like triangles and squares.",
+        "y7": "I can calculate interior angles of basic polygons using formulas.",
+        "y8": "I can apply polygon angle and diagonal formulas accurately."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to compute three-dimensional measurements of rectangular solids using volumetric and surface formulas.",
+      "lt_name": "Prism Calculations",
+      "lt_definition": "I can calculate surface area and volume of prisms accurately.",
+      "level_statements": {
+        "y6": "I can find volume of simple rectangular prisms using length times width.",
+        "y7": "I can calculate volume and basic surface area of rectangular prisms.",
+        "y8": "I can calculate surface area and volume of prisms accurately."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Number Systems and Operations",
+      "competency_definition": "The ability to create and analyze mathematical relationships through coordinate graphing and data interpretation.",
+      "lt_name": "Coordinate Graphs",
+      "lt_definition": "I can construct coordinate graphs and interpret mathematical relationships.",
+      "level_statements": {
+        "y6": "I can plot simple points and create basic coordinate graphs.",
+        "y7": "I can construct coordinate graphs and identify basic mathematical patterns.",
+        "y8": "I can construct coordinate graphs and interpret mathematical relationships."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Algebraic Expressions and Equations",
+      "competency_definition": "The ability to apply mathematical laws and rules to transform and simplify algebraic expressions systematically.",
+      "lt_name": "Exponent Laws",
+      "lt_definition": "I can apply exponent laws and identities to simplify expressions.",
+      "level_statements": {
+        "y6": "I can use basic multiplication to write repeated factors as exponents.",
+        "y7": "I can apply simple exponent rules like multiplying powers with same base.",
+        "y8": "I can apply exponent laws and identities to simplify expressions."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Algebraic Expressions and Equations",
+      "competency_definition": "The ability to apply mathematical laws and rules to transform and simplify algebraic expressions systematically.",
+      "lt_name": "Expression Manipulation",
+      "lt_definition": "I can apply algebraic rules to manipulate expressions into forms.",
+      "level_statements": {
+        "y6": "I can combine like terms and apply distributive property with numbers.",
+        "y7": "I can use algebraic rules to simplify expressions with one variable.",
+        "y8": "I can apply algebraic rules to manipulate expressions into equivalent forms."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Statistics and Probability Concepts",
+      "competency_definition": "The ability to analyze statistical relationships and probability patterns within mathematical data collections and interpret their connections.",
+      "lt_name": "Frequency-Probability Relationships",
+      "lt_definition": "I can identify the mathematical relationship between frequency and probability in data sets.",
+      "level_statements": {
+        "y6": "I can count outcomes and describe how often events happen in simple data.",
+        "y7": "I can calculate frequency and connect it to likelihood of events in data collections.",
+        "y8": "I can identify the mathematical relationship between frequency and probability in data sets."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The ability to recognize and categorize geometric figures based on their defining characteristics and structural properties.",
+      "lt_name": "Shape Classification",
+      "lt_definition": "I can classify triangles and quadrilaterals according to their geometric properties.",
+      "level_statements": {
+        "y6": "I can sort triangles and squares by counting sides and corners.",
+        "y7": "I can group triangles by side lengths and quadrilaterals by parallel sides.",
+        "y8": "I can classify triangles and quadrilaterals according to their geometric properties."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The capacity to recognize and distinguish between different types of geometric movements and their mathematical descriptions.",
+      "lt_name": "Transformation Recognition",
+      "lt_definition": "I can identify types of geometric transformations from their visual representations.",
+      "level_statements": {
+        "y6": "I can spot when shapes are flipped, turned, or moved.",
+        "y7": "I can name reflections, rotations, and translations from shape movements.",
+        "y8": "I can identify types of geometric transformations from their visual representations."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The skill to understand and identify the fundamental characteristics that define reflection operations in geometry.",
+      "lt_name": "Reflection Properties",
+      "lt_definition": "I can identify reflection properties including symmetry lines and angle preservation.",
+      "level_statements": {
+        "y6": "I can find lines of symmetry in simple shapes.",
+        "y7": "I can identify mirror lines and equal distances in reflections.",
+        "y8": "I can identify reflection properties including symmetry lines and angle preservation."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The knowledge of distinctive attributes that characterize specific categories of four-sided geometric figures.",
+      "lt_name": "Quadrilateral Properties",
+      "lt_definition": "I can identify defining properties of parallelograms, trapezoids, and kites.",
+      "level_statements": {
+        "y6": "I can recognize rectangles, squares, and basic four-sided shapes.",
+        "y7": "I can identify parallel sides in quadrilaterals and basic properties.",
+        "y8": "I can identify defining properties of parallelograms, trapezoids, and kites."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The understanding of how triangle sides and angles relate to each other and the properties of important triangle segments.",
+      "lt_name": "Triangle Relationships",
+      "lt_definition": "I can identify triangle side-angle relationships and properties of special lines.",
+      "level_statements": {
+        "y6": "I can compare triangle side lengths and identify right angles.",
+        "y7": "I can relate longer sides to larger angles in triangles.",
+        "y8": "I can identify triangle side-angle relationships and properties of special lines."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The practical skill to perform geometric movements on shapes with precision and mathematical correctness.",
+      "lt_name": "Transformation Application",
+      "lt_definition": "I can apply reflections, rotations, and translations to shapes accurately.",
+      "level_statements": {
+        "y6": "I can flip and slide simple shapes on grid paper.",
+        "y7": "I can perform basic transformations using coordinate grids and instructions.",
+        "y8": "I can apply reflections, rotations, and translations to shapes accurately."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Geometric Properties and Transformations",
+      "competency_definition": "The computational ability to determine area and volume measurements using established geometric formulas.",
+      "lt_name": "Area and Volume",
+      "lt_definition": "I can calculate areas and volumes using correct formulas for shapes.",
+      "level_statements": {
+        "y6": "I can find areas of rectangles and count unit cubes for volume.",
+        "y7": "I can calculate areas of triangles and parallelograms using basic formulas.",
+        "y8": "I can calculate areas and volumes using correct formulas for shapes."
+      },
+      "knowledge_type": "T1",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    },
+    {
+      "competency": "Mathematical Problem-Solving Approaches",
+      "competency_definition": "The ability to translate real-world situations into mathematical equations and solve complex word problems systematically.",
+      "lt_name": "Equation Construction",
+      "lt_definition": "I can construct equations that accurately represent mathematical relationships in word problems.",
+      "level_statements": {
+        "y6": "I can write simple equations using one variable from basic word problems.",
+        "y7": "I can create equations with multiple operations from multi-step word problem scenarios.",
+        "y8": "I can construct equations that accurately represent mathematical relationships in word problems."
+      },
+      "knowledge_type": "T2",
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "lt_statement_format": "i_can"
+    }
+  ]
+}

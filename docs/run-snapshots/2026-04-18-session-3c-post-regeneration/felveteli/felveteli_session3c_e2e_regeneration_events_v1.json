@@ -1,0 +1,750 @@
+{
+  "regeneration_events": [
+    {
+      "source_label": "know: Basic counting principles, permutations, and combinations",
+      "bucket": "know",
+      "kud_content": "Basic counting principles, permutations, and combinations",
+      "source_bullet_ids": [
+        "sb_001"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can calculate the number of possible arrangements and selections using counting principles, permutations, and combinations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Logical structure of mathematical statements (if...then, negation)",
+      "bucket": "know",
+      "kud_content": "Logical structure of mathematical statements (if...then, negation)",
+      "source_bullet_ids": [
+        "sb_002"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify logical structures in mathematical statements including if-then conditions and negations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Fraction operations procedures and rules",
+      "bucket": "know",
+      "kud_content": "Fraction operations procedures and rules",
+      "source_bullet_ids": [
+        "sb_003"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can perform arithmetic operations with fractions using standard algorithms.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Classification of decimal types (finite, infinite, infinite periodic)",
+      "bucket": "know",
+      "kud_content": "Classification of decimal types (finite, infinite, infinite periodic)",
+      "source_bullet_ids": [
+        "sb_004"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can classify decimal numbers as finite, infinite, or infinite periodic.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Rounding rules and procedures",
+      "bucket": "know",
+      "kud_content": "Rounding rules and procedures",
+      "source_bullet_ids": [
+        "sb_005"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply rounding rules accurately to whole numbers and decimals to specified places.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Exponent laws and identities for positive integers",
+      "bucket": "know",
+      "kud_content": "Exponent laws and identities for positive integers",
+      "source_bullet_ids": [
+        "sb_006"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply exponent laws and identities to simplify expressions with positive integer exponents.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Number system structures and conversions",
+      "bucket": "know",
+      "kud_content": "Number system structures and conversions",
+      "source_bullet_ids": [
+        "sb_007"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can convert between different number systems using correct procedures and properties.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Prime factorization, divisibility concepts (GCD, LCM)",
+      "bucket": "know",
+      "kud_content": "Prime factorization, divisibility concepts (GCD, LCM)",
+      "source_bullet_ids": [
+        "sb_008"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify prime factors of numbers and apply divisibility rules to find greatest common divisors and least common multiples.",
+          "flags": [
+            "POSSIBLE_COMPOUND",
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Algebraic expression manipulation rules",
+      "bucket": "know",
+      "kud_content": "Algebraic expression manipulation rules",
+      "source_bullet_ids": [
+        "sb_009"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply algebraic rules to manipulate expressions into equivalent forms.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Linear equation solving procedures",
+      "bucket": "know",
+      "kud_content": "Linear equation solving procedures",
+      "source_bullet_ids": [
+        "sb_010"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can solve one-step linear equations using inverse operations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Percentage calculation formulas and relationships",
+      "bucket": "know",
+      "kud_content": "Percentage calculation formulas and relationships",
+      "source_bullet_ids": [
+        "sb_012"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply percentage formulas to calculate percentages, percentage increases, percentage decreases, and original amounts.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Set mapping terminology (domain, range, function types)",
+      "bucket": "know",
+      "kud_content": "Set mapping terminology (domain, range, function types)",
+      "source_bullet_ids": [
+        "sb_013"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify domain, range, and function types using precise mathematical terminology.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Coordinate system structure and point notation",
+      "bucket": "know",
+      "kud_content": "Coordinate system structure and point notation",
+      "source_bullet_ids": [
+        "sb_016"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify and plot points using coordinate notation within a coordinate system.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Statistical measures formulas (mean, median, mode)",
+      "bucket": "know",
+      "kud_content": "Statistical measures formulas (mean, median, mode)",
+      "source_bullet_ids": [
+        "sb_018"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can calculate mean, median, and mode from given data sets using appropriate formulas.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Frequency and probability relationship definitions",
+      "bucket": "know",
+      "kud_content": "Frequency and probability relationship definitions",
+      "source_bullet_ids": [
+        "sb_019"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify the mathematical relationship between frequency and probability in data sets.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Triangle and quadrilateral classification systems",
+      "bucket": "know",
+      "kud_content": "Triangle and quadrilateral classification systems",
+      "source_bullet_ids": [
+        "sb_020"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can classify triangles and quadrilaterals according to their geometric properties.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Geometric transformation definitions and properties",
+      "bucket": "know",
+      "kud_content": "Geometric transformation definitions and properties",
+      "source_bullet_ids": [
+        "sb_021"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify types of geometric transformations from their visual or mathematical representations.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Congruence criteria for triangles",
+      "bucket": "know",
+      "kud_content": "Congruence criteria for triangles",
+      "source_bullet_ids": [
+        "sb_022"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify congruent triangles using the standard criteria.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Reflection properties and characteristics",
+      "bucket": "know",
+      "kud_content": "Reflection properties and characteristics",
+      "source_bullet_ids": [
+        "sb_023",
+        "sb_024"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify reflection properties including line of symmetry, equal distances, and angle preservation.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Special quadrilateral properties (parallelogram, trapezoid, kite)",
+      "bucket": "know",
+      "kud_content": "Special quadrilateral properties (parallelogram, trapezoid, kite)",
+      "source_bullet_ids": [
+        "sb_026"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify defining properties of special quadrilaterals including parallelograms, trapezoids, and kites.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Area and perimeter formulas for polygons",
+      "bucket": "know",
+      "kud_content": "Area and perimeter formulas for polygons",
+      "source_bullet_ids": [
+        "sb_027"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply area and perimeter formulas to calculate measurements for polygons",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Polygon angle and diagonal formulas",
+      "bucket": "know",
+      "kud_content": "Polygon angle and diagonal formulas",
+      "source_bullet_ids": [
+        "sb_028",
+        "sb_029"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply polygon angle and diagonal formulas to calculate measurements accurately.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Triangle side-angle relationships and special lines",
+      "bucket": "know",
+      "kud_content": "Triangle side-angle relationships and special lines",
+      "source_bullet_ids": [
+        "sb_030",
+        "sb_031"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can identify triangle side-angle relationships and properties of special lines within triangles.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "know: Prism surface area and volume formulas",
+      "bucket": "know",
+      "kud_content": "Prism surface area and volume formulas",
+      "source_bullet_ids": [
+        "sb_032"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can calculate surface area and volume of prisms using appropriate formulas.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "do_skills: Solve word problems by setting up equations",
+      "bucket": "do_skills",
+      "kud_content": "Solve word problems by setting up equations",
+      "source_bullet_ids": [
+        "sb_011"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct equations that accurately represent the mathematical relationships described in word problems.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "do_skills: Construct and interpret coordinate graphs",
+      "bucket": "do_skills",
+      "kud_content": "Construct and interpret coordinate graphs",
+      "source_bullet_ids": [
+        "sb_016",
+        "sb_017"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can construct coordinate graphs using correct plotting procedures and interpret mathematical relationships from plotted data.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "do_skills: Apply geometric transformations accurately",
+      "bucket": "do_skills",
+      "kud_content": "Apply geometric transformations accurately",
+      "source_bullet_ids": [
+        "sb_021",
+        "sb_023",
+        "sb_024"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can apply geometric transformations including reflections, rotations, and translations to given shapes with accuracy.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    },
+    {
+      "source_label": "do_skills: Calculate areas and volumes using appropriate formulas",
+      "bucket": "do_skills",
+      "kud_content": "Calculate areas and volumes using appropriate formulas",
+      "source_bullet_ids": [
+        "sb_027",
+        "sb_032"
+      ],
+      "attempts": [
+        {
+          "attempt": 0,
+          "statement": "I can calculate areas and volumes using correct formulas for standard geometric shapes.",
+          "flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "fail_flags": [
+            "SOURCE_FAITHFULNESS_FAIL"
+          ],
+          "annotations": [],
+          "similarity_to_prev": null
+        }
+      ],
+      "outcome": "language_bypass_ship_flagged",
+      "annotations": [
+        "SOURCE_LANGUAGE_BYPASS"
+      ]
+    }
+  ],
+  "human_review_required": [],
+  "source_language": "non-en",
+  "source_language_signal": {
+    "status": "measured",
+    "total_tokens": 420,
+    "en_stopword_hits": 20,
+    "en_stopword_ratio": 0.0476,
+    "threshold": 0.05
+  },
+  "output_mode": "exam_specification"
+}

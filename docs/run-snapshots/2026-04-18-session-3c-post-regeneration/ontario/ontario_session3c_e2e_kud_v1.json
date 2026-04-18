@@ -1,0 +1,546 @@
+{
+  "know": [
+    {
+      "content": "Historical chronology and key dates (timelines, sequence of events, cause-effect relationships)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Quiz, test, or structured response with factual accuracy",
+      "notes": "Cumulative chronological knowledge essential for historical understanding, with demonstrable correctness",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_650",
+          "score": 0.1429,
+          "matched_text": "to help them determine which key concept (or concepts) of historical thinking is relevant to",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_456",
+          "score": 0.125,
+          "matched_text": "to investigate and make judgements about issues, developments, and events of historical importance.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_667",
+          "score": 0.1232,
+          "matched_text": "use historical terminology and concepts correctly and effectively",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Indigenous perspectives and reconciliation frameworks (diverse First Nations, M\u00e9tis, and Inuit cultures and contributions)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Analytical task assessed by teacher judgment using cultural understanding criteria",
+      "notes": "Perspectival knowledge requiring respectful interpretation and multiple valid understandings rather than factual memorization",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_469",
+          "score": 0.4615,
+          "matched_text": "Nation, M\u00e9tis, and Inuit traditions, cultures, and perspectives.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_470",
+          "score": 0.4,
+          "matched_text": "Ontario First Nation, M\u00e9tis, and Inuit Education Policy Framework (2007)",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_757",
+          "score": 0.4,
+          "matched_text": "What First Nations, M\u00e9tis, and Inuit languages were spoken by the Indigenous nations that lived,",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Civic structures and democratic processes (levels of government, rights and responsibilities, democratic participation)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Analytical response demonstrating understanding of civic frameworks",
+      "notes": "Multiple analytical lenses for understanding governance that depend on interpretive stance rather than single correct answers",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_304",
+          "score": 0.2222,
+          "matched_text": "democratic participation.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_482",
+          "score": 0.2,
+          "matched_text": "various levels of government.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_145",
+          "score": 0.1538,
+          "matched_text": "their rights and responsibilities under the Occupational Health and Safety Act;",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Personal identity patterns and learning preferences",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Embedded in developmental conversation, not separately tested",
+      "notes": "Self-knowledge that emerges through reflection and cannot be externally assessed through traditional methods",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_030",
+          "score": 0.2857,
+          "matched_text": "Each student has their own unique patterns of learning.",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_024",
+          "score": 0.25,
+          "matched_text": "learning preferences, and readiness in order to promote learning.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_196",
+          "score": 0.2,
+          "matched_text": "preferences.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "understand": [
+    {
+      "content": "Spatial relationships and geographic patterns (how physical features influence human settlement and activities)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Structured analysis with demonstrable geographic principles",
+      "notes": "Established cause-effect relationships in geography that follow logical patterns with correct formulations",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_018",
+          "score": 0.1875,
+          "matched_text": "physical development \u2013 physical activity, sleep patterns, changes that come with puberty, body",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_572",
+          "score": 0.1333,
+          "matched_text": "What impact do human activities and different land uses have on the environment? How can",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_354",
+          "score": 0.125,
+          "matched_text": "How do teacher biases influence decisions about what tasks or activities are chosen for",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical causation and consequence (how past events influence present conditions)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Historical analysis with clear cause-effect demonstration",
+      "notes": "Logical historical relationships that can be demonstrated with evidence-based accuracy",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_575",
+          "score": 0.1818,
+          "matched_text": "the present, or between two points in the past.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_619",
+          "score": 0.1818,
+          "matched_text": "make connections between the past and present",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_641",
+          "score": 0.1818,
+          "matched_text": "in the past and the present, or between two points in the past.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Multiple historical perspectives and significance (different interpretations of the same events)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Interpretive analysis assessed through qualitative depth criteria",
+      "notes": "Enduring understanding that admits multiple valid formulations depending on analytical stance and perspective",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_646",
+          "score": 0.2222,
+          "matched_text": "perspectives on the same event, development, or issue.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_591",
+          "score": 0.1818,
+          "matched_text": "perspectives they convey and of gathering sources that reflect multiple perspectives.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_680",
+          "score": 0.1667,
+          "matched_text": "need to develop their ability to examine issues from multiple perspectives.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Geographic inquiry as systems thinking (interconnectedness of human and physical systems)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Systems analysis task with interpretive quality assessment",
+      "notes": "Sophisticated understanding that exists on continuum of analytical depth rather than right/wrong answers",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_685",
+          "score": 0.25,
+          "matched_text": "geographic inquiry process.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_688",
+          "score": 0.1818,
+          "matched_text": "that reflect the selected concept(s) of geographic thinking",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_687",
+          "score": 0.1667,
+          "matched_text": "to help them determine which key concept (or concepts) of geographic thinking is relevant to",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Civic engagement as shared responsibility (understanding that democracy requires active participation)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Civic analysis demonstrating sophisticated understanding of democratic participation",
+      "notes": "Complex understanding of citizenship that can be expressed in multiple valid ways depending on context and values",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_144",
+          "score": 0.2,
+          "matched_text": "their responsibilities under the Education Act;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_117",
+          "score": 0.1538,
+          "matched_text": "use information and research with understanding, responsibility, and imagination.",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_145",
+          "score": 0.1538,
+          "matched_text": "their rights and responsibilities under the Occupational Health and Safety Act;",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Personal growth as developmental process (understanding that dispositions and capacities develop over time)",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Embedded in developmental conversation through metacognitive reflection",
+      "notes": "Self-awareness about one's own development that cannot be externally tested but emerges through guided reflection",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_416",
+          "score": 0.2222,
+          "matched_text": "developing the personal",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_225",
+          "score": 0.2,
+          "matched_text": "develop personal resilience",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_408",
+          "score": 0.1429,
+          "matched_text": "develop skills and personal attributes that are needed for discipline-specific inquiry and that can",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_skills": [
+    {
+      "content": "Map reading and geographic representation (use compass, scale, symbols, create maps)",
+      "knowledge_type": "Hierarchical",
+      "assessment_route": "Procedural demonstration with criterion-referenced rubric",
+      "notes": "Demonstrable technical skills with clear correctness criteria that can be taught and assessed procedurally",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_862",
+          "score": 0.2,
+          "matched_text": "How can we use satellite images of the First Nation community to help us create maps and",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_914",
+          "score": 0.1667,
+          "matched_text": "Why do we label things on maps? How does this help us use a map?",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_702",
+          "score": 0.1538,
+          "matched_text": "use geographical terminology and concepts correctly and effectively",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Historical source analysis and evidence evaluation",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Performance task with qualitative rubric (Emerging \u2192 Developing \u2192 Competent \u2192 Extending)",
+      "notes": "Analytical skill where quality exists on continuum of sophistication rather than simple correctness",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_420",
+          "score": 0.1667,
+          "matched_text": "developing historical",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_658",
+          "score": 0.1667,
+          "matched_text": "analyse evidence and information, applying the relevant concepts of historical thinking (see",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_489",
+          "score": 0.1537,
+          "matched_text": "interpreting and analysing information, evidence, and/or data",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Geographic inquiry and fieldwork methods (observation, data collection, spatial analysis)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Geographic inquiry task with analytical depth rubric",
+      "notes": "Interpretive skill that transfers across contexts and improves with analytical sophistication",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_685",
+          "score": 0.2,
+          "matched_text": "geographic inquiry process.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_504",
+          "score": 0.1429,
+          "matched_text": "mathematics curriculum for Grades 1 to 8: Data, Algebra, and Spatial Sense.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_691",
+          "score": 0.1429,
+          "matched_text": "use a variety of methods to organize the data, evidence, and/or information they have",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Civic participation and democratic engagement strategies",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Civic action project with analytical criteria for democratic understanding",
+      "notes": "Complex skill requiring multiple analytical frameworks rather than procedural steps",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_304",
+          "score": 0.4,
+          "matched_text": "democratic participation.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_189",
+          "score": 0.1667,
+          "matched_text": "democratic society.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_077",
+          "score": 0.125,
+          "matched_text": "use of a variety of instructional strategies;5",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Research and inquiry processes (questioning, investigating, synthesizing, communicating)",
+      "knowledge_type": "Horizontal",
+      "assessment_route": "Research project with process-focused qualitative rubric",
+      "notes": "Sophisticated academic skill that improves with practice and analytical depth rather than following fixed procedures",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_119",
+          "score": 0.3333,
+          "matched_text": "design inquiry questions for research projects;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_248",
+          "score": 0.1667,
+          "matched_text": "Students engage in inquiry processes that include locating, processing, interpreting,",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_261",
+          "score": 0.1538,
+          "matched_text": "inquiry research, by testing hypotheses and experimenting with new strategies or techniques.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ],
+  "do_dispositions": [
+    {
+      "content": "Global citizenship mindset (demonstrates ethical reasoning, empathy, and commitment to democratic values in daily interactions)",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Enacted capacity observable in patterns of behaviour over time across multiple contexts, not demonstrable in single tasks",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_242",
+          "score": 0.1538,
+          "matched_text": "global citizenship and sustainability",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_189",
+          "score": 0.0769,
+          "matched_text": "democratic society.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_304",
+          "score": 0.0769,
+          "matched_text": "democratic participation.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Critical thinking disposition (consistently asks probing questions, seeks evidence, considers multiple perspectives as habit of mind)",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Habitual thinking pattern that emerges through repeated practice and reflection, distinct from critical thinking as procedural skill",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_492",
+          "score": 0.1579,
+          "matched_text": "provide students with questions and ask them to gather and analyse information, evidence,",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_544",
+          "score": 0.1579,
+          "matched_text": "they may prefer not to ask questions or express their thoughts orally while they are thinking.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_237",
+          "score": 0.125,
+          "matched_text": "critical thinking and problem solving",
+          "bullet_type": "marker_bullet"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    },
+    {
+      "content": "Collaborative inquiry capacity (sustains productive academic collaboration, builds on others' ideas, manages group dynamics constructively)",
+      "knowledge_type": "Dispositional",
+      "assessment_route": "Multi-informant observation \u2192 Dispositional Knowledge Assessment Designer",
+      "notes": "Developmental capacity that grows through experience and cannot be reduced to checklist behaviours or single collaborative tasks",
+      "source_provenance": [
+        {
+          "bullet_id": "sb_258",
+          "score": 0.1765,
+          "matched_text": "the importance of building and scaling ideas for sustainable growth.",
+          "bullet_type": "topic_statement"
+        },
+        {
+          "bullet_id": "sb_409",
+          "score": 0.1176,
+          "matched_text": "build collaborative and cooperative working relationships;",
+          "bullet_type": "marker_bullet"
+        },
+        {
+          "bullet_id": "sb_188",
+          "score": 0.1053,
+          "matched_text": "ideas. Literacy enables us to share information and to interact with others.",
+          "bullet_type": "topic_statement"
+        }
+      ],
+      "flags": [
+        "SOURCE_FAITHFULNESS_FAIL"
+      ],
+      "source_bullet_ids": []
+    }
+  ]
+}

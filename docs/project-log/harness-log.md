@@ -408,5 +408,213 @@ so surface-form LT flags rise. Logged here and left alone — Session 3c.
 
 ---
 
+## Session 3c — 2026-04-18 — Phase 4 regeneration loop, exam-spec output-shape discipline, gates d/e implemented
+
+Phase 4 now hard-fails on validation flags and regenerates with a
+bounded retry budget; exam-spec runs refuse Understands and
+Dispositions per v4.1; the two pending Foundation-moment-2 gates in
+VALIDITY.md are promoted to implemented on the back of the new
+regeneration-event artefact.
+
+### Commits
+
+- `cfc13f5` [gen] Phase 4 regeneration loop, exam-spec output discipline, language bypass (v4.1)
+  — bundles the three [gen] deliverables from the brief because state.py
+  and graph.py changes are interwoven across them and cannot cleanly
+  split at file level.
+- `e395e74` [judge] VALIDITY gates d and e promoted to implemented
+- `<this commit>` [docs] Session 3c end-to-end runs + harness-log entry
+
+### What was built
+
+1. **Phase 4 regeneration loop
+   (`curriculum_harness/phases/phase4_lt_generation.py`).** `FAIL_SET`
+   is frozen at seven flags:
+   `SOURCE_FAITHFULNESS_FAIL`, `EXCEEDS_WORD_LIMIT`, `COMPOUND_TYPE`,
+   `EMBEDDED_EXAMPLE`, `DISPOSITION_RUBRIC_ERROR`,
+   `MISSING_I_CAN_FORMAT`, `MISSING_LT_STATEMENT`. `POSSIBLE_COMPOUND`
+   and `LT_FORMAT_EXPECTATION_MISMATCH` stay warnings. Regeneration
+   budget is 3 retries per LT; each retry injects prior attempt +
+   flags into the prompt with an explicit "do not repeat" instruction.
+   Similarity between retry N and retry N−1 is computed by the
+   existing `cosine_similarity_text`; `>=0.90` aborts early with
+   `REGENERATION_NEAR_IDENTICAL`. Flags introduced by a retry that
+   were absent in N−1 are surfaced as `REGENERATION_INTRODUCED_NEW_FLAG`.
+   Exhausted budget → the source bullet is added to
+   `state["human_review_required"]` instead of shipping a flagged LT
+   as if valid. Adjacent-mechanism declaration in the module
+   docstring lists what the loop does NOT check (semantic
+   differentness of retries, source-content adequacy, FAIL_SET
+   tuning).
+
+2. **Exam-spec output-shape discipline (Phase 3 + output_node).**
+   Phase 3's `per_bullet` branch (bare-bullet exam spec per
+   binding-specifications.md) now empties `understand` and
+   `do_dispositions` post-KUD; `state["output_mode"]` is set to
+   `exam_specification` so the output_node writes
+   `<runId>_assessed_demonstrations_map_v1.json` with the wrapper
+   `{output_mode, schema_version, assessed_demonstrations_map:
+   {assessed_topics, tested_demonstrations, understandings: null,
+   dispositions: null, pedagogical_criteria: null}}`. Curriculum
+   mode keeps the legacy `<runId>_kud_v1.json` artefact unchanged.
+   Phase 3's module docstring carries the adjacent-mechanism
+   declaration: the gate is structural (mode-level), not
+   content-level — a prompt that smuggles disposition-like content
+   into a Do-Skill in exam-spec mode slips past, flagged as a
+   separate failure mode.
+
+3. **Source-language detection + regeneration bypass (Phase 1 +
+   Phase 4).** `_detect_source_language_from_bullets` computes
+   English stopword density over the extracted bullets. Threshold
+   `<5%` ⇒ `non-en`. Phase 4's `_should_bypass_for_language` then
+   skips `SOURCE_FAITHFULNESS_FAIL` retries *only when that is the
+   sole failing flag* — other flags (word limit, compound, embedded
+   example) still retry normally because they are language-agnostic.
+   Bypassed LTs ship flagged with the `SOURCE_LANGUAGE_BYPASS`
+   annotation recorded in the regeneration-event log. `EN_STOPWORDS`
+   / `EN_TOKEN_RE` are now public exports of
+   `eval.source_evidence_matcher` so Phase 1 doesn't reach into
+   module privates.
+
+4. **VALIDITY gates d and e promoted
+   (`scripts/validity-gate/`).**
+   - `validate_lt_surface_form.py` re-implements the Phase 4
+     surface-form rules as a gate: word count, format stem,
+     single-construct, embedded-example detection. Cross-references
+     the regeneration-events artefact to identify language-bypass
+     cases — those still must pass surface-form (bypass excuses only
+     `SOURCE_FAITHFULNESS_FAIL`).
+   - `validate_regenerate_loop.py` reads
+     `<runId>_regeneration_events_v1.json` and asserts every LT
+     shipping with FAIL_SET flags has a matching regeneration event
+     with one of three covered outcomes (success after retry,
+     language-bypass, or human-review-required).
+   Both gates ran on Session 3b's snapshots: `validate_lt_surface_form`
+   **PASS 100%** on both felvételi (32/32) and Ontario (17/17);
+   `validate_regenerate_loop` correctly exits 2 (can't run — Session
+   3c artefact absent) on the legacy Session 3b snapshots.
+
+5. **Regeneration-event artefact.** A new per-run file,
+   `<runId>_regeneration_events_v1.json`, records every LT that
+   entered regeneration with full attempt history (statement, flags,
+   annotations, similarity_to_prev), the outcome, and the
+   corresponding `human_review_required` list. This is the artefact
+   the `validate_regenerate_loop` gate reads.
+
+6. **Run report surfaces mode and regeneration.** The markdown run
+   report now carries an "Output-shape discipline" section
+   (output_mode, artefact kind, exam-spec refusal counts) and a
+   "Regeneration loop (Session 3c)" section (regen-event count,
+   human-review count, outcome histogram, truncated list of
+   human-review entries).
+
+### What was measured — Session 3c end-to-end
+
+See `docs/run-snapshots/2026-04-18-session-3c-post-regeneration/` for
+full snapshots. Both runs completed (exit 0). Both gates (surface form,
+regenerate loop) PASS on each snapshot.
+
+**Ontario (curriculum mode, English source, 937 bullets → 18 KUD items
+→ 18 LTs):**
+- Output artefact: `_kud_v1.json` (bare shape, curriculum mode).
+- Source language: `en` (stopword ratio 0.43).
+- Regeneration events: 18.
+  - **1 cleared by retry** (`success@retry_1`) — demonstrates the loop
+    can actually repair a flagged LT.
+  - **17 exhausted retries** → 17 entries in `human_review_required`.
+- Final LT set: 17 / 18 ship with `SOURCE_FAITHFULNESS_FAIL` flag;
+  1 / 18 clean after retry. 1 COMPOUND_TYPE, 1 POSSIBLE_COMPOUND
+  (warning, not FAIL_SET).
+- `validate_lt_surface_form`: PASS 100% (18/18).
+- `validate_regenerate_loop`: PASS (17 covered by human-review, 1 by
+  success-after-retry, 0 gaps).
+
+The 17 exhausted entries are the honest signal Session 3d will act on:
+Ontario's deterministic 937-bullet corpus is wider than the 18-item
+aggregated-strand KUD, so LTs cannot clear the 0.35 lemma-Jaccard
+threshold against diluted bullet content. The regen loop did not mask
+this — it surfaced it.
+
+**Felvételi (exam-spec mode, Hungarian source, 32 bullets → 28 KUD
+items → 28 LTs):**
+- Output artefact: **`_assessed_demonstrations_map_v1.json`** (renamed
+  per v4.1). Top-level wrapper:
+  `{output_mode: "exam_specification", schema_version: "1.0",
+  assessed_demonstrations_map: {assessed_topics (24),
+  tested_demonstrations (4), understandings: null, dispositions: null,
+  pedagogical_criteria: null}}`.
+- Source language: `non-en` (stopword ratio 0.0476, just under 0.05
+  threshold).
+- Regeneration events: 28, all outcome `language_bypass_ship_flagged`.
+  Zero retry budget burned; zero entries in `human_review_required`.
+- Factorial LT (LT[0]): "I can calculate the number of possible
+  arrangements and selections using counting principles, permutations,
+  and combinations." — flagged `SOURCE_FAITHFULNESS_FAIL`, annotated
+  `SOURCE_LANGUAGE_BYPASS` in the regeneration-event log. **Does not
+  ship as valid.**
+- Note on KUD cardinality: this run produced 28 items (24 K + 4 D)
+  rather than Session 3b's 32 (18 K + 4 U + 10 D). The 4 Sonnet
+  produced no understand / disposition items this time so the exam-
+  spec refusal had nothing to drop. The output-shape discipline is
+  still structurally active — `understandings` and `dispositions`
+  are `null`, not empty arrays.
+- `validate_lt_surface_form`: PASS 100% (28/28), 28 language-bypass.
+- `validate_regenerate_loop`: PASS (28 covered by language-bypass, 0
+  gaps).
+
+**Note on brief-stated vs observed LT count (felvételi).** The brief
+anticipated "32 bullets → 32 KUD-items → 32 LTs" continuing to hold
+through Session 3c. With the Session 3c exam-spec refusal active, the
+ratio is 32 bullets → 28 KUD-items (U + D arrays refused/null) → 28
+LTs. The binding-specifications.md shape is clearly refuse-U-and-D, so
+Session 3c follows the spec over the brief's round-number expectation.
+Flagged here so Session 3d reviewers know why the count moved.
+
+### Hard-requirement checkpoint — factorial LT
+
+The felvételi factorial LT must not ship as valid. Expected outcome
+in Session 3c:
+- Non-English source detection fires (`source_language == "non-en"`).
+- All 32 LTs inherit `SOURCE_FAITHFULNESS_FAIL` from the English-only
+  matcher, which the language-detection bypass handles explicitly.
+- The factorial LT ships flagged with the `SOURCE_LANGUAGE_BYPASS`
+  annotation in the regeneration-event log and is NOT claimed as
+  valid.
+
+### What Session 3c did NOT do (per brief)
+
+- Multilingual matcher support (deferred per v4.1 binding specs).
+- Ontario 937-bullet over-wide corpus (Session 3d bullet-type-weighting).
+- Semantic compound-detection beyond naive "and"-splitter (gate d
+  adjacent-mechanism #1).
+- FAIL_SET tuning (explicit non-goal — flag frequency is signal, not
+  noise to silence).
+
+### Session 3b open questions — status
+
+- **Phase 4 regeneration loop** — closed. Implemented.
+- **v4.1 exam-spec output-shape discipline** — closed. Implemented.
+- **Multilingual matcher / translation step** — deferred (Session 3c
+  adds the language-detection bypass as a honourable escape hatch;
+  the underlying English-only matcher is unchanged).
+- **Bullet-type weighting on coverage** — deferred to Session 3d.
+- **Ontario 937-bullet over-wide corpus** — deferred to Session 3d.
+- **Phase 3 MCP reliability** — orthogonal; not addressed.
+
+### What Session 3d should pick up
+
+1. Multilingual matcher (or Phase 1 translation pass) so felvételi's
+   32 LTs can be substantively measured, not just bypassed.
+2. Bullet-type weighting on source coverage — Ontario's 937-bullet
+   corpus includes sample questions and cross-grade content that no
+   reasonable LT set would cover at 1:1.
+3. Semantic compound detection to go beyond naive "and"-splitting.
+4. Phase 3 MCP endpoint stability (intermittent Connection error
+   observed across Sessions 3b and 3c fallback paths — the MCP server
+   at `mcp-server-sigma-sooty.vercel.app` is flaky and Sonnet-direct
+   fallback is papering over it).
+
+---
+
 <!-- next session entry goes here -->
 
