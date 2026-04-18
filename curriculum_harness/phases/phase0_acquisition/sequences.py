@@ -34,6 +34,12 @@ from curriculum_harness.phases.phase0_acquisition.primitives.extract_pdf_text_de
 from curriculum_harness.phases.phase0_acquisition.primitives.detect_toc import (
     DetectTocPrimitive,
 )
+from curriculum_harness.phases.phase0_acquisition.primitives.dom_hash import (
+    DomHashPrimitive,
+)
+from curriculum_harness.phases.phase0_acquisition.primitives.fetch_via_browser import (
+    FetchViaBrowserPrimitive,
+)
 from curriculum_harness.phases.phase0_acquisition.primitives.fetch_pdf_file import (
     FetchPdfFilePrimitive,
 )
@@ -163,8 +169,55 @@ def multi_section_pdf_sequence(scope: ScopeSpec) -> list[Primitive]:
     ]
 
 
+def js_rendered_progressive_disclosure_sequence(
+    scope: ScopeSpec,
+) -> list[Primitive]:
+    """Build the ``js_rendered_progressive_disclosure`` primitive chain
+    (Session 4a-3).
+
+    Required scope:
+
+    - ``url``: target URL (or ``source_reference``).
+    - ``wait_for_selector``: CSS selector that must appear before the
+      primitive considers the initial render complete.
+    - ``css_selector``: CSS selector for the content container to
+      extract text from (the extract selector).
+
+    Optional scope:
+
+    - ``dismiss_modal_selector``: consent / cookie banner to dismiss
+      before extraction.
+    - ``click_sequence``: ordered list of ``ClickStep`` entries for
+      accordion / tab / lazy-load reveals.
+    - ``browser_timeout_ms``: overall bound (default 30000).
+
+    Site-specific choreography lives in the scope fields above, not in
+    the primitive. If the sequence requires branching on target site to
+    succeed, the architecture is wrong — refactor or escalate.
+
+    DOM-level hashing runs directly after the browser fetch so the
+    hashed bytes are exactly what the browser saw, before any text
+    extraction or normalisation. Rendered-state PNG is archived by the
+    executor via the primitive's ``meta['side_artefacts']`` (see
+    Session 4a-3 Step 4).
+    """
+
+    return [
+        FetchViaBrowserPrimitive(),
+        DomHashPrimitive(),
+        ExtractCssSelectorPrimitive(),
+        VerifyExtractionQualityPrimitive(mode="raw"),
+        NormaliseWhitespacePrimitive(),
+        VerifyExtractionQualityPrimitive(mode="normalised"),
+        ContentHashPrimitive(),
+    ]
+
+
 SEQUENCE_BUILDERS = {
     "static_html_linear": static_html_linear_sequence,
     "flat_pdf_linear": flat_pdf_linear_sequence,
     "multi_section_pdf": multi_section_pdf_sequence,
+    "js_rendered_progressive_disclosure": (
+        js_rendered_progressive_disclosure_sequence
+    ),
 }

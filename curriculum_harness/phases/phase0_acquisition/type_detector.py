@@ -44,6 +44,7 @@ SUPPORTED_SOURCE_TYPES: tuple[SourceType, ...] = (
     "static_html_linear",
     "flat_pdf_linear",
     "multi_section_pdf",
+    "js_rendered_progressive_disclosure",
 )
 
 SUPPORTED_IN_SESSION_4A_0: tuple[SourceType, ...] = SUPPORTED_SOURCE_TYPES
@@ -65,6 +66,11 @@ _JS_FRAMEWORK_MARKERS = (
     re.compile(rb"""__NUXT__""", re.I),
     re.compile(rb"""window\.__INITIAL_STATE__""", re.I),
     re.compile(rb"""data-reactroot""", re.I),
+    # Angular: ng-version is an authoritative marker on the
+    # bootstrap element. mat-* custom elements (Angular Material)
+    # are a strong secondary signal.
+    re.compile(rb"""ng-version=""", re.I),
+    re.compile(rb"""<(mat-toolbar|mat-sidenav|mat-drawer|mat-tree-node)\b""", re.I),
 )
 
 _TEXT_STRIP_TAGS = re.compile(
@@ -130,6 +136,7 @@ def _classify_html(body: bytes) -> DetectionResult:
                 "below 5 %; content almost certainly renders client-side."
             ),
             signals=signals,
+            is_supported_now=True,
         )
 
     if markers and text_ratio < 0.12:
@@ -141,6 +148,7 @@ def _classify_html(body: bytes) -> DetectionResult:
                 "likely progressive disclosure."
             ),
             signals=signals,
+            is_supported_now=True,
         )
 
     # Nested-DOM heuristic: high tag density, many <div> layers.

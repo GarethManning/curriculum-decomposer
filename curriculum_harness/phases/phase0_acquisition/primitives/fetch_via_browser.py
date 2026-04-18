@@ -293,14 +293,21 @@ class FetchViaBrowserPrimitive:
                 else None,
             )
 
-            # Step 1 — navigation.
+            # Step 1 — navigation. We wait for ``networkidle`` rather
+            # than ``domcontentloaded`` because JS SPAs (Angular, Vue,
+            # React) frequently populate the DOM via XHR after DCL
+            # fires — including the target element matched by
+            # ``wait_for_selector``, which may exist as an empty shell
+            # pre-hydration. A shell-match would let extraction return
+            # empty content. networkidle gives the framework a chance
+            # to render.
             http_status: int | None = None
             response_headers: dict[str, str] = {}
             try:
                 response = page.goto(
                     url,
                     timeout=overall_timeout_ms,
-                    wait_until="domcontentloaded",
+                    wait_until="networkidle",
                 )
                 http_status = response.status if response else None
                 if response is not None:
