@@ -306,6 +306,127 @@
       "primitive": "verify_normalised_extraction",
       "timestamp": "2026-04-18T16:45:50.694184+00:00",
       "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "details": {
+            "expectation_codes_found": [
+              "A1",
+              "A2",
+              "A3",
+              "B1",
+              "B2",
+              "B3"
+            ],
+            "expected_focus_on_marker_count": 6,
+            "focus_on_marker_count": 6,
+            "strand_a_heading_present": true,
+            "strand_b_heading_present": true
+          },
+          "name": "structural_plausibility",
+          "passed": true
+        },
+        {
+          "exact_match_count": 6,
+          "expected_count": 6,
+          "ground_truth": "docs/run-snapshots/2026-04-18-session-4a-2b-ontario-g7-history/content.txt",
+          "name": "overall_expectation_title_match_vs_pdf",
+          "per_expectation": [
+            {
+              "dcp_title": "A1. Application: Colonial and Present-day Canada",
+              "expectation_code": "A1",
+              "focus_on_match": "match",
+              "pdf_title": "A1. Application: Colonial and Present-day Canada",
+              "title_match_type": "exact"
+            },
+            {
+              "dcp_title": "A2. Inquiry: From New France to British North America",
+              "expectation_code": "A2",
+              "focus_on_match": "match",
+              "pdf_title": "A2. Inquiry: From New France to British North America",
+              "title_match_type": "word_boundary_tolerant"
+            },
+            {
+              "dcp_title": "A3. Understanding Historical Context: Events and Their Consequences",
+              "expectation_code": "A3",
+              "focus_on_match": "match",
+              "pdf_title": "A3. Understanding Historical Context: Events and Their Consequences",
+              "title_match_type": "word_boundary_tolerant"
+            },
+            {
+              "dcp_title": "B1. Application: Changes and Challenges",
+              "expectation_code": "B1",
+              "focus_on_match": "match",
+              "pdf_title": "B1. Application: Changes and Challenges",
+              "title_match_type": "word_boundary_tolerant"
+            },
+            {
+              "dcp_title": "B2. Inquiry: Perspectives in British North America",
+              "expectation_code": "B2",
+              "focus_on_match": "match",
+              "pdf_title": "B2. Inquiry: Perspectives in British North America",
+              "title_match_type": "word_boundary_tolerant"
+            },
+            {
+              "dcp_title": "B3. Understanding Historical Context: Events and Their Consequences",
+              "expectation_code": "B3",
+              "focus_on_match": "match",
+              "pdf_title": "B3. Understanding Historical Context: Events and Their Consequences",
+              "title_match_type": "word_boundary_tolerant"
+            }
+          ]
+        },
+        {
+          "expected_count": 6,
+          "match_count": 6,
+          "name": "focus_on_tag_match_vs_pdf",
+          "per_expectation": [
+            {
+              "expectation_code": "A1",
+              "focus_on_match": "match"
+            },
+            {
+              "expectation_code": "A2",
+              "focus_on_match": "match"
+            },
+            {
+              "expectation_code": "A3",
+              "focus_on_match": "match"
+            },
+            {
+              "expectation_code": "B1",
+              "focus_on_match": "match"
+            },
+            {
+              "expectation_code": "B2",
+              "focus_on_match": "match"
+            },
+            {
+              "expectation_code": "B3",
+              "focus_on_match": "match"
+            }
+          ]
+        },
+        {
+          "chars": 3706,
+          "flagged": true,
+          "name": "volume_sanity",
+          "note": "Below lower threshold because the /strands route excludes specific-expectations content (see Session 4a-3 Step 1 investigation memo).",
+          "passed": false,
+          "threshold_lower": 5000,
+          "threshold_upper": 50000
+        }
+      ],
+      "details": {
+        "aggregate_verdict": "pass_with_notes",
+        "authoritative_source_recommendation": "Both sources remain co-authoritative for overall-expectation titles and FOCUS ON tags (6/6 match on both dimensions). The Check C volume gap reflects a scope choice (DCP /strands shows overall expectations inline; PDF includes specific expectations in the same chapter), not source divergence. No recommendation to prefer one over the other for this comparison. For up-to-date wording, the DCP site is more likely to reflect the current publication state than the 2023 PDF snapshot \u2014 but the two match exactly on the dimensions checked.",
+        "session": "4a-3",
+        "step": 9
+      },
+      "primitive": "manual_cross_validation",
+      "timestamp": "2026-04-18T16:55:12.177681+00:00",
+      "verdict": "pass_with_notes"
     }
   ]
 }

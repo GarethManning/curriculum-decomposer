@@ -307,6 +307,50 @@
       "primitive": "verify_normalised_extraction",
       "timestamp": "2026-04-18T16:48:04.986177+00:00",
       "verdict": "clean"
+    },
+    {
+      "checks_run": [
+        {
+          "expected_strands_count": 4,
+          "knowledge_sections_count": 4,
+          "name": "structural_plausibility",
+          "passed": true,
+          "practices_sections_count": 4,
+          "strand_presence": {
+            "Civics and Society": true,
+            "Economic Activity": true,
+            "Geography": true,
+            "History": true
+          }
+        },
+        {
+          "chars": 37245,
+          "name": "volume_sanity",
+          "passed": true,
+          "threshold_lower": 5000,
+          "threshold_upper": 50000
+        },
+        {
+          "name": "architectural_generalisation",
+          "primitive_code_changes_required": false,
+          "same_primitive_as_ontario_dcp": true,
+          "scope_fields_differing": [
+            "dismiss_modal_selector"
+          ],
+          "scope_level_differences_only": true,
+          "verdict": "architecture_validated"
+        }
+      ],
+      "details": {
+        "aggregate_verdict": "pass",
+        "pdf_cross_validation_available": false,
+        "pdf_cross_validation_note": "No PDF ground truth available for NZ Phase 2 curriculum at this level of granularity; cross-validation relies on structural checks, volume sanity, and architectural generalisation from the Ontario DCP test.",
+        "session": "4a-3",
+        "step": 9
+      },
+      "primitive": "manual_cross_validation",
+      "timestamp": "2026-04-18T16:55:12.178033+00:00",
+      "verdict": "pass"
     }
   ]
 }

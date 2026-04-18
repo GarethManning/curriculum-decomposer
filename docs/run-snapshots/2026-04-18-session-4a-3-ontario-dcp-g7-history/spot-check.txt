@@ -97,6 +97,11 @@ Back to top
       character_doubling        value=0.0        threshold=0.2        [ok]
       repeated_bigram           value=0.203      threshold=0.75       [ok]
       empty_line_ratio          value=0.0        threshold=0.6000000000000001 [ok]
+  [3] manual_cross_validation -> verdict: pass_with_notes
+      structural_plausibility   value=None       threshold=None       [ok]
+      overall_expectation_title_match_vs_pdf value=None       threshold=None       [FAIL]
+      focus_on_tag_match_vs_pdf value=None       threshold=None       [FAIL]
+      volume_sanity             value=None       threshold=None       [FAIL]
 
 -- Content files --
   docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/rendered_state.png
