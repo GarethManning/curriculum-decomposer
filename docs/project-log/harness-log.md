@@ -113,5 +113,160 @@ Adjacent improvements Session 3 could fold in if scope allows:
 
 ---
 
+## Session 3a — 2026-04-18 — Rename, source-bullet artefact, 0.35 threshold, Phase 3/4 faithfulness flags
+
+Foundation session for Sessions 3b/3c. Established the trustworthy
+baseline those sessions need by moving the validity gates off the
+Session-2 proxy corpus onto real source bullets and threading
+source-faithfulness flagging through the harness.
+
+### Commits
+
+- `666f7d9` [gen] rename package to curriculum_harness
+- `cc04b4a` [gen] Phase 1 emits source_bullets artefact
+- `54d471d` [judge] source-bullet-aware corpus loader
+- `c6fb45e` [judge] threshold 0.35 and recalibrated baseline on real source bullets
+- `656b87f` [gen] Phase 3 emits source provenance and faithfulness flags
+- `70c1e86` [gen] Phase 4 emits source provenance and faithfulness flags
+- `3ed8ea7` [docs] Session 3a end-to-end Ontario run + flag-count baseline
+- `<this commit>` [docs] Session 3a log entry
+
+### What was built
+
+1. **Project rename.** `kaku_decomposer/` → `curriculum_harness/`.
+   Package imports, `pyproject.toml`, README, VALIDITY, harness-log
+   all updated. Tests: 10 → 24 passing (14 new unit tests added in
+   later commits). GitHub repo rename still pending (manual step via
+   GitHub settings; Gareth's action).
+2. **Phase 1 `source_bullets` artefact.** New module
+   `curriculum_harness/source_bullets.py` with three rule-based
+   detectors (`marker_bullet`, `numbered_outcome`, `topic_statement`).
+   Validated on the felvételi source (32 Hungarian topic statements
+   round-trip) and Ontario's checkpoint raw (237 bullets). Schema:
+   `{source_bullets: [{id, text, source_location, bullet_type}]}`.
+   Bullet IDs (`sb_001`, ...) are the provenance pointer downstream
+   gates and phases attach to items.
+3. **Source-bullet-aware corpus loader.** `_run_loader.py` prefers
+   `<runId>_source_bullets_v1.json` when present; falls back to the
+   Session-2 proxy with `corpus_mode = "proxy"` + a warning. Three
+   gates surface the mode + warning in their JSON output.
+4. **Threshold 0.35.** Centralised as
+   `eval.source_evidence_matcher.DEFAULT_THRESHOLD`, shared by gates
+   and matcher fixture tests. Fixtures still 18/18 at the new
+   threshold.
+5. **Source-faithfulness threading.** Shared helper
+   `curriculum_harness/source_faithfulness.py` wraps the matcher
+   into `compute_source_provenance` (for Phase 3 KUD items and Phase
+   4 LTs) and `compute_parent_provenance` (for Phase 4 → KUD
+   traceability). `KUDItem` gains `source_provenance` + `flags`;
+   `LearningTarget` gains `source_provenance` + `kud_provenance` +
+   the existing `flags`. Items below threshold ship with
+   `SOURCE_FAITHFULNESS_FAIL` — Session 3b adds the regeneration
+   loop.
+6. **Adjacent-mechanism declarations.** Every new module
+   (`source_bullets`, `source_faithfulness`) carries an explicit
+   "what this does NOT check" section in its module docstring.
+
+### Baseline measurements
+
+See `docs/project-log/baseline-measurements-2026-04-18.md` (this
+session) and `baseline-measurements-2026-04-17.md` (Session 2,
+preserved for comparison).
+
+Felvételi (bullets mode, threshold 0.35):
+- coverage 0.0 % (32/32 orphaned)
+- faithfulness 0.0 % (31/31 flagged) — factorial LT at 0.0073 ✓
+- architecture verifiability 0.0 % (6/6 unverifiable)
+
+Ontario (bullets mode, threshold 0.35, against the 2026-04-17
+checkpoint-backfilled bullets):
+- coverage 1.3 % (234/237 orphaned)
+- faithfulness 13.6 % (19/22 flagged)
+- architecture verifiability 15.4 % (11/13 unverifiable)
+
+Ontario Session 3a full-pipeline re-run (flag counts from the
+live-threading path):
+- 5 source bullets, 14 KUD items, 14 LTs
+- 14/14 KUD items flagged SOURCE_FAITHFULNESS_FAIL
+- 14/14 LTs flagged SOURCE_FAITHFULNESS_FAIL
+- Snapshot: `docs/run-snapshots/2026-04-18-ontario-session-3a/`
+
+### Hard-requirement checkpoint
+
+Factorial LT (felvételi LT index 0) must remain flagged as
+potentially invented. **Confirmed** at score 0.0073 against
+`sb_002`; well below the 0.35 threshold.
+
+### Key finding — Session 2's proxy numbers were misleading
+
+Felvételi went from Session 2's 18.8 % / 9.7 % to this session's
+0 % / 0 %. The move is not a regression. The Session 2 proxy corpus
+was Phase 1/2's *English rendering* of the Hungarian source — the
+matcher was comparing English LTs against an English proxy and
+measuring pipeline-internal consistency, not source fidelity. The
+bullet-mode result is honest: the matcher is English-only, and the
+raw felvételi bullets are Hungarian. Baseline doc explains this in
+detail.
+
+### What Session 3a did NOT do
+
+- **Step 2 — in-repo vision summary (`docs/vision/binding-specifications.md`).**
+  Deferred. Gareth will paste v4.1 sections in a follow-up session so
+  the summary can be written without invention.
+- **Felvételi end-to-end re-run.** Deferred to the
+  multilingual-matcher session. Running it today produces the same
+  0/0/0 blocked by the English-only matcher and adds no signal.
+- **Phase 3 consolidation-bias fix.** Session 3b scope. Today's
+  flagging gives 3b a measuring stick (today's 0 / 14 floor), but
+  does not address the root cause.
+- **Regeneration loop on SOURCE_FAITHFULNESS_FAIL.** Session 3b.
+  Today flagged items ship with the flag.
+- **Classifier confidence / grain consistency / self-consistency
+  (Session 3c).**
+
+### Pending manual actions for Gareth
+
+1. **Rename the GitHub repo** from `curriculum-decomposer` to
+   something matching `curriculum_harness` (e.g.
+   `curriculum-harness` with the hyphen) via GitHub Settings. Git
+   remotes will update via GitHub's redirect; local `.git/config`
+   may need `git remote set-url origin` after the rename lands.
+2. **Paste v4.1 vision-doc sections** into the Session-3a.5 / 3b
+   prompt so `docs/vision/binding-specifications.md` can be
+   written. Pulling specifications from project-knowledge into the
+   repo is a standing requirement (VALIDITY.md pattern).
+
+### What Session 3b should pick up
+
+1. Implement the Phase-3 profile-conditional branch (Shape C — see
+   Session 1 diagnosis Q2). Signal already on state
+   (`curriculum_profile.scoping_strategy == "full_document"`,
+   `document_family == "exam_specification"`, assessment signals) —
+   Phase 3 just needs to read them.
+2. Add the regeneration-on-SOURCE_FAITHFULNESS_FAIL loop in Phase 4.
+   The flag is already attached; 3b adds the retry and re-validate
+   plumbing.
+3. Surface the bullet-corpus weakness from this session: Ontario's
+   6 285-char scoped extract missed the Specific Expectations
+   entirely. A deterministic bullet-preservation step at Phase 1
+   (or a broader `scoping_strategy = "full_document"` default for
+   national frameworks) would stabilise the baseline across runs.
+
+### Open questions for 3b/3c
+
+- **Translation step for non-English sources.** Until either (a) the
+  matcher becomes multilingual or (b) Phase 1 translates bullets at
+  extraction time, felvételi's bullet-mode baseline is 0/0/0 by
+  construction. Decide which of (a) or (b) first in Session 3b
+  planning — (b) is smaller scope but lossier; (a) is bigger but
+  more faithful.
+- **Bullet-type weighting.** `marker_bullet` sample questions are
+  not the same primary-source object as `numbered_outcome` specific
+  expectations. The gate currently treats them uniformly; a weighted
+  coverage number would be more interpretable. Not load-bearing for
+  Session 3b but worth tracking.
+
+---
+
 <!-- next session entry goes here -->
 
