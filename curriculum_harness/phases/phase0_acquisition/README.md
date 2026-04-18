@@ -213,12 +213,81 @@ failure — refactor to scope before merging.
   (37 245 chars). Architectural verdict: validated — same primitive,
   one extra optional scope field.
 
+## Source composition and selection
+
+**Current capability.** Phase 0 extracts a single source given an
+explicit source reference. A user (or runner script) specifies which
+URL or PDF to extract from; the harness does not currently discover
+candidate sources or rank them by completeness. One Phase 0 invocation
+yields one acquired artefact (manifest + content files).
+
+**Known limitation.** Some curricula are documented across multiple
+authoritative sources at different levels of completeness. Concrete
+example from this corpus: Ontario Grade 7 History has two extracted
+sources —
+
+- `multi_section_pdf` from the K-8 PDF
+  (`docs/run-snapshots/2026-04-18-session-4a-2b-ontario-g7-history/`):
+  contains both overall and specific expectations, ~46 K chars.
+- `js_rendered_progressive_disclosure` from the DCP website
+  (`docs/run-snapshots/2026-04-18-session-4a-3-ontario-dcp-g7-history/`):
+  overall expectations only, ~3.7 K chars (specific-expectations text
+  lives on SPA-routed sub-pages).
+
+For applications that need the full curriculum content, the PDF source
+is more authoritative; for applications that need the per-strand
+overview that Ontario publishes online, the DCP source is the
+canonical wording.
+
+**Multi-source composition is supported today** by running Phase 0
+multiple times on the same curriculum and treating the outputs as
+complementary artefacts at the consumer layer. There is no built-in
+merge / deduplication step.
+
+**Future work hint.** Multi-source selection will likely need a
+`sources_catalog` data structure that maps a curriculum reference
+(jurisdiction + subject + grade) to the known sources for that
+reference, with metadata about each source's coverage and
+authoritativeness. Implementation specifics are deferred until
+Session 4b establishes which source compositions teachers and AI
+tutors actually find useful — premature schema choices here would
+constrain the wrong axis.
+
 ## Scope spec
 
-`ScopeSpec` (Pydantic) carries the union of fields across all primitive
-sequences. Each primitive validates the subset it needs and raises
-`ScopeValidationError` if any required field is missing; the executor
-converts that into a hand-editable `request.md` + `state.json` pause.
+`ScopeSpec` is the back-compat constructor (callable) that infers
+`source_type` from supplied fields and dispatches to the matching
+discriminated-union variant. New code should construct the variant
+directly (e.g. `StaticHtmlLinearScope(url=..., css_selector=...)`)
+for clearer call sites. Per-type variants live in
+`curriculum_harness/phases/phase0_acquisition/scope.py`:
+
+- `StaticHtmlLinearScope` — `url`, one of `css_selector` /
+  `heading_text`.
+- `FlatPdfLinearScope` — `source_reference`; optional `page_range`,
+  `section_heading`, `pdf_dedup_coords`.
+- `MultiSectionPdfScope` — `source_reference`, one of `page_range` /
+  `section_identifier` / `section_heading`.
+- `JsRenderedProgressiveDisclosureScope` — `url`, `wait_for_selector`,
+  `css_selector`; optional `dismiss_modal_selector`, `click_sequence`.
+- `HtmlNestedDomScope` — `url`, `content_root_selector`; optional
+  `exclude_selectors`, `section_scope_selector` *or*
+  `section_anchor_selector` (mutually exclusive),
+  `section_anchor_stop_selector`, `include_details_content`,
+  `preserve_headings`.
+
+Each variant uses Pydantic's `extra="forbid"` so cross-type field
+smuggling (e.g. `page_range` on a JS scope) is rejected at
+construction time. The forward-compatible deserialiser in `scope.py`
+upgrades 0.4.0 flat-shaped manifests to the discriminated union on
+load. See `docs/diagnostics/2026-04-18-session-4a-4-step-3b-regression-report.md`
+for the regression evidence that the upgrade is byte-stable.
+
+> **Phase 0 expects a specific source reference per run.**
+> Multi-source curriculum composition is future work (Session 4b
+> onwards). See the "Source composition and selection" section above
+> for the current single-source posture and the rationale for
+> deferring composition.
 
 ## Manifest schema (v0.4.0)
 
