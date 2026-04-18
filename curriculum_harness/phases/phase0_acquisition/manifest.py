@@ -9,6 +9,14 @@ The manifest is the source of truth for how an acquisition ran — source
 reference, scope requested vs acquired, primitive sequence, per-primitive
 trace, content hash, encoding, and any user interactions. Downstream
 consumers never read raw URLs; they read manifest + content files.
+
+Schema 0.5.0 (Session 4a-4) — ``scope_requested`` is a discriminated
+union of per-source-type scope models defined in ``scope.py``. The
+0.4.0 flat ``ScopeSpec`` shape is accepted on load via
+``parse_scope`` and normalised to the matching 0.5.0 variant. The
+field names ``ScopeSpec``/``Scope`` are both exported so external
+callers can use whichever they prefer; ``ScopeSpec`` is now an alias
+for the discriminated union.
 """
 
 from __future__ import annotations
@@ -16,7 +24,21 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, model_validator
+
+from curriculum_harness.phases.phase0_acquisition.scope import (
+    ClickStep,
+    ClickStepWaitFor,
+    FlatPdfLinearScope,
+    HtmlNestedDomScope,
+    JsRenderedProgressiveDisclosureScope,
+    MultiSectionPdfScope,
+    Scope,
+    SourceTypeLiteral,
+    StaticHtmlLinearScope,
+    make_scope,
+    parse_scope,
+)
 
 
 SourceType = Literal[
@@ -27,6 +49,16 @@ SourceType = Literal[
     "html_nested_dom",
     "unknown",
 ]
+
+
+# ``ScopeSpec`` was the 0.4.0 flat-union model. In 0.5.0 it is the
+# backwards-compatible callable that infers ``source_type`` from the
+# supplied fields and dispatches to the right discriminated-union
+# variant. New code should construct the per-type variant directly
+# (``StaticHtmlLinearScope(...)`` etc.) for clearer call sites; old
+# code calling ``ScopeSpec(url=..., css_selector=...)`` continues to
+# work unchanged.
+ScopeSpec = make_scope
 
 
 # Append-only enum of PDF pathologies Phase 0 knows how to handle.
@@ -58,171 +90,6 @@ KnownPathology = Literal[
 ]
 
 
-class ClickStepWaitFor(BaseModel):
-    """Signal a click step waits on before being considered complete.
-
-    ``selector_appears`` — wait for ``value`` (a CSS selector) to be
-    present and visible in the DOM.
-    ``network_idle`` — wait for the browser to hit a networkidle state
-    after the click; ``value`` is ignored and may be empty.
-
-    Session 4a-3 v3 intentionally has no ``timeout_ms`` enum member:
-    wait conditions fire on a signal. Timeouts are bounded at the click
-    step level and the primitive level, not here.
-    """
-
-    type: Literal["selector_appears", "network_idle"]
-    value: str = ""
-
-
-class ClickStep(BaseModel):
-    """One entry in the ``fetch_via_browser`` primitive's click_sequence.
-
-    Each click is recorded individually in the manifest trace for
-    observability. If a step fails and ``retry_on_fail`` is True, the
-    primitive retries the click once after a 1-second backoff before
-    pausing Phase 0.
-
-    ``timeout_ms`` bounds the whole step (the click + its wait_for). If
-    None, the primitive's overall ``browser_timeout_ms`` is used as the
-    bound.
-    """
-
-    selector: str
-    wait_for: ClickStepWaitFor
-    retry_on_fail: bool = True
-    timeout_ms: int | None = None
-
-
-class ScopeSpec(BaseModel):
-    """Structured scope specification.
-
-    Free-text scope is rejected by design. Each primitive declares its
-    required/optional fields; ``ScopeSpec`` carries the union. Primitives
-    validate the subset they need and raise ``ScopeValidationError`` on
-    missing fields, which Phase 0 converts to a user-in-the-loop request.
-    """
-
-    source_reference: str = Field(
-        description="URL or local file path to acquire from.",
-    )
-    url: str | None = Field(
-        default=None,
-        description="Explicit URL (overrides source_reference if set).",
-    )
-    css_selector: str | None = Field(
-        default=None,
-        description="CSS selector identifying the target content block.",
-    )
-    heading_text: str | None = Field(
-        default=None,
-        description="Heading text (or regex) marking the section start.",
-    )
-    heading_regex: bool = Field(
-        default=False,
-        description="Interpret heading_text as a regex.",
-    )
-    page_range: list[int] | str | None = Field(
-        default=None,
-        description=(
-            "PDF page range. Preferred form: ``[start, end]`` (1-indexed, "
-            "inclusive on both ends). String form ``'start-end'`` is "
-            "accepted for legacy configs."
-        ),
-    )
-    section_heading: str | None = Field(
-        default=None,
-        description=(
-            "Section heading (literal or regex) to scope a PDF extraction. "
-            "Used by PDF primitives; interpreted as a regex if "
-            "heading_regex is True."
-        ),
-    )
-    section_identifier: str | None = Field(
-        default=None,
-        description="Source-internal section id. Reserved for future primitives.",
-    )
-    follow_links: bool = Field(
-        default=False,
-        description="Whether to follow sub-links into deeper content.",
-    )
-    notes: str | None = Field(
-        default=None,
-        description="Human-readable note about why this scope was chosen.",
-    )
-    pdf_dedup_coords: bool = Field(
-        default=False,
-        description=(
-            "When True, route PDF extraction through the "
-            "``extract_pdf_text_deduped`` primitive instead of the fast "
-            "``extract_pdf_text`` path. Use for PDFs where the source "
-            "renders text twice at identical coordinates (e.g. overlaid "
-            "headers/footers). See Session 4a-2a investigation memo."
-        ),
-    )
-    pdf_dedup_coord_tolerance: int = Field(
-        default=1,
-        description=(
-            "Coordinate rounding precision in pixels used by the deduped "
-            "extraction primitive to identify overlapping characters. "
-            "Only read when ``pdf_dedup_coords`` is True."
-        ),
-    )
-    wait_for_selector: str | None = Field(
-        default=None,
-        description=(
-            "CSS selector that must appear (and be visible) before the "
-            "``fetch_via_browser`` primitive proceeds. Distinct from "
-            "``css_selector`` (which is the extraction selector) — the "
-            "two are often the same CSS string but mean different things "
-            "to different primitives. Required for ``fetch_via_browser``."
-        ),
-    )
-    dismiss_modal_selector: str | None = Field(
-        default=None,
-        description=(
-            "CSS selector for a consent modal / cookie banner to dismiss "
-            "before extraction. Optional on ``fetch_via_browser``. If the "
-            "element is not found or not visible, the primitive continues "
-            "without failing — the field is advisory."
-        ),
-    )
-    click_sequence: list[ClickStep] | None = Field(
-        default=None,
-        description=(
-            "Ordered list of clicks the browser primitive performs after "
-            "the initial render and modal dismissal. Each step declares a "
-            "wait condition (selector_appears or network_idle) that "
-            "signals readiness for the next step. One step per click "
-            "(observability beats terseness — the Session 4a-3 review "
-            "chose this explicitly)."
-        ),
-    )
-    browser_timeout_ms: int = Field(
-        default=30000,
-        description=(
-            "Overall timeout for ``fetch_via_browser`` in milliseconds. "
-            "Covers initial navigation, wait_for_selector, modal dismissal, "
-            "and per-click step bounds when a step has no explicit "
-            "timeout_ms."
-        ),
-    )
-
-    @field_validator("click_sequence", mode="before")
-    @classmethod
-    def _coerce_click_sequence(
-        cls, value: Any
-    ) -> list[ClickStep] | None:
-        if value is None:
-            return None
-        if isinstance(value, list):
-            return [
-                ClickStep.model_validate(item) if not isinstance(item, ClickStep) else item
-                for item in value
-            ]
-        raise TypeError("click_sequence must be a list")
-
-
 class UserInteraction(BaseModel):
     """Record of a user-in-the-loop pause and resume."""
 
@@ -251,14 +118,7 @@ class PrimitiveTraceEntry(BaseModel):
 
 
 class VerificationEntry(BaseModel):
-    """Per-verification-primitive entry in the verification trace.
-
-    Schema 0.3.0 (Session 4a-2a): records what checks ran on
-    extracted content and what verdict they returned. Separate from
-    ``acquisition_trace`` so downstream consumers can distinguish
-    'content was verified clean' from 'content was produced but not
-    verified' by inspecting this field alone.
-    """
+    """Per-verification-primitive entry in the verification trace."""
 
     primitive: str
     verdict: str = Field(
@@ -274,22 +134,19 @@ class VerificationEntry(BaseModel):
 class AcquisitionManifest(BaseModel):
     """Top-level manifest for a single Phase 0 acquisition.
 
-    ``scope_acquired`` is a dict whose canonical shape is:
+    Schema 0.5.0 (Session 4a-4) bumps ``scope_requested`` to a
+    discriminated union; otherwise field shapes match 0.4.0.
 
-    - ``chars`` — int, total characters of extracted content.
-    - ``verification_excerpt`` — dict with ``first_chars`` (first 200
-      characters), ``last_chars`` (last 100 characters) and
-      ``line_count``. A lightweight, stable summary for visual
-      inspection without reading the full content file.
-
-    ``detection_hash`` is the SHA-256 of the ``_detection.json`` payload
-    written alongside the manifest, so the type-detector output is
-    tamper-evident and part of the audit trail.
+    The model_validator below makes the load path forward-compatible
+    with 0.4.0 manifests: when ``scope_requested`` arrives as a flat
+    dict without ``source_type``, the validator copies the
+    manifest-level ``source_type`` into the scope dict before
+    discriminator-based parsing.
     """
 
     source_reference: str
     source_type: SourceType
-    scope_requested: ScopeSpec
+    scope_requested: Scope
     scope_acquired: dict[str, Any] = Field(default_factory=dict)
     primitive_sequence: list[str] = Field(default_factory=list)
     acquisition_trace: list[PrimitiveTraceEntry] = Field(default_factory=list)
@@ -330,8 +187,47 @@ class AcquisitionManifest(BaseModel):
     timestamp: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat(),
     )
-    phase0_version: str = "0.4.0"
+    phase0_version: str = "0.5.0"
     notes: str | None = None
+
+    @model_validator(mode="before")
+    @classmethod
+    def _migrate_scope_requested(cls, data: Any) -> Any:
+        """Forward-compat: accept 0.4.0 flat scope dicts.
+
+        A 0.4.0 manifest has ``scope_requested`` as a flat dict
+        without a ``source_type`` key (the source_type lives at the
+        manifest's top level). Re-route through ``parse_scope`` with
+        the manifest-level ``source_type`` as fallback so the
+        discriminated-union validator picks the right variant.
+
+        Idempotent on 0.5.0 manifests: if ``source_type`` is already
+        present in the scope dict, ``parse_scope`` uses it directly.
+        """
+
+        if not isinstance(data, dict):
+            return data
+        scope = data.get("scope_requested")
+        if scope is None:
+            return data
+        # If already a Pydantic model, leave it.
+        if isinstance(scope, BaseModel):
+            return data
+        if isinstance(scope, dict):
+            manifest_source_type = data.get("source_type")
+            # ``unknown`` is not a valid scope variant; it appears only
+            # at manifest level for failed type-detector runs that
+            # never produced a real scope. Skip migration in that case.
+            if (
+                manifest_source_type
+                and manifest_source_type != "unknown"
+                and "source_type" not in scope
+            ):
+                migrated = parse_scope(
+                    scope, fallback_source_type=manifest_source_type
+                )
+                data["scope_requested"] = migrated
+        return data
 
     def append_trace(self, entry: PrimitiveTraceEntry) -> None:
         self.acquisition_trace.append(entry)
@@ -342,3 +238,24 @@ class AcquisitionManifest(BaseModel):
 
     def append_verification(self, entry: VerificationEntry) -> None:
         self.verification_trace.append(entry)
+
+
+__all__ = [
+    "AcquisitionManifest",
+    "ClickStep",
+    "ClickStepWaitFor",
+    "FlatPdfLinearScope",
+    "HtmlNestedDomScope",
+    "JsRenderedProgressiveDisclosureScope",
+    "KnownPathology",
+    "MultiSectionPdfScope",
+    "PrimitiveTraceEntry",
+    "Scope",
+    "ScopeSpec",
+    "SourceType",
+    "SourceTypeLiteral",
+    "StaticHtmlLinearScope",
+    "UserInteraction",
+    "VerificationEntry",
+    "parse_scope",
+]
