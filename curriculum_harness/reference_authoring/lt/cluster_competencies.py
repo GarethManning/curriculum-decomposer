@@ -53,7 +53,10 @@ logger = logging.getLogger(__name__)
 DEFAULT_MODEL = HAIKU_MODEL
 DEFAULT_TEMPERATURE = 0.3
 DEFAULT_RUNS = 3
-DEFAULT_MAX_TOKENS = 4096
+DEFAULT_MAX_TOKENS = 8192
+# Drop source-blocks from prompt when KUD is large to keep the model
+# from spending output budget on boilerplate JSON structure.
+LARGE_KUD_THRESHOLD = 80
 
 MEMBERSHIP_DRIFT_THRESHOLD = 0.20  # >20% drift → unstable
 JACCARD_ALIGN_THRESHOLD = 0.30  # ≥0.30 Jaccard → clusters considered matched
@@ -418,7 +421,12 @@ async def cluster_competencies(
     compact = _compact_kud_items(inventory, kud)
     expected_ids = {it["item_id"] for it in compact}
     source_slug = inventory.source_slug
-    source_blocks = [b.to_dict() for b in inventory.content_blocks]
+    # Skip source_blocks for large KUDs — the output must enumerate every
+    # item ID and the 8192-token budget is needed for that, not structure prose.
+    if len(compact) <= LARGE_KUD_THRESHOLD:
+        source_blocks: list[dict[str, Any]] | None = [b.to_dict() for b in inventory.content_blocks]
+    else:
+        source_blocks = None
 
     coros = [
         _one_clustering_run(
