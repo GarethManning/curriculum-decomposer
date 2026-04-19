@@ -83,6 +83,15 @@ from curriculum_harness.reference_authoring.progression import (
     ProgressionDetectionError,
     detect_progression,
 )
+from curriculum_harness.reference_authoring.strand.detect_strands import (
+    StrandDetectionUncertain,
+    detect_strands,
+)
+from curriculum_harness.reference_authoring.strand.orchestrate import (
+    _strand_slug,
+    run_multi_strand_pipeline,
+)
+from curriculum_harness.reference_authoring.strand.stitch import stitch_corpora
 from curriculum_harness.reference_authoring.types import (
     ContentBlock,
     HaltedBlock,
@@ -1172,6 +1181,92 @@ def main(argv: list[str] | None = None) -> int:
         if not args.snapshot:
             print("[refauth] --snapshot is required unless --resume-from-kud is set", flush=True)
             return 2
+
+        # --- Strand detection (4c-3b) ----------------------------------------
+        # Run before inventory building so multi-strand sources can be split
+        # into per-strand sub-runs before any expensive classification happens.
+        content_txt_path = os.path.join(args.snapshot, "content.txt")
+        with open(content_txt_path, "r", encoding="utf-8") as _fh:
+            _raw_content = _fh.read()
+
+        print("[refauth] strand detection...", flush=True)
+        try:
+            _strand_result = detect_strands(_raw_content)
+            print(f"[refauth] strand detection: {_strand_result.summary()}", flush=True)
+            if _strand_result.flags:
+                for _flag in _strand_result.flags:
+                    print(f"[refauth] strand flag: {_flag}", flush=True)
+        except StrandDetectionUncertain as _exc:
+            # Pipeline halts — does not silently proceed with uncertain split.
+            print(
+                f"[refauth] HALT: strand detection uncertain — {_exc}",
+                flush=True,
+            )
+            print(
+                f"[refauth] Partial candidates: {[s.name for s in _exc.partial_candidates]}",
+                flush=True,
+            )
+            print(
+                "[refauth] Action required: inspect the source manually and either "
+                "confirm one or both candidates as strands, or confirm single-strand. "
+                "Do not re-run without resolving this uncertainty.",
+                flush=True,
+            )
+            return 3  # Distinct exit code for strand uncertainty halt
+
+        if _strand_result.is_multi_strand:
+            print(
+                f"[refauth] multi-strand source detected ({len(_strand_result.strands)} strands); "
+                "invoking sub-run orchestration.",
+                flush=True,
+            )
+            _all_lines = _raw_content.splitlines()
+            _base_args = {
+                "model": args.model,
+                "runs": args.runs,
+                "temperature": args.temperature,
+                "cluster_model": getattr(args, "cluster_model", None),
+                "domain": args.domain,
+                "dispositional": args.dispositional,
+                "skip_criteria": getattr(args, "skip_criteria", False),
+                "skip_lts": getattr(args, "skip_lts", False),
+            }
+            _orch_exit, _run_summary = run_multi_strand_pipeline(
+                original_snapshot_path=args.snapshot,
+                unified_out_dir=args.out,
+                all_lines=_all_lines,
+                strand_result=_strand_result,
+                base_args=_base_args,
+            )
+
+            if _run_summary["failed_strands"]:
+                print(
+                    f"[refauth] WARNING: {len(_run_summary['failed_strands'])} strand(s) "
+                    f"failed sub-run: {_run_summary['failed_strands']}",
+                    flush=True,
+                )
+
+            print("[refauth] stitching strand corpora...", flush=True)
+            _stitch_ok, _stitch_failures = stitch_corpora(
+                per_strand_dirs=_run_summary["per_strand_dirs"],
+                unified_out_dir=args.out,
+                strand_result=_strand_result,
+                strand_slugs=_run_summary["strand_slugs"],
+                strand_names=_run_summary["strand_names"],
+                ledger_by_strand=_run_summary["ledger_by_strand"],
+            )
+
+            if _stitch_failures:
+                print("[refauth] SANITY CHECK FAILURES:", flush=True)
+                for _f in _stitch_failures:
+                    print(f"  {_f}", flush=True)
+            else:
+                print("[refauth] all sanity checks passed.", flush=True)
+
+            print("[refauth] multi-strand pipeline complete.", flush=True)
+            return _orch_exit if _orch_exit != 0 else (0 if _stitch_ok else 2)
+        # --- End strand detection branch -------------------------------------
+
         print(f"[refauth] inventory: reading {args.snapshot}", flush=True)
         inventory = build_inventory_from_snapshot(args.snapshot)
         dump_json(inventory.to_dict(), inventory_path)
