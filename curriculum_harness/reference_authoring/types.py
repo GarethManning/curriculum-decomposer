@@ -24,7 +24,29 @@ STABILITY_FLAGS = (
     "classification_unreliable",
 )
 
-REFERENCE_AUTHORING_VERSION = "0.1.0"
+REFERENCE_AUTHORING_VERSION = "0.2.0"
+
+BANDS = ("A", "B", "C", "D")
+CLUSTER_STABILITY_FLAGS = (
+    "stable",
+    "cluster_unstable",
+    "cluster_unreliable",
+)
+LT_STABILITY_FLAGS = (
+    "stable",
+    "lt_set_unstable",
+    "lt_set_unreliable",
+)
+BAND_STABILITY_FLAGS = (
+    "stable",
+    "band_statements_unstable",
+    "band_statements_unreliable",
+)
+INDICATOR_STABILITY_FLAGS = (
+    "stable",
+    "observation_indicators_unstable",
+    "observation_indicators_unreliable",
+)
 
 
 @dataclass
@@ -147,6 +169,213 @@ class QualityReport:
             "summary": self.summary,
             "gate_results": [g.to_dict() for g in self.gate_results],
         }
+
+
+@dataclass
+class CompetencyCluster:
+    """One competency cluster grouping KUD items that together form a coherent capability."""
+
+    cluster_id: str
+    competency_name: str
+    competency_definition: str
+    kud_item_ids: list[str] = field(default_factory=list)
+    source_block_ids: list[str] = field(default_factory=list)
+    source_position_start: int = 0
+    source_position_end: int = 0
+    dominant_knowledge_type: str = ""
+    knowledge_type_breakdown: dict[str, int] = field(default_factory=dict)
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class CompetencyClusterSet:
+    source_slug: str
+    clusters: list[CompetencyCluster] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+    unassigned_kud_item_ids: list[str] = field(default_factory=list)
+    overall_stability_flag: str = "stable"
+    overall_stability_diagnostics: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "overall_stability_flag": self.overall_stability_flag,
+            "overall_stability_diagnostics": list(self.overall_stability_diagnostics),
+            "unassigned_kud_item_ids": list(self.unassigned_kud_item_ids),
+            "clusters": [c.to_dict() for c in self.clusters],
+        }
+
+
+@dataclass
+class LearningTarget:
+    """One Learning Target — Type 1/2 or Type 3.
+
+    Band statements live on the Type-1/2 payload; observation indicator
+    sets live on the Type-3 payload. Both are generated in later stages
+    and stored on separate dataclasses so this structure stays stable
+    across the LT, band-statement, and indicator stages.
+    """
+
+    lt_id: str
+    cluster_id: str
+    competency_name: str
+    lt_name: str
+    lt_definition: str
+    knowledge_type: str
+    assessment_route: str
+    kud_item_ids: list[str] = field(default_factory=list)
+    prerequisite_lts: list[str] = field(default_factory=list)
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class LearningTargetSet:
+    source_slug: str
+    lts: list[LearningTarget] = field(default_factory=list)
+    halted_clusters: list[dict[str, Any]] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "lts": [lt.to_dict() for lt in self.lts],
+            "halted_clusters": list(self.halted_clusters),
+        }
+
+
+@dataclass
+class BandStatement:
+    band: str
+    statement: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class BandStatementSet:
+    """Band progression A-D for a single Type 1/2 LT."""
+
+    lt_id: str
+    knowledge_type: str
+    statements: list[BandStatement] = field(default_factory=list)
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+    quality_gate_passed: bool = True
+    quality_gate_failures: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class BandStatementCollection:
+    source_slug: str
+    sets: list[BandStatementSet] = field(default_factory=list)
+    halted_lts: list[dict[str, Any]] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "sets": [s.to_dict() for s in self.sets],
+            "halted_lts": list(self.halted_lts),
+        }
+
+
+@dataclass
+class ObservationBand:
+    """Observable indicators for one band of a Type 3 LT."""
+
+    band: str
+    observable_behaviours: list[str] = field(default_factory=list)
+    self_reflection_prompt: str = ""
+
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class ObservationIndicatorSet:
+    """Full Mode 3 observation scaffold for a single Type 3 LT."""
+
+    lt_id: str
+    bands: list[ObservationBand] = field(default_factory=list)
+    parent_prompts: list[str] = field(default_factory=list)
+    prerequisite_lts: list[str] = field(default_factory=list)
+    developmental_conversation_protocol: str = ""
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+    quality_gate_passed: bool = True
+    quality_gate_failures: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class ObservationIndicatorCollection:
+    source_slug: str
+    sets: list[ObservationIndicatorSet] = field(default_factory=list)
+    halted_lts: list[dict[str, Any]] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "sets": [s.to_dict() for s in self.sets],
+            "halted_lts": list(self.halted_lts),
+        }
+
+
+# Mode 3 generic developmental self-reflection prompts, calibrated by
+# band (per LT authoring skill). These are generic across ALL Type 3
+# LTs — the LT-specific tailoring happens in the observable-behaviour
+# indicators and the parent prompts, not in these developmental
+# prompts.
+MODE3_SELF_REFLECTION_PROMPTS: dict[str, str] = {
+    "A": "Name a moment this term when you tried something hard. What happened, and how did it feel?",
+    "B": "Describe one pattern you have noticed in yourself this term. When does it show up, and when does it not?",
+    "C": "Compare what you have noticed in yourself with what your teacher has observed. Where do the two accounts agree, and where do they differ?",
+    "D": "Analyse a pattern you see in yourself across two or more different contexts. What has shifted, and what do you think caused the shift?",
+}
 
 
 def dump_json(obj: Any, path: str) -> None:
