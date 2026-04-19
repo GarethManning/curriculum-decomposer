@@ -2,12 +2,14 @@
 
 Sequences (full): inventory → KUD classifier → KUD gates → competency
 clustering → LT generator → Type 1/2 band statements + Type 3
-observation indicators → extended quality report → output.
+observation indicators → Type 1/2 criterion rubrics + criterion gates
+→ supporting components → extended quality report → output.
 
 Supports ``--resume-from-kud``: skip inventory + KUD classification
 and read the existing ``inventory.json`` and ``kud.json`` from
 ``--out``. This is the 4b-2 default path for Welsh CfW (KUD was
-produced in 4b-1 and accepted post-review).
+produced in 4b-1 and accepted post-review). Supports ``--skip-criteria``
+to stop before the Type 1/2 rubric + supporting-components stages.
 
 Writes the following artefacts to the output directory:
 
@@ -19,6 +21,11 @@ Writes the following artefacts to the output directory:
 - ``lts.json``: LT set.
 - ``band_statements.json``: Type 1/2 band progressions.
 - ``observation_indicators.json``: Type 3 observation indicator sets.
+- ``criteria.json``: Type 1/2 five-level rubrics (gate-annotated).
+- ``criteria_quality_report.md`` / ``criteria_quality_report.json``:
+  per-LT criterion gate results.
+- ``supporting_components.json``: co-construction plan, student
+  rubric, and feedback guide for every rubric that passed its gates.
 
 If any halting gate fails OR any generation stage produces zero output
 where output is required (e.g. no LTs), the pipeline exits with a
@@ -36,6 +43,16 @@ from typing import Any
 
 from dotenv import load_dotenv
 
+from curriculum_harness.reference_authoring.criterion.generate_criteria import (
+    generate_criteria_sync,
+)
+from curriculum_harness.reference_authoring.criterion.generate_supporting_components import (
+    generate_supporting_components_sync,
+)
+from curriculum_harness.reference_authoring.gates.criterion_gates import (
+    criterion_report_to_markdown,
+    run_criterion_gates,
+)
 from curriculum_harness.reference_authoring.gates.kud_gates import (
     quality_report_to_markdown,
     run_kud_gates,
@@ -70,6 +87,7 @@ from curriculum_harness.reference_authoring.types import (
     HaltedBlock,
     KUDItem,
     ReferenceKUD,
+    RubricCollection,
     SourceInventory,
     dump_json,
 )
@@ -197,6 +215,11 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Stop after KUD gates (legacy 4b-1 behaviour).",
     )
     parser.add_argument(
+        "--skip-criteria",
+        action="store_true",
+        help="Skip the Type 1/2 criterion (rubric) and supporting-components stages. For debugging a band/indicator change without re-running rubrics.",
+    )
+    parser.add_argument(
         "--focus-on-priming",
         action="store_true",
         help=(
@@ -302,6 +325,9 @@ def _stage_summary_markdown(
     lt_set: Any,
     band_coll: Any,
     indicator_coll: Any,
+    rubric_coll: Any = None,
+    rubric_report_md: str | None = None,
+    supporting_coll: Any = None,
     focus_on_verification: dict | None = None,
 ) -> str:
     lines: list[str] = []
@@ -383,6 +409,70 @@ def _stage_summary_markdown(
         for h in indicator_coll.halted_lts:
             lines.append(f"  - `{h.get('lt_id')}`: {h.get('halt_reason')} — {h.get('diagnostic', '')}")
     lines.append("")
+
+    if rubric_coll is not None:
+        lines.append("## Stage: Type 1/2 criterion rubrics")
+        lines.append("")
+        lines.append(
+            f"- rubrics: **{len(rubric_coll.rubrics)}** "
+            f"(halted LTs: {len(rubric_coll.halted_lts)})"
+        )
+        r_stability: dict[str, int] = {}
+        r_gate_failed = 0
+        r_judge_fail = 0
+        r_thin = 0
+        for r in rubric_coll.rubrics:
+            r_stability[r.stability_flag] = r_stability.get(r.stability_flag, 0) + 1
+            if not r.quality_gate_passed:
+                r_gate_failed += 1
+            if (r.competent_framing_flag or "").lower() == "fail":
+                r_judge_fail += 1
+            if r.propositional_lt_rubric_thin_flag:
+                r_thin += 1
+        lines.append(f"- stability: {dict(r_stability)}")
+        lines.append(f"- rubrics with gate failures: {r_gate_failed}")
+        lines.append(f"- competent-framing judge: {r_judge_fail} fail")
+        lines.append(f"- propositional_lt_rubric_thin_flag: {r_thin}")
+        if rubric_coll.halted_lts:
+            lines.append("- halted:")
+            for h in rubric_coll.halted_lts:
+                lines.append(
+                    f"  - `{h.get('lt_id')}`: {h.get('halt_reason')} — "
+                    f"{h.get('diagnostic', '')}"
+                )
+        lines.append("")
+        if rubric_report_md:
+            lines.append("### Criterion gate details")
+            lines.append("")
+            # Strip the top-level heading the gate module emits so we
+            # don't duplicate headings under the main report.
+            gated = "\n".join(
+                line
+                for line in rubric_report_md.splitlines()
+                if not line.startswith("# Criterion quality report")
+            ).strip()
+            lines.append(gated)
+            lines.append("")
+
+    if supporting_coll is not None:
+        lines.append("## Stage: supporting components")
+        lines.append("")
+        lines.append(
+            f"- components: **{len(supporting_coll.components)}** "
+            f"(halted LTs: {len(supporting_coll.halted_lts)})"
+        )
+        s_stability: dict[str, int] = {}
+        for c in supporting_coll.components:
+            s_stability[c.stability_flag] = s_stability.get(c.stability_flag, 0) + 1
+        lines.append(f"- stability: {dict(s_stability)}")
+        if supporting_coll.halted_lts:
+            lines.append("- halted:")
+            for h in supporting_coll.halted_lts:
+                lines.append(
+                    f"  - `{h.get('lt_id')}`: {h.get('halt_reason')} — "
+                    f"{h.get('diagnostic', '')}"
+                )
+        lines.append("")
 
     if focus_on_verification is not None:
         lines.append("## Stage: FOCUS ON placement-rule verification (Ontario)")
@@ -562,6 +652,88 @@ def main(argv: list[str] | None = None) -> int:
         flush=True,
     )
 
+    rubric_coll = None
+    rubric_report_md = None
+    supporting_coll = None
+    if args.skip_criteria:
+        print("[refauth] --skip-criteria set; skipping rubric + supporting stages.", flush=True)
+    else:
+        type12_count = sum(
+            1 for lt in lt_set.lts if lt.knowledge_type in ("Type 1", "Type 2")
+        )
+        print(
+            f"[refauth] Type 1/2 criterion rubrics (3x self-consistency) — "
+            f"{type12_count} Type 1/2 LTs",
+            flush=True,
+        )
+        rubric_coll = generate_criteria_sync(lt_set, progression, runs=args.runs)
+        dump_json(
+            rubric_coll.to_dict(), os.path.join(args.out, "criteria.json")
+        )
+        print(
+            f"[refauth] rubrics: {len(rubric_coll.rubrics)} "
+            f"(halted: {len(rubric_coll.halted_lts)})",
+            flush=True,
+        )
+
+        rubric_report, rubric_coll = run_criterion_gates(rubric_coll)
+        dump_json(
+            rubric_report.to_dict(),
+            os.path.join(args.out, "criteria_quality_report.json"),
+        )
+        rubric_report_md = criterion_report_to_markdown(rubric_report)
+        with open(
+            os.path.join(args.out, "criteria_quality_report.md"),
+            "w",
+            encoding="utf-8",
+        ) as fh:
+            fh.write(rubric_report_md)
+        # Re-dump criteria.json with gate-result fields populated on each rubric.
+        dump_json(
+            rubric_coll.to_dict(), os.path.join(args.out, "criteria.json")
+        )
+        gate_failed = sum(
+            1 for r in rubric_coll.rubrics if not r.quality_gate_passed
+        )
+        print(
+            f"[refauth] criterion gates: {gate_failed} rubric(s) with halting "
+            f"failures; judge_fail="
+            f"{sum(1 for r in rubric_coll.rubrics if (r.competent_framing_flag or '').lower() == 'fail')}",
+            flush=True,
+        )
+
+        # Supporting components — only for rubrics whose halting gates
+        # passed. A failing rubric is not a stable anchor for the
+        # supporting artefacts.
+        passing_rubrics = [
+            r for r in rubric_coll.rubrics if r.quality_gate_passed
+        ]
+        print(
+            f"[refauth] supporting components (3x self-consistency) — "
+            f"{len(passing_rubrics)} passing rubric(s)",
+            flush=True,
+        )
+        passing_coll = RubricCollection(
+            source_slug=rubric_coll.source_slug,
+            rubrics=passing_rubrics,
+            halted_lts=list(rubric_coll.halted_lts),
+            model=rubric_coll.model,
+            temperature=rubric_coll.temperature,
+            runs=rubric_coll.runs,
+        )
+        supporting_coll = generate_supporting_components_sync(
+            lt_set, passing_coll, runs=args.runs
+        )
+        dump_json(
+            supporting_coll.to_dict(),
+            os.path.join(args.out, "supporting_components.json"),
+        )
+        print(
+            f"[refauth] supporting components: {len(supporting_coll.components)} "
+            f"(halted: {len(supporting_coll.halted_lts)})",
+            flush=True,
+        )
+
     focus_on_verification = None
     if getattr(args, "focus_on_priming", False):
         focus_on_verification = _verify_focus_on_classification(kud)
@@ -581,6 +753,9 @@ def main(argv: list[str] | None = None) -> int:
         lt_set=lt_set,
         band_coll=band_coll,
         indicator_coll=indicator_coll,
+        rubric_coll=rubric_coll,
+        rubric_report_md=rubric_report_md,
+        supporting_coll=supporting_coll,
         focus_on_verification=focus_on_verification,
     )
     report_path = os.path.join(args.out, "quality_report.md")
