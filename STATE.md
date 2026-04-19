@@ -34,6 +34,7 @@ These are claimed in prior planning / run outputs but not verifiable from code a
 - **Phase 3 consolidation collapse on felvételi (32 source bullets → 14 Do-Skills).** Observable only in a Phase 3 run output (`outputs/palya-...`), not in phase source. The per_bullet vs strand_aggregated branching introduced in Session 3b/c was designed to mitigate this pattern; whether the mitigation is fully load-bearing on a fresh felvételi run is unconfirmed.
 - **Factorial-notation injection from model priors on felvételi.** Pattern is acknowledged indirectly by the `source_faithfulness.py` module and the `SOURCE_FAITHFULNESS_FAIL_FLAG` wired into Phase 4's `FAIL_SET`; the specific injection is visible only in produced output.
 - **Reference-authoring gate pass rates under a fresh run.** On-disk `criteria_quality_report.json` shows 12/11 for Welsh CfW and 7/6 for Common Core; these match the last generation run but are not re-verified.
+- **v3 projections may be systematically too high for Opus-clustered sources.** v3's Session 4b-5 DoD projected 15–20 rubrics for Ontario; Opus-clustered Ontario produced 13 LTs and 7 rubrics, below that projection. The projection was calibrated against the prior Haiku-clustered Ontario run (23 LTs). Verify in 4b-5b whether comparator sources show the same gap at the Sonnet default, and revise v3 projections if the pattern holds across both domain types.
 
 ## 5. Next session
 
