@@ -1,0 +1,518 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Democratic Systems and Civic Participation",
+      "lt_name": "Understanding Democratic Governance Structures",
+      "lt_definition": "I can explain how democratic systems work, including elections, government formation, and the roles of different levels of government.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0012_item_01",
+        "blk_0012_item_02",
+        "blk_0013_item_01",
+        "blk_0014_item_01",
+        "blk_0015_item_01",
+        "blk_0016_item_01",
+        "blk_0017_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0019_item_02",
+        "blk_0021_item_01",
+        "blk_0022_item_01",
+        "blk_0022_item_02",
+        "blk_0022_item_03",
+        "blk_0023_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analysing Democratic Historical Development",
+            "Identifying Civic Participation Opportunities"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Democratic Historical Development",
+            "Engaging in Civic Participation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Historical Democratic Influences",
+            "Identifying Civic Participation Opportunities"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Democratic Systems and Civic Participation",
+      "lt_name": "Analysing Democratic Historical Development",
+      "lt_definition": "I can analyse how Ancient Greek political ideas influenced the development of New Zealand's democratic system.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0020_item_01",
+        "blk_0021_item_01",
+        "blk_0022_item_01",
+        "blk_0022_item_02",
+        "blk_0022_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analysing Democratic Historical Development",
+            "Identifying Civic Participation Opportunities"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Democratic Historical Development",
+            "Engaging in Civic Participation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Historical Democratic Influences",
+            "Identifying Civic Participation Opportunities"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "cluster_id": "cluster_01",
+      "competency_name": "Democratic Systems and Civic Participation",
+      "lt_name": "Identifying Civic Participation Opportunities",
+      "lt_definition": "I can identify ways to participate meaningfully in civic life and community decision-making.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0024_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analysing Democratic Historical Development",
+            "Identifying Civic Participation Opportunities"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Democratic Historical Development",
+            "Engaging in Civic Participation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Democratic Governance Structures",
+            "Analyzing Historical Democratic Influences",
+            "Identifying Civic Participation Opportunities"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "cluster_id": "cluster_02",
+      "competency_name": "Legal Systems and Justice",
+      "lt_name": "Understanding Laws and Legal Framework",
+      "lt_definition": "I can explain the purposes of laws and identify different types of laws that govern society.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0026_item_01",
+        "blk_0026_item_02",
+        "blk_0027_item_01",
+        "blk_0028_item_01",
+        "blk_0029_item_01",
+        "blk_0031_item_01",
+        "blk_0032_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Legal Framework",
+            "Justice System Operations and Roles"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Their Purposes",
+            "Justice Administration Through Courts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Their Purposes",
+            "Justice Administration Through Courts"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "cluster_id": "cluster_02",
+      "competency_name": "Legal Systems and Justice",
+      "lt_name": "Justice System Operations and Roles",
+      "lt_definition": "I can describe how courts, judges, and law enforcement work together to administer justice.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0035_item_01",
+        "blk_0036_item_01",
+        "blk_0037_item_01",
+        "blk_0038_item_01",
+        "blk_0039_item_01",
+        "blk_0041_item_01",
+        "blk_0042_item_01",
+        "blk_0044_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Legal Framework",
+            "Justice System Operations and Roles"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Their Purposes",
+            "Justice Administration Through Courts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Laws and Their Purposes",
+            "Justice Administration Through Courts"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Rights, Responsibilities and Citizenship",
+      "lt_name": "Understanding Legal Rights and Foundations",
+      "lt_definition": "I can explain New Zealand's legal foundations for rights and the relationship between rights and responsibilities in society.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0046_item_01",
+        "blk_0047_item_01",
+        "blk_0048_item_01",
+        "blk_0049_item_01",
+        "blk_0050_item_01",
+        "blk_0051_item_01",
+        "blk_0052_item_01",
+        "blk_0056_item_01",
+        "blk_0061_item_01",
+        "blk_0062_item_01",
+        "blk_0063_item_01",
+        "blk_0064_item_01",
+        "blk_0065_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Practising Civic Responsibility and Respect"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Evaluation",
+            "Civic Responsibility and Community Engagement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Civic Responsibility and Community Engagement"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Rights, Responsibilities and Citizenship",
+      "lt_name": "Critical Information Analysis for Citizenship",
+      "lt_definition": "I can evaluate information sources and analyse different viewpoints to make informed civic decisions.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0059_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Practising Civic Responsibility and Respect"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Evaluation",
+            "Civic Responsibility and Community Engagement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Civic Responsibility and Community Engagement"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "cluster_id": "cluster_03",
+      "competency_name": "Rights, Responsibilities and Citizenship",
+      "lt_name": "Practising Civic Responsibility and Respect",
+      "lt_definition": "The student practises civic responsibilities and respects others' rights in daily interactions and community participation.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0054_item_01",
+        "blk_0055_item_01",
+        "blk_0057_item_01",
+        "blk_0058_item_01"
+      ],
+      "prerequisite_lts": [
+        "Understanding Legal Rights and Foundations"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Practising Civic Responsibility and Respect"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Evaluation",
+            "Civic Responsibility and Community Engagement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Legal Rights and Foundations",
+            "Critical Information Analysis for Citizenship",
+            "Civic Responsibility and Community Engagement"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_clusters": []
+}

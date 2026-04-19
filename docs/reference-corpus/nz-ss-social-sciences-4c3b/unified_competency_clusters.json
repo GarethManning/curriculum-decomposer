@@ -1,0 +1,2531 @@
+{
+  "clusters": [
+    {
+      "cluster_id": "history_cluster_01",
+      "competency_name": "Treaty of Waitangi and Colonial Foundations",
+      "competency_definition": "The ability to understand the Treaty of Waitangi as New Zealand's founding agreement and its key figures and ongoing significance.",
+      "kud_item_ids": [
+        "history_blk_0013_item_01",
+        "history_blk_0014_item_01",
+        "history_blk_0015_item_01",
+        "history_blk_0016_item_01",
+        "history_blk_0017_item_01",
+        "history_blk_0018_item_01",
+        "history_blk_0019_item_01",
+        "history_blk_0020_item_01",
+        "history_blk_0059_item_01",
+        "history_blk_0059_item_02",
+        "history_blk_0059_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0016",
+        "blk_0017",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0059"
+      ],
+      "source_position_start": 14,
+      "source_position_end": 60,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Treaty of Waitangi and Colonial Foundations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Treaty of Waitangi and Founding Relationships",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Treaty of Waitangi and Early Colonial Relations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_02",
+      "competency_name": "Natural Events and Historical Impact",
+      "competency_definition": "The ability to analyze how natural events like the Tarawera eruption shaped society and historical development.",
+      "kud_item_ids": [
+        "history_blk_0024_item_01",
+        "history_blk_0028_item_01",
+        "history_blk_0030_item_01",
+        "history_blk_0040_item_01",
+        "history_blk_0060_item_01",
+        "history_blk_0060_item_02",
+        "history_blk_0060_item_03",
+        "history_blk_0060_item_04"
+      ],
+      "source_block_ids": [
+        "blk_0024",
+        "blk_0028",
+        "blk_0030",
+        "blk_0040",
+        "blk_0060"
+      ],
+      "source_position_start": 25,
+      "source_position_end": 64,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 1": 4,
+        "Type 2": 4
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Natural Events and Historical Impact",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Natural Events and Historical Impact",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Natural Disasters and Historical Change",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_03",
+      "competency_name": "Early European Contact and Cultural Exchange",
+      "competency_definition": "The ability to understand the complex interactions between Māori and Europeans from first contact through the 1830s.",
+      "kud_item_ids": [
+        "history_blk_0044_item_01",
+        "history_blk_0045_item_01",
+        "history_blk_0046_item_01",
+        "history_blk_0048_item_01",
+        "history_blk_0049_item_01",
+        "history_blk_0050_item_01",
+        "history_blk_0052_item_01",
+        "history_blk_0053_item_01",
+        "history_blk_0054_item_01",
+        "history_blk_0056_item_01",
+        "history_blk_0058_item_01",
+        "history_blk_0061_item_01",
+        "history_blk_0061_item_02",
+        "history_blk_0061_item_03",
+        "history_blk_0061_item_04",
+        "history_blk_0061_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0044",
+        "blk_0045",
+        "blk_0046",
+        "blk_0048",
+        "blk_0049",
+        "blk_0050",
+        "blk_0052",
+        "blk_0053",
+        "blk_0054",
+        "blk_0056",
+        "blk_0058",
+        "blk_0061"
+      ],
+      "source_position_start": 45,
+      "source_position_end": 71,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 6
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Early European Contact and Cultural Exchange",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Early European-Māori Contact and Exchange",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Early European Contact and Cultural Exchange",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "dominant_type_drift_run3: Type 1→Type 2"
+      ],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_04",
+      "competency_name": "Ancient Greek Civilization",
+      "competency_definition": "The ability to understand Ancient Greek society, government, culture, and its lasting contributions to the modern world.",
+      "kud_item_ids": [
+        "history_blk_0064_item_01",
+        "history_blk_0065_item_01",
+        "history_blk_0067_item_01",
+        "history_blk_0068_item_01",
+        "history_blk_0069_item_01",
+        "history_blk_0071_item_01",
+        "history_blk_0072_item_01",
+        "history_blk_0073_item_01",
+        "history_blk_0076_item_01",
+        "history_blk_0077_item_01",
+        "history_blk_0079_item_01",
+        "history_blk_0129_item_01",
+        "history_blk_0129_item_03",
+        "history_blk_0129_item_04",
+        "history_blk_0129_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0064",
+        "blk_0065",
+        "blk_0067",
+        "blk_0068",
+        "blk_0069",
+        "blk_0071",
+        "blk_0072",
+        "blk_0073",
+        "blk_0076",
+        "blk_0077",
+        "blk_0079",
+        "blk_0129"
+      ],
+      "source_position_start": 80,
+      "source_position_end": 146,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 9,
+        "Type 2": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ancient Greek Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ancient Greek Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ancient Greek Civilisation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_02",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_05",
+      "competency_name": "Ancient Chinese Civilization",
+      "competency_definition": "The ability to understand early Chinese society, governance, technology, and economic systems.",
+      "kud_item_ids": [
+        "history_blk_0087_item_01",
+        "history_blk_0087_item_02",
+        "history_blk_0089_item_01",
+        "history_blk_0089_item_02",
+        "history_blk_0089_item_03",
+        "history_blk_0091_item_01",
+        "history_blk_0092_item_01",
+        "history_blk_0092_item_02",
+        "history_blk_0094_item_01",
+        "history_blk_0094_item_02",
+        "history_blk_0099_item_01",
+        "history_blk_0099_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0087",
+        "blk_0089",
+        "blk_0091",
+        "blk_0092",
+        "blk_0094",
+        "blk_0099"
+      ],
+      "source_position_start": 103,
+      "source_position_end": 116,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 12
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ancient Chinese Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ancient Chinese Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ancient Chinese Civilisation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_06",
+      "competency_name": "Elizabethan England",
+      "competency_definition": "The ability to understand Elizabethan society, government, religion, culture, and social structures.",
+      "kud_item_ids": [
+        "history_blk_0104_item_01",
+        "history_blk_0105_item_01",
+        "history_blk_0106_item_01",
+        "history_blk_0107_item_01",
+        "history_blk_0108_item_01",
+        "history_blk_0108_item_02",
+        "history_blk_0108_item_03",
+        "history_blk_0110_item_01",
+        "history_blk_0110_item_02",
+        "history_blk_0110_item_03",
+        "history_blk_0112_item_01",
+        "history_blk_0113_item_01",
+        "history_blk_0113_item_02",
+        "history_blk_0113_item_03",
+        "history_blk_0116_item_01",
+        "history_blk_0116_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0104",
+        "blk_0105",
+        "blk_0106",
+        "blk_0107",
+        "blk_0108",
+        "blk_0110",
+        "blk_0112",
+        "blk_0113",
+        "blk_0116"
+      ],
+      "source_position_start": 121,
+      "source_position_end": 133,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 15,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Elizabethan England",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Elizabethan England Society and Governance",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Elizabethan and Victorian England Comparison",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02",
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_07",
+      "competency_name": "Victorian England",
+      "competency_definition": "The ability to understand Victorian society, constitutional monarchy, technological progress, and imperial expansion.",
+      "kud_item_ids": [
+        "history_blk_0118_item_01",
+        "history_blk_0119_item_01",
+        "history_blk_0120_item_01",
+        "history_blk_0121_item_01",
+        "history_blk_0122_item_01",
+        "history_blk_0122_item_02",
+        "history_blk_0123_item_01",
+        "history_blk_0125_item_01",
+        "history_blk_0126_item_01",
+        "history_blk_0127_item_01",
+        "history_blk_0128_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0118",
+        "blk_0119",
+        "blk_0120",
+        "blk_0121",
+        "blk_0122",
+        "blk_0123",
+        "blk_0125",
+        "blk_0126",
+        "blk_0127",
+        "blk_0128"
+      ],
+      "source_position_start": 135,
+      "source_position_end": 145,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 1
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Victorian England",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Victorian England Society and Governance",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0129_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run3"
+      ],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_08",
+      "competency_name": "Historical Comparison and Analysis",
+      "competency_definition": "The ability to compare and analyze similarities and differences across historical periods and societies.",
+      "kud_item_ids": [
+        "history_blk_0129_item_02",
+        "history_blk_0131_item_01",
+        "history_blk_0131_item_02",
+        "history_blk_0131_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0129",
+        "blk_0131"
+      ],
+      "source_position_start": 146,
+      "source_position_end": 158,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 4
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Historical Comparison and Analysis",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0129_item_02",
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Historical Comparison and Analysis",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run3"
+      ],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "history_cluster_09",
+      "competency_name": "Roman Civilization",
+      "competency_definition": "The ability to understand Roman society, government transitions from republic to empire, and cultural achievements.",
+      "kud_item_ids": [
+        "history_blk_0134_item_01",
+        "history_blk_0136_item_01",
+        "history_blk_0137_item_01",
+        "history_blk_0137_item_02",
+        "history_blk_0139_item_01",
+        "history_blk_0140_item_01",
+        "history_blk_0141_item_01",
+        "history_blk_0142_item_01",
+        "history_blk_0144_item_01",
+        "history_blk_0147_item_01",
+        "history_blk_0149_item_01",
+        "history_blk_0150_item_01",
+        "history_blk_0150_item_02",
+        "history_blk_0150_item_03",
+        "history_blk_0150_item_04",
+        "history_blk_0150_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0134",
+        "blk_0136",
+        "blk_0137",
+        "blk_0139",
+        "blk_0140",
+        "blk_0141",
+        "blk_0142",
+        "blk_0144",
+        "blk_0147",
+        "blk_0149",
+        "blk_0150"
+      ],
+      "source_position_start": 164,
+      "source_position_end": 180,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Roman Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Roman Civilization and Empire",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Roman Civilisation and Empire",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "History",
+        "strand_slug": "history",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "civics-and-society_cluster_01",
+      "competency_name": "Democratic Systems and Civic Participation",
+      "competency_definition": "The ability to understand democratic governance structures and engage meaningfully in civic life.",
+      "kud_item_ids": [
+        "civics-and-society_blk_0012_item_01",
+        "civics-and-society_blk_0012_item_02",
+        "civics-and-society_blk_0013_item_01",
+        "civics-and-society_blk_0014_item_01",
+        "civics-and-society_blk_0015_item_01",
+        "civics-and-society_blk_0016_item_01",
+        "civics-and-society_blk_0017_item_01",
+        "civics-and-society_blk_0018_item_01",
+        "civics-and-society_blk_0019_item_01",
+        "civics-and-society_blk_0019_item_02",
+        "civics-and-society_blk_0020_item_01",
+        "civics-and-society_blk_0021_item_01",
+        "civics-and-society_blk_0022_item_01",
+        "civics-and-society_blk_0022_item_02",
+        "civics-and-society_blk_0022_item_03",
+        "civics-and-society_blk_0023_item_01",
+        "civics-and-society_blk_0024_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0012",
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0016",
+        "blk_0017",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0021",
+        "blk_0022",
+        "blk_0023",
+        "blk_0024"
+      ],
+      "source_position_start": 13,
+      "source_position_end": 30,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 16,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Democratic Systems and Civic Participation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0012_item_01",
+            "blk_0012_item_02",
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0022_item_03",
+            "blk_0023_item_01",
+            "blk_0024_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Democratic Systems and Civic Participation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0012_item_01",
+            "blk_0012_item_02",
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0022_item_03",
+            "blk_0023_item_01",
+            "blk_0024_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Democratic Systems and Civic Participation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0012_item_01",
+            "blk_0012_item_02",
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0022_item_03",
+            "blk_0023_item_01",
+            "blk_0024_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Civics and Society",
+        "strand_slug": "civics-and-society",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "civics-and-society_cluster_02",
+      "competency_name": "Legal Systems and Justice",
+      "competency_definition": "The ability to understand how laws function and how justice is administered in society.",
+      "kud_item_ids": [
+        "civics-and-society_blk_0026_item_01",
+        "civics-and-society_blk_0026_item_02",
+        "civics-and-society_blk_0027_item_01",
+        "civics-and-society_blk_0028_item_01",
+        "civics-and-society_blk_0029_item_01",
+        "civics-and-society_blk_0031_item_01",
+        "civics-and-society_blk_0032_item_01",
+        "civics-and-society_blk_0035_item_01",
+        "civics-and-society_blk_0036_item_01",
+        "civics-and-society_blk_0037_item_01",
+        "civics-and-society_blk_0038_item_01",
+        "civics-and-society_blk_0039_item_01",
+        "civics-and-society_blk_0041_item_01",
+        "civics-and-society_blk_0042_item_01",
+        "civics-and-society_blk_0044_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0026",
+        "blk_0027",
+        "blk_0028",
+        "blk_0029",
+        "blk_0031",
+        "blk_0032",
+        "blk_0035",
+        "blk_0036",
+        "blk_0037",
+        "blk_0038",
+        "blk_0039",
+        "blk_0041",
+        "blk_0042",
+        "blk_0044"
+      ],
+      "source_position_start": 37,
+      "source_position_end": 55,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 15
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Legal Systems and Justice",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0026_item_01",
+            "blk_0026_item_02",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0035_item_01",
+            "blk_0036_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01",
+            "blk_0039_item_01",
+            "blk_0041_item_01",
+            "blk_0042_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Legal Systems and Justice",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0026_item_01",
+            "blk_0026_item_02",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0035_item_01",
+            "blk_0036_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01",
+            "blk_0039_item_01",
+            "blk_0041_item_01",
+            "blk_0042_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Legal Systems and Justice",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0026_item_01",
+            "blk_0026_item_02",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0035_item_01",
+            "blk_0036_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01",
+            "blk_0039_item_01",
+            "blk_0041_item_01",
+            "blk_0042_item_01",
+            "blk_0044_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Civics and Society",
+        "strand_slug": "civics-and-society",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "civics-and-society_cluster_03",
+      "competency_name": "Rights, Responsibilities and Citizenship",
+      "competency_definition": "The ability to understand legal rights and exercise civic responsibilities as an informed citizen.",
+      "kud_item_ids": [
+        "civics-and-society_blk_0046_item_01",
+        "civics-and-society_blk_0047_item_01",
+        "civics-and-society_blk_0048_item_01",
+        "civics-and-society_blk_0049_item_01",
+        "civics-and-society_blk_0050_item_01",
+        "civics-and-society_blk_0051_item_01",
+        "civics-and-society_blk_0052_item_01",
+        "civics-and-society_blk_0054_item_01",
+        "civics-and-society_blk_0055_item_01",
+        "civics-and-society_blk_0056_item_01",
+        "civics-and-society_blk_0057_item_01",
+        "civics-and-society_blk_0058_item_01",
+        "civics-and-society_blk_0059_item_01",
+        "civics-and-society_blk_0061_item_01",
+        "civics-and-society_blk_0062_item_01",
+        "civics-and-society_blk_0063_item_01",
+        "civics-and-society_blk_0064_item_01",
+        "civics-and-society_blk_0065_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0046",
+        "blk_0047",
+        "blk_0048",
+        "blk_0049",
+        "blk_0050",
+        "blk_0051",
+        "blk_0052",
+        "blk_0054",
+        "blk_0055",
+        "blk_0056",
+        "blk_0057",
+        "blk_0058",
+        "blk_0059",
+        "blk_0061",
+        "blk_0062",
+        "blk_0063",
+        "blk_0064",
+        "blk_0065"
+      ],
+      "source_position_start": 57,
+      "source_position_end": 76,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 13,
+        "Type 3": 4,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Rights, Responsibilities and Citizenship",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0046_item_01",
+            "blk_0047_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0051_item_01",
+            "blk_0052_item_01",
+            "blk_0054_item_01",
+            "blk_0055_item_01",
+            "blk_0056_item_01",
+            "blk_0057_item_01",
+            "blk_0058_item_01",
+            "blk_0059_item_01",
+            "blk_0061_item_01",
+            "blk_0062_item_01",
+            "blk_0063_item_01",
+            "blk_0064_item_01",
+            "blk_0065_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Rights, Responsibilities and Citizenship",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0046_item_01",
+            "blk_0047_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0051_item_01",
+            "blk_0052_item_01",
+            "blk_0054_item_01",
+            "blk_0055_item_01",
+            "blk_0056_item_01",
+            "blk_0057_item_01",
+            "blk_0058_item_01",
+            "blk_0059_item_01",
+            "blk_0061_item_01",
+            "blk_0062_item_01",
+            "blk_0063_item_01",
+            "blk_0064_item_01",
+            "blk_0065_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Rights, Responsibilities and Citizenship",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0046_item_01",
+            "blk_0047_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0051_item_01",
+            "blk_0052_item_01",
+            "blk_0054_item_01",
+            "blk_0055_item_01",
+            "blk_0056_item_01",
+            "blk_0057_item_01",
+            "blk_0058_item_01",
+            "blk_0059_item_01",
+            "blk_0061_item_01",
+            "blk_0062_item_01",
+            "blk_0063_item_01",
+            "blk_0064_item_01",
+            "blk_0065_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Civics and Society",
+        "strand_slug": "civics-and-society",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_01",
+      "competency_name": "Population Dynamics and Distribution",
+      "competency_definition": "The ability to understand how populations change over time and are distributed across space.",
+      "kud_item_ids": [
+        "geography_blk_0013_item_01",
+        "geography_blk_0014_item_01",
+        "geography_blk_0015_item_01",
+        "geography_blk_0017_item_01",
+        "geography_blk_0018_item_01",
+        "geography_blk_0019_item_01",
+        "geography_blk_0020_item_01",
+        "geography_blk_0021_item_01",
+        "geography_blk_0023_item_01",
+        "geography_blk_0024_item_01",
+        "geography_blk_0063_item_01",
+        "geography_blk_0063_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0017",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0021",
+        "blk_0023",
+        "blk_0024",
+        "blk_0063"
+      ],
+      "source_position_start": 14,
+      "source_position_end": 72,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 11,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Population Dynamics and Distribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0063_item_01",
+            "blk_0063_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Population Dynamics And Distribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0063_item_01",
+            "blk_0063_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_02",
+      "competency_name": "Tectonic Hazards and Risk Management",
+      "competency_definition": "The ability to understand tectonic processes and how societies prepare for and respond to geological hazards.",
+      "kud_item_ids": [
+        "geography_blk_0029_item_01",
+        "geography_blk_0030_item_01",
+        "geography_blk_0031_item_01",
+        "geography_blk_0032_item_01",
+        "geography_blk_0033_item_01",
+        "geography_blk_0034_item_01",
+        "geography_blk_0035_item_01",
+        "geography_blk_0037_item_01",
+        "geography_blk_0038_item_01",
+        "geography_blk_0039_item_01",
+        "geography_blk_0040_item_01",
+        "geography_blk_0041_item_01",
+        "geography_blk_0042_item_01",
+        "geography_blk_0046_item_01",
+        "geography_blk_0063_item_03",
+        "geography_blk_0063_item_04",
+        "geography_blk_0063_item_05",
+        "geography_blk_0063_item_06",
+        "geography_blk_0063_item_07",
+        "geography_blk_0063_item_08",
+        "geography_blk_0063_item_09"
+      ],
+      "source_block_ids": [
+        "blk_0029",
+        "blk_0030",
+        "blk_0031",
+        "blk_0032",
+        "blk_0033",
+        "blk_0034",
+        "blk_0035",
+        "blk_0037",
+        "blk_0038",
+        "blk_0039",
+        "blk_0040",
+        "blk_0041",
+        "blk_0042",
+        "blk_0046",
+        "blk_0063"
+      ],
+      "source_position_start": 30,
+      "source_position_end": 72,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 17,
+        "Type 2": 4
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Tectonic Hazards and Risk Management",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0029_item_01",
+            "blk_0030_item_01",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01",
+            "blk_0034_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01",
+            "blk_0039_item_01",
+            "blk_0040_item_01",
+            "blk_0041_item_01",
+            "blk_0042_item_01",
+            "blk_0046_item_01",
+            "blk_0063_item_03",
+            "blk_0063_item_04",
+            "blk_0063_item_05",
+            "blk_0063_item_06",
+            "blk_0063_item_07",
+            "blk_0063_item_08",
+            "blk_0063_item_09"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Tectonic Hazards And Risk Management",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0029_item_01",
+            "blk_0030_item_01",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01",
+            "blk_0034_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01",
+            "blk_0039_item_01",
+            "blk_0040_item_01",
+            "blk_0041_item_01",
+            "blk_0042_item_01",
+            "blk_0046_item_01",
+            "blk_0063_item_03",
+            "blk_0063_item_04",
+            "blk_0063_item_05",
+            "blk_0063_item_06",
+            "blk_0063_item_07",
+            "blk_0063_item_08",
+            "blk_0063_item_09"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_03",
+      "competency_name": "Urbanisation Processes and Impacts",
+      "competency_definition": "The ability to understand how cities develop and the social, economic and environmental consequences of urban growth.",
+      "kud_item_ids": [
+        "geography_blk_0049_item_01",
+        "geography_blk_0050_item_01",
+        "geography_blk_0051_item_01",
+        "geography_blk_0052_item_01",
+        "geography_blk_0054_item_01",
+        "geography_blk_0055_item_01",
+        "geography_blk_0057_item_01",
+        "geography_blk_0058_item_01",
+        "geography_blk_0059_item_01",
+        "geography_blk_0061_item_01",
+        "geography_blk_0062_item_01",
+        "geography_blk_0062_item_02",
+        "geography_blk_0063_item_10",
+        "geography_blk_0063_item_11",
+        "geography_blk_0063_item_12",
+        "geography_blk_0063_item_13",
+        "geography_blk_0063_item_14"
+      ],
+      "source_block_ids": [
+        "blk_0049",
+        "blk_0050",
+        "blk_0051",
+        "blk_0052",
+        "blk_0054",
+        "blk_0055",
+        "blk_0057",
+        "blk_0058",
+        "blk_0059",
+        "blk_0061",
+        "blk_0062",
+        "blk_0063"
+      ],
+      "source_position_start": 53,
+      "source_position_end": 72,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 14,
+        "Type 2": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Urbanisation Processes and Impacts",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0051_item_01",
+            "blk_0052_item_01",
+            "blk_0054_item_01",
+            "blk_0055_item_01",
+            "blk_0057_item_01",
+            "blk_0058_item_01",
+            "blk_0059_item_01",
+            "blk_0061_item_01",
+            "blk_0062_item_01",
+            "blk_0062_item_02",
+            "blk_0063_item_10",
+            "blk_0063_item_11",
+            "blk_0063_item_12",
+            "blk_0063_item_13",
+            "blk_0063_item_14"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Urbanisation Processes And Impacts",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0051_item_01",
+            "blk_0052_item_01",
+            "blk_0054_item_01",
+            "blk_0055_item_01",
+            "blk_0057_item_01",
+            "blk_0058_item_01",
+            "blk_0059_item_01",
+            "blk_0061_item_01",
+            "blk_0062_item_01",
+            "blk_0062_item_02",
+            "blk_0063_item_10",
+            "blk_0063_item_11",
+            "blk_0063_item_12",
+            "blk_0063_item_13",
+            "blk_0063_item_14"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_04",
+      "competency_name": "Geological Processes and Landform Development",
+      "competency_definition": "The ability to understand how tectonic forces and rock cycles shape Earth's surface features.",
+      "kud_item_ids": [
+        "geography_blk_0066_item_01",
+        "geography_blk_0067_item_01",
+        "geography_blk_0068_item_01",
+        "geography_blk_0069_item_01",
+        "geography_blk_0071_item_01",
+        "geography_blk_0072_item_01",
+        "geography_blk_0073_item_01",
+        "geography_blk_0074_item_01",
+        "geography_blk_0075_item_01",
+        "geography_blk_0077_item_01",
+        "geography_blk_0078_item_01",
+        "geography_blk_0079_item_01",
+        "geography_blk_0080_item_01",
+        "geography_blk_0083_item_01",
+        "geography_blk_0084_item_01",
+        "geography_blk_0124_item_01",
+        "geography_blk_0124_item_02",
+        "geography_blk_0124_item_03",
+        "geography_blk_0124_item_04",
+        "geography_blk_0124_item_05",
+        "geography_blk_0124_item_06"
+      ],
+      "source_block_ids": [
+        "blk_0066",
+        "blk_0067",
+        "blk_0068",
+        "blk_0069",
+        "blk_0071",
+        "blk_0072",
+        "blk_0073",
+        "blk_0074",
+        "blk_0075",
+        "blk_0077",
+        "blk_0078",
+        "blk_0079",
+        "blk_0080",
+        "blk_0083",
+        "blk_0084",
+        "blk_0124"
+      ],
+      "source_position_start": 88,
+      "source_position_end": 146,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 21
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Geological Processes and Landform Development",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0066_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0074_item_01",
+            "blk_0075_item_01",
+            "blk_0077_item_01",
+            "blk_0078_item_01",
+            "blk_0079_item_01",
+            "blk_0080_item_01",
+            "blk_0083_item_01",
+            "blk_0084_item_01",
+            "blk_0124_item_01",
+            "blk_0124_item_02",
+            "blk_0124_item_03",
+            "blk_0124_item_04",
+            "blk_0124_item_05",
+            "blk_0124_item_06"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Geological Processes And Landform Development",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0066_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0074_item_01",
+            "blk_0075_item_01",
+            "blk_0077_item_01",
+            "blk_0078_item_01",
+            "blk_0079_item_01",
+            "blk_0080_item_01",
+            "blk_0083_item_01",
+            "blk_0084_item_01",
+            "blk_0124_item_01",
+            "blk_0124_item_02",
+            "blk_0124_item_03",
+            "blk_0124_item_04",
+            "blk_0124_item_05",
+            "blk_0124_item_06"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_05",
+      "competency_name": "Rainforest Ecosystems and Environmental Change",
+      "competency_definition": "The ability to understand rainforest biomes, their biodiversity, and human impacts on these ecosystems.",
+      "kud_item_ids": [
+        "geography_blk_0087_item_01",
+        "geography_blk_0088_item_01",
+        "geography_blk_0089_item_01",
+        "geography_blk_0090_item_01",
+        "geography_blk_0090_item_02",
+        "geography_blk_0091_item_01",
+        "geography_blk_0092_item_01",
+        "geography_blk_0094_item_01",
+        "geography_blk_0095_item_01",
+        "geography_blk_0096_item_01",
+        "geography_blk_0097_item_01",
+        "geography_blk_0099_item_01",
+        "geography_blk_0100_item_01",
+        "geography_blk_0101_item_01",
+        "geography_blk_0102_item_01",
+        "geography_blk_0124_item_07",
+        "geography_blk_0124_item_08",
+        "geography_blk_0124_item_09",
+        "geography_blk_0124_item_10",
+        "geography_blk_0124_item_11",
+        "geography_blk_0124_item_12"
+      ],
+      "source_block_ids": [
+        "blk_0087",
+        "blk_0088",
+        "blk_0089",
+        "blk_0090",
+        "blk_0091",
+        "blk_0092",
+        "blk_0094",
+        "blk_0095",
+        "blk_0096",
+        "blk_0097",
+        "blk_0099",
+        "blk_0100",
+        "blk_0101",
+        "blk_0102",
+        "blk_0124"
+      ],
+      "source_position_start": 109,
+      "source_position_end": 146,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 21
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Rainforest Ecosystems and Environmental Change",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0088_item_01",
+            "blk_0089_item_01",
+            "blk_0090_item_01",
+            "blk_0090_item_02",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0094_item_01",
+            "blk_0095_item_01",
+            "blk_0096_item_01",
+            "blk_0097_item_01",
+            "blk_0099_item_01",
+            "blk_0100_item_01",
+            "blk_0101_item_01",
+            "blk_0102_item_01",
+            "blk_0124_item_07",
+            "blk_0124_item_08",
+            "blk_0124_item_09",
+            "blk_0124_item_10",
+            "blk_0124_item_11",
+            "blk_0124_item_12"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Rainforest Ecosystems And Environmental Change",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0088_item_01",
+            "blk_0089_item_01",
+            "blk_0090_item_01",
+            "blk_0090_item_02",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0094_item_01",
+            "blk_0095_item_01",
+            "blk_0096_item_01",
+            "blk_0097_item_01",
+            "blk_0099_item_01",
+            "blk_0100_item_01",
+            "blk_0101_item_01",
+            "blk_0102_item_01",
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0124_item_07",
+            "blk_0124_item_08",
+            "blk_0124_item_09",
+            "blk_0124_item_10",
+            "blk_0124_item_11",
+            "blk_0124_item_12"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_06",
+      "competency_name": "Human-Environment Interactions and Sustainability",
+      "competency_definition": "The ability to understand how people interact with environments and their responsibility for environmental sustainability.",
+      "kud_item_ids": [
+        "geography_blk_0104_item_01",
+        "geography_blk_0105_item_01",
+        "geography_blk_0106_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0104",
+        "blk_0105",
+        "blk_0106"
+      ],
+      "source_position_start": 126,
+      "source_position_end": 128,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 3
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Human-Environment Interactions and Sustainability",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run2"
+      ],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_07",
+      "competency_name": "Climate Change Processes and Responses",
+      "competency_definition": "The ability to understand climate change causes, impacts, and mitigation and adaptation strategies.",
+      "kud_item_ids": [
+        "geography_blk_0108_item_01",
+        "geography_blk_0109_item_01",
+        "geography_blk_0110_item_01",
+        "geography_blk_0111_item_01",
+        "geography_blk_0112_item_01",
+        "geography_blk_0114_item_01",
+        "geography_blk_0115_item_01",
+        "geography_blk_0117_item_01",
+        "geography_blk_0118_item_01",
+        "geography_blk_0119_item_01",
+        "geography_blk_0120_item_01",
+        "geography_blk_0122_item_01",
+        "geography_blk_0123_item_01",
+        "geography_blk_0124_item_13",
+        "geography_blk_0124_item_14",
+        "geography_blk_0124_item_15",
+        "geography_blk_0124_item_16"
+      ],
+      "source_block_ids": [
+        "blk_0108",
+        "blk_0109",
+        "blk_0110",
+        "blk_0111",
+        "blk_0112",
+        "blk_0114",
+        "blk_0115",
+        "blk_0117",
+        "blk_0118",
+        "blk_0119",
+        "blk_0120",
+        "blk_0122",
+        "blk_0123",
+        "blk_0124"
+      ],
+      "source_position_start": 130,
+      "source_position_end": 146,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 15,
+        "Type 3": 1,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Climate Change Processes and Responses",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0108_item_01",
+            "blk_0109_item_01",
+            "blk_0110_item_01",
+            "blk_0111_item_01",
+            "blk_0112_item_01",
+            "blk_0114_item_01",
+            "blk_0115_item_01",
+            "blk_0117_item_01",
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0122_item_01",
+            "blk_0123_item_01",
+            "blk_0124_item_13",
+            "blk_0124_item_14",
+            "blk_0124_item_15",
+            "blk_0124_item_16"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Climate Change Processes And Responses",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0108_item_01",
+            "blk_0109_item_01",
+            "blk_0110_item_01",
+            "blk_0111_item_01",
+            "blk_0112_item_01",
+            "blk_0114_item_01",
+            "blk_0115_item_01",
+            "blk_0117_item_01",
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0122_item_01",
+            "blk_0123_item_01",
+            "blk_0124_item_13",
+            "blk_0124_item_14",
+            "blk_0124_item_15",
+            "blk_0124_item_16"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "geography_cluster_08",
+      "competency_name": "Regional Geography and Cultural Diversity",
+      "competency_definition": "The ability to understand how regions are defined by shared characteristics and internal diversity.",
+      "kud_item_ids": [
+        "geography_blk_0127_item_01",
+        "geography_blk_0128_item_01",
+        "geography_blk_0129_item_01",
+        "geography_blk_0130_item_01",
+        "geography_blk_0132_item_01",
+        "geography_blk_0133_item_01",
+        "geography_blk_0134_item_01",
+        "geography_blk_0136_item_01",
+        "geography_blk_0137_item_01",
+        "geography_blk_0138_item_01",
+        "geography_blk_0140_item_01",
+        "geography_blk_0144_item_01",
+        "geography_blk_0144_item_02",
+        "geography_blk_0144_item_03",
+        "geography_blk_0144_item_04"
+      ],
+      "source_block_ids": [
+        "blk_0127",
+        "blk_0128",
+        "blk_0129",
+        "blk_0130",
+        "blk_0132",
+        "blk_0133",
+        "blk_0134",
+        "blk_0136",
+        "blk_0137",
+        "blk_0138",
+        "blk_0140",
+        "blk_0144"
+      ],
+      "source_position_start": 164,
+      "source_position_end": 181,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 14,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Regional Geography and Cultural Diversity",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0129_item_01",
+            "blk_0130_item_01",
+            "blk_0132_item_01",
+            "blk_0133_item_01",
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0138_item_01",
+            "blk_0140_item_01",
+            "blk_0144_item_01",
+            "blk_0144_item_02",
+            "blk_0144_item_03",
+            "blk_0144_item_04"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Regional Geography And Cultural Diversity",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0129_item_01",
+            "blk_0130_item_01",
+            "blk_0132_item_01",
+            "blk_0133_item_01",
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0138_item_01",
+            "blk_0140_item_01",
+            "blk_0144_item_01",
+            "blk_0144_item_02",
+            "blk_0144_item_03",
+            "blk_0144_item_04"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Geography",
+        "strand_slug": "geography",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "economic-activity_cluster_01",
+      "competency_name": "Personal Financial Decision Making",
+      "competency_definition": "The ability to make informed decisions about spending, saving, and managing personal finances.",
+      "kud_item_ids": [
+        "economic-activity_blk_0011_item_01",
+        "economic-activity_blk_0012_item_01",
+        "economic-activity_blk_0013_item_01",
+        "economic-activity_blk_0013_item_02",
+        "economic-activity_blk_0014_item_01",
+        "economic-activity_blk_0014_item_02",
+        "economic-activity_blk_0015_item_01",
+        "economic-activity_blk_0018_item_01",
+        "economic-activity_blk_0019_item_01",
+        "economic-activity_blk_0020_item_01",
+        "economic-activity_blk_0021_item_01",
+        "economic-activity_blk_0035_item_01",
+        "economic-activity_blk_0037_item_01",
+        "economic-activity_blk_0038_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0011",
+        "blk_0012",
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0021",
+        "blk_0035",
+        "blk_0037",
+        "blk_0038"
+      ],
+      "source_position_start": 13,
+      "source_position_end": 40,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 13,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Economic Activity",
+        "strand_slug": "economic-activity",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "economic-activity_cluster_02",
+      "competency_name": "Economic Exchange and Trade Systems",
+      "competency_definition": "The ability to understand how goods, services, and resources are exchanged in economic systems.",
+      "kud_item_ids": [
+        "economic-activity_blk_0016_item_01",
+        "economic-activity_blk_0017_item_01",
+        "economic-activity_blk_0023_item_01",
+        "economic-activity_blk_0024_item_01",
+        "economic-activity_blk_0024_item_02",
+        "economic-activity_blk_0034_item_01",
+        "economic-activity_blk_0034_item_02",
+        "economic-activity_blk_0036_item_01",
+        "economic-activity_blk_0041_item_01",
+        "economic-activity_blk_0044_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0016",
+        "blk_0017",
+        "blk_0023",
+        "blk_0024",
+        "blk_0034",
+        "blk_0036",
+        "blk_0041",
+        "blk_0044"
+      ],
+      "source_position_start": 18,
+      "source_position_end": 46,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 7,
+        "Type 2": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Economic Activity",
+        "strand_slug": "economic-activity",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "economic-activity_cluster_03",
+      "competency_name": "Work and Economic Contribution",
+      "competency_definition": "The ability to understand how people contribute to the economy through work and enterprise.",
+      "kud_item_ids": [
+        "economic-activity_blk_0022_item_01",
+        "economic-activity_blk_0022_item_02",
+        "economic-activity_blk_0039_item_01",
+        "economic-activity_blk_0040_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0022",
+        "blk_0039",
+        "blk_0040"
+      ],
+      "source_position_start": 24,
+      "source_position_end": 42,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 2,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Economic Activity",
+        "strand_slug": "economic-activity",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "economic-activity_cluster_04",
+      "competency_name": "Business Operations and Enterprise",
+      "competency_definition": "The ability to understand how businesses operate and create value in the economy.",
+      "kud_item_ids": [
+        "economic-activity_blk_0025_item_01",
+        "economic-activity_blk_0026_item_01",
+        "economic-activity_blk_0027_item_01",
+        "economic-activity_blk_0028_item_01",
+        "economic-activity_blk_0029_item_01",
+        "economic-activity_blk_0042_item_01",
+        "economic-activity_blk_0043_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0025",
+        "blk_0026",
+        "blk_0027",
+        "blk_0028",
+        "blk_0029",
+        "blk_0042",
+        "blk_0043"
+      ],
+      "source_position_start": 27,
+      "source_position_end": 45,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 5,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Economic Activity",
+        "strand_slug": "economic-activity",
+        "detection_confidence": 0.85
+      }
+    },
+    {
+      "cluster_id": "economic-activity_cluster_05",
+      "competency_name": "Credit, Debt, and Financial Planning",
+      "competency_definition": "The ability to understand credit systems, debt management, and financial planning tools.",
+      "kud_item_ids": [
+        "economic-activity_blk_0030_item_01",
+        "economic-activity_blk_0030_item_02",
+        "economic-activity_blk_0031_item_01",
+        "economic-activity_blk_0032_item_01",
+        "economic-activity_blk_0033_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0030",
+        "blk_0031",
+        "blk_0032",
+        "blk_0033"
+      ],
+      "source_position_start": 32,
+      "source_position_end": 35,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 5
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Economic Activity",
+        "strand_slug": "economic-activity",
+        "detection_confidence": 0.85
+      }
+    }
+  ]
+}

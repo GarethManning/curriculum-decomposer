@@ -1,0 +1,1627 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "components": [
+    {
+      "lt_id": "cluster_01_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_02",
+        "stages": [
+          "Introduce the learning target and ask students what good financial planning looks like.",
+          "Have students brainstorm what skills they need to manage money well.",
+          "Guide students to identify different levels of financial planning ability from beginner to expert.",
+          "Collaborate to define what each level looks like in practice.",
+          "Finalize the rubric language together and discuss how to use it."
+        ],
+        "student_prompts": [
+          "What does it mean to plan your finances well?",
+          "What would someone who is just starting to learn about money management do differently from an expert?",
+          "How can we tell if our financial planning is getting better?",
+          "What tools or strategies help us manage money effectively?"
+        ],
+        "anchor_examples_guidance": "Choose examples that show clear progression from simple list-making to complex financial scenarios with multiple tools and considerations."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to create shopping lists or calculate costs.",
+            "word_count": 12
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can create basic shopping lists with help but struggle with comparing prices or doing calculations.",
+            "word_count": 16
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can create shopping lists and compare prices on my own but sometimes make mistakes in calculations or savings plans.",
+            "word_count": 20
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can create shopping lists, compare prices accurately, calculate costs correctly, and make realistic savings plans using financial tools.",
+            "word_count": 19
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can apply my planning skills to complex situations and use multiple financial tools for comprehensive money management.",
+            "word_count": 18
+          }
+        ],
+        "self_check_prompts": [
+          "Can I create a shopping list and calculate the total cost without help?",
+          "Am I using appropriate tools to compare prices and plan my savings?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple template for creating a basic shopping list.",
+            "Model how to identify and write down needed items."
+          ],
+          "emerging": [
+            "Practice price comparison activities with guided support.",
+            "Use visual aids or calculators to support cost calculations."
+          ],
+          "developing": [
+            "Review calculation strategies and provide practice with checking work.",
+            "Introduce simple savings goal-setting frameworks."
+          ],
+          "competent": [
+            "Present complex financial scenarios that require multiple planning steps.",
+            "Introduce advanced financial tools and apps for comprehensive planning."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_03",
+        "stages": [
+          "Students brainstorm what banking services they know and what financial needs people might have.",
+          "Students sort banking services into categories and discuss which needs each category addresses.",
+          "Students examine examples of different people's circumstances and match appropriate banking services.",
+          "Students create criteria for what makes a good analysis of banking service alignment with needs."
+        ],
+        "student_prompts": [
+          "What banking services have you heard of and what do you think they help people do?",
+          "How might a student's banking needs differ from a family with young children or someone starting retirement?",
+          "What should we look for when deciding if someone has done a good job analyzing banking services for different people?"
+        ],
+        "anchor_examples_guidance": "Select student work that shows clear progression from basic service identification to sophisticated analysis connecting services with specific circumstances and needs."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_03",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to analyse banking services.",
+            "word_count": 9
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some banking services with help but my analysis needs improvement.",
+            "word_count": 13
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify banking services and try to analyse them but miss some important connections to people's needs.",
+            "word_count": 18
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can analyse how different banking services match with various people's financial needs and circumstances.",
+            "word_count": 15
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can apply my analysis to new banking situations or connect it with broader financial planning.",
+            "word_count": 16
+          }
+        ],
+        "self_check_prompts": [
+          "Have I explained how specific banking services meet particular financial needs?",
+          "Did I consider different people's circumstances when choosing appropriate services?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_03",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple banking scenario and ask what services might help.",
+            "Offer a choice between two banking services and ask which seems more useful."
+          ],
+          "emerging": [
+            "Guide student to check their service identification against a reference list.",
+            "Ask student to explain one connection between a service and a specific need."
+          ],
+          "developing": [
+            "Prompt student to consider what circumstances make certain services more or less suitable.",
+            "Ask student to identify one missing connection between services and needs in their analysis."
+          ],
+          "competent": [
+            "Challenge student to apply their analysis framework to a completely new banking scenario.",
+            "Encourage student to connect banking service choices with longer-term financial goals."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_02_lt_01",
+        "stages": [
+          "Brainstorm what exchange means and collect student examples from daily life",
+          "Sort examples into different types of exchange systems",
+          "Explore why people specialize in certain jobs or skills",
+          "Connect specialization to the need for trade and exchange",
+          "Refine understanding by identifying quality indicators for explanations"
+        ],
+        "student_prompts": [
+          "What are some ways people get things they need from others?",
+          "Why don't people make everything they need themselves?",
+          "How does someone becoming really good at one thing affect what they need from others?"
+        ],
+        "anchor_examples_guidance": "Select student work that shows clear progression from simple identification of exchanges to sophisticated connections between specialization and trade systems."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_02_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to explain exchange or specialisation",
+            "word_count": 10
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some exchanges with help but my explanations need work",
+            "word_count": 12
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can explain basic exchanges and recognise specialisation but struggle to connect them to trade",
+            "word_count": 15
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can explain how people exchange goods, services, and resources through different systems and why specialisation leads to trade",
+            "word_count": 19
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect exchange systems and specialisation to broader economic patterns or historical developments",
+            "word_count": 14
+          }
+        ],
+        "self_check_prompts": [
+          "Can I clearly explain why specialisation creates the need for trade?",
+          "Have I described specific exchange systems and how they work?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_02_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide concrete examples of exchanges from student's daily life",
+            "Use visual organizers to map simple trade relationships"
+          ],
+          "emerging": [
+            "Ask students to explain their thinking about specific exchanges",
+            "Provide sentence starters for clearer explanations"
+          ],
+          "developing": [
+            "Guide students to trace the connection from specialisation to trade needs",
+            "Use questioning to help students link their examples together"
+          ],
+          "competent": [
+            "Challenge students to consider historical or global examples",
+            "Ask how exchange systems might change over time or in different contexts"
+          ]
+        }
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_03_lt_01",
+        "stages": [
+          "Start by having students brainstorm all the jobs they know from their community and families.",
+          "Guide students to sort these jobs into groups based on what workers actually do.",
+          "Help students discuss why people work and what happens because of their work.",
+          "Lead students to create descriptions of what good understanding looks like at different levels."
+        ],
+        "student_prompts": [
+          "What jobs do people in your family or neighborhood do?",
+          "How does this person's work help other people or make money?",
+          "What would happen if no one did this type of work?"
+        ],
+        "anchor_examples_guidance": "Choose work examples from students' direct experience like teachers, store workers, or family members that clearly show helping others or earning money."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_03_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet tried to name jobs or explain why people work.",
+            "word_count": 13
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can name some jobs with help but need support explaining what they do.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can name different types of work but my explanations about helping others or earning money need more details.",
+            "word_count": 19
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can identify different kinds of work people do and explain how their work helps others or earns money.",
+            "word_count": 19
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect different types of work to show how communities depend on each other and how money flows through our economy.",
+            "word_count": 22
+          }
+        ],
+        "self_check_prompts": [
+          "Can I name specific jobs and explain what those workers do?",
+          "Can I tell how this work helps other people or makes money for the worker?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_03_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide picture cards of familiar community workers to start naming jobs.",
+            "Ask about jobs the student sees every day at school or home."
+          ],
+          "emerging": [
+            "Use sentence starters like 'This worker helps people by...' to scaffold explanations.",
+            "Connect jobs to student experiences by asking how specific workers have helped them."
+          ],
+          "developing": [
+            "Push for specific details by asking 'How exactly does this help people?' or 'Where does their money come from?'",
+            "Encourage students to think about what would happen if this job didn't exist."
+          ],
+          "competent": [
+            "Challenge students to trace connections between different jobs in their community.",
+            "Ask how one type of work depends on or supports other types of work."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_03_lt_02",
+        "stages": [
+          "Students brainstorm different types of work they know about.",
+          "Students discuss what might influence someone's choice of work.",
+          "Students examine examples of work comparisons and identify what makes them strong.",
+          "Students draft criteria for comparing work types and analyzing influences.",
+          "Students refine criteria into rubric levels through peer feedback."
+        ],
+        "student_prompts": [
+          "What different types of work do you see in your community?",
+          "What factors might make someone choose one job over another?",
+          "How can we tell if someone has done a good job comparing different types of work?",
+          "What would it look like to analyze work influences deeply versus just listing them?"
+        ],
+        "anchor_examples_guidance": "Select work comparison examples that show clear progression from simple identification to complex analysis of multiple interconnected influences."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_03_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to compare work types or analyze what influences work choices.",
+            "word_count": 15
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some work types with help but my comparisons are incomplete or inaccurate.",
+            "word_count": 15
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can independently compare basic work types and identify obvious influences but lack depth.",
+            "word_count": 14
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can independently compare different types of work and analyze multiple factors that influence people's work choices.",
+            "word_count": 17
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can transfer my analysis to complex scenarios and evaluate how work influences connect to each other comprehensively.",
+            "word_count": 18
+          }
+        ],
+        "self_check_prompts": [
+          "Have I compared multiple types of work clearly?",
+          "Have I analyzed several different factors that influence work choices?",
+          "Can I explain how these influences connect to each other?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_03_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide examples of different work types to get started.",
+            "Ask what they notice about jobs in their family or community."
+          ],
+          "emerging": [
+            "Guide them to focus on one clear comparison between two work types.",
+            "Help them identify one specific influence on work choice."
+          ],
+          "developing": [
+            "Encourage them to explore less obvious influences beyond money and location.",
+            "Push them to explain why certain influences matter more than others."
+          ],
+          "competent": [
+            "Challenge them to apply their analysis to unfamiliar work scenarios.",
+            "Ask them to explore how different influences interact with each other."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_05_lt_01",
+        "stages": [
+          "Brainstorm what students already know about credit and borrowing from personal experience.",
+          "Examine the key components that make credit systems work.",
+          "Explore how borrowing creates debt obligations and responsibilities.",
+          "Define what quality explanations of credit-debt relationships look like.",
+          "Create success criteria for connecting credit concepts to real situations."
+        ],
+        "student_prompts": [
+          "What happens when someone uses a credit card or takes out a loan?",
+          "What are the essential parts of any credit system?",
+          "How does borrowing money create obligations for the borrower?",
+          "What makes an explanation of credit clear and complete?"
+        ],
+        "anchor_examples_guidance": "Select student explanations that show different levels of understanding credit mechanics and varying abilities to connect borrowing with debt responsibilities."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_05_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to explain how credit or debt systems work.",
+            "word_count": 13
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some features of credit with help but my explanations need work.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can explain basic credit concepts on my own but struggle to clearly describe how borrowing creates debt.",
+            "word_count": 18
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can independently explain how credit systems work and accurately describe the relationship between borrowing and debt obligations.",
+            "word_count": 18
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect credit and debt concepts to broader financial systems and real-world applications.",
+            "word_count": 14
+          }
+        ],
+        "self_check_prompts": [
+          "Can I explain the key parts of credit systems without help?",
+          "Can I clearly describe what happens when someone borrows money and what obligations they have?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_05_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide examples of common credit situations like credit cards or loans.",
+            "Ask what the student knows about borrowing money from family or friends."
+          ],
+          "emerging": [
+            "Guide the student to identify one key feature of credit systems accurately.",
+            "Provide sentence starters for explaining basic credit concepts."
+          ],
+          "developing": [
+            "Help the student connect specific borrowing actions to specific debt obligations.",
+            "Ask the student to explain what responsibilities come with borrowing."
+          ],
+          "competent": [
+            "Challenge the student to apply credit concepts to new financial situations.",
+            "Ask how credit systems connect to other parts of the economy."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_05_lt_02",
+        "stages": [
+          "Students share what they know about budgets and financial planning from their own experience.",
+          "Class identifies the key components that make financial planning effective through discussion.",
+          "Students examine what makes financial decisions 'informed' versus random or impulsive.",
+          "Groups brainstorm different levels of skill from beginner to expert in using financial tools.",
+          "Class refines and agrees on criteria for each performance level."
+        ],
+        "student_prompts": [
+          "What financial planning have you seen adults do in your life?",
+          "What information would you need to make a good financial decision?",
+          "How would you know if someone is getting better at managing money?",
+          "What's the difference between using one tool versus combining multiple tools?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that clearly show progression from basic budget identification to independent tool use to sophisticated integration of multiple planning approaches."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_05_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to use any financial planning tools.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify basic parts of a budget with help but my planning is incomplete.",
+            "word_count": 15
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can create simple budgets on my own but struggle to use tools for bigger financial decisions.",
+            "word_count": 17
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can use budgets and financial planning tools independently to make informed decisions about spending, saving, and goals.",
+            "word_count": 18
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can combine multiple financial planning tools to optimize complex decisions and compare different options.",
+            "word_count": 15
+          }
+        ],
+        "self_check_prompts": [
+          "Can I create and use financial planning tools without help?",
+          "Do my financial decisions show clear thinking about spending, saving, and goals?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_05_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple budget template and guide student through identifying income and expenses.",
+            "Model one financial decision using basic planning steps."
+          ],
+          "emerging": [
+            "Help student practice completing budget categories independently.",
+            "Guide student to check their work for accuracy and completeness."
+          ],
+          "developing": [
+            "Encourage student to apply their budgeting skills to a specific financial goal or decision.",
+            "Introduce one additional planning tool beyond basic budgeting."
+          ],
+          "competent": [
+            "Challenge student to compare multiple financial options using their planning tools.",
+            "Introduce more complex scenarios requiring integration of different planning approaches."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_04_lt_01",
+      "lt_name": "Understanding Business Financial Operations",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_01_lt_01",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['single_construct']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['observable_verb']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_02_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_04_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_04_lt_03; no content to build from"
+    }
+  ]
+}

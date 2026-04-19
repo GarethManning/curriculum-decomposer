@@ -1,0 +1,230 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_03_lt_03",
+      "bands": [
+        {
+          "band": "Level 1",
+          "observable_behaviours": [
+            "The student follows simple classroom rules when reminded by adults",
+            "The student takes turns with shared materials when prompted",
+            "The student says please and thank you when encouraged"
+          ],
+          "self_reflection_prompt": "Tell me about a time you tried something at school. What did you do?"
+        },
+        {
+          "band": "Level 2",
+          "observable_behaviours": [
+            "The student waits for their turn to speak during group discussions",
+            "The student helps clean up shared spaces without being asked",
+            "The student includes others in playground activities when they see someone alone"
+          ],
+          "self_reflection_prompt": "Tell me about a time you tried something hard. What did you do, and how did it feel?"
+        },
+        {
+          "band": "Level 3",
+          "observable_behaviours": [
+            "The student listens respectfully to different viewpoints during class debates",
+            "The student volunteers for classroom responsibilities and follows through consistently",
+            "The student stands up for peers who are being treated unfairly"
+          ],
+          "self_reflection_prompt": "Describe one thing you have noticed about yourself this term."
+        },
+        {
+          "band": "Level 4",
+          "observable_behaviours": [
+            "The student mediates conflicts between classmates using fair discussion",
+            "The student participates actively in school council or student representative roles",
+            "The student respects cultural differences and asks thoughtful questions about other traditions"
+          ],
+          "self_reflection_prompt": "Compare what you have noticed about yourself with what your teacher or family has noticed."
+        },
+        {
+          "band": "Level 5",
+          "observable_behaviours": [
+            "The student organises peer groups to address school or community issues",
+            "The student balances their own needs with group needs during collaborative projects",
+            "The student seeks multiple perspectives before forming opinions on controversial topics"
+          ],
+          "self_reflection_prompt": "Compare what you have noticed in yourself across two settings."
+        },
+        {
+          "band": "Level 6",
+          "observable_behaviours": [
+            "The student initiates community service projects and sustains involvement over time",
+            "The student challenges discriminatory language or behaviour they witness",
+            "The student researches local issues and contacts relevant authorities or representatives"
+          ],
+          "self_reflection_prompt": "Analyse a pattern you can see in yourself across two or more settings."
+        },
+        {
+          "band": "Level 7",
+          "observable_behaviours": [
+            "The student mentors younger students in civic participation and respectful interaction",
+            "The student advocates for policy changes at school or community level through formal processes",
+            "The student facilitates inclusive discussions where all voices are heard and valued"
+          ],
+          "self_reflection_prompt": "Trace how your understanding of yourself in this area has developed over time."
+        },
+        {
+          "band": "Level 8",
+          "observable_behaviours": [
+            "The student leads cross-community initiatives that bridge different groups or interests",
+            "The student models civic engagement that inspires others to participate in democratic processes",
+            "The student navigates complex ethical dilemmas by weighing competing rights and responsibilities"
+          ],
+          "self_reflection_prompt": "Articulate the values that now guide how you act in this area, and what you still want to develop."
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child treats others when they disagree or have different opinions at home or in the neighbourhood?",
+        "When has your child taken initiative to help in your family or community without being asked?",
+        "How does your child respond when they see unfairness or when someone's rights are not being respected?"
+      ],
+      "prerequisite_lts": [
+        "Understanding Legal Rights and Foundations"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on specific instances where the student has demonstrated civic responsibility and respect for others' rights, exploring their decision-making process and identifying opportunities for growth in community participation.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              3
+            ],
+            [
+              "Level 2",
+              3
+            ],
+            [
+              "Level 3",
+              3
+            ],
+            [
+              "Level 4",
+              3
+            ],
+            [
+              "Level 5",
+              3
+            ],
+            [
+              "Level 6",
+              3
+            ],
+            [
+              "Level 7",
+              3
+            ],
+            [
+              "Level 8",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              2
+            ],
+            [
+              "Level 2",
+              3
+            ],
+            [
+              "Level 3",
+              3
+            ],
+            [
+              "Level 4",
+              3
+            ],
+            [
+              "Level 5",
+              3
+            ],
+            [
+              "Level 6",
+              3
+            ],
+            [
+              "Level 7",
+              3
+            ],
+            [
+              "Level 8",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              3
+            ],
+            [
+              "Level 2",
+              3
+            ],
+            [
+              "Level 3",
+              3
+            ],
+            [
+              "Level 4",
+              3
+            ],
+            [
+              "Level 5",
+              3
+            ],
+            [
+              "Level 6",
+              3
+            ],
+            [
+              "Level 7",
+              3
+            ],
+            [
+              "Level 8",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 3), ('Level 2', 3), ('Level 3', 3), ('Level 4', 3), ('Level 5', 3), ('Level 6', 3), ('Level 7', 3), ('Level 8', 3), ('parents', 3)): 2, (('Level 1', 2), ('Level 2', 3), ('Level 3', 3), ('Level 4', 3), ('Level 5', 3), ('Level 6', 3), ('Level 7', 3), ('Level 8', 3), ('parents', 3)): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": []
+}

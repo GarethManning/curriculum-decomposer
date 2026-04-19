@@ -1,0 +1,983 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-geography",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Population Dynamics and Distribution",
+      "lt_name": "Population Change Factors and Patterns",
+      "lt_definition": "I can describe how population growth, structure changes, migration factors, and natural increase affect population dynamics over time.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0013_item_01",
+        "blk_0014_item_01",
+        "blk_0015_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0020_item_01",
+        "blk_0021_item_01",
+        "blk_0063_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis",
+            "Population Data Representation Comparison"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 1, (2, ('Type 1', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Population Dynamics and Distribution",
+      "lt_name": "Population Distribution Analysis",
+      "lt_definition": "I can compare different methods for representing population density and distribution patterns across geographic regions.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0017_item_01",
+        "blk_0023_item_01",
+        "blk_0024_item_01",
+        "blk_0063_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis",
+            "Population Data Representation Comparison"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Population Change Factors and Patterns",
+            "Population Distribution Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 1, (2, ('Type 1', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Urbanisation Processes and Impacts",
+      "lt_name": "Understanding Urbanisation Patterns and Processes",
+      "lt_definition": "I can explain how cities develop and describe the characteristics of urban growth in different global contexts.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0049_item_01",
+        "blk_0050_item_01",
+        "blk_0051_item_01",
+        "blk_0052_item_01",
+        "blk_0057_item_01",
+        "blk_0058_item_01",
+        "blk_0059_item_01",
+        "blk_0061_item_01",
+        "blk_0062_item_01",
+        "blk_0062_item_02",
+        "blk_0063_item_14"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data and Evidence",
+            "Evaluating Urbanisation Impacts and Consequences"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data",
+            "Evaluating Urban Growth Impacts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Growth and Settlement Challenges"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Urbanisation Processes and Impacts",
+      "lt_name": "Analysing Urban Geographic Data and Evidence",
+      "lt_definition": "I can analyse visual geographic data and historical sources to identify urban trends and evaluate settlement challenges.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0063_item_10",
+        "blk_0063_item_11",
+        "blk_0063_item_12",
+        "blk_0063_item_13"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data and Evidence",
+            "Evaluating Urbanisation Impacts and Consequences"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data",
+            "Evaluating Urban Growth Impacts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Growth and Settlement Challenges"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "cluster_id": "cluster_03",
+      "competency_name": "Urbanisation Processes and Impacts",
+      "lt_name": "Evaluating Urbanisation Impacts and Consequences",
+      "lt_definition": "I can evaluate the social, economic and environmental consequences of urban growth on different communities.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0054_item_01",
+        "blk_0055_item_01",
+        "blk_0059_item_01",
+        "blk_0061_item_01",
+        "blk_0062_item_01",
+        "blk_0062_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data and Evidence",
+            "Evaluating Urbanisation Impacts and Consequences"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Geographic Data",
+            "Evaluating Urban Growth Impacts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Urbanisation Patterns and Processes",
+            "Analysing Urban Growth and Settlement Challenges"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "cluster_id": "cluster_04",
+      "competency_name": "Geological Processes and Landform Development",
+      "lt_name": "Tectonic Processes and Rock Formation",
+      "lt_definition": "I can explain how plate movements and rock cycles create Earth's geological features.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0066_item_01",
+        "blk_0067_item_01",
+        "blk_0068_item_01",
+        "blk_0069_item_01",
+        "blk_0071_item_01",
+        "blk_0072_item_01",
+        "blk_0073_item_01",
+        "blk_0074_item_01",
+        "blk_0078_item_01",
+        "blk_0079_item_01",
+        "blk_0080_item_01",
+        "blk_0083_item_01",
+        "blk_0084_item_01",
+        "blk_0124_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Interpreting Geological Evidence and Landforms"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Landform Development and Interpretation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Interpreting Geological Evidence and Landforms"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "cluster_id": "cluster_04",
+      "competency_name": "Geological Processes and Landform Development",
+      "lt_name": "Interpreting Geological Evidence and Landforms",
+      "lt_definition": "I can analyse geological maps, diagrams and observations to identify how erosion and rock types shape landscapes.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0075_item_01",
+        "blk_0077_item_01",
+        "blk_0124_item_01",
+        "blk_0124_item_03",
+        "blk_0124_item_04",
+        "blk_0124_item_05",
+        "blk_0124_item_06"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Interpreting Geological Evidence and Landforms"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Landform Development and Interpretation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Tectonic Processes and Rock Formation",
+            "Interpreting Geological Evidence and Landforms"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "cluster_id": "cluster_05",
+      "competency_name": "Rainforest Ecosystems and Environmental Change",
+      "lt_name": "Rainforest Biome Characteristics and Distribution",
+      "lt_definition": "I can describe the characteristics, structure, and global distribution of rainforest biomes.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0087_item_01",
+        "blk_0088_item_01",
+        "blk_0089_item_01",
+        "blk_0090_item_01",
+        "blk_0090_item_02",
+        "blk_0091_item_01",
+        "blk_0092_item_01",
+        "blk_0094_item_01",
+        "blk_0095_item_01",
+        "blk_0096_item_01",
+        "blk_0097_item_01",
+        "blk_0124_item_07",
+        "blk_0124_item_08",
+        "blk_0124_item_09"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "cluster_id": "cluster_05",
+      "competency_name": "Rainforest Ecosystems and Environmental Change",
+      "lt_name": "Human Impacts on Rainforest Ecosystems",
+      "lt_definition": "I can analyse the causes and consequences of deforestation on rainforest ecosystems and communities.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0099_item_01",
+        "blk_0100_item_01",
+        "blk_0101_item_01",
+        "blk_0102_item_01",
+        "blk_0124_item_10",
+        "blk_0124_item_11",
+        "blk_0124_item_12"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Rainforest Biome Characteristics and Distribution",
+            "Human Impacts on Rainforest Ecosystems"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "cluster_id": "cluster_06",
+      "competency_name": "Human-Environment Interactions and Sustainability",
+      "lt_name": "Analyzing Human-Environment Interactions",
+      "lt_definition": "I can explain how people interact with places and environments for different purposes and the environmental impacts of these interactions.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0104_item_01",
+        "blk_0105_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Evaluating Environmental Responsibility"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Connecting Values to Environmental Responsibility"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Evaluating Environmental Responsibility"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "cluster_id": "cluster_06",
+      "competency_name": "Human-Environment Interactions and Sustainability",
+      "lt_name": "Evaluating Environmental Responsibility",
+      "lt_definition": "I can analyze how values and connection to place influence people's sense of responsibility for environmental sustainability.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0106_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Evaluating Environmental Responsibility"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Connecting Values to Environmental Responsibility"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Analyzing Human-Environment Interactions",
+            "Evaluating Environmental Responsibility"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "cluster_id": "cluster_07",
+      "competency_name": "Climate Change Processes and Responses",
+      "lt_name": "Understanding Climate Change Mechanisms",
+      "lt_definition": "I can explain the causes and processes of climate change including greenhouse effects and human impacts.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0108_item_01",
+        "blk_0109_item_01",
+        "blk_0110_item_01",
+        "blk_0111_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms",
+            "Analyzing Climate Change Data and Impacts",
+            "Climate Change Response Orientation"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms and Impacts",
+            "Interpreting Climate Data and Evaluating Responses",
+            "Climate Change Adaptation Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 3'))",
+        "counts={(3, ('Type 1', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "cluster_id": "cluster_07",
+      "competency_name": "Climate Change Processes and Responses",
+      "lt_name": "Analyzing Climate Change Data and Impacts",
+      "lt_definition": "I can interpret climate data and evaluate the environmental, social, and economic impacts of climate change.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0112_item_01",
+        "blk_0114_item_01",
+        "blk_0115_item_01",
+        "blk_0117_item_01",
+        "blk_0118_item_01",
+        "blk_0119_item_01",
+        "blk_0120_item_01",
+        "blk_0124_item_13",
+        "blk_0124_item_14",
+        "blk_0124_item_15",
+        "blk_0124_item_16"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms",
+            "Analyzing Climate Change Data and Impacts",
+            "Climate Change Response Orientation"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms and Impacts",
+            "Interpreting Climate Data and Evaluating Responses",
+            "Climate Change Adaptation Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 3'))",
+        "counts={(3, ('Type 1', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "cluster_id": "cluster_07",
+      "competency_name": "Climate Change Processes and Responses",
+      "lt_name": "Climate Change Response Orientation",
+      "lt_definition": "The student enacts preparation and adaptive thinking for climate change impacts across contexts.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0122_item_01",
+        "blk_0123_item_01"
+      ],
+      "prerequisite_lts": [
+        "Understanding Climate Change Mechanisms",
+        "Analyzing Climate Change Data and Impacts"
+      ],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms",
+            "Analyzing Climate Change Data and Impacts",
+            "Climate Change Response Orientation"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Understanding Climate Change Mechanisms and Impacts",
+            "Interpreting Climate Data and Evaluating Responses",
+            "Climate Change Adaptation Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 3'))",
+        "counts={(3, ('Type 1', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "cluster_id": "cluster_08",
+      "competency_name": "Regional Geography and Cultural Diversity",
+      "lt_name": "Identifying Regional Characteristics",
+      "lt_definition": "I can identify the shared physical and human characteristics that define a region.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0127_item_01",
+        "blk_0128_item_01",
+        "blk_0129_item_01",
+        "blk_0130_item_01",
+        "blk_0132_item_01",
+        "blk_0133_item_01",
+        "blk_0134_item_01",
+        "blk_0136_item_01",
+        "blk_0137_item_01",
+        "blk_0138_item_01",
+        "blk_0140_item_01",
+        "blk_0144_item_01",
+        "blk_0144_item_02",
+        "blk_0144_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics",
+            "Interpreting Geographical Information"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics and Boundaries",
+            "Interpreting Geographical Information About Regions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics and Boundaries",
+            "Interpreting Geographical Information About Regions"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "cluster_id": "cluster_08",
+      "competency_name": "Regional Geography and Cultural Diversity",
+      "lt_name": "Interpreting Geographical Information",
+      "lt_definition": "I can interpret geographical information from maps, photographs, and graphs to describe regional features.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0144_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics",
+            "Interpreting Geographical Information"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics and Boundaries",
+            "Interpreting Geographical Information About Regions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Regional Characteristics and Boundaries",
+            "Interpreting Geographical Information About Regions"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_clusters": [
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Tectonic Hazards and Risk Management",
+      "halt_reason": "lt_set_unreliable",
+      "diagnostic": "no signature reached 2/3 agreement; signatures=[(2, ('Type 1', 'Type 2')), (3, ('Type 1', 'Type 2', 'Type 2')), (3, ('Type 1', 'Type 1', 'Type 2'))]",
+      "signatures": [
+        "(2, ('Type 1', 'Type 2'))",
+        "(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "(3, ('Type 1', 'Type 1', 'Type 2'))"
+      ]
+    }
+  ]
+}

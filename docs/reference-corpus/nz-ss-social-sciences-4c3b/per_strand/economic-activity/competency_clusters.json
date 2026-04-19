@@ -1,0 +1,410 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "overall_stability_flag": "stable",
+  "overall_stability_diagnostics": [],
+  "unassigned_kud_item_ids": [],
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "competency_name": "Personal Financial Decision Making",
+      "competency_definition": "The ability to make informed decisions about spending, saving, and managing personal finances.",
+      "kud_item_ids": [
+        "blk_0011_item_01",
+        "blk_0012_item_01",
+        "blk_0013_item_01",
+        "blk_0013_item_02",
+        "blk_0014_item_01",
+        "blk_0014_item_02",
+        "blk_0015_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0020_item_01",
+        "blk_0021_item_01",
+        "blk_0035_item_01",
+        "blk_0037_item_01",
+        "blk_0038_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0011",
+        "blk_0012",
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0021",
+        "blk_0035",
+        "blk_0037",
+        "blk_0038"
+      ],
+      "source_position_start": 13,
+      "source_position_end": 40,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 13,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Personal Financial Decision Making",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0011_item_01",
+            "blk_0012_item_01",
+            "blk_0013_item_01",
+            "blk_0013_item_02",
+            "blk_0014_item_01",
+            "blk_0014_item_02",
+            "blk_0015_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0021_item_01",
+            "blk_0035_item_01",
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Economic Exchange and Trade Systems",
+      "competency_definition": "The ability to understand how goods, services, and resources are exchanged in economic systems.",
+      "kud_item_ids": [
+        "blk_0016_item_01",
+        "blk_0017_item_01",
+        "blk_0023_item_01",
+        "blk_0024_item_01",
+        "blk_0024_item_02",
+        "blk_0034_item_01",
+        "blk_0034_item_02",
+        "blk_0036_item_01",
+        "blk_0041_item_01",
+        "blk_0044_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0016",
+        "blk_0017",
+        "blk_0023",
+        "blk_0024",
+        "blk_0034",
+        "blk_0036",
+        "blk_0041",
+        "blk_0044"
+      ],
+      "source_position_start": 18,
+      "source_position_end": 46,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 7,
+        "Type 2": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Economic Exchange and Trade Systems",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0023_item_01",
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0034_item_01",
+            "blk_0034_item_02",
+            "blk_0036_item_01",
+            "blk_0041_item_01",
+            "blk_0044_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Work and Economic Contribution",
+      "competency_definition": "The ability to understand how people contribute to the economy through work and enterprise.",
+      "kud_item_ids": [
+        "blk_0022_item_01",
+        "blk_0022_item_02",
+        "blk_0039_item_01",
+        "blk_0040_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0022",
+        "blk_0039",
+        "blk_0040"
+      ],
+      "source_position_start": 24,
+      "source_position_end": 42,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 2,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Work and Economic Contribution",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0022_item_01",
+            "blk_0022_item_02",
+            "blk_0039_item_01",
+            "blk_0040_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_04",
+      "competency_name": "Business Operations and Enterprise",
+      "competency_definition": "The ability to understand how businesses operate and create value in the economy.",
+      "kud_item_ids": [
+        "blk_0025_item_01",
+        "blk_0026_item_01",
+        "blk_0027_item_01",
+        "blk_0028_item_01",
+        "blk_0029_item_01",
+        "blk_0042_item_01",
+        "blk_0043_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0025",
+        "blk_0026",
+        "blk_0027",
+        "blk_0028",
+        "blk_0029",
+        "blk_0042",
+        "blk_0043"
+      ],
+      "source_position_start": 27,
+      "source_position_end": 45,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 5,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Business Operations and Enterprise",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0025_item_01",
+            "blk_0026_item_01",
+            "blk_0027_item_01",
+            "blk_0028_item_01",
+            "blk_0029_item_01",
+            "blk_0042_item_01",
+            "blk_0043_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_05",
+      "competency_name": "Credit, Debt, and Financial Planning",
+      "competency_definition": "The ability to understand credit systems, debt management, and financial planning tools.",
+      "kud_item_ids": [
+        "blk_0030_item_01",
+        "blk_0030_item_02",
+        "blk_0031_item_01",
+        "blk_0032_item_01",
+        "blk_0033_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0030",
+        "blk_0031",
+        "blk_0032",
+        "blk_0033"
+      ],
+      "source_position_start": 32,
+      "source_position_end": 35,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 5
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Credit, Debt, and Financial Planning",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0030_item_01",
+            "blk_0030_item_02",
+            "blk_0031_item_01",
+            "blk_0032_item_01",
+            "blk_0033_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ]
+}

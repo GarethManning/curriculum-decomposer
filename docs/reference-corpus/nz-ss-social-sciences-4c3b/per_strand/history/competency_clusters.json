@@ -1,0 +1,901 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-history",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "overall_stability_flag": "cluster_unstable",
+  "overall_stability_diagnostics": [
+    "cluster_count_differs: counts across runs = [9, 9, 7]",
+    "cluster_missing_in_run3: canonical clusters [6, 7] have no Jaccard>=0.30 match",
+    "dominant_type_drift_run3: canonical cluster 2 (Type 1) → run3 cluster 2 (Type 2)"
+  ],
+  "unassigned_kud_item_ids": [],
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "competency_name": "Treaty of Waitangi and Colonial Foundations",
+      "competency_definition": "The ability to understand the Treaty of Waitangi as New Zealand's founding agreement and its key figures and ongoing significance.",
+      "kud_item_ids": [
+        "blk_0013_item_01",
+        "blk_0014_item_01",
+        "blk_0015_item_01",
+        "blk_0016_item_01",
+        "blk_0017_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0020_item_01",
+        "blk_0059_item_01",
+        "blk_0059_item_02",
+        "blk_0059_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0013",
+        "blk_0014",
+        "blk_0015",
+        "blk_0016",
+        "blk_0017",
+        "blk_0018",
+        "blk_0019",
+        "blk_0020",
+        "blk_0059"
+      ],
+      "source_position_start": 14,
+      "source_position_end": 60,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Treaty of Waitangi and Colonial Foundations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Treaty of Waitangi and Founding Relationships",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Treaty of Waitangi and Early Colonial Relations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0013_item_01",
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0016_item_01",
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0020_item_01",
+            "blk_0059_item_01",
+            "blk_0059_item_02",
+            "blk_0059_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Natural Events and Historical Impact",
+      "competency_definition": "The ability to analyze how natural events like the Tarawera eruption shaped society and historical development.",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0028_item_01",
+        "blk_0030_item_01",
+        "blk_0040_item_01",
+        "blk_0060_item_01",
+        "blk_0060_item_02",
+        "blk_0060_item_03",
+        "blk_0060_item_04"
+      ],
+      "source_block_ids": [
+        "blk_0024",
+        "blk_0028",
+        "blk_0030",
+        "blk_0040",
+        "blk_0060"
+      ],
+      "source_position_start": 25,
+      "source_position_end": 64,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 1": 4,
+        "Type 2": 4
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Natural Events and Historical Impact",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Natural Events and Historical Impact",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Natural Disasters and Historical Change",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0028_item_01",
+            "blk_0030_item_01",
+            "blk_0040_item_01",
+            "blk_0060_item_01",
+            "blk_0060_item_02",
+            "blk_0060_item_03",
+            "blk_0060_item_04"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Early European Contact and Cultural Exchange",
+      "competency_definition": "The ability to understand the complex interactions between Māori and Europeans from first contact through the 1830s.",
+      "kud_item_ids": [
+        "blk_0044_item_01",
+        "blk_0045_item_01",
+        "blk_0046_item_01",
+        "blk_0048_item_01",
+        "blk_0049_item_01",
+        "blk_0050_item_01",
+        "blk_0052_item_01",
+        "blk_0053_item_01",
+        "blk_0054_item_01",
+        "blk_0056_item_01",
+        "blk_0058_item_01",
+        "blk_0061_item_01",
+        "blk_0061_item_02",
+        "blk_0061_item_03",
+        "blk_0061_item_04",
+        "blk_0061_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0044",
+        "blk_0045",
+        "blk_0046",
+        "blk_0048",
+        "blk_0049",
+        "blk_0050",
+        "blk_0052",
+        "blk_0053",
+        "blk_0054",
+        "blk_0056",
+        "blk_0058",
+        "blk_0061"
+      ],
+      "source_position_start": 45,
+      "source_position_end": 71,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 6
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Early European Contact and Cultural Exchange",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Early European-Māori Contact and Exchange",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Early European Contact and Cultural Exchange",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0044_item_01",
+            "blk_0045_item_01",
+            "blk_0046_item_01",
+            "blk_0048_item_01",
+            "blk_0049_item_01",
+            "blk_0050_item_01",
+            "blk_0052_item_01",
+            "blk_0053_item_01",
+            "blk_0054_item_01",
+            "blk_0056_item_01",
+            "blk_0058_item_01",
+            "blk_0061_item_01",
+            "blk_0061_item_02",
+            "blk_0061_item_03",
+            "blk_0061_item_04",
+            "blk_0061_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "dominant_type_drift_run3: Type 1→Type 2"
+      ]
+    },
+    {
+      "cluster_id": "cluster_04",
+      "competency_name": "Ancient Greek Civilization",
+      "competency_definition": "The ability to understand Ancient Greek society, government, culture, and its lasting contributions to the modern world.",
+      "kud_item_ids": [
+        "blk_0064_item_01",
+        "blk_0065_item_01",
+        "blk_0067_item_01",
+        "blk_0068_item_01",
+        "blk_0069_item_01",
+        "blk_0071_item_01",
+        "blk_0072_item_01",
+        "blk_0073_item_01",
+        "blk_0076_item_01",
+        "blk_0077_item_01",
+        "blk_0079_item_01",
+        "blk_0129_item_01",
+        "blk_0129_item_03",
+        "blk_0129_item_04",
+        "blk_0129_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0064",
+        "blk_0065",
+        "blk_0067",
+        "blk_0068",
+        "blk_0069",
+        "blk_0071",
+        "blk_0072",
+        "blk_0073",
+        "blk_0076",
+        "blk_0077",
+        "blk_0079",
+        "blk_0129"
+      ],
+      "source_position_start": 80,
+      "source_position_end": 146,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 9,
+        "Type 2": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ancient Greek Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ancient Greek Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ancient Greek Civilisation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0064_item_01",
+            "blk_0065_item_01",
+            "blk_0067_item_01",
+            "blk_0068_item_01",
+            "blk_0069_item_01",
+            "blk_0071_item_01",
+            "blk_0072_item_01",
+            "blk_0073_item_01",
+            "blk_0076_item_01",
+            "blk_0077_item_01",
+            "blk_0079_item_01",
+            "blk_0129_item_01",
+            "blk_0129_item_02",
+            "blk_0129_item_03",
+            "blk_0129_item_04",
+            "blk_0129_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_05",
+      "competency_name": "Ancient Chinese Civilization",
+      "competency_definition": "The ability to understand early Chinese society, governance, technology, and economic systems.",
+      "kud_item_ids": [
+        "blk_0087_item_01",
+        "blk_0087_item_02",
+        "blk_0089_item_01",
+        "blk_0089_item_02",
+        "blk_0089_item_03",
+        "blk_0091_item_01",
+        "blk_0092_item_01",
+        "blk_0092_item_02",
+        "blk_0094_item_01",
+        "blk_0094_item_02",
+        "blk_0099_item_01",
+        "blk_0099_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0087",
+        "blk_0089",
+        "blk_0091",
+        "blk_0092",
+        "blk_0094",
+        "blk_0099"
+      ],
+      "source_position_start": 103,
+      "source_position_end": 116,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 12
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ancient Chinese Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ancient Chinese Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ancient Chinese Civilisation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0087_item_01",
+            "blk_0087_item_02",
+            "blk_0089_item_01",
+            "blk_0089_item_02",
+            "blk_0089_item_03",
+            "blk_0091_item_01",
+            "blk_0092_item_01",
+            "blk_0092_item_02",
+            "blk_0094_item_01",
+            "blk_0094_item_02",
+            "blk_0099_item_01",
+            "blk_0099_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_06",
+      "competency_name": "Elizabethan England",
+      "competency_definition": "The ability to understand Elizabethan society, government, religion, culture, and social structures.",
+      "kud_item_ids": [
+        "blk_0104_item_01",
+        "blk_0105_item_01",
+        "blk_0106_item_01",
+        "blk_0107_item_01",
+        "blk_0108_item_01",
+        "blk_0108_item_02",
+        "blk_0108_item_03",
+        "blk_0110_item_01",
+        "blk_0110_item_02",
+        "blk_0110_item_03",
+        "blk_0112_item_01",
+        "blk_0113_item_01",
+        "blk_0113_item_02",
+        "blk_0113_item_03",
+        "blk_0116_item_01",
+        "blk_0116_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0104",
+        "blk_0105",
+        "blk_0106",
+        "blk_0107",
+        "blk_0108",
+        "blk_0110",
+        "blk_0112",
+        "blk_0113",
+        "blk_0116"
+      ],
+      "source_position_start": 121,
+      "source_position_end": 133,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 15,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Elizabethan England",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Elizabethan England Society and Governance",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Elizabethan and Victorian England Comparison",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0104_item_01",
+            "blk_0105_item_01",
+            "blk_0106_item_01",
+            "blk_0107_item_01",
+            "blk_0108_item_01",
+            "blk_0108_item_02",
+            "blk_0108_item_03",
+            "blk_0110_item_01",
+            "blk_0110_item_02",
+            "blk_0110_item_03",
+            "blk_0112_item_01",
+            "blk_0113_item_01",
+            "blk_0113_item_02",
+            "blk_0113_item_03",
+            "blk_0116_item_01",
+            "blk_0116_item_02",
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_07",
+      "competency_name": "Victorian England",
+      "competency_definition": "The ability to understand Victorian society, constitutional monarchy, technological progress, and imperial expansion.",
+      "kud_item_ids": [
+        "blk_0118_item_01",
+        "blk_0119_item_01",
+        "blk_0120_item_01",
+        "blk_0121_item_01",
+        "blk_0122_item_01",
+        "blk_0122_item_02",
+        "blk_0123_item_01",
+        "blk_0125_item_01",
+        "blk_0126_item_01",
+        "blk_0127_item_01",
+        "blk_0128_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0118",
+        "blk_0119",
+        "blk_0120",
+        "blk_0121",
+        "blk_0122",
+        "blk_0123",
+        "blk_0125",
+        "blk_0126",
+        "blk_0127",
+        "blk_0128"
+      ],
+      "source_position_start": 135,
+      "source_position_end": 145,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 1
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Victorian England",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Victorian England Society and Governance",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0118_item_01",
+            "blk_0119_item_01",
+            "blk_0120_item_01",
+            "blk_0121_item_01",
+            "blk_0122_item_01",
+            "blk_0122_item_02",
+            "blk_0123_item_01",
+            "blk_0125_item_01",
+            "blk_0126_item_01",
+            "blk_0127_item_01",
+            "blk_0128_item_01",
+            "blk_0129_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_08",
+      "competency_name": "Historical Comparison and Analysis",
+      "competency_definition": "The ability to compare and analyze similarities and differences across historical periods and societies.",
+      "kud_item_ids": [
+        "blk_0129_item_02",
+        "blk_0131_item_01",
+        "blk_0131_item_02",
+        "blk_0131_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0129",
+        "blk_0131"
+      ],
+      "source_position_start": 146,
+      "source_position_end": 158,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 4
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Historical Comparison and Analysis",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0129_item_02",
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Historical Comparison and Analysis",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0131_item_01",
+            "blk_0131_item_02",
+            "blk_0131_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_09",
+      "competency_name": "Roman Civilization",
+      "competency_definition": "The ability to understand Roman society, government transitions from republic to empire, and cultural achievements.",
+      "kud_item_ids": [
+        "blk_0134_item_01",
+        "blk_0136_item_01",
+        "blk_0137_item_01",
+        "blk_0137_item_02",
+        "blk_0139_item_01",
+        "blk_0140_item_01",
+        "blk_0141_item_01",
+        "blk_0142_item_01",
+        "blk_0144_item_01",
+        "blk_0147_item_01",
+        "blk_0149_item_01",
+        "blk_0150_item_01",
+        "blk_0150_item_02",
+        "blk_0150_item_03",
+        "blk_0150_item_04",
+        "blk_0150_item_05"
+      ],
+      "source_block_ids": [
+        "blk_0134",
+        "blk_0136",
+        "blk_0137",
+        "blk_0139",
+        "blk_0140",
+        "blk_0141",
+        "blk_0142",
+        "blk_0144",
+        "blk_0147",
+        "blk_0149",
+        "blk_0150"
+      ],
+      "source_position_start": 164,
+      "source_position_end": 180,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 10,
+        "Type 2": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Roman Civilization",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Roman Civilization and Empire",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Roman Civilisation and Empire",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0134_item_01",
+            "blk_0136_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0139_item_01",
+            "blk_0140_item_01",
+            "blk_0141_item_01",
+            "blk_0142_item_01",
+            "blk_0144_item_01",
+            "blk_0147_item_01",
+            "blk_0149_item_01",
+            "blk_0150_item_01",
+            "blk_0150_item_02",
+            "blk_0150_item_03",
+            "blk_0150_item_04",
+            "blk_0150_item_05"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ]
+}

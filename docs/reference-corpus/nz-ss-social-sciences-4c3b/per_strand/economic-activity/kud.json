@@ -1,0 +1,2388 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_resume_ixz8408b/strand-economic-activity",
+  "classification_model": "claude-sonnet-4-20250514",
+  "classification_temperature": 0.3,
+  "self_consistency_runs": 3,
+  "items": [
+    {
+      "item_id": "blk_0011_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Goods and services we buy have different prices",
+      "source_block_id": "blk_0011",
+      "classification_rationale": "Propositional/factual content - a basic economic fact that learners must hold as foundational knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0012_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People have different feelings and experiences about money",
+      "source_block_id": "blk_0012",
+      "classification_rationale": "Propositional knowledge - factual claim about human variation regarding money that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0013_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People have limited money and have to make decisions about what to buy",
+      "source_block_id": "blk_0013",
+      "classification_rationale": "Propositional knowledge - factual claim about economic constraint and decision-making",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0013_item_02",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Buying something often involves choosing between different items based on how much money people have",
+      "source_block_id": "blk_0013",
+      "classification_rationale": "Propositional knowledge - factual claim about purchasing decisions and resource constraints",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0014_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "When buying, people can shop around to see if they can get the same thing, or similar, at a cheaper price.",
+      "source_block_id": "blk_0014",
+      "classification_rationale": "Propositional knowledge about consumer behavior - factual content about shopping practices",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0014_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Cheaper prices do not always mean better value for money.",
+      "source_block_id": "blk_0014",
+      "classification_rationale": "Conceptual understanding about the relationship between price and value - transferable principle",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0015_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "There are different ways to keep money safe (e.g. bank accounts).",
+      "source_block_id": "blk_0015",
+      "classification_rationale": "Propositional knowledge about financial safety methods - factual content that can be learned and assessed through knowledge check",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0016_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People and organisations work to provide goods and services in different ways (e.g. marketplaces, volunteering, online shops, subscriptions).",
+      "source_block_id": "blk_0016",
+      "classification_rationale": "Propositional knowledge about how economic systems function - factual content about different methods of provision that learners must hold",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0017_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Needs and wants can be met through exchanging money and other resources (e.g. time, skills, goods) for goods (e.g. food, clothes, toys) and services (e.g. haircuts, dentistry, house painting).",
+      "source_block_id": "blk_0017",
+      "classification_rationale": "Decision tree step 1: This content describes propositional knowledge about how economic exchange works - a conceptual understanding that must be grasped before more complex economic concepts can be understood.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0018_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People can store money or buy goods and services with notes and coins or with cards and through banks.",
+      "source_block_id": "blk_0018",
+      "classification_rationale": "Propositional knowledge about how monetary systems work - factual content about payment methods and banking functions",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0019_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "When people have the option of storing money or buying, they need to consider both their immediate needs and their long-term wants.",
+      "source_block_id": "blk_0019",
+      "classification_rationale": "This is a propositional claim about how financial decision-making works - a conceptual principle that learners must understand about the relationship between saving, spending, and time horizons.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0020_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People can save money in different ways.",
+      "source_block_id": "blk_0020",
+      "classification_rationale": "Propositional knowledge - factual claim about financial options that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0021_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Banks provide financial services (e.g. bank accounts) to people.",
+      "source_block_id": "blk_0021",
+      "classification_rationale": "Propositional/factual content about what banks do - definitional claim that can be assessed through knowledge check",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0022_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People do different kinds of work to help others and/or to earn money",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Propositional knowledge - factual claim about the nature and purposes of work",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0022_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Work can include producing goods or providing services that help people in the community and can be influenced by people's values (e.g. sustainability, providing employment, providing for family)",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Conceptual understanding - transferable concept about how work functions and what influences it",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0023_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Forms of exchange (e.g. barter, credit) have changed over time (e.g. minting coins, electronic), while money has enduring characteristics (e.g. portability, durability).",
+      "source_block_id": "blk_0023",
+      "classification_rationale": "Propositional knowledge about historical facts and conceptual characteristics of money and exchange systems - factual content to be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0024_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Early trade routes like the Silk Road enabled the exchange of goods, ideas, and money over vast distances",
+      "source_block_id": "blk_0024",
+      "classification_rationale": "Propositional knowledge - factual claim about historical trade routes and their functions",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0024_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Establishing trade connections between societies laid foundations for global trade systems used today",
+      "source_block_id": "blk_0024",
+      "classification_rationale": "Conceptual understanding - causal relationship between historical trade connections and modern global trade systems",
+      "underspecification_flag": null,
+      "prerequisite_lts": [
+        "Early trade routes like the Silk Road enabled the exchange of goods, ideas, and money over vast distances"
+      ],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0025_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Businesses earn money generally by making sales of goods and services. This is called income or revenue.",
+      "source_block_id": "blk_0025",
+      "classification_rationale": "Propositional knowledge - factual content about how businesses generate income and the terminology used",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0026_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Businesses have different costs that they must cover in order to make their goods and services.",
+      "source_block_id": "blk_0026",
+      "classification_rationale": "Propositional knowledge - factual claim about how businesses operate that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0027_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Profit is generally calculated as income (or revenue) minus costs.",
+      "source_block_id": "blk_0027",
+      "classification_rationale": "Propositional knowledge - a definitional/factual claim about how profit is calculated",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0028_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People's values and organisations' pūtake sometimes underpin different forms of business, innovation, and enterprise (e.g. local business, Māori enterprises, social initiatives).",
+      "source_block_id": "blk_0028",
+      "classification_rationale": "This is a propositional claim about how values and pūtake relate to different business forms - factual/conceptual content to be understood rather than a skill to deploy or orientation to sustain.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0029_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Pūtake is an organisation's reason for being and is shaped by the organisation's values and beliefs (e.g. kaitiakitanga, providing employment, responding to a market opportunity).",
+      "source_block_id": "blk_0029",
+      "classification_rationale": "Definitional claim about what pūtake is and how it relates to organisational values - propositional knowledge to be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0030_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Credit involves borrowing money to buy goods and services",
+      "source_block_id": "blk_0030",
+      "classification_rationale": "Definitional propositional knowledge - factual content about what credit is",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0030_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People sometimes use credit to purchase goods and services, which can put people in debt",
+      "source_block_id": "blk_0030",
+      "classification_rationale": "Causal propositional knowledge - conceptual understanding of credit's potential consequences",
+      "underspecification_flag": null,
+      "prerequisite_lts": [
+        "Credit involves borrowing money to buy goods and services"
+      ],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0031_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Debt is the amount of money you owe — an obligation to repay money, normally at specified times and amounts (e.g. credit cards, bank loans, mortgages).",
+      "source_block_id": "blk_0031",
+      "classification_rationale": "Definitional/propositional knowledge - factual content about what debt is and its characteristics",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0032_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "People can get into financial problems with too much debt.",
+      "source_block_id": "blk_0032",
+      "classification_rationale": "Propositional claim about how the world works - a factual relationship between debt levels and financial problems",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0033_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Budgets can be used to help people and organisations make financial decisions.",
+      "source_block_id": "blk_0033",
+      "classification_rationale": "Propositional claim about how budgets function - conceptual understanding of the relationship between budgets and decision-making",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0034_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Specialisation means people and communities focus on making or providing one type of good or service well",
+      "source_block_id": "blk_0034",
+      "classification_rationale": "Definitional claim about what specialisation means - propositional knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0034_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Specialisation means people and communities must trade and exchange in a market economy",
+      "source_block_id": "blk_0034",
+      "classification_rationale": "Causal claim about the relationship between specialisation and trade - conceptual understanding",
+      "underspecification_flag": null,
+      "prerequisite_lts": [
+        "Specialisation means people and communities focus on making or providing one type of good or service well"
+      ],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0035_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Making a shopping list and comparing prices at different places, then calculating the total price of a number of goods on the list",
+      "source_block_id": "blk_0035",
+      "classification_rationale": "This describes a procedural skill with clear steps that can be performed correctly or incorrectly - making lists, comparing prices, calculating totals. These are Type 1 procedural capabilities.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0036_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifying examples of goods and services in daily life and describing how people get goods and services in different ways",
+      "source_block_id": "blk_0036",
+      "classification_rationale": "Analytical capability deployed when situations call for it - recognizing and categorizing economic concepts across multiple contexts requires reasoning quality rather than fixed procedural steps",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0037_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Examining how people can open and use bank accounts",
+      "source_block_id": "blk_0037",
+      "classification_rationale": "Analytical capability deployed when examining financial access situations - multiple valid frameworks for analysis, reasoning quality determines assessment outcome",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0038_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Creating a savings plan with a target amount",
+      "source_block_id": "blk_0038",
+      "classification_rationale": "This describes a procedural skill with a specific method and clear success criteria - creating a plan with defined components and target outcomes",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0039_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Comparing different kinds of work people do to help others or earn money, including making goods or providing services",
+      "source_block_id": "blk_0039",
+      "classification_rationale": "This describes analytical capability - comparing work types through multiple lenses (purpose, economic function, service vs goods). No single correct answer but better and worse analyses based on reasoning quality.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0040_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifying reasons that influence the type of work people do",
+      "source_block_id": "blk_0040",
+      "classification_rationale": "Analytical capability deployed when examining career choices - multiple valid frameworks exist for understanding work influences (economic, personal, social, cultural factors)",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0041_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifying how trade and exchange has changed over time, such as across regions and cultures with the expansion of trade routes and development of physical currency",
+      "source_block_id": "blk_0041",
+      "classification_rationale": "This describes analytical capability - identifying patterns of change across multiple contexts (regions, cultures, time periods). This is occasion-prompted reasoning that can be applied to different historical scenarios, making it Type 2.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0042_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Considering a case study of one business, such as making a budget for a small business for the school to raise money, identifying potential costs, pricing, and revenue and examining how this may differ with different businesses",
+      "source_block_id": "blk_0042",
+      "classification_rationale": "Analytical capability deployed when a business scenario is presented - involves reasoning across multiple business considerations (costs, pricing, revenue) with no single correct answer but better and worse analyses",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0043_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifying how people's values and organisations' pūtake influence different forms of business, innovation, and enterprise",
+      "source_block_id": "blk_0043",
+      "classification_rationale": "Analytical capability deployed when examining business contexts - requires reasoning across multiple lenses (values, cultural foundations, business forms) with no single correct answer but better/worse analyses",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0044_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifying different examples of specialisation and exchange in the local community, drawing connections between local industry and enterprise and how people in the community work and earn income",
+      "source_block_id": "blk_0044",
+      "classification_rationale": "Analytical capability deployed when examining community contexts - involves multiple interpretive frameworks for understanding economic relationships and requires reasoning quality assessment",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "halted_blocks": [
+    {
+      "block_id": "blk_0001",
+      "source_block_raw_text": "Economic Activity Knowledge",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0002",
+      "source_block_raw_text": "The facts, concepts, principles, and theories to teach.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable - this is a definitional label describing what constitutes 'know' content in curriculum design, not teachable subject matter content itself"
+    },
+    {
+      "block_id": "blk_0003",
+      "source_block_raw_text": "Practices",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0004",
+      "source_block_raw_text": "The skills, strategies, and applications to teach.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable - this is a navigation/section header describing document structure rather than stating any teachable content, propositional knowledge, skill, or orientation"
+    },
+    {
+      "block_id": "blk_0005",
+      "source_block_raw_text": "During Year 4",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0006",
+      "source_block_raw_text": "During Year 5",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0007",
+      "source_block_raw_text": "During Year 6",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0008",
+      "source_block_raw_text": "During Year 4",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0009",
+      "source_block_raw_text": "During Year 5",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0010",
+      "source_block_raw_text": "During Year 6 Financial Education",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0045",
+      "source_block_raw_text": "Links to Social Sciences supports and resources:",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0046",
+      "source_block_raw_text": "Infosheet – Social Sciences Learning Area Years 0–10 File Downloads",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0047",
+      "source_block_raw_text": "No files available for download.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_resume_ixz8408b/strand-economic-activity",
+  "manifest_content_hash": "a01e288c63d217fb4f3fcf8e8e49294e9f9a176a416fd36e143717b861b8e44a",
+  "phase0_version": "0.4.0",
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "content_blocks": [
+    {
+      "block_id": "blk_0001",
+      "raw_text": "Economic Activity Knowledge",
+      "block_type": "statement",
+      "line_start": 1,
+      "line_end": 2,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0002",
+      "raw_text": "The facts, concepts, principles, and theories to teach.",
+      "block_type": "statement",
+      "line_start": 3,
+      "line_end": 3,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0003",
+      "raw_text": "Practices",
+      "block_type": "statement",
+      "line_start": 4,
+      "line_end": 4,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0004",
+      "raw_text": "The skills, strategies, and applications to teach.",
+      "block_type": "statement",
+      "line_start": 5,
+      "line_end": 5,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0005",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 6,
+      "line_end": 6,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0006",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 7,
+      "line_end": 7,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0007",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 8,
+      "line_end": 8,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0008",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 9,
+      "line_end": 9,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0009",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 10,
+      "line_end": 10,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0010",
+      "raw_text": "During Year 6 Financial Education",
+      "block_type": "statement",
+      "line_start": 11,
+      "line_end": 12,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0011",
+      "raw_text": "Goods and services we buy have different prices.",
+      "block_type": "statement",
+      "line_start": 13,
+      "line_end": 13,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0012",
+      "raw_text": "People have different feelings and experiences about money.",
+      "block_type": "statement",
+      "line_start": 14,
+      "line_end": 14,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0013",
+      "raw_text": "People have limited money and have to make decisions about what to buy. Buying something often involves choosing between different items based on how much money people have.",
+      "block_type": "statement",
+      "line_start": 15,
+      "line_end": 15,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0014",
+      "raw_text": "When buying, people can shop around to see if they can get the same thing, or similar, at a cheaper price. Cheaper prices do not always mean better value for money.",
+      "block_type": "statement",
+      "line_start": 16,
+      "line_end": 16,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0015",
+      "raw_text": "There are different ways to keep money safe (e.g. bank accounts).",
+      "block_type": "statement",
+      "line_start": 17,
+      "line_end": 17,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0016",
+      "raw_text": "People and organisations work to provide goods and services in different ways (e.g. marketplaces, volunteering, online shops, subscriptions).",
+      "block_type": "statement",
+      "line_start": 18,
+      "line_end": 18,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0017",
+      "raw_text": "Needs and wants can be met through exchanging money and other resources (e.g. time, skills, goods) for goods (e.g. food, clothes, toys) and services (e.g. haircuts, dentistry, house painting).",
+      "block_type": "statement",
+      "line_start": 19,
+      "line_end": 19,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0018",
+      "raw_text": "People can store money or buy goods and services with notes and coins or with cards and through banks.",
+      "block_type": "statement",
+      "line_start": 20,
+      "line_end": 20,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0019",
+      "raw_text": "When people have the option of storing money or buying, they need to consider both their immediate needs and their long-term wants.",
+      "block_type": "statement",
+      "line_start": 21,
+      "line_end": 21,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0020",
+      "raw_text": "People can save money in different ways.",
+      "block_type": "statement",
+      "line_start": 22,
+      "line_end": 22,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0021",
+      "raw_text": "Banks provide financial services (e.g. bank accounts) to people.",
+      "block_type": "statement",
+      "line_start": 23,
+      "line_end": 23,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0022",
+      "raw_text": "People do different kinds of work to help others and/or to earn money. Work can include producing goods or providing services that help people in the community and can be influenced by people’s values (e.g. sustainability, providing employment, providing for family).",
+      "block_type": "statement",
+      "line_start": 24,
+      "line_end": 24,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0023",
+      "raw_text": "Forms of exchange (e.g. barter, credit) have changed over time (e.g. minting coins, electronic), while money has enduring characteristics (e.g. portability, durability).",
+      "block_type": "statement",
+      "line_start": 25,
+      "line_end": 25,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0024",
+      "raw_text": "Early trade routes like the Silk Road enabled the exchange of goods, ideas, and money over vast distances. Establishing trade connections between societies laid foundations for global trade systems used today (see History Year 5).",
+      "block_type": "statement",
+      "line_start": 26,
+      "line_end": 26,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0025",
+      "raw_text": "Businesses earn money generally by making sales of goods and services. This is called income or revenue.",
+      "block_type": "statement",
+      "line_start": 27,
+      "line_end": 27,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0026",
+      "raw_text": "Businesses have different costs that they must cover in order to make their goods and services.",
+      "block_type": "statement",
+      "line_start": 28,
+      "line_end": 28,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0027",
+      "raw_text": "Profit is generally calculated as income (or revenue) minus costs.",
+      "block_type": "statement",
+      "line_start": 29,
+      "line_end": 29,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0028",
+      "raw_text": "People’s values and organisations’ pūtake sometimes underpin different forms of business, innovation, and enterprise (e.g. local business, Māori enterprises, social initiatives).",
+      "block_type": "statement",
+      "line_start": 30,
+      "line_end": 30,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0029",
+      "raw_text": "Pūtake is an organisation’s reason for being and is shaped by the organisation’s values and beliefs (e.g. kaitiakitanga, providing employment, responding to a market opportunity).",
+      "block_type": "statement",
+      "line_start": 31,
+      "line_end": 31,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0030",
+      "raw_text": "Credit involves borrowing money to buy goods and services. People sometimes use credit to purchase goods and services, which can put people in debt.",
+      "block_type": "statement",
+      "line_start": 32,
+      "line_end": 32,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0031",
+      "raw_text": "Debt is the amount of money you owe — an obligation to repay money, normally at specified times and amounts (e.g. credit cards, bank loans, mortgages).",
+      "block_type": "statement",
+      "line_start": 33,
+      "line_end": 33,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0032",
+      "raw_text": "People can get into financial problems with too much debt.",
+      "block_type": "statement",
+      "line_start": 34,
+      "line_end": 34,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0033",
+      "raw_text": "Budgets can be used to help people and organisations make financial decisions.",
+      "block_type": "statement",
+      "line_start": 35,
+      "line_end": 35,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0034",
+      "raw_text": "Specialisation means people and communities focus on making or providing one type of good or service well (e.g. farming, building, baking bread). It means people and communities must trade and exchange in a market economy.",
+      "block_type": "statement",
+      "line_start": 36,
+      "line_end": 36,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0035",
+      "raw_text": "Making a shopping list and comparing prices at different places, then calculating the total price of a number of goods on the list",
+      "block_type": "statement",
+      "line_start": 37,
+      "line_end": 37,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0036",
+      "raw_text": "Identifying examples of goods and services in daily life (e.g. at home, at school, in the local community) and describing how people get goods and services in different ways (e.g. buying, swapping, sharing)",
+      "block_type": "statement",
+      "line_start": 38,
+      "line_end": 38,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0037",
+      "raw_text": "Examining how people can open and use bank accounts",
+      "block_type": "statement",
+      "line_start": 39,
+      "line_end": 39,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0038",
+      "raw_text": "Creating a savings plan with a target amount",
+      "block_type": "statement",
+      "line_start": 40,
+      "line_end": 40,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0039",
+      "raw_text": "Comparing different kinds of work people do to help others or earn money, including making goods or providing services",
+      "block_type": "statement",
+      "line_start": 41,
+      "line_end": 41,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0040",
+      "raw_text": "Identifying reasons that influence the type of work people do",
+      "block_type": "statement",
+      "line_start": 42,
+      "line_end": 42,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0041",
+      "raw_text": "Identifying how trade and exchange has changed over time, such as across regions and cultures with the expansion of trade routes and development of physical currency",
+      "block_type": "statement",
+      "line_start": 43,
+      "line_end": 43,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0042",
+      "raw_text": "Considering a case study of one business, such as making a budget for a small business for the school to raise money (e.g. bake sale), identifying potential costs, pricing, and revenue and examining how this may differ with different businesses",
+      "block_type": "statement",
+      "line_start": 44,
+      "line_end": 44,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0043",
+      "raw_text": "Identifying how people’s values and organisations’ pūtake influence different forms of business, innovation, and enterprise",
+      "block_type": "statement",
+      "line_start": 45,
+      "line_end": 45,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0044",
+      "raw_text": "Identifying different examples of specialisation and exchange in the local community, drawing connections between local industry and enterprise and how people in the community work and earn income",
+      "block_type": "statement",
+      "line_start": 46,
+      "line_end": 46,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0045",
+      "raw_text": "Links to Social Sciences supports and resources:",
+      "block_type": "statement",
+      "line_start": 47,
+      "line_end": 47,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0046",
+      "raw_text": "Infosheet – Social Sciences Learning Area Years 0–10 File Downloads",
+      "block_type": "statement",
+      "line_start": 48,
+      "line_end": 49,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0047",
+      "raw_text": "No files available for download.",
+      "block_type": "statement",
+      "line_start": 50,
+      "line_end": 50,
+      "heading_path": []
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "components": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_01",
+        "stages": [
+          "Brainstorm what students already know about how governments work and elections.",
+          "Sort student ideas into categories like voting, making laws, and different government jobs.",
+          "Define what makes a complete explanation of democratic systems.",
+          "Create success criteria for each level of understanding together."
+        ],
+        "student_prompts": [
+          "What do you know about how people choose their leaders?",
+          "How do you think laws get made in our country?",
+          "What would someone need to explain to show they really understand how democracy works?"
+        ],
+        "anchor_examples_guidance": "Choose student explanations that clearly show different levels of completeness and accuracy in describing elections, government formation, and government roles."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to explain how democratic systems work.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some parts of democracy but need help to explain them clearly.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can explain basic democratic processes but struggle to connect different parts of government.",
+            "word_count": 14
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can explain how elections work, how governments form, and what different levels of government do.",
+            "word_count": 16
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect democratic structures to bigger ideas and compare different democratic systems.",
+            "word_count": 13
+          }
+        ],
+        "self_check_prompts": [
+          "Can I explain how people get elected and how governments are formed?",
+          "Have I described what different levels of government actually do?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple example of voting or elections to start the conversation.",
+            "Ask what they know about how leaders are chosen."
+          ],
+          "emerging": [
+            "Help connect their ideas to complete the explanation.",
+            "Provide specific vocabulary for democratic processes."
+          ],
+          "developing": [
+            "Guide them to explain how local, state, and federal governments connect.",
+            "Ask how elections lead to actual government formation."
+          ],
+          "competent": [
+            "Challenge them to explain why democratic systems work this way.",
+            "Ask them to compare with other democratic countries or systems."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_02",
+        "stages": [
+          "Students brainstorm what they know about Ancient Greek democracy and New Zealand's democratic system.",
+          "Students discuss what it means to 'analyse' versus just 'identify' connections between historical ideas.",
+          "Students examine sample work to distinguish between superficial and deep analysis of democratic influences.",
+          "Students collaborate to define what makes analysis clear and complete versus incomplete.",
+          "Students refine criteria for evaluating significance of historical democratic influences."
+        ],
+        "student_prompts": [
+          "What does it look like when someone really analyses how one thing influenced another?",
+          "How can you tell if connections between historical ideas are clear and convincing?",
+          "What makes analysis go beyond just listing similarities?",
+          "How do you know when analysis shows deep understanding versus surface-level thinking?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that clearly show the progression from identifying basic features to making explicit connections to evaluating significance of influences."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to analyse how Ancient Greek ideas influenced New Zealand democracy.",
+            "word_count": 15
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some features of Ancient Greek or New Zealand democracy with support.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify connections between Ancient Greek and New Zealand democracy but my analysis stays at surface level.",
+            "word_count": 18
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can analyse how specific Ancient Greek political ideas influenced New Zealand's democratic development with clear connections.",
+            "word_count": 17
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can analyse influences while evaluating their significance or comparing with other historical democratic influences.",
+            "word_count": 15
+          }
+        ],
+        "self_check_prompts": [
+          "Have I explained HOW Ancient Greek ideas influenced New Zealand democracy, not just WHAT similarities exist?",
+          "Can I point to specific examples that clearly connect Ancient Greek political concepts to New Zealand's democratic system?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide guided questions about basic features of Ancient Greek democracy.",
+            "Offer a graphic organizer to help identify democratic elements in both systems."
+          ],
+          "emerging": [
+            "Ask students to explain one specific connection they notice between the two democratic systems.",
+            "Provide sentence starters for making analytical statements about influence."
+          ],
+          "developing": [
+            "Challenge students to explain WHY and HOW the influence occurred, not just that it exists.",
+            "Guide students to use specific examples that demonstrate clear causal connections."
+          ],
+          "competent": [
+            "Encourage students to consider the relative importance of different influences.",
+            "Prompt students to compare Ancient Greek influences with other historical democratic influences."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_03",
+        "stages": [
+          "Brainstorm what civic participation means to students",
+          "Collect examples of civic activities from student experiences",
+          "Sort examples by level of community impact",
+          "Define what makes participation meaningful",
+          "Create progression from basic to advanced civic engagement"
+        ],
+        "student_prompts": [
+          "What are ways people can get involved in their community?",
+          "How do people influence decisions that affect everyone?",
+          "What makes civic participation meaningful rather than just activity?",
+          "How might someone progress from basic to advanced civic engagement?"
+        ],
+        "anchor_examples_guidance": "Choose examples that clearly show progression from simple civic activities to meaningful community decision-making participation."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_03",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet identified ways to participate in civic life.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can name a few civic activities with help but understand little about participation.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify some civic participation opportunities but miss important community decision-making processes.",
+            "word_count": 13
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can identify diverse ways to participate meaningfully in civic life and community decision-making.",
+            "word_count": 14
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can identify civic participation opportunities and explain how different approaches connect to broader democratic engagement.",
+            "word_count": 16
+          }
+        ],
+        "self_check_prompts": [
+          "Can I name specific ways people participate in civic life?",
+          "Do I understand how civic participation connects to community decision-making?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_03",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide examples of civic activities in your community",
+            "Ask what they notice about how people get involved locally"
+          ],
+          "emerging": [
+            "Help connect named activities to their community impact",
+            "Guide exploration of how civic activities influence decisions"
+          ],
+          "developing": [
+            "Point out missed decision-making processes in their examples",
+            "Encourage identification of formal and informal participation methods"
+          ],
+          "competent": [
+            "Challenge to explain connections between participation types and democratic principles",
+            "Ask how different approaches serve different democratic purposes"
+          ]
+        }
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_02_lt_01",
+        "stages": [
+          "Students brainstorm what they already know about laws and why they exist.",
+          "Teacher guides discussion to identify key purposes laws serve in society.",
+          "Students work in groups to categorize different types of laws they can think of.",
+          "Class creates shared understanding of what makes a clear explanation versus incomplete one.",
+          "Students help refine language for each performance level based on their discussions."
+        ],
+        "student_prompts": [
+          "What laws do you know and why do you think they exist?",
+          "How would you group these laws into different categories?",
+          "What makes an explanation of laws clear and complete versus confusing?",
+          "How could someone show they really understand laws beyond just the basics?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that show clear progression from naming laws without explanation to connecting law purposes with social functions."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_02_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to explain what laws are for or identify different types of laws.",
+            "word_count": 17
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can name some laws but my explanations need support and may have gaps.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can explain basic purposes of laws and identify some types with only minor gaps.",
+            "word_count": 15
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can clearly explain why we have laws and accurately identify different types of laws in society.",
+            "word_count": 17
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect how laws serve broader social functions and organize legal types into clear systems.",
+            "word_count": 16
+          }
+        ],
+        "self_check_prompts": [
+          "Can I explain why laws exist without just listing examples?",
+          "Have I identified different categories of laws that govern society?",
+          "Are my explanations clear enough for someone else to understand?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_02_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide concrete examples of familiar laws to start discussion.",
+            "Ask what would happen if specific rules didn't exist."
+          ],
+          "emerging": [
+            "Guide student to explain why each law they named exists.",
+            "Prompt student to group similar laws together."
+          ],
+          "developing": [
+            "Challenge student to identify additional types of laws they haven't mentioned.",
+            "Ask student to elaborate on how laws serve society."
+          ],
+          "competent": [
+            "Encourage student to explore connections between different legal categories.",
+            "Push student to consider broader social impacts of legal frameworks."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_03_lt_01",
+      "lt_name": "Understanding Legal Rights and Foundations",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "lt_name": "Critical Information Analysis for Citizenship",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_02_lt_02; no content to build from"
+    }
+  ]
+}

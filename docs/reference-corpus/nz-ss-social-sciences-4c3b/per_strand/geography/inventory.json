@@ -1,0 +1,1430 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-geography",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_resume_ixz8408b/strand-geography",
+  "manifest_content_hash": "a01e288c63d217fb4f3fcf8e8e49294e9f9a176a416fd36e143717b861b8e44a",
+  "phase0_version": "0.4.0",
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "content_blocks": [
+    {
+      "block_id": "blk_0001",
+      "raw_text": "Geography Knowledge",
+      "block_type": "statement",
+      "line_start": 1,
+      "line_end": 2,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0002",
+      "raw_text": "The facts, concepts, principles, and theories to teach.",
+      "block_type": "statement",
+      "line_start": 3,
+      "line_end": 3,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0003",
+      "raw_text": "Practices",
+      "block_type": "statement",
+      "line_start": 4,
+      "line_end": 4,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0004",
+      "raw_text": "The skills, strategies, and applications to teach.",
+      "block_type": "statement",
+      "line_start": 5,
+      "line_end": 5,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0005",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 6,
+      "line_end": 6,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0006",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 7,
+      "line_end": 7,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0007",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 8,
+      "line_end": 8,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0008",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 9,
+      "line_end": 9,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0009",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 10,
+      "line_end": 10,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0010",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 11,
+      "line_end": 11,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0011",
+      "raw_text": "POPULATION CHANGE IN NEW ZEALAND",
+      "block_type": "heading",
+      "line_start": 12,
+      "line_end": 12,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0012",
+      "raw_text": "Population growth and structure",
+      "block_type": "statement",
+      "line_start": 13,
+      "line_end": 13,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0013",
+      "raw_text": "Steady growth of New Zealand’s population over the last two centuries.",
+      "block_type": "statement",
+      "line_start": 14,
+      "line_end": 14,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0014",
+      "raw_text": "Changes in population structure, including an ageing population.",
+      "block_type": "statement",
+      "line_start": 15,
+      "line_end": 15,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0015",
+      "raw_text": "Declining death rates due to improved medical knowledge, healthcare access, and lifestyle changes.",
+      "block_type": "statement",
+      "line_start": 16,
+      "line_end": 16,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0016",
+      "raw_text": "Migration and population change",
+      "block_type": "statement",
+      "line_start": 17,
+      "line_end": 17,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0017",
+      "raw_text": "Division of New Zealand into 16 regions.",
+      "block_type": "statement",
+      "line_start": 18,
+      "line_end": 18,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0018",
+      "raw_text": "Migration is a factor affecting population size and structure.",
+      "block_type": "statement",
+      "line_start": 19,
+      "line_end": 19,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0019",
+      "raw_text": "Push factors such as war, disasters, and lack of opportunities.",
+      "block_type": "statement",
+      "line_start": 20,
+      "line_end": 20,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0020",
+      "raw_text": "Pull factors such as work opportunities, culture, and education.",
+      "block_type": "statement",
+      "line_start": 21,
+      "line_end": 21,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0021",
+      "raw_text": "Multicultural population results from migration by different groups.",
+      "block_type": "statement",
+      "line_start": 22,
+      "line_end": 22,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0022",
+      "raw_text": "Population distribution",
+      "block_type": "statement",
+      "line_start": 23,
+      "line_end": 23,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0023",
+      "raw_text": "Population density as a measure of people living in an area.",
+      "block_type": "statement",
+      "line_start": 24,
+      "line_end": 24,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0024",
+      "raw_text": "Low population density in New Zealand, especially on the South Island.",
+      "block_type": "statement",
+      "line_start": 25,
+      "line_end": 25,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0025",
+      "raw_text": "Global comparisons",
+      "block_type": "statement",
+      "line_start": 26,
+      "line_end": 26,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0026",
+      "raw_text": "New Zealand compared to places with high growth rates, high rates of migration, and high population density.",
+      "block_type": "statement",
+      "line_start": 27,
+      "line_end": 27,
+      "heading_path": [
+        "POPULATION CHANGE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0027",
+      "raw_text": "IMPACTS OF TECTONIC HAZARDS",
+      "block_type": "heading",
+      "line_start": 28,
+      "line_end": 28,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0028",
+      "raw_text": "Plate movement and earthquakes",
+      "block_type": "statement",
+      "line_start": 29,
+      "line_end": 29,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0029",
+      "raw_text": "Movement of Earth’s plates into, away from, or past each other.",
+      "block_type": "statement",
+      "line_start": 30,
+      "line_end": 30,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0030",
+      "raw_text": "Earthquakes are caused by pressure building and releasing along plate boundaries.",
+      "block_type": "statement",
+      "line_start": 31,
+      "line_end": 31,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0031",
+      "raw_text": "Ground shaking can lead to building damage, collapses, landslides, and rockfalls.",
+      "block_type": "statement",
+      "line_start": 32,
+      "line_end": 32,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0032",
+      "raw_text": "Earthquake risk known in some areas, but timing cannot be predicted.",
+      "block_type": "statement",
+      "line_start": 33,
+      "line_end": 33,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0033",
+      "raw_text": "Earthquake preparation through building design and civil defence planning.",
+      "block_type": "statement",
+      "line_start": 34,
+      "line_end": 34,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0034",
+      "raw_text": "Earthquake planning requiring funding and organisation.",
+      "block_type": "statement",
+      "line_start": 35,
+      "line_end": 35,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0035",
+      "raw_text": "Earthquakes can cause tsunamis.",
+      "block_type": "statement",
+      "line_start": 36,
+      "line_end": 36,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0036",
+      "raw_text": "Volcanoes and eruptions",
+      "block_type": "statement",
+      "line_start": 37,
+      "line_end": 37,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0037",
+      "raw_text": "Volcano formation from magma reaching the surface as lava.",
+      "block_type": "statement",
+      "line_start": 38,
+      "line_end": 38,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0038",
+      "raw_text": "Variation in eruption strength and lava viscosity.",
+      "block_type": "statement",
+      "line_start": 39,
+      "line_end": 39,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0039",
+      "raw_text": "Less explosive eruptions producing flowing lava.",
+      "block_type": "statement",
+      "line_start": 40,
+      "line_end": 40,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0040",
+      "raw_text": "More explosive eruptions releasing ash and volcanic bombs.",
+      "block_type": "statement",
+      "line_start": 41,
+      "line_end": 41,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0041",
+      "raw_text": "Volcano prediction through monitoring tremors, land distortion, and temperature changes.",
+      "block_type": "statement",
+      "line_start": 42,
+      "line_end": 42,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0042",
+      "raw_text": "Eruption impacts include evacuation, damage to farmland and buildings, injury, or death.",
+      "block_type": "statement",
+      "line_start": 43,
+      "line_end": 43,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0043",
+      "raw_text": "Emergency preparedness for tectonic hazards",
+      "block_type": "statement",
+      "line_start": 44,
+      "line_end": 44,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0044",
+      "raw_text": "Families and communities should have strategies for preparing for tectonic hazards, such as:",
+      "block_type": "statement",
+      "line_start": 45,
+      "line_end": 45,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0045",
+      "raw_text": "Drop, Cover and Hold tsunami evacuation zone emergency mobile alerts a household emergency kit.",
+      "block_type": "statement",
+      "line_start": 46,
+      "line_end": 49,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0046",
+      "raw_text": "Financial aid and humanitarian assistance provided by individuals and communities.",
+      "block_type": "statement",
+      "line_start": 50,
+      "line_end": 50,
+      "heading_path": [
+        "IMPACTS OF TECTONIC HAZARDS"
+      ]
+    },
+    {
+      "block_id": "blk_0047",
+      "raw_text": "URBANISATION",
+      "block_type": "heading",
+      "line_start": 51,
+      "line_end": 51,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0048",
+      "raw_text": "Urbanisation and city growth",
+      "block_type": "statement",
+      "line_start": 52,
+      "line_end": 52,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0049",
+      "raw_text": "Urbanisation is the process of more people living in cities.",
+      "block_type": "statement",
+      "line_start": 53,
+      "line_end": 53,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0050",
+      "raw_text": "Growth of megacities as a result of urbanisation.",
+      "block_type": "statement",
+      "line_start": 54,
+      "line_end": 54,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0051",
+      "raw_text": "Urban living has been the norm in high-income countries since the mid-19th century.",
+      "block_type": "statement",
+      "line_start": 55,
+      "line_end": 55,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0052",
+      "raw_text": "Rapid urban growth in low- and middle-income countries.",
+      "block_type": "statement",
+      "line_start": 56,
+      "line_end": 56,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0053",
+      "raw_text": "Challenges of urbanisation",
+      "block_type": "statement",
+      "line_start": 57,
+      "line_end": 57,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0054",
+      "raw_text": "Economic, social, and environmental problems caused by rapid urban growth.",
+      "block_type": "statement",
+      "line_start": 58,
+      "line_end": 58,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0055",
+      "raw_text": "Informal settlements in low- and middle-income countries with specific challenges.",
+      "block_type": "statement",
+      "line_start": 59,
+      "line_end": 59,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0056",
+      "raw_text": "Urbanisation in New Zealand",
+      "block_type": "statement",
+      "line_start": 60,
+      "line_end": 60,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0057",
+      "raw_text": "City growth during the 19th and 20th centuries.",
+      "block_type": "statement",
+      "line_start": 61,
+      "line_end": 61,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0058",
+      "raw_text": "Influence of European settler culture on city development.",
+      "block_type": "statement",
+      "line_start": 62,
+      "line_end": 62,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0059",
+      "raw_text": "Impact of urbanisation and migration on population diversity.",
+      "block_type": "statement",
+      "line_start": 63,
+      "line_end": 63,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0060",
+      "raw_text": "Urbanisation and being Māori",
+      "block_type": "statement",
+      "line_start": 64,
+      "line_end": 64,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0061",
+      "raw_text": "Mid-20th century Māori migration to New Zealand cities occurred at an unprecedented pace and scale, disrupting the whakapapa of te reo Māori and tikanga and depopulating papa kāinga.",
+      "block_type": "statement",
+      "line_start": 65,
+      "line_end": 65,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0062",
+      "raw_text": "New approaches to being Māori and retaining iwi values and practices were created and debated. Movements to reassert Māori language, culture, and identity arose throughout the country, including: cultural groups (e.g. Ngāti Pōneke Young Māori Club, Te Waka Huia) political groups (e.g. Ngā Tamatoa) tribal affiliate groups in cities (e.g. Tūhoe in Auckland, Wellington, and Hamilton; Waikato ki Roto o Pōneke) urban, pan-tribal marae (e.g. Hoani Waititi, Ngā Hau e Whā) educational movements (e.g. kōhanga reo, kura kaupapa Māori, wānanga).",
+      "block_type": "statement",
+      "line_start": 66,
+      "line_end": 71,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0063",
+      "raw_text": "how natural increase in population can be calculated similarities and differences of different ways of showing population density (maps, pie charts, 3D models, interactive graphics) how diagrams can be used to demonstrate the impact of plate movement on the creation of hazards how tectonic processes have created land and hazards how buildings can be designed to withstand earthquakes how to interpret data on the relative magnitude of earthquakes and the associated hazards how the features of explosive and effusive volcanic eruptions can be categorised why earthquakes and volcanoes are managed in different ways how to interpret a range of data to analyse how a named area was affected by tectonic hazards how trends can be analysed using visual geographic data displaying the percentage of urban population how the percentage change in the urban population can be calculated by analysing population data how aerial photographs and historic maps can be used to chart the way that cities have grown and changed over time how photographs, aerial photographs, and first-hand testimony can be used to identify the challenges of living in informal settlements the characteristics of New Zealand’s cities",
+      "block_type": "statement",
+      "line_start": 72,
+      "line_end": 85,
+      "heading_path": [
+        "URBANISATION"
+      ]
+    },
+    {
+      "block_id": "blk_0064",
+      "raw_text": "LANDSCAPE FORMATION",
+      "block_type": "heading",
+      "line_start": 86,
+      "line_end": 86,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0065",
+      "raw_text": "Plate tectonics and mountain formation",
+      "block_type": "statement",
+      "line_start": 87,
+      "line_end": 87,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0066",
+      "raw_text": "The Earth’s crust is made of large plates, moving slowly.",
+      "block_type": "statement",
+      "line_start": 88,
+      "line_end": 88,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0067",
+      "raw_text": "Increasing temperature with depth inside the Earth.",
+      "block_type": "statement",
+      "line_start": 89,
+      "line_end": 89,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0068",
+      "raw_text": "Mountain formation from plate collisions, including the creation of the Southern Alps 25 million years ago.",
+      "block_type": "statement",
+      "line_start": 90,
+      "line_end": 90,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0069",
+      "raw_text": "Evidence of plate movement in mountain ranges, species distribution, and coastline patterns.",
+      "block_type": "statement",
+      "line_start": 91,
+      "line_end": 91,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0070",
+      "raw_text": "Rock types and the rock cycle",
+      "block_type": "statement",
+      "line_start": 92,
+      "line_end": 92,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0071",
+      "raw_text": "Sedimentary rock formed from compressed particles of other rocks (e.g. limestone).",
+      "block_type": "statement",
+      "line_start": 93,
+      "line_end": 93,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0072",
+      "raw_text": "Igneous rock formed from cooled lava or magma (e.g. pumice, granite).",
+      "block_type": "statement",
+      "line_start": 94,
+      "line_end": 94,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0073",
+      "raw_text": "Metamorphic rock formed from heat and pressure on other rocks (e.g. pounamu).",
+      "block_type": "statement",
+      "line_start": 95,
+      "line_end": 95,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0074",
+      "raw_text": "Transformation of rock through the rock cycle.",
+      "block_type": "statement",
+      "line_start": 96,
+      "line_end": 96,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0075",
+      "raw_text": "Influence of rock type on landscape formation through different erosion rates.",
+      "block_type": "statement",
+      "line_start": 97,
+      "line_end": 97,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0076",
+      "raw_text": "Landscape shaping processes",
+      "block_type": "statement",
+      "line_start": 98,
+      "line_end": 98,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0077",
+      "raw_text": "Erosion by rivers, ice, and waves shaping the land.",
+      "block_type": "statement",
+      "line_start": 99,
+      "line_end": 99,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0078",
+      "raw_text": "Zealandia is a mostly submerged continent.",
+      "block_type": "statement",
+      "line_start": 100,
+      "line_end": 100,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0079",
+      "raw_text": "Formation of New Zealand from tectonic uplift 23 million years ago.",
+      "block_type": "statement",
+      "line_start": 101,
+      "line_end": 101,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0080",
+      "raw_text": "Creation of mountains, volcanoes, and earthquakes by the Pacific Plate and Australian Plate.",
+      "block_type": "statement",
+      "line_start": 102,
+      "line_end": 102,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0081",
+      "raw_text": "Case study: Local landscape",
+      "block_type": "statement",
+      "line_start": 103,
+      "line_end": 103,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0082",
+      "raw_text": "Physical appearance of the landscape.",
+      "block_type": "statement",
+      "line_start": 104,
+      "line_end": 104,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0083",
+      "raw_text": "Geological processes that created the landscape.",
+      "block_type": "statement",
+      "line_start": 105,
+      "line_end": 105,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0084",
+      "raw_text": "Rock types and geological features.",
+      "block_type": "statement",
+      "line_start": 106,
+      "line_end": 106,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0085",
+      "raw_text": "Future changes to the landscape.",
+      "block_type": "statement",
+      "line_start": 107,
+      "line_end": 107,
+      "heading_path": [
+        "LANDSCAPE FORMATION"
+      ]
+    },
+    {
+      "block_id": "blk_0086",
+      "raw_text": "TEMPERATE AND TROPICAL RAINFOREST BIOMES",
+      "block_type": "heading",
+      "line_start": 108,
+      "line_end": 108,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0087",
+      "raw_text": "New Zealand has large areas of very rare temperate rainforest.",
+      "block_type": "statement",
+      "line_start": 109,
+      "line_end": 109,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0088",
+      "raw_text": "Temperate rainforest grows because westerly wind picks up moist air from across the ocean. The air rises over the mountains, cools, and turns into rains. This combines with mild temperatures to create good growing conditions.",
+      "block_type": "statement",
+      "line_start": 110,
+      "line_end": 110,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0089",
+      "raw_text": "The location of the world’s major rainforest areas, including those in South America, West Africa, and South Asia.",
+      "block_type": "statement",
+      "line_start": 111,
+      "line_end": 111,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0090",
+      "raw_text": "Biomes are global-scale ecosystems. They have shared characteristics wherever they are in the world.",
+      "block_type": "statement",
+      "line_start": 112,
+      "line_end": 112,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0091",
+      "raw_text": "Tropical rainforest biomes are found either side of the equator, where there are high levels of sunlight and rainfall, allowing rapid tree growth.",
+      "block_type": "statement",
+      "line_start": 113,
+      "line_end": 113,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0092",
+      "raw_text": "Rainforests have high levels of biodiversity.",
+      "block_type": "statement",
+      "line_start": 114,
+      "line_end": 114,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0093",
+      "raw_text": "Plants in a rainforest",
+      "block_type": "statement",
+      "line_start": 115,
+      "line_end": 115,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0094",
+      "raw_text": "Trees grow towards the sunlight. This creates distinct layers: emergent, canopy, under canopy, and the forest floor.",
+      "block_type": "statement",
+      "line_start": 116,
+      "line_end": 116,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0095",
+      "raw_text": "Plants adapt to rainforest conditions.",
+      "block_type": "statement",
+      "line_start": 117,
+      "line_end": 117,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0096",
+      "raw_text": "Competition for light means that plants try to grow as tall as they can, as quickly as they can, or they climb up other plants or grow directly on their branches.",
+      "block_type": "statement",
+      "line_start": 118,
+      "line_end": 118,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0097",
+      "raw_text": "The soil in the rainforest has few nutrients, so trees have shallow roots to get nutrients from plant material as soon as it decomposes.",
+      "block_type": "statement",
+      "line_start": 119,
+      "line_end": 119,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0098",
+      "raw_text": "Human interactions",
+      "block_type": "statement",
+      "line_start": 120,
+      "line_end": 120,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0099",
+      "raw_text": "Many people make their lives in rainforests. Some of these are Indigenous peoples who have maintained their traditional way of life.",
+      "block_type": "statement",
+      "line_start": 121,
+      "line_end": 121,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0100",
+      "raw_text": "Deforestation leads to large areas of rainforest being cleared and threatens ecosystems and the way of life of Indigenous peoples.",
+      "block_type": "statement",
+      "line_start": 122,
+      "line_end": 122,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0101",
+      "raw_text": "Most deforestation takes place due to settlements, to raise cattle, or to grow crops such as palm, rubber, or coffee.",
+      "block_type": "statement",
+      "line_start": 123,
+      "line_end": 123,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0102",
+      "raw_text": "Deforestation can also change the local and global climate.",
+      "block_type": "statement",
+      "line_start": 124,
+      "line_end": 124,
+      "heading_path": [
+        "TEMPERATE AND TROPICAL RAINFOREST BIOMES"
+      ]
+    },
+    {
+      "block_id": "blk_0103",
+      "raw_text": "CLIMATE PATTERNS",
+      "block_type": "heading",
+      "line_start": 125,
+      "line_end": 125,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0104",
+      "raw_text": "People interact with and use places, resources, and environments for personal, social, cultural, and economic reasons.",
+      "block_type": "statement",
+      "line_start": 126,
+      "line_end": 126,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0105",
+      "raw_text": "Changes people make to places can have long-term environmental impacts on those places, the people who live there, and global processes.",
+      "block_type": "statement",
+      "line_start": 127,
+      "line_end": 127,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0106",
+      "raw_text": "Values and connection to place affect their sense of responsibility for environmental sustainability.",
+      "block_type": "statement",
+      "line_start": 128,
+      "line_end": 128,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0107",
+      "raw_text": "Greenhouse effect",
+      "block_type": "statement",
+      "line_start": 129,
+      "line_end": 129,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0108",
+      "raw_text": "Past climate changes, including glacial and inter-glacial periods.",
+      "block_type": "statement",
+      "line_start": 130,
+      "line_end": 130,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0109",
+      "raw_text": "Greenhouse effect as the atmosphere storing and reflecting heat from the Sun.",
+      "block_type": "statement",
+      "line_start": 131,
+      "line_end": 131,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0110",
+      "raw_text": "Current climate warming caused by human actions changing the atmosphere.",
+      "block_type": "statement",
+      "line_start": 132,
+      "line_end": 132,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0111",
+      "raw_text": "Greenhouse gases trapping heat and causing global warming.",
+      "block_type": "statement",
+      "line_start": 133,
+      "line_end": 133,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0112",
+      "raw_text": "Land degradation in dry and how areas means land is less productive.",
+      "block_type": "statement",
+      "line_start": 134,
+      "line_end": 134,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0113",
+      "raw_text": "Impacts of climate change",
+      "block_type": "statement",
+      "line_start": 135,
+      "line_end": 135,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0114",
+      "raw_text": "Disruption of weather patterns, with heavy rain in some places and less rain in others.",
+      "block_type": "statement",
+      "line_start": 136,
+      "line_end": 136,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0115",
+      "raw_text": "Melting glaciers and warming oceans leading to sea-level rise.",
+      "block_type": "statement",
+      "line_start": 137,
+      "line_end": 137,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0116",
+      "raw_text": "Regional impacts in New Zealand and the Pacific",
+      "block_type": "statement",
+      "line_start": 138,
+      "line_end": 138,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0117",
+      "raw_text": "Rising temperatures reducing snowfall in alpine areas.",
+      "block_type": "statement",
+      "line_start": 139,
+      "line_end": 139,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0118",
+      "raw_text": "Rising sea levels threatening homes and Māori coastal marae.",
+      "block_type": "statement",
+      "line_start": 140,
+      "line_end": 140,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0119",
+      "raw_text": "Increasing frequency and strength of cyclones.",
+      "block_type": "statement",
+      "line_start": 141,
+      "line_end": 141,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0120",
+      "raw_text": "Risk of submersion and climate displacement in Pacific nations such as Tuvalu.",
+      "block_type": "statement",
+      "line_start": 142,
+      "line_end": 142,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0121",
+      "raw_text": "Responses to climate change",
+      "block_type": "statement",
+      "line_start": 143,
+      "line_end": 143,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0122",
+      "raw_text": "Mitigation through global efforts to reduce greenhouse gas emissions.",
+      "block_type": "statement",
+      "line_start": 144,
+      "line_end": 144,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0123",
+      "raw_text": "Adaptation through preparation for climate change impacts.",
+      "block_type": "statement",
+      "line_start": 145,
+      "line_end": 145,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0124",
+      "raw_text": "how diagrams demonstrate the formation of landforms how tectonics will continue to cause the landscape to change in the future observations about different types of rocks can be collected and recorded how to interpret aerial photographs and maps to identify different landscapes how to interpret geological maps how the erosion of rock shapes the land how to interpret maps of biomes to identify patterns in the location of tropical rainforests diagrams can be used to identify the structure of the rainforest how plant adaptations match the environmental conditions how secondary data (such as on aerial photographs) on rainforest clearance can be collected and analysed using aerial photographs and simple graphs the connection between economic development and deforestation how deforestation changes the environment how to interpret line graphs showing global temperature changes at a range of time scales how to interpret graphs to identify the correlation between rising greenhouse gas concentration and rising global temperatures a range of data can be used to evaluate attempts to manage climate change through both mitigation and adaptation the impacts of climate change on people and the environment and how impacts can be categorised as economic, social, and environmental",
+      "block_type": "statement",
+      "line_start": 146,
+      "line_end": 161,
+      "heading_path": [
+        "CLIMATE PATTERNS"
+      ]
+    },
+    {
+      "block_id": "blk_0125",
+      "raw_text": "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?",
+      "block_type": "heading",
+      "line_start": 162,
+      "line_end": 162,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0126",
+      "raw_text": "Environmental characteristics",
+      "block_type": "statement",
+      "line_start": 163,
+      "line_end": 163,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0127",
+      "raw_text": "Environmental regions (biomes) are defined by climate, vegetation, and landforms such as deserts, rainforests, tundra, and grasslands.",
+      "block_type": "statement",
+      "line_start": 164,
+      "line_end": 164,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0128",
+      "raw_text": "Tropical climate caused by the equator running through Southeast Asia, with high temperatures and heavy rainfall.",
+      "block_type": "statement",
+      "line_start": 165,
+      "line_end": 165,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0129",
+      "raw_text": "Tropical rainforests as the dominant ecosystem.",
+      "block_type": "statement",
+      "line_start": 166,
+      "line_end": 166,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0130",
+      "raw_text": "Mountains and frequent volcanic eruptions and earthquakes caused by tectonic processes.",
+      "block_type": "statement",
+      "line_start": 167,
+      "line_end": 167,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0131",
+      "raw_text": "Regional identity",
+      "block_type": "statement",
+      "line_start": 168,
+      "line_end": 168,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0132",
+      "raw_text": "A region is an area with shared characteristics and internal differences.",
+      "block_type": "statement",
+      "line_start": 169,
+      "line_end": 169,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0133",
+      "raw_text": "Southeast Asia is made up of 11 countries: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar (Burma), Philippines, Singapore, Thailand, Timor-Leste (East Timor), and Vietnam.",
+      "block_type": "statement",
+      "line_start": 170,
+      "line_end": 170,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0134",
+      "raw_text": "Cultural diversity, with over 1,200 languages spoken.",
+      "block_type": "statement",
+      "line_start": 171,
+      "line_end": 171,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0135",
+      "raw_text": "Economic activity",
+      "block_type": "statement",
+      "line_start": 172,
+      "line_end": 172,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0136",
+      "raw_text": "Mixed levels of economic development and activity across the region.",
+      "block_type": "statement",
+      "line_start": 173,
+      "line_end": 173,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0137",
+      "raw_text": "Agriculture and manufacturing as key parts of the economy.",
+      "block_type": "statement",
+      "line_start": 174,
+      "line_end": 174,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0138",
+      "raw_text": "Goods produced in Southeast Asia sold in other countries such as New Zealand.",
+      "block_type": "statement",
+      "line_start": 175,
+      "line_end": 175,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0139",
+      "raw_text": "Case study of one country",
+      "block_type": "statement",
+      "line_start": 176,
+      "line_end": 176,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0140",
+      "raw_text": "Location of the country.",
+      "block_type": "statement",
+      "line_start": 177,
+      "line_end": 177,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0141",
+      "raw_text": "Main economic activities.",
+      "block_type": "statement",
+      "line_start": 178,
+      "line_end": 178,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0142",
+      "raw_text": "Cultural practices.",
+      "block_type": "statement",
+      "line_start": 179,
+      "line_end": 179,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0143",
+      "raw_text": "Connection between human and physical geography.",
+      "block_type": "statement",
+      "line_start": 180,
+      "line_end": 180,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    },
+    {
+      "block_id": "blk_0144",
+      "raw_text": "For example, consider: how longitude and latitude can be used to describe a location how maps can show the way biomes are distributed why it is hotter at the equator than the poles how a range of geographical information (photographs, maps, simple graphs) can be interpreted to describe the culture of one country",
+      "block_type": "statement",
+      "line_start": 181,
+      "line_end": 185,
+      "heading_path": [
+        "REGIONAL COMPARISON: WHAT IS LIFE LIKE IN SOUTHEAST ASIA?"
+      ]
+    }
+  ]
+}

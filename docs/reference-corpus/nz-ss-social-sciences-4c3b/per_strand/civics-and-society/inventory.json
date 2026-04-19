@@ -1,0 +1,650 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_resume_ixz8408b/strand-civics-and-society",
+  "manifest_content_hash": "a01e288c63d217fb4f3fcf8e8e49294e9f9a176a416fd36e143717b861b8e44a",
+  "phase0_version": "0.4.0",
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "content_blocks": [
+    {
+      "block_id": "blk_0001",
+      "raw_text": "Civics and Society Knowledge",
+      "block_type": "statement",
+      "line_start": 1,
+      "line_end": 2,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0002",
+      "raw_text": "The facts, concepts, principles, and theories to teach.",
+      "block_type": "statement",
+      "line_start": 3,
+      "line_end": 3,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0003",
+      "raw_text": "Practices",
+      "block_type": "statement",
+      "line_start": 4,
+      "line_end": 4,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0004",
+      "raw_text": "The skills, strategies, and applications to teach.",
+      "block_type": "statement",
+      "line_start": 5,
+      "line_end": 5,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0005",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 6,
+      "line_end": 6,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0006",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 7,
+      "line_end": 7,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0007",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 8,
+      "line_end": 8,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0008",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 9,
+      "line_end": 9,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0009",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 10,
+      "line_end": 10,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0010",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 11,
+      "line_end": 11,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0011",
+      "raw_text": "DEMOCRACY",
+      "block_type": "heading",
+      "line_start": 12,
+      "line_end": 12,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0012",
+      "raw_text": "Democracy is a system in which citizens choose leaders through elections. It can be contrasted with other forms of government, such as monarchy (inherited rule by a king or queen) and dictatorship (rule by one individual).",
+      "block_type": "statement",
+      "line_start": 13,
+      "line_end": 13,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0013",
+      "raw_text": "Value of democracy in ensuring fairness, equality, citizen voice, and peaceful leadership change.",
+      "block_type": "statement",
+      "line_start": 14,
+      "line_end": 14,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0014",
+      "raw_text": "There are three-yearly general elections for the House of Representatives in New Zealand.",
+      "block_type": "statement",
+      "line_start": 15,
+      "line_end": 15,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0015",
+      "raw_text": "House of Representatives as law-making body of New Zealand.",
+      "block_type": "statement",
+      "line_start": 16,
+      "line_end": 16,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0016",
+      "raw_text": "Government formation by the party or coalition holding majority support in Parliament.",
+      "block_type": "statement",
+      "line_start": 17,
+      "line_end": 17,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0017",
+      "raw_text": "The Prime Minister is the head of government, leading the Cabinet of ministers.",
+      "block_type": "statement",
+      "line_start": 18,
+      "line_end": 18,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0018",
+      "raw_text": "The Government is the central team making decisions on core government responsibilities such as schools, hospitals, roads, and public safety and deciding public spending.",
+      "block_type": "statement",
+      "line_start": 19,
+      "line_end": 19,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0019",
+      "raw_text": "Local councils are elected by the community to make our towns and cities better places to live. They look after things like: parks and playgrounds libraries and swimming pools rubbish and recycling roads and footpaths planning where buildings like houses can be built.",
+      "block_type": "statement",
+      "line_start": 20,
+      "line_end": 25,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0020",
+      "raw_text": "Impact of Ancient Greek political ideas on New Zealand’s democracy",
+      "block_type": "statement",
+      "line_start": 26,
+      "line_end": 26,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0021",
+      "raw_text": "Voting for leaders: first election in 1853 in which people chose leaders, like in Ancient Greece.",
+      "block_type": "statement",
+      "line_start": 27,
+      "line_end": 27,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0022",
+      "raw_text": "Making rules together: Parliament, in which groups met to make laws, began in 1854. Māori and European settlers talked before the Constitution was written (they had meetings to decide how New Zealand should be run), like Greek councils.",
+      "block_type": "statement",
+      "line_start": 28,
+      "line_end": 28,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0023",
+      "raw_text": "Democratic principles of ensuring fairness, equality, and citizen voice.",
+      "block_type": "statement",
+      "line_start": 29,
+      "line_end": 29,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0024",
+      "raw_text": "Civic participation and contribution can be increased through: volunteering at school or in the community joining youth councils or school leadership groups attending hui or public meetings giving feedback in community consultations taking part in local projects or fundraising for good causes.",
+      "block_type": "statement",
+      "line_start": 30,
+      "line_end": 35,
+      "heading_path": [
+        "DEMOCRACY"
+      ]
+    },
+    {
+      "block_id": "blk_0025",
+      "raw_text": "LAWS AND THE JUDICIAL SYSTEM",
+      "block_type": "heading",
+      "line_start": 36,
+      "line_end": 36,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0026",
+      "raw_text": "Governments develop laws for a range of purposes, such as to prevent harm, protect wellbeing, and maintain order. Laws are legally binding rules that everyone in the country must follow.",
+      "block_type": "statement",
+      "line_start": 37,
+      "line_end": 37,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0027",
+      "raw_text": "National laws, such as traffic rules (e.g. driving on the left, seat-belt requirements).",
+      "block_type": "statement",
+      "line_start": 38,
+      "line_end": 38,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0028",
+      "raw_text": "Local bylaws, such as noise limits in residential areas or pet control requirements (e.g. leashes, dog-exercise areas).",
+      "block_type": "statement",
+      "line_start": 39,
+      "line_end": 39,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0029",
+      "raw_text": "Our community rules for safety and fairness (e.g. school rules).",
+      "block_type": "statement",
+      "line_start": 40,
+      "line_end": 40,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0030",
+      "raw_text": "Rule of law",
+      "block_type": "statement",
+      "line_start": 41,
+      "line_end": 41,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0031",
+      "raw_text": "Everyone is treated equally under the law.",
+      "block_type": "statement",
+      "line_start": 42,
+      "line_end": 42,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0032",
+      "raw_text": "Protection of individuals and property.",
+      "block_type": "statement",
+      "line_start": 43,
+      "line_end": 43,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0033",
+      "raw_text": "Basis for a community with reliable safeguards, fostering orderly and peaceful functioning.",
+      "block_type": "statement",
+      "line_start": 44,
+      "line_end": 44,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0034",
+      "raw_text": "Court system",
+      "block_type": "statement",
+      "line_start": 45,
+      "line_end": 45,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0035",
+      "raw_text": "Courts help make sure laws are followed and fair decisions are made based on those laws.",
+      "block_type": "statement",
+      "line_start": 46,
+      "line_end": 46,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0036",
+      "raw_text": "In cases where someone is found guilty of breaking the law, courts can give punishments such as fines, community service, or time in prison.",
+      "block_type": "statement",
+      "line_start": 47,
+      "line_end": 47,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0037",
+      "raw_text": "Courts also help solve disagreements between people and protect individual rights.",
+      "block_type": "statement",
+      "line_start": 48,
+      "line_end": 48,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0038",
+      "raw_text": "Part of the role of the courts is to ensure justice is done.",
+      "block_type": "statement",
+      "line_start": 49,
+      "line_end": 49,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0039",
+      "raw_text": "Judges are neutral decision-makers, interpreting laws and ensuring fair outcomes.",
+      "block_type": "statement",
+      "line_start": 50,
+      "line_end": 50,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0040",
+      "raw_text": "Police services",
+      "block_type": "statement",
+      "line_start": 51,
+      "line_end": 51,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0041",
+      "raw_text": "Law enforcement, crime investigation, and crime prevention.",
+      "block_type": "statement",
+      "line_start": 52,
+      "line_end": 52,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0042",
+      "raw_text": "Emergency response and personal safety via 111.",
+      "block_type": "statement",
+      "line_start": 53,
+      "line_end": 53,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0043",
+      "raw_text": "Traffic control and road-safety education.",
+      "block_type": "statement",
+      "line_start": 54,
+      "line_end": 54,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0044",
+      "raw_text": "School Community Officers support safe learning environments.",
+      "block_type": "statement",
+      "line_start": 55,
+      "line_end": 55,
+      "heading_path": [
+        "LAWS AND THE JUDICIAL SYSTEM"
+      ]
+    },
+    {
+      "block_id": "blk_0045",
+      "raw_text": "RIGHTS AND RESPONSIBILITIES",
+      "block_type": "heading",
+      "line_start": 56,
+      "line_end": 56,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0046",
+      "raw_text": "Legal foundations of rights in New Zealand",
+      "block_type": "statement",
+      "line_start": 57,
+      "line_end": 57,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0047",
+      "raw_text": "New Zealand Bill of Rights Act 1990: Protects rights such as freedom of speech, belief, and peaceful protest.",
+      "block_type": "statement",
+      "line_start": 58,
+      "line_end": 58,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0048",
+      "raw_text": "Human Rights Act 1993: Protects people from unfair discrimination.",
+      "block_type": "statement",
+      "line_start": 59,
+      "line_end": 59,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0049",
+      "raw_text": "Electoral Act 1993: Defines voting rights and how elections work.",
+      "block_type": "statement",
+      "line_start": 60,
+      "line_end": 60,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0050",
+      "raw_text": "Te Tiriti o Waitangi | the Treaty of Waitangi are foundational documents that inform the rights and responsibilities of individuals and institutions in New Zealand.",
+      "block_type": "statement",
+      "line_start": 61,
+      "line_end": 61,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0051",
+      "raw_text": "Tangata whenua and tangata Tiriti are partners in a bicultural society.",
+      "block_type": "statement",
+      "line_start": 62,
+      "line_end": 62,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0052",
+      "raw_text": "International agreements (e.g. Universal Declaration of Human Rights) shape New Zealand’s commitment to global human rights.",
+      "block_type": "statement",
+      "line_start": 63,
+      "line_end": 63,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0053",
+      "raw_text": "Core responsibilities of citizenship",
+      "block_type": "statement",
+      "line_start": 64,
+      "line_end": 64,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0054",
+      "raw_text": "Obeying New Zealand’s laws to help keep society fair and safe.",
+      "block_type": "statement",
+      "line_start": 65,
+      "line_end": 65,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0055",
+      "raw_text": "Enrolling to vote when eligible.",
+      "block_type": "statement",
+      "line_start": 66,
+      "line_end": 66,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0056",
+      "raw_text": "Paying taxes to support services like hospitals, schools, and transport.",
+      "block_type": "statement",
+      "line_start": 67,
+      "line_end": 67,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0057",
+      "raw_text": "Respecting the rights and freedoms of others.",
+      "block_type": "statement",
+      "line_start": 68,
+      "line_end": 68,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0058",
+      "raw_text": "Acting in ways that support the wellbeing of the community and country.",
+      "block_type": "statement",
+      "line_start": 69,
+      "line_end": 69,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0059",
+      "raw_text": "Using trustworthy sources, understanding different viewpoints, and thinking critically about news and information.",
+      "block_type": "statement",
+      "line_start": 70,
+      "line_end": 70,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0060",
+      "raw_text": "Importance of shared responsibility",
+      "block_type": "statement",
+      "line_start": 71,
+      "line_end": 71,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0061",
+      "raw_text": "Responsibilities help people live together peacefully. They build trust and cooperation between people.",
+      "block_type": "statement",
+      "line_start": 72,
+      "line_end": 72,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0062",
+      "raw_text": "They protect everyone’s rights. When people do their part, everyone benefits.",
+      "block_type": "statement",
+      "line_start": 73,
+      "line_end": 73,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0063",
+      "raw_text": "Without shared responsibility, society can become unfair or unsafe.",
+      "block_type": "statement",
+      "line_start": 74,
+      "line_end": 74,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0064",
+      "raw_text": "Having rights also means doing your part to help others enjoy theirs.",
+      "block_type": "statement",
+      "line_start": 75,
+      "line_end": 75,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0065",
+      "raw_text": "Informed citizens are needed to participate in democracy.",
+      "block_type": "statement",
+      "line_start": 76,
+      "line_end": 76,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0066",
+      "raw_text": "how information can be collected about the ways people in the school community and local community volunteer their time how to engage in dialogue about the core ideas of democracy, fairness, and equality in relation to a current or local issue how to participate in a full experience of a voting process how information can be collected about laws and by-laws that need to be followed on the journey to and from school and considering why those laws are in place and how they might need to change the role of police in keeping people safe, investigating crime, and responding to emergencies how to survey and seek a range of viewpoints on a current or proposed law what makes for a good rule and a good law and considering why people may have different perspectives examples of rights and responsibilities and how these apply to them in everyday life engaging in dialogue about why rights and responsibilities matter for keeping society fair, safe, and cooperative how the significance of a key law that protects rights in New Zealand (e.g. Human Rights Act) can be assessed using a case study how international agreements (e.g. UN Declaration of Human Rights) influence New Zealand’s approach to human rights the responsibilities of citizenship, including obeying laws, voting, paying taxes, and respecting others then develop a campaign and associated materials for raising awareness of the rights and responsibilities of citizens in New Zealand",
+      "block_type": "statement",
+      "line_start": 77,
+      "line_end": 88,
+      "heading_path": [
+        "RIGHTS AND RESPONSIBILITIES"
+      ]
+    }
+  ]
+}

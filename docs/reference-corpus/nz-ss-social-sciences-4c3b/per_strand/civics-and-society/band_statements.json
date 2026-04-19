@@ -1,0 +1,1384 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people vote to choose leaders in our community."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how elections help people choose who will make decisions for them."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how voting works and identify different types of government roles."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe how democratic elections lead to government formation and basic government functions."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can explain the relationships between elections, government formation, and different levels of government."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse how democratic processes connect elections to government structures and their specific roles."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate the effectiveness of democratic governance structures in different political and social contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify how democratic systems balance power through elections and multi-level governance across diverse societies."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people vote to choose leaders in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how elections help people choose who will make decisions for them."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how voting works and identify different types of government roles."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe how democratic elections lead to government formation and basic government functions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the relationships between elections, government formation, and different levels of government."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how democratic processes connect elections to government structures and their specific roles."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness of democratic governance structures in different political and social contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how democratic systems balance power through elections and multi-level governance across diverse societies."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people vote to choose leaders in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how elections work and why we have different government leaders."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the basic roles of local and national government in making decisions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare how different levels of government are formed through democratic elections."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how electoral systems connect citizen voting to government formation and representation."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of democratic structures in ensuring accountable governance across multiple levels."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how democratic governance structures balance power distribution between different governmental institutions and citizens."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse democratic governance effectiveness across diverse political contexts and constitutional frameworks."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people vote to choose leaders in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how elections help people choose who will make decisions for them."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the basic process of voting and how governments are formed after elections."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the roles of local and national government and how they make different decisions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how democratic elections work and compare the functions of different government levels."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how electoral systems influence government formation and the distribution of political power."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness of democratic governance structures in representing diverse community interests and needs."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how different democratic systems and government structures respond to complex societal challenges and changing contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple ways to help in my classroom and school community."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify different ways to participate in school decisions and local community activities."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can identify various opportunities to contribute to community groups and local decision-making processes."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can identify and describe multiple pathways for civic participation in local and regional governance."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can identify and explain diverse civic participation opportunities across different levels of government."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can identify and analyse various civic participation methods and their potential effectiveness in different contexts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can identify and evaluate civic participation opportunities considering their impact on democratic processes and outcomes."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can identify and justify strategic civic participation approaches for addressing complex societal challenges effectively."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple ways to help in my classroom and school community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify different ways to participate in school decisions and local community activities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify various opportunities to contribute to community groups and local decision-making processes."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe multiple pathways for civic participation in local and regional governance."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain diverse civic participation opportunities across different levels of government."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse various civic participation methods and their potential effectiveness in different contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate civic participation opportunities considering their impact on democratic processes and outcomes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify strategic civic participation approaches for addressing complex societal challenges effectively."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple ways to help in my classroom and school community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify basic opportunities to participate in school decisions and local community activities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify various ways to contribute to community groups and local decision-making processes."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify meaningful civic participation opportunities across different levels of government and community organizations."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and compare diverse civic participation pathways that align with personal values and community needs."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify strategic civic participation opportunities and explain their potential impact on democratic processes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify complex civic participation opportunities and analyze their effectiveness in addressing societal challenges."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify innovative civic participation approaches and evaluate their transformative potential across diverse democratic contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple ways to help in my classroom and school community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify different ways to participate in my local community activities and events."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify various opportunities to contribute to community decision-making processes in my area."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe multiple civic participation opportunities available to citizens in democratic systems."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain how different civic participation methods influence community and government decisions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse the effectiveness of various civic participation opportunities across different democratic contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate the most appropriate civic participation strategies for specific community issues and goals."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify optimal civic participation approaches across diverse democratic systems and cultural contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that laws are rules that help people live together safely."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can explain that laws exist to keep people safe and describe simple rules."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe the main purposes of laws and identify basic types of laws."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how laws protect people and property while identifying different categories of laws."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the purposes of laws and compare different types of laws systematically."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of laws in achieving their purposes across various legal contexts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify the purposes of laws and analyse relationships between different types of laws."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate how laws serve multiple purposes and apply legal frameworks across contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that laws are rules that help people live together safely."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that laws exist to keep people safe and describe simple rules."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the main purposes of laws and identify basic types of laws."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how laws protect people and property while identifying different categories of laws."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the purposes of laws and compare different types of laws systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of laws in achieving their purposes across various legal contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the purposes of laws and analyse relationships between different types of laws."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how laws serve multiple purposes and apply legal frameworks across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that laws are rules that help people live together safely."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that laws exist to keep people safe and describe simple rules."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the main purposes of laws and identify basic types of laws."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how laws protect people and property while identifying different categories of laws."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the multiple purposes of laws and compare different types of legal frameworks."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of laws in achieving their purposes across various legal contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the necessity of different law types by analysing their specific purposes comprehensively."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how different legal frameworks serve societal purposes across diverse cultural contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that laws are rules that help people live together safely."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that laws protect people and describe simple rules in my community."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe different types of laws and explain how they help organize society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain the main purposes of laws and identify how different laws apply to various situations."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how different types of laws serve specific purposes in maintaining social order."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of different laws in achieving their intended purposes within society."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the relationship between various types of laws and their roles in complex legal frameworks."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse how laws and legal frameworks adapt to serve evolving societal needs across different contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that courts, judges, and police help keep people safe in our community."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe the basic roles of courts, judges, and police in making sure rules are followed."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how courts, judges, and law enforcement work together to solve problems when laws are broken."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe the specific responsibilities of courts, judges, and law enforcement in the justice process."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can explain the relationships and interactions between courts, judges, and law enforcement in administering justice effectively."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse how courts, judges, and law enforcement collaborate to ensure fair and consistent administration of justice."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate the effectiveness of cooperation between courts, judges, and law enforcement in different justice scenarios."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse how courts, judges, and law enforcement interactions impact justice outcomes across diverse contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that courts, judges, and police help keep people safe in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe the basic roles of courts, judges, and police in making sure rules are followed."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how courts, judges, and law enforcement work together to solve problems when laws are broken."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the specific responsibilities of courts, judges, and law enforcement in the justice process."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the relationships and interactions between courts, judges, and law enforcement in administering justice effectively."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how courts, judges, and law enforcement collaborate to ensure fair and consistent administration of justice."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness of cooperation between courts, judges, and law enforcement in different justice scenarios."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse how courts, judges, and law enforcement interactions impact justice outcomes across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that courts, judges, and police help keep people safe in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe the basic roles of courts, judges, and police in making sure rules are followed."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how courts, judges, and law enforcement work together to solve problems when laws are broken."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the specific responsibilities of courts, judges, and law enforcement in the justice process."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how courts, judges, and law enforcement collaborate to ensure fair treatment and uphold legal standards."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the interconnected roles of courts, judges, and law enforcement in maintaining justice and protecting rights."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how effectively courts, judges, and law enforcement coordinate to deliver justice across different legal contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse the systemic relationships between courts, judges, and law enforcement in administering justice fairly."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that courts, judges, and police help keep people safe in our community."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe the basic roles of courts, judges, and police in making sure rules are followed."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how courts, judges, and law enforcement work together to handle rule-breaking situations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the specific responsibilities of courts, judges, and law enforcement in the justice process."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how courts, judges, and law enforcement collaborate to ensure fair legal outcomes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the interconnected roles of courts, judges, and law enforcement in administering justice effectively."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how courts, judges, and law enforcement coordinate to maintain justice across different legal contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how the collaborative functions of courts, judges, and law enforcement ensure comprehensive justice administration."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people have basic rights and responsibilities with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple rights and responsibilities that people have in my community."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how rights and responsibilities connect to each other in everyday situations."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe New Zealand's legal foundations and explain how they protect people's rights."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can explain how New Zealand's legal foundations create balanced relationships between rights and responsibilities."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse how New Zealand's legal foundations establish rights and responsibilities across different social contexts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate the effectiveness of New Zealand's legal foundations in balancing rights and responsibilities."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify how New Zealand's legal foundations should adapt to maintain rights and responsibilities balance."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people have basic rights and responsibilities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple rights and responsibilities that people have in my community."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how rights and responsibilities connect to each other in everyday situations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe New Zealand's legal foundations and explain how they protect people's rights."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how New Zealand's legal foundations create balanced relationships between rights and responsibilities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how New Zealand's legal foundations establish rights and responsibilities across different social contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness of New Zealand's legal foundations in balancing rights and responsibilities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how New Zealand's legal foundations should adapt to maintain rights and responsibilities balance."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people have basic rights and responsibilities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple rights and responsibilities that people have in New Zealand."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how rights and responsibilities connect to each other in everyday situations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain New Zealand's legal foundations for rights and how they apply in school and community."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between rights and responsibilities across different contexts in New Zealand society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how New Zealand's legal foundations for rights create balanced relationships between individual and collective responsibilities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how New Zealand's legal foundations establish rights and responsibilities that maintain social cohesion and democratic principles."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse New Zealand's legal foundations for rights and evaluate their effectiveness in balancing competing societal interests."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people have basic rights and responsibilities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple rights and responsibilities that people have in my community."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how rights and responsibilities connect to each other in everyday situations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe New Zealand's legal foundations and explain how they protect people's rights."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how New Zealand's legal foundations create balanced relationships between rights and responsibilities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how New Zealand's legal foundations shape the relationship between individual rights and social responsibilities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how effectively New Zealand's legal foundations balance competing rights and responsibilities in society."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how New Zealand's legal foundations should adapt to maintain appropriate rights-responsibilities relationships across contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_02",
+      "lt_name": "Analysing Democratic Historical Development",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Level 8:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that Ancient Greek ideas helped create New Zealand's voting system with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple connections between Ancient Greek democracy and New Zealand's democratic practices."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how specific Ancient Greek political concepts influenced New Zealand's democratic development."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare Ancient Greek democratic principles with New Zealand's current democratic system and institutions."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the transmission of Ancient Greek political ideas through history to New Zealand's democracy."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the significance of Ancient Greek influence on New Zealand's democratic evolution and contemporary governance."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically analyse how Ancient Greek political philosophy shaped New Zealand's democratic framework across multiple contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can synthesise complex relationships between Ancient Greek political theory and New Zealand's democratic development independently."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "lt_name": "Critical Information Analysis for Citizenship",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Level 7:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify different sources of information about community issues with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can recognise that people have different opinions about the same civic topic."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare two different viewpoints on a local community issue using guided questions."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can evaluate the reliability of information sources when researching a civic decision."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse multiple perspectives on civic issues and explain their underlying reasoning."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can critically assess bias in information sources and justify which viewpoints are most credible."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can synthesise complex civic information from diverse sources to form well-reasoned personal positions."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate competing civic arguments across contexts and construct sophisticated evidence-based recommendations."
+        }
+      ]
+    }
+  ]
+}

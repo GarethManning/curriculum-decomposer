@@ -1,0 +1,2420 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people cannot buy everything they want with their money."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can explain that having limited money means choosing between different things to buy."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe how people must choose between spending money now or saving it."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain why limited money forces people to prioritise their most important spending choices."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how financial constraints require people to evaluate trade-offs between competing options."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate how limited resources create opportunity costs when making financial spending decisions."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify how scarcity principles apply to personal financial decision-making across different contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyse complex financial trade-offs and justify optimal choices given multiple competing constraints."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cannot buy everything they want with their money."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that having limited money means choosing between different things to buy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how people must choose between spending money now or saving it."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain why limited money forces people to prioritise their most important spending choices."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how financial constraints require people to evaluate trade-offs between competing options."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how limited resources create opportunity costs when making financial spending decisions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how scarcity principles apply to personal financial decision-making across different contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse complex financial trade-offs and justify optimal choices given multiple competing constraints."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cannot buy everything they want with their money."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that having limited money means choosing between different things to buy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how people must choose between spending money now or saving it."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain why limited money forces people to prioritize their most important spending needs."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how financial constraints require people to evaluate competing spending and saving priorities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how limited resources force individuals to make trade-offs between immediate and future goals."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how scarcity of money requires systematic decision-making processes for optimal resource allocation."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse how financial limitations create opportunity costs that influence complex personal economic decisions."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cannot buy everything they want with their money."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that having limited money means choosing between different things to buy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how people must choose between spending money now or saving it."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain why limited money forces people to prioritize their most important spending needs."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how financial constraints require people to evaluate different spending and saving options."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how limited resources create opportunity costs when making financial spending and saving decisions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how financial constraints influence complex decision-making processes across multiple spending and saving scenarios."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse how resource limitations systematically shape financial decision-making patterns across diverse economic contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic banking services that people use with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple banking services and explain how they help people."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare different banking services and identify which ones suit specific needs."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse how banking services match different people's financial circumstances and goals."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate banking options by examining fees, features and benefits for various situations."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse complex banking services and justify recommendations based on detailed financial circumstances."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate comprehensive banking portfolios and explain how services integrate across financial lifecycles."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyse banking service ecosystems and evaluate their effectiveness across diverse economic contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic banking services that people use with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple banking services and explain how they help people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare different banking services and identify which ones suit specific needs."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse how banking services match different people's financial circumstances and goals."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate banking options by examining fees, features and benefits for various situations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex banking services and justify recommendations based on detailed financial circumstances."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate comprehensive banking portfolios and explain how services integrate across financial lifecycles."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse banking service ecosystems and evaluate their effectiveness across diverse economic contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic banking services that people use with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple banking services and explain how they help people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare different banking services and identify which ones suit specific needs."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse how banking services match different people's financial circumstances and goals."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate banking options by comparing features, costs, and benefits for specific situations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex banking services and justify recommendations based on detailed financial circumstances."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate comprehensive banking portfolios and explain how services integrate to meet evolving needs."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse banking services across diverse contexts and justify strategic choices for complex financial scenarios."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic banking services that people use with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple banking services and explain how they help people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare different banking services and identify which ones suit specific needs."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse how banking services match different people's financial circumstances and goals."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate multiple banking options and justify which services best meet particular financial situations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex banking service combinations and assess their suitability for diverse financial circumstances."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate comprehensive banking portfolios and justify optimal service selections for varied financial contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse banking service ecosystems and evaluate how they address complex financial needs across populations."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people exchange things they need with simple prompting and support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how people trade goods and services in familiar situations like shops."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain why people exchange different goods and services to meet their needs."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare different exchange systems and explain how specialisation helps people trade effectively."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how specialisation creates interdependence and drives trade between different groups and regions."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of various exchange systems and justify why specialisation leads to trade."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex trade relationships and evaluate how specialisation influences economic exchange across different contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate exchange systems and justify how specialisation drives trade in unfamiliar economic contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people exchange things they need with simple prompting and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people trade goods and services in familiar situations like shops."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain why people exchange different goods and services to meet their needs."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different exchange systems and explain how specialisation helps people trade effectively."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how specialisation creates interdependence and drives trade between different groups and regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of various exchange systems and justify why specialisation leads to trade."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex trade relationships and evaluate how specialisation influences economic exchange across different contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate exchange systems and justify how specialisation drives trade in unfamiliar economic contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people exchange things they need with simple prompting and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people trade goods and services in familiar situations like shops."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain why people exchange different items and how specialisation helps communities work."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different exchange systems and explain how specialisation creates opportunities for trade."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how various exchange systems operate and justify why specialisation leads to trade."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of different exchange systems and explain specialisation's role in trade."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex exchange systems across different contexts and justify how specialisation drives trade."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and compare exchange systems globally and justify specialisation's impact on international trade."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people exchange things they need with simple prompting and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people trade goods and services in familiar situations like shops."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain why people exchange different goods and services to meet their needs."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different exchange systems and explain how specialisation helps people trade effectively."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how specialisation creates interdependence and drives trade between different groups and regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of various exchange systems and justify why specialisation benefits economic development."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex trade relationships and evaluate how specialisation affects global economic exchange systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate interconnected exchange systems and justify how specialisation shapes contemporary global trade patterns."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple examples of trade in my local community with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic trade systems and give examples from my local area."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how trade systems work and identify specialisation in local businesses."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse local trade examples and describe how specialisation has developed over time."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can compare different trade systems and explain their historical development in local contexts."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse complex trade relationships and evaluate how specialisation shapes local economic development."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically analyse trade system evolution and justify how specialisation influences community economic patterns."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate trade system effectiveness and predict how specialisation trends will impact future local development."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple examples of trade in my local community with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic trade systems and give examples from my local area."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how trade systems work and identify specialisation in local businesses."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse local trade examples and describe how specialisation has developed over time."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can compare different trade systems and explain their historical development in local contexts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex trade relationships and evaluate how specialisation shapes local economic development."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse trade system evolution and justify how specialisation influences community economic patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate trade system effectiveness and predict how specialisation trends will impact future local development."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple examples of trade in my local community with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic trade systems and identify specialisation in familiar local businesses."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how trade systems work and analyse simple specialisation patterns in communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse trade development over time and evaluate specialisation benefits in local economies."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can compare different trade systems and analyse their historical development across multiple communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate complex trade relationships and analyse how specialisation shapes regional economic development."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse interconnected trade systems and evaluate their historical evolution across diverse contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate global trade development patterns and justify specialisation impacts on communities."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple examples of trade in my local community with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic trade systems and identify specialisation in familiar local businesses."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how trade systems work and analyse simple specialisation patterns in communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse trade development over time and evaluate specialisation benefits in local economies."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can examine complex trade systems and justify how historical development shaped local specialisation."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate interconnected trade systems and analyse how specialisation influences regional economic development."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse trade system evolution and evaluate specialisation impacts across multiple communities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesise trade development patterns and justify specialisation strategies across diverse economic contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple jobs that people do in my community with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify different types of work and describe how they help people."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe various kinds of work and explain how they contribute to communities."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain different types of work and analyse how they meet community needs or generate income."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse various forms of work and evaluate their economic and social contributions to society."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate different work types and justify their importance for economic development and social wellbeing."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex work relationships and evaluate how different employment types contribute to economic systems."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate diverse work forms and justify their interconnected roles in sustaining economic and social structures."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple jobs that people do in my community with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify different types of work and describe how they help people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe various kinds of work and explain how they contribute to communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain different types of work and analyse how they meet community needs or generate income."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse various forms of work and evaluate their economic and social contributions to society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate different work types and justify their importance for economic development and social wellbeing."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex work relationships and evaluate how different employment types contribute to economic systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate diverse work forms and justify their interconnected roles in sustaining economic and social structures."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify different types of work that people do in my community with support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify different types of work and describe how some jobs help other people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe various types of work and explain how they help others or earn money."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain different types of work and analyse how they contribute to community needs and economic activity."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse various types of work and evaluate their economic and social contributions to society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate different types of work and justify their importance for economic development and social wellbeing."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex relationships between different types of work and their broader economic and social impacts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and justify the interconnected roles of different work types in complex economic and social systems."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple jobs that people do in my community with support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify different types of work and describe how they help people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe various kinds of work and explain how they contribute to communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain different types of work and analyse how they meet community needs or generate income."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse various forms of work and evaluate their economic and social contributions to society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate diverse work types and justify their importance for economic development and social wellbeing."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex work relationships and evaluate how different employment types contribute to economic systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate interconnected work systems and justify how various employment forms drive economic and social progress."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that businesses need money to buy things and sell things to customers."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can explain that businesses make money by selling products and spend money on supplies."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe how businesses generate revenue from sales and incur costs for materials and wages."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how businesses calculate profit by subtracting total costs from total revenue earned."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse different revenue streams and cost categories to determine a business's overall profitability."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate how various business decisions affect revenue generation, cost management, and profit calculations."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex financial operations including multiple revenue sources, variable costs, and profit margins."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate and justify financial strategies for optimising revenue, controlling costs, and maximising profitability."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that businesses need money to buy things and sell things to customers."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that businesses make money by selling products and spend money on supplies."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how businesses generate revenue from sales and incur costs for materials and wages."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how businesses calculate profit by subtracting total costs from total revenue earned."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse different revenue streams and cost categories to determine a business's overall profitability."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how various business decisions affect revenue generation, cost management, and profit calculations."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex financial operations including multiple revenue sources, variable costs, and profit margins."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and justify financial strategies for optimising revenue, controlling costs, and maximising profitability."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that businesses need money to buy things and sell things to customers."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that businesses make money by selling products and spend money on materials."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how businesses generate revenue from sales and incur costs for supplies and wages."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how businesses calculate profit by subtracting total costs from total revenue earned."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse different revenue streams and cost categories to determine a business's overall profitability."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how various business decisions impact revenue generation, cost management, and profit calculations."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify business financial strategies by analysing complex relationships between revenue sources, cost structures, and profit margins."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate and compare financial operations across different business models to optimise profitability outcomes."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that businesses need money to buy things and sell things to customers."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain that businesses make money by selling products and spend money on supplies."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how businesses generate revenue from sales and incur costs for materials and wages."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how businesses calculate profit by subtracting total costs from total revenue earned."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse different revenue streams and cost categories to determine business profitability accurately."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate complex financial operations including fixed costs, variable costs, and multiple revenue sources."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify profit calculations considering indirect costs, depreciation, and seasonal revenue variations comprehensively."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse and communicate sophisticated financial operations across diverse business models and market conditions."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic costs and prices in simple business examples with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how costs and revenue work together in familiar business situations."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare costs and pricing strategies across different types of business operations."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse the relationship between costs, pricing, and revenue in detailed business scenarios."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate how changes in costs and pricing affect business revenue and profitability."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse complex business operations by examining multiple cost factors and revenue streams systematically."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify business decisions by analysing comprehensive cost-benefit relationships across varied operational contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate business viability by analysing interconnected cost, pricing, and revenue dynamics independently."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic costs and prices in simple business examples with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how costs and revenue work together in familiar business situations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare costs and pricing strategies across different types of business operations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse the relationship between costs, pricing, and revenue in detailed business scenarios."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how changes in costs and pricing affect business revenue and profitability."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex business operations by examining multiple cost factors and revenue streams systematically."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify business decisions by analysing comprehensive cost-benefit relationships across varied operational contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate business viability by analysing interconnected cost, pricing, and revenue dynamics independently."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic costs and prices in simple business examples with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how costs and revenue work together in familiar business situations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare costs, pricing, and revenue across different business operations with support."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse the relationship between costs, pricing, and revenue in straightforward business contexts."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how changes in costs and pricing affect revenue in complex business scenarios."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse multiple factors affecting costs, pricing, and revenue across varied business operations independently."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify business decisions by analysing interconnected cost, pricing, and revenue patterns comprehensively."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate and predict business outcomes by analysing cost-revenue relationships in unfamiliar contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic costs and prices in simple business examples with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how costs and revenue relate in familiar business situations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare costs, pricing, and revenue across different business operations independently."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how pricing decisions affect revenue and costs in specific business contexts."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationships between costs, pricing, and revenue in complex business operations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate business operations by examining multiple cost factors and their revenue implications."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify business decisions by analysing comprehensive cost, pricing, and revenue data systematically."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse business operations across diverse contexts using sophisticated cost-revenue reasoning."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic values that guide simple business activities with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how different values influence the way businesses operate in familiar contexts."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare how contrasting values shape different types of business and enterprise models."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how specific values and pūtake determine the structure and practices of various enterprises."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the relationship between underlying values and the operational choices of different business models."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of how values-based approaches influence enterprise success and sustainability."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically assess how conflicting values create tensions within complex enterprise models and operations."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify recommendations for aligning enterprise models with values across diverse cultural and economic contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic values that guide simple business activities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different values influence the way businesses operate in familiar contexts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare how contrasting values shape different types of business and enterprise models."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how specific values and pūtake determine the structure and practices of various enterprises."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between underlying values and the operational choices of different business models."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of how values-based approaches influence enterprise success and sustainability."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically assess how conflicting values create tensions within complex enterprise models and operations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify recommendations for aligning enterprise models with values across diverse cultural and economic contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic values that guide simple business activities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different values influence the way businesses operate in familiar contexts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare how contrasting values lead to different approaches in business and enterprise models."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how specific values and pūtake determine the structure and practices of various enterprises."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between underlying values and the operational choices made by different enterprises."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of values-based enterprise models in achieving their intended social and economic outcomes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically assess how values and pūtake create distinct enterprise models across diverse cultural and economic contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify the relative merits of different values-based enterprise approaches for addressing complex contemporary business challenges."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic values that guide simple business activities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different values influence the way businesses operate in familiar contexts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare how contrasting values lead to different approaches in business enterprises."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how specific values and pūtake determine the structure of various enterprise models."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between underlying values and the operational choices of different enterprises."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of values-based enterprise models across multiple business contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify which values-based enterprise models are most suitable for specific economic situations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how values and pūtake create sustainable enterprise models across diverse global contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that borrowing money means you need to pay it back later."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe what happens when someone borrows money and owes debt to others."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how credit allows people to buy things now and pay later."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe how interest makes debt grow and affects borrowing decisions over time."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can explain how credit systems connect lenders and borrowers through established financial processes."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse how credit terms and debt obligations create ongoing financial responsibilities for borrowers."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate how credit systems influence economic activity and individual financial decision-making patterns."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify how credit and debt relationships function within broader economic and regulatory frameworks."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that borrowing money means you need to pay it back later."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happens when someone borrows money and owes debt to others."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how credit allows people to buy things now and pay later."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe how interest makes debt grow and affects borrowing decisions over time."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how credit systems connect lenders and borrowers through established financial processes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how credit terms and debt obligations create ongoing financial responsibilities for borrowers."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how credit systems influence economic activity and individual financial decision-making patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how credit and debt relationships function within broader economic and regulatory frameworks."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that borrowing money means you need to pay it back later."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happens when someone borrows money and explain basic repayment expectations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how credit works and describe the connection between borrowing and debt."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain credit systems and describe how borrowing creates debt obligations with interest."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how credit systems operate and analyse the relationship between borrowing and debt."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse credit systems and explain how borrowing decisions create various types of debt obligations."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate credit systems and analyse complex relationships between borrowing capacity and debt management."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse credit systems and evaluate how borrowing decisions impact long-term financial obligations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that borrowing money means you need to pay it back later."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happens when someone borrows money and owes debt to others."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how credit allows people to buy things before they have the money."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe how interest makes debt grow and affects the total amount owed."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how credit systems connect lenders and borrowers through formal agreements and obligations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how different types of credit create varying debt obligations and repayment structures."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how credit systems influence economic behaviour and create interdependent financial relationships."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how credit and debt systems function across different economic contexts and regulatory frameworks."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_02",
+      "lt_name": "Planning and Managing Personal Finances",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Level 3:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can create simple shopping lists with guidance and identify basic costs of familiar items."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can create shopping lists independently and compare prices between two similar products."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can calculate total costs for multiple items and develop basic weekly savings plans."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare prices across different stores and create monthly savings plans using simple tools."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse cost differences between brands and develop detailed savings plans for specific goals."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate multiple financial options systematically and create comprehensive budgets using digital tools."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify financial decisions based on detailed cost-benefit analysis and long-term planning strategies."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can apply sophisticated financial planning principles across diverse contexts and evaluate complex investment scenarios."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "lt_name": "Analyzing Work Choices and Influences",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'long'), ('Level 7', 'long'), ('Level 8', 'long')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'long'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'long'))]"
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "lt_name": "Applying Financial Planning Tools",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Level 8:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic financial planning tools like budgets with teacher guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can use simple budgets to track my spending with some support."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can create basic budgets to plan for simple financial decisions independently."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can apply budgets and savings plans to make informed decisions about purchases."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can use multiple financial planning tools to analyse and compare different spending options."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate complex financial decisions using comprehensive budgets and planning strategies effectively."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify financial choices by applying sophisticated planning tools across various scenarios."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can transfer advanced financial planning principles to novel situations requiring strategic decision-making."
+        }
+      ]
+    }
+  ]
+}

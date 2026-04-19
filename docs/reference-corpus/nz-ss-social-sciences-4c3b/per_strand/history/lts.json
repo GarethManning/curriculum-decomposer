@@ -1,0 +1,1427 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-history",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Treaty of Waitangi and Colonial Foundations",
+      "lt_name": "Treaty Foundations and Key Figures",
+      "lt_definition": "I can identify the Treaty of Waitangi as New Zealand's founding agreement and describe the roles of key figures in its creation and early responses.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0013_item_01",
+        "blk_0014_item_01",
+        "blk_0016_item_01",
+        "blk_0017_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0020_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Commemoration",
+            "Researching Treaty History"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance",
+            "Investigating Treaty History"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Investigation"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Treaty of Waitangi and Colonial Foundations",
+      "lt_name": "Contemporary Treaty Significance and Commemoration",
+      "lt_definition": "I can explain the ongoing importance of the Treaty of Waitangi in New Zealand's public life and describe how Waitangi Day is commemorated.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0015_item_01",
+        "blk_0059_item_01",
+        "blk_0059_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Commemoration",
+            "Researching Treaty History"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance",
+            "Investigating Treaty History"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Investigation"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "cluster_id": "cluster_01",
+      "competency_name": "Treaty of Waitangi and Colonial Foundations",
+      "lt_name": "Researching Treaty History",
+      "lt_definition": "I can collect and evaluate information about the signing of the Treaty of Waitangi using appropriate historical inquiry methods.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0059_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Commemoration",
+            "Researching Treaty History"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance",
+            "Investigating Treaty History"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Treaty Foundations and Key Figures",
+            "Contemporary Treaty Significance and Investigation"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (2, ('Type 1', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "cluster_id": "cluster_02",
+      "competency_name": "Natural Events and Historical Impact",
+      "lt_name": "Historical Evidence Analysis",
+      "lt_definition": "I can use primary sources like newspaper articles, photographs, and first-hand accounts to reconstruct how natural events impacted historical communities.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0040_item_01",
+        "blk_0060_item_03",
+        "blk_0060_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "cluster_id": "cluster_02",
+      "competency_name": "Natural Events and Historical Impact",
+      "lt_name": "Societal Impact Assessment",
+      "lt_definition": "I can analyze how natural events like the Tarawera eruption transformed social, economic, and cultural practices of affected communities.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0028_item_01",
+        "blk_0030_item_01",
+        "blk_0060_item_01",
+        "blk_0060_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Historical Evidence Analysis",
+            "Societal Impact Assessment"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Early European Contact and Cultural Exchange",
+      "lt_name": "Early Contact Events and Developments",
+      "lt_definition": "I can describe key events, people, and developments in early Māori-European contact from the 1790s through the 1830s.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0044_item_01",
+        "blk_0045_item_01",
+        "blk_0046_item_01",
+        "blk_0048_item_01",
+        "blk_0049_item_01",
+        "blk_0050_item_01",
+        "blk_0052_item_01",
+        "blk_0053_item_01",
+        "blk_0056_item_01",
+        "blk_0058_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural Exchange Impacts"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural and Social Change"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural and Social Change"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Early European Contact and Cultural Exchange",
+      "lt_name": "Analysing Cultural Exchange Impacts",
+      "lt_definition": "I can analyse the causes and consequences of cultural, economic, and social changes during early Māori-European contact.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0054_item_01",
+        "blk_0061_item_01",
+        "blk_0061_item_02",
+        "blk_0061_item_03",
+        "blk_0061_item_04",
+        "blk_0061_item_05"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural Exchange Impacts"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural and Social Change"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Early Contact Events and Developments",
+            "Analysing Cultural and Social Change"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "cluster_id": "cluster_04",
+      "competency_name": "Ancient Greek Civilization",
+      "lt_name": "Ancient Greek Society and Culture",
+      "lt_definition": "I can describe the structure, beliefs, and cultural achievements of Ancient Greek civilization.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0064_item_01",
+        "blk_0065_item_01",
+        "blk_0067_item_01",
+        "blk_0069_item_01",
+        "blk_0071_item_01",
+        "blk_0072_item_01",
+        "blk_0073_item_01",
+        "blk_0076_item_01",
+        "blk_0079_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Greek Political Systems",
+            "Evaluating Historical Sources"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Ancient Greek Historical Impact"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Greek Political Systems"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 2', 'Type 2')): 1, (2, ('Type 1', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "cluster_id": "cluster_04",
+      "competency_name": "Ancient Greek Civilization",
+      "lt_name": "Analyzing Ancient Greek Historical Impact",
+      "lt_definition": "I can analyze the causes, effects, and significance of Ancient Greek political developments and their influence on the modern world.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0068_item_01",
+        "blk_0077_item_01",
+        "blk_0129_item_01",
+        "blk_0129_item_03",
+        "blk_0129_item_04",
+        "blk_0129_item_05"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Greek Political Systems",
+            "Evaluating Historical Sources"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Ancient Greek Historical Impact"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Ancient Greek Society and Culture",
+            "Analyzing Greek Political Systems"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 2', 'Type 2')): 1, (2, ('Type 1', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "cluster_id": "cluster_05",
+      "competency_name": "Ancient Chinese Civilization",
+      "lt_name": "Ancient Chinese Agricultural and Social Systems",
+      "lt_definition": "I can describe how ancient Chinese agricultural innovations supported population growth and social organization.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0087_item_01",
+        "blk_0087_item_02",
+        "blk_0091_item_01",
+        "blk_0092_item_01",
+        "blk_0092_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Political Structure",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Leadership",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Technology and Trade"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 1'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 1')): 2, (2, ('Type 1', 'Type 1')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "cluster_id": "cluster_05",
+      "competency_name": "Ancient Chinese Civilization",
+      "lt_name": "Ancient Chinese Governance and Political Structure",
+      "lt_definition": "I can explain the roles and relationships within ancient Chinese political hierarchy and administration.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0089_item_01",
+        "blk_0089_item_02",
+        "blk_0089_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Political Structure",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Leadership",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Technology and Trade"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 1'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 1')): 2, (2, ('Type 1', 'Type 1')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_03",
+      "cluster_id": "cluster_05",
+      "competency_name": "Ancient Chinese Civilization",
+      "lt_name": "Ancient Chinese Technology and Trade",
+      "lt_definition": "I can identify key technological innovations and economic systems in ancient China.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0094_item_01",
+        "blk_0094_item_02",
+        "blk_0099_item_01",
+        "blk_0099_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Political Structure",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Governance and Leadership",
+            "Ancient Chinese Technology and Trade"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Ancient Chinese Agricultural and Social Systems",
+            "Ancient Chinese Technology and Trade"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 1'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 1')): 2, (2, ('Type 1', 'Type 1')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "cluster_id": "cluster_06",
+      "competency_name": "Elizabethan England",
+      "lt_name": "Elizabethan Political and Religious Systems",
+      "lt_definition": "I can describe the structure and functioning of Elizabethan government, monarchy, Parliament, and religious practices.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0106_item_01",
+        "blk_0107_item_01",
+        "blk_0108_item_01",
+        "blk_0108_item_02",
+        "blk_0108_item_03",
+        "blk_0110_item_01",
+        "blk_0110_item_02",
+        "blk_0110_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Social and Cultural Features",
+            "Power Dynamics Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics in Elizabethan Government"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "cluster_id": "cluster_06",
+      "competency_name": "Elizabethan England",
+      "lt_name": "Elizabethan Social and Cultural Features",
+      "lt_definition": "I can identify the characteristics of Elizabethan social classes, education, cultural developments, and exploration.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0104_item_01",
+        "blk_0112_item_01",
+        "blk_0113_item_01",
+        "blk_0113_item_02",
+        "blk_0113_item_03",
+        "blk_0116_item_01",
+        "blk_0116_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Social and Cultural Features",
+            "Power Dynamics Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics in Elizabethan Government"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_03",
+      "cluster_id": "cluster_06",
+      "competency_name": "Elizabethan England",
+      "lt_name": "Power Dynamics Analysis",
+      "lt_definition": "I can analyse the relationship between monarchical authority and parliamentary power in Elizabethan England.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0105_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Social and Cultural Features",
+            "Power Dynamics Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics in Elizabethan Government"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Elizabethan Political and Religious Systems",
+            "Elizabethan Society and Cultural Developments",
+            "Power Dynamics Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "cluster_id": "cluster_07",
+      "competency_name": "Victorian England",
+      "lt_name": "Victorian Political and Social Structure",
+      "lt_definition": "I can describe the constitutional monarchy system, parliamentary government, and social changes in Victorian England.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0120_item_01",
+        "blk_0121_item_01",
+        "blk_0122_item_01",
+        "blk_0122_item_02",
+        "blk_0123_item_01",
+        "blk_0125_item_01",
+        "blk_0118_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Power Analysis"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "cluster_id": "cluster_07",
+      "competency_name": "Victorian England",
+      "lt_name": "Victorian Technological and Imperial Expansion",
+      "lt_definition": "I can identify key technological innovations and describe the expansion of the British Empire during Victoria's reign.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0126_item_01",
+        "blk_0127_item_01",
+        "blk_0128_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Power Analysis"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "cluster_id": "cluster_07",
+      "competency_name": "Victorian England",
+      "lt_name": "Constitutional Monarchy Power Analysis",
+      "lt_definition": "I can explain the relationship between monarchical authority and parliamentary power in Victorian constitutional monarchy.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0119_item_01",
+        "blk_0121_item_01",
+        "blk_0122_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Power Analysis"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Victorian Political and Social Structure",
+            "Victorian Technological and Imperial Expansion",
+            "Constitutional Monarchy Power Analysis"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "cluster_id": "cluster_08",
+      "competency_name": "Historical Comparison and Analysis",
+      "lt_name": "Analyzing Historical Similarities and Differences",
+      "lt_definition": "I can analyze similarities and differences between historical periods across multiple aspects of society.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0129_item_02",
+        "blk_0131_item_01",
+        "blk_0131_item_02",
+        "blk_0131_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "cluster_id": "cluster_08",
+      "competency_name": "Historical Comparison and Analysis",
+      "lt_name": "Evaluating Historical Change and Continuity",
+      "lt_definition": "I can evaluate the significance of changes and continuities between different historical societies.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0129_item_02",
+        "blk_0131_item_01",
+        "blk_0131_item_02",
+        "blk_0131_item_03"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Analyzing Historical Similarities and Differences",
+            "Evaluating Historical Change and Continuity"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "cluster_id": "cluster_09",
+      "competency_name": "Roman Civilization",
+      "lt_name": "Roman Society and Government Structure",
+      "lt_definition": "I can describe the structure of Roman society, government systems, and the transition from republic to empire.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0134_item_01",
+        "blk_0136_item_01",
+        "blk_0137_item_01",
+        "blk_0137_item_02",
+        "blk_0140_item_01",
+        "blk_0142_item_01",
+        "blk_0149_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Systems",
+            "Roman Cultural Achievements and Legacy",
+            "Analyzing Roman Political and Religious Transformations"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_02",
+      "cluster_id": "cluster_09",
+      "competency_name": "Roman Civilization",
+      "lt_name": "Roman Cultural and Military Achievements",
+      "lt_definition": "I can identify Roman military organization, religious beliefs, and architectural innovations.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0139_item_01",
+        "blk_0144_item_01",
+        "blk_0147_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Systems",
+            "Roman Cultural Achievements and Legacy",
+            "Analyzing Roman Political and Religious Transformations"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_03",
+      "cluster_id": "cluster_09",
+      "competency_name": "Roman Civilization",
+      "lt_name": "Analyzing Roman Historical Significance",
+      "lt_definition": "I can explain why Rome transitioned from republic to empire and analyze Rome's lasting impact on the modern world.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0141_item_01",
+        "blk_0150_item_01",
+        "blk_0150_item_02",
+        "blk_0150_item_03",
+        "blk_0150_item_04",
+        "blk_0150_item_05"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Systems",
+            "Roman Cultural Achievements and Legacy",
+            "Analyzing Roman Political and Religious Transformations"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Roman Society and Government Structure",
+            "Roman Cultural and Military Achievements",
+            "Analyzing Roman Historical Significance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_clusters": []
+}

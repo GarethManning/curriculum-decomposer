@@ -1,0 +1,1488 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-history",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_2oct91e0/strand-history",
+  "manifest_content_hash": "a01e288c63d217fb4f3fcf8e8e49294e9f9a176a416fd36e143717b861b8e44a",
+  "phase0_version": "0.4.0",
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "content_blocks": [
+    {
+      "block_id": "blk_0001",
+      "raw_text": "History Knowledge",
+      "block_type": "statement",
+      "line_start": 1,
+      "line_end": 2,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0002",
+      "raw_text": "The facts, concepts, principles, and theories to teach.",
+      "block_type": "statement",
+      "line_start": 3,
+      "line_end": 3,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0003",
+      "raw_text": "Practices",
+      "block_type": "statement",
+      "line_start": 4,
+      "line_end": 4,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0004",
+      "raw_text": "The skills, strategies, and applications to teach.",
+      "block_type": "statement",
+      "line_start": 5,
+      "line_end": 5,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0005",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 6,
+      "line_end": 6,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0006",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 7,
+      "line_end": 7,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0007",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 8,
+      "line_end": 8,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0008",
+      "raw_text": "During Year 4",
+      "block_type": "statement",
+      "line_start": 9,
+      "line_end": 9,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0009",
+      "raw_text": "During Year 5",
+      "block_type": "statement",
+      "line_start": 10,
+      "line_end": 10,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0010",
+      "raw_text": "During Year 6",
+      "block_type": "statement",
+      "line_start": 11,
+      "line_end": 11,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0011",
+      "raw_text": "New Zealand History",
+      "block_type": "statement",
+      "line_start": 12,
+      "line_end": 12,
+      "heading_path": []
+    },
+    {
+      "block_id": "blk_0012",
+      "raw_text": "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI",
+      "block_type": "heading",
+      "line_start": 13,
+      "line_end": 13,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0013",
+      "raw_text": "The Treaty of Waitangi | te Tiriti o Waitangi is important as New Zealand’s founding agreement between the British Crown and Māori rangatira (chiefs).",
+      "block_type": "statement",
+      "line_start": 14,
+      "line_end": 14,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0014",
+      "raw_text": "The Treaty of Waitangi | te Tiriti o Waitangi was first signed on 6 February 1840 at Waitangi in the Bay of Islands.",
+      "block_type": "statement",
+      "line_start": 15,
+      "line_end": 15,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0015",
+      "raw_text": "The Treaty of Waitangi | te Tiriti o Waitangi has ongoing significance as a symbol of mutual respect, shared heritage, and commitment to working together.",
+      "block_type": "statement",
+      "line_start": 16,
+      "line_end": 16,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0016",
+      "raw_text": "There are two documents: the Treaty of Waitangi in English and te Tiriti o Waitangi in te reo Māori.",
+      "block_type": "statement",
+      "line_start": 17,
+      "line_end": 17,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0017",
+      "raw_text": "James Busby acted as the British Resident in New Zealand from 1833. He played a role in developing the first New Zealand flag in 1834 (United Tribes flag) and helped to facilitate the drafting of the Treaty of Waitangi in 1840.",
+      "block_type": "statement",
+      "line_start": 18,
+      "line_end": 18,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0018",
+      "raw_text": "William Hobson was the first Governor of New Zealand. He proposed a treaty with Māori to establish British sovereignty.",
+      "block_type": "statement",
+      "line_start": 19,
+      "line_end": 19,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0019",
+      "raw_text": "Henry Williams translated the Treaty of Waitangi into te reo Māori with his son Edward and explained it to Māori chiefs. As the leader of the Church Missionary Society in New Zealand, he contributed to the spread of Christianity among Māori and expanded colonial settlement. He also attempted to prevent hostilities at Kororāreka in 1845.",
+      "block_type": "statement",
+      "line_start": 20,
+      "line_end": 20,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0020",
+      "raw_text": "Hōne Heke was the first Māori chief to sign the Treaty of Waitangi in 1840. Later, he led Māori resistance against British colonial authority over Treaty breaches and to protect rangatiratanga. He ordered the cutting of the British flagstaff at Kororāreka four times between 1844 and 1845, sparking the Northern War.",
+      "block_type": "statement",
+      "line_start": 21,
+      "line_end": 21,
+      "heading_path": [
+        "SIGNIFICANCE OF THE TREATY OF WAITANGI | TE TIRITI O WAITANGI"
+      ]
+    },
+    {
+      "block_id": "blk_0021",
+      "raw_text": "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND",
+      "block_type": "heading",
+      "line_start": 22,
+      "line_end": 22,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0022",
+      "raw_text": "Mt Tarawera",
+      "block_type": "statement",
+      "line_start": 23,
+      "line_end": 23,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0023",
+      "raw_text": "Pink and White Terraces.",
+      "block_type": "statement",
+      "line_start": 24,
+      "line_end": 24,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0024",
+      "raw_text": "Promotion of New Zealand landscapes to Victorian travellers. An early site of tourism.",
+      "block_type": "statement",
+      "line_start": 25,
+      "line_end": 25,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0025",
+      "raw_text": "The eruption (1886) and impacts:",
+      "block_type": "statement",
+      "line_start": 26,
+      "line_end": 26,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0026",
+      "raw_text": "Lasted six hours and caused massive destruction.",
+      "block_type": "statement",
+      "line_start": 27,
+      "line_end": 27,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0027",
+      "raw_text": "Destroyed a number of villages and buried the Pink and White Terraces.",
+      "block_type": "statement",
+      "line_start": 28,
+      "line_end": 28,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0028",
+      "raw_text": "Devastating impact through loss of life; loss of landscape. Impact on the livelihoods of Māori — guiding and tourism.",
+      "block_type": "statement",
+      "line_start": 29,
+      "line_end": 29,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0029",
+      "raw_text": "Interpretations of the events at the time: phantom canoe, Sophia Hinerangi, Tuhoto Ariki.",
+      "block_type": "statement",
+      "line_start": 30,
+      "line_end": 30,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0030",
+      "raw_text": "Subsequent development (1931) of Buried Village of Te Wairoa as a tourist attraction and archaeological site.",
+      "block_type": "statement",
+      "line_start": 31,
+      "line_end": 31,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0031",
+      "raw_text": "A case study building on Year 5 Geography",
+      "block_type": "statement",
+      "line_start": 32,
+      "line_end": 32,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0032",
+      "raw_text": "Teachers choose one of the following as a case study with a focus on recovery and regeneration:",
+      "block_type": "statement",
+      "line_start": 33,
+      "line_end": 33,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0033",
+      "raw_text": "Hawke’s Bay earthquake (1931)",
+      "block_type": "statement",
+      "line_start": 34,
+      "line_end": 34,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0034",
+      "raw_text": "Tangiwai Disaster (1953)",
+      "block_type": "statement",
+      "line_start": 35,
+      "line_end": 35,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0035",
+      "raw_text": "Cyclone Giselle (1968)",
+      "block_type": "statement",
+      "line_start": 36,
+      "line_end": 36,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0036",
+      "raw_text": "Southland Floods (1984)",
+      "block_type": "statement",
+      "line_start": 37,
+      "line_end": 37,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0037",
+      "raw_text": "Cyclone Bola (1988)",
+      "block_type": "statement",
+      "line_start": 38,
+      "line_end": 38,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0038",
+      "raw_text": "Canterbury earthquake (2011)",
+      "block_type": "statement",
+      "line_start": 39,
+      "line_end": 39,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0039",
+      "raw_text": "West Coast Floods (2022)",
+      "block_type": "statement",
+      "line_start": 40,
+      "line_end": 40,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0040",
+      "raw_text": "Newspaper articles, first-hand accounts, and photographic evidence can enrich this study.",
+      "block_type": "statement",
+      "line_start": 41,
+      "line_end": 41,
+      "heading_path": [
+        "NATURAL EVENTS OF HISTORICAL SIGNIFICANCE IN NEW ZEALAND"
+      ]
+    },
+    {
+      "block_id": "blk_0041",
+      "raw_text": "NEW ZEALAND TO 1840",
+      "block_type": "heading",
+      "line_start": 42,
+      "line_end": 42,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0042",
+      "raw_text": "Impact, including Māori response, of early European contact on:",
+      "block_type": "statement",
+      "line_start": 43,
+      "line_end": 43,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0043",
+      "raw_text": "Trade and settlement",
+      "block_type": "statement",
+      "line_start": 44,
+      "line_end": 44,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0044",
+      "raw_text": "Sealing and whaling (from the 1790s, port towns and trading posts, Māori–Pākehā individuals like Barnet Burns).",
+      "block_type": "statement",
+      "line_start": 45,
+      "line_end": 45,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0045",
+      "raw_text": "Māori provision of timber, flax, and food in exchange for muskets, iron goods, and blankets.",
+      "block_type": "statement",
+      "line_start": 46,
+      "line_end": 46,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0046",
+      "raw_text": "Impact of new diseases (measles, influenza) on Māori population.",
+      "block_type": "statement",
+      "line_start": 47,
+      "line_end": 47,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0047",
+      "raw_text": "Missionaries, literacy, and cultural exchange",
+      "block_type": "statement",
+      "line_start": 48,
+      "line_end": 48,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0048",
+      "raw_text": "Arrival of Christian missionaries: provision of European farming tools, healthcare, and schooling.",
+      "block_type": "statement",
+      "line_start": 49,
+      "line_end": 49,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0049",
+      "raw_text": "Establishment of a te reo Māori press, distribution of translations, and rapid growth of literacy.",
+      "block_type": "statement",
+      "line_start": 50,
+      "line_end": 50,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0050",
+      "raw_text": "Māori adaptation of Christian ideas alongside traditional Indigenous spiritual practices.",
+      "block_type": "statement",
+      "line_start": 51,
+      "line_end": 51,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0051",
+      "raw_text": "Land ownership and sovereignty",
+      "block_type": "statement",
+      "line_start": 52,
+      "line_end": 52,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0052",
+      "raw_text": "Petitions to King William IV and other Crown appeals by rangatira seeking protection, redress, or recognition.",
+      "block_type": "statement",
+      "line_start": 53,
+      "line_end": 53,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0053",
+      "raw_text": "1835 Declaration of Independence | He Whakaputanga signed by rangatira.",
+      "block_type": "statement",
+      "line_start": 54,
+      "line_end": 54,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0054",
+      "raw_text": "Early land-purchase deeds (New Zealand Company), contrasting Māori concepts of use, tūrangawaewae, and mana versus the Crown’s notion of permanent sale.",
+      "block_type": "statement",
+      "line_start": 55,
+      "line_end": 55,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0055",
+      "raw_text": "The Musket Wars",
+      "block_type": "statement",
+      "line_start": 56,
+      "line_end": 56,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0056",
+      "raw_text": "Musket Wars (c.1810s–1830s): causes, major campaigns, and consequences for population movements and tribal boundaries. Hongi Hika’s role.",
+      "block_type": "statement",
+      "line_start": 57,
+      "line_end": 57,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0057",
+      "raw_text": "Moriori",
+      "block_type": "statement",
+      "line_start": 58,
+      "line_end": 58,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0058",
+      "raw_text": "The expression of mana through Nunuku’s Law and the renunciation of violence even in the face of great external challenges (the arrival of Europeans from the 1790s and of Ngāti Tama and Ngāti Mutunga from 1835).",
+      "block_type": "statement",
+      "line_start": 59,
+      "line_end": 59,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0059",
+      "raw_text": "For example, consider: examples of different ways that people commemorate Waitangi Day across New Zealand why the Treaty of Waitangi | te Tiriti o Waitangi is important to public life in New Zealand today how information can be collected about the signing of the Treaty of Waitangi | te Tiriti o Waitangi",
+      "block_type": "statement",
+      "line_start": 60,
+      "line_end": 63,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0060",
+      "raw_text": "For example, consider: how Māori social, economic, and cultural practices changed following the Tarawera eruption the consequences on trade and settlement the changes to population and environments over the period how legislation and town planning evolved followed natural events how sources such as newspaper articles, first-hand accounts, and photographic evidence can be used to reconstruct historical narratives how historical documents and artefacts can be studied to understand how and why societies and events change over time",
+      "block_type": "statement",
+      "line_start": 64,
+      "line_end": 70,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0061",
+      "raw_text": "For example, consider: how Māori social, economic, and cultural practices changed with the arrival of European settlers the consequences of European arrival on trade and settlement the causes of the Musket Wars the consequences of missionaries, literacy, and cultural exchange on Māori society the changes to population and environments over the period Global History",
+      "block_type": "statement",
+      "line_start": 71,
+      "line_end": 77,
+      "heading_path": [
+        "NEW ZEALAND TO 1840"
+      ]
+    },
+    {
+      "block_id": "blk_0062",
+      "raw_text": "ANCIENT GREECE C.800 BCE–323 BCE",
+      "block_type": "heading",
+      "line_start": 78,
+      "line_end": 78,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0063",
+      "raw_text": "Where and when",
+      "block_type": "statement",
+      "line_start": 79,
+      "line_end": 79,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0064",
+      "raw_text": "Location and geographical features of Ancient Greek city states.",
+      "block_type": "statement",
+      "line_start": 80,
+      "line_end": 80,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0065",
+      "raw_text": "Timeline of key periods: Archaic, Classical, Hellenistic.",
+      "block_type": "statement",
+      "line_start": 81,
+      "line_end": 81,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0066",
+      "raw_text": "Government and society: Athens and other city states",
+      "block_type": "statement",
+      "line_start": 82,
+      "line_end": 82,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0067",
+      "raw_text": "How society was structured, including role of women and slaves and daily life.",
+      "block_type": "statement",
+      "line_start": 83,
+      "line_end": 83,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0068",
+      "raw_text": "What the role of government was, with a focus on democracy and empire.",
+      "block_type": "statement",
+      "line_start": 84,
+      "line_end": 84,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0069",
+      "raw_text": "How Sparta and Corinth were different from Athens (as city states)",
+      "block_type": "statement",
+      "line_start": 85,
+      "line_end": 85,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0070",
+      "raw_text": "Religious beliefs and culture",
+      "block_type": "statement",
+      "line_start": 86,
+      "line_end": 86,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0071",
+      "raw_text": "The importance of religion: gods, temples, and festivals (Olympics, Dionysia).",
+      "block_type": "statement",
+      "line_start": 87,
+      "line_end": 87,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0072",
+      "raw_text": "Development of philosophy and importance of philosophers including: Socrates, Plato, and Aristotle.",
+      "block_type": "statement",
+      "line_start": 88,
+      "line_end": 88,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0073",
+      "raw_text": "The importance of Art, architecture, literature, and drama (tragedy and comedy).",
+      "block_type": "statement",
+      "line_start": 89,
+      "line_end": 89,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0074",
+      "raw_text": "Military and warfare",
+      "block_type": "statement",
+      "line_start": 90,
+      "line_end": 90,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0075",
+      "raw_text": "Importance of hoplites.",
+      "block_type": "statement",
+      "line_start": 91,
+      "line_end": 91,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0076",
+      "raw_text": "Significance of key battles in the Persian Wars (Marathon, Thermopylae, Salamis).",
+      "block_type": "statement",
+      "line_start": 92,
+      "line_end": 92,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0077",
+      "raw_text": "The Peloponnesian War: causes and effect on Greek unity and identity.",
+      "block_type": "statement",
+      "line_start": 93,
+      "line_end": 93,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0078",
+      "raw_text": "Greek legacies",
+      "block_type": "statement",
+      "line_start": 94,
+      "line_end": 94,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0079",
+      "raw_text": "Contributions to government, philosophy, science, architecture.",
+      "block_type": "statement",
+      "line_start": 95,
+      "line_end": 95,
+      "heading_path": [
+        "ANCIENT GREECE C.800 BCE–323 BCE"
+      ]
+    },
+    {
+      "block_id": "blk_0080",
+      "raw_text": "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE",
+      "block_type": "heading",
+      "line_start": 96,
+      "line_end": 96,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0081",
+      "raw_text": "Shang Dynasty",
+      "block_type": "statement",
+      "line_start": 97,
+      "line_end": 97,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0082",
+      "raw_text": "Where and when?",
+      "block_type": "statement",
+      "line_start": 98,
+      "line_end": 98,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0083",
+      "raw_text": "Yellow River valley (northern China).",
+      "block_type": "statement",
+      "line_start": 99,
+      "line_end": 99,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0084",
+      "raw_text": "About 1600–1046 BCE.",
+      "block_type": "statement",
+      "line_start": 100,
+      "line_end": 100,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0085",
+      "raw_text": "Bronze Age.",
+      "block_type": "statement",
+      "line_start": 101,
+      "line_end": 101,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0086",
+      "raw_text": "Farming",
+      "block_type": "statement",
+      "line_start": 102,
+      "line_end": 102,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0087",
+      "raw_text": "Flood control and millet/rice paddy fields — building ditches and fields held back floods. Creation of reliable agricultural surpluses for towns.",
+      "block_type": "statement",
+      "line_start": 103,
+      "line_end": 103,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0088",
+      "raw_text": "Power and rulers (government)",
+      "block_type": "statement",
+      "line_start": 104,
+      "line_end": 104,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0089",
+      "raw_text": "Hereditary kings directed religious rituals although not considered divine. Made law, raised taxes, led armies. Leaders in regions helped the king govern.",
+      "block_type": "statement",
+      "line_start": 105,
+      "line_end": 105,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0090",
+      "raw_text": "People and daily life",
+      "block_type": "statement",
+      "line_start": 106,
+      "line_end": 106,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0091",
+      "raw_text": "Social hierarchy: king → priests → warriors → artisans → farmers → slaves.",
+      "block_type": "statement",
+      "line_start": 107,
+      "line_end": 107,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0092",
+      "raw_text": "Timber houses on raised earth platforms — homes built up high stayed dry in floods and kept people safe. Clan-based villages.",
+      "block_type": "statement",
+      "line_start": 108,
+      "line_end": 108,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0093",
+      "raw_text": "Trade",
+      "block_type": "statement",
+      "line_start": 109,
+      "line_end": 109,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0094",
+      "raw_text": "Used cowrie shells as currency; traded bronze, jade, and silk were traded across long distances on the silk road.",
+      "block_type": "statement",
+      "line_start": 110,
+      "line_end": 110,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0095",
+      "raw_text": "Religious beliefs and practices",
+      "block_type": "statement",
+      "line_start": 111,
+      "line_end": 111,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0096",
+      "raw_text": "Ancestor worship and bronze ding vessels.",
+      "block_type": "statement",
+      "line_start": 112,
+      "line_end": 112,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0097",
+      "raw_text": "Oracle-bone inscriptions.",
+      "block_type": "statement",
+      "line_start": 113,
+      "line_end": 113,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0098",
+      "raw_text": "Writing and other inventions Bronze casting.",
+      "block_type": "statement",
+      "line_start": 114,
+      "line_end": 115,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0099",
+      "raw_text": "Chariots with spoked wheels and yokes Silk weaving and hemp textiles.",
+      "block_type": "statement",
+      "line_start": 116,
+      "line_end": 116,
+      "heading_path": [
+        "DYNASTIES IN ANCIENT AND IMPERIAL CHINA, C.2100–1912 CE"
+      ]
+    },
+    {
+      "block_id": "blk_0100",
+      "raw_text": "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES",
+      "block_type": "heading",
+      "line_start": 117,
+      "line_end": 117,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0101",
+      "raw_text": "The Elizabethan age",
+      "block_type": "statement",
+      "line_start": 118,
+      "line_end": 118,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0102",
+      "raw_text": "Life for different groups in society",
+      "block_type": "statement",
+      "line_start": 119,
+      "line_end": 119,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0103",
+      "raw_text": "Nobility and gentry, merchants, farmers, labourers, and beggars and destitute. Role of women.",
+      "block_type": "statement",
+      "line_start": 120,
+      "line_end": 120,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0104",
+      "raw_text": "Children: education mostly for boys of higher status; many worked from young age. Around 30% of boys and 10% of girls learnt to read.",
+      "block_type": "statement",
+      "line_start": 121,
+      "line_end": 121,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0105",
+      "raw_text": "Monarch’s power versus power of Parliament or the people",
+      "block_type": "statement",
+      "line_start": 122,
+      "line_end": 122,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0106",
+      "raw_text": "Elizabeth I ruled England from 1558 to 1603.",
+      "block_type": "statement",
+      "line_start": 123,
+      "line_end": 123,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0107",
+      "raw_text": "Government: The monarch seen as the main ruler, an ‘absolute monarch’, with ‘government’ meaning the queen and her officials.",
+      "block_type": "statement",
+      "line_start": 124,
+      "line_end": 124,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0108",
+      "raw_text": "Parliament as a group of powerful men who helped make laws and grant taxes and did not represent ordinary people. Parliament’s limited power to challenge the queen. Most people had no say in choosing its members.",
+      "block_type": "statement",
+      "line_start": 125,
+      "line_end": 125,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0109",
+      "raw_text": "Religion",
+      "block_type": "statement",
+      "line_start": 126,
+      "line_end": 126,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0110",
+      "raw_text": "Protestant religious rules and practices. How they were enforced across England and the treatment of people who continued to follow Catholic beliefs.",
+      "block_type": "statement",
+      "line_start": 127,
+      "line_end": 127,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0111",
+      "raw_text": "Trade and exploration and changes in buildings, technology, or inventions and culture",
+      "block_type": "statement",
+      "line_start": 128,
+      "line_end": 128,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0112",
+      "raw_text": "Growth of exploration and overseas ventures and privateering, including links with the Americas and Africa.",
+      "block_type": "statement",
+      "line_start": 129,
+      "line_end": 129,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0113",
+      "raw_text": "Invention of the printing press in 1485. Growth of printing. Influence of Renaissance and works of William Shakespeare.",
+      "block_type": "statement",
+      "line_start": 130,
+      "line_end": 130,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0114",
+      "raw_text": "The Victorian age",
+      "block_type": "statement",
+      "line_start": 131,
+      "line_end": 131,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0115",
+      "raw_text": "Life for different groups in British society",
+      "block_type": "statement",
+      "line_start": 132,
+      "line_end": 132,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0116",
+      "raw_text": "Features of upper, middle, and working classes and underclass of destitute. Role of women.",
+      "block_type": "statement",
+      "line_start": 133,
+      "line_end": 133,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0117",
+      "raw_text": "Children: some worked in harsh conditions; access to schooling improved. By the end of Victoria’s reign, nearly the entire population could read and write.",
+      "block_type": "statement",
+      "line_start": 134,
+      "line_end": 134,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0118",
+      "raw_text": "Steady rise in average wages across the population during Queen Victoria’s reign, with more jobs and greater availability of everyday goods in shops (e.g. soap, matches, clothes, newspapers, toys).",
+      "block_type": "statement",
+      "line_start": 135,
+      "line_end": 135,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0119",
+      "raw_text": "Monarch’s power versus power of Parliament or the people",
+      "block_type": "statement",
+      "line_start": 136,
+      "line_end": 136,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0120",
+      "raw_text": "Queen Victoria was monarch of the United Kingdom from 1837 to 1901.",
+      "block_type": "statement",
+      "line_start": 137,
+      "line_end": 137,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0121",
+      "raw_text": "Queen Victoria did not have a role in daily decisions of government. Limited political power in a constitutional monarchy, with decisions made by elected government.",
+      "block_type": "statement",
+      "line_start": 138,
+      "line_end": 138,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0122",
+      "raw_text": "Government as prime minister and cabinet now drawn from the majority grouping of members of Parliament (MPs) in Parliament. Parliament still made up of the House of Lords and House of Commons.",
+      "block_type": "statement",
+      "line_start": 139,
+      "line_end": 139,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0123",
+      "raw_text": "Expanding voting rights, although working-class people remained excluded for much of the reign. No women could vote.",
+      "block_type": "statement",
+      "line_start": 140,
+      "line_end": 140,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0124",
+      "raw_text": "Religion",
+      "block_type": "statement",
+      "line_start": 141,
+      "line_end": 141,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0125",
+      "raw_text": "Largely Christian society with emergence of scientific challenge (e.g. Darwin’s theory of evolution).",
+      "block_type": "statement",
+      "line_start": 142,
+      "line_end": 142,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0126",
+      "raw_text": "Trade and exploration and changes in buildings, technology, and inventions",
+      "block_type": "statement",
+      "line_start": 143,
+      "line_end": 143,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0127",
+      "raw_text": "Expansion of global empire and trade networks, with links to Africa, Asia, and Oceania, including New Zealand.",
+      "block_type": "statement",
+      "line_start": 144,
+      "line_end": 144,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0128",
+      "raw_text": "Technological innovation, such as the telegraph, photography, gas lighting, and public sanitation systems. Rapid industrialisation.",
+      "block_type": "statement",
+      "line_start": 145,
+      "line_end": 145,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0129",
+      "raw_text": "For example, consider: what Athens and other Greek city states had in common similarities and differences in the role played by religion in society between the two periods the sources we use to find out about Ancient Greece and why it is sometimes difficult to be certain about how people lived at the time how the Ancient Greek civilisation was similar to and different from the Egyptian civilisation the historical significance of Ancient Greece in shaping the modern world",
+      "block_type": "statement",
+      "line_start": 146,
+      "line_end": 151,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0130",
+      "raw_text": "For example, consider: the differences between the different dynasties the sources we can use to find out about the Chinese religious beliefs and their societal impact the differences between the dynastic rule and other societal structures the societal impact of the Silk Road the historical significance of dynastic China in shaping the modern world",
+      "block_type": "statement",
+      "line_start": 152,
+      "line_end": 157,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0131",
+      "raw_text": "For example, consider: the similarities and differences in the monarch’s power versus the power of Parliament and the people between the two periods how life varied for different groups in Elizabethan and Victorian society the different types of trade and extent of exploration between the two periods",
+      "block_type": "statement",
+      "line_start": 158,
+      "line_end": 161,
+      "heading_path": [
+        "COMPARATIVE STUDY: THE ELIZABETHAN AND VICTORIAN AGES"
+      ]
+    },
+    {
+      "block_id": "blk_0132",
+      "raw_text": "ROME FROM REPUBLIC TO EMPIRE",
+      "block_type": "heading",
+      "line_start": 162,
+      "line_end": 162,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0133",
+      "raw_text": "Where and when?",
+      "block_type": "statement",
+      "line_start": 163,
+      "line_end": 163,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0134",
+      "raw_text": "Rome and its Empire: extent over time, including in Britain.",
+      "block_type": "statement",
+      "line_start": 164,
+      "line_end": 164,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0135",
+      "raw_text": "Government and society: The Roman Republic:",
+      "block_type": "statement",
+      "line_start": 165,
+      "line_end": 165,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0136",
+      "raw_text": "Structure of Roman society.",
+      "block_type": "statement",
+      "line_start": 166,
+      "line_end": 166,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0137",
+      "raw_text": "What is meant by a republic and how power was held and exercised in the Roman Republic.",
+      "block_type": "statement",
+      "line_start": 167,
+      "line_end": 167,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0138",
+      "raw_text": "Roman laws.",
+      "block_type": "statement",
+      "line_start": 168,
+      "line_end": 168,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0139",
+      "raw_text": "Roman army: training, armour, legions, what made them strong.",
+      "block_type": "statement",
+      "line_start": 169,
+      "line_end": 169,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0140",
+      "raw_text": "Roman emperors and how they ruled the Roman Empire",
+      "block_type": "statement",
+      "line_start": 170,
+      "line_end": 170,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0141",
+      "raw_text": "Why Rome stopped being a republic.",
+      "block_type": "statement",
+      "line_start": 171,
+      "line_end": 171,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0142",
+      "raw_text": "How rule by an emperor was different from rule by Senate in the Republic.",
+      "block_type": "statement",
+      "line_start": 172,
+      "line_end": 172,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0143",
+      "raw_text": "Roman religion",
+      "block_type": "statement",
+      "line_start": 173,
+      "line_end": 173,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0144",
+      "raw_text": "Roman gods and goddesses.",
+      "block_type": "statement",
+      "line_start": 174,
+      "line_end": 174,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0145",
+      "raw_text": "Festivals and temples (e.g. Saturnalia).",
+      "block_type": "statement",
+      "line_start": 175,
+      "line_end": 175,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0146",
+      "raw_text": "Roads, cities, and everyday life",
+      "block_type": "statement",
+      "line_start": 176,
+      "line_end": 176,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0147",
+      "raw_text": "Roman roads, baths, aqueducts, temples, forums.",
+      "block_type": "statement",
+      "line_start": 177,
+      "line_end": 177,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0148",
+      "raw_text": "Clothing, food, entertainment (gladiators, theatre).",
+      "block_type": "statement",
+      "line_start": 178,
+      "line_end": 178,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0149",
+      "raw_text": "The role of slaves in Roman society.",
+      "block_type": "statement",
+      "line_start": 179,
+      "line_end": 179,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    },
+    {
+      "block_id": "blk_0150",
+      "raw_text": "For example, consider: the differences between monarchical rule (e.g. Egyptian Pharaohs or Roman kings) and the Roman Republic the reasons why the Roman Republic ended the similarities and differences between Roman religion and beliefs in Ancient Egypt and Ancient Greece the sources we can use to find out about Romans’ religious beliefs the historical significance of the Roman Empire in shaping the modern world.",
+      "block_type": "statement",
+      "line_start": 180,
+      "line_end": 185,
+      "heading_path": [
+        "ROME FROM REPUBLIC TO EMPIRE"
+      ]
+    }
+  ]
+}

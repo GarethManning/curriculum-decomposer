@@ -1,0 +1,81 @@
+{
+  "band_labels": [
+    "Level 1",
+    "Level 2",
+    "Level 3",
+    "Level 4",
+    "Level 5",
+    "Level 6",
+    "Level 7",
+    "Level 8"
+  ],
+  "band_count": 8,
+  "age_range_hint": "ages 5-18 (Ministry of Education NZ; The New Zealand Curriculum)",
+  "source_type": "nz_curriculum",
+  "detection_confidence": "high",
+  "detection_rationale": "New Zealand Curriculum source (host=newzealandcurriculum.tahurangi.education.govt.nz). Levels 1-8.",
+  "band_self_reflection_prompts": {
+    "Level 1": "Tell me about a time you tried something at school. What did you do?",
+    "Level 2": "Tell me about a time you tried something hard. What did you do, and how did it feel?",
+    "Level 3": "Describe one thing you have noticed about yourself this term.",
+    "Level 4": "Compare what you have noticed about yourself with what your teacher or family has noticed.",
+    "Level 5": "Compare what you have noticed in yourself across two settings.",
+    "Level 6": "Analyse a pattern you can see in yourself across two or more settings.",
+    "Level 7": "Trace how your understanding of yourself in this area has developed over time.",
+    "Level 8": "Articulate the values that now guide how you act in this area, and what you still want to develop."
+  },
+  "band_details": [
+    {
+      "label": "Level 1",
+      "approximate_age_range": "ages 5-7",
+      "approximate_grade_year": "Years 1-2",
+      "developmental_descriptor": "Learners explore the world through play and structured first experiences, developing foundational literacy, numeracy, and awareness of their immediate environment and community."
+    },
+    {
+      "label": "Level 2",
+      "approximate_age_range": "ages 7-9",
+      "approximate_grade_year": "Years 3-4",
+      "developmental_descriptor": "Learners develop confidence in core skills and begin to work with greater independence. They make connections across subjects and grow in their understanding of community and relationships."
+    },
+    {
+      "label": "Level 3",
+      "approximate_age_range": "ages 9-11",
+      "approximate_grade_year": "Years 5-6",
+      "developmental_descriptor": "Learners engage with more complex concepts and develop analytical thinking. They build capacity to investigate questions and consider multiple perspectives."
+    },
+    {
+      "label": "Level 4",
+      "approximate_age_range": "ages 11-13",
+      "approximate_grade_year": "Years 7-8",
+      "developmental_descriptor": "Learners apply knowledge and skills across increasingly abstract contexts. They develop critical inquiry, self-management, and growing awareness of local and global issues."
+    },
+    {
+      "label": "Level 5",
+      "approximate_age_range": "ages 13-15",
+      "approximate_grade_year": "Years 9-10",
+      "developmental_descriptor": "Learners engage with specialised subject disciplines and develop sophisticated analytical and evaluative skills. They begin to exercise more autonomous learning and judgment."
+    },
+    {
+      "label": "Level 6",
+      "approximate_age_range": "ages 15-17",
+      "approximate_grade_year": "Years 11-12",
+      "developmental_descriptor": "Learners pursue qualifications and specialised study. They apply complex reasoning, extended research, and strong self-direction."
+    },
+    {
+      "label": "Level 7",
+      "approximate_age_range": "ages 16-18",
+      "approximate_grade_year": "Years 12-13",
+      "developmental_descriptor": "Learners demonstrate high-level conceptual understanding and independent inquiry. They evaluate, synthesise, and transfer learning across domains."
+    },
+    {
+      "label": "Level 8",
+      "approximate_age_range": "ages 17-18",
+      "approximate_grade_year": "Year 13",
+      "developmental_descriptor": "Learners exercise the highest level of critical thinking, intellectual independence, and values articulation in preparation for tertiary education and adult participation."
+    }
+  ],
+  "progression_philosophy": "The New Zealand Curriculum organises achievement objectives into eight levels, each spanning approximately two school years. Levels represent expected achievement rather than age-locked gates; learners may progress at different rates. Year groups shown are indicative, per Ministry of Education NZ guidance. Within each level, progression is described through achievement objectives and increasingly complex learning contexts.",
+  "source_reference": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---social-sciences-years-4---6/5637290852.p",
+  "source_slug": "strand-geography",
+  "detection_module_version": "0.1.0"
+}

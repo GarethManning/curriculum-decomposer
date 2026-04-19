@@ -1,0 +1,3133 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-civics-and-society",
+  "snapshot_path": "/var/folders/d1/1hd27b7s10gcc97hl5sm4lqr0000gn/T/strand_snapshots_resume_ixz8408b/strand-civics-and-society",
+  "classification_model": "claude-sonnet-4-20250514",
+  "classification_temperature": 0.3,
+  "self_consistency_runs": 3,
+  "items": [
+    {
+      "item_id": "blk_0012_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Democracy is a system in which citizens choose leaders through elections",
+      "source_block_id": "blk_0012",
+      "classification_rationale": "Definitional propositional knowledge - factual content about what democracy is",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0012_item_02",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Democracy can be contrasted with other forms of government, such as monarchy and dictatorship",
+      "source_block_id": "blk_0012",
+      "classification_rationale": "Conceptual understanding of how democracy relates to other government systems - transferable conceptual knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0013_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Value of democracy in ensuring fairness, equality, citizen voice, and peaceful leadership change",
+      "source_block_id": "blk_0013",
+      "classification_rationale": "Propositional knowledge about how democracy functions and its benefits - a conceptual claim about how political systems work that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0014_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "There are three-yearly general elections for the House of Representatives in New Zealand.",
+      "source_block_id": "blk_0014",
+      "classification_rationale": "Propositional/factual content about electoral timing - hard prerequisite sequence applies as this is foundational civic knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0015_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "House of Representatives as law-making body of New Zealand",
+      "source_block_id": "blk_0015",
+      "classification_rationale": "Propositional knowledge about institutional role - factual content about how government works",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0016_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Government formation by the party or coalition holding majority support in Parliament.",
+      "source_block_id": "blk_0016",
+      "classification_rationale": "Propositional knowledge about how democratic government formation works - factual content about parliamentary systems",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0017_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "The Prime Minister is the head of government, leading the Cabinet of ministers.",
+      "source_block_id": "blk_0017",
+      "classification_rationale": "Propositional knowledge about governmental structure - factual content that can be assessed through knowledge test",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0018_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "The Government is the central team making decisions on core government responsibilities such as schools, hospitals, roads, and public safety and deciding public spending.",
+      "source_block_id": "blk_0018",
+      "classification_rationale": "Propositional knowledge about how government functions - factual content about governmental structure and responsibilities",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0019_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Local councils are elected by the community to make our towns and cities better places to live",
+      "source_block_id": "blk_0019",
+      "classification_rationale": "Propositional knowledge about how local government works - factual content about democratic processes",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0019_item_02",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Local councils look after things like parks and playgrounds, libraries and swimming pools, rubbish and recycling, roads and footpaths, planning where buildings like houses can be built",
+      "source_block_id": "blk_0019",
+      "classification_rationale": "Factual knowledge about the specific responsibilities and services provided by local councils",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0020_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Impact of Ancient Greek political ideas on New Zealand's democracy",
+      "source_block_id": "blk_0020",
+      "classification_rationale": "Analytical capability across multiple lenses - requires reasoning about historical influence, political concepts, and contemporary democratic systems through multiple disciplinary frameworks",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0021_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Voting for leaders: first election in 1853 in which people chose leaders, like in Ancient Greece.",
+      "source_block_id": "blk_0021",
+      "classification_rationale": "Historical factual content about specific dates and events - propositional knowledge that must be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0022_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Parliament, in which groups met to make laws, began in 1854",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Factual historical information with specific date - propositional knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0022_item_02",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Māori and European settlers talked before the Constitution was written and had meetings to decide how New Zealand should be run",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Factual historical information about constitutional process - propositional knowledge",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0022_item_03",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Parliamentary democracy involves groups meeting to make laws together, similar to Greek councils",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Conceptual understanding of democratic governance structure - transferable concept",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0023_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Democratic principles of ensuring fairness, equality, and citizen voice",
+      "source_block_id": "blk_0023",
+      "classification_rationale": "Propositional knowledge about what democratic principles are and how they function - conceptual content that can be understood and explained",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0024_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Civic participation and contribution can be increased through: volunteering at school or in the community joining youth councils or school leadership groups attending hui or public meetings giving feedback in community consultations taking part in local projects or fundraising for good causes",
+      "source_block_id": "blk_0024",
+      "classification_rationale": "Propositional knowledge about methods for increasing civic participation - factual content about how civic engagement works",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0026_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Governments develop laws for a range of purposes, such as to prevent harm, protect wellbeing, and maintain order",
+      "source_block_id": "blk_0026",
+      "classification_rationale": "Propositional knowledge about the purposes of laws - factual content about how governments function",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0026_item_02",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Laws are legally binding rules that everyone in the country must follow",
+      "source_block_id": "blk_0026",
+      "classification_rationale": "Definitional knowledge about what laws are - factual content defining the nature and scope of laws",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0027_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "National laws, such as traffic rules (e.g. driving on the left, seat-belt requirements)",
+      "source_block_id": "blk_0027",
+      "classification_rationale": "Propositional knowledge about specific laws and regulations - factual content that can be learned and assessed through knowledge checks",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0028_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Local bylaws, such as noise limits in residential areas or pet control requirements (e.g. leashes, dog-exercise areas)",
+      "source_block_id": "blk_0028",
+      "classification_rationale": "Propositional knowledge about what local bylaws are and examples of their scope - factual content to be known",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0029_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Our community rules for safety and fairness",
+      "source_block_id": "blk_0029",
+      "classification_rationale": "Propositional knowledge about what community rules exist and their purpose - factual content that can be assessed through knowledge check",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0031_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Everyone is treated equally under the law.",
+      "source_block_id": "blk_0031",
+      "classification_rationale": "Propositional claim about how the legal system works - factual content about equal treatment principle",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0032_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Protection of individuals and property",
+      "source_block_id": "blk_0032",
+      "classification_rationale": "Propositional content about a fundamental purpose/function of laws and judicial systems - conceptual understanding that can be assessed through explanation or application",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0035_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Courts help make sure laws are followed and fair decisions are made based on those laws.",
+      "source_block_id": "blk_0035",
+      "classification_rationale": "Propositional knowledge about the function of courts in the legal system - factual content about how institutions work",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0036_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "In cases where someone is found guilty of breaking the law, courts can give punishments such as fines, community service, or time in prison.",
+      "source_block_id": "blk_0036",
+      "classification_rationale": "Propositional knowledge about how the judicial system works - factual content about court procedures and sentencing options",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0037_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Courts also help solve disagreements between people and protect individual rights.",
+      "source_block_id": "blk_0037",
+      "classification_rationale": "Propositional knowledge about the functions of courts - factual content about how the judicial system works",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0038_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Part of the role of the courts is to ensure justice is done.",
+      "source_block_id": "blk_0038",
+      "classification_rationale": "Propositional claim about how the judicial system works - describes a factual relationship between courts and their function that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0039_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Judges are neutral decision-makers, interpreting laws and ensuring fair outcomes.",
+      "source_block_id": "blk_0039",
+      "classification_rationale": "Propositional knowledge about the role and function of judges in the judicial system - factual content to be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0041_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Law enforcement, crime investigation, and crime prevention",
+      "source_block_id": "blk_0041",
+      "classification_rationale": "Propositional knowledge about three distinct areas of the legal system - factual content about what these domains involve",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0042_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Emergency response and personal safety via 111",
+      "source_block_id": "blk_0042",
+      "classification_rationale": "Propositional knowledge about emergency services access - factual content about how to access emergency response",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0044_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "School Community Officers support safe learning environments",
+      "source_block_id": "blk_0044",
+      "classification_rationale": "Propositional knowledge about the role/function of School Community Officers - factual content about how the world works",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0046_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Legal foundations of rights in New Zealand",
+      "source_block_id": "blk_0046",
+      "classification_rationale": "Propositional knowledge about legal foundations - factual content that must be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0047_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "New Zealand Bill of Rights Act 1990: Protects rights such as freedom of speech, belief, and peaceful protest.",
+      "source_block_id": "blk_0047",
+      "classification_rationale": "Propositional knowledge about what the Act protects - factual content that can be known and recalled",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0048_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Human Rights Act 1993: Protects people from unfair discrimination.",
+      "source_block_id": "blk_0048",
+      "classification_rationale": "Propositional knowledge about what a specific law does - factual content that can be known and assessed through knowledge check",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0049_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Electoral Act 1993: Defines voting rights and how elections work.",
+      "source_block_id": "blk_0049",
+      "classification_rationale": "Propositional knowledge about what the Electoral Act 1993 defines - factual content about legal framework",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0050_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Te Tiriti o Waitangi | the Treaty of Waitangi are foundational documents that inform the rights and responsibilities of individuals and institutions in New Zealand",
+      "source_block_id": "blk_0050",
+      "classification_rationale": "This is propositional knowledge about the foundational role of Te Tiriti/Treaty - a conceptual understanding that can be assessed through explanation of how these documents inform rights and responsibilities",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0051_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Tangata whenua and tangata Tiriti are partners in a bicultural society.",
+      "source_block_id": "blk_0051",
+      "classification_rationale": "Propositional claim about how New Zealand society is structured - a conceptual understanding about the nature of the relationship between Māori and non-Māori in New Zealand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0052_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "International agreements (e.g. Universal Declaration of Human Rights) shape New Zealand's commitment to global human rights.",
+      "source_block_id": "blk_0052",
+      "classification_rationale": "Propositional knowledge about how international agreements influence national commitments - factual content to be understood",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0054_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Obeying New Zealand's laws to help keep society fair and safe",
+      "source_block_id": "blk_0054",
+      "classification_rationale": "Describes a sustained default orientation - law-abiding behaviour that operates across contexts as an enacted capacity over time",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0055_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Enrolling to vote when eligible",
+      "source_block_id": "blk_0055",
+      "classification_rationale": "This describes a sustained civic orientation - the disposition to participate in democratic processes by default when opportunities arise, rather than an occasion-triggered skill deployed only when prompted",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0056_item_01",
+      "kud_column": "know",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Paying taxes to support services like hospitals, schools, and transport",
+      "source_block_id": "blk_0056",
+      "classification_rationale": "Propositional knowledge about civic responsibility and how tax systems fund public services - factual content about how society functions",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0057_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Respecting the rights and freedoms of others",
+      "source_block_id": "blk_0057",
+      "classification_rationale": "This describes a sustained default orientation - a quality that exists only as it is enacted over time across contexts, not an occasion-triggered skill",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0058_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Acting in ways that support the wellbeing of the community and country",
+      "source_block_id": "blk_0058",
+      "classification_rationale": "Describes a sustained default orientation - a way of acting that operates across contexts by default, not an occasion-triggered skill deployed when situations call for it",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0059_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Using trustworthy sources, understanding different viewpoints, and thinking critically about news and information",
+      "source_block_id": "blk_0059",
+      "classification_rationale": "Analytical capability deployed when encountering news and information - occasion-triggered skill requiring reasoning quality assessment",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0061_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Responsibilities help people live together peacefully. They build trust and cooperation between people.",
+      "source_block_id": "blk_0061",
+      "classification_rationale": "Propositional knowledge - causal claims about how responsibilities function in social contexts",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0062_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "They protect everyone's rights. When people do their part, everyone benefits.",
+      "source_block_id": "blk_0062",
+      "classification_rationale": "Propositional knowledge - causal claim about how rights protection and civic participation create mutual benefits",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0063_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Without shared responsibility, society can become unfair or unsafe.",
+      "source_block_id": "blk_0063",
+      "classification_rationale": "Propositional claim about how the world works - causal relationship between shared responsibility and societal outcomes",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0064_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Having rights also means doing your part to help others enjoy theirs",
+      "source_block_id": "blk_0064",
+      "classification_rationale": "This is a propositional claim about how rights work - a conceptual relationship between individual rights and reciprocal responsibilities that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0065_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Informed citizens are needed to participate in democracy",
+      "source_block_id": "blk_0065",
+      "classification_rationale": "Propositional claim about how democracy works - a conceptual relationship between citizen knowledge and democratic participation that learners must understand",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "halted_blocks": [
+    {
+      "block_id": "blk_0001",
+      "source_block_raw_text": "Civics and Society Knowledge",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0002",
+      "source_block_raw_text": "The facts, concepts, principles, and theories to teach.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable - this is a definitional statement about curriculum categories, not teachable content with observable learning outcomes"
+    },
+    {
+      "block_id": "blk_0003",
+      "source_block_raw_text": "Practices",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0004",
+      "source_block_raw_text": "The skills, strategies, and applications to teach.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0005",
+      "source_block_raw_text": "During Year 4",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0006",
+      "source_block_raw_text": "During Year 5",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0007",
+      "source_block_raw_text": "During Year 6",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0008",
+      "source_block_raw_text": "During Year 4",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0009",
+      "source_block_raw_text": "During Year 5",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0010",
+      "source_block_raw_text": "During Year 6",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0030",
+      "source_block_raw_text": "Rule of law",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable - this is a standalone section heading with no teachable content, propositional claim, or behavioral expectation"
+    },
+    {
+      "block_id": "blk_0033",
+      "source_block_raw_text": "Basis for a community with reliable safeguards, fostering orderly and peaceful functioning.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "The content is purely aspirational with no teachable destination - it describes abstract qualities ('reliable safeguards', 'orderly and peaceful functioning') without any propositional claims about how laws work, analytical skills for evaluating legal systems, or observable behaviors that could be assessed."
+    },
+    {
+      "block_id": "blk_0034",
+      "source_block_raw_text": "Court system",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable"
+    },
+    {
+      "block_id": "blk_0040",
+      "source_block_raw_text": "Police services",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "meta_or_nonteachable - this is a section header/navigation label with no teachable content or substantive claim"
+    },
+    {
+      "block_id": "blk_0043",
+      "source_block_raw_text": "Traffic control and road-safety education.",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "The phrase 'Traffic control and road-safety education' appears to be a topic label or heading with no teachable claim, learning expectation, or behavioural referent. It names a subject area but contains no propositional content to understand, no skill to deploy, and no orientation to sustain."
+    },
+    {
+      "block_id": "blk_0053",
+      "source_block_raw_text": "Core responsibilities of citizenship",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "This is a section heading or navigation label with no substantive teachable content - just the phrase 'Core responsibilities of citizenship' without any specification of what those responsibilities are or what learners should know, understand, or be able to do regarding them."
+    },
+    {
+      "block_id": "blk_0060",
+      "source_block_raw_text": "Importance of shared responsibility",
+      "halt_reason": "severe_underspecification",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": "severe",
+          "items_signature": []
+        }
+      ],
+      "diagnostic": "This is a section heading or navigation label with no teachable content - just the phrase 'Importance of shared responsibility' without any substantive claim, skill description, or behavioral expectation that could be operationalized"
+    },
+    {
+      "block_id": "blk_0066",
+      "source_block_raw_text": "how information can be collected about the ways people in the school community and local community volunteer their time how to engage in dialogue about the core ideas of democracy, fairness, and equality in relation to a current or local issue how to participate in a full experience of a voting process how information can be collected about laws and by-laws that need to be followed on the journey to and from school and considering why those laws are in place and how they might need to change the role of police in keeping people safe, investigating crime, and responding to emergencies how to survey and seek a range of viewpoints on a current or proposed law what makes for a good rule and a good law and considering why people may have different perspectives examples of rights and responsibilities and how these apply to them in everyday life engaging in dialogue about why rights and responsibilities matter for keeping society fair, safe, and cooperative how the significance of a key law that protects rights in New Zealand (e.g. Human Rights Act) can be assessed using a case study how international agreements (e.g. UN Declaration of Human Rights) influence New Zealand’s approach to human rights the responsibilities of citizenship, including obeying laws, voting, paying taxes, and respecting others then develop a campaign and associated materials for raising awareness of the rights and responsibilities of citizens in New Zealand",
+      "halt_reason": "classification_unreliable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "know",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "diagnostic": "no signature achieved 2/3 agreement across runs; observed signatures: [('items', (('do_skill', 'Type 1'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 2'))), ('items', (('do_skill', 'Type 1'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('know', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'))), ('items', (('do_skill', 'Type 1'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('do_skill', 'Type 2'), ('know', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 1'), ('understand', 'Type 2')))]"
+    }
+  ]
+}

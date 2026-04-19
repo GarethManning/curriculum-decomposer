@@ -1,0 +1,4975 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-history",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify the Treaty of Waitangi as an important agreement with help from my teacher."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify the Treaty of Waitangi as New Zealand's founding agreement and name one key figure."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe the Treaty of Waitangi as New Zealand's founding agreement and identify several key figures involved."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe the Treaty of Waitangi's significance and explain the basic roles of key figures in its creation."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can explain the Treaty of Waitangi's foundational importance and describe the varied roles of key figures and their responses."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse the Treaty of Waitangi's foundational significance and evaluate the different roles and motivations of key figures involved."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate the Treaty of Waitangi's complex foundational role and analyse how key figures' actions reflected broader colonial perspectives."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse the Treaty of Waitangi's foundational significance and justify interpretations of key figures' roles within wider historical contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify the Treaty of Waitangi as an important agreement with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify the Treaty of Waitangi as New Zealand's founding agreement between Māori and the Crown."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty of Waitangi as New Zealand's founding agreement and name key figures involved."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the Treaty of Waitangi's significance and explain the basic roles of key figures."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the Treaty of Waitangi's founding importance and describe how key figures contributed to its creation."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the Treaty of Waitangi's founding significance and evaluate the varied roles of key figures."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the Treaty of Waitangi's complex founding role and analyse key figures' motivations and responses."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse the Treaty of Waitangi's contested founding legacy and evaluate key figures' diverse perspectives."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "long"
+            ],
+            [
+              "Level 5",
+              "long"
+            ],
+            [
+              "Level 6",
+              "long"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify the Treaty of Waitangi as an important agreement with help from my teacher."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify the Treaty of Waitangi as New Zealand's founding agreement and name one key figure."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty of Waitangi as New Zealand's founding agreement and identify several key figures involved."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the Treaty of Waitangi's significance and explain the basic roles of key figures in its creation."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the Treaty of Waitangi's foundational importance and describe the varied roles of key figures and their responses."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the Treaty of Waitangi's foundational significance and evaluate the different roles and motivations of key figures involved."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the Treaty of Waitangi's complex foundational role and analyse how key figures' actions reflected broader colonial perspectives."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse the Treaty of Waitangi's foundational significance and justify interpretations of key figures' roles within wider historical contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "long"
+            ],
+            [
+              "Level 5",
+              "long"
+            ],
+            [
+              "Level 6",
+              "long"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify the Treaty of Waitangi as an important agreement with help from my teacher."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify the Treaty of Waitangi as New Zealand's founding agreement and name one key figure."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty of Waitangi as New Zealand's founding agreement and identify several key figures involved."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the Treaty of Waitangi's significance and explain the basic roles of key figures in its creation."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the Treaty of Waitangi's founding importance and describe the varied roles and responses of key figures."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the Treaty of Waitangi's foundational significance and evaluate the motivations behind key figures' roles and responses."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the Treaty of Waitangi's complex founding role and justify interpretations of key figures' diverse motivations and responses."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse the Treaty of Waitangi's multifaceted founding significance and construct reasoned arguments about key figures' strategic decisions."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'long'), ('Level 5', 'long'), ('Level 6', 'long'), ('Level 7', 'long'), ('Level 8', 'long')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that the Treaty of Waitangi is important and describe simple Waitangi Day activities."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can explain why the Treaty of Waitangi matters today and describe how people celebrate Waitangi Day."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe the Treaty's role in modern New Zealand and explain different ways Waitangi Day is commemorated."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how the Treaty influences current laws and policies and analyse various Waitangi Day commemoration practices."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the Treaty's impact on contemporary governance and evaluate the significance of different commemoration approaches."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the Treaty's ongoing relevance to national identity and justify the importance of diverse commemoration perspectives."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex Treaty applications in modern contexts and evaluate how commemorations reflect evolving national understanding."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate the Treaty's constitutional significance and analyse how commemorative practices shape contemporary national discourse."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "long"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that the Treaty of Waitangi is important and describe simple Waitangi Day activities."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain why the Treaty of Waitangi matters today and describe how people celebrate Waitangi Day."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty's role in modern New Zealand and explain different ways Waitangi Day is commemorated."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how the Treaty influences current New Zealand society and analyse various Waitangi Day commemoration practices."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the Treaty's ongoing significance in contemporary issues and evaluate different approaches to Waitangi Day commemoration."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the Treaty's complex role in modern governance and critically analyse diverse perspectives on Waitangi Day commemoration."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the Treaty's continuing relevance across multiple contexts and critically evaluate evolving approaches to Waitangi Day commemoration."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct sophisticated arguments about the Treaty's contemporary significance and evaluate commemoration practices within broader cultural frameworks."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that the Treaty of Waitangi is important and describe simple Waitangi Day activities."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain why the Treaty of Waitangi matters today and describe how people celebrate Waitangi Day."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty's role in modern New Zealand and explain different ways Waitangi Day is commemorated."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how the Treaty influences current laws and policies and analyse various Waitangi Day commemoration practices."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the Treaty's impact on contemporary governance and evaluate the significance of different commemoration approaches."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the Treaty's ongoing relevance to national identity and justify the importance of diverse commemoration perspectives."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex Treaty applications in modern contexts and evaluate how commemorations reflect evolving national understanding."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate the Treaty's constitutional significance and analyse how commemorative practices shape contemporary national discourse."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that the Treaty of Waitangi is important and describe simple Waitangi Day activities."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can explain why the Treaty of Waitangi matters today and describe how people celebrate Waitangi Day."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe the Treaty's role in modern New Zealand and explain different ways Waitangi Day is commemorated."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how the Treaty influences current laws and policies and analyse various Waitangi Day commemoration practices."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the Treaty's impact on contemporary governance and evaluate different perspectives on Waitangi Day commemorations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the Treaty's ongoing significance in political and social contexts and justify approaches to commemoration."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex Treaty interpretations in contemporary debates and evaluate commemoration practices across diverse communities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate the Treaty's evolving role in national identity and justify commemoration approaches considering multiple perspectives."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'long'), ('Level 7', 'long'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic information from simple primary sources about natural events with teacher guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe what happened during natural events using obvious details from primary sources."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how natural events affected communities by combining information from multiple primary sources."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse primary sources to reconstruct detailed impacts of natural events on historical communities."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate the reliability of primary sources when reconstructing natural events and their community impacts."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can synthesise diverse primary sources to construct comprehensive accounts of natural events' historical impacts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically analyse primary sources to reconstruct complex relationships between natural events and community responses."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can independently construct nuanced historical interpretations of natural events' impacts using sophisticated source analysis."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic information from simple primary sources about natural events with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happened during natural events using obvious details from primary sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events affected communities by combining information from multiple primary sources."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse primary sources to reconstruct detailed impacts of natural events on historical communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the reliability of primary sources when reconstructing natural events and their community impacts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can synthesise diverse primary sources to construct comprehensive accounts of natural events' historical impacts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse primary sources to reconstruct complex relationships between natural events and community responses."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can independently construct nuanced historical interpretations of natural events' impacts using sophisticated source analysis."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple information from primary sources about natural events with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happened to communities during natural events using obvious details from primary sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events affected historical communities by combining information from multiple primary sources."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse primary sources to reconstruct detailed impacts of natural events on different aspects of community life."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the reliability of primary sources when reconstructing how natural events transformed historical communities over time."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can synthesise diverse primary sources to reconstruct complex patterns of natural event impacts across multiple historical communities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse contradictory primary sources to reconstruct nuanced understanding of natural event impacts on historical communities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can independently reconstruct sophisticated interpretations of natural event impacts by evaluating and integrating complex primary source evidence."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic information from simple primary sources about natural events with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happened during natural events using obvious details from primary sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events affected communities by combining information from multiple primary sources."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse primary sources to reconstruct detailed impacts of natural events on historical communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the reliability of primary sources when reconstructing natural events and their community impacts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can synthesise diverse primary sources to construct comprehensive accounts of natural events' historical impacts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse primary source perspectives to reconstruct complex relationships between natural events and communities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can independently construct nuanced historical interpretations by evaluating primary source evidence across multiple contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple changes that natural events caused in communities with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic ways natural events affected how people lived in their communities."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how natural events changed daily life and work in affected communities."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyze how natural events transformed social relationships and economic activities in communities."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate how natural events reshaped cultural practices and community structures over time."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyze complex interactions between natural events and multiple aspects of community transformation."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate long-term societal transformations caused by natural events across different community contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyze how natural events fundamentally transformed interconnected social, economic, and cultural systems."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that natural events caused in communities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic ways natural events affected how people lived in their communities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events changed daily life and work in affected communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze how natural events transformed social relationships and economic activities in communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how natural events reshaped cultural practices and community structures over time."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex interactions between natural events and multiple aspects of community transformation."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate long-term societal transformations caused by natural events across different community contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyze how natural events fundamentally transformed interconnected social, economic, and cultural systems."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that natural events caused in communities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic ways natural events changed how people lived in their communities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events affected different aspects of community life and practices."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze specific social and economic changes that natural events brought to affected communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how natural events transformed social, economic, and cultural practices within communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex relationships between natural events and their varied impacts across different community groups."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate how natural events reshaped community structures and compare impacts across multiple contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize comprehensive analyses of natural event impacts and justify conclusions about long-term societal transformations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that natural events caused in communities with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic ways natural events changed how people lived in their communities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how natural events affected different aspects of community life and practices."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze specific social and economic changes that natural events brought to affected communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how natural events transformed multiple dimensions of community practices and relationships."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex interactions between natural events and cultural, social, and economic community transformations."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate long-term societal transformations caused by natural events across different community contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize comprehensive analyses of how natural events reshape societal structures across diverse historical contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple changes that happened when Māori and Europeans first met with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic cultural and economic changes during early Māori-European contact using provided examples."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain obvious causes and consequences of social changes during early Māori-European contact periods."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse clear connections between cultural exchange and economic changes during early Māori-European contact."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse multiple causes and consequences of cultural, economic, and social changes during Māori-European contact."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse complex interrelationships between cultural, economic, and social changes during early Māori-European contact periods."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse nuanced causes and consequences of cultural exchange impacts, evaluating their significance independently."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyse sophisticated patterns of cultural exchange impacts, justifying interpretations across varied historical contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happened when Māori and Europeans first met with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic cultural and economic changes during early Māori-European contact using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain obvious causes and consequences of social changes during early Māori-European contact periods."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse clear connections between cultural exchange and economic changes during early Māori-European contact."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes and consequences of cultural, economic, and social changes during Māori-European contact."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex interrelationships between cultural, economic, and social changes during early Māori-European contact periods."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse nuanced causes and consequences of cultural exchange impacts, evaluating their significance independently."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse sophisticated patterns of cultural exchange impacts, justifying interpretations across varied historical contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happened when Māori and Europeans first met with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic cultural and economic changes during early Māori-European contact using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain obvious causes and consequences of social changes during early Māori-European contact periods."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse clear connections between cultural exchange and economic changes during early Māori-European contact."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes and consequences of cultural, economic, and social changes during Māori-European contact."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex relationships between cultural, economic, and social changes during early Māori-European contact periods."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse interconnected causes and consequences of cultural exchange impacts across different Māori-European contact contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse nuanced causal relationships and evaluate long-term consequences of cultural exchange during Māori-European contact."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happened when Māori and Europeans first met with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic cultural and social changes during early Māori-European contact using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain obvious causes and consequences of cultural exchange during early Māori-European contact periods."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse clear connections between cultural, economic, and social changes during early Māori-European contact."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes and consequences of cultural exchange impacts during early Māori-European contact."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex relationships between cultural, economic, and social changes during early Māori-European contact."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse nuanced causes and consequences of cultural exchange impacts with detailed reasoning and evidence."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse sophisticated interconnections between cultural, economic, and social changes across varied historical contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic Ancient Greek political ideas with teacher support and simple visual aids."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple causes and effects of Ancient Greek political developments using provided examples."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how Ancient Greek political developments influenced their own society and culture."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare Ancient Greek political developments with modern democratic systems and identify clear connections."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyze multiple causes and effects of Ancient Greek political developments on contemporary civilizations."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the significance of Ancient Greek political developments across different historical periods and contexts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify the enduring influence of Ancient Greek political developments on modern global governance systems."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyze complex relationships between Ancient Greek political developments and contemporary international political structures."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Ancient Greek political ideas with teacher support and simple visual aids."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple causes and effects of Ancient Greek political developments using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how Ancient Greek political developments influenced their own society and culture."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare Ancient Greek political developments with modern democratic systems and identify clear connections."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze multiple causes and effects of Ancient Greek political developments on contemporary civilizations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the significance of Ancient Greek political developments across different historical periods and contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the enduring influence of Ancient Greek political developments on modern global governance systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyze complex relationships between Ancient Greek political developments and contemporary international political structures."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Ancient Greek political ideas with teacher support and prompting."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple causes and effects of Ancient Greek political developments using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how Ancient Greek political developments affected their society and daily life."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare Ancient Greek political developments with modern political systems and identify basic connections."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze multiple causes and effects of Ancient Greek political developments and their historical significance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the lasting influence of Ancient Greek political developments on contemporary democratic institutions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the significance of Ancient Greek political developments using detailed evidence and historical reasoning."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyze complex relationships between Ancient Greek political developments and modern governance across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "short"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Ancient Greek political systems with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple causes and effects of Ancient Greek political developments."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how Ancient Greek political ideas influenced later civilizations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze connections between Ancient Greek political developments and modern democratic systems."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the significance of Ancient Greek political innovations for contemporary governance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can compare Ancient Greek political influences across multiple modern political contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the enduring relevance of Ancient Greek political concepts in unfamiliar situations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct original arguments about Ancient Greek political legacy using sophisticated historical reasoning."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'short'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic farming tools and methods used in ancient China with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple agricultural innovations that helped ancient Chinese farmers grow more food."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how ancient Chinese farming improvements led to larger communities and populations."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe connections between agricultural innovations and the development of social classes in ancient China."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how specific agricultural technologies enabled population growth and influenced social organization structures."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the relationships between agricultural innovations, demographic changes, and emerging social hierarchies comprehensively."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify how agricultural developments fundamentally shaped ancient Chinese civilization's demographic and social transformation patterns."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse agricultural innovation impacts on population dynamics and social organization across varied contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic farming tools and methods used in ancient China with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple agricultural innovations that helped ancient Chinese farmers grow more food."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how ancient Chinese farming improvements led to larger communities and populations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe connections between agricultural innovations and the development of social classes in ancient China."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how specific agricultural technologies enabled population growth and influenced social organization structures."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationships between agricultural innovations, demographic changes, and emerging social hierarchies comprehensively."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how agricultural developments fundamentally shaped ancient Chinese civilization's demographic and social transformation patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse agricultural innovation impacts on population dynamics and social organization across varied contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic farming tools and practices used in ancient China with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple connections between ancient Chinese farming and how people lived together."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how ancient Chinese agricultural improvements helped more people survive and thrive."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe specific ancient Chinese agricultural innovations and their effects on population and community structure."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how ancient Chinese agricultural developments directly influenced social hierarchy and population distribution patterns."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the complex relationships between ancient Chinese agricultural systems and evolving social organizational structures."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how ancient Chinese agricultural innovations created interdependent systems supporting both demographic expansion and stratified society."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse ancient Chinese agricultural-social connections and apply this understanding to explain similar patterns across civilizations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that ancient Chinese people grew food and lived together in groups."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple ways ancient Chinese people improved farming to feed more people."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how ancient Chinese agricultural tools and methods helped communities grow larger."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how specific ancient Chinese farming innovations supported increasing population and community development."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain connections between ancient Chinese agricultural advances and the development of social structures."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how ancient Chinese agricultural innovations enabled population growth and influenced social organization patterns."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the relationships between ancient Chinese agricultural systems, demographic changes, and social hierarchy formation."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how ancient Chinese agricultural innovations fundamentally shaped population dynamics and complex social organizational systems."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic roles in ancient Chinese government with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple roles of emperors and officials in ancient Chinese government."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain key positions and their basic responsibilities in ancient Chinese political hierarchy."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare different levels of ancient Chinese government and explain their main relationships."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how various roles within ancient Chinese administration connected and influenced each other."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of ancient Chinese political structures and their administrative relationships."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify how ancient Chinese governance systems reflected broader social and cultural values."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyse ancient Chinese political hierarchies and apply this understanding to unfamiliar historical contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic roles in ancient Chinese government with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple roles of emperors and officials in ancient Chinese government."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key positions and their basic responsibilities in ancient Chinese political hierarchy."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different levels of ancient Chinese government and explain their main relationships."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how various roles within ancient Chinese administration connected and influenced each other."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of ancient Chinese political structures and their administrative relationships."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how ancient Chinese governance systems reflected broader social and cultural values."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse ancient Chinese political hierarchies and apply this understanding to unfamiliar historical contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic roles in ancient Chinese government with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple roles of rulers and officials in ancient Chinese government."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main levels of ancient Chinese political hierarchy and their purposes."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different roles within ancient Chinese administration and explain their relationships."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how ancient Chinese political hierarchy functioned and influenced government decisions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of ancient Chinese administrative systems and their interconnected relationships."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how ancient Chinese governance structures reflected broader social and cultural values."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse ancient Chinese political systems and apply understanding to unfamiliar governance contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic roles in ancient Chinese government with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple roles of rulers and officials in ancient Chinese government."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key positions and their basic functions in ancient Chinese political hierarchy."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different roles and explain relationships between levels in ancient Chinese administration."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how various positions interacted and influenced governance in ancient Chinese political systems."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of hierarchical relationships and administrative structures in ancient Chinese governance."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how political hierarchy and administration shaped power dynamics in ancient Chinese civilization."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct detailed arguments about governance effectiveness using evidence from ancient Chinese political structures."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_03",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic technological innovations from ancient China with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify key technological innovations and simple economic activities in ancient China."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe important technological innovations and explain basic economic systems in ancient China."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how technological innovations connected to economic systems in ancient Chinese civilization."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the relationships between technological innovations and economic development in ancient China."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the significance of technological innovations on ancient Chinese economic and social systems."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse how ancient Chinese technological innovations influenced economic systems across different regions and periods."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate the long-term impact of ancient Chinese technological innovations on global economic development patterns."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic technological innovations from ancient China with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key technological innovations and simple economic activities in ancient China."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe important technological innovations and explain basic economic systems in ancient China."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how technological innovations connected to economic systems in ancient Chinese civilization."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationships between technological innovations and economic development in ancient China."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the significance of technological innovations on ancient Chinese economic and social systems."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse how ancient Chinese technological innovations influenced economic systems across different regions and periods."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate the long-term impact of ancient Chinese technological innovations on global economic development patterns."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic technological innovations from ancient China with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key technological innovations and simple economic activities in ancient China."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe important technological innovations and explain basic economic systems in ancient China."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how technological innovations connected to economic systems in ancient Chinese civilization."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between technological innovations and economic development in ancient China."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the impact of technological innovations on ancient Chinese economic systems and society."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse how ancient Chinese technological innovations and economic systems influenced regional development patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate the significance of ancient Chinese technological innovations and economic systems across different contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic technological innovations in ancient China with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key technological innovations and simple economic activities in ancient China."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe major technological innovations and basic economic systems in ancient China."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how technological innovations and economic systems developed in ancient China."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationships between technological innovations and economic systems in ancient China."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the impact of technological innovations on ancient Chinese economic and social systems."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify the significance of ancient Chinese technological innovations within broader historical economic contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse ancient Chinese technological and economic developments across multiple historical and cultural contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic features of Elizabethan government and religious practices with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple aspects of how the monarchy and Parliament worked in Elizabethan England."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain the main structures of Elizabethan government, monarchy, Parliament, and religious practices."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe how different parts of Elizabethan political and religious systems functioned together."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the relationships between monarchy, Parliament, and religious institutions in Elizabethan government."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of Elizabethan political and religious systems in maintaining social order."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can compare Elizabethan political and religious structures with other historical systems and contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify conclusions about the functioning of Elizabethan systems using detailed historical evidence."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan government and religious practices with support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple aspects of how Elizabethan monarchy and Parliament worked together."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main roles of Elizabeth's government and religious institutions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse how Elizabethan political and religious systems connected and influenced each other."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the effectiveness of Elizabethan government structures and religious policy implementation."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can justify how Elizabethan political and religious systems maintained stability across different social contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex relationships between Elizabethan monarchy, Parliament and religious practices across multiple scenarios."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and compare Elizabethan political-religious systems' functioning across diverse historical and contemporary contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan government and religious practices with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple aspects of how the monarchy and Parliament worked in Elizabethan England."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main structures of Elizabethan government, monarchy, Parliament, and religious practices."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe how different parts of Elizabethan political and religious systems functioned together."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationships between monarchy, Parliament, and religious institutions in Elizabethan government."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of Elizabethan political and religious systems in maintaining social order."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can compare Elizabethan political and religious structures with other historical systems and contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify conclusions about the functioning of Elizabethan systems using detailed historical evidence."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan government and religious practices with support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple aspects of how the monarchy and Parliament worked in Elizabethan England."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main roles of the Queen, Parliament, and Church in Elizabethan society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the structure and key functions of Elizabethan political and religious institutions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how Elizabethan government, monarchy, Parliament, and religious practices functioned together as systems."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the relationships between different parts of Elizabethan political and religious systems."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness and interactions of Elizabethan governmental and religious structures comprehensively."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify conclusions about Elizabethan political and religious systems using detailed structural analysis."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic features of Elizabethan social classes with teacher support and visual prompts."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple characteristics of Elizabethan social classes and cultural practices using provided information."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain key features of Elizabethan social hierarchy, education, and cultural developments independently."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare characteristics of different Elizabethan social classes and analyse their cultural practices systematically."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate relationships between Elizabethan social structures, education systems, cultural developments, and exploration activities."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse how Elizabethan social and cultural characteristics influenced and were influenced by exploration."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify connections between Elizabethan social hierarchies, cultural developments, and exploration using detailed historical evidence."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate the complex interplay between Elizabethan social structures, cultural features, and exploration across contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan social classes with teacher support and visual prompts."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of Elizabethan social classes and cultural practices using provided information."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key features of Elizabethan social hierarchy, education, and cultural developments independently."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare characteristics of different Elizabethan social classes and analyse their cultural practices systematically."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate relationships between Elizabethan social structures, education systems, cultural developments, and exploration activities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how Elizabethan social and cultural characteristics influenced and were influenced by exploration."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify connections between Elizabethan social hierarchies, cultural developments, and exploration using detailed historical evidence."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate the complex interplay between Elizabethan social structures, cultural features, and exploration across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan social classes with teacher support and visual prompts."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of Elizabethan social classes and cultural practices using provided examples."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key features of Elizabethan social hierarchy, education systems, and cultural developments independently."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare characteristics of different Elizabethan social classes and analyse their cultural and educational differences."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the relationships between Elizabethan social structures, cultural developments, and exploration activities comprehensively."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse how Elizabethan social classes, education, culture, and exploration interconnected to shape society."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify conclusions about Elizabethan social and cultural characteristics using detailed evidence and reasoning."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate Elizabethan social and cultural features and apply this understanding to unfamiliar contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of Elizabethan social classes with teacher guidance and visual support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of Elizabethan social groups and their daily activities."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key differences between Elizabethan social classes and their educational opportunities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare Elizabethan social structures, education systems, and cultural practices across different groups."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse connections between Elizabethan social hierarchy, cultural developments, and exploration activities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how Elizabethan social classes influenced education, culture, and exploration in complex ways."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify interpretations about Elizabethan social and cultural features using detailed historical evidence."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct sophisticated arguments about Elizabethan society by synthesizing social, cultural, and exploratory evidence."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that Queen Elizabeth and Parliament both had power in Elizabethan England."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic differences between the Queen's authority and Parliament's role in Elizabethan England."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare how monarchical authority and parliamentary power operated differently in Elizabethan England."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how Queen Elizabeth's authority and Parliament's power influenced each other during her reign."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse specific examples of cooperation and conflict between monarchical authority and parliamentary power."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the effectiveness of the balance between Elizabeth's royal prerogative and Parliament's legislative functions."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse how the relationship between monarchical authority and parliamentary power shaped Elizabethan political outcomes."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify conclusions about monarchical-parliamentary dynamics by synthesising evidence from multiple Elizabethan political contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Queen Elizabeth and Parliament both had power in Elizabethan England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between the Queen's authority and Parliament's role in Elizabethan England."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare how monarchical authority and parliamentary power operated differently in Elizabethan England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how Queen Elizabeth's authority and Parliament's power influenced each other during her reign."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse specific examples of cooperation and conflict between monarchical authority and parliamentary power."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of the balance between Elizabeth's royal prerogative and Parliament's legislative functions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse how the relationship between monarchical authority and parliamentary power shaped Elizabethan political outcomes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify conclusions about monarchical-parliamentary dynamics by synthesising evidence from multiple Elizabethan political contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Queen Elizabeth and Parliament both had power in England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between the Queen's authority and Parliament's role in Elizabethan England."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how Queen Elizabeth and Parliament shared power in governing England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare the specific powers held by the monarch versus Parliament during Elizabeth's reign."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how conflicts between monarchical authority and parliamentary power shaped Elizabethan governance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of the balance between royal prerogative and parliamentary influence in Elizabethan England."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse how the relationship between monarchical and parliamentary power evolved throughout Elizabeth's reign."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify interpretations about the long-term significance of Elizabethan power dynamics for constitutional development."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Queen Elizabeth and Parliament both had power in England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between the Queen's authority and Parliament's role in Elizabethan England."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how monarchical authority and parliamentary power worked together in Elizabethan government."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare the extent of Queen Elizabeth's authority with Parliament's influence over different areas."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse specific conflicts and cooperation between monarchical authority and parliamentary power during Elizabeth's reign."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how the balance between monarchical authority and parliamentary power shaped Elizabethan political decisions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse the complex interdependence between monarchical authority and parliamentary power across multiple Elizabethan contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how monarchical-parliamentary power dynamics in Elizabethan England influenced broader constitutional developments."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that Victorian England had a queen and parliament with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic features of Victorian England's government including the monarchy and parliament."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how the constitutional monarchy and parliamentary system worked together in Victorian England."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe the roles of different social classes and how government structures affected Victorian society."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the relationship between constitutional monarchy, parliamentary government, and major social changes in Victorian England."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate how Victorian political structures both enabled and constrained social transformation during this period."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify connections between specific constitutional and parliamentary developments and their broader social consequences in Victorian England."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse how Victorian political and social structures influenced each other across different contexts and timeframes."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Victorian England had a queen and parliament with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features of Victorian England's government including the monarchy and parliament."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how the constitutional monarchy and parliamentary system worked together in Victorian England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the roles of different social classes and how government structures affected Victorian society."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between constitutional monarchy, parliamentary government, and major social changes in Victorian England."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how Victorian political structures both enabled and constrained social transformation during this period."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify connections between specific constitutional and parliamentary developments and their broader social consequences in Victorian England."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse how Victorian political and social structures influenced each other across different contexts and timeframes."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Victorian England had a queen and parliament with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features of Victorian England's government including the monarchy and parliament."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how the constitutional monarchy and parliamentary system worked together in Victorian England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the roles of different social classes and how parliamentary government functioned in Victorian society."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationship between constitutional monarchy, parliamentary democracy, and major social changes in Victorian England."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how Victorian political structures influenced social reforms and class relationships throughout the period."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse the complex interactions between constitutional monarchy, parliamentary government, and evolving social structures in Victorian England."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate the effectiveness of Victorian political and social systems in responding to industrial and democratic pressures."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Victorian England had a queen and parliament with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features of Victorian England's government including the monarchy and parliament."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how the constitutional monarchy and parliamentary system worked together in Victorian England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the constitutional monarchy system and identify key social changes during the Victorian period."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain the parliamentary government structure and analyse major social transformations in Victorian England."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the relationship between constitutional monarchy, parliamentary government, and Victorian social developments comprehensively."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how Victorian England's political systems influenced social changes and compare with other periods."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse Victorian political and social structures and justify their significance in unfamiliar contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple Victorian inventions and name places the British Empire reached with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify key Victorian technological innovations and describe basic expansion of the British Empire."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe how Victorian technological innovations supported the expansion of the British Empire across continents."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain connections between specific Victorian technological innovations and patterns of British imperial expansion."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how Victorian technological innovations enabled and accelerated the expansion of the British Empire."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the impact of Victorian technological innovations on the scope and nature of British imperial expansion."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify how Victorian technological innovations fundamentally transformed the character and reach of British imperial expansion."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse the interdependent relationship between Victorian technological innovation and British imperial expansion across diverse contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple Victorian inventions and name places the British Empire reached with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Victorian technological innovations and describe basic expansion of the British Empire."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how Victorian technological innovations supported the expansion of the British Empire across continents."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain connections between specific Victorian technological innovations and patterns of British imperial expansion."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how Victorian technological innovations enabled and accelerated the expansion of the British Empire."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the impact of Victorian technological innovations on the scope and nature of British imperial expansion."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how Victorian technological innovations fundamentally transformed the character and reach of British imperial expansion."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse the interdependent relationship between Victorian technological innovation and British imperial expansion across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Victorian inventions and name places where Britain had control with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Victorian technological innovations and describe where the British Empire expanded during this period."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how Victorian technological innovations worked and explain the main regions of British imperial expansion."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain connections between Victorian technological innovations and describe the methods used for British imperial expansion."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how Victorian technological innovations enabled imperial expansion and explain the impact on different regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationship between Victorian technological innovations and imperial expansion strategies across multiple contexts and timeframes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between Victorian technological innovations and imperial expansion and justify their historical significance comprehensively."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate Victorian technological innovations and imperial expansion patterns and apply this understanding to unfamiliar historical contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Victorian inventions and name places where Britain had control with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Victorian technological innovations and describe where the British Empire expanded during this period."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe how Victorian technological innovations developed and explain the main regions of British imperial expansion."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain connections between Victorian technological innovations and describe how British imperial expansion affected different regions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how Victorian technological innovations enabled imperial expansion and explain their combined impact on society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationship between Victorian technological innovations and imperial expansion across multiple contexts and perspectives."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between Victorian technological innovations and imperial expansion and justify their historical significance."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate competing interpretations of Victorian technological innovations and imperial expansion and construct reasoned historical arguments."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that both the monarch and parliament had power in Victorian England."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic differences between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain simple connections between monarchical authority and parliamentary power in Victorian England."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how monarchical authority and parliamentary power worked together in Victorian constitutional monarchy."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the balance between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate tensions and cooperation between monarchical authority and parliamentary power in Victorian England."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex interactions between monarchical authority and parliamentary power across different Victorian contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can evaluate how the relationship between monarchical authority and parliamentary power shaped Victorian constitutional monarchy."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that both the monarch and parliament had power in Victorian England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain simple connections between monarchical authority and parliamentary power in Victorian England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how monarchical authority and parliamentary power worked together in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the balance between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate tensions and cooperation between monarchical authority and parliamentary power in Victorian England."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between monarchical authority and parliamentary power across different Victorian contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate how the relationship between monarchical authority and parliamentary power shaped Victorian constitutional monarchy."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that both the monarch and parliament had power in Victorian England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain simple connections between monarchical authority and parliamentary power in Victorian England."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how monarchical authority and parliamentary power worked together in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the balance between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate tensions and cooperation between monarchical authority and parliamentary power in Victorian England."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between monarchical authority and parliamentary power across different Victorian contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate how the relationship between monarchical authority and parliamentary power shaped Victorian constitutional development."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that both the monarch and parliament had power in Victorian England."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how monarchical authority and parliamentary power worked together in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse the balance between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how the relationship between monarchical authority and parliamentary power changed during Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can compare the relationship between monarchical authority and parliamentary power across different Victorian constitutional monarchy contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify conclusions about tensions and cooperation between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct sophisticated arguments about the dynamic relationship between monarchical authority and parliamentary power in Victorian constitutional monarchy."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple similarities and differences between two historical periods with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic similarities and differences between historical periods in familiar contexts."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare similarities and differences between historical periods across one aspect of society."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyze similarities and differences between historical periods across two aspects of society."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyze similarities and differences between multiple historical periods across several societal aspects."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate similarities and differences between historical periods across multiple interconnected aspects of society."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyze complex similarities and differences between historical periods explaining relationships across societal aspects."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyze similarities and differences between historical periods justifying conclusions across diverse societal contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple similarities and differences between two historical periods with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic similarities and differences between historical periods in familiar contexts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare similarities and differences between historical periods across one aspect of society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze similarities and differences between historical periods across two aspects of society."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze similarities and differences between multiple historical periods across several societal aspects."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate similarities and differences between historical periods across multiple interconnected aspects of society."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyze complex similarities and differences between historical periods explaining relationships across societal aspects."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyze similarities and differences between historical periods justifying conclusions across diverse societal contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple similarities and differences between two historical periods with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic similarities and differences between historical periods in familiar contexts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare similarities and differences between historical periods across one aspect of society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze similarities and differences between historical periods across two aspects of society."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze similarities and differences between multiple historical periods across several aspects of society."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate similarities and differences between historical periods across multiple aspects with detailed reasoning."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyze complex similarities and differences between historical periods across interconnected aspects of society."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate similarities and differences between historical periods across multiple societal aspects in unfamiliar contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify one obvious similarity or difference between two historical periods with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple similarities and differences between two historical periods using provided information."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare similarities and differences between historical periods across basic aspects of society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze similarities and differences between historical periods across multiple aspects of society."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze complex similarities and differences between historical periods explaining connections across societal aspects."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze similarities and differences between multiple historical periods evaluating patterns across diverse societal aspects."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyze similarities and differences between historical periods justifying interpretations using detailed evidence from society."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyze similarities and differences between historical periods constructing sophisticated arguments about societal patterns and changes."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic parts of Roman society with teacher support and visual aids."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple differences between Roman social groups and their basic roles."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain the main features of Roman government and how society was organized."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare Roman republic and empire systems and describe key changes between them."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyze the structure of Roman society and explain causes of governmental transitions."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate relationships between Roman social hierarchy and political power across different periods."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify how Roman governmental changes reflected broader social and economic transformations over time."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyze Roman society and government structures to explain similar patterns in unfamiliar civilizations."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic parts of Roman society with teacher support and visual aids."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple features of Roman government and different groups in Roman society."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main structure of Roman society and how the government was organized."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare different levels of Roman society and describe how the republic government system worked."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze the relationship between Roman social classes and explain the transition from republic to empire."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how Roman government systems changed over time and their impact on different social groups."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify why the Roman republic transformed into an empire using detailed evidence about social and political factors."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct comprehensive arguments about Roman societal structures and governmental evolution across multiple historical contexts independently."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic parts of Roman society with teacher support and visual aids."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple differences between Roman social groups and their basic roles."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main features of Roman government and how society was organized."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare Roman republic and empire systems and describe key changes between them."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze the structure of Roman society and explain causes of governmental transitions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate relationships between Roman social hierarchy and political power across different periods."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how Roman governmental changes reflected broader social and economic transformations over time."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyze Roman society and government structures to explain similar patterns in unfamiliar civilizations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic parts of Roman society with teacher support and visual aids."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple differences between Roman social groups and their basic roles."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main features of Roman government and how society was organized."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare Roman republic and empire systems and describe key social structures clearly."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how Roman government changed over time and explain social hierarchy relationships."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate causes and effects of Rome's transition from republic to empire systematically."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify interpretations about Roman political transformation using multiple historical perspectives and evidence."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct sophisticated arguments about Roman governmental evolution and apply insights to unfamiliar contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_09_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic Roman military units, gods, and building types with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify key Roman military roles, major gods, and famous buildings independently."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can describe Roman military organization, religious practices, and architectural features using simple terms."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can explain how Roman military structure, religious beliefs, and architectural innovations functioned together."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can compare Roman military organization, religious beliefs, and architectural innovations with other civilizations."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse the relationships between Roman military success, religious practices, and architectural achievements."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate the effectiveness of Roman military organization, religious beliefs, and architectural innovations."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can justify how Roman military organization, religious beliefs, and architectural innovations influenced modern societies."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Roman military units, gods, and building types with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Roman military roles, major gods, and famous buildings independently."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe Roman military organization, religious practices, and architectural features using simple terms."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how Roman military structure, religious beliefs, and architectural innovations functioned together."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can compare Roman military organization, religious beliefs, and architectural innovations with other civilizations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the relationships between Roman military success, religious practices, and architectural achievements."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate the effectiveness of Roman military organization, religious beliefs, and architectural innovations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can justify how Roman military organization, religious beliefs, and architectural innovations influenced modern societies."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Roman military units, gods, and building types with visual support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Roman military ranks, major gods, and architectural features using simple prompts."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify Roman military organization structures, religious practices, and architectural innovations independently."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe Roman military hierarchy, religious beliefs, and architectural techniques with accuracy."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain connections between Roman military organization, religious beliefs, and architectural innovations."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse how Roman military organization, religious beliefs, and architectural innovations influenced society."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate the effectiveness of Roman military organization, religious beliefs, and architectural innovations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify the significance of Roman military organization, religious beliefs, and architectural innovations across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic Roman military units, gods, and building types with visual support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify key Roman military roles, major religious practices, and architectural features."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can describe Roman military organization, religious beliefs, and architectural innovations using simple explanations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain how Roman military structure, religious systems, and architectural techniques functioned together."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse connections between Roman military organization, religious beliefs, and architectural achievements."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the effectiveness of Roman military, religious, and architectural systems across different contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how Roman military organization, religious beliefs, and architectural innovations influenced broader civilization."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse Roman cultural and military achievements and their lasting impact on unfamiliar societies."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_09_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that Rome changed from a republic to an empire with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic reasons why Rome became an empire and name simple Roman influences today."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain key factors in Rome's transition to empire and identify Roman influences in modern society."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyze multiple causes of Rome's political transformation and describe specific Roman impacts on contemporary institutions."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate the significance of Rome's republic-to-empire transition and explain Rome's enduring influence on modern governance."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyze complex interactions between political, social, and economic factors in Rome's transformation and assess Rome's comprehensive modern legacy."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically evaluate competing interpretations of Rome's political evolution and analyze Rome's multifaceted influence across diverse modern contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can synthesize historical evidence to justify interpretations of Rome's transformation and evaluate Rome's contested legacy in contemporary global society."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "long"
+            ],
+            [
+              "Level 6",
+              "long"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Rome changed from a republic to an empire with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic reasons why Rome became an empire and name simple Roman influences today."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key factors in Rome's transition to empire and identify Roman influences in modern society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze multiple causes of Rome's political transformation and describe specific Roman impacts on contemporary institutions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the significance of Rome's republic-to-empire transition and explain Rome's enduring influence on modern governance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex interactions between political, social, and economic factors in Rome's transformation and assess Rome's comprehensive modern legacy."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate competing interpretations of Rome's political evolution and analyze Rome's multifaceted influence across diverse modern contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize historical evidence to justify interpretations of Rome's transformation and evaluate Rome's contested legacy in contemporary global society."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "long"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Rome changed from a republic to an empire with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic reasons why Rome became an empire and name simple Roman influences today."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key factors in Rome's transition to empire and identify Roman influences in modern society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze multiple causes of Rome's political transformation and describe specific Roman impacts on contemporary institutions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate interconnected reasons for Rome's republic-to-empire transition and explain Rome's enduring influence on modern governance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex political and social factors driving Rome's transformation and assess Rome's comprehensive impact on civilization."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate Rome's political evolution within broader historical contexts and analyze Rome's multifaceted legacy across cultures."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize Rome's transformation as a model for understanding political change and evaluate Rome's global historical significance."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "long"
+            ],
+            [
+              "Level 6",
+              "long"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that Rome changed from a republic to an empire with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic reasons why Rome became an empire and name simple Roman influences today."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key factors in Rome's transition to empire and identify Roman influences in modern society."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze multiple causes of Rome's political transformation and explain specific Roman impacts on contemporary institutions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate interconnected factors driving Rome's republic-to-empire transition and analyze Rome's enduring influence on modern governance."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can critically analyze complex political, social, and economic forces behind Rome's transformation and assess Rome's multifaceted modern legacy."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can synthesize diverse historical perspectives on Rome's political evolution and evaluate Rome's continuing significance across multiple contemporary contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct sophisticated arguments about Rome's transformation using primary sources and justify Rome's relevance to current global issues."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'long'), ('Level 6', 'long'), ('Level 7', 'long'), ('Level 8', 'long')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'long'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_03",
+      "lt_name": "Researching Treaty History",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "3 format/quality failures",
+      "failures": [
+        "Level 1:no_observable_verb",
+        "Level 2:no_observable_verb",
+        "Level 3:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can collect simple information about the Treaty of Waitangi with teacher guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can collect basic information about the Treaty signing using provided sources."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can collect and organise information about the Treaty signing from multiple sources."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can collect and evaluate basic information about Treaty signing using simple inquiry methods."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can collect and evaluate detailed information about Treaty signing using appropriate inquiry methods."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can collect and critically evaluate information about Treaty signing using systematic historical inquiry methods."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can collect and comprehensively evaluate information about Treaty signing using sophisticated historical inquiry approaches."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can independently collect and rigorously evaluate complex information about Treaty signing using advanced inquiry methodologies."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "lt_name": "Early Contact Events and Developments",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'long'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'long'), ('Level 5', 'medium'), ('Level 6', 'long'), ('Level 7', 'medium'), ('Level 8', 'long')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium'))]"
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "lt_name": "Ancient Greek Society and Culture",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'short'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium'))]"
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "lt_name": "Evaluating Historical Change and Continuity",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium'))]"
+    }
+  ]
+}

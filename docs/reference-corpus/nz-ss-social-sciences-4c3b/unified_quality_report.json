@@ -1,0 +1,294 @@
+{
+  "strand_detection": {
+    "is_multi_strand": true,
+    "overall_confidence": 0.85,
+    "strands": [
+      {
+        "name": "History",
+        "confidence": 0.85,
+        "signals": [
+          "teaching_point_marker: Knowledge"
+        ]
+      },
+      {
+        "name": "Civics and Society",
+        "confidence": 0.85,
+        "signals": [
+          "teaching_point_marker: Knowledge"
+        ]
+      },
+      {
+        "name": "Geography",
+        "confidence": 0.85,
+        "signals": [
+          "teaching_point_marker: Knowledge"
+        ]
+      },
+      {
+        "name": "Economic Activity",
+        "confidence": 0.85,
+        "signals": [
+          "teaching_point_marker: Knowledge"
+        ]
+      }
+    ],
+    "flags": []
+  },
+  "per_strand_counts": {
+    "history": {
+      "strand_name": "History",
+      "kud_items": 109,
+      "halted_blocks": 68,
+      "clusters": 9,
+      "lts": 23,
+      "rubrics": 23,
+      "rubric_gate_fail": 18,
+      "rubric_gen_fail": 17,
+      "supporting_components": 0
+    },
+    "civics-and-society": {
+      "strand_name": "Civics and Society",
+      "kud_items": 50,
+      "halted_blocks": 18,
+      "clusters": 3,
+      "lts": 8,
+      "rubrics": 7,
+      "rubric_gate_fail": 1,
+      "rubric_gen_fail": 1,
+      "supporting_components": 4
+    },
+    "geography": {
+      "strand_name": "Geography",
+      "kud_items": 127,
+      "halted_blocks": 43,
+      "clusters": 8,
+      "lts": 16,
+      "rubrics": 15,
+      "rubric_gate_fail": 4,
+      "rubric_gen_fail": 1,
+      "supporting_components": 7
+    },
+    "economic-activity": {
+      "strand_name": "Economic Activity",
+      "kud_items": 40,
+      "halted_blocks": 13,
+      "clusters": 5,
+      "lts": 12,
+      "rubrics": 12,
+      "rubric_gate_fail": 4,
+      "rubric_gen_fail": 2,
+      "supporting_components": 7
+    }
+  },
+  "unified_counts": {
+    "kud_items": 326,
+    "clusters": 25,
+    "lts": 59,
+    "rubrics": 57,
+    "supporting_components": 18
+  },
+  "sanity_checks": {
+    "passed": true,
+    "failure_count": 0,
+    "failures": []
+  },
+  "token_usage": {
+    "total_input_tokens": 3488770,
+    "total_output_tokens": 337509,
+    "estimated_cost_usd": null,
+    "by_strand": {
+      "history": {
+        "total_input_tokens": 1191831,
+        "total_output_tokens": 101219,
+        "per_stage": {
+          "band_statements": {
+            "input": 66591,
+            "output": 19533,
+            "calls": 69,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "clustering": {
+            "input": 22263,
+            "output": 5958,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "kud_classification": {
+            "input": 1002666,
+            "output": 61115,
+            "calls": 429,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "lt_generation": {
+            "input": 52923,
+            "output": 10938,
+            "calls": 27,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_generation": {
+            "input": 47388,
+            "output": 3675,
+            "calls": 18,
+            "model": "claude-sonnet-4-20250514"
+          }
+        }
+      },
+      "civics-and-society": {
+        "total_input_tokens": 565160,
+        "total_output_tokens": 57701,
+        "per_stage": {
+          "band_statements": {
+            "input": 20238,
+            "output": 5721,
+            "calls": 21,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "clustering": {
+            "input": 19884,
+            "output": 2469,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "kud_classification": {
+            "input": 440289,
+            "output": 29217,
+            "calls": 189,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "lt_generation": {
+            "input": 19740,
+            "output": 4265,
+            "calls": 9,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "observation_indicators": {
+            "input": 3969,
+            "output": 1795,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_generation": {
+            "input": 40407,
+            "output": 4002,
+            "calls": 21,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_judge": {
+            "input": 2000,
+            "output": 235,
+            "calls": 6,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "supporting_components": {
+            "input": 18633,
+            "output": 9997,
+            "calls": 18,
+            "model": "claude-sonnet-4-20250514"
+          }
+        }
+      },
+      "geography": {
+        "total_input_tokens": 1221377,
+        "total_output_tokens": 119363,
+        "per_stage": {
+          "band_statements": {
+            "input": 43491,
+            "output": 12159,
+            "calls": 45,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "clustering": {
+            "input": 23841,
+            "output": 6291,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "kud_classification": {
+            "input": 957888,
+            "output": 60640,
+            "calls": 411,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "lt_generation": {
+            "input": 51258,
+            "output": 10282,
+            "calls": 24,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "observation_indicators": {
+            "input": 3966,
+            "output": 1960,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_generation": {
+            "input": 102132,
+            "output": 9204,
+            "calls": 45,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_judge": {
+            "input": 4670,
+            "output": 570,
+            "calls": 14,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "supporting_components": {
+            "input": 34131,
+            "output": 18257,
+            "calls": 33,
+            "model": "claude-sonnet-4-20250514"
+          }
+        }
+      },
+      "economic-activity": {
+        "total_input_tokens": 510402,
+        "total_output_tokens": 59226,
+        "per_stage": {
+          "band_statements": {
+            "input": 34668,
+            "output": 9760,
+            "calls": 36,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "clustering": {
+            "input": 16434,
+            "output": 2676,
+            "calls": 3,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "kud_classification": {
+            "input": 328452,
+            "output": 20121,
+            "calls": 141,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "lt_generation": {
+            "input": 25944,
+            "output": 5054,
+            "calls": 15,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_generation": {
+            "input": 76716,
+            "output": 7608,
+            "calls": 36,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "rubric_judge": {
+            "input": 3327,
+            "output": 404,
+            "calls": 10,
+            "model": "claude-sonnet-4-20250514"
+          },
+          "supporting_components": {
+            "input": 24861,
+            "output": 13603,
+            "calls": 24,
+            "model": "claude-sonnet-4-20250514"
+          }
+        }
+      }
+    }
+  }
+}

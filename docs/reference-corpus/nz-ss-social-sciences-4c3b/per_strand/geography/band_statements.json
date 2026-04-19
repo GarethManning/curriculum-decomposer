@@ -1,0 +1,3129 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-geography",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify different ways to show where people live using simple maps and pictures."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic differences between methods used to display population density on familiar maps."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can compare two methods for showing population distribution patterns within a single geographic region."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare multiple methods for representing population density and explain their basic strengths and weaknesses."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse different population distribution representation methods and evaluate their effectiveness for specific geographic contexts."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can critically compare population density representation methods and justify which approach best suits different analytical purposes."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can systematically evaluate population distribution representation methods and explain how methodological choices influence geographic interpretations."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can comprehensively analyse population distribution representation methods and construct reasoned arguments about their theoretical and practical implications."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify different ways to show where people live using simple maps and pictures."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between methods used to display population density on familiar maps."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare two methods for showing population distribution patterns within a single geographic region."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare multiple methods for representing population density and explain their basic strengths and weaknesses."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse different population distribution representation methods and evaluate their effectiveness for specific geographic contexts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can critically compare population density representation methods and justify which approach best suits different analytical purposes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can systematically evaluate population distribution representation methods and explain how methodological choices influence geographic interpretations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can comprehensively analyse population distribution representation methods and construct reasoned arguments about their theoretical and practical implications."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify different ways to show where people live using simple maps and pictures."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between dot maps and shaded maps showing population distribution."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare two methods for showing population density within familiar geographic regions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse strengths and weaknesses of different population distribution representation methods for specific purposes."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate multiple population density mapping techniques and explain their effectiveness for different audiences."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can justify the selection of appropriate population distribution methods based on data characteristics and analytical goals."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically assess population representation methods and predict their impact on geographic decision-making processes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesise complex population distribution methodologies and propose optimal approaches for diverse geographic contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify different ways to show where people live using simple maps and pictures."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic differences between methods used to display population density on maps."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can compare two methods for showing population distribution patterns within familiar geographic regions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse strengths and weaknesses of different population density representation methods across multiple regions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate the effectiveness of various population distribution mapping techniques for different geographic contexts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can critically compare multiple population density methods and justify their appropriateness for specific analytical purposes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can systematically analyse complex population distribution representation methods and explain their theoretical foundations and limitations."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesise comprehensive comparisons of population density methods and transfer insights across diverse geographic scales."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that cities are places where many people live and work together."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic features of cities and explain why people move to urban areas."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how cities grow larger and describe different types of urban development patterns."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare urban growth patterns between different cities and explain factors that influence city development."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how urbanisation processes create different urban characteristics in various global regions."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the relationship between urbanisation processes and resulting urban forms across diverse cultural contexts."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse complex interactions between multiple urbanisation processes and their varied impacts in different global settings."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically evaluate how urbanisation processes and urban characteristics interconnect across multiple scales and contexts globally."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that cities are places where many people live and work together."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features of cities and explain why people move to urban areas."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how cities grow larger and describe different types of urban development patterns."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare urban growth patterns between different cities and explain factors that influence city development."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how urbanisation processes create different urban characteristics in various global regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationship between urbanisation processes and resulting urban forms across diverse cultural contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between multiple urbanisation processes and their varied impacts in different global settings."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how urbanisation processes and urban characteristics interconnect across multiple scales and contexts globally."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that cities are places where many people live and work together."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features of cities and explain why people move to urban areas."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how cities grow larger and describe different types of urban development patterns."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare urban growth patterns between different cities and explain factors that influence city development."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how urbanisation processes create different urban characteristics across various global regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationship between urbanisation processes and resulting urban forms in diverse global contexts."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between multiple urbanisation processes and their varied impacts across different societies."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate how urbanisation processes and patterns reflect and influence broader social, economic and environmental systems globally."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that cities are places where many people live and work together."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic features that make cities different from towns and rural areas."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain simple reasons why cities grow and attract more people over time."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe how cities develop through population growth and changing land use patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain urbanisation processes and compare urban growth characteristics in different countries."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse factors driving urban development and evaluate impacts of urbanisation on communities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can explain complex urbanisation processes and justify how global contexts influence urban growth patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate urbanisation theories and analyse how economic and social factors shape urban development globally."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic urban features in simple visual data with teacher guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe obvious urban trends from visual geographic data and simple historical sources."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can analyse visual data to identify urban patterns and describe settlement challenges."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse multiple data sources to explain urban trends and evaluate basic settlement challenges."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse complex visual and historical data to explain urban trends and settlement impacts."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse diverse geographic data sources to evaluate urban trends and justify settlement solutions."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically analyse multiple data types to evaluate complex urban trends and settlement challenges."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can synthesise diverse geographic evidence to evaluate urban trends and justify comprehensive settlement strategies."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic urban features in simple visual data with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe obvious urban trends from visual geographic data and simple historical sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can analyse visual data to identify urban patterns and describe settlement challenges."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse multiple data sources to explain urban trends and evaluate basic settlement challenges."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse complex visual and historical data to explain urban trends and settlement impacts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse diverse geographic data sources to evaluate urban trends and justify settlement solutions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically analyse multiple data types to evaluate complex urban trends and settlement challenges."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesise diverse geographic evidence to evaluate urban trends and justify comprehensive settlement strategies."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic patterns in simple visual geographic data about urban areas with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe obvious urban trends from visual geographic data and simple historical sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can analyse visual geographic data to identify urban trends and describe basic settlement challenges."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse multiple visual geographic data sources to explain urban trends and settlement challenges."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse complex visual geographic data and historical sources to evaluate urban trends systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse diverse geographic data and historical evidence to evaluate settlement challenges comprehensively."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex visual geographic data and historical sources to justify evaluations of settlement challenges."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse sophisticated visual geographic data and historical sources to evaluate settlement challenges across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic patterns in simple visual geographic data about urban areas with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe obvious urban trends from visual geographic data and simple historical sources."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can analyse visual geographic data to identify urban trends and describe basic settlement challenges."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse multiple visual geographic data sources to explain urban trends and settlement challenges."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse complex visual geographic data and historical sources to evaluate urban trends systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse diverse geographic data and historical evidence to evaluate settlement challenges comprehensively."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex visual geographic data and historical sources to justify evaluations of settlement challenges."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse sophisticated visual geographic data and historical sources to critically evaluate urban trends across contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple changes that happen when cities grow with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic effects of urban growth on people and places."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how urban growth affects communities in different ways."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare social and economic consequences of urban growth across different communities."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the social, economic and environmental consequences of urban growth systematically."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate multiple consequences of urban growth and their interconnected effects on communities."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically evaluate complex urbanisation consequences and justify responses for different community contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can comprehensively evaluate urbanisation impacts and propose evidence-based solutions for diverse global contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happen when cities grow with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic effects of urban growth on people and places."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how urban growth affects different groups of people in communities."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare social and economic consequences of urban growth across different communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple social, economic and environmental consequences of urban growth on communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate interconnected consequences of urban growth and their varying impacts on communities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate complex urbanisation consequences and justify their significance for different communities."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can comprehensively evaluate urbanisation consequences and synthesise judgements about their differential community impacts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happen when cities grow with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic effects of urban growth on people and places."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how urban growth affects communities in different ways."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare social and economic consequences of urban growth across different communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the social, economic and environmental consequences of urban growth systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate multiple consequences of urban growth and their interconnected effects on communities."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate complex urbanisation consequences and justify responses for different community contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can comprehensively evaluate urbanisation impacts and propose evidence-based solutions for diverse global contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple changes that happen when cities grow with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic effects of urban growth on people and places."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how urban growth affects communities in different ways."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare social and economic consequences of urban growth across different communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse environmental and social impacts of urbanisation on various community groups."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate multiple consequences of urban growth considering interconnected social, economic and environmental factors."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically evaluate complex urbanisation impacts across diverse communities using multiple perspectives and evidence."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can comprehensively evaluate urbanisation consequences across contexts, justifying judgements about differential community impacts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic landforms and rock types from simple geological diagrams with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how different rock types create different landforms using geological maps and observations."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how erosion processes shape specific landscapes by interpreting geological evidence and diagrams."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse geological maps to compare how rock types and erosion create contrasting landscape features."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate relationships between geological processes and landform development across multiple landscape types independently."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can interpret complex geological evidence to predict landscape evolution patterns and erosion impacts precisely."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse sophisticated geological data to justify how multiple processes interact to shape diverse landscapes."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can synthesise geological evidence from unfamiliar contexts to evaluate landscape development theories and their applications."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic landforms and rock types from simple geological diagrams with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different rock types create different landforms using geological maps and observations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how erosion processes shape specific landscapes by interpreting geological evidence and diagrams."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geological maps to compare how rock types and erosion create contrasting landscape features."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate relationships between geological processes and landform development across multiple landscape types independently."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can interpret complex geological evidence to predict landscape evolution patterns and erosion impacts precisely."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse sophisticated geological data to justify how multiple processes interact to shape diverse landscapes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesise geological evidence from unfamiliar contexts to evaluate landscape development theories and their applications."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic landforms and rock types from simple geological diagrams with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different rock types and erosion create familiar landforms using geological maps."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain connections between rock types, erosion processes and resulting landscape features from observations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geological maps to interpret how multiple erosion processes shape diverse landscape formations."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate geological evidence to explain complex relationships between rock characteristics and landform development."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse detailed geological data to predict landscape evolution patterns across different environmental conditions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can synthesise multiple geological sources to justify how erosion and rock properties control regional landscape systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate geological evidence to construct comprehensive models of landscape development across varied contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic landforms and rock types from simple geological diagrams with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how different rock types create different landforms using geological maps and observations."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how erosion processes shape specific landscapes by interpreting geological evidence and diagrams."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geological maps to compare how rock types and erosion create contrasting landscape patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate relationships between geological processes and landform development across multiple landscape examples independently."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can interpret complex geological evidence to predict landscape evolution and justify erosion impact assessments."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can synthesise geological data from multiple sources to analyse landscape formation processes across varied contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate geological interpretations and construct evidence-based arguments about landscape development in unfamiliar settings."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify basic features of rainforests with teacher support and visual prompts."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple characteristics of rainforests including plants, animals, and weather patterns."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain the main structural layers and climate features of rainforest ecosystems."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can describe rainforest characteristics and identify their locations on world maps and globes."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse the relationships between rainforest structure, climate, and global distribution patterns."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate how physical factors influence rainforest characteristics and their worldwide distribution."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify connections between rainforest biome features and their global distribution using scientific reasoning."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyse rainforest ecosystem complexity and distribution patterns across diverse geographical contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of rainforests with guidance and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of rainforests and where they are found."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain key characteristics and structure of rainforest biomes in familiar locations."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe detailed characteristics, structure, and distribution patterns of rainforest biomes globally."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the complex characteristics, layered structure, and global distribution of rainforest biomes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate relationships between rainforest characteristics, structure, and their global distribution patterns."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify connections between rainforest biome characteristics, structure, and distribution across diverse contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse and explain rainforest biome characteristics, structure, and distribution in unfamiliar situations."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of rainforests with teacher support and visual prompts."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of rainforests including plants, animals, and weather patterns."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main structural layers and climate features of rainforest ecosystems."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe rainforest characteristics and identify their locations on world maps and globes."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the relationships between rainforest structure, climate, and global distribution patterns."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how physical factors influence rainforest characteristics and their worldwide distribution."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify connections between rainforest biome features and their global distribution using scientific reasoning."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyse rainforest ecosystem complexity and distribution patterns across diverse geographical contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features of rainforests with support from pictures and prompts."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple characteristics of rainforests including plants, animals, and weather patterns."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain the main features of rainforest structure and identify where rainforests are found."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the layered structure of rainforests and explain their global distribution patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse the characteristics of different rainforest types and explain factors influencing their distribution."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can compare rainforest characteristics across regions and evaluate how climate determines their global distribution."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between rainforest structure, characteristics, and distribution patterns across multiple scales."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and justify relationships between rainforest characteristics and distribution using comprehensive geographic reasoning."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people cut down trees in rainforests with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe simple ways that cutting down rainforest trees affects animals and plants."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain basic causes of deforestation and its direct effects on rainforest wildlife."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse main causes of deforestation and describe consequences for rainforest ecosystems and local communities."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse multiple causes of deforestation and explain interconnected consequences for ecosystems and human communities."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyse complex causes of deforestation and evaluate short-term and long-term consequences for global ecosystems."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can analyse systemic causes of deforestation and evaluate cascading consequences across multiple scales and timeframes."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can analyse deforestation causes and consequences critically, evaluating evidence and justifying conclusions across diverse contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cut down trees in rainforests with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple ways that cutting down rainforest trees affects animals and plants."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain basic causes of deforestation and its direct effects on rainforest wildlife."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse main causes of deforestation and describe consequences for rainforest ecosystems and local communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes of deforestation and explain interconnected consequences for ecosystems and human communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex causes of deforestation and evaluate short-term and long-term consequences for global ecosystems."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse systemic causes of deforestation and evaluate cascading consequences across multiple scales and timeframes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse deforestation causes and consequences critically, evaluating evidence and justifying conclusions across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cut down trees in rainforests with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe what happens when rainforest trees are removed by humans."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain simple reasons why people cut down rainforest trees and basic effects."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse main causes of deforestation and describe impacts on rainforest plants and animals."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes of deforestation and explain consequences for ecosystems and local communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex relationships between deforestation causes and evaluate environmental and social consequences systematically."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse interconnected causes of deforestation and justify conclusions about long-term ecosystem and community impacts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse deforestation causes and consequences critically and transfer understanding to evaluate similar environmental issues globally."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people cut down trees in rainforests with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe simple ways that cutting down rainforest trees affects animals and plants."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain basic causes of deforestation and its direct effects on rainforest wildlife."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse main causes of deforestation and describe consequences for rainforest ecosystems and local communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse multiple causes of deforestation and explain interconnected consequences for ecosystems and human communities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse complex causes of deforestation and evaluate short-term and long-term consequences for global ecosystems."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse diverse causes of deforestation and evaluate cascading consequences across multiple scales and timeframes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse systemic causes of deforestation and critically evaluate complex consequences across interconnected global systems."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that people care about places in their environment with guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how people show care for familiar places in their local environment."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain how people's feelings about places affect their environmental care actions."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyze how different values lead to different environmental responsibility approaches in communities."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate how personal connections to place influence environmental responsibility decisions across contexts."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyze complex relationships between cultural values, place attachment, and environmental sustainability practices."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can evaluate how competing values and place connections create environmental responsibility conflicts and solutions."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can critically analyze how values and place connections shape environmental responsibility across diverse global contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people care about places in their environment with guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people show care for familiar places in their local environment."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how people's feelings about places affect their environmental care actions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze how different values lead to different environmental responsibility approaches in communities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate how personal connections to place influence environmental responsibility decisions across contexts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze complex relationships between cultural values, place attachment, and environmental sustainability practices."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate how competing values and place connections create environmental responsibility conflicts and solutions."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyze how values and place connections shape environmental responsibility across diverse global contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "short"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people care about places and environments in different ways."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people's feelings about places affect their care for the environment."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how personal values influence people's environmental choices and actions."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare how different values and place connections lead to varied environmental responsibilities."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze the relationship between cultural values, place attachment, and environmental stewardship approaches."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate how competing values and place meanings create different perspectives on environmental responsibility."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify how values and place connections shape environmental responsibility across diverse cultural contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically analyze how values-place relationships influence environmental responsibility in complex global scenarios."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that people care about places and want to look after them."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how people's feelings about places affect their actions to protect the environment."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how different values lead people to take responsibility for environmental care in their community."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare how connection to place influences environmental responsibility across different groups of people."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyze how personal values and place attachment shape people's environmental responsibility in various contexts."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationship between cultural values, place connection, and environmental responsibility across different societies."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyze complex interactions between values, place attachment, and environmental responsibility in unfamiliar global contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically evaluate how values and place connection influence environmental responsibility across diverse cultural and temporal contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify that weather changes and some changes affect living things."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe how human activities like burning things can change the air."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can explain that greenhouse gases trap heat and cause Earth's temperature to rise."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can compare natural and human causes of climate change and their different effects."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can analyse how specific greenhouse gases contribute to climate change through detailed processes."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can evaluate the relative impacts of various human activities on climate change mechanisms."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can justify climate change explanations using scientific evidence from multiple interconnected Earth systems."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can construct comprehensive explanations of climate change processes across diverse global contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that weather changes and humans affect the environment around us."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how some human activities make the air warmer over time."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how greenhouse gases trap heat and cause global temperatures to rise."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can explain the greenhouse effect and identify major human activities that increase climate change."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how different greenhouse gases and human activities contribute to climate change processes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relationships between greenhouse effects, human impacts, and resulting climate change mechanisms."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse complex interactions between natural and human factors driving climate change across different systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can evaluate and justify explanations of climate change mechanisms across diverse contexts and timeframes."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that weather changes and some changes affect living things."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how human activities like burning things can change the air."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain that greenhouse gases trap heat and cause Earth's temperature to rise."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can compare natural and human causes of climate change and their different effects."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse how specific greenhouse gases contribute to climate change through detailed processes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate the relative impacts of various human activities on climate change mechanisms."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can justify climate change explanations using scientific evidence from multiple interconnected Earth systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can construct comprehensive explanations of climate change processes across diverse global contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify that weather changes and some changes affect living things."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe how the sun warms Earth and creates different weather patterns."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can explain how gases in the air trap heat from the sun."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can describe the greenhouse effect and identify human activities that increase greenhouse gases."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can explain how greenhouse gases cause global warming and describe resulting climate changes."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyse the relationship between human activities and climate change using scientific evidence."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can evaluate multiple causes of climate change and justify their relative impacts on global systems."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can analyse complex climate feedback mechanisms and evaluate human responses across different contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'short'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple patterns in weather data with guidance and support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic climate data patterns and recognize obvious environmental changes."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can interpret straightforward climate data and explain simple impacts on local environments."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyze climate data trends and evaluate environmental and social impacts in familiar contexts."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can interpret complex climate data and assess multiple environmental, social, and economic impacts systematically."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can analyze diverse climate datasets and evaluate interconnected impacts across different scales and timeframes."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically interpret climate data from multiple sources and justify comprehensive impact assessments."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can synthesize complex climate data and evaluate multifaceted impacts across unfamiliar global contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "long"
+            ],
+            [
+              "Level 8",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple weather patterns and describe basic changes in my local environment."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can interpret basic climate data and explain how weather changes affect people and animals."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can analyse climate data trends and describe environmental impacts of climate change in familiar contexts."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can interpret detailed climate data and explain environmental, social, and economic impacts of climate change."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can analyse complex climate data patterns and evaluate multiple impacts of climate change across different regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can interpret sophisticated climate datasets and critically evaluate interconnected environmental, social, and economic impacts of climate change."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can analyse comprehensive climate data from multiple sources and justify evaluations of climate change impacts across diverse contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can interpret complex climate data independently and systematically evaluate long-term climate change impacts across interconnected global systems."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple patterns in weather data with guidance and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic climate data patterns and recognize obvious environmental changes."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can interpret straightforward climate data and explain simple impacts on local environments."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze climate data trends and evaluate environmental and social impacts in familiar contexts."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can interpret complex climate data and assess multiple environmental, social, and economic impacts systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze diverse climate datasets and evaluate interconnected impacts across different scales and timeframes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically interpret climate data from multiple sources and justify comprehensive impact assessments."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize complex climate data and evaluate multifaceted impacts across unfamiliar global contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple patterns in weather data with guidance and support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic climate data patterns and recognize obvious environmental changes."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can interpret straightforward climate data and explain direct impacts on local environments."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyze climate data trends and evaluate environmental and social impacts in familiar contexts."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can interpret complex climate data and assess multiple environmental, social, and economic impacts systematically."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can analyze diverse climate datasets and evaluate interconnected impacts across different scales and timeframes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically interpret climate data from multiple sources and justify comprehensive impact assessments."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can synthesize complex climate data and evaluate multifaceted impacts across unfamiliar global contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'long')): 1, (('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify obvious physical characteristics that make places look the same with teacher support."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can identify basic physical and human characteristics that are shared by familiar places."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can identify multiple physical and human characteristics that define regions in my local area."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can identify and describe the key physical and human characteristics that define different regions."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can identify and explain how shared physical and human characteristics create distinct regional identities."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can identify and analyse the interconnected physical and human characteristics that define complex regional boundaries."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can identify and evaluate how shared characteristics define regions across multiple scales and contexts."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can identify and justify regional definitions by analysing complex interactions between physical and human characteristics."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "short"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify obvious physical characteristics of my local area with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify basic physical and human characteristics that make places similar."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify multiple shared characteristics that connect places within a familiar region."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe shared physical and human characteristics that define different regions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain how shared characteristics create regional boundaries and connections."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse complex shared characteristics that define regions across multiple scales."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate how shared characteristics define regions in unfamiliar global contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify regional definitions by analysing interconnected physical and human characteristics."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify obvious physical characteristics that make places look the same with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify basic physical and human characteristics that are shared by familiar places."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify multiple physical and human characteristics that define regions in my local area."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe the key physical and human characteristics that define different regions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain how shared physical and human characteristics create distinct regional identities."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse the interconnected physical and human characteristics that define complex regional boundaries."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate how shared characteristics define regions across multiple scales and contexts."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify regional definitions by analysing complex interactions between physical and human characteristics."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify obvious physical features that make places look the same with teacher support."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can identify basic physical and human features that are shared by familiar places."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can identify multiple physical and human characteristics that define regions in my local area."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can identify and describe the key physical and human characteristics that define different regions."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can identify and explain how physical and human characteristics work together to define regional boundaries."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can identify and analyse the complex interactions between physical and human characteristics that define regions."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can identify and evaluate how physical and human characteristics define regions across different geographical scales."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can identify and justify regional definitions by analysing physical and human characteristics across diverse global contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Level 1",
+          "statement": "I can identify simple features on maps and photographs with teacher guidance."
+        },
+        {
+          "band": "Level 2",
+          "statement": "I can describe basic regional features using information from simple maps and photographs."
+        },
+        {
+          "band": "Level 3",
+          "statement": "I can interpret geographical information from maps and graphs to describe familiar regional features."
+        },
+        {
+          "band": "Level 4",
+          "statement": "I can analyse geographical information from multiple sources to explain regional characteristics and patterns."
+        },
+        {
+          "band": "Level 5",
+          "statement": "I can evaluate geographical information from various sources to compare and contrast different regional features."
+        },
+        {
+          "band": "Level 6",
+          "statement": "I can synthesise complex geographical information to analyse relationships between regional features and processes."
+        },
+        {
+          "band": "Level 7",
+          "statement": "I can critically interpret diverse geographical information to justify conclusions about regional development patterns."
+        },
+        {
+          "band": "Level 8",
+          "statement": "I can independently evaluate and integrate geographical information to construct comprehensive regional analyses."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple features on maps and photographs with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic regional features using information from simple maps and photographs."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can interpret geographical information from maps and graphs to describe familiar regional features."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geographical information from multiple sources to explain regional characteristics and patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can evaluate geographical information from various sources to compare and contrast different regional features."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can synthesise complex geographical information to analyse relationships between regional features and processes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can critically interpret diverse geographical information to justify conclusions about regional development patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can independently evaluate and integrate geographical information to construct comprehensive regional analyses."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Level 1",
+              "medium"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify basic features on simple maps and photographs with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe obvious regional features using information from maps and clear photographs."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can interpret geographical information from maps and graphs to describe local regional characteristics."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geographical information from multiple sources to explain regional features and patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can interpret complex geographical data to compare and contrast features across different regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate geographical information from diverse sources to justify conclusions about regional characteristics."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can synthesise geographical information to analyse relationships between regional features and underlying processes."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically interpret geographical information to evaluate regional development patterns and predict future changes."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Level 1",
+              "short"
+            ],
+            [
+              "Level 2",
+              "medium"
+            ],
+            [
+              "Level 3",
+              "medium"
+            ],
+            [
+              "Level 4",
+              "medium"
+            ],
+            [
+              "Level 5",
+              "medium"
+            ],
+            [
+              "Level 6",
+              "medium"
+            ],
+            [
+              "Level 7",
+              "medium"
+            ],
+            [
+              "Level 8",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Level 1",
+              "statement": "I can identify simple features on maps and photographs with teacher guidance."
+            },
+            {
+              "band": "Level 2",
+              "statement": "I can describe basic regional features using information from simple maps and photographs."
+            },
+            {
+              "band": "Level 3",
+              "statement": "I can interpret geographical information from maps and graphs to describe local regional features."
+            },
+            {
+              "band": "Level 4",
+              "statement": "I can analyse geographical information from multiple sources to explain regional characteristics and patterns."
+            },
+            {
+              "band": "Level 5",
+              "statement": "I can interpret complex geographical data to compare and contrast features across different regions."
+            },
+            {
+              "band": "Level 6",
+              "statement": "I can evaluate geographical information from diverse sources to explain regional relationships and processes."
+            },
+            {
+              "band": "Level 7",
+              "statement": "I can synthesise geographical information to analyse regional variations and justify explanations of spatial patterns."
+            },
+            {
+              "band": "Level 8",
+              "statement": "I can critically interpret geographical information to evaluate regional development and predict future spatial changes."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Level 1', 'short'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 2, (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "lt_name": "Population Change Factors and Patterns",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'short'), ('Level 2', 'medium'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'short'), ('Level 5', 'short'), ('Level 6', 'short'), ('Level 7', 'short'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium'))]"
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "lt_name": "Tectonic Processes and Rock Formation",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'medium'), ('Level 2', 'short'), ('Level 3', 'short'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'short'), ('Level 2', 'short'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium'))]"
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "lt_name": "Analyzing Human-Environment Interactions",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'long'), ('Level 8', 'long')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'medium'), ('Level 7', 'medium'), ('Level 8', 'medium')), (('Level 1', 'medium'), ('Level 2', 'medium'), ('Level 3', 'medium'), ('Level 4', 'medium'), ('Level 5', 'medium'), ('Level 6', 'long'), ('Level 7', 'medium'), ('Level 8', 'long'))]"
+    }
+  ]
+}

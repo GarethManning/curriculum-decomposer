@@ -1,0 +1,48 @@
+{
+  "is_multi_strand": true,
+  "overall_confidence": 0.85,
+  "strands": [
+    {
+      "name": "History",
+      "slug": "history",
+      "line_start": 21,
+      "line_end": 206,
+      "confidence": 0.85,
+      "signals": [
+        "teaching_point_marker: Knowledge"
+      ]
+    },
+    {
+      "name": "Civics and Society",
+      "slug": "civics-and-society",
+      "line_start": 206,
+      "line_end": 294,
+      "confidence": 0.85,
+      "signals": [
+        "teaching_point_marker: Knowledge"
+      ]
+    },
+    {
+      "name": "Geography",
+      "slug": "geography",
+      "line_start": 294,
+      "line_end": 479,
+      "confidence": 0.85,
+      "signals": [
+        "teaching_point_marker: Knowledge"
+      ]
+    },
+    {
+      "name": "Economic Activity",
+      "slug": "economic-activity",
+      "line_start": 479,
+      "line_end": 529,
+      "confidence": 0.85,
+      "signals": [
+        "teaching_point_marker: Knowledge"
+      ]
+    }
+  ],
+  "flags": [],
+  "single_strand_rationale": null
+}

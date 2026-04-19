@@ -1,0 +1,130 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-history",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "components": [],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "lt_name": "Treaty Foundations and Key Figures",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "only 0/3 runs produced parseable output"
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "lt_name": "Contemporary Treaty Significance and Commemoration",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "only 0/3 runs produced parseable output"
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "lt_name": "Historical Evidence Analysis",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "only 0/3 runs produced parseable output"
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "lt_name": "Societal Impact Assessment",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "only 0/3 runs produced parseable output"
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "lt_name": "Early Contact Events and Developments",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "only 0/3 runs produced parseable output"
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['observable_verb']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_03_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_04_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_04_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_05_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_05_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_05_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_05_lt_03; no content to build from"
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_06_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_06_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_06_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_06_lt_03; no content to build from"
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_07_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_07_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_07_lt_03; no content to build from"
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_08_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_08_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_09_lt_01; no content to build from"
+    },
+    {
+      "lt_id": "cluster_09_lt_02",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_09_lt_02; no content to build from"
+    },
+    {
+      "lt_id": "cluster_09_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_09_lt_03; no content to build from"
+    }
+  ]
+}

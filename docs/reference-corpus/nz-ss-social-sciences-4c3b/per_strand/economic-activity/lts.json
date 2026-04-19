@@ -1,0 +1,723 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-economic-activity",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Personal Financial Decision Making",
+      "lt_name": "Understanding Financial Choices and Constraints",
+      "lt_definition": "I can explain how limited money requires people to make choices between different spending and saving options.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0011_item_01",
+        "blk_0012_item_01",
+        "blk_0013_item_01",
+        "blk_0013_item_02",
+        "blk_0014_item_01",
+        "blk_0014_item_02",
+        "blk_0019_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Choices and Constraints",
+            "Planning and Managing Personal Finances",
+            "Evaluating Banking Services and Options"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Solutions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Services"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Personal Financial Decision Making",
+      "lt_name": "Planning and Managing Personal Finances",
+      "lt_definition": "I can create shopping lists, compare prices, calculate costs, and develop savings plans using available financial tools.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0015_item_01",
+        "blk_0018_item_01",
+        "blk_0020_item_01",
+        "blk_0021_item_01",
+        "blk_0035_item_01",
+        "blk_0038_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Choices and Constraints",
+            "Planning and Managing Personal Finances",
+            "Evaluating Banking Services and Options"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Solutions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Services"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "cluster_id": "cluster_01",
+      "competency_name": "Personal Financial Decision Making",
+      "lt_name": "Evaluating Banking Services and Options",
+      "lt_definition": "I can analyse how different banking services meet people's financial needs and circumstances.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Choices and Constraints",
+            "Planning and Managing Personal Finances",
+            "Evaluating Banking Services and Options"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Solutions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Financial Concepts and Options",
+            "Applying Financial Planning Skills",
+            "Evaluating Banking Services"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "cluster_id": "cluster_02",
+      "competency_name": "Economic Exchange and Trade Systems",
+      "lt_name": "Understanding Exchange Systems and Specialisation",
+      "lt_definition": "I can explain how people exchange goods, services, and resources through different systems and why specialisation leads to trade.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0016_item_01",
+        "blk_0017_item_01",
+        "blk_0023_item_01",
+        "blk_0034_item_01",
+        "blk_0034_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Local Examples"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Change",
+            "Identifying Economic Exchange in Context"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Examples"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 2, (3, ('Type 1', 'Type 2', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "cluster_id": "cluster_02",
+      "competency_name": "Economic Exchange and Trade Systems",
+      "lt_name": "Analysing Trade Development and Local Examples",
+      "lt_definition": "I can identify and analyse examples of trade systems, their historical development, and specialisation in local communities.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0024_item_02",
+        "blk_0036_item_01",
+        "blk_0041_item_01",
+        "blk_0044_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Local Examples"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Change",
+            "Identifying Economic Exchange in Context"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Exchange Systems and Specialisation",
+            "Analysing Trade Development and Examples"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(2, ('Type 1', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 2, (3, ('Type 1', 'Type 2', 'Type 2')): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Work and Economic Contribution",
+      "lt_name": "Types and Purposes of Work",
+      "lt_definition": "I can identify different kinds of work people do and explain how work helps others or earns money.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0022_item_01",
+        "blk_0022_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work Choices and Influences"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work and Economic Decisions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work Choices and Influences"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Work and Economic Contribution",
+      "lt_name": "Analyzing Work Choices and Influences",
+      "lt_definition": "I can compare different types of work and analyze the factors that influence people's work choices.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0039_item_01",
+        "blk_0040_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work Choices and Influences"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work and Economic Decisions"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Types and Purposes of Work",
+            "Analyzing Work Choices and Influences"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "cluster_id": "cluster_04",
+      "competency_name": "Business Operations and Enterprise",
+      "lt_name": "Understanding Business Financial Operations",
+      "lt_definition": "I can explain how businesses generate revenue, incur costs, and calculate profit.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0025_item_01",
+        "blk_0026_item_01",
+        "blk_0027_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Fundamentals",
+            "Analysing Business Operations and Values"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Operations",
+            "Analysing Business Case Studies",
+            "Evaluating Values-Based Enterprise Models"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Business Financial Fundamentals",
+            "Business Case Analysis",
+            "Values-Based Enterprise Understanding"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "cluster_id": "cluster_04",
+      "competency_name": "Business Operations and Enterprise",
+      "lt_name": "Analysing Business Case Studies",
+      "lt_definition": "I can analyse business operations by examining costs, pricing, and revenue in specific contexts.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0042_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Fundamentals",
+            "Analysing Business Operations and Values"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Operations",
+            "Analysing Business Case Studies",
+            "Evaluating Values-Based Enterprise Models"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Business Financial Fundamentals",
+            "Business Case Analysis",
+            "Values-Based Enterprise Understanding"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_03",
+      "cluster_id": "cluster_04",
+      "competency_name": "Business Operations and Enterprise",
+      "lt_name": "Evaluating Values-Based Enterprise Models",
+      "lt_definition": "I can evaluate how different values and pūtake shape various forms of business and enterprise.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0028_item_01",
+        "blk_0029_item_01",
+        "blk_0043_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Fundamentals",
+            "Analysing Business Operations and Values"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Business Financial Operations",
+            "Analysing Business Case Studies",
+            "Evaluating Values-Based Enterprise Models"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Business Financial Fundamentals",
+            "Business Case Analysis",
+            "Values-Based Enterprise Understanding"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "cluster_id": "cluster_05",
+      "competency_name": "Credit, Debt, and Financial Planning",
+      "lt_name": "Understanding Credit and Debt Systems",
+      "lt_definition": "I can explain how credit systems work and describe the relationship between borrowing and debt obligations.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0030_item_01",
+        "blk_0030_item_02",
+        "blk_0031_item_01",
+        "blk_0032_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "cluster_id": "cluster_05",
+      "competency_name": "Credit, Debt, and Financial Planning",
+      "lt_name": "Applying Financial Planning Tools",
+      "lt_definition": "I can use budgets and other financial planning tools to make informed financial decisions.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0033_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Understanding Credit and Debt Systems",
+            "Applying Financial Planning Tools"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_clusters": []
+}

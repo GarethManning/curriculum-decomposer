@@ -1,0 +1,1638 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-geography",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "components": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_01",
+        "stages": [
+          "Brainstorm all factors that might change population size or makeup in a community",
+          "Sort factors into categories and discuss which have the biggest impact",
+          "Define what good descriptions of population factors should include",
+          "Create quality levels from basic identification to detailed explanations"
+        ],
+        "student_prompts": [
+          "What causes populations to grow, shrink, or change over time?",
+          "How would you explain these factors to someone who has never studied population?",
+          "What makes one explanation of population change better than another?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that show clear progression from listing factors to explaining connections between population dynamics and time."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to describe how population factors work.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some population factors with help but my descriptions need work.",
+            "word_count": 13
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can describe some population change factors on my own but miss important details.",
+            "word_count": 14
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can describe how population growth, structure changes, migration, and natural increase affect population dynamics over time.",
+            "word_count": 17
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect population dynamics to bigger demographic theories or predict future population trends.",
+            "word_count": 14
+          }
+        ],
+        "self_check_prompts": [
+          "Did I explain how each factor affects population over time?",
+          "Can someone understand population dynamics from my description?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide examples of population changes in familiar communities",
+            "Guide student to identify one clear population factor"
+          ],
+          "emerging": [
+            "Ask student to explain their thinking about identified factors",
+            "Provide sentence starters for describing population changes"
+          ],
+          "developing": [
+            "Prompt student to add specific details about how factors work over time",
+            "Ask student to make connections between different population factors"
+          ],
+          "competent": [
+            "Challenge student to apply population dynamics to unfamiliar contexts",
+            "Ask student to consider broader patterns or theories"
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_01_lt_02",
+        "stages": [
+          "Brainstorm different ways we see population data displayed in maps and charts.",
+          "Examine what makes each method useful or challenging to understand.",
+          "Discuss how geographic features might affect which method works best.",
+          "Create criteria for comparing these methods across different regions."
+        ],
+        "student_prompts": [
+          "What different ways have you seen population shown on maps or in data displays?",
+          "When might a dot map be more helpful than a choropleth map?",
+          "How does the size or shape of a geographic area affect which representation method works best?"
+        ],
+        "anchor_examples_guidance": "Select population representations that clearly show the same geographic area using different methods and include both urban and rural regions."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_01_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to compare population representation methods.",
+            "word_count": 10
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some population representation methods with help but my comparisons need work.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify different population representation methods but need to connect them better to geographic regions.",
+            "word_count": 16
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can compare different methods for representing population density and distribution patterns across geographic regions.",
+            "word_count": 15
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can evaluate which representation methods work best for specific geographic purposes beyond basic comparison.",
+            "word_count": 15
+          }
+        ],
+        "self_check_prompts": [
+          "Did I explain how each method shows population differently across geographic areas?",
+          "Can I justify why one method might be better than another for a specific region or purpose?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_01_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide examples of population maps and ask what the student notices about how population is shown.",
+            "Guide the student to identify one specific method used to display population data."
+          ],
+          "emerging": [
+            "Ask the student to explain what they see in each representation without teacher prompting.",
+            "Have the student practice describing differences between two methods using geographic vocabulary."
+          ],
+          "developing": [
+            "Prompt the student to connect their method descriptions to specific geographic features or regions.",
+            "Ask how the same population data might look different when the geographic scale changes."
+          ],
+          "competent": [
+            "Challenge the student to consider which method would be most effective for a specific research question or audience.",
+            "Ask the student to predict what problems might arise when using each method in different geographic contexts."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_04_lt_01",
+        "stages": [
+          "Students share what they know about how mountains, valleys, and rocks form.",
+          "Teacher introduces plate movements and rock cycles as key processes.",
+          "Students work in groups to match geological features with their formation processes.",
+          "Class discusses and refines criteria for explaining these connections clearly.",
+          "Students test the rubric by evaluating sample explanations together."
+        ],
+        "student_prompts": [
+          "What do you think causes earthquakes and volcanoes?",
+          "How might rocks change over millions of years?",
+          "What would a complete explanation of landform creation include?",
+          "How can we tell if someone really understands these processes?"
+        ],
+        "anchor_examples_guidance": "Select student explanations that show clear progression from basic identification to sophisticated connections between processes and outcomes."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_04_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to explain how geological processes work.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some plate movements or rock types with help but my explanations need work.",
+            "word_count": 16
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can explain basic plate movements or rock cycle processes but struggle to connect them to landform creation.",
+            "word_count": 18
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can explain how plate movements and rock cycles create Earth's geological features with accurate scientific understanding.",
+            "word_count": 17
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect tectonic and rock cycle processes to predict future geological changes or regional variations.",
+            "word_count": 16
+          }
+        ],
+        "self_check_prompts": [
+          "Can I trace the steps from plate movement to landform creation?",
+          "Do my explanations use accurate scientific vocabulary and concepts?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_04_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide visual models of plate boundaries and rock formation.",
+            "Start with one simple example like volcanic island formation."
+          ],
+          "emerging": [
+            "Focus on correcting one key misconception at a time.",
+            "Use hands-on activities to demonstrate accurate processes."
+          ],
+          "developing": [
+            "Guide students to explicitly connect processes to specific landforms.",
+            "Ask 'What happens next?' to extend their thinking through complete sequences."
+          ],
+          "competent": [
+            "Challenge students to apply their understanding to unfamiliar geological settings.",
+            "Introduce time scales and regional variations in geological processes."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_04_lt_02",
+        "stages": [
+          "Students examine geological maps and landforms to identify what they notice and wonder about landscape features.",
+          "Students sort geological evidence into categories and discuss what different rock types and erosion patterns might tell us.",
+          "Students create criteria for what makes a strong geological analysis by comparing weak and strong examples.",
+          "Students refine criteria into performance levels from basic identification to advanced prediction and comparison."
+        ],
+        "student_prompts": [
+          "What patterns do you see in this geological map and how might they connect to the landscape?",
+          "How would you know if someone has done a thorough analysis of geological evidence?",
+          "What would it look like to go beyond just identifying features to making predictions about landscapes?"
+        ],
+        "anchor_examples_guidance": "Select geological maps and landform examples that clearly show the progression from simple feature identification to complex analysis connecting rock types, erosion processes, and landscape development."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_04_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to analyse geological evidence or landforms.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some geological features with support but my analysis needs improvement.",
+            "word_count": 13
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can independently identify geological features but struggle to connect erosion processes with how landforms develop.",
+            "word_count": 16
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can independently analyse geological maps, diagrams and observations to accurately identify how erosion and rock types shape landscapes.",
+            "word_count": 19
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can apply geological analysis to predict how landscapes will evolve or compare geological processes across different regions.",
+            "word_count": 18
+          }
+        ],
+        "self_check_prompts": [
+          "Can I explain the connections between rock types, erosion processes, and the landforms I observe?",
+          "Am I using evidence from geological maps and diagrams to support my analysis?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_04_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple geological map with clear features and guide student to identify one obvious landform.",
+            "Use questioning to help student notice basic patterns in the geological evidence."
+          ],
+          "emerging": [
+            "Focus on one clear connection between rock type and landform to build confidence in analysis.",
+            "Provide sentence starters or graphic organizers to structure geological observations."
+          ],
+          "developing": [
+            "Guide student to trace specific erosion processes step-by-step and connect them to landform features.",
+            "Use before-and-after diagrams to help student visualize how erosion shapes landscapes over time."
+          ],
+          "competent": [
+            "Challenge student to make predictions about landscape changes based on their current analysis.",
+            "Introduce comparative analysis by providing geological evidence from a different region."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_05_lt_01",
+        "stages": [
+          "Brainstorm what students already know about rainforests and their locations",
+          "Examine rainforest images and data to identify key characteristics",
+          "Organize characteristics into categories of climate, structure, and location",
+          "Define quality levels from basic identification to detailed analysis",
+          "Test the rubric against sample student work"
+        ],
+        "student_prompts": [
+          "What makes a rainforest different from other forests?",
+          "How would you organize rainforest information from simple to complex?",
+          "What details would show deep understanding of rainforest biomes?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that clearly show progression from basic feature identification to detailed structural analysis with accurate global distribution knowledge."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_05_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to describe rainforest characteristics or distribution.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some rainforest features with help but my descriptions need more accuracy.",
+            "word_count": 14
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can describe basic rainforest characteristics on my own but need more detail about structure or distribution.",
+            "word_count": 17
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can accurately describe rainforest characteristics, structure, and global distribution with appropriate detail.",
+            "word_count": 13
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can connect rainforest characteristics to climate patterns and compare distribution with other biomes.",
+            "word_count": 14
+          }
+        ],
+        "self_check_prompts": [
+          "Have I included characteristics, structure, AND global distribution in my description?",
+          "Can I explain WHY rainforests are located where they are?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_05_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide rainforest images and ask what the student notices",
+            "Start with one simple characteristic like temperature or rainfall"
+          ],
+          "emerging": [
+            "Guide student to check accuracy using reliable sources",
+            "Help organize ideas into clear categories of characteristics, structure, and location"
+          ],
+          "developing": [
+            "Prompt for specific details about rainforest layers or precipitation amounts",
+            "Ask where rainforests are found globally and why those locations make sense"
+          ],
+          "competent": [
+            "Challenge student to explain connections between climate and rainforest characteristics",
+            "Encourage comparison with other biome types and their distributions"
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "co_construction_plan": {
+        "lt_id": "cluster_05_lt_02",
+        "stages": [
+          "Students brainstorm what they already know about rainforest destruction and its effects.",
+          "Teacher guides students to categorize their ideas into causes and consequences.",
+          "Students examine the difference between identifying impacts versus analyzing connections between them.",
+          "Class develops criteria for what makes analysis complete versus incomplete or shallow versus deep."
+        ],
+        "student_prompts": [
+          "What happens when rainforests are cut down and why does this occur?",
+          "How can we tell the difference between listing facts and analyzing connections?",
+          "What would make our analysis more complete or thorough?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that clearly show different depths of analysis from simple listing to complex cause-effect reasoning."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_05_lt_02",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to analyse how deforestation affects rainforest ecosystems and communities.",
+            "word_count": 14
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify some causes or consequences of deforestation with help.",
+            "word_count": 11
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify causes and consequences of deforestation on my own.",
+            "word_count": 11
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can analyse multiple causes of deforestation and explain how they affect rainforest ecosystems and communities.",
+            "word_count": 16
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can analyse deforestation impacts at different scales and evaluate possible solutions.",
+            "word_count": 12
+          }
+        ],
+        "self_check_prompts": [
+          "Have I explained the connections between causes and their effects rather than just listing them?",
+          "Have I considered impacts on both ecosystems and human communities?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_05_lt_02",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a specific deforestation scenario to analyze.",
+            "Ask what might happen when trees are removed from rainforests."
+          ],
+          "emerging": [
+            "Guide student to identify one clear cause-effect relationship.",
+            "Prompt student to consider both human and environmental impacts."
+          ],
+          "developing": [
+            "Ask student to explain how their identified causes connect to specific consequences.",
+            "Encourage student to consider multiple stakeholder perspectives."
+          ],
+          "competent": [
+            "Challenge student to consider impacts at local and global scales.",
+            "Ask student to evaluate which solutions might be most effective."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              3
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_08_lt_01",
+        "stages": [
+          "Students brainstorm what makes their neighborhood different from other places they know.",
+          "Teacher introduces the term 'region' and students discuss what physical and human features might be shared across larger areas.",
+          "Students examine maps and images to identify patterns of shared characteristics.",
+          "Class collaboratively defines what it means to 'identify regional characteristics' and creates success criteria."
+        ],
+        "student_prompts": [
+          "What physical features do you notice that are the same across this area?",
+          "What human activities or ways of living do people in this region share?",
+          "How do these shared characteristics make this region different from others?"
+        ],
+        "anchor_examples_guidance": "Select student work samples that clearly show progression from listing isolated features to connecting shared characteristics across a defined regional area."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_08_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to identify what makes a region special.",
+            "word_count": 12
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can name some features of places with help but don't see how they connect to regions.",
+            "word_count": 17
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify some physical and human characteristics but struggle to show how they define a region.",
+            "word_count": 17
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can independently identify the shared physical and human characteristics that define a specific region.",
+            "word_count": 15
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can identify regional characteristics and explain how they create a unique regional identity.",
+            "word_count": 14
+          }
+        ],
+        "self_check_prompts": [
+          "Did I identify both physical features and human activities that are shared across the region?",
+          "Can I explain how these shared characteristics make this region distinct from others?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_08_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Provide a simple map or image and ask what the student notices about the area.",
+            "Guide the student to point out one obvious feature they can see."
+          ],
+          "emerging": [
+            "Ask the student to compare two similar features they identified and discuss what they have in common.",
+            "Introduce the concept that regions are areas where people and places share similar characteristics."
+          ],
+          "developing": [
+            "Help the student group their identified characteristics into physical and human categories.",
+            "Guide them to explain how these characteristics are shared across the entire regional area."
+          ],
+          "competent": [
+            "Challenge the student to explain why these shared characteristics make the region unique.",
+            "Ask them to predict what might happen if one of these key characteristics changed."
+          ]
+        }
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              3
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_03_lt_01",
+      "lt_name": "Understanding Urbanisation Patterns and Processes",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "lt_name": "Evaluating Environmental Responsibility",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "lt_name": "Analyzing Climate Change Data and Impacts",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "lt_name": "Interpreting Geographical Information",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 3), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 3), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['single_construct']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['single_construct']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "halt_reason": "supporting_skipped_gate_fail",
+      "diagnostic": "rubric has gate failures ['single_construct']; not a stable anchor for supporting materials"
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "halt_reason": "supporting_skipped_gen_fail",
+      "diagnostic": "rubric generation failed for cluster_03_lt_03; no content to build from"
+    }
+  ]
+}
