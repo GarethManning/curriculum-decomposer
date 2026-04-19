@@ -83,6 +83,22 @@ class ProgressionStructure:
     element list with the grade label. Downstream generators interpret
     this as "no progression sequence inside the source — produce a
     single statement per LT at this grade level".
+
+    ``band_details`` holds per-band developmental-indexing metadata (one
+    dict per band, in the same order as ``band_labels``). Each dict has:
+      - ``label``: the band label (matches ``band_labels[i]``).
+      - ``approximate_age_range``: source-specified age range, or null.
+      - ``approximate_grade_year``: source-specified grade/year, or null.
+      - ``developmental_descriptor``: brief text from the source's own
+        documentation describing what learners at this band are
+        developmentally expected to do.
+
+    ``progression_philosophy`` describes how progression should be
+    interpreted for this source — is it a set of annual grade targets, a
+    set of developmental waypoints, a phase-based curriculum, etc.? This
+    text is drawn from the issuing jurisdiction's own guidance so that
+    any reader — including someone unfamiliar with the jurisdiction — can
+    understand the source's progression model without prior knowledge.
     """
 
     band_labels: list[str]
@@ -92,6 +108,8 @@ class ProgressionStructure:
     detection_confidence: str
     detection_rationale: str
     band_self_reflection_prompts: dict[str, str] = field(default_factory=dict)
+    band_details: list[dict] = field(default_factory=list)
+    progression_philosophy: str = ""
     source_reference: str = ""
     source_slug: str = ""
     detection_module_version: str = PROGRESSION_DETECTION_VERSION
@@ -166,6 +184,79 @@ WELSH_CFW_PS_SELF_REFLECTION_PROMPTS: dict[str, str] = {
     ),
 }
 
+# Per-band developmental-indexing metadata for Welsh CfW Progression Steps.
+# Approximate ages and developmental descriptors drawn from the Welsh
+# Government's statutory Descriptions of Learning and the Curriculum for
+# Wales guidance published at hwb.gov.wales. The "up to age X" framing
+# is the Welsh Government's own: each PS is a reference waypoint for
+# what learners are typically expected to achieve by the associated age,
+# not a year-group gate. Descriptions are rendered from the AoLE-spanning
+# conceptual language in the statutory guidance, not from any single AoLE.
+WELSH_CFW_PS_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Progression Step 1",
+        "approximate_age_range": "up to age 5",
+        "approximate_grade_year": None,
+        "developmental_descriptor": (
+            "Learners explore and experience the world through play, sensory "
+            "engagement, and adult-supported activity. They begin to develop "
+            "awareness of themselves and their immediate environment."
+        ),
+    },
+    {
+        "label": "Progression Step 2",
+        "approximate_age_range": "up to age 8",
+        "approximate_grade_year": None,
+        "developmental_descriptor": (
+            "Learners develop confidence and work with increasing independence. "
+            "They make connections between experiences and begin to articulate "
+            "thoughts about themselves and others."
+        ),
+    },
+    {
+        "label": "Progression Step 3",
+        "approximate_age_range": "up to age 11",
+        "approximate_grade_year": None,
+        "developmental_descriptor": (
+            "Learners build capacity to manage change and transition. They "
+            "consider different perspectives, manage emotions with growing "
+            "skill, and act with increasing autonomy."
+        ),
+    },
+    {
+        "label": "Progression Step 4",
+        "approximate_age_range": "up to age 14",
+        "approximate_grade_year": None,
+        "developmental_descriptor": (
+            "Learners demonstrate increasing maturity in navigating complex "
+            "relationships and situations. They develop resilience, critical "
+            "thinking, and awareness of their impact on others."
+        ),
+    },
+    {
+        "label": "Progression Step 5",
+        "approximate_age_range": "up to age 16",
+        "approximate_grade_year": None,
+        "developmental_descriptor": (
+            "Learners evaluate their own learning, act ethically and "
+            "sustainably, and engage with wider society. They exercise "
+            "independent judgement and articulate reasoned values."
+        ),
+    },
+]
+
+# Progression philosophy for Welsh CfW — drawn from the Welsh Government's
+# Curriculum and Assessment (Wales) Act 2021 and the Curriculum for Wales
+# framework guidance published at hwb.gov.wales.
+WELSH_CFW_PROGRESSION_PHILOSOPHY = (
+    "Progression Steps are reference waypoints, not annual targets. Learners "
+    "progress at different rates and may be at different Progression Steps for "
+    "different Areas of Learning and Experience. Each Step describes what "
+    "learners are typically expected to achieve by the associated age; they are "
+    "not grade-level checklists. Per Welsh Government statutory specification "
+    "under the Curriculum and Assessment (Wales) Act 2021."
+)
+
 # Scottish CfE Levels. Self-reflection prompts mapped by analogous
 # cognitive demand bands.
 SCOTTISH_CFE_LEVEL_LABELS = [
@@ -197,8 +288,137 @@ SCOTTISH_CFE_SELF_REFLECTION_PROMPTS: dict[str, str] = {
     ),
 }
 
+# Per-band developmental metadata for Scottish CfE.
+# Age ranges per Education Scotland's "Building the Curriculum" documentation
+# and CfE benchmarks (education.gov.scot). P = primary year, S = secondary year.
+SCOTTISH_CFE_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Early Level",
+        "approximate_age_range": "ages 3-6",
+        "approximate_grade_year": "Pre-school to P1",
+        "developmental_descriptor": (
+            "Learners are exploring and developing through play and first "
+            "structured experiences. They are building foundational literacy, "
+            "numeracy, and awareness of the world immediately around them."
+        ),
+    },
+    {
+        "label": "First Level",
+        "approximate_age_range": "ages 5/6-8/9",
+        "approximate_grade_year": "P2-P4",
+        "developmental_descriptor": (
+            "Learners develop confidence and begin working more independently. "
+            "They build core skills across literacy, numeracy, and the sciences, "
+            "and develop growing awareness of themselves and others."
+        ),
+    },
+    {
+        "label": "Second Level",
+        "approximate_age_range": "ages 7/8-10/11",
+        "approximate_grade_year": "P4-P7",
+        "developmental_descriptor": (
+            "Learners engage with increasingly complex concepts and begin to "
+            "apply skills across different contexts. They develop analytical "
+            "thinking and a broader understanding of their community and world."
+        ),
+    },
+    {
+        "label": "Third Level",
+        "approximate_age_range": "ages 10/11-13/14",
+        "approximate_grade_year": "S1-S3",
+        "developmental_descriptor": (
+            "Learners apply skills and knowledge with increasing sophistication. "
+            "They develop critical thinking, independent inquiry, and the capacity "
+            "to understand multiple perspectives."
+        ),
+    },
+    {
+        "label": "Fourth Level",
+        "approximate_age_range": "ages 12/13-14/15",
+        "approximate_grade_year": "S1-S3",
+        "developmental_descriptor": (
+            "Learners engage with challenging and abstract content, demonstrating "
+            "depth of understanding and the ability to evaluate, synthesise, and "
+            "transfer learning across contexts."
+        ),
+    },
+    {
+        "label": "Senior Phase",
+        "approximate_age_range": "ages 15-18",
+        "approximate_grade_year": "S4-S6",
+        "developmental_descriptor": (
+            "Learners pursue qualifications and specialised study aligned to "
+            "post-school ambitions. They exercise high-level critical thinking, "
+            "self-direction, and articulation of developed values and capabilities."
+        ),
+    },
+]
+
+SCOTTISH_CFE_PROGRESSION_PHILOSOPHY = (
+    "Curriculum for Excellence levels are broad developmental bands, each spanning "
+    "approximately 2-3 years. Progression within a level is described through "
+    "Experiences and Outcomes; learners may progress through a level at different "
+    "rates and some may continue to develop within a level across more than one year. "
+    "The levels are not tied to specific calendar years; ages shown are indicative "
+    "guidance, not prescription. Per Education Scotland's Building the Curriculum "
+    "and CfE benchmarks documentation."
+)
+
 # England NC Key Stages.
 ENGLAND_KS_LABELS = ["Key Stage 1", "Key Stage 2", "Key Stage 3", "Key Stage 4"]
+# Per-band developmental metadata for England NC Key Stages.
+# Ages and year groups per DfE statutory national curriculum framework.
+ENGLAND_KS_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Key Stage 1",
+        "approximate_age_range": "ages 5-7",
+        "approximate_grade_year": "Years 1-2",
+        "developmental_descriptor": (
+            "Learners develop foundational skills in reading, writing, and "
+            "mathematics. They explore the world through structured play and "
+            "guided inquiry and begin to develop awareness of themselves and others."
+        ),
+    },
+    {
+        "label": "Key Stage 2",
+        "approximate_age_range": "ages 7-11",
+        "approximate_grade_year": "Years 3-6",
+        "developmental_descriptor": (
+            "Learners build fluency in core subjects and develop growing capacity "
+            "for independent learning. They engage with increasingly complex ideas "
+            "and develop analytical and problem-solving skills."
+        ),
+    },
+    {
+        "label": "Key Stage 3",
+        "approximate_age_range": "ages 11-14",
+        "approximate_grade_year": "Years 7-9",
+        "developmental_descriptor": (
+            "Learners engage with a broad curriculum across specialised subject "
+            "disciplines. They develop critical thinking, abstract reasoning, and "
+            "the capacity to work independently and collaboratively."
+        ),
+    },
+    {
+        "label": "Key Stage 4",
+        "approximate_age_range": "ages 14-16",
+        "approximate_grade_year": "Years 10-11",
+        "developmental_descriptor": (
+            "Learners pursue GCSE qualifications and develop depth of understanding "
+            "in their chosen subjects. They apply sophisticated reasoning, extended "
+            "writing, and research skills in preparation for post-16 pathways."
+        ),
+    },
+]
+
+ENGLAND_NC_PROGRESSION_PHILOSOPHY = (
+    "Key Stages represent statutory curriculum phases defined by the DfE national "
+    "curriculum framework. Progression within a Key Stage is described through "
+    "programmes of study and attainment targets; detailed within-KS sequencing is "
+    "a school and teacher decision. Ages shown are statutory entry points per the "
+    "DfE national curriculum statutory framework (England)."
+)
+
 ENGLAND_KS_SELF_REFLECTION_PROMPTS: dict[str, str] = {
     "Key Stage 1": (
         "Tell me about a time you tried something hard. What did you do, and how did it feel?"
@@ -213,6 +433,100 @@ ENGLAND_KS_SELF_REFLECTION_PROMPTS: dict[str, str] = {
         "Analyse how your understanding of yourself in this area has developed, and articulate what now guides how you act."
     ),
 }
+
+# Per-band developmental metadata for NZ Curriculum Levels 1-8.
+# Year groups and ages per Ministry of Education NZ, "The New Zealand Curriculum"
+# (2007, revised 2023). Ages are indicative ranges from the MoE documentation.
+NZ_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Level 1",
+        "approximate_age_range": "ages 5-7",
+        "approximate_grade_year": "Years 1-2",
+        "developmental_descriptor": (
+            "Learners explore the world through play and structured first "
+            "experiences, developing foundational literacy, numeracy, and "
+            "awareness of their immediate environment and community."
+        ),
+    },
+    {
+        "label": "Level 2",
+        "approximate_age_range": "ages 7-9",
+        "approximate_grade_year": "Years 3-4",
+        "developmental_descriptor": (
+            "Learners develop confidence in core skills and begin to work "
+            "with greater independence. They make connections across subjects "
+            "and grow in their understanding of community and relationships."
+        ),
+    },
+    {
+        "label": "Level 3",
+        "approximate_age_range": "ages 9-11",
+        "approximate_grade_year": "Years 5-6",
+        "developmental_descriptor": (
+            "Learners engage with more complex concepts and develop analytical "
+            "thinking. They build capacity to investigate questions and consider "
+            "multiple perspectives."
+        ),
+    },
+    {
+        "label": "Level 4",
+        "approximate_age_range": "ages 11-13",
+        "approximate_grade_year": "Years 7-8",
+        "developmental_descriptor": (
+            "Learners apply knowledge and skills across increasingly abstract "
+            "contexts. They develop critical inquiry, self-management, and "
+            "growing awareness of local and global issues."
+        ),
+    },
+    {
+        "label": "Level 5",
+        "approximate_age_range": "ages 13-15",
+        "approximate_grade_year": "Years 9-10",
+        "developmental_descriptor": (
+            "Learners engage with specialised subject disciplines and develop "
+            "sophisticated analytical and evaluative skills. They begin to "
+            "exercise more autonomous learning and judgment."
+        ),
+    },
+    {
+        "label": "Level 6",
+        "approximate_age_range": "ages 15-17",
+        "approximate_grade_year": "Years 11-12",
+        "developmental_descriptor": (
+            "Learners pursue qualifications and specialised study. They apply "
+            "complex reasoning, extended research, and strong self-direction."
+        ),
+    },
+    {
+        "label": "Level 7",
+        "approximate_age_range": "ages 16-18",
+        "approximate_grade_year": "Years 12-13",
+        "developmental_descriptor": (
+            "Learners demonstrate high-level conceptual understanding and "
+            "independent inquiry. They evaluate, synthesise, and transfer "
+            "learning across domains."
+        ),
+    },
+    {
+        "label": "Level 8",
+        "approximate_age_range": "ages 17-18",
+        "approximate_grade_year": "Year 13",
+        "developmental_descriptor": (
+            "Learners exercise the highest level of critical thinking, "
+            "intellectual independence, and values articulation in preparation "
+            "for tertiary education and adult participation."
+        ),
+    },
+]
+
+NZ_CURRICULUM_PROGRESSION_PHILOSOPHY = (
+    "The New Zealand Curriculum organises achievement objectives into eight levels, "
+    "each spanning approximately two school years. Levels represent expected "
+    "achievement rather than age-locked gates; learners may progress at different "
+    "rates. Year groups shown are indicative, per Ministry of Education NZ guidance. "
+    "Within each level, progression is described through achievement objectives and "
+    "increasingly complex learning contexts."
+)
 
 # NZ Curriculum Levels 1-8.
 NZ_LEVEL_LABELS = [f"Level {i}" for i in range(1, 9)]
@@ -230,6 +544,119 @@ def _nz_self_reflection_prompts() -> dict[str, str]:
         8: "Articulate the values that now guide how you act in this area, and what you still want to develop.",
     }
     return {f"Level {i}": text for i, text in base.items()}
+
+
+def _common_core_grade_band_details(grade: int) -> list[dict]:
+    """Per-band details for a single Common Core grade.
+
+    Common Core State Standards (CCSSO) publish at grade-level granularity.
+    Age range calculated as grade+5 to grade+6 per CCSSO alignment guidance.
+    Descriptor draws from the Common Core Mathematics progressions documents
+    and the Standards' own grade-level introductory text.
+    """
+    label = f"Grade {grade}"
+    age_low = grade + 5
+    age_high = grade + 6
+    descriptors: dict[int, str] = {
+        7: (
+            "Grade 7 learners extend proportional reasoning from Grades 5-6 to "
+            "analyse proportional relationships using equations, tables, and graphs, "
+            "and apply them to multi-step ratio and percent problems. This domain "
+            "is foundational for linear algebra and functional thinking in Grade 8."
+        ),
+    }
+    descriptor = descriptors.get(
+        grade,
+        (
+            f"Grade {grade} learners work toward end-of-year mastery of the "
+            f"standards specified for this grade. Common Core publishes at "
+            f"grade-level granularity; within-year progression is a school and "
+            f"teacher decision."
+        ),
+    )
+    return [
+        {
+            "label": label,
+            "approximate_age_range": f"ages {age_low}-{age_high}",
+            "approximate_grade_year": label,
+            "developmental_descriptor": descriptor,
+        }
+    ]
+
+
+def _common_core_progression_philosophy() -> str:
+    """Progression philosophy for Common Core single-grade sources.
+
+    Drawn from the CCSSO Common Core State Standards Initiative documentation
+    and the Mathematics Progressions documents (Progressions for the Common
+    Core State Standards in Mathematics, Institute for Mathematics and
+    Education).
+    """
+    return (
+        "Grade-level standards published at grade-level granularity only. Each "
+        "standard is expected to be mastered by the end of the named grade. "
+        "Sub-grade progression (quarterly, monthly) is a pedagogical decision made "
+        "by districts and schools, not by the standards themselves. The presence of "
+        "a single band in this reference output reflects the source's own "
+        "granularity, not an absence of internal structure within the teaching year."
+    )
+
+
+def _ontario_grade_band_details(grade: int) -> list[dict]:
+    """Per-band details for a single Ontario grade.
+
+    Age range per Ontario Ministry of Education K-12 schedule. Grade 7 is
+    the first year of the Intermediate level (Grades 7-8), following the
+    Junior level (Grades 4-6). Descriptor draws from the Ministry's
+    K-12 Social Studies, History and Geography curriculum documentation
+    and from the Ontario Curriculum framework overview.
+    """
+    label = f"Grade {grade}"
+    age_low = grade + 5
+    age_high = grade + 6
+    descriptors: dict[int, str] = {
+        7: (
+            "Grade 7 learners are in the first year of the Intermediate level "
+            "(Grades 7-8). In History, they examine social, political, economic, "
+            "and legal changes in Canada between 1713 and 1850, including New France "
+            "and British North America. They apply disciplinary historical-thinking "
+            "concepts (Continuity and Change, Cause and Consequence, Historical "
+            "Perspective, Historical Significance) and inquiry skills to analyse "
+            "primary and secondary sources."
+        ),
+    }
+    descriptor = descriptors.get(
+        grade,
+        (
+            f"Grade {grade} learners work toward year-end expectations specified "
+            f"in the Ontario curriculum. Ontario publishes at grade-level "
+            f"granularity; within-year progression is a school and teacher decision."
+        ),
+    )
+    return [
+        {
+            "label": label,
+            "approximate_age_range": f"ages {age_low}-{age_high}",
+            "approximate_grade_year": label,
+            "developmental_descriptor": descriptor,
+        }
+    ]
+
+
+def _ontario_progression_philosophy() -> str:
+    """Progression philosophy for Ontario single-grade sources.
+
+    Drawn from the Ontario Ministry of Education's curriculum framework
+    overview and the K-8 Social Studies, History and Geography curriculum
+    documentation.
+    """
+    return (
+        "Grade-level expectations published at grade-level granularity. Each "
+        "grade's curriculum is designed to be met by learners in that grade by "
+        "year's end. Ontario does not define sub-grade progression bands within "
+        "curriculum documents; within-year sequencing is a school and teacher "
+        "decision. Single-band output reflects the source's own granularity."
+    )
 
 
 def _single_grade_self_reflection_prompt(grade_label: str) -> dict[str, str]:
@@ -265,6 +692,8 @@ def _welsh_cfw_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=dict(WELSH_CFW_PS_SELF_REFLECTION_PROMPTS),
+        band_details=list(WELSH_CFW_PS_BAND_DETAILS),
+        progression_philosophy=WELSH_CFW_PROGRESSION_PHILOSOPHY,
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -286,6 +715,8 @@ def _common_core_grade_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=_single_grade_self_reflection_prompt(label),
+        band_details=_common_core_grade_band_details(grade),
+        progression_philosophy=_common_core_progression_philosophy(),
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -307,6 +738,8 @@ def _ontario_grade_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=_single_grade_self_reflection_prompt(label),
+        band_details=_ontario_grade_band_details(grade),
+        progression_philosophy=_ontario_progression_philosophy(),
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -325,6 +758,8 @@ def _scottish_cfe_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=dict(SCOTTISH_CFE_SELF_REFLECTION_PROMPTS),
+        band_details=list(SCOTTISH_CFE_BAND_DETAILS),
+        progression_philosophy=SCOTTISH_CFE_PROGRESSION_PHILOSOPHY,
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -343,6 +778,8 @@ def _england_nc_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=dict(ENGLAND_KS_SELF_REFLECTION_PROMPTS),
+        band_details=list(ENGLAND_KS_BAND_DETAILS),
+        progression_philosophy=ENGLAND_NC_PROGRESSION_PHILOSOPHY,
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -361,6 +798,8 @@ def _nz_curriculum_structure(
         detection_confidence="high",
         detection_rationale=rationale,
         band_self_reflection_prompts=_nz_self_reflection_prompts(),
+        band_details=list(NZ_BAND_DETAILS),
+        progression_philosophy=NZ_CURRICULUM_PROGRESSION_PHILOSOPHY,
         source_reference=source_reference,
         source_slug=source_slug,
     )
@@ -731,6 +1170,8 @@ def load_progression_structure(path: str) -> ProgressionStructure:
         detection_confidence=str(raw.get("detection_confidence") or "low"),
         detection_rationale=str(raw.get("detection_rationale") or ""),
         band_self_reflection_prompts=dict(raw.get("band_self_reflection_prompts") or {}),
+        band_details=list(raw.get("band_details") or []),
+        progression_philosophy=str(raw.get("progression_philosophy") or ""),
         source_reference=str(raw.get("source_reference") or ""),
         source_slug=str(raw.get("source_slug") or ""),
         detection_module_version=str(
