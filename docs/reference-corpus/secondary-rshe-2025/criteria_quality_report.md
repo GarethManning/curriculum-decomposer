@@ -7,10 +7,10 @@
 
 - **rubrics_total:** 62
 - **rubrics_halted_lts:** 0
-- **rubrics_with_gate_failures:** 26
+- **rubrics_with_gate_failures:** 10
 - **rubrics_competent_judge_fail:** 0
-- **rubrics_propositional_thin_flag:** 4
-- **stability_distribution:** rubric_unreliable=6, rubric_unstable=39, stable=17
+- **rubrics_propositional_thin_flag:** 5
+- **stability_distribution:** rubric_unreliable=7, rubric_unstable=18, stable=37
 
 ## Per-LT gate results
 
@@ -32,62 +32,51 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently, stating the learner 'explains' and 'identifies' the required content without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
-### `cluster_02_lt_01`
+### `cluster_03_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and stands alone as evidence that the learning target is met.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_02_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the capability with accuracy, indicating full achievement of the learning target.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
-
-### `cluster_03_lt_01`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently explains' and 'describes' the required concepts, demonstrating complete achievement of the learning target without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_03_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and effectively, standing alone as clear evidence that the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently and effectively applies the required communication strategies, demonstrating full achievement of the learning target.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+
+### `cluster_04_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently identifies', 'explains accurately', and 'describes appropriate methods' without any hedging language or positioning as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_04_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently applies appropriate strategies' and shows complete mastery of the learning target without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently applies appropriate skills' and 'effectively managing,' indicating complete success at the learning target level.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
@@ -98,20 +87,9 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently with clear reasoning, standing alone as evidence the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, directly matching the learning target without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_05_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability described in the learning target without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_06_lt_01`
 
@@ -120,18 +98,18 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently identifies' and 'explains clearly' without any hedging language or positioning as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_06_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['emerging']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the capability at the target level without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -142,7 +120,7 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently demonstrate the exact capability described in the learning target without any hedging language or positioning as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently explains' and 'clear reasoning' without any hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -153,18 +131,29 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently explains' the required content, demonstrating complete achievement of the learning target without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and comprehensively, standing alone as clear evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_07_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_08_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, meeting the learning target without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
@@ -175,7 +164,7 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently describes' and 'clearly explains' without any hedging language or positioning as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -186,7 +175,7 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently identify appropriate support sources, demonstrating complete achievement of the learning target without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently perform the target capability without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -196,10 +185,10 @@
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently recognises' and 'determines appropriate support responses accurately' without any hedging language or positioning as incomplete.
+- **competent_framing_regex** — FAIL (halts): Competent descriptor uses deficit hedge-phrasing: ['\\bemerging\\b']
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently identifies...accurately across various digital contexts' without any hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
 
 ### `cluster_09_lt_02`
 
@@ -208,64 +197,64 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
-### `cluster_10_lt_01`
+### `cluster_10_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner explains and identifies the required concepts without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently identifies and resists' and 'consistently avoiding,' indicating complete mastery of the learning target without hedging language.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
-### `cluster_10_lt_02`
+### `cluster_10_lt_03`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing'), ('competent', 'extending')]
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — FAIL (halts): Competent descriptor uses deficit hedge-phrasing: ['\\bemerging\\b']
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently identifies' and 'determines appropriate responses' which demonstrates full capability without hedging language or positioning as incomplete.
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated by stating the learner 'explains' the concept without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_11_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently evaluates' and shows mastery across various contexts without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_11_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently' and 'consistently' indicating complete mastery of the learning target.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
-
-### `cluster_11_lt_03`
-
-- **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated by stating the learner 'explains' the concept fully, without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently identifies' the required capability, demonstrating full achievement of the learning target without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_12_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['competent', 'extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated independently with appropriate reasoning strategies across various contexts, standing alone as evidence the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability described in the learning target without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_12_lt_02`
 
@@ -274,29 +263,51 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
-### `cluster_13_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['emerging']
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('developing', 'competent')]
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the exact capability defined in the learning target without hedging or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
-
-### `cluster_14_lt_01`
+### `cluster_13_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently and accurately identify the legal status and requirements, which directly demonstrates meeting the learning target without hedging or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_13_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently demonstrate the capability without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_13_lt_03`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently identifies' the required capability without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_14_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner explains the concepts without any hedging language or implications of incompleteness.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -307,7 +318,18 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently and accurately demonstrates the capability without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner can perform both required capabilities without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_14_lt_03`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently explain the health impacts as required by the learning target, without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -318,9 +340,9 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently and accurately identifies the required practices, demonstrating complete mastery of the learning target.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, standing alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_15_lt_02`
 
@@ -331,18 +353,18 @@
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
 - **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
 
 ### `cluster_15_lt_03`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('developing', 'competent'), ('competent', 'extending')]
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner can describe and identify the required elements without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently evaluates' and 'effectively signposts,' indicating complete mastery of the learning target without hedging language.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_16_lt_01`
 
@@ -351,9 +373,9 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated independently without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
 ### `cluster_16_lt_02`
 
@@ -362,18 +384,18 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated accurately and independently, standing alone as evidence that the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, standing alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_16_lt_03`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, standing alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -384,7 +406,7 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
@@ -395,46 +417,13 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently and accurately perform the target capability without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
-
-### `cluster_17_lt_03`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['competent']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_18_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing'), ('competent', 'extending')]
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently communicates' and shows complete mastery of the learning target without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
-
-### `cluster_18_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner can independently perform the required capabilities without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_19_lt_01`
-
-- **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
@@ -443,84 +432,18 @@
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
-### `cluster_19_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — FAIL (halts): adjacent level pairs with no topic-lemma overlap: [('developing', 'competent'), ('competent', 'extending')]
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and stands alone as evidence that the learning target is met.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_20_lt_01`
+### `cluster_18_lt_03`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated with accurate connections and reasoning, standing alone as evidence the learning target is met.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_20_lt_03`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently identifies' the required capabilities, demonstrating complete mastery of the learning target without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
 
-### `cluster_21_lt_01`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the capability at the target level without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_21_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently recognizes the specific health consequences mentioned in the learning target, demonstrating complete achievement without hedging language.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_22_lt_01`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated with 'independently identifies comprehensive health risks and legal consequences...accurately' without any hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_22_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner can explain and describe the required capabilities without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_23_lt_01`
+### `cluster_19_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
@@ -531,7 +454,18 @@
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
-### `cluster_23_lt_02`
+### `cluster_19_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor directly states the learner recognizes the weight-disease risk relationship without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
+
+### `cluster_20_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
 - **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
@@ -542,6 +476,83 @@
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
+### `cluster_21_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and comprehensively, clearly indicating the learning target is met.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_21_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_22_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated with clear explanations and accurate descriptions, standing alone as evidence the learning target is met.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_22_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated accurately and comprehensively, standing alone as evidence the learning target is met.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_22_lt_03`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, standing alone as evidence that the learning target is met.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_23_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+
+### `cluster_23_lt_02`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the full capability without hedging language or positioning it as incomplete.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+
 ### `cluster_24_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
@@ -549,53 +560,53 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the capability and accurately explains access methods, indicating full achievement of the learning target.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_24_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated accurately and independently, standing alone as evidence the learning target is met.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
 - **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_25_lt_01`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently and consistently demonstrates the full capability described in the learning target without any hedging language or implications of incompleteness.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently identifies and accurately describes conditions, demonstrating complete achievement of the learning target without hedging language or positioning as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
 
 ### `cluster_25_lt_02`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and can stand alone as evidence that the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_25_lt_03`
 
 - **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the learning target's level of demand without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated accurately and comprehensively, standing alone as evidence the learning target is met.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+
+### `cluster_26_lt_01`
+
+- **word_limit** — PASS: all five levels within their respective word limits
+- **observable_verb** — PASS: every level (except no_evidence) contains an observable action verb
+- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
+- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
+- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated with 'accurately identifies' and can stand alone as evidence that the learning target is met.
+- **level_progression** — PASS: adjacent levels preserve progression roles
+- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
 
 ### `cluster_26_lt_02`
 
@@ -604,29 +615,7 @@
 - **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
 - **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
 - **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner 'independently identifies appropriate help sources' which demonstrates the capability is fully met without hedging language or positioning it as incomplete.
+- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor clearly states the learner independently demonstrates the required techniques accurately and safely, which fully meets the learning target without hedging or positioning it as incomplete.
 - **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: propositional-thin check skipped (not Type 1)
-
-### `cluster_27_lt_01`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately, standing alone as evidence that the learning target is met.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
-
-### `cluster_27_lt_02`
-
-- **word_limit** — PASS: all five levels within their respective word limits
-- **observable_verb** — FAIL (halts): levels without observable action verb: ['extending']
-- **single_construct** — PASS: adjacent applied levels share topic-lemma overlap — single construct preserved
-- **no_inline_examples** — PASS: no inline examples or banned substrings in any descriptor
-- **competent_framing_regex** — PASS: Competent descriptor contains no deficit hedge-phrases
-- **competent_framing_judge** — PASS: LLM-as-judge verdict: pass — The descriptor declares the capability as fully demonstrated independently and accurately, meeting the learning target without hedging language or positioning it as incomplete.
-- **level_progression** — PASS: adjacent levels preserve progression roles
-- **propositional_thin_flag** — PASS: verb-bucket diversity across applied levels — no thin flag
+- **propositional_thin_flag** — PASS: propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)
 

@@ -11,22 +11,22 @@
         {
           "band": "End of Secondary",
           "observable_behaviours": [
-            "The student consistently demonstrates kindness in interactions with peers and adults across different social contexts",
-            "The student actively pursues personal interests and hobbies that contribute to their sense of identity and wellbeing",
-            "The student speaks positively about their own abilities and shows confidence in expressing their views and preferences"
+            "The student consistently uses respectful language and tone when interacting with peers, teachers, and other adults across different social contexts",
+            "The student demonstrates kindness through actions such as offering help, showing consideration for others' feelings, and including others in group activities",
+            "The student maintains respectful behaviour even when disagreeing with others or when pursuing their own interests and goals"
           ],
           "self_reflection_prompt": "Think about a situation this term where you had to make a decision about a relationship or your own wellbeing. What did you consider, and what would you do differently now?"
         }
       ],
       "parent_prompts": [
-        "How does your child show kindness and consideration towards family members and friends in everyday situations?",
-        "What personal interests or activities does your child pursue that seem to bring them joy and confidence?",
-        "How does your child talk about themselves and their abilities when facing new challenges or opportunities?"
+        "How does your child treat friends, siblings, or family members when they disagree or have different opinions?",
+        "What examples have you noticed of your child showing kindness or consideration for others while still pursuing their own interests?",
+        "How does your child respond when they see someone being treated unfairly or unkindly?"
       ],
       "prerequisite_lts": [
-        "Understanding Equality and Respectful Treatment"
+        "Understanding Equality and Self-Worth"
       ],
-      "developmental_conversation_protocol": "The conversation explores specific examples of respectful interactions and personal growth, with teacher and student identifying patterns of kind behaviour and discussing how personal interests contribute to positive self-regard and relationships with others.",
+      "developmental_conversation_protocol": "The conversation focuses on specific examples of respectful interactions the student has demonstrated, exploring how they balance personal independence with consideration for others and identifying opportunities to strengthen respectful relationships.",
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -82,22 +82,22 @@
         {
           "band": "End of Secondary",
           "observable_behaviours": [
-            "The student reports witnessed bullying incidents to appropriate staff members within a reasonable timeframe",
-            "The student takes action to support peers who are being bullied by seeking adult intervention rather than ignoring the situation",
-            "The student demonstrates courage in speaking up about suspected bullying even when it involves popular students or complex social dynamics"
+            "The student reports witnessed bullying incidents to appropriate adults within the school or community setting",
+            "The student intervenes safely when witnessing bullying by seeking immediate adult support or using established reporting mechanisms",
+            "The student follows through on bullying reports by providing additional information when requested by school staff or authorities"
           ],
           "self_reflection_prompt": "Think about a situation this term where you had to make a decision about a relationship or your own wellbeing. What did you consider, and what would you do differently now?"
         }
       ],
       "parent_prompts": [
-        "Has your child mentioned reporting bullying incidents they've witnessed at school or in the community?",
-        "Does your child talk about helping friends or classmates who are experiencing difficult social situations?",
-        "Have you noticed your child showing concern about fairness and standing up for others even when it might be socially challenging?"
+        "Have you noticed your child talking about reporting bullying they've seen at school or in the community?",
+        "Does your child seem to understand when and how to get help when they see someone being bullied?",
+        "Has your child mentioned following up with teachers or other adults after reporting concerning behaviour they witnessed?"
       ],
       "prerequisite_lts": [
-        "Recognising and Responding to Bullying"
+        "Recognising Bullying and Seeking Help"
       ],
-      "developmental_conversation_protocol": "The conversation explores specific instances where the student has acted as a responsible bystander, discussing the decision-making process and any barriers they face in reporting bullying situations.",
+      "developmental_conversation_protocol": "The conversation focuses on reviewing specific instances where the student has enacted bystander responsibility, discussing the effectiveness of their reporting actions and any barriers they encountered in fulfilling this responsibility.",
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -153,22 +153,22 @@
         {
           "band": "End of Secondary",
           "observable_behaviours": [
-            "The student declines to share personal photos or information when peers request them for social media or messaging apps",
-            "The student deletes inappropriate content received from others without forwarding it to additional contacts",
-            "The student pauses to consider potential consequences before posting personal content online"
+            "The student declines requests to share personal photos or videos when asked by peers",
+            "The student deletes intimate content received from others rather than forwarding or showing it to friends",
+            "The student seeks adult guidance when pressured to share or distribute personal images"
           ],
           "self_reflection_prompt": "Think about a situation this term where you had to make a decision about a relationship or your own wellbeing. What did you consider, and what would you do differently now?"
         }
       ],
       "parent_prompts": [
-        "Have you noticed your child being thoughtful about what they share online or declining to pass along questionable content?",
-        "Does your child talk to you about inappropriate messages or images they might receive from friends?",
-        "Have you observed your child taking time to think before posting photos or personal information on social media?"
+        "Have you noticed your child talking about situations where friends asked them to share photos they weren't comfortable sharing?",
+        "Does your child come to you or another trusted adult when they feel pressured about sharing images online or through messaging?",
+        "Have you observed your child making thoughtful decisions about what photos or content they share on social media or with friends?"
       ],
       "prerequisite_lts": [
-        "Understanding Digital Content Risks and Laws"
+        "Understanding Legal Risks of Image Sharing"
       ],
-      "developmental_conversation_protocol": "The conversation explores specific situations where the student demonstrated restraint in digital sharing and examines their decision-making process when encountering inappropriate content from peers.",
+      "developmental_conversation_protocol": "The conversation focuses on reviewing specific situations where the student demonstrated restraint or sought guidance, discussing their decision-making process and reinforcing protective strategies for future scenarios.",
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -219,28 +219,27 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_12_lt_03",
+      "lt_id": "cluster_11_lt_03",
       "bands": [
         {
           "band": "End of Secondary",
           "observable_behaviours": [
-            "The student removes themselves from situations when they sense something is wrong without needing to justify their decision to others",
-            "The student acts on gut feelings about people or situations by changing their behaviour or seeking support",
-            "The student verbalises their discomfort when something feels off and takes protective action"
+            "The student removes themselves from situations or conversations that trigger uncomfortable feelings without needing external prompting",
+            "The student verbalises concerns about people or situations that feel wrong to them, even when others appear comfortable",
+            "The student takes protective action based on gut feelings about safety risks in social or digital interactions"
           ],
           "self_reflection_prompt": "Think about a situation this term where you had to make a decision about a relationship or your own wellbeing. What did you consider, and what would you do differently now?"
         }
       ],
       "parent_prompts": [
-        "Have you noticed your child removing themselves from situations or changing plans when something didn't feel right to them?",
-        "Does your child talk to you about times when they felt uncomfortable about a person or situation and what they did about it?",
-        "Have you seen your child trust their feelings about safety even when others might have thought they were overreacting?"
+        "Have you noticed your young person stepping away from situations or people when something doesn't feel right to them?",
+        "Does your young person share their concerns with you when they feel uncomfortable about someone's behaviour or intentions?",
+        "Have you seen your young person make safety-focused decisions based on their instincts, even in situations that might seem normal to others?"
       ],
       "prerequisite_lts": [
-        "Evaluating Trustworthiness and Safety",
-        "Seeking Help and Reporting Concerns"
+        "Assessing Trustworthiness and Relationship Safety"
       ],
-      "developmental_conversation_protocol": "The conversation explores specific instances where the student recognised and acted on their safety instincts, discussing what internal signals they noticed and how they responded. Teacher and student reflect on the student's growing confidence in trusting their intuitive responses to potentially unsafe situations.",
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student recognised and acted on uncomfortable feelings, examining how they distinguished between general anxiety and genuine safety concerns. Discussion includes validating their instinct-based decisions and identifying trusted adults they can consult when uncertain.",
       "stability_flag": "stable",
       "per_run_signatures": [
         {

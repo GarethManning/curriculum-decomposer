@@ -306,15 +306,13 @@
     },
     {
       "name": "type3_distribution",
-      "passed": false,
+      "passed": true,
       "halting": false,
-      "diagnostic": "dispositional_content_underrepresented: Type 3 items = 5/149 = 3.4% < expected \u226520% for dispositional domain (informational only)",
+      "diagnostic": "type3_distribution gate skipped \u2014 source is not marked as dispositional-domain",
       "details": {
         "type3_count": 5,
         "total_items": 149,
-        "pct": 0.0336,
-        "expected_min_pct": 0.2,
-        "flag": "dispositional_content_underrepresented"
+        "pct": 0.0336
       }
     },
     {
@@ -328,49 +326,49 @@
     }
   ],
   "token_usage": {
-    "total_input_tokens": 1237915,
-    "total_output_tokens": 157829,
+    "total_input_tokens": 1285779,
+    "total_output_tokens": 182328,
     "per_stage": {
       "band_statements": {
-        "input": 131469,
-        "output": 9538,
+        "input": 131769,
+        "output": 9547,
         "calls": 186,
         "model": "claude-sonnet-4-20250514"
       },
       "clustering": {
         "input": 31476,
-        "output": 12160,
+        "output": 11146,
         "calls": 3,
         "model": "claude-opus-4-5-20251101"
       },
       "lt_generation": {
-        "input": 129078,
-        "output": 26087,
-        "calls": 81,
+        "input": 125256,
+        "output": 25656,
+        "calls": 78,
         "model": "claude-sonnet-4-20250514"
       },
       "observation_indicators": {
-        "input": 10710,
-        "output": 2650,
+        "input": 10677,
+        "output": 2624,
         "calls": 12,
         "model": "claude-sonnet-4-20250514"
       },
       "rubric_generation": {
-        "input": 803916,
-        "output": 45135,
+        "input": 806046,
+        "output": 44179,
         "calls": 186,
         "model": "claude-sonnet-4-20250514"
       },
       "rubric_judge": {
-        "input": 18775,
-        "output": 2309,
-        "calls": 56,
+        "input": 18465,
+        "output": 2233,
+        "calls": 55,
         "model": "claude-sonnet-4-20250514"
       },
       "supporting_components": {
-        "input": 112491,
-        "output": 59950,
-        "calls": 108,
+        "input": 162090,
+        "output": 86943,
+        "calls": 156,
         "model": "claude-sonnet-4-20250514"
       }
     }
