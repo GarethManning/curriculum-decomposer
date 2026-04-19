@@ -3,189 +3,100 @@
   "source_slug": "5-ap-usgov-ced-unit1",
   "halted_by": "criterion_gates",
   "summary": {
-    "rubrics_total": 15,
-    "rubrics_halted_lts": 11,
-    "rubrics_with_gate_failures": 5,
+    "rubrics_total": 26,
+    "rubrics_halted_lts": 0,
+    "rubrics_with_gate_failures": 16,
     "rubrics_competent_judge_fail": 0,
-    "rubrics_propositional_thin_flag": 4,
+    "rubrics_propositional_thin_flag": 2,
     "stability_distribution": {
-      "rubric_unstable": 10,
-      "stable": 5
+      "rubric_unstable": 9,
+      "stable": 10,
+      "rubric_unreliable": 7
     }
   },
   "gate_results": [
     {
-      "name": "word_limit:cluster_02_lt_01",
+      "name": "word_limit:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "all five levels within their respective word limits",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "offenders": []
       }
     },
     {
-      "name": "observable_verb:cluster_02_lt_01",
+      "name": "observable_verb:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "every level (except no_evidence) contains an observable action verb",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "levels_missing_verb": []
       }
     },
     {
-      "name": "single_construct:cluster_02_lt_01",
+      "name": "single_construct:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "pairs_without_overlap": []
       }
     },
     {
-      "name": "no_inline_examples:cluster_02_lt_01",
+      "name": "no_inline_examples:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "no inline examples or banned substrings in any descriptor",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "offenders": []
       }
     },
     {
-      "name": "competent_framing_regex:cluster_02_lt_01",
+      "name": "competent_framing_regex:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "patterns_matched": []
       }
     },
     {
-      "name": "competent_framing_judge:cluster_02_lt_01",
+      "name": "competent_framing_judge:cluster_02_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the LT's level of demand, with no hedging language or framing of incompleteness.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor directly mirrors the LT definition without hedging language, frames the capability as demonstrated, and stands alone as evidence the target is met.",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, with no hedging language or framing of incompleteness."
+        "rationale": "The descriptor directly mirrors the LT definition without hedging language, frames the capability as demonstrated, and stands alone as evidence the target is met."
       }
     },
     {
-      "name": "level_progression:cluster_02_lt_01",
+      "name": "level_progression:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "adjacent levels preserve progression roles",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "failures": []
       }
     },
     {
-      "name": "propositional_thin_flag:cluster_02_lt_01",
+      "name": "propositional_thin_flag:cluster_02_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
       "details": {
-        "lt_id": "cluster_02_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "flagged": false,
         "buckets": {
           "recognise": 3,
-          "describe": 1
-        }
-      }
-    },
-    {
-      "name": "word_limit:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "all five levels within their respective word limits",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "offenders": []
-      }
-    },
-    {
-      "name": "observable_verb:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "every level (except no_evidence) contains an observable action verb",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "levels_missing_verb": []
-      }
-    },
-    {
-      "name": "single_construct:cluster_04_lt_01",
-      "passed": false,
-      "halting": true,
-      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "pairs_without_overlap": [
-          [
-            "competent",
-            "extending"
-          ]
-        ]
-      }
-    },
-    {
-      "name": "no_inline_examples:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "no inline examples or banned substrings in any descriptor",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "offenders": []
-      }
-    },
-    {
-      "name": "competent_framing_regex:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "patterns_matched": []
-      }
-    },
-    {
-      "name": "competent_framing_judge:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor directly states the learner 'identifies how' the specified limitations affected the Articles, which matches the LT's demand without hedging language or framing Competent as incomplete.",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "verdict": "pass",
-        "rationale": "The descriptor directly states the learner 'identifies how' the specified limitations affected the Articles, which matches the LT's demand without hedging language or framing Competent as incomplete."
-      }
-    },
-    {
-      "name": "level_progression:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent levels preserve progression roles",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "failures": []
-      }
-    },
-    {
-      "name": "propositional_thin_flag:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
-      "details": {
-        "lt_id": "cluster_04_lt_01",
-        "flagged": false,
-        "buckets": {
-          "recognise": 3,
-          "describe": 1
+          "analyse": 1
         }
       }
     },
@@ -201,12 +112,14 @@
     },
     {
       "name": "observable_verb:cluster_04_lt_02",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "levels without observable action verb: ['extending']",
       "details": {
         "lt_id": "cluster_04_lt_02",
-        "levels_missing_verb": []
+        "levels_missing_verb": [
+          "extending"
+        ]
       }
     },
     {
@@ -243,11 +156,11 @@
       "name": "competent_framing_judge:cluster_04_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor directly states the learner 'explains how' the connection works, matching the LT's demand without hedging, incompleteness markers, or positioning it as a waystation to Extending.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor directly states the learner 'explains how specific incidents exposed gaps,' which demonstrates the capability required by the LT without hedging language, incompleteness markers, or positioning it as a way-station to a higher level.",
       "details": {
         "lt_id": "cluster_04_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor directly states the learner 'explains how' the connection works, matching the LT's demand without hedging, incompleteness markers, or positioning it as a waystation to Extending."
+        "rationale": "The descriptor directly states the learner 'explains how specific incidents exposed gaps,' which demonstrates the capability required by the LT without hedging language, incompleteness markers, or positioning it as a way-station to a higher level."
       }
     },
     {
@@ -270,8 +183,7 @@
         "flagged": false,
         "buckets": {
           "recognise": 1,
-          "describe": 2,
-          "analyse": 1
+          "describe": 2
         }
       }
     },
@@ -297,12 +209,17 @@
     },
     {
       "name": "single_construct:cluster_05_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
       "details": {
         "lt_id": "cluster_05_lt_01",
-        "pairs_without_overlap": []
+        "pairs_without_overlap": [
+          [
+            "competent",
+            "extending"
+          ]
+        ]
       }
     },
     {
@@ -329,11 +246,11 @@
       "name": "competent_framing_judge:cluster_05_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the learner can identify and accurately describe major compromises and their structural outcomes, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to explain how each compromise resolved conflicts, matching the LT's demand without hedging, incompleteness framing, or positioning as a way-station to Extending.",
       "details": {
         "lt_id": "cluster_05_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the learner can identify and accurately describe major compromises and their structural outcomes, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language."
+        "rationale": "The descriptor declares independent capability to explain how each compromise resolved conflicts, matching the LT's demand without hedging, incompleteness framing, or positioning as a way-station to Extending."
       }
     },
     {
@@ -350,12 +267,13 @@
       "name": "propositional_thin_flag:cluster_05_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
       "details": {
         "lt_id": "cluster_05_lt_01",
-        "flagged": true,
+        "flagged": false,
         "buckets": {
-          "recognise": 4
+          "recognise": 1,
+          "describe": 3
         }
       }
     },
@@ -381,17 +299,12 @@
     },
     {
       "name": "single_construct:cluster_05_lt_02",
-      "passed": false,
-      "halting": true,
-      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
       "details": {
         "lt_id": "cluster_05_lt_02",
-        "pairs_without_overlap": [
-          [
-            "emerging",
-            "developing"
-          ]
-        ]
+        "pairs_without_overlap": []
       }
     },
     {
@@ -418,11 +331,11 @@
       "name": "competent_framing_judge:cluster_05_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated ('Explains how multiple specific compromises...') without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the learner can analyze how compromises and the Bill of Rights shaped ratification debates and the amendment process, which directly matches the LT's demand without hedging or positioning it as incomplete.",
       "details": {
         "lt_id": "cluster_05_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated ('Explains how multiple specific compromises...') without hedging language, incompleteness markers, or positioning it as a way-station to Extending."
+        "rationale": "The descriptor declares the learner can analyze how compromises and the Bill of Rights shaped ratification debates and the amendment process, which directly matches the LT's demand without hedging or positioning it as incomplete."
       }
     },
     {
@@ -444,8 +357,8 @@
         "lt_id": "cluster_05_lt_02",
         "flagged": false,
         "buckets": {
-          "recognise": 1,
-          "describe": 3
+          "recognise": 2,
+          "analyse": 2
         }
       }
     },
@@ -471,12 +384,17 @@
     },
     {
       "name": "single_construct:cluster_07_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
       "details": {
         "lt_id": "cluster_07_lt_01",
-        "pairs_without_overlap": []
+        "pairs_without_overlap": [
+          [
+            "competent",
+            "extending"
+          ]
+        ]
       }
     },
     {
@@ -503,11 +421,11 @@
       "name": "competent_framing_judge:cluster_07_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the learner as independently demonstrating the capability to identify, distinguish, and explain all three power types and their authority allocation—matching the LT's level of demand with no hedging language or incompleteness framing.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to identify and distinguish the three power categories at the level demanded by the LT, with no hedging language or implication of incompleteness.",
       "details": {
         "lt_id": "cluster_07_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the learner as independently demonstrating the capability to identify, distinguish, and explain all three power types and their authority allocation—matching the LT's level of demand with no hedging language or incompleteness framing."
+        "rationale": "The descriptor declares independent capability to identify and distinguish the three power categories at the level demanded by the LT, with no hedging language or implication of incompleteness."
       }
     },
     {
@@ -530,8 +448,94 @@
         "flagged": false,
         "buckets": {
           "recognise": 3,
-          "apply": 1
+          "describe": 1
         }
+      }
+    },
+    {
+      "name": "word_limit:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_07_lt_02",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "pairs_without_overlap": [
+          [
+            "emerging",
+            "developing"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor directly states the learner 'explains' the core concepts without hedging language, frames the capability as demonstrated, and aligns with the LT's level of demand without implying incompleteness.",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "verdict": "pass",
+        "rationale": "The descriptor directly states the learner 'explains' the core concepts without hedging language, frames the capability as demonstrated, and aligns with the LT's level of demand without implying incompleteness."
+      }
+    },
+    {
+      "name": "level_progression:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_07_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "propositional-thin check skipped (not Type 1)",
+      "details": {
+        "lt_id": "cluster_07_lt_02",
+        "flagged": false
       }
     },
     {
@@ -556,12 +560,17 @@
     },
     {
       "name": "single_construct:cluster_07_lt_03",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
       "details": {
         "lt_id": "cluster_07_lt_03",
-        "pairs_without_overlap": []
+        "pairs_without_overlap": [
+          [
+            "competent",
+            "extending"
+          ]
+        ]
       }
     },
     {
@@ -588,11 +597,11 @@
       "name": "competent_framing_judge:cluster_07_lt_03",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated without hedging language, frames Competent as meeting the LT's demands (identify, compare, explain), and stands alone as success without implying incompleteness.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the learner can describe all four mechanisms and explain their relationship to power distribution, which directly matches the LT's demand without hedging or positioning it as incomplete.",
       "details": {
         "lt_id": "cluster_07_lt_03",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated without hedging language, frames Competent as meeting the LT's demands (identify, compare, explain), and stands alone as success without implying incompleteness."
+        "rationale": "The descriptor declares the learner can describe all four mechanisms and explain their relationship to power distribution, which directly matches the LT's demand without hedging or positioning it as incomplete."
       }
     },
     {
@@ -614,174 +623,184 @@
         "lt_id": "cluster_07_lt_03",
         "flagged": false,
         "buckets": {
-          "recognise": 3,
-          "analyse": 1
+          "recognise": 2,
+          "describe": 2
         }
       }
     },
     {
-      "name": "word_limit:cluster_09_lt_01",
+      "name": "word_limit:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "all five levels within their respective word limits",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "offenders": []
       }
     },
     {
-      "name": "observable_verb:cluster_09_lt_01",
+      "name": "observable_verb:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "every level (except no_evidence) contains an observable action verb",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "levels_missing_verb": []
       }
     },
     {
-      "name": "single_construct:cluster_09_lt_01",
+      "name": "single_construct:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "pairs_without_overlap": []
       }
     },
     {
-      "name": "no_inline_examples:cluster_09_lt_01",
+      "name": "no_inline_examples:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "no inline examples or banned substrings in any descriptor",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "offenders": []
       }
     },
     {
-      "name": "competent_framing_regex:cluster_09_lt_01",
+      "name": "competent_framing_regex:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "patterns_matched": []
       }
     },
     {
-      "name": "competent_framing_judge:cluster_09_lt_01",
+      "name": "competent_framing_judge:cluster_08_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent, accurate identification across different scenarios and contexts, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent demonstration of all required capabilities (identify and explain facts, issue, holding, reasoning, decision) at the target level without hedging or positioning it as incomplete.",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent, accurate identification across different scenarios and contexts, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language."
+        "rationale": "The descriptor declares independent demonstration of all required capabilities (identify and explain facts, issue, holding, reasoning, decision) at the target level without hedging or positioning it as incomplete."
       }
     },
     {
-      "name": "level_progression:cluster_09_lt_01",
+      "name": "level_progression:cluster_08_lt_01",
       "passed": true,
       "halting": false,
       "diagnostic": "adjacent levels preserve progression roles",
       "details": {
-        "lt_id": "cluster_09_lt_01",
+        "lt_id": "cluster_08_lt_01",
         "failures": []
       }
     },
     {
-      "name": "propositional_thin_flag:cluster_09_lt_01",
+      "name": "propositional_thin_flag:cluster_08_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
       "details": {
-        "lt_id": "cluster_09_lt_01",
-        "flagged": true,
+        "lt_id": "cluster_08_lt_01",
+        "flagged": false,
         "buckets": {
-          "recognise": 4
+          "recognise": 3,
+          "describe": 1
         }
       }
     },
     {
-      "name": "word_limit:cluster_09_lt_02",
+      "name": "word_limit:cluster_08_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "all five levels within their respective word limits",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "offenders": []
       }
     },
     {
-      "name": "observable_verb:cluster_09_lt_02",
+      "name": "observable_verb:cluster_08_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "every level (except no_evidence) contains an observable action verb",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "levels_missing_verb": []
       }
     },
     {
-      "name": "single_construct:cluster_09_lt_02",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "name": "single_construct:cluster_08_lt_02",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
       "details": {
-        "lt_id": "cluster_09_lt_02",
-        "pairs_without_overlap": []
+        "lt_id": "cluster_08_lt_02",
+        "pairs_without_overlap": [
+          [
+            "competent",
+            "extending"
+          ]
+        ]
       }
     },
     {
-      "name": "no_inline_examples:cluster_09_lt_02",
+      "name": "no_inline_examples:cluster_08_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "no inline examples or banned substrings in any descriptor",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "offenders": []
       }
     },
     {
-      "name": "competent_framing_regex:cluster_09_lt_02",
+      "name": "competent_framing_regex:cluster_08_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "patterns_matched": []
       }
     },
     {
-      "name": "competent_framing_judge:cluster_09_lt_02",
+      "name": "competent_framing_judge:cluster_08_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to describe how political elements operate across different scenarios and contexts accurately, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to explain how all four constitutional doctrines shape federal-state power balance, matching the LT's demand without hedging or positioning it as incomplete.",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent capability to describe how political elements operate across different scenarios and contexts accurately, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language."
+        "rationale": "The descriptor declares independent capability to explain how all four constitutional doctrines shape federal-state power balance, matching the LT's demand without hedging or positioning it as incomplete."
       }
     },
     {
-      "name": "level_progression:cluster_09_lt_02",
+      "name": "level_progression:cluster_08_lt_02",
       "passed": true,
       "halting": false,
       "diagnostic": "adjacent levels preserve progression roles",
       "details": {
-        "lt_id": "cluster_09_lt_02",
+        "lt_id": "cluster_08_lt_02",
         "failures": []
       }
     },
     {
-      "name": "propositional_thin_flag:cluster_09_lt_02",
+      "name": "propositional_thin_flag:cluster_08_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional-thin check skipped (not Type 1)",
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
       "details": {
-        "lt_id": "cluster_09_lt_02",
-        "flagged": false
+        "lt_id": "cluster_08_lt_02",
+        "flagged": false,
+        "buckets": {
+          "recognise": 1,
+          "describe": 3
+        }
       }
     },
     {
@@ -838,11 +857,11 @@
       "name": "competent_framing_judge:cluster_10_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and at the LT's level of demand ('identifies and extracts...accurately'), with no hedging language or framing of incompleteness.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent, accurate identification across different scenarios and contexts without hedging language, positioning Competent as meeting the Learning Target.",
       "details": {
         "lt_id": "cluster_10_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated independently and at the LT's level of demand ('identifies and extracts...accurately'), with no hedging language or framing of incompleteness."
+        "rationale": "The descriptor declares independent, accurate identification across different scenarios and contexts without hedging language, positioning Competent as meeting the Learning Target."
       }
     },
     {
@@ -859,10 +878,13 @@
       "name": "propositional_thin_flag:cluster_10_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional-thin check skipped (not Type 1)",
+      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
       "details": {
         "lt_id": "cluster_10_lt_01",
-        "flagged": false
+        "flagged": true,
+        "buckets": {
+          "recognise": 4
+        }
       }
     },
     {
@@ -877,14 +899,12 @@
     },
     {
       "name": "observable_verb:cluster_10_lt_02",
-      "passed": false,
-      "halting": true,
-      "diagnostic": "levels without observable action verb: ['developing']",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
       "details": {
         "lt_id": "cluster_10_lt_02",
-        "levels_missing_verb": [
-          "developing"
-        ]
+        "levels_missing_verb": []
       }
     },
     {
@@ -921,11 +941,11 @@
       "name": "competent_framing_judge:cluster_10_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to explain connections between arguments and political frameworks at the level demanded by the LT, with no hedging language or implication of incompleteness.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated and matches the LT's core demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
       "details": {
         "lt_id": "cluster_10_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent capability to explain connections between arguments and political frameworks at the level demanded by the LT, with no hedging language or implication of incompleteness."
+        "rationale": "The descriptor declares the capability as demonstrated and matches the LT's core demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending."
       }
     },
     {
@@ -1002,11 +1022,11 @@
       "name": "competent_framing_judge:cluster_11_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent identification of multiple relevant political concepts without hedging language, incompleteness markers, or framing Competent as a stepping stone to Extending.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness.",
       "details": {
         "lt_id": "cluster_11_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent identification of multiple relevant political concepts without hedging language, incompleteness markers, or framing Competent as a stepping stone to Extending."
+        "rationale": "The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness."
       }
     },
     {
@@ -1023,13 +1043,91 @@
       "name": "propositional_thin_flag:cluster_11_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
+      "diagnostic": "propositional-thin check skipped (not Type 1)",
       "details": {
         "lt_id": "cluster_11_lt_01",
-        "flagged": true,
-        "buckets": {
-          "recognise": 4
-        }
+        "flagged": false
+      }
+    },
+    {
+      "name": "word_limit:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "pairs_without_overlap": []
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the LT's level of demand, using no hedging language or deficit framing, and can stand alone as evidence the LT is met.",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "verdict": "pass",
+        "rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, using no hedging language or deficit framing, and can stand alone as evidence the LT is met."
+      }
+    },
+    {
+      "name": "level_progression:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_11_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "propositional-thin check skipped (not Type 1)",
+      "details": {
+        "lt_id": "cluster_11_lt_02",
+        "flagged": false
       }
     },
     {
@@ -1044,17 +1142,12 @@
     },
     {
       "name": "observable_verb:cluster_12_lt_01",
-      "passed": false,
-      "halting": true,
-      "diagnostic": "levels without observable action verb: ['emerging', 'developing', 'competent', 'extending']",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
       "details": {
         "lt_id": "cluster_12_lt_01",
-        "levels_missing_verb": [
-          "emerging",
-          "developing",
-          "competent",
-          "extending"
-        ]
+        "levels_missing_verb": []
       }
     },
     {
@@ -1091,11 +1184,11 @@
       "name": "competent_framing_judge:cluster_12_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated ('Articulates') at the target level without hedging, incompleteness language, or framing Competent as a stepping stone to Extending.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to explain application of political principles to different scenarios with accurate reasoning, which directly matches the LT's demand and stands alone as success.",
       "details": {
         "lt_id": "cluster_12_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated ('Articulates') at the target level without hedging, incompleteness language, or framing Competent as a stepping stone to Extending."
+        "rationale": "The descriptor declares independent capability to explain application of political principles to different scenarios with accurate reasoning, which directly matches the LT's demand and stands alone as success."
       }
     },
     {
@@ -1119,6 +1212,90 @@
       }
     },
     {
+      "name": "word_limit:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "pairs_without_overlap": []
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent, accurate, and complete identification of all required elements without hedging language or framing Competent as incomplete.",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "verdict": "pass",
+        "rationale": "The descriptor declares independent, accurate, and complete identification of all required elements without hedging language or framing Competent as incomplete."
+      }
+    },
+    {
+      "name": "level_progression:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_12_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
+      "details": {
+        "lt_id": "cluster_12_lt_02",
+        "flagged": true,
+        "buckets": {
+          "recognise": 4
+        }
+      }
+    },
+    {
       "name": "word_limit:cluster_13_lt_01",
       "passed": true,
       "halting": false,
@@ -1130,12 +1307,17 @@
     },
     {
       "name": "observable_verb:cluster_13_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "levels without observable action verb: ['emerging', 'developing', 'competent', 'extending']",
       "details": {
         "lt_id": "cluster_13_lt_01",
-        "levels_missing_verb": []
+        "levels_missing_verb": [
+          "emerging",
+          "developing",
+          "competent",
+          "extending"
+        ]
       }
     },
     {
@@ -1172,11 +1354,11 @@
       "name": "competent_framing_judge:cluster_13_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the LT's level of demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated ('Articulates') at the target level ('defensible claim or thesis that moves beyond facts and takes a reasoned position') and can stand alone as evidence the LT is met.",
       "details": {
         "lt_id": "cluster_13_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending."
+        "rationale": "The descriptor declares the capability as demonstrated ('Articulates') at the target level ('defensible claim or thesis that moves beyond facts and takes a reasoned position') and can stand alone as evidence the LT is met."
       }
     },
     {
@@ -1193,14 +1375,10 @@
       "name": "propositional_thin_flag:cluster_13_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
+      "diagnostic": "propositional-thin check skipped (not Type 1)",
       "details": {
         "lt_id": "cluster_13_lt_01",
-        "flagged": false,
-        "buckets": {
-          "recognise": 3,
-          "analyse": 1
-        }
+        "flagged": false
       }
     },
     {
@@ -1215,31 +1393,24 @@
     },
     {
       "name": "observable_verb:cluster_13_lt_02",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "levels without observable action verb: ['emerging']",
       "details": {
         "lt_id": "cluster_13_lt_02",
-        "levels_missing_verb": []
+        "levels_missing_verb": [
+          "emerging"
+        ]
       }
     },
     {
       "name": "single_construct:cluster_13_lt_02",
-      "passed": false,
-      "halting": true,
-      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('developing', 'competent'), ('competent', 'extending')]",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
       "details": {
         "lt_id": "cluster_13_lt_02",
-        "pairs_without_overlap": [
-          [
-            "developing",
-            "competent"
-          ],
-          [
-            "competent",
-            "extending"
-          ]
-        ]
+        "pairs_without_overlap": []
       }
     },
     {
@@ -1266,33 +1437,208 @@
       "name": "competent_framing_judge:cluster_13_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to identify and distinguish all required components without hedging language, implying the learning target is met.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated without hedging language, frames it as meeting the LT's demand, and stands alone as success.",
       "details": {
         "lt_id": "cluster_13_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent capability to identify and distinguish all required components without hedging language, implying the learning target is met."
+        "rationale": "The descriptor declares the capability as demonstrated without hedging language, frames it as meeting the LT's demand, and stands alone as success."
       }
     },
     {
       "name": "level_progression:cluster_13_lt_02",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent levels preserve progression roles",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "level-progression violations: ['developing_missing_hedge_or_gap_marker']",
       "details": {
         "lt_id": "cluster_13_lt_02",
-        "failures": []
+        "failures": [
+          "developing_missing_hedge_or_gap_marker"
+        ]
       }
     },
     {
       "name": "propositional_thin_flag:cluster_13_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "propositional_lt_rubric_thin: all four applied levels share one verb bucket; structurally valid but differentiation may be thin (reviewer-confirm)",
+      "diagnostic": "propositional-thin check skipped (not Type 1)",
       "details": {
         "lt_id": "cluster_13_lt_02",
-        "flagged": true,
+        "flagged": false
+      }
+    },
+    {
+      "name": "word_limit:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "pairs_without_overlap": []
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as independently demonstrated and directly aligns with the LT's demand to identify and state definitions, with no hedging language or framing of incompleteness.",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "verdict": "pass",
+        "rationale": "The descriptor declares the capability as independently demonstrated and directly aligns with the LT's demand to identify and state definitions, with no hedging language or framing of incompleteness."
+      }
+    },
+    {
+      "name": "level_progression:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_14_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
+      "details": {
+        "lt_id": "cluster_14_lt_01",
+        "flagged": false,
         "buckets": {
-          "recognise": 4
+          "recognise": 3,
+          "analyse": 1
+        }
+      }
+    },
+    {
+      "name": "word_limit:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_14_lt_02",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('competent', 'extending')]",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "pairs_without_overlap": [
+          [
+            "competent",
+            "extending"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as independently demonstrated at the LT's level of demand ('explains accurate differences...using precise, complete definitions') without hedging language or framing it as incomplete.",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "verdict": "pass",
+        "rationale": "The descriptor declares the capability as independently demonstrated at the LT's level of demand ('explains accurate differences...using precise, complete definitions') without hedging language or framing it as incomplete."
+      }
+    },
+    {
+      "name": "level_progression:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_14_lt_02",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
+      "details": {
+        "lt_id": "cluster_14_lt_02",
+        "flagged": false,
+        "buckets": {
+          "recognise": 2,
+          "describe": 1,
+          "analyse": 1
         }
       }
     }

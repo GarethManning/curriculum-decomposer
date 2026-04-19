@@ -29,7 +29,7 @@
           ],
           "lt_names": [
             "Distinguishing Models of Representative Democracy",
-            "Applying Democracy Models to U.S. Institutions"
+            "Analyzing Models in U.S. Institutions and Behavior"
           ]
         },
         {
@@ -41,7 +41,7 @@
           ],
           "lt_names": [
             "Distinguishing Models of Representative Democracy",
-            "Connecting Democratic Models to U.S. Institutions"
+            "Applying Democracy Models to U.S. Institutions"
           ]
         },
         {
@@ -53,7 +53,7 @@
           ],
           "lt_names": [
             "Distinguishing Models of Representative Democracy",
-            "Analyzing Democratic Models in U.S. Institutions"
+            "Applying Democracy Models to U.S. Institutions"
           ]
         }
       ],
@@ -63,8 +63,8 @@
       "lt_id": "cluster_02_lt_02",
       "cluster_id": "cluster_02",
       "competency_name": "Models of Representative Democracy",
-      "lt_name": "Applying Democracy Models to U.S. Institutions",
-      "lt_definition": "I can identify and explain how participatory, pluralist, and elite models are reflected in contemporary U.S. political institutions and behavior.",
+      "lt_name": "Analyzing Models in U.S. Institutions and Behavior",
+      "lt_definition": "I can identify and explain how participatory, pluralist, and elite models are reflected in contemporary U.S. institutions and political behavior.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -84,22 +84,22 @@
           ],
           "lt_names": [
             "Distinguishing Models of Representative Democracy",
+            "Analyzing Models in U.S. Institutions and Behavior"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Distinguishing Models of Representative Democracy",
             "Applying Democracy Models to U.S. Institutions"
           ]
         },
         {
-          "run": 2,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Distinguishing Models of Representative Democracy",
-            "Connecting Democratic Models to U.S. Institutions"
-          ]
-        },
-        {
           "run": 3,
           "lt_count": 2,
           "kt_multiset": [
@@ -108,113 +108,7 @@
           ],
           "lt_names": [
             "Distinguishing Models of Representative Democracy",
-            "Analyzing Democratic Models in U.S. Institutions"
-          ]
-        }
-      ],
-      "stability_diagnostics": []
-    },
-    {
-      "lt_id": "cluster_03_lt_01",
-      "cluster_id": "cluster_03",
-      "competency_name": "Federalist and Anti-Federalist Perspectives",
-      "lt_name": "Explaining Federalist Views on Central Government",
-      "lt_definition": "I can explain Federalist arguments for a strong central government and its role in the Constitution.",
-      "knowledge_type": "Type 1",
-      "assessment_route": "rubric_with_clear_criteria",
-      "kud_item_ids": [
-        "blk_0176_item_01"
-      ],
-      "prerequisite_lts": [],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
-          ]
-        },
-        {
-          "run": 2,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
-          ]
-        },
-        {
-          "run": 3,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
-          ]
-        }
-      ],
-      "stability_diagnostics": []
-    },
-    {
-      "lt_id": "cluster_03_lt_02",
-      "cluster_id": "cluster_03",
-      "competency_name": "Federalist and Anti-Federalist Perspectives",
-      "lt_name": "Explaining Anti-Federalist Views on Democracy",
-      "lt_definition": "I can explain Anti-Federalist concerns about centralized power and their vision of democratic representation.",
-      "knowledge_type": "Type 1",
-      "assessment_route": "rubric_with_clear_criteria",
-      "kud_item_ids": [
-        "blk_0176_item_01"
-      ],
-      "prerequisite_lts": [],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
-          ]
-        },
-        {
-          "run": 2,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
-          ]
-        },
-        {
-          "run": 3,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 1"
-          ],
-          "lt_names": [
-            "Explaining Federalist Views on Central Government",
-            "Explaining Anti-Federalist Views on Democracy"
+            "Applying Democracy Models to U.S. Institutions"
           ]
         }
       ],
@@ -225,14 +119,14 @@
       "cluster_id": "cluster_04",
       "competency_name": "Weaknesses of the Articles of Confederation",
       "lt_name": "Identifying Key Weaknesses in the Articles",
-      "lt_definition": "I can identify how lack of centralized military power and absence of an executive branch limited the Articles of Confederation.",
+      "lt_definition": "I can identify specific weaknesses of the Articles of Confederation revealed by incidents such as Shays' Rebellion.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
         "blk_0201_item_01"
       ],
       "prerequisite_lts": [],
-      "stability_flag": "stable",
+      "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -258,7 +152,7 @@
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
-            "Connecting Incidents to Constitutional Inadequacies",
+            "Explaining Incidents and Legal Inadequacies",
             "Reasoning About Federal Power Debates"
           ]
         },
@@ -267,24 +161,27 @@
           "lt_count": 3,
           "kt_multiset": [
             "Type 1",
-            "Type 1",
+            "Type 2",
             "Type 2"
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
             "Connecting Incidents to Constitutional Inadequacies",
-            "Reasoning About Federal Power Debates"
+            "Justifying Expansion of Federal Authority"
           ]
         }
       ],
-      "stability_diagnostics": []
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (3, ('Type 1', 'Type 2', 'Type 2')): 1}"
+      ]
     },
     {
       "lt_id": "cluster_04_lt_02",
       "cluster_id": "cluster_04",
       "competency_name": "Weaknesses of the Articles of Confederation",
       "lt_name": "Connecting Incidents to Constitutional Inadequacies",
-      "lt_definition": "I can explain how specific incidents like Shays' Rebellion exposed gaps between the Articles' provisions and the federal government's actual needs.",
+      "lt_definition": "I can explain how specific incidents and legal challenges exposed gaps between the Articles' provisions and the federal government's capacity to respond.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -293,7 +190,7 @@
       "prerequisite_lts": [
         "Identifying Key Weaknesses in the Articles"
       ],
-      "stability_flag": "stable",
+      "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -319,7 +216,7 @@
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
-            "Connecting Incidents to Constitutional Inadequacies",
+            "Explaining Incidents and Legal Inadequacies",
             "Reasoning About Federal Power Debates"
           ]
         },
@@ -328,24 +225,27 @@
           "lt_count": 3,
           "kt_multiset": [
             "Type 1",
-            "Type 1",
+            "Type 2",
             "Type 2"
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
             "Connecting Incidents to Constitutional Inadequacies",
-            "Reasoning About Federal Power Debates"
+            "Justifying Expansion of Federal Authority"
           ]
         }
       ],
-      "stability_diagnostics": []
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (3, ('Type 1', 'Type 2', 'Type 2')): 1}"
+      ]
     },
     {
       "lt_id": "cluster_04_lt_03",
       "cluster_id": "cluster_04",
       "competency_name": "Weaknesses of the Articles of Confederation",
       "lt_name": "Reasoning About Federal Power Expansion",
-      "lt_definition": "I can justify arguments for expanding federal authority by reasoning from weaknesses revealed by historical incidents and legal challenges.",
+      "lt_definition": "I can explain the debate over granting greater federal power by reasoning from revealed weaknesses to arguments for constitutional reform.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
@@ -355,7 +255,7 @@
         "Identifying Key Weaknesses in the Articles",
         "Connecting Incidents to Constitutional Inadequacies"
       ],
-      "stability_flag": "stable",
+      "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -381,7 +281,7 @@
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
-            "Connecting Incidents to Constitutional Inadequacies",
+            "Explaining Incidents and Legal Inadequacies",
             "Reasoning About Federal Power Debates"
           ]
         },
@@ -390,24 +290,27 @@
           "lt_count": 3,
           "kt_multiset": [
             "Type 1",
-            "Type 1",
+            "Type 2",
             "Type 2"
           ],
           "lt_names": [
             "Identifying Key Weaknesses in the Articles",
             "Connecting Incidents to Constitutional Inadequacies",
-            "Reasoning About Federal Power Debates"
+            "Justifying Expansion of Federal Authority"
           ]
         }
       ],
-      "stability_diagnostics": []
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 1', 'Type 2'))",
+        "counts={(3, ('Type 1', 'Type 1', 'Type 2')): 2, (3, ('Type 1', 'Type 2', 'Type 2')): 1}"
+      ]
     },
     {
       "lt_id": "cluster_05_lt_01",
       "cluster_id": "cluster_05",
       "competency_name": "Constitutional Compromises and Ratification",
-      "lt_name": "Identifying Key Constitutional Compromises",
-      "lt_definition": "I can identify and describe the major compromises made during the Constitutional Convention and their structural outcomes.",
+      "lt_name": "Explaining Major Constitutional Compromises",
+      "lt_definition": "I can explain how the Great Compromise, Electoral College, and Three-Fifths Compromise resolved conflicts at the Constitutional Convention.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -417,7 +320,7 @@
         "blk_0217_item_04"
       ],
       "prerequisite_lts": [],
-      "stability_flag": "lt_set_unstable",
+      "stability_flag": "stable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -427,22 +330,20 @@
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining How Compromises Shaped Constitutional Structure"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         },
         {
           "run": 2,
-          "lt_count": 3,
+          "lt_count": 2,
           "kt_multiset": [
-            "Type 1",
             "Type 1",
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining How Compromises Shaped Constitutional Structure",
-            "Analyzing the Amendment Process and Ratification Debates"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         },
         {
@@ -453,36 +354,29 @@
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining Compromise Rationale and Amendment Process"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         }
       ],
-      "stability_diagnostics": [
-        "lt_set_signature=(2, ('Type 1', 'Type 1'))",
-        "counts={(2, ('Type 1', 'Type 1')): 2, (3, ('Type 1', 'Type 1', 'Type 1')): 1}"
-      ]
+      "stability_diagnostics": []
     },
     {
       "lt_id": "cluster_05_lt_02",
       "cluster_id": "cluster_05",
       "competency_name": "Constitutional Compromises and Ratification",
-      "lt_name": "Explaining How Compromises Shaped Constitutional Structure",
-      "lt_definition": "I can explain how specific compromises resolved conflicts between state and federal interests and shaped the Constitution's framework.",
+      "lt_name": "Analyzing Compromises' Impact on Ratification",
+      "lt_definition": "I can analyze how constitutional compromises and the Bill of Rights shaped ratification debates and the amendment process.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
-        "blk_0217_item_01",
-        "blk_0217_item_02",
-        "blk_0217_item_03",
-        "blk_0217_item_04",
         "blk_0217_item_05",
         "blk_0219_item_01"
       ],
       "prerequisite_lts": [
-        "Identifying Key Constitutional Compromises"
+        "Explaining Major Constitutional Compromises"
       ],
-      "stability_flag": "lt_set_unstable",
+      "stability_flag": "stable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -492,22 +386,20 @@
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining How Compromises Shaped Constitutional Structure"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         },
         {
           "run": 2,
-          "lt_count": 3,
+          "lt_count": 2,
           "kt_multiset": [
-            "Type 1",
             "Type 1",
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining How Compromises Shaped Constitutional Structure",
-            "Analyzing the Amendment Process and Ratification Debates"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         },
         {
@@ -518,22 +410,19 @@
             "Type 1"
           ],
           "lt_names": [
-            "Identifying Key Constitutional Compromises",
-            "Explaining Compromise Rationale and Amendment Process"
+            "Explaining Major Constitutional Compromises",
+            "Analyzing Compromises' Impact on Ratification"
           ]
         }
       ],
-      "stability_diagnostics": [
-        "lt_set_signature=(2, ('Type 1', 'Type 1'))",
-        "counts={(2, ('Type 1', 'Type 1')): 2, (3, ('Type 1', 'Type 1', 'Type 1')): 1}"
-      ]
+      "stability_diagnostics": []
     },
     {
       "lt_id": "cluster_06_lt_01",
       "cluster_id": "cluster_06",
       "competency_name": "Separation of Powers and Checks and Balances",
       "lt_name": "Explaining Separation of Powers and Checks",
-      "lt_definition": "I can explain how the three branches of government exercise separate powers and check each other to prevent any single branch from becoming too powerful.",
+      "lt_definition": "I can explain how separation of powers and checks and balances distribute authority among the three branches and prevent any single branch from becoming too powerful.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -556,7 +445,7 @@
           ],
           "lt_names": [
             "Explaining Separation of Powers and Checks",
-            "Analysing Separation of Powers in Context"
+            "Analysing Checks and Balances in Context"
           ]
         },
         {
@@ -590,8 +479,8 @@
       "lt_id": "cluster_06_lt_02",
       "cluster_id": "cluster_06",
       "competency_name": "Separation of Powers and Checks and Balances",
-      "lt_name": "Analysing Separation of Powers in Context",
-      "lt_definition": "I can analyse how separation of powers and checks and balances operate in response to specific governmental actions, policy proposals, or historical examples.",
+      "lt_name": "Analysing Checks and Balances in Context",
+      "lt_definition": "I can analyse how separation of powers and checks and balances operate in response to specific governmental actions and create access points for policy influence.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
@@ -614,7 +503,7 @@
           ],
           "lt_names": [
             "Explaining Separation of Powers and Checks",
-            "Analysing Separation of Powers in Context"
+            "Analysing Checks and Balances in Context"
           ]
         },
         {
@@ -648,16 +537,14 @@
       "lt_id": "cluster_07_lt_01",
       "cluster_id": "cluster_07",
       "competency_name": "Federalism and the Distribution of Power",
-      "lt_name": "Identifying Types of Governmental Powers",
-      "lt_definition": "I can identify and distinguish exclusive, reserved, and concurrent powers and explain how each type allocates authority between national and state governments.",
+      "lt_name": "Identifying Power Distribution Categories",
+      "lt_definition": "I can identify and distinguish exclusive, reserved, and concurrent powers between national and state governments.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
         "blk_0285_item_01",
         "blk_0293_item_01",
-        "blk_0295_item_01",
-        "blk_0289_item_01",
-        "blk_0347_item_01"
+        "blk_0295_item_01"
       ],
       "prerequisite_lts": [],
       "stability_flag": "stable",
@@ -671,9 +558,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Powers",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects",
+            "Understanding Funding Mechanisms"
           ]
         },
         {
@@ -685,9 +572,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Power Distribution Categories",
-            "Explaining Power Distribution Mechanisms",
-            "Analyzing Power Distribution Effects on Policy"
+            "Identifying Exclusive, Reserved, and Concurrent Powers",
+            "Analyzing How Power Distribution Affects Policymaking",
+            "Interpreting Funding Mechanisms and Constitutional Constraints"
           ]
         },
         {
@@ -699,9 +586,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Power",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects on Policymaking",
+            "Analyzing Funding Mechanisms and Power Dynamics"
           ]
         }
       ],
@@ -711,20 +598,25 @@
       "lt_id": "cluster_07_lt_02",
       "cluster_id": "cluster_07",
       "competency_name": "Federalism and the Distribution of Power",
-      "lt_name": "Analyzing Power Distribution Effects on Policy",
-      "lt_definition": "I can explain how the distribution of powers between national and state governments constrains policymaking and creates multiple access points for stakeholder influence.",
+      "lt_name": "Explaining Power Distribution Effects",
+      "lt_definition": "I can explain how the distribution of powers between national and state governments constrains policymaking and creates multiple access points for influence.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
-        "blk_0361_item_02",
-        "blk_0361_item_01",
-        "blk_0363_item_01",
+        "blk_0289_item_01",
         "blk_0297_item_02",
+        "blk_0304_item_01",
+        "blk_0306_item_01",
+        "blk_0306_item_02",
         "blk_0343_item_01",
-        "blk_0347_item_02"
+        "blk_0347_item_01",
+        "blk_0347_item_02",
+        "blk_0361_item_01",
+        "blk_0361_item_02",
+        "blk_0363_item_01"
       ],
       "prerequisite_lts": [
-        "Identifying Types of Governmental Powers"
+        "Identifying Power Distribution Categories"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -737,9 +629,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Powers",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects",
+            "Understanding Funding Mechanisms"
           ]
         },
         {
@@ -751,9 +643,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Power Distribution Categories",
-            "Explaining Power Distribution Mechanisms",
-            "Analyzing Power Distribution Effects on Policy"
+            "Identifying Exclusive, Reserved, and Concurrent Powers",
+            "Analyzing How Power Distribution Affects Policymaking",
+            "Interpreting Funding Mechanisms and Constitutional Constraints"
           ]
         },
         {
@@ -765,9 +657,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Power",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects on Policymaking",
+            "Analyzing Funding Mechanisms and Power Dynamics"
           ]
         }
       ],
@@ -777,8 +669,8 @@
       "lt_id": "cluster_07_lt_03",
       "cluster_id": "cluster_07",
       "competency_name": "Federalism and the Distribution of Power",
-      "lt_name": "Distinguishing Federal Funding Mechanisms",
-      "lt_definition": "I can identify and compare different federal funding mechanisms and explain how each demonstrates the distribution of power between national and state governments.",
+      "lt_name": "Understanding Funding Mechanisms",
+      "lt_definition": "I can describe how revenue sharing, block grants, categorical expenditures, and mandates reflect the distribution of power between national and state governments.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -799,9 +691,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Powers",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects",
+            "Understanding Funding Mechanisms"
           ]
         },
         {
@@ -813,9 +705,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Power Distribution Categories",
-            "Explaining Power Distribution Mechanisms",
-            "Analyzing Power Distribution Effects on Policy"
+            "Identifying Exclusive, Reserved, and Concurrent Powers",
+            "Analyzing How Power Distribution Affects Policymaking",
+            "Interpreting Funding Mechanisms and Constitutional Constraints"
           ]
         },
         {
@@ -827,9 +719,9 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Types of Governmental Power",
-            "Analyzing Power Distribution Effects on Policy",
-            "Distinguishing Federal Funding Mechanisms"
+            "Identifying Power Distribution Categories",
+            "Explaining Power Distribution Effects on Policymaking",
+            "Analyzing Funding Mechanisms and Power Dynamics"
           ]
         }
       ],
@@ -838,9 +730,117 @@
     {
       "lt_id": "cluster_08_lt_01",
       "cluster_id": "cluster_08",
-      "competency_name": "Contemporary Constitutional Issues",
-      "lt_name": "Connecting Historical Constitutional Debates to Current Policy",
-      "lt_definition": "I can identify how historical debates over national power, state authority, and individual rights shape present-day policy issues.",
+      "competency_name": "Constitutional Interpretation and Supreme Court Doctrine",
+      "lt_name": "Describing Supreme Court Cases",
+      "lt_definition": "I can identify and explain the facts, issue, holding, reasoning, and decision of required Supreme Court cases.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0084_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases",
+            "Explaining Judicial Doctrine on Federal-State Power"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases and Holdings",
+            "Explaining Judicial Reasoning on Federal-State Power"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases",
+            "Explaining Judicial Doctrine on Federal Power"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "cluster_id": "cluster_08",
+      "competency_name": "Constitutional Interpretation and Supreme Court Doctrine",
+      "lt_name": "Explaining Judicial Doctrine on Federal-State Power",
+      "lt_definition": "I can explain how Supreme Court interpretations of the Commerce Clause, Due Process, Equal Protection, and Supremacy Clause shape the balance of federal and state power.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0084_item_01"
+      ],
+      "prerequisite_lts": [
+        "Describing Supreme Court Cases"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases",
+            "Explaining Judicial Doctrine on Federal-State Power"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases and Holdings",
+            "Explaining Judicial Reasoning on Federal-State Power"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 1"
+          ],
+          "lt_names": [
+            "Describing Supreme Court Cases",
+            "Explaining Judicial Doctrine on Federal Power"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "cluster_id": "cluster_09",
+      "competency_name": "Contemporary Constitutional Debates",
+      "lt_name": "Identifying Historical Constitutional Tensions",
+      "lt_definition": "I can identify how debates over federalism, individual rights, and government role have shaped constitutional issues across historical and contemporary contexts.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -857,8 +857,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lenses"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         },
         {
@@ -869,8 +869,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lenses"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         },
         {
@@ -881,26 +881,26 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lens"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_08_lt_02",
-      "cluster_id": "cluster_08",
-      "competency_name": "Contemporary Constitutional Issues",
-      "lt_name": "Analysing Contemporary Issues Through Constitutional Lenses",
-      "lt_definition": "I can analyse present-day constitutional issues by applying historical debates about governmental power and individual rights.",
+      "lt_id": "cluster_09_lt_02",
+      "cluster_id": "cluster_09",
+      "competency_name": "Contemporary Constitutional Debates",
+      "lt_name": "Analysing Contemporary Issues Through Historical Lens",
+      "lt_definition": "I can analyse present-day constitutional issues by applying historical debates about federalism, individual rights, and government power as interpretive frameworks.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
         "blk_0231_item_02"
       ],
       "prerequisite_lts": [
-        "Connecting Historical Constitutional Debates to Current Policy"
+        "Identifying Historical Constitutional Tensions"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -912,8 +912,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lenses"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         },
         {
@@ -924,8 +924,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lenses"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         },
         {
@@ -936,17 +936,17 @@
             "Type 2"
           ],
           "lt_names": [
-            "Connecting Historical Constitutional Debates to Current Policy",
-            "Analysing Contemporary Issues Through Constitutional Lens"
+            "Identifying Historical Constitutional Tensions",
+            "Analysing Contemporary Issues Through Historical Lens"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_09_lt_01",
-      "cluster_id": "cluster_09",
-      "competency_name": "Describing Political Principles and Institutions",
+      "lt_id": "cluster_10_lt_01",
+      "cluster_id": "cluster_10",
+      "competency_name": "Describing Political Principles and Institutions in Context",
       "lt_name": "Identifying Political Principles and Institutions",
       "lt_definition": "I can identify political principles, institutions, processes, policies, and behaviors in different scenarios and contexts.",
       "knowledge_type": "Type 1",
@@ -999,11 +999,11 @@
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_09_lt_02",
-      "cluster_id": "cluster_09",
-      "competency_name": "Describing Political Principles and Institutions",
+      "lt_id": "cluster_10_lt_02",
+      "cluster_id": "cluster_10",
+      "competency_name": "Describing Political Principles and Institutions in Context",
       "lt_name": "Describing Political Principles in Context",
-      "lt_definition": "I can describe political principles, institutions, processes, policies, and behaviors by explaining how they operate in different scenarios and contexts.",
+      "lt_definition": "I can describe political principles, institutions, processes, policies, and behaviors illustrated in different scenarios and explain their contextual significance.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
@@ -1055,11 +1055,11 @@
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_10_lt_01",
-      "cluster_id": "cluster_10",
-      "competency_name": "Analysing Arguments and Sources",
-      "lt_name": "Identifying Arguments and Perspectives in Sources",
-      "lt_definition": "I can identify and extract the main argument or perspective presented in a political source.",
+      "lt_id": "cluster_11_lt_01",
+      "cluster_id": "cluster_11",
+      "competency_name": "Explaining Political Arguments and Perspectives",
+      "lt_name": "Identifying Political Concepts in Arguments",
+      "lt_definition": "I can identify which political principles, institutions, processes, policies, or behaviors an argument or perspective in a source addresses.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
@@ -1079,8 +1079,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Frameworks"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-to-Concept Relationships"
           ]
         },
         {
@@ -1091,8 +1091,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Frameworks"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-Concept Relationships"
           ]
         },
         {
@@ -1103,19 +1103,19 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Concepts"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-Concept Relationships"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_10_lt_02",
-      "cluster_id": "cluster_10",
-      "competency_name": "Analysing Arguments and Sources",
-      "lt_name": "Connecting Arguments to Political Frameworks",
-      "lt_definition": "I can explain how an argument or perspective in a source relates to political principles, institutions, processes, policies, and behaviors.",
+      "lt_id": "cluster_11_lt_02",
+      "cluster_id": "cluster_11",
+      "competency_name": "Explaining Political Arguments and Perspectives",
+      "lt_name": "Explaining Argument-to-Concept Relationships",
+      "lt_definition": "I can explain how and why an argument or perspective in a source relates to specific political principles, institutions, processes, policies, or behaviors.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
@@ -1125,7 +1125,7 @@
         "blk_0239_item_01"
       ],
       "prerequisite_lts": [
-        "Identifying Arguments and Perspectives in Sources"
+        "Identifying Political Concepts in Arguments"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1137,8 +1137,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Frameworks"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-to-Concept Relationships"
           ]
         },
         {
@@ -1149,8 +1149,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Frameworks"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-Concept Relationships"
           ]
         },
         {
@@ -1161,19 +1161,75 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Arguments and Perspectives in Sources",
-            "Connecting Arguments to Political Concepts"
+            "Identifying Political Concepts in Arguments",
+            "Explaining Argument-Concept Relationships"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_11_lt_01",
-      "cluster_id": "cluster_11",
-      "competency_name": "Applying Concepts to Scenarios",
-      "lt_name": "Identifying Political Concepts in Scenarios",
-      "lt_definition": "I can identify political principles, institutions, processes, and policies relevant to a given scenario.",
+      "lt_id": "cluster_12_lt_01",
+      "cluster_id": "cluster_12",
+      "competency_name": "Applying Political Principles to Scenarios",
+      "lt_name": "Explaining Political Principles in Context",
+      "lt_definition": "I can explain how political principles, institutions, processes, policies, and behaviors apply to different scenarios.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0074_item_01",
+        "blk_0211_item_02"
+      ],
+      "prerequisite_lts": [
+        "Identifying Political Principles and Institutions"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Explaining Political Principles in Context",
+            "Identifying Political Principles and Institutions"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Identifying Political Principles and Institutions",
+            "Explaining Political Application to Contexts"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Explaining Political Principles in Context",
+            "Identifying Political Principles and Institutions"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_12_lt_02",
+      "cluster_id": "cluster_12",
+      "competency_name": "Applying Political Principles to Scenarios",
+      "lt_name": "Identifying Political Principles and Institutions",
+      "lt_definition": "I can identify political principles, institutions, U.S. Constitution processes, and policies.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -1190,8 +1246,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Political Concepts in Scenarios",
-            "Explaining Political Concept Application"
+            "Explaining Political Principles in Context",
+            "Identifying Political Principles and Institutions"
           ]
         },
         {
@@ -1202,8 +1258,8 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Political Concepts in Scenarios",
-            "Explaining Political Concept Application"
+            "Identifying Political Principles and Institutions",
+            "Explaining Political Application to Contexts"
           ]
         },
         {
@@ -1214,72 +1270,16 @@
             "Type 2"
           ],
           "lt_names": [
-            "Identifying Political Concepts in Contexts",
-            "Explaining Political Concept Application"
+            "Explaining Political Principles in Context",
+            "Identifying Political Principles and Institutions"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_11_lt_02",
-      "cluster_id": "cluster_11",
-      "competency_name": "Applying Concepts to Scenarios",
-      "lt_name": "Explaining Political Concept Application",
-      "lt_definition": "I can explain how political principles, institutions, processes, policies, and behaviors apply to different scenarios and contexts.",
-      "knowledge_type": "Type 2",
-      "assessment_route": "reasoning_quality_rubric",
-      "kud_item_ids": [
-        "blk_0074_item_01",
-        "blk_0211_item_02"
-      ],
-      "prerequisite_lts": [
-        "Identifying Political Concepts in Scenarios"
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 2"
-          ],
-          "lt_names": [
-            "Identifying Political Concepts in Scenarios",
-            "Explaining Political Concept Application"
-          ]
-        },
-        {
-          "run": 2,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 2"
-          ],
-          "lt_names": [
-            "Identifying Political Concepts in Scenarios",
-            "Explaining Political Concept Application"
-          ]
-        },
-        {
-          "run": 3,
-          "lt_count": 2,
-          "kt_multiset": [
-            "Type 1",
-            "Type 2"
-          ],
-          "lt_names": [
-            "Identifying Political Concepts in Contexts",
-            "Explaining Political Concept Application"
-          ]
-        }
-      ],
-      "stability_diagnostics": []
-    },
-    {
-      "lt_id": "cluster_12_lt_01",
-      "cluster_id": "cluster_12",
+      "lt_id": "cluster_13_lt_01",
+      "cluster_id": "cluster_13",
       "competency_name": "Constructing and Supporting Arguments",
       "lt_name": "Articulating Defensible Claims",
       "lt_definition": "I can articulate a defensible claim or thesis that goes beyond stating facts.",
@@ -1287,10 +1287,11 @@
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
         "blk_0080_item_01",
-        "blk_0269_item_01"
+        "blk_0269_item_01",
+        "blk_0053_item_01"
       ],
       "prerequisite_lts": [],
-      "stability_flag": "lt_set_unstable",
+      "stability_flag": "stable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -1312,48 +1313,42 @@
             "Type 2"
           ],
           "lt_names": [
-            "Articulating Defensible Claims",
-            "Supporting Arguments with Evidence"
+            "Articulating Defensible Claims and Theses",
+            "Supporting Arguments with Relevant Evidence"
           ]
         },
         {
           "run": 3,
-          "lt_count": 3,
+          "lt_count": 2,
           "kt_multiset": [
-            "Type 2",
             "Type 2",
             "Type 2"
           ],
           "lt_names": [
-            "Articulating Defensible Claims and Theses",
-            "Supporting Arguments with Relevant Evidence",
-            "Explaining Causes, Effects, and Significance"
+            "Articulating Defensible Claims",
+            "Supporting Arguments with Evidence"
           ]
         }
       ],
-      "stability_diagnostics": [
-        "lt_set_signature=(2, ('Type 2', 'Type 2'))",
-        "counts={(2, ('Type 2', 'Type 2')): 2, (3, ('Type 2', 'Type 2', 'Type 2')): 1}"
-      ]
+      "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_12_lt_02",
-      "cluster_id": "cluster_12",
+      "lt_id": "cluster_13_lt_02",
+      "cluster_id": "cluster_13",
       "competency_name": "Constructing and Supporting Arguments",
       "lt_name": "Supporting Arguments with Evidence",
       "lt_definition": "I can support an argument with relevant evidence and explain causes, effects, and significance.",
       "knowledge_type": "Type 2",
       "assessment_route": "reasoning_quality_rubric",
       "kud_item_ids": [
-        "blk_0053_item_01",
-        "blk_0053_item_02",
         "blk_0087_item_01",
-        "blk_0356_item_01"
+        "blk_0356_item_01",
+        "blk_0053_item_02"
       ],
       "prerequisite_lts": [
         "Articulating Defensible Claims"
       ],
-      "stability_flag": "lt_set_unstable",
+      "stability_flag": "stable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -1375,36 +1370,31 @@
             "Type 2"
           ],
           "lt_names": [
-            "Articulating Defensible Claims",
-            "Supporting Arguments with Evidence"
+            "Articulating Defensible Claims and Theses",
+            "Supporting Arguments with Relevant Evidence"
           ]
         },
         {
           "run": 3,
-          "lt_count": 3,
+          "lt_count": 2,
           "kt_multiset": [
-            "Type 2",
             "Type 2",
             "Type 2"
           ],
           "lt_names": [
-            "Articulating Defensible Claims and Theses",
-            "Supporting Arguments with Relevant Evidence",
-            "Explaining Causes, Effects, and Significance"
+            "Articulating Defensible Claims",
+            "Supporting Arguments with Evidence"
           ]
         }
       ],
-      "stability_diagnostics": [
-        "lt_set_signature=(2, ('Type 2', 'Type 2'))",
-        "counts={(2, ('Type 2', 'Type 2')): 2, (3, ('Type 2', 'Type 2', 'Type 2')): 1}"
-      ]
+      "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_13_lt_01",
-      "cluster_id": "cluster_13",
+      "lt_id": "cluster_14_lt_01",
+      "cluster_id": "cluster_14",
       "competency_name": "Understanding Governmental Terminology",
-      "lt_name": "Defining Core Governmental Roles and Status",
-      "lt_definition": "I can identify and explain the definitions of governmental terms related to citizenship and participation in the country.",
+      "lt_name": "Defining Core Governmental Terms",
+      "lt_definition": "I can identify and state the definitions of essential governmental terms used in U.S. civics.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
@@ -1421,8 +1411,8 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Citizen Status Categories"
           ]
         },
         {
@@ -1433,8 +1423,8 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Governmental Status Categories"
           ]
         },
         {
@@ -1445,25 +1435,27 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Citizen and Non-Citizen Status"
           ]
         }
       ],
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_13_lt_02",
-      "cluster_id": "cluster_13",
+      "lt_id": "cluster_14_lt_02",
+      "cluster_id": "cluster_14",
       "competency_name": "Understanding Governmental Terminology",
-      "lt_name": "Analyzing Supreme Court Case Components",
-      "lt_definition": "I can identify the facts, issue, holding, reasoning, decision, and majority opinion within landmark Supreme Court cases.",
+      "lt_name": "Distinguishing Citizen Status Categories",
+      "lt_definition": "I can explain the differences between citizens and other people in the country using accurate definitions.",
       "knowledge_type": "Type 1",
       "assessment_route": "rubric_with_clear_criteria",
       "kud_item_ids": [
-        "blk_0084_item_01"
+        "blk_0045_item_01"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "Defining Core Governmental Terms"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1474,8 +1466,8 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Citizen Status Categories"
           ]
         },
         {
@@ -1486,8 +1478,8 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Governmental Status Categories"
           ]
         },
         {
@@ -1498,8 +1490,8 @@
             "Type 1"
           ],
           "lt_names": [
-            "Defining Core Governmental Roles and Status",
-            "Analyzing Supreme Court Case Components"
+            "Defining Core Governmental Terms",
+            "Distinguishing Citizen and Non-Citizen Status"
           ]
         }
       ],
@@ -1510,6 +1502,13 @@
     {
       "cluster_id": "cluster_01",
       "competency_name": "Democratic Ideals and Constitutional Foundations",
+      "halt_reason": "lt_set_unreliable",
+      "diagnostic": "only 1/3 runs produced parseable output",
+      "valid_runs": 1
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Federalist and Anti-Federalist Perspectives",
       "halt_reason": "lt_set_unreliable",
       "diagnostic": "only 0/3 runs produced parseable output",
       "valid_runs": 0

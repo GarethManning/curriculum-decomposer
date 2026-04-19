@@ -72,129 +72,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can explain how participatory, pluralist, and elite models describe different aspects of U.S. political institutions."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how participatory, pluralist, and elite models describe different aspects of U.S. political institutions."
-            }
-          ]
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how participatory, pluralist, and elite models describe different aspects of U.S. political institutions."
-            }
-          ]
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how participatory, pluralist, and elite models describe different aspects of U.S. political institutions."
-            }
-          ]
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": []
-    },
-    {
-      "lt_id": "cluster_03_lt_01",
-      "knowledge_type": "Type 1",
-      "statements": [
-        {
-          "band": "Unit 1",
-          "statement": "I can explain Federalist arguments for establishing a strong central government in the Constitution."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain Federalist arguments for establishing a strong central government in the Constitution."
-            }
-          ]
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain Federalist arguments for establishing a strong central government in the Constitution."
-            }
-          ]
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain Federalist arguments for establishing a strong central government in the Constitution."
-            }
-          ]
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": []
-    },
-    {
-      "lt_id": "cluster_03_lt_02",
-      "knowledge_type": "Type 1",
-      "statements": [
-        {
-          "band": "Unit 1",
-          "statement": "I can explain Anti-Federalist concerns about concentrated federal power and their preference for state and local democratic representation."
+          "statement": "I can explain how participatory, pluralist, and elite models describe power distribution in U.S. institutions."
         }
       ],
       "stability_flag": "band_statements_unstable",
@@ -210,7 +88,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain Anti-Federalist concerns about concentrated national power and their preference for state-level democratic representation."
+              "statement": "I can explain how participatory, pluralist, and elite models describe power distribution in U.S. institutions."
             }
           ]
         },
@@ -225,7 +103,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain Anti-Federalist concerns about concentrated federal power and their preference for state and local democratic representation."
+              "statement": "I can explain how participatory, pluralist, and elite models describe different patterns in U.S. political institutions and behavior."
             }
           ]
         },
@@ -234,19 +112,19 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain Anti-Federalist concerns about centralized government power and their preference for state and local democratic representation."
+              "statement": "I can explain how participatory, pluralist, and elite models describe power distribution in U.S. political institutions."
             }
           ]
         }
       ],
       "stability_diagnostics": [
-        "signature_counts={(('Unit 1', 'medium'),): 1, (('Unit 1', 'long'),): 2}"
+        "signature_counts={(('Unit 1', 'medium'),): 2, (('Unit 1', 'long'),): 1}"
       ],
       "quality_gate_passed": true,
       "quality_gate_failures": []
@@ -257,7 +135,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify how the absence of centralized military power and executive authority weakened the Articles of Confederation."
+          "statement": "I can identify specific weaknesses of the Articles of Confederation and explain how historical events demonstrated those limitations."
         }
       ],
       "stability_flag": "stable",
@@ -273,7 +151,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify how the absence of centralized military power and executive authority weakened the Articles of Confederation."
+              "statement": "I can identify specific weaknesses of the Articles of Confederation and explain how historical events demonstrated those limitations."
             }
           ]
         },
@@ -288,7 +166,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify how the absence of centralized military power and executive authority weakened the Articles of Confederation."
+              "statement": "I can identify specific weaknesses of the Articles of Confederation and explain how historical events demonstrated those limitations."
             }
           ]
         },
@@ -303,7 +181,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify how the absence of centralized military power and executive authority weakened the Articles of Confederation."
+              "statement": "I can identify specific weaknesses of the Articles of Confederation and explain how historical events demonstrated those limitations."
             }
           ]
         }
@@ -318,7 +196,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's governmental structure."
+          "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's federal authority."
         }
       ],
       "stability_flag": "stable",
@@ -334,7 +212,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's governmental structure."
+              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's federal authority."
             }
           ]
         },
@@ -349,7 +227,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation."
+              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's federal structure."
             }
           ]
         },
@@ -364,7 +242,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's governmental structure."
+              "statement": "I can explain how specific historical incidents revealed weaknesses in the Articles of Confederation's federal authority."
             }
           ]
         }
@@ -379,7 +257,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can justify arguments for expanding federal power by analyzing weaknesses exposed by historical incidents under the Articles of Confederation."
+          "statement": "I can explain how weaknesses in the Articles of Confederation justified arguments for expanding federal power."
         }
       ],
       "stability_flag": "stable",
@@ -389,13 +267,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can justify arguments for expanding federal power by analyzing weaknesses exposed by historical incidents under the Articles of Confederation."
+              "statement": "I can explain how weaknesses in the Articles of Confederation justified arguments for expanding federal power."
             }
           ]
         },
@@ -404,13 +282,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can justify arguments for expanding federal power by analyzing weaknesses exposed by historical incidents under the Articles of Confederation."
+              "statement": "I can explain how weaknesses in the Articles of Confederation justified arguments for expanding federal power."
             }
           ]
         },
@@ -419,13 +297,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can justify arguments for expanding federal power by analyzing weaknesses exposed by historical events under the Articles of Confederation."
+              "statement": "I can explain how weaknesses in the Articles of Confederation justified arguments for expanding federal power."
             }
           ]
         }
@@ -440,7 +318,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify major constitutional compromises and explain their structural effects on government."
+          "statement": "I can explain how major Constitutional Compromises resolved conflicts between state and federal interests."
         }
       ],
       "stability_flag": "stable",
@@ -456,7 +334,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify major constitutional compromises and explain their structural effects on government."
+              "statement": "I can explain how major Constitutional Compromises resolved conflicts between state and federal interests."
             }
           ]
         },
@@ -471,7 +349,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify major constitutional compromises and explain their structural effects on government."
+              "statement": "I can explain how major Constitutional Compromises resolved conflicts between state and federal interests."
             }
           ]
         },
@@ -486,7 +364,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify major constitutional compromises and explain their structural effects on government."
+              "statement": "I can explain how major Constitutional Compromises resolved conflicts between state and federal interests."
             }
           ]
         }
@@ -501,7 +379,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can explain how constitutional compromises resolved conflicts between state and federal power."
+          "statement": "I can analyze how constitutional compromises influenced ratification debates and shaped the amendment process."
         }
       ],
       "stability_flag": "stable",
@@ -517,7 +395,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how constitutional compromises resolved conflicts between state and federal power."
+              "statement": "I can analyze how constitutional compromises influenced ratification debates and shaped the amendment process."
             }
           ]
         },
@@ -532,7 +410,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how specific constitutional compromises resolved conflicts between state and federal power."
+              "statement": "I can analyze how specific constitutional compromises influenced ratification debates and shaped the amendment process."
             }
           ]
         },
@@ -547,7 +425,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how constitutional compromises resolved conflicts between state and federal power."
+              "statement": "I can analyze how constitutional compromises and the Bill of Rights influenced ratification debates."
             }
           ]
         }
@@ -562,7 +440,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can explain how separation of powers and checks and balances prevent governmental branch concentration."
+          "statement": "I can explain how separation of powers and checks and balances distribute authority among the three branches."
         }
       ],
       "stability_flag": "stable",
@@ -578,7 +456,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how separation of powers and checks and balances prevent governmental branch concentration."
+              "statement": "I can explain how separation of powers and checks and balances distribute authority among the three branches."
             }
           ]
         },
@@ -593,7 +471,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how separation of powers and checks and balances prevent governmental power concentration."
+              "statement": "I can explain how separation of powers and checks and balances distribute authority among the three branches."
             }
           ]
         },
@@ -608,7 +486,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how each branch of government exercises distinct powers and uses checks to limit the others."
+              "statement": "I can explain how separation of powers and checks and balances distribute authority among the three branches."
             }
           ]
         }
@@ -623,7 +501,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can analyse how separation of powers and checks and balances function in response to specific governmental actions or policy proposals."
+          "statement": "I can analyse how checks and balances constrain specific governmental actions and create opportunities for policy influence."
         }
       ],
       "stability_flag": "stable",
@@ -633,13 +511,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse how separation of powers and checks and balances function in response to specific governmental actions or policy proposals."
+              "statement": "I can analyse how checks and balances constrain specific governmental actions and create opportunities for policy influence."
             }
           ]
         },
@@ -648,13 +526,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse how separation of powers and checks and balances function in response to specific governmental actions or policy proposals."
+              "statement": "I can analyse how checks and balances constrain specific governmental actions and create opportunities for policy influence."
             }
           ]
         },
@@ -663,13 +541,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse how separation of powers and checks and balances function in response to specific governmental actions or policy proposals."
+              "statement": "I can analyse how checks and balances constrain specific governmental actions and create opportunities for policy influence."
             }
           ]
         }
@@ -684,7 +562,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify and distinguish exclusive, reserved, and concurrent powers in the federal system."
+          "statement": "I can identify and categorize powers as exclusive, reserved, or concurrent between national and state governments."
         }
       ],
       "stability_flag": "stable",
@@ -700,7 +578,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and distinguish exclusive, reserved, and concurrent powers in the federal system."
+              "statement": "I can identify and categorize powers as exclusive, reserved, or concurrent between national and state governments."
             }
           ]
         },
@@ -715,7 +593,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and distinguish exclusive, reserved, and concurrent powers between national and state governments."
+              "statement": "I can identify and categorize powers as exclusive, reserved, or concurrent between national and state governments."
             }
           ]
         },
@@ -730,7 +608,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and distinguish exclusive, reserved, and concurrent powers in the federal system."
+              "statement": "I can identify and categorize powers as exclusive, reserved, or concurrent between national and state governments."
             }
           ]
         }
@@ -776,7 +654,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how federalism distributes power between national and state governments to influence policy outcomes."
+              "statement": "I can explain how federalism distributes power between national and state governments and affects policy outcomes."
             }
           ]
         },
@@ -806,7 +684,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify different federal funding mechanisms and explain how each reflects the distribution of power between national and state governments."
+          "statement": "I can describe how federal funding mechanisms reflect the distribution of power between national and state governments."
         }
       ],
       "stability_flag": "stable",
@@ -816,13 +694,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify different federal funding mechanisms and explain how each reflects the distribution of power between national and state governments."
+              "statement": "I can describe how federal funding mechanisms reflect the distribution of power between national and state governments."
             }
           ]
         },
@@ -831,13 +709,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify different federal funding mechanisms and explain how each reflects the distribution of power between national and state governments."
+              "statement": "I can describe how federal funding mechanisms reflect the distribution of power between national and state governments."
             }
           ]
         },
@@ -846,13 +724,13 @@
           "signature": [
             [
               "Unit 1",
-              "long"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify different federal funding mechanisms and explain how each reflects the distribution of power between national and state governments."
+              "statement": "I can describe how federal funding mechanisms reflect the distribution of power between national and state governments."
             }
           ]
         }
@@ -867,7 +745,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify connections between historical constitutional debates and contemporary policy issues."
+          "statement": "I can identify the facts, issue, holding, and reasoning of required Supreme Court cases."
         }
       ],
       "stability_flag": "stable",
@@ -877,13 +755,13 @@
           "signature": [
             [
               "Unit 1",
-              "short"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify connections between historical constitutional debates and contemporary policy issues."
+              "statement": "I can identify the facts, issue, holding, and reasoning of required Supreme Court cases."
             }
           ]
         },
@@ -892,13 +770,13 @@
           "signature": [
             [
               "Unit 1",
-              "short"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify connections between historical constitutional debates and contemporary policy issues."
+              "statement": "I can identify the facts, issue, holding, and reasoning of required Supreme Court cases."
             }
           ]
         },
@@ -907,13 +785,13 @@
           "signature": [
             [
               "Unit 1",
-              "short"
+              "medium"
             ]
           ],
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify connections between historical constitutional debates and current policy issues."
+              "statement": "I can identify the facts, issue, holding, and reasoning of required Supreme Court cases."
             }
           ]
         }
@@ -924,11 +802,72 @@
     },
     {
       "lt_id": "cluster_08_lt_02",
-      "knowledge_type": "Type 2",
+      "knowledge_type": "Type 1",
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can analyse contemporary constitutional issues by applying historical debates about governmental power and individual rights."
+          "statement": "I can explain how Supreme Court interpretations of the Commerce Clause and Supremacy Clause define federal and state power."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Unit 1",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can explain how Supreme Court interpretations of the Commerce Clause and Supremacy Clause define federal and state power."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Unit 1",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can explain how Supreme Court interpretations of the Commerce Clause and Supremacy Clause define federal and state power."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Unit 1",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can explain how Supreme Court interpretations of the Commerce Clause and Supremacy Clause define federal and state power."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Unit 1",
+          "statement": "I can identify how federalism and individual rights debates have shaped constitutional issues throughout American history."
         }
       ],
       "stability_flag": "stable",
@@ -944,7 +883,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse contemporary constitutional issues by applying historical debates about governmental power and individual rights."
+              "statement": "I can identify how federalism and individual rights debates have shaped constitutional issues throughout American history."
             }
           ]
         },
@@ -959,7 +898,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse contemporary constitutional issues by applying historical debates about governmental power and individual rights."
+              "statement": "I can identify how federalism and individual rights debates have shaped constitutional issues throughout American history."
             }
           ]
         },
@@ -974,7 +913,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can analyse contemporary constitutional issues by applying historical debates about governmental power and individual rights."
+              "statement": "I can identify how federalism and individual rights debates have shaped constitutional tensions throughout American history."
             }
           ]
         }
@@ -984,7 +923,68 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_09_lt_01",
+      "lt_id": "cluster_09_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Unit 1",
+          "statement": "I can analyse contemporary constitutional issues by applying historical federalism and rights debates as interpretive frameworks."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Unit 1",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can analyse contemporary constitutional issues by applying historical federalism and rights debates as interpretive frameworks."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Unit 1",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can analyse contemporary constitutional issues by applying historical federalism and rights debates as interpretive frameworks."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Unit 1",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can analyse contemporary constitutional issues by applying historical federalism and rights debates as interpretive frameworks."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_10_lt_01",
       "knowledge_type": "Type 1",
       "statements": [
         {
@@ -1020,7 +1020,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify political principles and institutions within United States governmental structures and processes."
+              "statement": "I can identify political principles and institutions within United States government structures and processes."
             }
           ]
         },
@@ -1036,128 +1036,6 @@
             {
               "band": "Unit 1",
               "statement": "I can identify political principles and institutions within United States governmental structures and processes."
-            }
-          ]
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": []
-    },
-    {
-      "lt_id": "cluster_09_lt_02",
-      "knowledge_type": "Type 2",
-      "statements": [
-        {
-          "band": "Unit 1",
-          "statement": "I can explain how political principles and institutions function within specific governmental contexts and scenarios."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how political principles and institutions function within specific governmental contexts and scenarios."
-            }
-          ]
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how political principles and institutions function within specific governmental contexts and scenarios."
-            }
-          ]
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can explain how political principles and institutions function within specific governmental contexts and scenarios."
-            }
-          ]
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": []
-    },
-    {
-      "lt_id": "cluster_10_lt_01",
-      "knowledge_type": "Type 2",
-      "statements": [
-        {
-          "band": "Unit 1",
-          "statement": "I can identify the main argument and underlying perspective in a political source."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can identify the main argument and underlying perspective in a political source."
-            }
-          ]
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can identify the main argument and underlying perspective in a political source."
-            }
-          ]
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "Unit 1",
-              "medium"
-            ]
-          ],
-          "statements": [
-            {
-              "band": "Unit 1",
-              "statement": "I can identify the main argument and underlying perspective in a political source."
             }
           ]
         }
@@ -1172,7 +1050,7 @@
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can explain how an argument in a source connects to specific political principles, institutions, or processes."
+          "statement": "I can describe political principles and institutions and explain their significance in specific governmental contexts."
         }
       ],
       "stability_flag": "stable",
@@ -1188,7 +1066,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how an argument in a source connects to specific political principles, institutions, or processes."
+              "statement": "I can describe political principles and institutions and explain their significance in specific governmental contexts."
             }
           ]
         },
@@ -1203,7 +1081,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how arguments in sources connect to core political principles and governmental institutions."
+              "statement": "I can describe political principles and institutions and explain their significance in specific governmental contexts."
             }
           ]
         },
@@ -1218,7 +1096,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how arguments in sources connect to core political principles and governmental institutions."
+              "statement": "I can describe political principles and institutions and explain their significance in specific governmental contexts."
             }
           ]
         }
@@ -1229,11 +1107,72 @@
     },
     {
       "lt_id": "cluster_11_lt_01",
-      "knowledge_type": "Type 1",
+      "knowledge_type": "Type 2",
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify relevant political principles, institutions, and processes within a given scenario."
+          "statement": "I can identify political principles, institutions, and processes that an argument addresses."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Unit 1",
+              "short"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can identify political principles, institutions, and processes that an argument addresses."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Unit 1",
+              "short"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can identify political principles, institutions, and processes that an argument addresses."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Unit 1",
+              "short"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Unit 1",
+              "statement": "I can identify the political principles and institutions that an argument addresses."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_11_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Unit 1",
+          "statement": "I can explain how a political argument in a source connects to specific principles, institutions, or processes."
         }
       ],
       "stability_flag": "stable",
@@ -1249,7 +1188,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify relevant political principles, institutions, and processes within a given scenario."
+              "statement": "I can explain how a political argument in a source connects to specific principles, institutions, or processes."
             }
           ]
         },
@@ -1264,7 +1203,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify relevant political principles, institutions, and processes within a given scenario."
+              "statement": "I can explain how a political argument in a source connects to specific principles, institutions, or processes."
             }
           ]
         },
@@ -1279,7 +1218,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify relevant political principles, institutions, and processes within a given scenario."
+              "statement": "I can explain how a political argument in a source connects to specific principles, institutions, or processes."
             }
           ]
         }
@@ -1289,7 +1228,7 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_11_lt_02",
+      "lt_id": "cluster_12_lt_01",
       "knowledge_type": "Type 2",
       "statements": [
         {
@@ -1325,7 +1264,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how political principles and institutions apply to real-world government scenarios and contexts."
+              "statement": "I can explain how political principles and institutions shape government responses to real-world scenarios."
             }
           ]
         },
@@ -1340,7 +1279,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can explain how political principles and institutions apply to real-world government scenarios."
+              "statement": "I can explain how political principles and institutions shape government responses to contemporary scenarios."
             }
           ]
         }
@@ -1350,12 +1289,12 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_12_lt_01",
-      "knowledge_type": "Type 2",
+      "lt_id": "cluster_12_lt_02",
+      "knowledge_type": "Type 1",
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can articulate a defensible claim about government or politics that interprets evidence beyond restating facts."
+          "statement": "I can identify key political principles and institutions foundational to the U.S. constitutional system."
         }
       ],
       "stability_flag": "stable",
@@ -1371,7 +1310,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can articulate a defensible claim about government or politics that interprets evidence beyond restating facts."
+              "statement": "I can identify key political principles and institutions foundational to the U.S. constitutional system."
             }
           ]
         },
@@ -1386,7 +1325,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can articulate a defensible claim about government institutions that extends beyond factual description."
+              "statement": "I can identify key political principles and institutions foundational to the United States constitutional system."
             }
           ]
         },
@@ -1401,7 +1340,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can articulate a defensible claim about government structures that extends beyond factual description."
+              "statement": "I can identify key political principles and institutions within the U.S. constitutional framework."
             }
           ]
         }
@@ -1411,7 +1350,7 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_12_lt_02",
+      "lt_id": "cluster_13_lt_02",
       "knowledge_type": "Type 2",
       "statements": [
         {
@@ -1472,12 +1411,12 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_13_lt_01",
+      "lt_id": "cluster_14_lt_01",
       "knowledge_type": "Type 1",
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify and explain key governmental terms related to citizenship and political participation."
+          "statement": "I can identify and define essential governmental terms foundational to understanding U.S. political institutions."
         }
       ],
       "stability_flag": "stable",
@@ -1493,7 +1432,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and explain key governmental terms related to citizenship and political participation."
+              "statement": "I can identify and define essential governmental terms foundational to understanding U.S. political institutions."
             }
           ]
         },
@@ -1508,7 +1447,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and explain definitions of key governmental terms related to citizenship and political participation."
+              "statement": "I can identify and define essential governmental terms foundational to understanding U.S. political systems."
             }
           ]
         },
@@ -1523,7 +1462,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify and explain definitions of key governmental terms related to citizenship and political participation."
+              "statement": "I can identify and define essential governmental terms foundational to understanding U.S. political systems."
             }
           ]
         }
@@ -1533,12 +1472,12 @@
       "quality_gate_failures": []
     },
     {
-      "lt_id": "cluster_13_lt_02",
+      "lt_id": "cluster_14_lt_02",
       "knowledge_type": "Type 1",
       "statements": [
         {
           "band": "Unit 1",
-          "statement": "I can identify the facts, issue, holding, and reasoning within landmark Supreme Court cases."
+          "statement": "I can explain the legal and constitutional distinctions between citizens and non-citizens in the United States."
         }
       ],
       "stability_flag": "stable",
@@ -1554,7 +1493,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify the facts, issue, holding, and reasoning within landmark Supreme Court cases."
+              "statement": "I can explain the legal and constitutional distinctions between citizens and non-citizens in the United States."
             }
           ]
         },
@@ -1569,7 +1508,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify the facts, issue, holding, and reasoning within landmark Supreme Court cases."
+              "statement": "I can explain the legal and constitutional distinctions between citizens and non-citizen residents."
             }
           ]
         },
@@ -1584,7 +1523,7 @@
           "statements": [
             {
               "band": "Unit 1",
-              "statement": "I can identify the facts, issue, holding, and reasoning in landmark Supreme Court cases."
+              "statement": "I can explain the legal and constitutional distinctions between citizens and non-citizens in the United States."
             }
           ]
         }
@@ -1594,5 +1533,21 @@
       "quality_gate_failures": []
     }
   ],
-  "halted_lts": []
+  "halted_lts": [
+    {
+      "lt_id": "cluster_13_lt_01",
+      "lt_name": "Articulating Defensible Claims",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Unit 1:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Unit 1",
+          "statement": "I can articulate a defensible claim about government structures that extends beyond factual description."
+        }
+      ]
+    }
+  ]
 }

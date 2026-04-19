@@ -6,195 +6,41 @@
   "runs": 3,
   "rubrics": [
     {
-      "lt_id": "cluster_02_lt_01",
+      "lt_id": "cluster_02_lt_02",
       "knowledge_type": "Type 1",
       "levels": [
         {
           "name": "no_evidence",
-          "descriptor": "No attempt to identify or explain the models.",
-          "word_count": 8
+          "descriptor": "No attempt to identify or explain models in institutions.",
+          "word_count": 9
         },
         {
           "name": "emerging",
-          "descriptor": "Names one or two models with minimal or inaccurate characteristics.",
-          "word_count": 10
-        },
-        {
-          "name": "developing",
-          "descriptor": "Identifies all three models and describes some characteristics independently but with incomplete or imprecise explanations.",
-          "word_count": 15
-        },
-        {
-          "name": "competent",
-          "descriptor": "Explains key characteristics of participatory, pluralist, and elite models of representative democracy accurately and independently.",
-          "word_count": 15
-        },
-        {
-          "name": "extending",
-          "descriptor": "Compares and contrasts the three models, identifying tensions and assumptions underlying each framework.",
-          "word_count": 13
-        }
-      ],
-      "prerequisite_edges": [],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 15
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 14
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 16
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped')): 2, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped')): 1}"
-      ],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, with no hedging language or framing of incompleteness.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_04_lt_01",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify Articles weaknesses.",
-          "word_count": 6
-        },
-        {
-          "name": "emerging",
-          "descriptor": "Names military or executive absence but with incomplete or inaccurate explanation of impact.",
+          "descriptor": "With support, identifies one or two models but explanations lack clarity or accuracy.",
           "word_count": 13
         },
         {
           "name": "developing",
-          "descriptor": "Identifies lack of centralized military power and absent executive branch independently but lacks depth on limitations.",
+          "descriptor": "Independently identifies all three models and explains one or two with some detail in familiar contexts.",
           "word_count": 16
         },
         {
           "name": "competent",
-          "descriptor": "Identifies how lack of centralized military power and absence of executive branch limited the Articles' effectiveness.",
-          "word_count": 16
+          "descriptor": "Identifies and explains how participatory, pluralist, and elite models are reflected in contemporary U.S. institutions and political behavior.",
+          "word_count": 19
         },
         {
           "name": "extending",
-          "descriptor": "Connects identified weaknesses to specific historical incidents or explains cascading effects on federal governance.",
+          "descriptor": "Applies model analysis to unfamiliar institutional contexts or compares how multiple models operate simultaneously.",
           "word_count": 14
         }
       ],
       "prerequisite_edges": [
         {
-          "from_lt_id": "cluster_03_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding Federalist arguments for strong central government provides context for why Articles weaknesses mattered."
-        },
-        {
-          "from_lt_id": "cluster_04_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Connecting incidents to constitutional gaps builds on identifying weaknesses as foundational knowledge."
+          "from_lt_id": "cluster_02_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot explain how models are reflected in institutions without first understanding the key characteristics of each model."
         }
       ],
       "stability_flag": "rubric_unstable",
@@ -225,7 +71,7 @@
             [
               "extending",
               "within_limit",
-              "recognise"
+              "analyse"
             ],
             [
               "competent_scope",
@@ -260,14 +106,14 @@
             [
               "extending",
               "within_limit",
-              "describe"
+              "apply"
             ],
             [
               "competent_scope",
               "unscoped"
             ]
           ],
-          "competent_word_count": 16
+          "competent_word_count": 19
         },
         {
           "run": 3,
@@ -291,6 +137,1310 @@
               "competent",
               "within_limit",
               "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 19
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped')): 1, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor directly mirrors the LT definition without hedging language, frames the capability as demonstrated, and stands alone as evidence the target is met.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to connect incidents to Articles' weaknesses.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "Names an incident and a weakness but does not explain the connection between them.",
+          "word_count": 14
+        },
+        {
+          "name": "developing",
+          "descriptor": "Explains how an incident exposed a weakness independently but lacks depth or precision in reasoning.",
+          "word_count": 15
+        },
+        {
+          "name": "competent",
+          "descriptor": "Explains how specific incidents exposed gaps between the Articles' provisions and federal government capacity to respond.",
+          "word_count": 16
+        },
+        {
+          "name": "extending",
+          "descriptor": "Connects multiple incidents to reveal patterns of inadequacy and traces implications for constitutional reform.",
+          "word_count": 14
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_04_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must identify specific weaknesses before explaining how incidents exposed those gaps."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "none"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 16
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "none"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 16
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "none"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 15
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 1}"
+      ],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "observable_verb"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor directly states the learner 'explains how specific incidents exposed gaps,' which demonstrates the capability required by the LT without hedging language, incompleteness markers, or positioning it as a way-station to a higher level.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to explain any constitutional compromise.",
+          "word_count": 7
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, names one or two compromises but explains them incompletely or inaccurately.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently explains two compromises with basic accuracy but lacks depth or clarity on how they resolved conflict.",
+          "word_count": 17
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently explains how the Great Compromise, Electoral College, and Three-Fifths Compromise each resolved specific conflicts at the Convention.",
+          "word_count": 19
+        },
+        {
+          "name": "extending",
+          "descriptor": "Explains compromises and analyzes their interconnected effects on representation, federalism, and ratification debates.",
+          "word_count": 13
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_04_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding weaknesses in the Articles establishes why the Convention occurred and why compromises were necessary."
+        },
+        {
+          "from_lt_id": "cluster_04_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Recognizing gaps exposed by incidents motivates understanding how constitutional compromises addressed federal power and representation."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 19
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 19
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 19
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "single_construct"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares independent capability to explain how each compromise resolved conflicts, matching the LT's demand without hedging, incompleteness framing, or positioning as a way-station to Extending.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to analyze compromises or ratification.",
+          "word_count": 7
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies one compromise or ratification concern but lacks connection between them.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies major compromises and describes their role in ratification but misses causal depth.",
+          "word_count": 14
+        },
+        {
+          "name": "competent",
+          "descriptor": "Analyzes how specific compromises and the Bill of Rights shaped ratification debates and the amendment process.",
+          "word_count": 16
+        },
+        {
+          "name": "extending",
+          "descriptor": "Analyzes compromises' ratification impact and evaluates their long-term constitutional consequences.",
+          "word_count": 11
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_05_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot analyze how compromises shaped ratification without first understanding what the major compromises were and how they resolved conflicts."
+        },
+        {
+          "from_lt_id": "cluster_04_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding why constitutional reform was needed provides context for why ratification debates occurred and what compromises addressed."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 16
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 17
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 20
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the learner can analyze how compromises and the Bill of Rights shaped ratification debates and the amendment process, which directly matches the LT's demand without hedging or positioning it as incomplete.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to identify or distinguish power categories.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, names some power types but confuses or misidentifies their assignment.",
+          "word_count": 12
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies exclusive, reserved, and concurrent powers but inconsistently distinguishes their assignment.",
+          "word_count": 12
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently identifies and accurately distinguishes exclusive, reserved, and concurrent powers between national and state governments.",
+          "word_count": 15
+        },
+        {
+          "name": "extending",
+          "descriptor": "Applies power categories to novel constitutional scenarios and explains implications of power distribution.",
+          "word_count": 13
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding separation of powers among branches provides foundational context for understanding power distribution between levels of government."
+        },
+        {
+          "from_lt_id": "cluster_04_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Recognizing weaknesses in the Articles establishes why the Constitution needed to redistribute power between national and state governments."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 15
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 15
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped')): 1, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 2}"
+      ],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "single_construct"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares independent capability to identify and distinguish the three power categories at the level demanded by the LT, with no hedging language or implication of incompleteness.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "knowledge_type": "Type 2",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to explain power distribution or its effects.",
+          "word_count": 9
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies some powers or constraints but explanation lacks clarity or accuracy.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently explains how power distribution constrains policymaking but incompletely addresses access points.",
+          "word_count": 12
+        },
+        {
+          "name": "competent",
+          "descriptor": "Explains how national-state power distribution constrains policymaking and creates multiple access points for influence.",
+          "word_count": 15
+        },
+        {
+          "name": "extending",
+          "descriptor": "Explains power distribution effects and applies reasoning to novel federalism scenarios or competing policy contexts.",
+          "word_count": 15
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_07_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot explain effects of power distribution without first identifying what exclusive, reserved, and concurrent powers are."
+        },
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding separation of powers and checks provides foundational context for how power distribution constrains policymaking."
+        },
+        {
+          "from_lt_id": "cluster_08_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Judicial doctrine on federal-state power illustrates how courts interpret and shape the distribution of powers between levels."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 15
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 16
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 15
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 1}"
+      ],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "single_construct"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor directly states the learner 'explains' the core concepts without hedging language, frames the capability as demonstrated, and aligns with the LT's level of demand without implying incompleteness.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to describe funding mechanisms or power distribution.",
+          "word_count": 9
+        },
+        {
+          "name": "emerging",
+          "descriptor": "Names one or two funding mechanisms with minimal or inaccurate explanation of power distribution.",
+          "word_count": 14
+        },
+        {
+          "name": "developing",
+          "descriptor": "Describes most funding mechanisms and identifies some connection to power distribution independently.",
+          "word_count": 12
+        },
+        {
+          "name": "competent",
+          "descriptor": "Describes revenue sharing, block grants, categorical expenditures, and mandates and explains how each reflects national-state power distribution.",
+          "word_count": 18
+        },
+        {
+          "name": "extending",
+          "descriptor": "Analyzes how funding mechanisms interact to constrain or enable state policy autonomy across multiple policy domains.",
+          "word_count": 16
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_07_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Understanding exclusive, reserved, and concurrent powers is foundational to recognizing how funding mechanisms distribute authority between levels."
+        },
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Separation of powers establishes the principle that authority is distributed; federalism applies this principle vertically between national and state governments."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 18
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 23
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 20
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "single_construct"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the learner can describe all four mechanisms and explain their relationship to power distribution, which directly matches the LT's demand without hedging or positioning it as incomplete.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to identify or explain case components.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies some case facts or issues but explanations are incomplete or inaccurate.",
+          "word_count": 14
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies facts and issue; explains holding and reasoning with minor gaps or inconsistency.",
+          "word_count": 14
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently identifies and explains facts, issue, holding, reasoning, and decision of required cases accurately.",
+          "word_count": 14
+        },
+        {
+          "name": "extending",
+          "descriptor": "Explains cases and connects holdings to broader constitutional doctrine or compares reasoning across cases.",
+          "word_count": 14
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding separation of powers and checks provides foundational context for interpreting cases about institutional authority."
+        },
+        {
+          "from_lt_id": "cluster_07_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Identifying power distribution categories helps learners grasp the federalism issues central to many required Supreme Court cases."
+        },
+        {
+          "from_lt_id": "cluster_14_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Defining core governmental terms is necessary to understand and articulate the legal concepts and vocabulary in case holdings and reasoning."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 14
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped')): 1, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares independent demonstration of all required capabilities (identify and explain facts, issue, holding, reasoning, decision) at the target level without hedging or positioning it as incomplete.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to explain judicial doctrine on federal-state power.",
+          "word_count": 10
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, names one or two clauses but explanations are incomplete or inaccurate.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently explains how one or two clauses shape federal-state power but lacks depth or precision.",
+          "word_count": 16
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently explains how Commerce Clause, Due Process, Equal Protection, and Supremacy Clause shape the balance of federal and state power.",
+          "word_count": 20
+        },
+        {
+          "name": "extending",
+          "descriptor": "Explains how judicial doctrine on these clauses interacts with or constrains other constitutional structures or contemporary policy disputes.",
+          "word_count": 18
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_08_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot explain judicial doctrine without first identifying and understanding the facts, holdings, and reasoning of the required Supreme Court cases."
+        },
+        {
+          "from_lt_id": "cluster_07_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot explain how clauses shape federal-state power balance without understanding the categories of exclusive, reserved, and concurrent powers."
+        },
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding separation of powers and checks and balances provides foundational context for how the judiciary interprets constitutional limits on federal and state authority."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 20
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 18
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
             ],
             [
               "extending",
@@ -305,813 +1455,17 @@
           "competent_word_count": 18
         }
       ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'unscoped')): 1, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')): 2}"
-      ],
-      "quality_gate_passed": false,
-      "quality_gate_failures": [
-        "single_construct"
-      ],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor directly states the learner 'identifies how' the specified limitations affected the Articles, which matches the LT's demand without hedging language or framing Competent as incomplete.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_04_lt_02",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to connect incidents to Articles weaknesses.",
-          "word_count": 8
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, identifies an incident and names a weakness but does not explain the connection.",
-          "word_count": 15
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently explains how one incident exposed a specific Articles weakness but lacks depth or precision.",
-          "word_count": 15
-        },
-        {
-          "name": "competent",
-          "descriptor": "Explains how specific incidents like Shays' Rebellion exposed gaps between Articles provisions and federal government needs.",
-          "word_count": 16
-        },
-        {
-          "name": "extending",
-          "descriptor": "Analyzes multiple incidents to construct a comprehensive argument about systemic inadequacies in the Articles.",
-          "word_count": 14
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_04_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Must identify specific weaknesses in the Articles before explaining how incidents exposed those gaps."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "none"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 16
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "none"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 14
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "none"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "none"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 14
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped')): 1}"
-      ],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor directly states the learner 'explains how' the connection works, matching the LT's demand without hedging, incompleteness markers, or positioning it as a waystation to Extending.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_05_lt_01",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify or describe constitutional compromises.",
-          "word_count": 8
-        },
-        {
-          "name": "emerging",
-          "descriptor": "Names one or two compromises with minimal or inaccurate structural detail.",
-          "word_count": 11
-        },
-        {
-          "name": "developing",
-          "descriptor": "Identifies several major compromises independently but describes structural outcomes incompletely or inconsistently.",
-          "word_count": 12
-        },
-        {
-          "name": "competent",
-          "descriptor": "Identifies major compromises and accurately describes how each shaped constitutional structure and resolved conflicts.",
-          "word_count": 14
-        },
-        {
-          "name": "extending",
-          "descriptor": "Identifies compromises and explains how they reflect broader ideological tensions or constrained later constitutional interpretation.",
-          "word_count": 15
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_04_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding Articles of Confederation weaknesses provides context for why compromises were necessary at the Convention."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Federalist arguments for strong central government illuminate the motivations behind key compromises at the Convention."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Anti-Federalist concerns about centralized power explain the opposing interests that compromises had to balance."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 21
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 14
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 12
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'unscoped')): 1, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'scoped')): 2}"
-      ],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the learner can identify and accurately describe major compromises and their structural outcomes, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
-      "propositional_lt_rubric_thin_flag": true
-    },
-    {
-      "lt_id": "cluster_05_lt_02",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to explain how compromises shaped the Constitution.",
-          "word_count": 9
-        },
-        {
-          "name": "emerging",
-          "descriptor": "Names a compromise but explanation of its conflict resolution is incomplete or inaccurate.",
-          "word_count": 13
-        },
-        {
-          "name": "developing",
-          "descriptor": "Explains how one or two compromises resolved specific conflicts independently but lacks depth or scope.",
-          "word_count": 15
-        },
-        {
-          "name": "competent",
-          "descriptor": "Explains how multiple specific compromises resolved state-federal conflicts and shaped constitutional structure.",
-          "word_count": 13
-        },
-        {
-          "name": "extending",
-          "descriptor": "Explains how compromises interconnect to address competing interests across multiple constitutional dimensions.",
-          "word_count": 12
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_05_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Must identify what the compromises were before explaining how they shaped structure and resolved conflicts."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding Federalist arguments for central government provides context for why compromises between state and federal power were necessary."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding Anti-Federalist concerns about centralized power clarifies the conflicts that compromises were designed to resolve."
-        },
-        {
-          "from_lt_id": "cluster_04_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding how historical incidents exposed gaps in the Articles provides motivation for why Constitutional compromises were needed."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 13
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 14
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')): 2}"
-      ],
-      "quality_gate_passed": false,
-      "quality_gate_failures": [
-        "single_construct"
-      ],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated ('Explains how multiple specific compromises...') without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_07_lt_01",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify or distinguish types of governmental powers.",
-          "word_count": 10
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, names exclusive, reserved, or concurrent powers but confuses their definitions or allocation.",
-          "word_count": 14
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently identifies and distinguishes the three power types but incompletely explains their allocation between governments.",
-          "word_count": 15
-        },
-        {
-          "name": "competent",
-          "descriptor": "Identifies and distinguishes exclusive, reserved, and concurrent powers and accurately explains how each allocates authority between national and state governments.",
-          "word_count": 20
-        },
-        {
-          "name": "extending",
-          "descriptor": "Applies the power typology to novel constitutional scenarios or integrates it with separation of powers principles.",
-          "word_count": 16
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_03_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Federalist arguments for strong central government provide historical context for understanding why certain powers are allocated to the national level."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Anti-Federalist concerns about centralized power establish the tension that the power-distribution framework resolves."
-        },
-        {
-          "from_lt_id": "cluster_05_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding how compromises shaped the Constitution's framework helps explain why powers are distributed as they are."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "apply"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 20
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "apply"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 19
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "apply"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 20
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 2, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped')): 1}"
-      ],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the learner as independently demonstrating the capability to identify, distinguish, and explain all three power types and their authority allocation—matching the LT's level of demand with no hedging language or incompleteness framing.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_07_lt_03",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify or compare federal funding mechanisms.",
-          "word_count": 9
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, names one or two funding mechanisms but comparisons are incomplete or inaccurate.",
-          "word_count": 14
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently identifies multiple funding mechanisms and makes partial comparisons but lacks clear explanation of power distribution.",
-          "word_count": 16
-        },
-        {
-          "name": "competent",
-          "descriptor": "Identifies and compares distinct federal funding mechanisms and explains how each reflects the distribution of power between national and state governments.",
-          "word_count": 21
-        },
-        {
-          "name": "extending",
-          "descriptor": "Compares funding mechanisms across policy domains and evaluates how funding choices strategically shift power between governmental levels.",
-          "word_count": 17
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_07_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Understanding exclusive, reserved, and concurrent powers is foundational to recognizing how funding mechanisms allocate authority between levels."
-        },
-        {
-          "from_lt_id": "cluster_05_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Knowledge of how constitutional compromises shaped federalism structure provides context for understanding modern funding mechanisms."
-        },
-        {
-          "from_lt_id": "cluster_03_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Federalist arguments for central government authority establish the historical rationale underlying federal funding mechanisms."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 21
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 19
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 21
-        }
-      ],
       "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "single_construct"
+      ],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated without hedging language, frames Competent as meeting the LT's demands (identify, compare, explain), and stands alone as success without implying incompleteness.",
+      "competent_framing_judge_rationale": "The descriptor declares independent capability to explain how all four constitutional doctrines shape federal-state power balance, matching the LT's demand without hedging or positioning it as incomplete.",
       "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_09_lt_01",
+      "lt_id": "cluster_10_lt_01",
       "knowledge_type": "Type 1",
       "levels": [
         {
@@ -1121,13 +1475,13 @@
         },
         {
           "name": "emerging",
-          "descriptor": "With support, identifies one or two political principles or institutions but with inaccuracy or confusion.",
-          "word_count": 15
+          "descriptor": "With support, identifies some political principles or institutions but with gaps or inaccuracy.",
+          "word_count": 13
         },
         {
           "name": "developing",
-          "descriptor": "Independently identifies relevant political principles or institutions in familiar contexts but misses some or hesitates with novel scenarios.",
-          "word_count": 18
+          "descriptor": "Independently identifies political principles and institutions in familiar contexts but inconsistently across varied scenarios.",
+          "word_count": 14
         },
         {
           "name": "competent",
@@ -1136,11 +1490,18 @@
         },
         {
           "name": "extending",
-          "descriptor": "Identifies political elements and distinguishes relationships between them across complex or unfamiliar contexts.",
-          "word_count": 13
+          "descriptor": "Identifies political elements and distinguishes relationships among principles, institutions, and behaviors across complex scenarios.",
+          "word_count": 14
         }
       ],
-      "prerequisite_edges": [],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_14_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Learner must know definitions of core governmental terms before identifying principles and institutions in context."
+        }
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1211,7 +1572,7 @@
               "scoped"
             ]
           ],
-          "competent_word_count": 13
+          "competent_word_count": 15
         },
         {
           "run": 3,
@@ -1246,335 +1607,15 @@
               "scoped"
             ]
           ],
-          "competent_word_count": 16
+          "competent_word_count": 15
         }
       ],
       "stability_diagnostics": [],
       "quality_gate_passed": true,
       "quality_gate_failures": [],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares independent, accurate identification across different scenarios and contexts, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
+      "competent_framing_judge_rationale": "The descriptor declares independent, accurate identification across different scenarios and contexts without hedging language, positioning Competent as meeting the Learning Target.",
       "propositional_lt_rubric_thin_flag": true
-    },
-    {
-      "lt_id": "cluster_09_lt_02",
-      "knowledge_type": "Type 2",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to describe how a principle or institution operates.",
-          "word_count": 10
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, names a principle or institution but describes it incompletely or inaccurately across contexts.",
-          "word_count": 15
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently describes how a principle or institution operates in one familiar context but struggles to transfer across scenarios.",
-          "word_count": 18
-        },
-        {
-          "name": "competent",
-          "descriptor": "Independently describes how political principles, institutions, processes, policies, or behaviors operate across different scenarios and contexts accurately.",
-          "word_count": 17
-        },
-        {
-          "name": "extending",
-          "descriptor": "Describes how principles and institutions operate across contexts and explains relationships or tensions between them.",
-          "word_count": 15
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_09_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Identifying principles and institutions is foundational; describing how they operate requires first recognizing what they are."
-        },
-        {
-          "from_lt_id": "cluster_06_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding separation of powers and checks provides essential institutional knowledge for describing how core governmental structures operate in context."
-        },
-        {
-          "from_lt_id": "cluster_07_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Identifying types of powers is typically established before explaining how power distribution operates across different policy scenarios."
-        }
-      ],
-      "stability_flag": "stable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 17
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 16
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "describe"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 14
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares independent capability to describe how political elements operate across different scenarios and contexts accurately, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_10_lt_01",
-      "knowledge_type": "Type 2",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify an argument or perspective.",
-          "word_count": 8
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, names a topic but does not isolate the main argument or perspective clearly.",
-          "word_count": 15
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently identifies a main argument or perspective but may miss nuance or secondary claims.",
-          "word_count": 14
-        },
-        {
-          "name": "competent",
-          "descriptor": "Independently identifies and extracts the main argument or perspective presented in a political source accurately.",
-          "word_count": 15
-        },
-        {
-          "name": "extending",
-          "descriptor": "Identifies the main argument and distinguishes it from related secondary claims or unstated assumptions.",
-          "word_count": 14
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_09_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Identifying political principles and institutions in scenarios is foundational to recognizing arguments rooted in those concepts."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 15
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 14
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "analyse"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 15
-        }
-      ],
-      "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped')): 2, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'unscoped')): 1}"
-      ],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated independently and at the LT's level of demand ('identifies and extracts...accurately'), with no hedging language or framing of incompleteness.",
-      "propositional_lt_rubric_thin_flag": false
     },
     {
       "lt_id": "cluster_10_lt_02",
@@ -1582,28 +1623,28 @@
       "levels": [
         {
           "name": "no_evidence",
-          "descriptor": "No attempt to connect argument to political framework.",
+          "descriptor": "No attempt to describe political principles or institutions.",
           "word_count": 8
         },
         {
           "name": "emerging",
-          "descriptor": "With support, identifies a framework but explanation of connection is unclear or incomplete.",
+          "descriptor": "With support, names a principle or institution but description lacks context or accuracy.",
           "word_count": 13
         },
         {
           "name": "developing",
-          "descriptor": "Independently connects argument to a framework but reasoning lacks depth or precision.",
-          "word_count": 12
+          "descriptor": "Independently describes a principle or institution in context but misses significance or applies it incompletely.",
+          "word_count": 15
         },
         {
           "name": "competent",
-          "descriptor": "Independently explains how an argument or perspective relates to relevant political principles, institutions, processes, policies, or behaviors.",
-          "word_count": 17
+          "descriptor": "Describes political principles, institutions, processes, policies, or behaviors in context and explains their significance.",
+          "word_count": 14
         },
         {
           "name": "extending",
-          "descriptor": "Connects argument to multiple frameworks or explains how competing frameworks illuminate different dimensions of the argument.",
-          "word_count": 16
+          "descriptor": "Describes principles and institutions across multiple contexts and connects their significance to broader constitutional or systemic patterns.",
+          "word_count": 17
         }
       ],
       "prerequisite_edges": [
@@ -1611,22 +1652,340 @@
           "from_lt_id": "cluster_10_lt_01",
           "kind": "ontological_prerequisite",
           "confidence": "high",
-          "rationale": "Cannot connect an argument to frameworks without first identifying what the argument is."
+          "rationale": "Identifying principles and institutions is the foundational skill required before describing them and explaining their contextual significance."
         },
         {
-          "from_lt_id": "cluster_09_lt_01",
+          "from_lt_id": "cluster_14_lt_01",
           "kind": "ontological_prerequisite",
           "confidence": "high",
-          "rationale": "Must recognize political principles and institutions in order to connect arguments to them."
-        },
-        {
-          "from_lt_id": "cluster_09_lt_02",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Describing how frameworks operate in context builds fluency needed to explain argument-framework relationships."
+          "rationale": "Learners must know the definitions of core governmental terms to describe principles and institutions accurately in context."
         }
       ],
-      "stability_flag": "rubric_unstable",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated and matches the LT's core demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_11_lt_01",
+      "knowledge_type": "Type 2",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to identify political concepts in the argument.",
+          "word_count": 9
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, names one political concept but identification is vague or partially inaccurate.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies one or two political concepts but misses others or shows incomplete understanding.",
+          "word_count": 14
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently identifies the political principles, institutions, processes, policies, or behaviors the argument addresses.",
+          "word_count": 13
+        },
+        {
+          "name": "extending",
+          "descriptor": "Identifies multiple interconnected political concepts and explains how they relate within the argument's logic.",
+          "word_count": 14
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_10_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot identify political concepts in arguments without first being able to recognize what political principles, institutions, processes, policies, and behaviors are in general contexts."
+        },
+        {
+          "from_lt_id": "cluster_14_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Identifying political concepts requires knowing the definitions of core governmental terms that constitute those concepts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 13
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 13
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_11_lt_02",
+      "knowledge_type": "Type 2",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to connect argument to political concepts.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies a concept but struggles to explain the connection clearly.",
+          "word_count": 12
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently explains how an argument relates to a concept but misses nuance or reasoning.",
+          "word_count": 14
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently explains how and why an argument or perspective relates to specific political principles, institutions, processes, policies, or behaviors.",
+          "word_count": 19
+        },
+        {
+          "name": "extending",
+          "descriptor": "Explains argument-to-concept relationships across multiple sources and identifies tensions between competing principles.",
+          "word_count": 14
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_11_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must identify which concepts an argument addresses before explaining how and why it relates to them."
+        },
+        {
+          "from_lt_id": "cluster_10_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must recognize political principles and institutions in contexts before explaining their relationship to arguments."
+        },
+        {
+          "from_lt_id": "cluster_10_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Describing principles in context builds foundational understanding useful for explaining argument-to-concept relationships."
+        }
+      ],
+      "stability_flag": "stable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -1644,7 +2003,7 @@
             [
               "developing",
               "within_limit",
-              "none"
+              "describe"
             ],
             [
               "competent",
@@ -1661,7 +2020,7 @@
               "unscoped"
             ]
           ],
-          "competent_word_count": 17
+          "competent_word_count": 19
         },
         {
           "run": 2,
@@ -1679,7 +2038,7 @@
             [
               "developing",
               "within_limit",
-              "none"
+              "describe"
             ],
             [
               "competent",
@@ -1705,6 +2064,148 @@
               "no_evidence",
               "within_limit",
               "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 19
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, using no hedging language or deficit framing, and can stand alone as evidence the LT is met.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_12_lt_01",
+      "knowledge_type": "Type 2",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to apply political principles to scenarios.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies a principle but explanation of its application is incomplete or inaccurate.",
+          "word_count": 14
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently applies a principle to a scenario but reasoning lacks depth or nuance in unfamiliar contexts.",
+          "word_count": 16
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently explains how political principles, institutions, processes, or policies apply to different scenarios with accurate reasoning.",
+          "word_count": 16
+        },
+        {
+          "name": "extending",
+          "descriptor": "Applies principles across multiple scenarios, synthesizing connections or evaluating competing interpretations.",
+          "word_count": 11
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_10_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must identify political principles and institutions in scenarios before explaining how they apply."
+        },
+        {
+          "from_lt_id": "cluster_10_lt_02",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must describe principles and their contextual significance before explaining application across different scenarios."
+        },
+        {
+          "from_lt_id": "cluster_12_lt_02",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Must identify political principles and institutions before explaining how they apply in context."
+        },
+        {
+          "from_lt_id": "cluster_06_lt_01",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding separation of powers and checks and balances provides foundational principles commonly applied to governmental scenarios."
+        },
+        {
+          "from_lt_id": "cluster_07_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Understanding power distribution effects provides principles frequently applied to federalism and policymaking scenarios."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 17
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "apply"
             ],
             [
               "emerging",
@@ -1724,63 +2225,96 @@
             [
               "extending",
               "within_limit",
-              "describe"
+              "apply"
             ],
             [
               "competent_scope",
-              "unscoped"
+              "scoped"
             ]
           ],
-          "competent_word_count": 17
+          "competent_word_count": 16
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 16
         }
       ],
       "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'apply'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')): 1}"
+        "signature_counts={(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped')): 1, (('no_evidence', 'within_limit', 'apply'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'apply'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 2}"
       ],
-      "quality_gate_passed": false,
-      "quality_gate_failures": [
-        "observable_verb"
-      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares independent capability to explain connections between arguments and political frameworks at the level demanded by the LT, with no hedging language or implication of incompleteness.",
+      "competent_framing_judge_rationale": "The descriptor declares independent capability to explain application of political principles to different scenarios with accurate reasoning, which directly matches the LT's demand and stands alone as success.",
       "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_11_lt_01",
+      "lt_id": "cluster_12_lt_02",
       "knowledge_type": "Type 1",
       "levels": [
         {
           "name": "no_evidence",
-          "descriptor": "No attempt to identify political concepts in the scenario.",
-          "word_count": 9
+          "descriptor": "No attempt to identify political principles or institutions.",
+          "word_count": 8
         },
         {
           "name": "emerging",
-          "descriptor": "With support, names one or two concepts but misidentifies their relevance or accuracy.",
-          "word_count": 13
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently identifies some relevant concepts but misses others or fails to connect them fully.",
+          "descriptor": "With support, names some political principles or institutions but identification is incomplete or inaccurate.",
           "word_count": 14
         },
         {
+          "name": "developing",
+          "descriptor": "Independently identifies political principles and institutions in familiar contexts but misses some elements or requires clarification.",
+          "word_count": 16
+        },
+        {
           "name": "competent",
-          "descriptor": "Independently identifies multiple relevant political principles, institutions, processes, or policies in the scenario.",
-          "word_count": 13
+          "descriptor": "Independently identifies political principles, institutions, U.S. Constitution processes, and policies in scenarios accurately and completely.",
+          "word_count": 16
         },
         {
           "name": "extending",
-          "descriptor": "Identifies concepts and explains how they interact or relate to one another within the scenario.",
-          "word_count": 15
+          "descriptor": "Identifies political principles and institutions across unfamiliar or complex scenarios and distinguishes their relationships.",
+          "word_count": 14
         }
       ],
       "prerequisite_edges": [
         {
-          "from_lt_id": "cluster_09_lt_01",
+          "from_lt_id": "cluster_14_lt_01",
           "kind": "ontological_prerequisite",
           "confidence": "high",
-          "rationale": "cluster_09_lt_01 requires identifying political concepts across scenarios; cluster_11_lt_01 applies that same identification skill to specific given scenarios."
+          "rationale": "Learners must know definitions of core governmental terms before identifying political principles and institutions."
         }
       ],
       "stability_flag": "stable",
@@ -1815,10 +2349,10 @@
             ],
             [
               "competent_scope",
-              "unscoped"
+              "scoped"
             ]
           ],
-          "competent_word_count": 13
+          "competent_word_count": 16
         },
         {
           "run": 2,
@@ -1850,10 +2384,10 @@
             ],
             [
               "competent_scope",
-              "unscoped"
+              "scoped"
             ]
           ],
-          "competent_word_count": 13
+          "competent_word_count": 16
         },
         {
           "run": 3,
@@ -1885,21 +2419,21 @@
             ],
             [
               "competent_scope",
-              "unscoped"
+              "scoped"
             ]
           ],
-          "competent_word_count": 13
+          "competent_word_count": 15
         }
       ],
       "stability_diagnostics": [],
       "quality_gate_passed": true,
       "quality_gate_failures": [],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares independent identification of multiple relevant political concepts without hedging language, incompleteness markers, or framing Competent as a stepping stone to Extending.",
+      "competent_framing_judge_rationale": "The descriptor declares independent, accurate, and complete identification of all required elements without hedging language or framing Competent as incomplete.",
       "propositional_lt_rubric_thin_flag": true
     },
     {
-      "lt_id": "cluster_12_lt_01",
+      "lt_id": "cluster_13_lt_01",
       "knowledge_type": "Type 2",
       "levels": [
         {
@@ -1909,37 +2443,37 @@
         },
         {
           "name": "emerging",
-          "descriptor": "States a fact or topic with heavy support; claim lacks defensibility or reasoning.",
-          "word_count": 13
-        },
-        {
-          "name": "developing",
-          "descriptor": "Articulates a claim independently but it remains largely factual or lacks clear argumentative stance.",
+          "descriptor": "States a fact or topic with heavy support; claim lacks defensibility or analytical depth.",
           "word_count": 14
         },
         {
+          "name": "developing",
+          "descriptor": "Articulates a claim independently but it remains largely factual or requires clarification to be defensible.",
+          "word_count": 15
+        },
+        {
           "name": "competent",
-          "descriptor": "Articulates a defensible claim or thesis that moves beyond facts and takes a clear argumentative position.",
-          "word_count": 16
+          "descriptor": "Articulates a defensible claim or thesis that moves beyond facts and takes a reasoned position.",
+          "word_count": 15
         },
         {
           "name": "extending",
-          "descriptor": "Articulates a nuanced, defensible claim that anticipates counterarguments or integrates multiple perspectives.",
+          "descriptor": "Articulates a defensible, nuanced claim that anticipates counterarguments or integrates multiple perspectives.",
           "word_count": 12
         }
       ],
       "prerequisite_edges": [
         {
-          "from_lt_id": "cluster_10_lt_01",
+          "from_lt_id": "cluster_10_lt_02",
           "kind": "pedagogical_sequencing",
           "confidence": "medium",
-          "rationale": "Identifying arguments in sources builds foundational skill for constructing one's own defensible claim."
+          "rationale": "Describing political principles in context builds conceptual foundation for constructing defensible claims about governance."
         },
         {
-          "from_lt_id": "cluster_09_lt_02",
+          "from_lt_id": "cluster_11_lt_02",
           "kind": "pedagogical_sequencing",
           "confidence": "medium",
-          "rationale": "Describing how political principles operate in context develops reasoning capacity needed to support a defensible claim."
+          "rationale": "Explaining how arguments relate to political concepts develops reasoning skills needed to articulate defensible claims."
         }
       ],
       "stability_flag": "rubric_unstable",
@@ -1965,7 +2499,7 @@
             [
               "competent",
               "within_limit",
-              "analyse"
+              "none"
             ],
             [
               "extending",
@@ -1977,7 +2511,7 @@
               "unscoped"
             ]
           ],
-          "competent_word_count": 16
+          "competent_word_count": 15
         },
         {
           "run": 2,
@@ -2012,7 +2546,7 @@
               "unscoped"
             ]
           ],
-          "competent_word_count": 16
+          "competent_word_count": 17
         },
         {
           "run": 3,
@@ -2030,7 +2564,7 @@
             [
               "developing",
               "within_limit",
-              "none"
+              "analyse"
             ],
             [
               "competent",
@@ -2047,52 +2581,214 @@
               "unscoped"
             ]
           ],
-          "competent_word_count": 16
+          "competent_word_count": 17
         }
       ],
       "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'analyse'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 1, (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'none'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 2}"
+        "signature_counts={(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'none'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'analyse'), ('competent', 'within_limit', 'none'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')): 1}"
       ],
       "quality_gate_passed": false,
       "quality_gate_failures": [
         "observable_verb"
       ],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated ('Articulates') at the target level without hedging, incompleteness language, or framing Competent as a stepping stone to Extending.",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated ('Articulates') at the target level ('defensible claim or thesis that moves beyond facts and takes a reasoned position') and can stand alone as evidence the LT is met.",
       "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_13_lt_01",
-      "knowledge_type": "Type 1",
+      "lt_id": "cluster_13_lt_02",
+      "knowledge_type": "Type 2",
       "levels": [
         {
           "name": "no_evidence",
-          "descriptor": "No attempt to identify or explain governmental terms.",
+          "descriptor": "No attempt to support an argument with evidence.",
           "word_count": 8
         },
         {
           "name": "emerging",
-          "descriptor": "With support, identifies some governmental terms but explanations are incomplete or inaccurate.",
+          "descriptor": "Provides evidence but with weak or unclear connection to the argument's claim.",
           "word_count": 12
         },
         {
           "name": "developing",
-          "descriptor": "Independently identifies and explains most core governmental terms but misses nuance in some definitions.",
+          "descriptor": "Supports argument with relevant evidence; explains one dimension of cause, effect, or significance independently.",
           "word_count": 14
         },
         {
           "name": "competent",
-          "descriptor": "Identifies and explains core governmental terms related to citizenship and participation accurately and independently.",
+          "descriptor": "Supports argument with relevant evidence and explains causes, effects, and significance of the evidence.",
           "word_count": 14
         },
         {
           "name": "extending",
-          "descriptor": "Applies governmental terminology to distinguish roles and relationships across multiple political contexts.",
+          "descriptor": "Supports argument with layered evidence and explains interconnected causes, effects, and broader significance.",
+          "word_count": 13
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_13_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Cannot support an argument without first articulating a defensible claim or thesis to support."
+        },
+        {
+          "from_lt_id": "cluster_11_lt_02",
+          "kind": "pedagogical_sequencing",
+          "confidence": "medium",
+          "rationale": "Explaining how arguments relate to political concepts builds foundation for supporting arguments with evidence in civics contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "none"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "none"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 15
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "none"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "none"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "describe"
+            ],
+            [
+              "competent_scope",
+              "unscoped"
+            ]
+          ],
+          "competent_word_count": 14
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "observable_verb",
+        "level_progression"
+      ],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated without hedging language, frames it as meeting the LT's demand, and stands alone as success.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_14_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to identify or define governmental terms.",
+          "word_count": 8
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, identifies some governmental terms but definitions are incomplete or inaccurate.",
           "word_count": 12
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies and defines most essential governmental terms accurately in familiar contexts.",
+          "word_count": 12
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently identifies and states accurate definitions of essential governmental terms used in U.S. civics.",
+          "word_count": 15
+        },
+        {
+          "name": "extending",
+          "descriptor": "Applies governmental term definitions to distinguish relationships between concepts or clarify complex institutional structures.",
+          "word_count": 14
         }
       ],
       "prerequisite_edges": [],
-      "stability_flag": "stable",
+      "stability_flag": "rubric_unstable",
       "per_run_signatures": [
         {
           "run": 1,
@@ -2116,6 +2812,161 @@
               "competent",
               "within_limit",
               "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 15
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "apply"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 15
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "extending",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent_scope",
+              "scoped"
+            ]
+          ],
+          "competent_word_count": 10
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 2, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'scoped')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "competent_framing_flag": "pass",
+      "competent_framing_judge_rationale": "The descriptor declares the capability as independently demonstrated and directly aligns with the LT's demand to identify and state definitions, with no hedging language or framing of incompleteness.",
+      "propositional_lt_rubric_thin_flag": false
+    },
+    {
+      "lt_id": "cluster_14_lt_02",
+      "knowledge_type": "Type 1",
+      "levels": [
+        {
+          "name": "no_evidence",
+          "descriptor": "No attempt to distinguish citizen status categories.",
+          "word_count": 7
+        },
+        {
+          "name": "emerging",
+          "descriptor": "With support, names some citizen status categories but definitions lack accuracy or completeness.",
+          "word_count": 13
+        },
+        {
+          "name": "developing",
+          "descriptor": "Independently identifies citizen and non-citizen categories with mostly accurate definitions but misses nuance or precision.",
+          "word_count": 16
+        },
+        {
+          "name": "competent",
+          "descriptor": "Independently explains accurate differences between citizens and other resident categories using precise, complete definitions.",
+          "word_count": 14
+        },
+        {
+          "name": "extending",
+          "descriptor": "Applies citizen status distinctions to analyze rights, responsibilities, or policy implications across multiple contexts.",
+          "word_count": 14
+        }
+      ],
+      "prerequisite_edges": [
+        {
+          "from_lt_id": "cluster_14_lt_01",
+          "kind": "ontological_prerequisite",
+          "confidence": "high",
+          "rationale": "Distinguishing citizen status categories requires prior ability to identify and state definitions of essential governmental terms."
+        }
+      ],
+      "stability_flag": "rubric_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "no_evidence",
+              "within_limit",
+              "analyse"
+            ],
+            [
+              "emerging",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "developing",
+              "within_limit",
+              "recognise"
+            ],
+            [
+              "competent",
+              "within_limit",
+              "describe"
             ],
             [
               "extending",
@@ -2135,7 +2986,7 @@
             [
               "no_evidence",
               "within_limit",
-              "recognise"
+              "analyse"
             ],
             [
               "emerging",
@@ -2150,7 +3001,7 @@
             [
               "competent",
               "within_limit",
-              "recognise"
+              "describe"
             ],
             [
               "extending",
@@ -2159,10 +3010,10 @@
             ],
             [
               "competent_scope",
-              "scoped"
+              "unscoped"
             ]
           ],
-          "competent_word_count": 13
+          "competent_word_count": 16
         },
         {
           "run": 3,
@@ -2170,7 +3021,7 @@
             [
               "no_evidence",
               "within_limit",
-              "recognise"
+              "analyse"
             ],
             [
               "emerging",
@@ -2185,7 +3036,7 @@
             [
               "competent",
               "within_limit",
-              "recognise"
+              "describe"
             ],
             [
               "extending",
@@ -2198,245 +3049,131 @@
             ]
           ],
           "competent_word_count": 15
-        }
-      ],
-      "stability_diagnostics": [],
-      "quality_gate_passed": true,
-      "quality_gate_failures": [],
-      "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand without hedging language, incompleteness markers, or positioning it as a way-station to Extending.",
-      "propositional_lt_rubric_thin_flag": false
-    },
-    {
-      "lt_id": "cluster_13_lt_02",
-      "knowledge_type": "Type 1",
-      "levels": [
-        {
-          "name": "no_evidence",
-          "descriptor": "No attempt to identify Supreme Court case components.",
-          "word_count": 8
-        },
-        {
-          "name": "emerging",
-          "descriptor": "With support, identifies some case components but with significant inaccuracies or omissions.",
-          "word_count": 12
-        },
-        {
-          "name": "developing",
-          "descriptor": "Independently identifies most case components but may conflate or incompletely explain one or two elements.",
-          "word_count": 15
-        },
-        {
-          "name": "competent",
-          "descriptor": "Independently identifies and distinguishes facts, issue, holding, reasoning, decision, and majority opinion in landmark Supreme Court cases.",
-          "word_count": 17
-        },
-        {
-          "name": "extending",
-          "descriptor": "Identifies case components and explains how they relate to broader constitutional principles or precedent.",
-          "word_count": 14
-        }
-      ],
-      "prerequisite_edges": [
-        {
-          "from_lt_id": "cluster_13_lt_01",
-          "kind": "ontological_prerequisite",
-          "confidence": "high",
-          "rationale": "Understanding governmental terminology and definitions is foundational to identifying and naming the formal components of Supreme Court cases."
-        },
-        {
-          "from_lt_id": "cluster_06_lt_01",
-          "kind": "pedagogical_sequencing",
-          "confidence": "medium",
-          "rationale": "Understanding separation of powers and checks provides context for why Supreme Court cases arise and what constitutional issues they address."
-        }
-      ],
-      "stability_flag": "rubric_unstable",
-      "per_run_signatures": [
-        {
-          "run": 1,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 17
-        },
-        {
-          "run": 2,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "unscoped"
-            ]
-          ],
-          "competent_word_count": 15
-        },
-        {
-          "run": 3,
-          "signature": [
-            [
-              "no_evidence",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "emerging",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "developing",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "extending",
-              "within_limit",
-              "recognise"
-            ],
-            [
-              "competent_scope",
-              "scoped"
-            ]
-          ],
-          "competent_word_count": 17
         }
       ],
       "stability_diagnostics": [
-        "signature_counts={(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'unscoped')): 2, (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'scoped')): 1}"
+        "signature_counts={(('no_evidence', 'within_limit', 'analyse'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')): 2, (('no_evidence', 'within_limit', 'analyse'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped')): 1}"
       ],
       "quality_gate_passed": false,
       "quality_gate_failures": [
         "single_construct"
       ],
       "competent_framing_flag": "pass",
-      "competent_framing_judge_rationale": "The descriptor declares independent capability to identify and distinguish all required components without hedging language, implying the learning target is met.",
-      "propositional_lt_rubric_thin_flag": true
-    }
-  ],
-  "halted_lts": [
-    {
-      "lt_id": "cluster_02_lt_02",
-      "lt_name": "Applying Democracy Models to U.S. Institutions",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "only 0/3 runs produced parseable output"
+      "competent_framing_judge_rationale": "The descriptor declares the capability as independently demonstrated at the LT's level of demand ('explains accurate differences...using precise, complete definitions') without hedging language or framing it as incomplete.",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_03_lt_01",
-      "lt_name": "Explaining Federalist Views on Central Government",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped'))]"
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped')), (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped'))]",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_03_lt_02",
-      "lt_name": "Explaining Anti-Federalist Views on Democracy",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'analyse'), ('competent_scope', 'unscoped'))]"
+      "lt_id": "cluster_04_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "only 0/3 runs produced parseable output",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
       "lt_id": "cluster_04_lt_03",
-      "lt_name": "Reasoning About Federal Power Expansion",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'evaluate'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'none'), ('competent', 'within_limit', 'evaluate'), ('extending', 'within_limit', 'evaluate'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'evaluate'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'evaluate'), ('competent', 'within_limit', 'evaluate'), ('extending', 'within_limit', 'evaluate'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'evaluate'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'evaluate'), ('competent', 'within_limit', 'evaluate'), ('extending', 'within_limit', 'evaluate'), ('competent_scope', 'unscoped'))]"
+      "knowledge_type": "Type 2",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "only 1/3 runs produced parseable output",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
       "lt_id": "cluster_06_lt_01",
-      "lt_name": "Explaining Separation of Powers and Checks",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped'))]"
+      "knowledge_type": "Type 1",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "only 0/3 runs produced parseable output",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
       "lt_id": "cluster_06_lt_02",
-      "lt_name": "Analysing Separation of Powers in Context",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "only 0/3 runs produced parseable output"
+      "knowledge_type": "Type 2",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "only 0/3 runs produced parseable output",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_07_lt_02",
-      "lt_name": "Analyzing Power Distribution Effects on Policy",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'describe'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped'))]"
+      "lt_id": "cluster_09_lt_01",
+      "knowledge_type": "Type 1",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'recognise'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'recognise'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'recognise'), ('competent', 'within_limit', 'recognise'), ('extending', 'within_limit', 'none'), ('competent_scope', 'scoped'))]",
+      "propositional_lt_rubric_thin_flag": false
     },
     {
-      "lt_id": "cluster_08_lt_01",
-      "lt_name": "Connecting Historical Constitutional Debates to Current Policy",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "only 0/3 runs produced parseable output"
-    },
-    {
-      "lt_id": "cluster_08_lt_02",
-      "lt_name": "Analysing Contemporary Issues Through Constitutional Lenses",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "only 0/3 runs produced parseable output"
-    },
-    {
-      "lt_id": "cluster_11_lt_02",
-      "lt_name": "Explaining Political Concept Application",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'apply'), ('emerging', 'within_limit', 'apply'), ('developing', 'within_limit', 'apply'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'scoped')), (('no_evidence', 'within_limit', 'apply'), ('emerging', 'within_limit', 'apply'), ('developing', 'within_limit', 'apply'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'apply'), ('competent_scope', 'unscoped')), (('no_evidence', 'within_limit', 'apply'), ('emerging', 'within_limit', 'recognise'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'scoped'))]"
-    },
-    {
-      "lt_id": "cluster_12_lt_02",
-      "lt_name": "Supporting Arguments with Evidence",
-      "halt_reason": "rubric_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'none'), ('competent_scope', 'unscoped')), (('no_evidence', 'within_limit', 'none'), ('emerging', 'within_limit', 'none'), ('developing', 'within_limit', 'describe'), ('competent', 'within_limit', 'describe'), ('extending', 'within_limit', 'describe'), ('competent_scope', 'unscoped'))]"
+      "lt_id": "cluster_09_lt_02",
+      "knowledge_type": "Type 2",
+      "levels": [],
+      "prerequisite_edges": [],
+      "stability_flag": "rubric_unreliable",
+      "per_run_signatures": [],
+      "stability_diagnostics": [],
+      "quality_gate_passed": false,
+      "quality_gate_failures": [
+        "rubric_generation_failed"
+      ],
+      "competent_framing_flag": "error",
+      "competent_framing_judge_rationale": "only 0/3 runs produced parseable output",
+      "propositional_lt_rubric_thin_flag": false
     }
-  ]
+  ],
+  "halted_lts": []
 }
