@@ -1,19 +1,105 @@
 {
   "reference_authoring_version": "0.3.0",
   "source_slug": "2a-regression-common-core-7rp",
-  "halted_by": null,
+  "halted_by": "criterion_gates",
   "summary": {
-    "rubrics_total": 5,
-    "rubrics_halted_lts": 3,
-    "rubrics_with_gate_failures": 0,
+    "rubrics_total": 6,
+    "rubrics_halted_lts": 2,
+    "rubrics_with_gate_failures": 2,
     "rubrics_competent_judge_fail": 0,
     "rubrics_propositional_thin_flag": 2,
     "stability_distribution": {
-      "rubric_unstable": 4,
-      "stable": 1
+      "rubric_unstable": 3,
+      "stable": 3
     }
   },
   "gate_results": [
+    {
+      "name": "word_limit:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all five levels within their respective word limits",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "offenders": []
+      }
+    },
+    {
+      "name": "observable_verb:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every level (except no_evidence) contains an observable action verb",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "levels_missing_verb": []
+      }
+    },
+    {
+      "name": "single_construct:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "pairs_without_overlap": []
+      }
+    },
+    {
+      "name": "no_inline_examples:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "no inline examples or banned substrings in any descriptor",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "offenders": []
+      }
+    },
+    {
+      "name": "competent_framing_regex:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Competent descriptor contains no deficit hedge-phrases",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "patterns_matched": []
+      }
+    },
+    {
+      "name": "competent_framing_judge:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness.",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "verdict": "pass",
+        "rationale": "The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness."
+      }
+    },
+    {
+      "name": "level_progression:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "adjacent levels preserve progression roles",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "failures": []
+      }
+    },
+    {
+      "name": "propositional_thin_flag:cluster_01_lt_01",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "verb-bucket diversity across applied levels — no thin flag",
+      "details": {
+        "lt_id": "cluster_01_lt_01",
+        "flagged": false,
+        "buckets": {
+          "recognise": 1,
+          "apply": 2,
+          "analyse": 1
+        }
+      }
+    },
     {
       "name": "word_limit:cluster_02_lt_02",
       "passed": true,
@@ -36,12 +122,17 @@
     },
     {
       "name": "single_construct:cluster_02_lt_02",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]",
       "details": {
         "lt_id": "cluster_02_lt_02",
-        "pairs_without_overlap": []
+        "pairs_without_overlap": [
+          [
+            "emerging",
+            "developing"
+          ]
+        ]
       }
     },
     {
@@ -68,11 +159,11 @@
       "name": "competent_framing_judge:cluster_02_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the LT's level of demand, using 'accurately' and 'represents' without hedging language or incompleteness markers.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently at the LT's level of demand, using no hedging language and standing alone as success.",
       "details": {
         "lt_id": "cluster_02_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, using 'accurately' and 'represents' without hedging language or incompleteness markers."
+        "rationale": "The descriptor declares the capability as demonstrated independently at the LT's level of demand, using no hedging language and standing alone as success."
       }
     },
     {
@@ -94,7 +185,8 @@
         "lt_id": "cluster_02_lt_02",
         "flagged": false,
         "buckets": {
-          "describe": 3,
+          "apply": 2,
+          "describe": 1,
           "evaluate": 1
         }
       }
@@ -153,11 +245,11 @@
       "name": "competent_framing_judge:cluster_03_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated independently and accurately across all required contexts, standing alone as evidence the LT is met without hedging or incompleteness language.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated ('Identifies...accurately') across all required contexts without hedging language, incompleteness framing, or positioning it as a way-station to Extending.",
       "details": {
         "lt_id": "cluster_03_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated independently and accurately across all required contexts, standing alone as evidence the LT is met without hedging or incompleteness language."
+        "rationale": "The descriptor declares the capability as demonstrated ('Identifies...accurately') across all required contexts without hedging language, incompleteness framing, or positioning it as a way-station to Extending."
       }
     },
     {
@@ -237,11 +329,11 @@
       "name": "competent_framing_judge:cluster_03_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to use the constant of proportionality to write equations and interpret ordered pairs accurately, which directly matches the LT's level of demand and stands alone as success.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to use the constant of proportionality to write equations and interpret ordered pairs accurately, which directly matches the LT's demand and stands alone as success.",
       "details": {
         "lt_id": "cluster_03_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent capability to use the constant of proportionality to write equations and interpret ordered pairs accurately, which directly matches the LT's level of demand and stands alone as success."
+        "rationale": "The descriptor declares independent capability to use the constant of proportionality to write equations and interpret ordered pairs accurately, which directly matches the LT's demand and stands alone as success."
       }
     },
     {
@@ -289,12 +381,17 @@
     },
     {
       "name": "single_construct:cluster_04_lt_01",
-      "passed": true,
-      "halting": false,
-      "diagnostic": "adjacent applied levels share topic-lemma overlap — single construct preserved",
+      "passed": false,
+      "halting": true,
+      "diagnostic": "adjacent level pairs with no topic-lemma overlap: [('emerging', 'developing')]",
       "details": {
         "lt_id": "cluster_04_lt_01",
-        "pairs_without_overlap": []
+        "pairs_without_overlap": [
+          [
+            "emerging",
+            "developing"
+          ]
+        ]
       }
     },
     {
@@ -321,11 +418,11 @@
       "name": "competent_framing_judge:cluster_04_lt_01",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent capability to solve multistep ratio and percent problems across the specified contexts, matching the LT's level of demand without hedging or positioning it as incomplete.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent, accurate solving of multistep ratio and percent problems at the level specified in the LT, with no hedging language or implication of incompleteness.",
       "details": {
         "lt_id": "cluster_04_lt_01",
         "verdict": "pass",
-        "rationale": "The descriptor declares independent capability to solve multistep ratio and percent problems across the specified contexts, matching the LT's level of demand without hedging or positioning it as incomplete."
+        "rationale": "The descriptor declares independent, accurate solving of multistep ratio and percent problems at the level specified in the LT, with no hedging language or implication of incompleteness."
       }
     },
     {
@@ -402,11 +499,11 @@
       "name": "competent_framing_judge:cluster_04_lt_02",
       "passed": true,
       "halting": false,
-      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares the capability as demonstrated ('Applies...accurately') and can stand alone as evidence the LT is met, with no hedging language or framing of Competent as incomplete.",
+      "diagnostic": "LLM-as-judge verdict: pass — The descriptor declares independent application of proportional relationships to multistep problems with accurate reasoning and justification, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language.",
       "details": {
         "lt_id": "cluster_04_lt_02",
         "verdict": "pass",
-        "rationale": "The descriptor declares the capability as demonstrated ('Applies...accurately') and can stand alone as evidence the LT is met, with no hedging language or framing of Competent as incomplete."
+        "rationale": "The descriptor declares independent application of proportional relationships to multistep problems with accurate reasoning and justification, which directly matches the LT's demand and stands alone as success without hedging or incompleteness language."
       }
     },
     {
