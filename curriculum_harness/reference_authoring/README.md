@@ -18,6 +18,60 @@ The pipeline **must not** read, import, or reference any harness output
 neutral targets. Any cross-contamination invalidates their role as
 comparators.
 
+## Source-native progression structure (load-bearing principle)
+
+The pipeline **does not impose** any specific school's band/level/grade
+framework on its outputs. Each curriculum source is read, its own
+native progression structure is detected, and downstream stages
+generate band statements and observation indicators against THAT
+structure:
+
+- **Welsh Curriculum for Wales** (any AOLE) → Progression Steps 1-5,
+  ages 3-16 per Welsh Government statutory specification.
+- **US Common Core State Standards** → US grade levels (single-band
+  per source: Grade 7, etc.) per the Common Core State Standards
+  Initiative.
+- **Ontario K-8** → Canadian grade levels (single-band per source)
+  per the Ontario Ministry of Education.
+- **Scottish CfE** → Early / First / Second / Third / Fourth Levels
+  + Senior Phase per Education Scotland.
+- **England National Curriculum** → Key Stages 1-4 per the DfE
+  statutory framework.
+- **New Zealand Curriculum** → Levels 1-8 per the Ministry of
+  Education NZ.
+
+`progression/detect_progression.py` produces a `ProgressionStructure`
+for the source via a curated jurisdiction lookup (URL host/path with
+source-slug fallback) plus a source-text inspection fallback at
+medium confidence. If neither succeeds the pipeline **halts** with a
+specific diagnostic — it does NOT default to A-D.
+
+**Single-band sources are first-class.** When `band_count == 1`
+(Common Core 7.RP, Ontario Grade 7 History, etc.) the band-statement
+generator produces a single statement per LT at the source's grade
+level, not a band progression. The observation-indicator generator
+produces a single band entry per LT. Self-reflection prompts come
+from the source's own per-band calibration on the
+`ProgressionStructure`.
+
+**Translation is out of scope.** The harness does not translate
+between native frameworks. Mapping a Welsh CfW Progression Step
+output onto REAL School Budapest's A-D, or any other school-specific
+structure, is downstream product work, not harness work. (See the 4b
+arc plan's "Deferred product work" section for the KUD visualisation
+app concept.)
+
+**Detection confidence drives output stability.** Medium- or
+low-confidence detection (source-text inspection, no curated match)
+flags the generated reference with `progression_structure_uncertain`
+in the quality report so a reviewer knows the band framework itself
+may need verification before the reference is used as a comparator.
+
+The LT authoring skill's "typically A-D across ages 5-14" example is
+a REAL School Budapest calibration. It is an EXAMPLE, not a mandatory
+output format. Sessions 4b-1 and 4b-2 mistook it for a universal
+default; Session 4b-2.5 corrected the pipeline.
+
 ## Architecture
 
 - `inventory/build_inventory.py` — verbatim source-content extraction into
@@ -32,6 +86,11 @@ comparators.
   per vision v4.1 + the 4b-2 PROVISIONAL dispositional revision, Type 3
   distribution, no compound unsplit). Failures halt output with
   specific diagnostics.
+- `progression/detect_progression.py` — source-native progression
+  structure detection (curated jurisdiction lookup + source-text
+  fallback + halt-on-no-match). Returns `ProgressionStructure` with
+  band labels in developmental order, verified age-range hint,
+  detection confidence, and per-band self-reflection prompts.
 - `lt/cluster_competencies.py` — clusters KUD items into competencies
   (2-3 LTs per competency, LT skill). 3x self-consistency with a
   deterministic stability check (cluster count, membership drift via
@@ -42,38 +101,49 @@ comparators.
   Type 3 with Type 1/2; "I can" / "The student" definition-format
   check.
 - `lt/generate_band_statements.py` — Type 1/2 band-statement
-  generator. Bands A-D, progression levers (not topic escalation).
-  Quality gate: "I can" prefix, 10-25 word count, observable-verb
-  presence, banned substrings. Gate failures halt.
+  generator. **Bands are the source's own native bands** (e.g.
+  Progression Step 1-5 for Welsh CfW; single Grade for a single-grade
+  source). Progression levers (independence, complexity, scope,
+  precision, reasoning, transfer) are universal — only the labels are
+  local. Quality gate: "I can" prefix, 10-25 word count,
+  observable-verb presence, banned substrings. Gate failures halt.
 - `lt/generate_observation_indicators.py` — Type 3 observation-
-  indicator generator. LT-specific observable behaviours per band,
-  LT-specific parent prompts, prerequisite pointers, developmental
-  conversation protocol reference. Generic developmental
-  self-reflection prompts inserted from
-  `types.MODE3_SELF_REFLECTION_PROMPTS` (calibrated by band, not LT-
-  specific — correct Mode 3 behaviour per the skill). Mode 3 gate
-  rejects rubric descriptors. Gate failures halt.
+  indicator generator. LT-specific observable behaviours per native
+  band, LT-specific parent prompts, prerequisite pointers,
+  developmental conversation protocol reference. Self-reflection
+  prompts come from the source's own per-band calibration on the
+  `ProgressionStructure`. Mode 3 gate rejects rubric descriptors.
+  Gate failures halt.
 - `pipeline/run_pipeline.py` — orchestration. Full sequence: inventory
-  → classify → KUD gates → cluster → LTs → bands + indicators →
-  extended report. `--resume-from-kud` skips inventory + classify.
+  → classify → KUD gates → detect progression → cluster → LTs → bands
+  + indicators → extended report. `--resume-from-kud` skips inventory
+  + classify; progression detection still runs against the loaded
+  inventory. Writes `progression_structure.json` to the corpus.
 - `criterion/` (stub) — Type 1/2 criterion generator (five-level
   rubrics per the rubric logic skill) for session 4b-3.
 
 ## Implementation status
 
-After session 4b-2:
+After session 4b-2.5:
 
 - inventory: **implemented** (4b-1)
 - KUD classifier: **implemented** (4b-1)
 - KUD quality gates: **implemented** (4b-1); domain-aware
   `artefact_count_ratio` **revised** (4b-2, dispositional PROVISIONAL)
+- progression detection: **implemented** (4b-2.5) with curated
+  jurisdiction lookup, source-text fallback, halt-on-no-match,
+  single-band first-class
 - pipeline orchestration: **implemented**, full sequence including
-  LT + band + indicator stages, `--resume-from-kud` supported (4b-2)
+  progression detection, LT + band + indicator stages, `--resume-from-kud`
+  supported (4b-2; 4b-2.5 added progression detection step)
 - competency clustering: **implemented** with operationalised
   stability check (4b-2)
 - LT generator: **implemented** (4b-2)
-- Type 1/2 band-statement generator: **implemented** (4b-2)
-- Type 3 observation-indicator generator: **implemented** (4b-2)
+- Type 1/2 band-statement generator: **implemented** with
+  source-native bands (4b-2; 4b-2.5 removed hardcoded A-D)
+- Type 3 observation-indicator generator: **implemented** with
+  source-native bands and per-source self-reflection prompt
+  calibration (4b-2; 4b-2.5 removed hardcoded A-D)
 - Type 1/2 criterion generator (five-level rubrics): **stubbed** —
   session 4b-3 (Common Core / Ontario)
 - comparison pipeline: **not here** — session 4b-6
@@ -89,7 +159,7 @@ python -m curriculum_harness.reference_authoring.pipeline.run_pipeline \
     --domain dispositional   # or hierarchical / horizontal
 ```
 
-Resume from an existing KUD (4b-2 Welsh CfW path):
+Resume from an existing KUD:
 
 ```bash
 python -m curriculum_harness.reference_authoring.pipeline.run_pipeline \
@@ -104,4 +174,13 @@ Render the full reference for human review:
 ```bash
 python -m scripts.reference_authoring.render_reference_for_review \
     --corpus docs/reference-corpus/<source-slug>/
+```
+
+Export reference as CSV (LT and indicator CSVs use source-native band
+columns):
+
+```bash
+python -m scripts.reference_authoring.export_reference_to_csv \
+    --corpus docs/reference-corpus/<source-slug>/ \
+    --prefix <slug>
 ```

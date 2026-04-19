@@ -977,3 +977,158 @@ Health and Well-being KUD produced in 4b-1. Eight commits.
 
 **Next session (4b-3).** Pending Gareth review of the Welsh CfW reference. If the reference looks right, 4b-3 runs the pipeline on Common Core 7.RP and Ontario G7 History — both rubric-heavy sources. 4b-3 will also build the Type 1/2 criterion generator (five-level rubrics per the rubric logic skill; Welsh CfW did not need this because most LTs are Type 3). If Welsh CfW reveals pipeline issues, fix first.
 
+
+
+---
+
+## Session 4b-2.5 — Source-native progression structure fix
+
+*Date: 2026-04-19. Effort: xhigh.*
+
+Corrects a fundamental error in Sessions 4b-1 and 4b-2: the
+reference-authoring pipeline's LT generator, band-statement generator,
+and observation-indicator generator were instructed to produce outputs
+in REAL School Budapest's Band A-D framework across ages 5-14. A-D is
+not Welsh CfW's native progression structure; it was inherited
+unreflectively from the LT authoring skill's example calibration. The
+harness is domain-agnostic — references must use each source's own
+native progression structure. Seven commits.
+
+**Step 1 — Source-native progression detection module** (commit
+`a13d01e`). New `curriculum_harness/reference_authoring/progression/`
+module exposes `ProgressionStructure` (band labels, band count,
+verified age-range hint, source type, detection confidence,
+detection rationale, per-band self-reflection prompts) and
+`detect_progression(inventory)`. Curated jurisdiction lookup keyed by
+URL host/path with source-slug fallback covers Welsh CfW (Progression
+Steps 1-5, ages 3-16 per Welsh Government statutory specification),
+US Common Core (single grade, age band per CCSSO grade alignment),
+Ontario K-8 (single grade, age band per Ontario Ministry of
+Education), Scottish CfE (Early/First/Second/Third/Fourth Levels +
+Senior Phase per Education Scotland), England National Curriculum
+(KS1-KS4 per DfE), and NZ Curriculum (Levels 1-8 per Ministry of
+Education NZ). Each entry's age range is taken from the issuing
+jurisdiction's own published documentation, not guessed. Single-band
+sources (Common Core 7.RP, Ontario Grade 7 History) are first-class:
+`band_count = 1` triggers single-statement output downstream rather
+than a band progression. Source-text inspection fallback at medium
+confidence when neither URL nor slug match — explicit Progression
+Step / Key Stage / CfE Level / single-Grade markers in the content
+trigger structure inference and flag `progression_structure_uncertain`
+on the output. When nothing matches the pipeline raises
+`ProgressionDetectionError` with a specific diagnostic — it does NOT
+default to A-D. Ten deterministic pure-function tests pass.
+
+**Step 2 — Hardcoded A-D and age 5-14 removed from generators**
+(commit `bb12ebd`). `lt/band_prompts.py` and `lt/indicator_prompts.py`
+are now functions that take a `ProgressionStructure` and emit system
+prompts parameterised on the source's own band labels and developmental
+order. `lt/generate_band_statements.py` and
+`lt/generate_observation_indicators.py` accept the structure as a
+required argument; their validators check band labels exactly,
+reject A-D output against a Welsh structure, and reject multi-band
+output against a single-grade structure. Self-reflection prompts now
+travel on the `ProgressionStructure` calibrated per source's own
+per-band cognitive demand: Welsh CfW PS1 (name a moment of trying
+something), PS2 (notice patterns in self), PS3 (compare own and
+others' perspectives), PS4 (analyse patterns across contexts), PS5
+(trace developmental trajectory and articulate values). Single-grade
+sources receive a single grade-appropriate reflection prompt. The
+global `BANDS = ("A","B","C","D")` and `MODE3_SELF_REFLECTION_PROMPTS`
+constants are removed from `types.py` (replaced by an explanatory
+comment). Pipeline orchestration calls `detect_progression`
+immediately after the KUD load, writes
+`progression_structure.json` to the corpus, propagates
+`progression_structure_uncertain` to the quality report when
+detection confidence is medium or low, and surfaces the structure in
+the extended report. Reference-authoring version bumped to 0.3.0.
+Eleven new deterministic tests added; full suite green (85 passed,
+3 skipped).
+
+**Step 3 — A-D Welsh CfW output preserved as generated-in-error
+artefact** (commit `10f679f`). The 4b-1/4b-2 Welsh CfW reference
+output is moved (via `git mv` to preserve history) into
+`docs/reference-corpus/welsh-cfw-health-wellbeing/_generated-in-error-a-d-version/`
+with a README naming the framework error honestly: A-D was REAL
+School Budapest's calibration imported from the LT authoring skill's
+example, not Welsh CfW's own framework. The pedagogical content
+remains usable for REAL School (where A-D matches the school's own
+structure) but is NOT a domain-agnostic reference. The corrected
+Progression-Step version sits at the parent directory.
+
+**Step 4 — Welsh CfW regenerated with native Progression Steps 1-5**
+(commit `788e5bc`). Pipeline run in `--resume-from-kud` mode against
+the preserved KUD (band-agnostic; required no regeneration).
+`progression_structure.json` records the high-confidence Welsh CfW
+detection (URL host hwb.gov.wales). Outputs at
+`docs/reference-corpus/welsh-cfw-health-wellbeing/`:
+`competency_clusters.json` (9 clusters; one `cluster_unstable` —
+honest signal, not a regression), `lts.json` (20 LTs; Type 1=8,
+Type 2=6, Type 3=6), `band_statements.json` (11 sets across PS1-PS5;
+3 LTs halted on word-count signature drift across self-consistency
+runs and one quality-gate failure — all surfaced with diagnostics,
+no paper-overs), `observation_indicators.json` (5 Type 3 sets across
+PS1-PS5 with Welsh-CfW-calibrated self-reflection prompts per step;
+1 LT halted on signature drift), `quality_report.md` extended with
+the progression-structure stage. Detection confidence is `high`, so
+no `progression_structure_uncertain` flag fires.
+
+**Step 5 — CSV export uses source-native band labels** (commit
+`6ffa946`). `scripts/reference_authoring/export_reference_to_csv.py`
+loads `progression_structure.json` from the corpus and builds dynamic
+band columns: Welsh CfW LT CSV gets `progression_step_1` through
+`progression_step_5`; a single-grade source would get a single
+`grade_7` column; the indicator CSV sorts band rows by the source's
+own developmental order. Halts with a clear diagnostic when
+`progression_structure.json` is missing — does NOT default to A-D.
+Re-export of Welsh CfW: 43 KUD rows, 20 LT rows with PS1-PS5 columns,
+25 indicator rows ordered PS1-PS5.
+
+**Step 6 — Reference-review renderer uses source-native band labels**
+(commit `d634764`). `scripts/reference_authoring/render_reference_for_review.py`
+reads the structure file and uses native labels throughout: per-LT
+band-progression tables emit "Progression Step 1" rather than "A",
+indicator panel headings use the native band names, the self-reflection
+prompt note references "this source's own developmental expectations
+at <band>" rather than calling them generic. Single-band sources
+render as "Single-grade band" rather than "Band progression". Halts
+with a diagnostic when the structure file is missing. Welsh CfW
+`reference-review.md` regenerated.
+
+**Step 7 — Session-end protocol** (this commit). Harness log
+appended; reference-authoring README updated to document the
+source-native-progression principle with single-band handling;
+Second Brain state-snapshot saved.
+
+**Deviations from binding architecture.** None. All six binding
+requirements from the session prompt held: source-native progression
+detection is a pipeline capability with curated jurisdiction lookup
+and source-text fallback; progression structure varies by source type
+including single-band sources; no imposed translation; existing A-D
+output preserved rather than overwritten; design decision documented;
+detection confidence drives output stability flags via the
+`progression_structure_uncertain` propagation.
+
+**Success criteria met.** All seven things in the session prompt's
+"What success looks like at session end" hold: (1) pipeline detects
+native progression structure via lookup + source-text fallback with
+halt-on-fail; age ranges verified from issuing bodies. (2) Hardcoded
+A-D and age-5-14 references removed from band-statement, indicator,
+and LT-stage code. (3) Single-band sources handled correctly —
+band_count=1 triggers single-statement output. (4) Existing A-D
+output preserved in `_generated-in-error-a-d-version/` subdirectory
+with explanatory README naming the error honestly. (5) Welsh CfW
+regenerated using PS1-PS5; self-reflection prompts calibrated to
+Welsh CfW's own per-step developmental expectations. (6) CSV exports
+and reference-review renderer use source-native band labels
+dynamically; detection-confidence flags propagate to output. (7)
+Source-native-progression principle documented in pipeline README
+with single-band handling.
+
+**Next session (4b-3).** Pending Gareth review of the regenerated
+Welsh CfW reference. If the reference looks right, 4b-3 runs the
+pipeline on Common Core 7.RP and Ontario G7 History — both
+single-grade sources that exercise the band_count=1 path through the
+band-statement and observation-indicator generators. 4b-3 will also
+build the Type 1/2 criterion generator (five-level rubrics per the
+rubric logic skill).
