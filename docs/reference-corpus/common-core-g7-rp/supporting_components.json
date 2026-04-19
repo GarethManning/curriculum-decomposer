@@ -6,75 +6,76 @@
   "runs": 3,
   "components": [
     {
-      "lt_id": "cluster_01_lt_01",
+      "lt_id": "cluster_02_lt_01",
       "co_construction_plan": {
-        "lt_id": "cluster_01_lt_01",
+        "lt_id": "cluster_02_lt_01",
         "stages": [
-          "Show students a simple ratio and ask them to explain what a unit rate means in their own words.",
-          "Work through one concrete example together, highlighting the steps needed to divide to find the unit rate.",
-          "Have students identify what makes a unit rate problem easy versus hard, then sort sample problems by difficulty.",
-          "Guide students to name the levels of the rubric based on what they notice about accuracy, independence, and complexity."
+          "Show students a simple ratio table and ask them to predict what makes a relationship proportional.",
+          "Guide students to test whether ratios are equivalent by calculating unit rates or cross-multiplying.",
+          "Have students examine a graph and identify what they notice about points that show proportional versus non-proportional relationships.",
+          "Ask students to articulate the difference between testing ratios and analyzing graphs as two valid methods.",
+          "Collaboratively build the rubric levels by sorting student work samples from weakest to strongest."
         ],
         "student_prompts": [
-          "What does it mean to find a unit rate, and why would we want to know it?",
-          "Walk me through the steps you would take to find the unit rate if I gave you a ratio like 12 miles in 3 hours.",
-          "Which is easier to compute: a unit rate from whole numbers or from fractions, and why?",
-          "What would you need to be able to do to move from computing simple unit rates to solving a tricky problem with different units?"
+          "What do you notice about the ratios when a relationship is proportional?",
+          "How can you check if two ratios are equivalent without a calculator?",
+          "What does a proportional relationship look like on a graph compared to one that is not proportional?",
+          "When you test ratios or look at a graph, what tells you that a relationship is NOT proportional?"
         ],
-        "anchor_examples_guidance": "Choose one simple whole-number ratio problem and one complex problem involving fractions or unit conversions; ensure the complex example requires a clear strategy shift so students see the progression from emerging to competent."
+        "anchor_examples_guidance": "Select work samples that show clear differences: one where a student tests ratios correctly and concludes proportionality accurately, one where a student attempts to test ratios but makes a calculation error, and one where a student correctly analyzes a graph. Avoid examples with multiple errors or ambiguous reasoning."
       },
       "student_rubric": {
-        "lt_id": "cluster_01_lt_01",
+        "lt_id": "cluster_02_lt_01",
         "levels": [
           {
             "name": "no_evidence",
-            "descriptor": "I have not yet attempted to compute a unit rate from a ratio.",
-            "word_count": 13
+            "descriptor": "I have not yet attempted to test ratios or analyze a graph to determine if a relationship is proportional.",
+            "word_count": 19
           },
           {
             "name": "emerging",
-            "descriptor": "I can identify a ratio and attempt to compute a unit rate, but I make errors or skip steps in my reasoning.",
-            "word_count": 22
+            "descriptor": "I can test some ratios or describe features of a graph with help, but I do not always reach the correct conclusion about whether a relationship is proportional.",
+            "word_count": 28
           },
           {
             "name": "developing",
-            "descriptor": "I can independently compute unit rates from simple ratios with whole numbers, but I struggle when fractions or different units are involved.",
+            "descriptor": "I can independently test equivalent ratios or analyze a graph, but I am not consistent in determining whether a relationship is proportional.",
             "word_count": 22
           },
           {
             "name": "competent",
-            "descriptor": "I can independently compute unit rates from any ratio, including those with fractions and different units.",
-            "word_count": 16
+            "descriptor": "I can independently identify whether two quantities are in a proportional relationship by accurately testing equivalent ratios or analyzing a graph.",
+            "word_count": 21
           },
           {
             "name": "extending",
-            "descriptor": "I can compute unit rates fluently and use them to compare quantities or solve unfamiliar ratio problems.",
-            "word_count": 17
+            "descriptor": "I can identify proportional relationships and explain why a relationship fails the proportionality test.",
+            "word_count": 14
           }
         ],
         "self_check_prompts": [
-          "Did I divide the quantities correctly to find the unit rate, and did I check my answer?",
-          "If my ratio involved fractions or different units, did I handle the conversion or simplification accurately?"
+          "Did I test the ratios by finding unit rates or cross-multiplying, or did I analyze the graph to check if it passes through the origin and is a straight line?",
+          "Is my conclusion about proportionality correct based on my method, and can I explain why the relationship is or is not proportional?"
         ]
       },
       "feedback_guide": {
-        "lt_id": "cluster_01_lt_01",
+        "lt_id": "cluster_02_lt_01",
         "moves_by_level": {
           "no_evidence": [
-            "Ask the student to identify the two quantities in the ratio and what dividing them would tell us.",
-            "Model one complete unit rate computation aloud, then ask the student to try the same steps with a new ratio."
+            "Ask the student to pick one ratio pair from the table and show you how to check if they are equivalent.",
+            "Point to a graph and ask: does this line go through the origin, and does every point fit the same pattern?"
           ],
           "emerging": [
-            "Have the student check their division step by step and verify the units in their answer.",
-            "Provide a worked example of a unit rate problem and ask the student to explain each step before trying a similar one."
+            "Review the calculation step-by-step and ask the student to check their arithmetic or unit rate.",
+            "Ask: if this ratio works, does the next ratio also work the same way, or is something different?"
           ],
           "developing": [
-            "Start with a ratio that includes a fraction and ask the student to rewrite it in a way that makes division easier.",
-            "Give the student a unit conversion chart and guide them through one problem that requires converting units before computing the rate."
+            "Have the student test one more ratio pair or analyze a different part of the graph to build consistency.",
+            "Ask the student to state their conclusion in a complete sentence and then verify it matches their test results."
           ],
           "competent": [
-            "Present a real-world scenario where two different unit rates must be compared to make a decision.",
-            "Ask the student to create their own ratio problem with fractions or unit conversions and solve it, then explain why their approach works."
+            "Ask the student to explain what would happen to the graph or ratios if the relationship were NOT proportional.",
+            "Invite the student to test a relationship that is close to proportional but not quite, and explain the difference."
           ]
         }
       },
@@ -85,7 +86,7 @@
           "signature": [
             [
               "stages",
-              4
+              5
             ],
             [
               "student_prompts",
@@ -134,7 +135,7 @@
           "signature": [
             [
               "stages",
-              4
+              5
             ],
             [
               "student_prompts",
@@ -183,7 +184,7 @@
           "signature": [
             [
               "stages",
-              4
+              5
             ],
             [
               "student_prompts",
@@ -231,77 +232,75 @@
       "stability_diagnostics": []
     },
     {
-      "lt_id": "cluster_03_lt_01",
+      "lt_id": "cluster_02_lt_02",
       "co_construction_plan": {
-        "lt_id": "cluster_03_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "stages": [
-          "Show students a simple proportional relationship in one representation and ask them to find the constant together.",
-          "Have students identify what the constant represents and why it matters in that representation.",
-          "Guide students to find the constant in a second representation and compare their methods.",
-          "Ask students to predict what finding the constant would look like in other representations they haven't seen yet.",
-          "Co-author the rubric levels by asking students to describe what 'not yet ready', 'getting there', 'solid', and 'really strong' work looks like."
+          "Show students a simple proportional relationship and ask them to name all the different ways they could show it.",
+          "Guide students to sort their ideas into categories: numbers in a table, a picture or graph, a rule or equation, and other ways.",
+          "Work together to describe what makes each representation correct or incomplete, building criteria for each form.",
+          "Agree on what it means to show the same relationship in multiple ways and what mistakes might happen."
         ],
         "student_prompts": [
-          "What number do you multiply or divide by to get from one quantity to another in this table?",
-          "How would you explain what this constant tells us about the relationship between these two quantities?",
-          "If you saw this same relationship in a graph instead of a table, what would you be looking for to find the constant?",
-          "What would it look like if someone could find the constant in every form we've learned, and what would it look like if they could only do it in one form?",
-          "What does it mean to really understand the constant of proportionality, and how would that be different from just finding a number?"
+          "If I tell you that every 2 apples costs 3 dollars, how many different ways can you write or draw this?",
+          "Which of these representations shows the same relationship, and which ones have mistakes?",
+          "What would someone need to see in a table, graph, and equation to know they are all showing the same proportional relationship?",
+          "When you move from a table to a graph to an equation, what stays the same and what changes?"
         ],
-        "anchor_examples_guidance": "Choose examples that show the constant clearly in one representation, then show how the same constant appears in a different representation so students see the connection. Select examples where the constant is a whole number first, then include a fraction or decimal to show the concept holds across different values."
+        "anchor_examples_guidance": "Choose examples that show a proportional relationship represented correctly in at least two forms and one example with an error in one representation so students can identify what breaks the connection between forms. Include a simple ratio like 2:3 or 1:4 that students can verify across all representations."
       },
       "student_rubric": {
-        "lt_id": "cluster_03_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "levels": [
           {
             "name": "no_evidence",
-            "descriptor": "I have not yet attempted to find the constant of proportionality.",
-            "word_count": 11
+            "descriptor": "I have not yet tried to show a proportional relationship in any form.",
+            "word_count": 13
           },
           {
             "name": "emerging",
-            "descriptor": "I can find the constant of proportionality in one representation with help, but I may make mistakes or not explain my thinking clearly.",
-            "word_count": 23
+            "descriptor": "I can show a proportional relationship in one form with help, but my work has mistakes or missing parts.",
+            "word_count": 19
           },
           {
             "name": "developing",
-            "descriptor": "I can find the constant of proportionality on my own in representations I have practiced with, but I struggle when the representation changes.",
-            "word_count": 23
+            "descriptor": "I can show a proportional relationship in two different forms on my own, but the forms do not match perfectly.",
+            "word_count": 20
           },
           {
             "name": "competent",
-            "descriptor": "I can find the constant of proportionality correctly in tables, graphs, equations, diagrams, and verbal descriptions without help.",
-            "word_count": 18
+            "descriptor": "I can accurately show a proportional relationship using tables, graphs, equations, and other forms that all match.",
+            "word_count": 17
           },
           {
             "name": "extending",
-            "descriptor": "I can find the constant of proportionality and explain what it means in context, or use it to predict values in new situations.",
-            "word_count": 23
+            "descriptor": "I can move smoothly between different representations and explain why they show the same proportional relationship.",
+            "word_count": 16
           }
         ],
         "self_check_prompts": [
-          "Can I find the constant in at least two different types of representations, and do I get the same answer each time?",
-          "Can I explain what the constant tells me about how the two quantities are related?"
+          "Can I show this relationship in at least two different ways, and do they tell the same story?",
+          "If I check one point from my table in my graph and equation, do all three agree?"
         ]
       },
       "feedback_guide": {
-        "lt_id": "cluster_03_lt_01",
+        "lt_id": "cluster_02_lt_02",
         "moves_by_level": {
           "no_evidence": [
-            "Ask the student to point to two related quantities in a table and show them how to find the ratio between them.",
-            "Work together to find the constant in one simple representation, then have the student try the same process with a new table."
+            "Ask the student to pick one form they feel most comfortable with and start there.",
+            "Provide a partially completed table or graph and ask the student to finish it and describe what they see."
           ],
           "emerging": [
-            "Have the student find the constant in the same representation again and check their work by testing it with another pair of values.",
-            "Show the student the constant they found in a table, then ask them to find it in a graph of the same relationship."
+            "Have the student check one point from their representation against the original relationship to find where the error is.",
+            "Guide them to create a second representation by asking what the same relationship would look like in a different form."
           ],
           "developing": [
-            "Give the student a representation type they haven't practiced yet and ask them to use the same strategy they used before.",
-            "Have the student find the constant in two different representations of the same relationship and explain why the constant is the same."
+            "Ask the student to pick a point and trace it through both representations to find where they do not match.",
+            "Encourage them to create a third representation and check if all three forms agree on the same points."
           ],
           "competent": [
-            "Ask the student to find the constant in an unfamiliar context or representation and explain what it means in that situation.",
-            "Have the student use the constant to predict a value that isn't shown in the original data or graph."
+            "Ask the student to explain how they know their table, graph, and equation are all showing the same relationship.",
+            "Challenge them to create a fourth representation or to predict what would happen if the constant of proportionality changed."
           ]
         }
       },
@@ -365,7 +364,235 @@
             ],
             [
               "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "co_construction_plan": {
+        "lt_id": "cluster_03_lt_01",
+        "stages": [
+          "Show students a simple proportional relationship in one representation and ask them what stays the same no matter how the numbers change.",
+          "Guide students to discover the constant by comparing pairs of values across two or three different representations of the same relationship.",
+          "Have students name what they found and decide what it means to identify the constant correctly versus incorrectly.",
+          "Work together to describe what identifying the constant looks like across all five forms: tables, graphs, equations, diagrams, and words.",
+          "Sort anchor examples by level and discuss why some show the constant clearly while others show confusion or missing work."
+        ],
+        "student_prompts": [
+          "What number or ratio stays the same when we look at different points in this relationship?",
+          "How can you find that same constant in a table, a graph, and an equation?",
+          "What would it look like if someone found the constant in only one representation but not in others?",
+          "How would you explain to a friend what the constant of proportionality is and why it matters?"
+        ],
+        "anchor_examples_guidance": "Choose examples that show the constant of proportionality in at least two different representations so students can see consistency, and include one example where a student confuses the constant with another number in the problem. Select a mix where the constant is a whole number and a fraction to show variety."
+      },
+      "student_rubric": {
+        "lt_id": "cluster_03_lt_01",
+        "levels": [
+          {
+            "name": "no_evidence",
+            "descriptor": "I have not yet attempted to identify the constant of proportionality.",
+            "word_count": 11
+          },
+          {
+            "name": "emerging",
+            "descriptor": "I can identify the constant of proportionality in one representation with help, but I make mistakes or am not sure when I try on my own.",
+            "word_count": 26
+          },
+          {
+            "name": "developing",
+            "descriptor": "I can identify the constant of proportionality on my own in tables and graphs, but I struggle when it is shown as an equation, diagram, or words.",
+            "word_count": 27
+          },
+          {
+            "name": "competent",
+            "descriptor": "I can identify the constant of proportionality correctly in tables, graphs, equations, diagrams, and verbal descriptions.",
+            "word_count": 16
+          },
+          {
+            "name": "extending",
+            "descriptor": "I can identify the constant of proportionality and explain why it stays the same across all different representations of the same relationship.",
+            "word_count": 22
+          }
+        ],
+        "self_check_prompts": [
+          "Can I find the constant in at least three different forms: a table, a graph, and an equation or words?",
+          "Does the constant I found make sense when I check it with another pair of values in the relationship?"
+        ]
+      },
+      "feedback_guide": {
+        "lt_id": "cluster_03_lt_01",
+        "moves_by_level": {
+          "no_evidence": [
+            "Ask the student to pick any two related values from a table and find the ratio between them.",
+            "Model finding the constant in one representation aloud, then ask the student to try the same process with a different table."
+          ],
+          "emerging": [
+            "Have the student identify the constant in a familiar representation, then guide them to find the same constant in a second representation by asking what should stay the same.",
+            "Ask the student to check their constant by testing it with a different pair of values to build confidence and reduce errors."
+          ],
+          "developing": [
+            "Provide the constant and ask the student to verify it appears in an unfamiliar representation like an equation or diagram.",
+            "Scaffold the student through one example of finding the constant in a new form, then release responsibility for the next example."
+          ],
+          "competent": [
+            "Ask the student to identify the constant in two representations and explain why both show the same value.",
+            "Challenge the student to predict what the constant would be in a new representation before finding it, then verify."
+          ]
+        }
+      },
+      "stability_flag": "supporting_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "stages",
               5
+            ],
+            [
+              "student_prompts",
+              4
+            ],
+            [
+              "student_rubric_levels",
+              [
+                "no_evidence",
+                "emerging",
+                "developing",
+                "competent",
+                "extending"
+              ]
+            ],
+            [
+              "self_check_prompts",
+              2
+            ],
+            [
+              [
+                "moves",
+                "no_evidence",
+                2
+              ],
+              [
+                "moves",
+                "emerging",
+                2
+              ],
+              [
+                "moves",
+                "developing",
+                2
+              ],
+              [
+                "moves",
+                "competent",
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "stages",
+              4
+            ],
+            [
+              "student_prompts",
+              4
             ],
             [
               "student_rubric_levels",
@@ -414,7 +641,7 @@
             ],
             [
               "student_prompts",
-              5
+              4
             ],
             [
               "student_rubric_levels",
@@ -456,7 +683,7 @@
         }
       ],
       "stability_diagnostics": [
-        "signature_counts={(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1, (('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2}"
+        "signature_counts={(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 2, (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))): 1}"
       ]
     },
     {
@@ -464,71 +691,71 @@
       "co_construction_plan": {
         "lt_id": "cluster_04_lt_02",
         "stages": [
-          "Show students a real-world scenario involving proportions and ask them to identify what is proportional and what is not.",
-          "Guide students to distinguish between incomplete application and accurate application by examining two worked solutions to the same problem.",
-          "Have students articulate what makes a solution independent versus requiring support, and what counts as reasoning or justification.",
-          "Collaboratively sort student-generated problem attempts into the five levels based on the criteria they have named."
+          "Show students a real-world scenario involving proportions and ask them to identify what stays the same and what changes.",
+          "Guide students to distinguish between incomplete attempts and accurate applications by examining sample work together.",
+          "Have students articulate what makes a solution multistep and what reasoning must be shown.",
+          "Discuss how applying proportions to unfamiliar or complex situations differs from routine problems."
         ],
         "student_prompts": [
-          "What quantities in this scenario change together in a proportional way, and how do you know?",
-          "Why does this solution work, and where does the reasoning break down in this other solution?",
-          "What does it mean to solve a problem independently, and how is that different from solving it with help?",
-          "How would you describe the difference between a solution that gets the right answer and one that shows clear thinking all the way through?"
+          "What quantities in this problem are connected proportionally, and how do you know?",
+          "What would it look like if someone tried to use a proportion but made a mistake or stopped too early?",
+          "What steps do you need to take to fully solve a problem with proportions, and why is each step necessary?",
+          "How would you explain your choice of strategy if the problem were more complex or used a context you'd never seen before?"
         ],
-        "anchor_examples_guidance": "Choose one real-world problem at the developing level that shows correct setup but a missed step, and one at the competent level that shows all steps with clear reasoning; avoid problems that are too simple or too abstract to be relatable."
+        "anchor_examples_guidance": "Select anchor examples that show the progression from a single incomplete proportion application to a multistep solution with clear reasoning, and include one example where a student adapts their strategy to an unfamiliar context. Ensure examples reflect realistic student work rather than polished solutions."
       },
       "student_rubric": {
         "lt_id": "cluster_04_lt_02",
         "levels": [
           {
             "name": "no_evidence",
-            "descriptor": "I have not yet attempted to solve the problem or identify a proportional relationship.",
-            "word_count": 14
+            "descriptor": "I have not yet attempted to use proportional relationships to solve a problem.",
+            "word_count": 13
           },
           {
             "name": "emerging",
-            "descriptor": "I can identify a proportional relationship in a problem when someone helps me, but I apply it incompletely or make errors in my calculation.",
-            "word_count": 24
+            "descriptor": "I can identify a proportional relationship with help, but I apply it incompletely or make errors in my solution.",
+            "word_count": 19
           },
           {
             "name": "developing",
-            "descriptor": "I can apply a proportional relationship to solve a problem on my own, but I miss a step or leave a gap in my reasoning.",
+            "descriptor": "I can apply proportional relationships to solve a problem on my own, but I may skip a step or leave out some of my reasoning.",
             "word_count": 25
           },
           {
             "name": "competent",
-            "descriptor": "I can independently apply proportional relationships to solve multistep real-world problems and explain my reasoning clearly.",
-            "word_count": 16
+            "descriptor": "I can independently apply proportional relationships to solve multistep real-world problems and show all my reasoning clearly.",
+            "word_count": 17
           },
           {
             "name": "extending",
-            "descriptor": "I can apply proportional relationships to unfamiliar or complex situations and use multiple strategies to solve problems fluently.",
+            "descriptor": "I can apply proportional relationships to new or complex situations and explain why I chose my solution strategy.",
             "word_count": 18
           }
         ],
         "self_check_prompts": [
-          "Did I identify all the quantities that are proportional to each other, and did I set up my proportion correctly?",
-          "Can I explain each step of my solution and justify why my answer makes sense in the real-world context?"
+          "Did I identify which quantities are proportional and set up the relationship correctly?",
+          "Did I complete all the steps needed to solve the problem and explain my reasoning at each step?"
         ]
       },
       "feedback_guide": {
         "lt_id": "cluster_04_lt_02",
         "moves_by_level": {
           "no_evidence": [
-            "Ask the student to point out two quantities in the problem that might be related and explain what that relationship could be.",
-            "Work through a similar but simpler proportional problem together, narrating each step aloud so the student can hear the reasoning."
+            "Ask the student to point out two quantities in the problem that might be related and describe how they change together.",
+            "Model identifying a proportional relationship aloud, then ask the student to try the same thinking on a similar problem."
           ],
           "emerging": [
-            "Have the student check their setup by asking, 'Does this proportion match the relationship you described in words?'",
-            "Guide them to complete one missing step by asking, 'What operation comes next, and why?'"
+            "Have the student check their proportion setup by testing it with a simple value and asking if the relationship makes sense.",
+            "Guide the student to complete one more step by asking what information they still need to find to answer the full question."
           ],
           "developing": [
-            "Ask the student to reread the problem and identify what they were asked to find, then check whether their answer addresses it.",
-            "Prompt them to write one sentence explaining why their method works or how it connects to the real-world situation."
+            "Ask the student to trace through their work and identify which step answers which part of the question.",
+            "Prompt the student to add a sentence explaining why they chose their strategy or how they knew their answer was reasonable."
           ],
           "competent": [
-            "Present a variation of the problem that changes one constraint and ask how their method would need to adapt.",
-            "Invite them to solve the same problem using a different strategy and compare the efficiency of both approaches."
+            "Present a proportional problem with an unfamiliar context and ask the student to explain how their strategy would change.",
+            "Challenge the student to solve the same problem using a different method and compare the efficiency of both approaches."
           ]
         }
       },
@@ -687,10 +914,16 @@
   ],
   "halted_lts": [
     {
+      "lt_id": "cluster_01_lt_01",
+      "lt_name": "Computing Unit Rates from Ratios",
+      "halt_reason": "supporting_unreliable",
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+    },
+    {
       "lt_id": "cluster_03_lt_02",
       "lt_name": "Using the Constant in Proportional Equations",
       "halt_reason": "supporting_unreliable",
-      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
+      "diagnostic": "no structural signature reached 2/3 agreement; signatures=[(('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]"
     }
   ]
 }
