@@ -1,8 +1,10 @@
 """Render the full reference (KUD + LTs + bands + indicators) as a readable markdown review.
 
 Produces ``reference-review.md`` alongside the reference corpus
-artefacts. This is what Gareth reads at the 4b-2 checkpoint to react
-to the full pipeline output, not only the KUD.
+artefacts. The renderer uses each source's native progression
+structure (Welsh Progression Steps 1-5, US/Ontario single grade,
+Scottish CfE Levels, etc.) for all band/indicator sections —
+``progression_structure.json`` is required.
 
 Usage:
 
@@ -23,6 +25,10 @@ import sys
 from collections import Counter, defaultdict
 from typing import Any
 
+from curriculum_harness.reference_authoring.progression import (
+    load_progression_structure,
+)
+
 
 def _load(path: str) -> dict[str, Any] | None:
     if not os.path.exists(path):
@@ -41,8 +47,13 @@ def _pct(n: int, total: int) -> str:
     return f"{n / total * 100:.1f}%"
 
 
-def _band_order(band: str) -> int:
-    return {"A": 0, "B": 1, "C": 2, "D": 3}.get(band, 99)
+def _band_order_factory(band_labels: list[str]):
+    order = {label: i for i, label in enumerate(band_labels)}
+
+    def _band_order(band: str) -> int:
+        return order.get(band, 99)
+
+    return _band_order
 
 
 def render(corpus_dir: str) -> str:
@@ -52,6 +63,19 @@ def render(corpus_dir: str) -> str:
     bands = _load(os.path.join(corpus_dir, "band_statements.json"))
     indicators = _load(os.path.join(corpus_dir, "observation_indicators.json"))
     quality = _load(os.path.join(corpus_dir, "quality_report.json"))
+
+    progression_path = os.path.join(corpus_dir, "progression_structure.json")
+    if not os.path.exists(progression_path):
+        return (
+            "# Reference review\n\n"
+            f"_Missing `progression_structure.json` at `{progression_path}`. The "
+            "renderer uses each source's native band labels and does NOT "
+            "default to A-D. Re-run the pipeline (or copy the structure file) "
+            "before rendering._\n"
+        )
+    progression = load_progression_structure(progression_path)
+    band_labels = list(progression.band_labels)
+    _band_order = _band_order_factory(band_labels)
 
     if not kud:
         return "# Reference review\n\n_No `kud.json` in corpus; nothing to render._\n"
@@ -66,6 +90,31 @@ def render(corpus_dir: str) -> str:
         f"{kud.get('classification_temperature', '')} with "
         f"{kud.get('self_consistency_runs', '')}x self-consistency."
     )
+    lines.append("")
+    lines.append("## Progression structure (source-native)")
+    lines.append("")
+    lines.append(f"- **source type:** `{progression.source_type}`")
+    lines.append(f"- **band count:** {progression.band_count}")
+    if progression.is_single_band():
+        lines.append(
+            f"- **band:** {progression.band_labels[0]} (single-grade source — "
+            "no progression sequence inside the source)"
+        )
+    else:
+        lines.append(
+            "- **bands (developmental order):** "
+            + ", ".join(progression.band_labels)
+        )
+    lines.append(f"- **age range hint:** {progression.age_range_hint}")
+    lines.append(
+        f"- **detection confidence:** `{progression.detection_confidence}`"
+    )
+    if progression.uncertain():
+        lines.append(
+            "- **flag:** `progression_structure_uncertain` — band framework "
+            "may need human verification."
+        )
+    lines.append(f"- **detection rationale:** {progression.detection_rationale}")
     lines.append("")
 
     # --- Summary ---
@@ -199,8 +248,13 @@ def render(corpus_dir: str) -> str:
                     lines.append("")
                     continue
                 gate = "PASS" if bs.get("quality_gate_passed", True) else "FAIL"
+                progression_label = (
+                    "Single-grade band"
+                    if progression.is_single_band()
+                    else "Band progression"
+                )
                 lines.append(
-                    f"**Band progression** — stability `{bs.get('stability_flag', '')}`, "
+                    f"**{progression_label}** — stability `{bs.get('stability_flag', '')}`, "
                     f"quality gate **{gate}**."
                 )
                 if bs.get("quality_gate_failures"):
@@ -244,13 +298,14 @@ def render(corpus_dir: str) -> str:
                 for band in sorted(
                     iset.get("bands", []), key=lambda x: _band_order(x.get("band", ""))
                 ):
-                    lines.append(f"**Band {band.get('band', '')}**")
+                    lines.append(f"**{band.get('band', '')}**")
                     lines.append("")
                     for be in band.get("observable_behaviours", []):
                         lines.append(f"- {_escape(be)}")
                     lines.append("")
                     lines.append(
-                        f"_Self-reflection prompt (generic developmental):_ "
+                        "_Self-reflection prompt (calibrated to this source's "
+                        f"own developmental expectations at {band.get('band', '')}):_ "
                         + _escape(band.get("self_reflection_prompt", ""))
                     )
                     lines.append("")
