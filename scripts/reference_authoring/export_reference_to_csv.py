@@ -207,12 +207,42 @@ def export_kud(
     return rows_written
 
 
+def _write_progression_metadata_rows(
+    writer,
+    progression,
+) -> None:
+    """Write a metadata header section at the top of a CSV before data rows.
+
+    Rows use ``##`` prefixes in the first column so they are visually
+    distinct from data and can be stripped programmatically if needed.
+    """
+    writer.writerow(["## source_type", progression.source_type])
+    writer.writerow(["## band_count", str(progression.band_count)])
+    writer.writerow(["## age_range_hint", progression.age_range_hint])
+    writer.writerow(["## detection_confidence", progression.detection_confidence])
+    writer.writerow(["## progression_philosophy", progression.progression_philosophy])
+    if progression.band_details:
+        for detail in progression.band_details:
+            label = detail.get("label", "")
+            age_range = detail.get("approximate_age_range") or ""
+            grade_year = detail.get("approximate_grade_year") or ""
+            descriptor = detail.get("developmental_descriptor") or ""
+            writer.writerow([
+                f"## band_detail | {label}",
+                f"age_range={age_range}",
+                f"grade_year={grade_year}",
+                descriptor,
+            ])
+    writer.writerow([])
+
+
 def export_lts(
     *,
     clusters: dict[str, Any] | None,
     lts: dict[str, Any],
     band_sets: dict[str, Any] | None,
     band_labels: list[str],
+    progression,
     out_path: str,
 ) -> int:
     cluster_by_id: dict[str, dict[str, Any]] = {}
@@ -229,6 +259,7 @@ def export_lts(
     rows_written = 0
     with open(out_path, "w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
+        _write_progression_metadata_rows(writer, progression)
         header: list[str] = [
             "competency_cluster",
             "lt_id",
@@ -292,6 +323,7 @@ def export_observation_indicators(
     lts: dict[str, Any],
     indicator_coll: dict[str, Any] | None,
     band_labels: list[str],
+    progression,
     out_path: str,
 ) -> int:
     cluster_by_id: dict[str, dict[str, Any]] = {}
@@ -307,6 +339,7 @@ def export_observation_indicators(
     rows_written = 0
     with open(out_path, "w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
+        _write_progression_metadata_rows(writer, progression)
         writer.writerow(
             [
                 "competency_cluster",
@@ -429,6 +462,7 @@ def main(argv: list[str] | None = None) -> int:
             lts=lts,
             band_sets=band_sets,
             band_labels=band_labels,
+            progression=progression,
             out_path=lt_path,
         )
         print(f"[csv-export] {lt_path}: {lt_rows} rows", flush=True)
@@ -441,6 +475,7 @@ def main(argv: list[str] | None = None) -> int:
             lts=lts,
             indicator_coll=indicator_coll,
             band_labels=band_labels,
+            progression=progression,
             out_path=ind_path,
         )
         print(f"[csv-export] {ind_path}: {ind_rows} rows", flush=True)

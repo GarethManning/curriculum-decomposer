@@ -117,6 +117,25 @@ def render(corpus_dir: str) -> str:
     lines.append(f"- **detection rationale:** {progression.detection_rationale}")
     lines.append("")
 
+    if progression.progression_philosophy:
+        lines.append("**Progression philosophy.**")
+        lines.append("")
+        lines.append(f"> {progression.progression_philosophy}")
+        lines.append("")
+
+    if progression.band_details:
+        lines.append("### Per-band developmental index")
+        lines.append("")
+        lines.append("| Band | Approximate age | Approximate grade/year | Developmental descriptor |")
+        lines.append("|---|---|---|---|")
+        for detail in progression.band_details:
+            label = _escape(detail.get("label") or "")
+            age_range = _escape(detail.get("approximate_age_range") or "—")
+            grade_year = _escape(detail.get("approximate_grade_year") or "—")
+            descriptor = _escape(detail.get("developmental_descriptor") or "")
+            lines.append(f"| {label} | {age_range} | {grade_year} | {descriptor} |")
+        lines.append("")
+
     # --- Summary ---
     lines.append("## Summary")
     lines.append("")
