@@ -50,10 +50,15 @@ from curriculum_harness.reference_authoring.types import (
 # Shared with the band-statement gate — one source of truth for
 # what counts as an observable action verb in a Type 1/2 descriptor.
 OBSERVABLE_VERBS = {
+    # Kept in sync with generate_criteria._VERB_BUCKETS keys. The two
+    # lists MUST agree — if the generator accepts a verb as bucketable
+    # but the gate rejects it as non-observable, rubrics halt on the
+    # gate rather than on real content issues.
     "identify", "describe", "compare", "explain", "justify", "analyse", "analyze",
     "evaluate", "create", "apply", "interpret", "construct", "communicate",
     "recognise", "recognize", "use", "select", "choose", "perform", "demonstrate",
     "distinguish", "relate", "represent", "solve", "calculate", "compute",
+    "recall", "name", "contrast", "critique",
 }
 
 BANNED_SUBSTRINGS = (
@@ -108,6 +113,10 @@ _STOPWORDS = {
     "justify", "justifies", "construct", "constructs", "communicate",
     "communicates", "distinguish", "distinguishes", "relate", "relates",
     "represent", "represents", "create", "creates",
+    "recall", "recalls", "recalled", "recalling",
+    "name", "names", "named", "naming",
+    "contrast", "contrasts", "contrasted", "contrasting",
+    "critique", "critiques", "critiqued", "critiquing",
 }
 
 
