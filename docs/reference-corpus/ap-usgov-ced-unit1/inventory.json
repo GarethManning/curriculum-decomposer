@@ -1,0 +1,3660 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "5-ap-usgov-ced-unit1",
+  "snapshot_path": "docs/run-snapshots/2026-04-18-session-4a-4-5-ap-usgov-ced-unit1",
+  "manifest_content_hash": "e6eea33806b8ab5ef1b17955d3417032ec549e602262c45f48d20b40c06f396d",
+  "phase0_version": "0.6.0",
+  "source_reference": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+  "content_blocks": [
+    {
+      "block_id": "blk_0001",
+      "raw_text": "AP U.S. GOVERNMENT",
+      "block_type": "heading",
+      "line_start": 1,
+      "line_end": 1,
+      "heading_path": [
+        "AP U.S. GOVERNMENT"
+      ]
+    },
+    {
+      "block_id": "blk_0002",
+      "raw_text": "AND POLITICS",
+      "block_type": "heading",
+      "line_start": 2,
+      "line_end": 2,
+      "heading_path": [
+        "AND POLITICS"
+      ]
+    },
+    {
+      "block_id": "blk_0003",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 3,
+      "line_end": 3,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0004",
+      "raw_text": "1 Foundations of American Democracy 15–22%",
+      "block_type": "statement",
+      "line_start": 4,
+      "line_end": 8,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0005",
+      "raw_text": "AP EXAM WEIGHTING",
+      "block_type": "heading",
+      "line_start": 9,
+      "line_end": 9,
+      "heading_path": [
+        "AP EXAM WEIGHTING"
+      ]
+    },
+    {
+      "block_id": "blk_0006",
+      "raw_text": "~16/~8",
+      "block_type": "statement",
+      "line_start": 10,
+      "line_end": 10,
+      "heading_path": [
+        "AP EXAM WEIGHTING"
+      ]
+    },
+    {
+      "block_id": "blk_0007",
+      "raw_text": "CLASS PERIODS",
+      "block_type": "heading",
+      "line_start": 11,
+      "line_end": 11,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0008",
+      "raw_text": "|",
+      "block_type": "statement",
+      "line_start": 12,
+      "line_end": 12,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0009",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 33",
+      "block_type": "statement",
+      "line_start": 13,
+      "line_end": 13,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0010",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 14,
+      "line_end": 15,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0011",
+      "raw_text": "Remember to go to AP Classroom to assign students the online",
+      "block_type": "statement",
+      "line_start": 17,
+      "line_end": 18,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0012",
+      "raw_text": "Progress Check for this unit.",
+      "block_type": "statement",
+      "line_start": 19,
+      "line_end": 19,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0013",
+      "raw_text": "Whether assigned as homework or completed in class, the Progress",
+      "block_type": "statement",
+      "line_start": 20,
+      "line_end": 21,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0014",
+      "raw_text": "Check provides each student with immediate feedback related to this unit’s topics and skills.",
+      "block_type": "statement",
+      "line_start": 22,
+      "line_end": 24,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0015",
+      "raw_text": "Progress Check 1",
+      "block_type": "statement",
+      "line_start": 25,
+      "line_end": 25,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0016",
+      "raw_text": "Multiple-choice: ~20 questions",
+      "block_type": "statement",
+      "line_start": 26,
+      "line_end": 26,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0017",
+      "raw_text": "Free-response: 3 questions § Concept Application §",
+      "block_type": "statement",
+      "line_start": 27,
+      "line_end": 30,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0018",
+      "raw_text": "Argument Essay (partial) §",
+      "block_type": "statement",
+      "line_start": 31,
+      "line_end": 32,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0019",
+      "raw_text": "Argument Essay (partial) |",
+      "block_type": "statement",
+      "line_start": 33,
+      "line_end": 34,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0020",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 34",
+      "block_type": "statement",
+      "line_start": 35,
+      "line_end": 35,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0021",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 36,
+      "line_end": 37,
+      "heading_path": [
+        "CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0022",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 39,
+      "line_end": 39,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0023",
+      "raw_text": "% 15–22 ~16/~8 1",
+      "block_type": "statement",
+      "line_start": 40,
+      "line_end": 42,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0024",
+      "raw_text": "AP EXAM WEIGHTING  CLASS PERIODS",
+      "block_type": "heading",
+      "line_start": 43,
+      "line_end": 43,
+      "heading_path": [
+        "AP EXAM WEIGHTING  CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0025",
+      "raw_text": "Foundations of American Democracy Developing Understanding",
+      "block_type": "statement",
+      "line_start": 45,
+      "line_end": 47,
+      "heading_path": [
+        "AP EXAM WEIGHTING  CLASS PERIODS"
+      ]
+    },
+    {
+      "block_id": "blk_0026",
+      "raw_text": "BIG IDEA 1",
+      "block_type": "heading",
+      "line_start": 48,
+      "line_end": 48,
+      "heading_path": [
+        "BIG IDEA 1"
+      ]
+    },
+    {
+      "block_id": "blk_0027",
+      "raw_text": "More than 200 years after the U.S. Constitution was ratified, the compromises that were Constitutionalism necessary for ratification—which in some instances led to ambiguity—continue to fuel debate § and discussion over how best to protect liberty, equality, order, and private property. This",
+      "block_type": "statement",
+      "line_start": 49,
+      "line_end": 53,
+      "heading_path": [
+        "BIG IDEA 1"
+      ]
+    },
+    {
+      "block_id": "blk_0028",
+      "raw_text": "Why are there debates first unit sets the foundation for the course by examining how the framers of the Constitution about the balance set up a structure of government intended to stand the test of time. Compromises were of power between made during the Constitutional Convention and ratification debates, and these compromises the federal and state focused on the proper balance between individual freedom, social order, and equality of governments?",
+      "block_type": "statement",
+      "line_start": 54,
+      "line_end": 62,
+      "heading_path": [
+        "BIG IDEA 1"
+      ]
+    },
+    {
+      "block_id": "blk_0029",
+      "raw_text": "opportunity. In subsequent units, students will apply their understanding of the Constitution",
+      "block_type": "statement",
+      "line_start": 63,
+      "line_end": 63,
+      "heading_path": [
+        "BIG IDEA 1"
+      ]
+    },
+    {
+      "block_id": "blk_0030",
+      "raw_text": "BIG IDEA 2",
+      "block_type": "heading",
+      "line_start": 64,
+      "line_end": 64,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0031",
+      "raw_text": "to the institutions of government and people’s daily lives.",
+      "block_type": "statement",
+      "line_start": 65,
+      "line_end": 65,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0032",
+      "raw_text": "Liberty and Order",
+      "block_type": "statement",
+      "line_start": 66,
+      "line_end": 66,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0033",
+      "raw_text": "Building the Course Skills § claim is the strongest because . . .”, which is",
+      "block_type": "statement",
+      "line_start": 67,
+      "line_end": 69,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0034",
+      "raw_text": "Is the Bill of Rights then followed by specific relevant evidence.",
+      "block_type": "statement",
+      "line_start": 70,
+      "line_end": 71,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0035",
+      "raw_text": "necessary? Why",
+      "block_type": "statement",
+      "line_start": 72,
+      "line_end": 72,
+      "heading_path": [
+        "BIG IDEA 2"
+      ]
+    },
+    {
+      "block_id": "blk_0036",
+      "raw_text": "4.A4.B5.A5.B",
+      "block_type": "heading",
+      "line_start": 73,
+      "line_end": 73,
+      "heading_path": [
+        "4.A4.B5.A5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0037",
+      "raw_text": "Evidence is relevant when it relates to and or why not?",
+      "block_type": "statement",
+      "line_start": 75,
+      "line_end": 76,
+      "heading_path": [
+        "4.A4.B5.A5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0038",
+      "raw_text": "supports the claim.",
+      "block_type": "statement",
+      "line_start": 77,
+      "line_end": 77,
+      "heading_path": [
+        "4.A4.B5.A5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0039",
+      "raw_text": "In the study of government and political",
+      "block_type": "statement",
+      "line_start": 78,
+      "line_end": 78,
+      "heading_path": [
+        "4.A4.B5.A5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0040",
+      "raw_text": "BIG IDEA 4",
+      "block_type": "heading",
+      "line_start": 79,
+      "line_end": 79,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0041",
+      "raw_text": "science, text-based qualitative sources Competing",
+      "block_type": "statement",
+      "line_start": 80,
+      "line_end": 81,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0042",
+      "raw_text": "Preparing for the AP Exam help political scientists understand how Policymaking governmental and political institutions and Interests",
+      "block_type": "statement",
+      "line_start": 82,
+      "line_end": 86,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0043",
+      "raw_text": "The AP U.S. Government and Politics course actors function and the reasons for their §",
+      "block_type": "statement",
+      "line_start": 87,
+      "line_end": 89,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0044",
+      "raw_text": "How does the requires students to apply their knowledge behaviors. These sources are often actually Constitution affect in a variety of contexts and to real-world arguments about what the government does you and the choices scenarios. It’s not enough for students to (or should do) and how these actions impact you make?",
+      "block_type": "statement",
+      "line_start": 90,
+      "line_end": 98,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0045",
+      "raw_text": "know the definition of governmental terms citizens and other people in the country.",
+      "block_type": "statement",
+      "line_start": 99,
+      "line_end": 100,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0046",
+      "raw_text": "and concepts. On the AP Exam, they will be",
+      "block_type": "statement",
+      "line_start": 101,
+      "line_end": 101,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0047",
+      "raw_text": "In this course, students also learn to write asked to show a deeper understanding of their own arguments. Their arguments should how these concepts actually work, often by establish a line of reasoning that will serve describing and explaining an interaction or as the organizing principle for the essay and application within a given scenario on both that will support the essay’s purpose (e.g., to multiple-choice and free-response questions.",
+      "block_type": "statement",
+      "line_start": 102,
+      "line_end": 111,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0048",
+      "raw_text": "explain similarities and differences among",
+      "block_type": "statement",
+      "line_start": 112,
+      "line_end": 112,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0049",
+      "raw_text": "Students often struggle with explanations.",
+      "block_type": "statement",
+      "line_start": 113,
+      "line_end": 113,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0050",
+      "raw_text": "political principles or to explain political",
+      "block_type": "statement",
+      "line_start": 114,
+      "line_end": 114,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0051",
+      "raw_text": "They may define or describe a concept but processes).",
+      "block_type": "statement",
+      "line_start": 115,
+      "line_end": 116,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0052",
+      "raw_text": "not fully explain the how or why in the context",
+      "block_type": "statement",
+      "line_start": 117,
+      "line_end": 117,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0053",
+      "raw_text": "In their arguments, students should write of the question. Have students practice by claims that take a position, going beyond asking them to explain the steps, stages, simply stating facts. Claims should also and interactions of processes; explain include additional information that sets and link causes and effects; or explain the up the evidence. This is usually developed significance of similarities and differences.",
+      "block_type": "statement",
+      "line_start": 118,
+      "line_end": 127,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0054",
+      "raw_text": "through a “because” statement, as in “My |",
+      "block_type": "statement",
+      "line_start": 128,
+      "line_end": 129,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0055",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 35",
+      "block_type": "statement",
+      "line_start": 130,
+      "line_end": 130,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0056",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 131,
+      "line_end": 132,
+      "heading_path": [
+        "BIG IDEA 4"
+      ]
+    },
+    {
+      "block_id": "blk_0057",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 134,
+      "line_end": 134,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0058",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 135,
+      "line_end": 136,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0059",
+      "raw_text": "UNIT AT A GLANCE",
+      "block_type": "heading",
+      "line_start": 137,
+      "line_end": 137,
+      "heading_path": [
+        "UNIT AT A GLANCE"
+      ]
+    },
+    {
+      "block_id": "blk_0060",
+      "raw_text": "Topic Suggested Skill",
+      "block_type": "statement",
+      "line_start": 138,
+      "line_end": 138,
+      "heading_path": [
+        "UNIT AT A GLANCE"
+      ]
+    },
+    {
+      "block_id": "blk_0061",
+      "raw_text": "Ideals of Democracy",
+      "block_type": "statement",
+      "line_start": 139,
+      "line_end": 139,
+      "heading_path": [
+        "UNIT AT A GLANCE"
+      ]
+    },
+    {
+      "block_id": "blk_0062",
+      "raw_text": "1.1 1.D",
+      "block_type": "heading",
+      "line_start": 140,
+      "line_end": 140,
+      "heading_path": [
+        "1.1 1.D"
+      ]
+    },
+    {
+      "block_id": "blk_0063",
+      "raw_text": "Describe political principles, institutions, processes, policies, and behaviors illustrated in different scenarios in context.",
+      "block_type": "statement",
+      "line_start": 141,
+      "line_end": 142,
+      "heading_path": [
+        "1.1 1.D"
+      ]
+    },
+    {
+      "block_id": "blk_0064",
+      "raw_text": "Types of Democracy 1.2 4.A",
+      "block_type": "statement",
+      "line_start": 143,
+      "line_end": 145,
+      "heading_path": [
+        "1.1 1.D"
+      ]
+    },
+    {
+      "block_id": "blk_0065",
+      "raw_text": "Describe the argument, perspective, evidence, and reasoning presented in the source.",
+      "block_type": "statement",
+      "line_start": 146,
+      "line_end": 147,
+      "heading_path": [
+        "1.1 1.D"
+      ]
+    },
+    {
+      "block_id": "blk_0066",
+      "raw_text": "Government Power and Individual",
+      "block_type": "statement",
+      "line_start": 148,
+      "line_end": 148,
+      "heading_path": [
+        "1.1 1.D"
+      ]
+    },
+    {
+      "block_id": "blk_0067",
+      "raw_text": "1.3 1.A",
+      "block_type": "heading",
+      "line_start": 149,
+      "line_end": 149,
+      "heading_path": [
+        "1.3 1.A"
+      ]
+    },
+    {
+      "block_id": "blk_0068",
+      "raw_text": "Describe political principles, institutions, processes, policies, and Rights behaviors.",
+      "block_type": "statement",
+      "line_start": 150,
+      "line_end": 152,
+      "heading_path": [
+        "1.3 1.A"
+      ]
+    },
+    {
+      "block_id": "blk_0069",
+      "raw_text": "Challenges of the Articles of",
+      "block_type": "statement",
+      "line_start": 153,
+      "line_end": 153,
+      "heading_path": [
+        "1.3 1.A"
+      ]
+    },
+    {
+      "block_id": "blk_0070",
+      "raw_text": "1.4 4.B",
+      "block_type": "heading",
+      "line_start": 154,
+      "line_end": 154,
+      "heading_path": [
+        "1.4 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0071",
+      "raw_text": "Explain how the argument or perspective in the source relates to Confederation political principles, institutions, processes, policies, and behaviors.",
+      "block_type": "statement",
+      "line_start": 155,
+      "line_end": 157,
+      "heading_path": [
+        "1.4 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0072",
+      "raw_text": "Ratification of the U.S. Constitution",
+      "block_type": "statement",
+      "line_start": 158,
+      "line_end": 158,
+      "heading_path": [
+        "1.4 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0073",
+      "raw_text": "1.5 1.E",
+      "block_type": "heading",
+      "line_start": 159,
+      "line_end": 159,
+      "heading_path": [
+        "1.5 1.E"
+      ]
+    },
+    {
+      "block_id": "blk_0074",
+      "raw_text": "Explain how political principles, institutions, processes, policies, and behaviors apply to different scenarios in context.",
+      "block_type": "statement",
+      "line_start": 160,
+      "line_end": 161,
+      "heading_path": [
+        "1.5 1.E"
+      ]
+    },
+    {
+      "block_id": "blk_0075",
+      "raw_text": "Principles of American Government",
+      "block_type": "statement",
+      "line_start": 162,
+      "line_end": 162,
+      "heading_path": [
+        "1.5 1.E"
+      ]
+    },
+    {
+      "block_id": "blk_0076",
+      "raw_text": "1.6 4.B",
+      "block_type": "heading",
+      "line_start": 163,
+      "line_end": 163,
+      "heading_path": [
+        "1.6 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0077",
+      "raw_text": "Explain how the argument or perspective in the source relates to political principles, institutions, processes, policies, and behaviors.",
+      "block_type": "statement",
+      "line_start": 164,
+      "line_end": 165,
+      "heading_path": [
+        "1.6 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0078",
+      "raw_text": "Relationship Between the States and",
+      "block_type": "statement",
+      "line_start": 166,
+      "line_end": 166,
+      "heading_path": [
+        "1.6 4.B"
+      ]
+    },
+    {
+      "block_id": "blk_0079",
+      "raw_text": "1.7 5.A",
+      "block_type": "heading",
+      "line_start": 167,
+      "line_end": 167,
+      "heading_path": [
+        "1.7 5.A"
+      ]
+    },
+    {
+      "block_id": "blk_0080",
+      "raw_text": "Articulate a defensible claim/thesis.",
+      "block_type": "statement",
+      "line_start": 168,
+      "line_end": 168,
+      "heading_path": [
+        "1.7 5.A"
+      ]
+    },
+    {
+      "block_id": "blk_0081",
+      "raw_text": "National Government",
+      "block_type": "statement",
+      "line_start": 169,
+      "line_end": 169,
+      "heading_path": [
+        "1.7 5.A"
+      ]
+    },
+    {
+      "block_id": "blk_0082",
+      "raw_text": "Constitutional Interpretations of",
+      "block_type": "statement",
+      "line_start": 170,
+      "line_end": 170,
+      "heading_path": [
+        "1.7 5.A"
+      ]
+    },
+    {
+      "block_id": "blk_0083",
+      "raw_text": "1.8 2.A",
+      "block_type": "heading",
+      "line_start": 171,
+      "line_end": 171,
+      "heading_path": [
+        "1.8 2.A"
+      ]
+    },
+    {
+      "block_id": "blk_0084",
+      "raw_text": "Describe the facts, issue, holding, reasoning, decision, and majority Federalism opinion of required Supreme Court cases.",
+      "block_type": "statement",
+      "line_start": 172,
+      "line_end": 174,
+      "heading_path": [
+        "1.8 2.A"
+      ]
+    },
+    {
+      "block_id": "blk_0085",
+      "raw_text": "Federalism in Action",
+      "block_type": "statement",
+      "line_start": 175,
+      "line_end": 175,
+      "heading_path": [
+        "1.8 2.A"
+      ]
+    },
+    {
+      "block_id": "blk_0086",
+      "raw_text": "1.9 5.B",
+      "block_type": "heading",
+      "line_start": 176,
+      "line_end": 176,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0087",
+      "raw_text": "Support an argument or claim/thesis using relevant evidence.",
+      "block_type": "statement",
+      "line_start": 177,
+      "line_end": 177,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0088",
+      "raw_text": "Go to AP Classroom to assign the Progress Check for Unit 1.",
+      "block_type": "statement",
+      "line_start": 178,
+      "line_end": 178,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0089",
+      "raw_text": "Review the results in class to identify and address any student misunderstandings. |",
+      "block_type": "statement",
+      "line_start": 179,
+      "line_end": 180,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0090",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 36",
+      "block_type": "statement",
+      "line_start": 181,
+      "line_end": 181,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0091",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 182,
+      "line_end": 183,
+      "heading_path": [
+        "1.9 5.B"
+      ]
+    },
+    {
+      "block_id": "blk_0092",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 185,
+      "line_end": 185,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0093",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 186,
+      "line_end": 187,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0094",
+      "raw_text": "SAMPLE INSTRUCTIONAL ACTIVITIES",
+      "block_type": "heading",
+      "line_start": 188,
+      "line_end": 188,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0095",
+      "raw_text": "The sample activities on this page are optional and are offered to provide possible ways to incorporate various instructional approaches into the classroom. Teachers do not need to use these activities or instructional approaches and are free to alter or edit them. The examples below were developed in partnership with teachers from the AP community to share ways that they approach teaching the content and skills in this unit. Please refer to the Instructional",
+      "block_type": "statement",
+      "line_start": 189,
+      "line_end": 193,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0096",
+      "raw_text": "Approaches section beginning on p. 141 for more examples of activities and strategies.",
+      "block_type": "statement",
+      "line_start": 194,
+      "line_end": 194,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0097",
+      "raw_text": "Activity Topic Sample Activity 1",
+      "block_type": "statement",
+      "line_start": 195,
+      "line_end": 196,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0098",
+      "raw_text": "1.2 and Close Reading 1.3",
+      "block_type": "statement",
+      "line_start": 197,
+      "line_end": 198,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0099",
+      "raw_text": "When students are reading the required foundational documents, such as Federalist",
+      "block_type": "statement",
+      "line_start": 199,
+      "line_end": 199,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0100",
+      "raw_text": "No. 10 and Brutus No. 1, have them highlight relevant words and passages that support the authors’ claims. Ask students to connect ideas outlined in the documents to the Federalist and Antifederalist views of how our government was founded.",
+      "block_type": "statement",
+      "line_start": 200,
+      "line_end": 202,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0101",
+      "raw_text": "2",
+      "block_type": "statement",
+      "line_start": 203,
+      "line_end": 203,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0102",
+      "raw_text": "1.3 and Think-Pair-Share",
+      "block_type": "statement",
+      "line_start": 204,
+      "line_end": 204,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0103",
+      "raw_text": "1.6 Give students a question that requires them to connect Madison’s argument in",
+      "block_type": "statement",
+      "line_start": 205,
+      "line_end": 205,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0104",
+      "raw_text": "Federalist No. 51 to a) the structure of the three branches of government established in the",
+      "block_type": "statement",
+      "line_start": 206,
+      "line_end": 206,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0105",
+      "raw_text": "Constitution and b) his argument about factions in Federalist No. 10.",
+      "block_type": "statement",
+      "line_start": 207,
+      "line_end": 207,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0106",
+      "raw_text": "3",
+      "block_type": "statement",
+      "line_start": 208,
+      "line_end": 208,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0107",
+      "raw_text": "1.8 Case Notes",
+      "block_type": "statement",
+      "line_start": 209,
+      "line_end": 209,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0108",
+      "raw_text": "Have students create case notes for McCulloch v. Maryland and United States v. Lopez that include the following information: facts of the case, majority opinion, and the reasoning (constitutional question) for the majority opinion. Make sure students focus on the constitutional reasoning behind the Court’s decision.",
+      "block_type": "statement",
+      "line_start": 210,
+      "line_end": 213,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0109",
+      "raw_text": "4",
+      "block_type": "statement",
+      "line_start": 214,
+      "line_end": 214,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0110",
+      "raw_text": "1.9 Making Connections",
+      "block_type": "statement",
+      "line_start": 215,
+      "line_end": 215,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0111",
+      "raw_text": "Write concepts related to one of the course big ideas on index cards, place them in a box, and have students pick a card at random. Give students a few minutes to gather and recall information about the term, and then pair students and ask them to find the connection between their concepts. Finally, ask the pairs to write a brief explanation of how the concepts are related. |",
+      "block_type": "statement",
+      "line_start": 216,
+      "line_end": 221,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0112",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 37",
+      "block_type": "statement",
+      "line_start": 222,
+      "line_end": 222,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0113",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 223,
+      "line_end": 224,
+      "heading_path": [
+        "SAMPLE INSTRUCTIONAL ACTIVITIES"
+      ]
+    },
+    {
+      "block_id": "blk_0114",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 226,
+      "line_end": 226,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0115",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 227,
+      "line_end": 228,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0116",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 229,
+      "line_end": 229,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0117",
+      "raw_text": "TOPIC 1.1",
+      "block_type": "heading",
+      "line_start": 230,
+      "line_end": 230,
+      "heading_path": [
+        "TOPIC 1.1"
+      ]
+    },
+    {
+      "block_id": "blk_0118",
+      "raw_text": "Concept Application Ideals of 1.D",
+      "block_type": "statement",
+      "line_start": 231,
+      "line_end": 233,
+      "heading_path": [
+        "TOPIC 1.1"
+      ]
+    },
+    {
+      "block_id": "blk_0119",
+      "raw_text": "Describe political principles, institutions, processes, Democracy policies, and behaviors illustrated in different scenarios in context.",
+      "block_type": "statement",
+      "line_start": 234,
+      "line_end": 239,
+      "heading_path": [
+        "TOPIC 1.1"
+      ]
+    },
+    {
+      "block_id": "blk_0120",
+      "raw_text": "OPTIONAL READINGS AND Required Course Content",
+      "block_type": "statement",
+      "line_start": 240,
+      "line_end": 240,
+      "heading_path": [
+        "TOPIC 1.1"
+      ]
+    },
+    {
+      "block_id": "blk_0121",
+      "raw_text": "ILLUSTRATIVE EXAMPLES",
+      "block_type": "heading",
+      "line_start": 241,
+      "line_end": 241,
+      "heading_path": [
+        "ILLUSTRATIVE EXAMPLES"
+      ]
+    },
+    {
+      "block_id": "blk_0122",
+      "raw_text": "(NOT REQUIRED)",
+      "block_type": "heading",
+      "line_start": 242,
+      "line_end": 242,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0123",
+      "raw_text": "§ Thomas Hobbes’s definition of an anarchic",
+      "block_type": "statement",
+      "line_start": 243,
+      "line_end": 245,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0124",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 246,
+      "line_end": 246,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0125",
+      "raw_text": "“state of nature” in the absence of government,",
+      "block_type": "statement",
+      "line_start": 247,
+      "line_end": 248,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0126",
+      "raw_text": "LO 1.1.A EK 1.1.A.1",
+      "block_type": "heading",
+      "line_start": 249,
+      "line_end": 249,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0127",
+      "raw_text": "as in the failed state of Somalia",
+      "block_type": "statement",
+      "line_start": 250,
+      "line_end": 251,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0128",
+      "raw_text": "Explain how democratic The U.S. government is based on the following § ideals are reflected in the democratic ideals: The Mayflower",
+      "block_type": "statement",
+      "line_start": 252,
+      "line_end": 255,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0129",
+      "raw_text": "Declaration of Independence Compact (1620) i. Natural rights (all people have certain § and the U.S. Constitution.",
+      "block_type": "statement",
+      "line_start": 256,
+      "line_end": 260,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0130",
+      "raw_text": "John Locke’s Second rights that cannot be taken away)",
+      "block_type": "statement",
+      "line_start": 261,
+      "line_end": 262,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0131",
+      "raw_text": "Treatise of Civil ii. A social contract (an implicit agreement Government (1690) among the people in a society to give up §",
+      "block_type": "statement",
+      "line_start": 263,
+      "line_end": 267,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0132",
+      "raw_text": "Baron de Montesquieu’s some freedoms to maintain social order) ideas about separating iii. Popular sovereignty (all government power powers in government comes from the consent of its people) found in The Spirit of the Laws (1748) iv. Limited government (a government’s",
+      "block_type": "statement",
+      "line_start": 268,
+      "line_end": 276,
+      "heading_path": [
+        "LO 1.1.A EK 1.1.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0133",
+      "raw_text": "AVAILABLE RESOURCE",
+      "block_type": "heading",
+      "line_start": 277,
+      "line_end": 277,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0134",
+      "raw_text": "power cannot be absolute) §",
+      "block_type": "statement",
+      "line_start": 278,
+      "line_end": 279,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0135",
+      "raw_text": "EK 1.1.A.2",
+      "block_type": "heading",
+      "line_start": 280,
+      "line_end": 280,
+      "heading_path": [
+        "EK 1.1.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0136",
+      "raw_text": "Classroom Resources > Analytical Reading",
+      "block_type": "statement",
+      "line_start": 281,
+      "line_end": 282,
+      "heading_path": [
+        "EK 1.1.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0137",
+      "raw_text": "The ideal of limited government is ensured by (Declaration of the interaction of these principles: Independence) i. Separation of powers ii. Checks and balances iii. Federalism iv. Republicanism",
+      "block_type": "statement",
+      "line_start": 283,
+      "line_end": 290,
+      "heading_path": [
+        "EK 1.1.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0138",
+      "raw_text": "EK 1.1.A.3",
+      "block_type": "heading",
+      "line_start": 291,
+      "line_end": 291,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0139",
+      "raw_text": "The Declaration of Independence, drafted by",
+      "block_type": "statement",
+      "line_start": 292,
+      "line_end": 292,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0140",
+      "raw_text": "Thomas Jefferson (with help from Adams and",
+      "block_type": "statement",
+      "line_start": 293,
+      "line_end": 293,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0141",
+      "raw_text": "Franklin), restates the philosophy of natural rights, and provides a foundation for popular sovereignty. The U.S. Constitution, drafted by James Madison at the Constitutional",
+      "block_type": "statement",
+      "line_start": 294,
+      "line_end": 297,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0142",
+      "raw_text": "Convention in Philadelphia that was led by George Washington (with important contributions from Hamilton and members of the “Grand Committee”), is an example of a social contract and establishes a system of limited government. The Constitution provides the blueprint for a unique form of democratic government in the United States. |",
+      "block_type": "statement",
+      "line_start": 298,
+      "line_end": 306,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0143",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 38",
+      "block_type": "statement",
+      "line_start": 307,
+      "line_end": 307,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0144",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 308,
+      "line_end": 309,
+      "heading_path": [
+        "EK 1.1.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0145",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 311,
+      "line_end": 311,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0146",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 312,
+      "line_end": 313,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0147",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 314,
+      "line_end": 314,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0148",
+      "raw_text": "TOPIC 1.2",
+      "block_type": "heading",
+      "line_start": 315,
+      "line_end": 315,
+      "heading_path": [
+        "TOPIC 1.2"
+      ]
+    },
+    {
+      "block_id": "blk_0149",
+      "raw_text": "Source Analysis Types of 4.A",
+      "block_type": "statement",
+      "line_start": 316,
+      "line_end": 318,
+      "heading_path": [
+        "TOPIC 1.2"
+      ]
+    },
+    {
+      "block_id": "blk_0150",
+      "raw_text": "Describe the argument, perspective, evidence, and Democracy reasoning presented in the source.",
+      "block_type": "statement",
+      "line_start": 319,
+      "line_end": 323,
+      "heading_path": [
+        "TOPIC 1.2"
+      ]
+    },
+    {
+      "block_id": "blk_0151",
+      "raw_text": "Required Course Content",
+      "block_type": "statement",
+      "line_start": 324,
+      "line_end": 324,
+      "heading_path": [
+        "TOPIC 1.2"
+      ]
+    },
+    {
+      "block_id": "blk_0152",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 325,
+      "line_end": 325,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0153",
+      "raw_text": "LO 1.2.A EK 1.2.A.1",
+      "block_type": "heading",
+      "line_start": 326,
+      "line_end": 326,
+      "heading_path": [
+        "LO 1.2.A EK 1.2.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0154",
+      "raw_text": "Explain how models of Representative democracies can take several representative democracy forms including the following models: are visible in major i. Participatory democracy, which institutions, policies, events, emphasizes broad participation in politics or debates in the U.S.",
+      "block_type": "statement",
+      "line_start": 327,
+      "line_end": 333,
+      "heading_path": [
+        "LO 1.2.A EK 1.2.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0155",
+      "raw_text": "and civil society ii. Pluralist democracy, which emphasizes group-based activism by nongovernmental interests striving for impact on political decision making iii. Elite democracy, which emphasizes limited participation in politics and civil society",
+      "block_type": "statement",
+      "line_start": 334,
+      "line_end": 340,
+      "heading_path": [
+        "LO 1.2.A EK 1.2.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0156",
+      "raw_text": "EK 1.2.A.2",
+      "block_type": "heading",
+      "line_start": 341,
+      "line_end": 341,
+      "heading_path": [
+        "EK 1.2.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0157",
+      "raw_text": "Different aspects of the U.S. Constitution as well as the debate between Federalist No. 10 and Brutus No. 1 reflect the tension between the broad participatory model and the more filtered participation of the pluralist and elite models of representative democracy.",
+      "block_type": "statement",
+      "line_start": 342,
+      "line_end": 347,
+      "heading_path": [
+        "EK 1.2.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0158",
+      "raw_text": "EK 1.2.A.3",
+      "block_type": "heading",
+      "line_start": 348,
+      "line_end": 348,
+      "heading_path": [
+        "EK 1.2.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0159",
+      "raw_text": "The three models of representative democracy continue to be reflected in contemporary institutions and political behavior. |",
+      "block_type": "statement",
+      "line_start": 349,
+      "line_end": 352,
+      "heading_path": [
+        "EK 1.2.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0160",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 39",
+      "block_type": "statement",
+      "line_start": 353,
+      "line_end": 353,
+      "heading_path": [
+        "EK 1.2.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0161",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 354,
+      "line_end": 355,
+      "heading_path": [
+        "EK 1.2.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0162",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 357,
+      "line_end": 357,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0163",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 358,
+      "line_end": 359,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0164",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 360,
+      "line_end": 360,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0165",
+      "raw_text": "TOPIC 1.3",
+      "block_type": "heading",
+      "line_start": 361,
+      "line_end": 361,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0166",
+      "raw_text": "Concept Application Government Power 1.A",
+      "block_type": "statement",
+      "line_start": 362,
+      "line_end": 364,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0167",
+      "raw_text": "Describe political principles, institutions, processes, and Individual Rights policies, and behaviors.",
+      "block_type": "statement",
+      "line_start": 365,
+      "line_end": 368,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0168",
+      "raw_text": "OPTIONAL READING Required Course Content § “Letters from the",
+      "block_type": "statement",
+      "line_start": 369,
+      "line_end": 371,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0169",
+      "raw_text": "Federal Farmer #1”",
+      "block_type": "statement",
+      "line_start": 372,
+      "line_end": 372,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0170",
+      "raw_text": "(Anti-Federalist publication)",
+      "block_type": "statement",
+      "line_start": 373,
+      "line_end": 374,
+      "heading_path": [
+        "TOPIC 1.3"
+      ]
+    },
+    {
+      "block_id": "blk_0171",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 375,
+      "line_end": 375,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0172",
+      "raw_text": "AVAILABLE RESOURCES",
+      "block_type": "heading",
+      "line_start": 376,
+      "line_end": 376,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0173",
+      "raw_text": "§ LO 1.3.A EK 1.3.A.1",
+      "block_type": "heading",
+      "line_start": 377,
+      "line_end": 377,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0174",
+      "raw_text": "Classroom Resources > Analytical Reading",
+      "block_type": "statement",
+      "line_start": 378,
+      "line_end": 379,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0175",
+      "raw_text": "Explain Federalist and Anti- Federalists supported ratification of the (Federalist No. 10 and",
+      "block_type": "statement",
+      "line_start": 380,
+      "line_end": 381,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0176",
+      "raw_text": "Federalist views on central Constitution and a strong central government.",
+      "block_type": "statement",
+      "line_start": 382,
+      "line_end": 382,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0177",
+      "raw_text": "Brutus No. 1) government and democracy. Madison’s arguments in Federalist No. 10 § Professional focused on the superiority of a large republic Development > in controlling the “mischiefs of faction,”",
+      "block_type": "statement",
+      "line_start": 383,
+      "line_end": 389,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0178",
+      "raw_text": "Teaching and delegating authority to elected representatives Assessing Module— and dispersing power between the states and",
+      "block_type": "statement",
+      "line_start": 390,
+      "line_end": 393,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0179",
+      "raw_text": "Unit 1: Source Analysis national government.",
+      "block_type": "statement",
+      "line_start": 394,
+      "line_end": 395,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0180",
+      "raw_text": "and Argumentation",
+      "block_type": "statement",
+      "line_start": 396,
+      "line_end": 396,
+      "heading_path": [
+        "§ LO 1.3.A EK 1.3.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0181",
+      "raw_text": "EK 1.3.A.2",
+      "block_type": "heading",
+      "line_start": 397,
+      "line_end": 397,
+      "heading_path": [
+        "EK 1.3.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0182",
+      "raw_text": "Anti-Federalists opposed the ratification of the",
+      "block_type": "statement",
+      "line_start": 398,
+      "line_end": 398,
+      "heading_path": [
+        "EK 1.3.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0183",
+      "raw_text": "Constitution and wanted more power reserved to state governments rather than a strong central government. Anti-Federalist writings, including Brutus No. 1, adhered to popular democratic theory that emphasized the benefits of a small, decentralized republic while warning of the dangers to personal liberty from a large, centralized government. |",
+      "block_type": "statement",
+      "line_start": 399,
+      "line_end": 407,
+      "heading_path": [
+        "EK 1.3.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0184",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 40",
+      "block_type": "statement",
+      "line_start": 408,
+      "line_end": 408,
+      "heading_path": [
+        "EK 1.3.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0185",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 409,
+      "line_end": 410,
+      "heading_path": [
+        "EK 1.3.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0186",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 412,
+      "line_end": 412,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0187",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 413,
+      "line_end": 414,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0188",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 415,
+      "line_end": 415,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0189",
+      "raw_text": "TOPIC 1.4",
+      "block_type": "heading",
+      "line_start": 416,
+      "line_end": 416,
+      "heading_path": [
+        "TOPIC 1.4"
+      ]
+    },
+    {
+      "block_id": "blk_0190",
+      "raw_text": "Source Analysis Challenges of 4.B",
+      "block_type": "statement",
+      "line_start": 417,
+      "line_end": 419,
+      "heading_path": [
+        "TOPIC 1.4"
+      ]
+    },
+    {
+      "block_id": "blk_0191",
+      "raw_text": "Explain how the argument or perspective in the source the Articles of relates to political principles, institutions, processes, policies, and behaviors.",
+      "block_type": "statement",
+      "line_start": 420,
+      "line_end": 425,
+      "heading_path": [
+        "TOPIC 1.4"
+      ]
+    },
+    {
+      "block_id": "blk_0192",
+      "raw_text": "Confederation",
+      "block_type": "statement",
+      "line_start": 426,
+      "line_end": 426,
+      "heading_path": [
+        "TOPIC 1.4"
+      ]
+    },
+    {
+      "block_id": "blk_0193",
+      "raw_text": "Required Course Content ILLUSTRATIVE EXAMPLES",
+      "block_type": "statement",
+      "line_start": 427,
+      "line_end": 427,
+      "heading_path": [
+        "TOPIC 1.4"
+      ]
+    },
+    {
+      "block_id": "blk_0194",
+      "raw_text": "(NOT REQUIRED)",
+      "block_type": "heading",
+      "line_start": 428,
+      "line_end": 428,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0195",
+      "raw_text": "§ State constitutions during the postcolonial period",
+      "block_type": "statement",
+      "line_start": 429,
+      "line_end": 432,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0196",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 433,
+      "line_end": 433,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0197",
+      "raw_text": "AVAILABLE RESOURCE",
+      "block_type": "heading",
+      "line_start": 434,
+      "line_end": 434,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0198",
+      "raw_text": "§",
+      "block_type": "statement",
+      "line_start": 435,
+      "line_end": 435,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0199",
+      "raw_text": "LO 1.4.A EK 1.4.A.1",
+      "block_type": "heading",
+      "line_start": 436,
+      "line_end": 436,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0200",
+      "raw_text": "Classroom Resources > Analytical Reading",
+      "block_type": "statement",
+      "line_start": 437,
+      "line_end": 438,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0201",
+      "raw_text": "Explain the relationship Specific incidents and legal challenges that (Articles of between key provisions of highlighted key weaknesses of the Articles of Confederation) the Articles of Confederation, Confederation are represented by the: and the debate over granting i. Lack of centralized military power to the federal government address Shays’ Rebellion greater power formerly ii. Lack of an executive branch to enforce reserved to the states.",
+      "block_type": "statement",
+      "line_start": 439,
+      "line_end": 450,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0202",
+      "raw_text": "laws, including taxation iii. Lack of a national court system iv. Lack of power to regulate interstate commerce v. Lack of the exclusive power to coin money |",
+      "block_type": "statement",
+      "line_start": 451,
+      "line_end": 456,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0203",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 41",
+      "block_type": "statement",
+      "line_start": 457,
+      "line_end": 457,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0204",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 458,
+      "line_end": 459,
+      "heading_path": [
+        "LO 1.4.A EK 1.4.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0205",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 461,
+      "line_end": 461,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0206",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 462,
+      "line_end": 463,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0207",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 464,
+      "line_end": 464,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0208",
+      "raw_text": "TOPIC 1.5",
+      "block_type": "heading",
+      "line_start": 465,
+      "line_end": 465,
+      "heading_path": [
+        "TOPIC 1.5"
+      ]
+    },
+    {
+      "block_id": "blk_0209",
+      "raw_text": "Concept Application",
+      "block_type": "statement",
+      "line_start": 466,
+      "line_end": 466,
+      "heading_path": [
+        "TOPIC 1.5"
+      ]
+    },
+    {
+      "block_id": "blk_0210",
+      "raw_text": "Ratification of the 1.E",
+      "block_type": "statement",
+      "line_start": 467,
+      "line_end": 468,
+      "heading_path": [
+        "TOPIC 1.5"
+      ]
+    },
+    {
+      "block_id": "blk_0211",
+      "raw_text": "Explain how political principles, institutions, U.S. Constitution processes, policies, and behaviors apply to different scenarios in context.",
+      "block_type": "statement",
+      "line_start": 469,
+      "line_end": 474,
+      "heading_path": [
+        "TOPIC 1.5"
+      ]
+    },
+    {
+      "block_id": "blk_0212",
+      "raw_text": "Required Course Content",
+      "block_type": "statement",
+      "line_start": 475,
+      "line_end": 475,
+      "heading_path": [
+        "TOPIC 1.5"
+      ]
+    },
+    {
+      "block_id": "blk_0213",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 476,
+      "line_end": 476,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0214",
+      "raw_text": "LO 1.5.A EK 1.5.A.1",
+      "block_type": "heading",
+      "line_start": 477,
+      "line_end": 477,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0215",
+      "raw_text": "Explain the impact of Compromises deemed necessary for political negotiation ratification of the Constitution included the and compromise at the following: Constitutional Convention i. Great (Connecticut) Compromise, which on the development of the created a dual (bicameral) system of constitutional system.",
+      "block_type": "statement",
+      "line_start": 478,
+      "line_end": 485,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0216",
+      "raw_text": "congressional representation with the",
+      "block_type": "statement",
+      "line_start": 486,
+      "line_end": 486,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0217",
+      "raw_text": "House of Representatives based on each state’s population and the Senate representing each state equally ii. Electoral College, which created a system for electing the president by electors from each state rather than by popular vote or by congressional vote iii. Three-Fifths Compromise, which provided a formula for calculating a state’s enslaved population for purposes of representation in the House and for taxation iv. Postponing until 1808 a decision whether to ban the importation of enslaved persons v. Agreement to add a Bill of Rights to address concerns of the Anti-Federalists",
+      "block_type": "statement",
+      "line_start": 487,
+      "line_end": 501,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0218",
+      "raw_text": "EK 1.5.A.2",
+      "block_type": "heading",
+      "line_start": 502,
+      "line_end": 502,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0219",
+      "raw_text": "Debates about self-government during the drafting of the Constitution necessitated the drafting of an amendment process in Article",
+      "block_type": "statement",
+      "line_start": 503,
+      "line_end": 505,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0220",
+      "raw_text": "V that entailed either a two-thirds vote in both houses or a proposal from two-thirds of the state legislatures, with final ratification determined by three-fourths of the states.",
+      "block_type": "statement",
+      "line_start": 506,
+      "line_end": 509,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0221",
+      "raw_text": "continued on next page |",
+      "block_type": "statement",
+      "line_start": 510,
+      "line_end": 511,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0222",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 42",
+      "block_type": "statement",
+      "line_start": 512,
+      "line_end": 512,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0223",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 513,
+      "line_end": 514,
+      "heading_path": [
+        "EK 1.5.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0224",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 516,
+      "line_end": 516,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0225",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 517,
+      "line_end": 518,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0226",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 519,
+      "line_end": 519,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0227",
+      "raw_text": "LO 1.5.A EK 1.5.A.3",
+      "block_type": "heading",
+      "line_start": 520,
+      "line_end": 520,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0228",
+      "raw_text": "Explain the impact of The compromises necessary to secure political negotiation ratification of the Constitution left some and compromise at the matters unresolved that continue to generate",
+      "block_type": "statement",
+      "line_start": 521,
+      "line_end": 523,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0229",
+      "raw_text": "Constitutional Convention discussion and debate today.",
+      "block_type": "statement",
+      "line_start": 524,
+      "line_end": 524,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0230",
+      "raw_text": "on the development of the EK 1.5.A.4 constitutional system.",
+      "block_type": "statement",
+      "line_start": 525,
+      "line_end": 526,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0231",
+      "raw_text": "The debate over the role of the national government, the powers of state governments, and the rights of individuals remains at the heart of present-day constitutional issues about democracy and governmental power, as represented by: i. Debates about government surveillance resulting from the federal government’s response to the 9/11 attacks ii. Debates about the role of government in public school education |",
+      "block_type": "statement",
+      "line_start": 527,
+      "line_end": 538,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0232",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 43",
+      "block_type": "statement",
+      "line_start": 539,
+      "line_end": 539,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0233",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 540,
+      "line_end": 541,
+      "heading_path": [
+        "LO 1.5.A EK 1.5.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0234",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 543,
+      "line_end": 543,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0235",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 544,
+      "line_end": 545,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0236",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 546,
+      "line_end": 546,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0237",
+      "raw_text": "TOPIC 1.6",
+      "block_type": "heading",
+      "line_start": 547,
+      "line_end": 547,
+      "heading_path": [
+        "TOPIC 1.6"
+      ]
+    },
+    {
+      "block_id": "blk_0238",
+      "raw_text": "Source Analysis Principles of 4.B",
+      "block_type": "statement",
+      "line_start": 548,
+      "line_end": 550,
+      "heading_path": [
+        "TOPIC 1.6"
+      ]
+    },
+    {
+      "block_id": "blk_0239",
+      "raw_text": "Explain how the argument or perspective in the American Government source relates to political principles, institutions, processes, policies, and behaviors.",
+      "block_type": "statement",
+      "line_start": 551,
+      "line_end": 557,
+      "heading_path": [
+        "TOPIC 1.6"
+      ]
+    },
+    {
+      "block_id": "blk_0240",
+      "raw_text": "ILLUSTRATIVE EXAMPLES Required Course Content",
+      "block_type": "statement",
+      "line_start": 558,
+      "line_end": 558,
+      "heading_path": [
+        "TOPIC 1.6"
+      ]
+    },
+    {
+      "block_id": "blk_0241",
+      "raw_text": "(NOT REQUIRED)",
+      "block_type": "heading",
+      "line_start": 559,
+      "line_end": 559,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0242",
+      "raw_text": "§ Religious Freedom",
+      "block_type": "statement",
+      "line_start": 560,
+      "line_end": 561,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0243",
+      "raw_text": "Restoration Act of 1993 § Impeachment",
+      "block_type": "statement",
+      "line_start": 562,
+      "line_end": 564,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0244",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 565,
+      "line_end": 565,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0245",
+      "raw_text": "proceedings against",
+      "block_type": "statement",
+      "line_start": 566,
+      "line_end": 566,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0246",
+      "raw_text": "Presidents Andrew LO 1.6.A EK 1.6.A.1",
+      "block_type": "statement",
+      "line_start": 567,
+      "line_end": 567,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0247",
+      "raw_text": "Johnson, Richard Nixon,",
+      "block_type": "statement",
+      "line_start": 568,
+      "line_end": 568,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0248",
+      "raw_text": "Explain the constitutional The specific and separate powers delegated to and Bill Clinton principles of separation of Congress, the president, and the courts allow § Congressional powers and checks and each branch to check and balance the power response to the Obama balances. of the other branches, ensuring no one branch administration’s becomes too powerful.",
+      "block_type": "statement",
+      "line_start": 569,
+      "line_end": 578,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0249",
+      "raw_text": "executive actions on",
+      "block_type": "statement",
+      "line_start": 579,
+      "line_end": 579,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0250",
+      "raw_text": "EK 1.6.A.2",
+      "block_type": "heading",
+      "line_start": 580,
+      "line_end": 580,
+      "heading_path": [
+        "EK 1.6.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0251",
+      "raw_text": "immigration",
+      "block_type": "statement",
+      "line_start": 581,
+      "line_end": 581,
+      "heading_path": [
+        "EK 1.6.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0252",
+      "raw_text": "AVAILABLE RESOURCE",
+      "block_type": "heading",
+      "line_start": 582,
+      "line_end": 582,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0253",
+      "raw_text": "Federalist No. 51 explains how constitutional § provisions of separation of powers and checks",
+      "block_type": "statement",
+      "line_start": 583,
+      "line_end": 585,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0254",
+      "raw_text": "Classroom Resources >",
+      "block_type": "statement",
+      "line_start": 586,
+      "line_end": 586,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0255",
+      "raw_text": "Analytical Reading and balances control potential abuses by (Federalist No. 51) majorities.",
+      "block_type": "statement",
+      "line_start": 587,
+      "line_end": 589,
+      "heading_path": [
+        "AVAILABLE RESOURCE"
+      ]
+    },
+    {
+      "block_id": "blk_0256",
+      "raw_text": "LO 1.6.B EK 1.6.B.1",
+      "block_type": "heading",
+      "line_start": 590,
+      "line_end": 590,
+      "heading_path": [
+        "LO 1.6.B EK 1.6.B.1"
+      ]
+    },
+    {
+      "block_id": "blk_0257",
+      "raw_text": "Explain the effects of Separation of powers and checks and balances separation of powers and creates multiple access points for stakeholders checks and balances for the and institutions to influence public policy.",
+      "block_type": "statement",
+      "line_start": 591,
+      "line_end": 593,
+      "heading_path": [
+        "LO 1.6.B EK 1.6.B.1"
+      ]
+    },
+    {
+      "block_id": "blk_0258",
+      "raw_text": "U.S. political system.",
+      "block_type": "statement",
+      "line_start": 594,
+      "line_end": 594,
+      "heading_path": [
+        "LO 1.6.B EK 1.6.B.1"
+      ]
+    },
+    {
+      "block_id": "blk_0259",
+      "raw_text": "EK 1.6.B.2",
+      "block_type": "heading",
+      "line_start": 595,
+      "line_end": 595,
+      "heading_path": [
+        "EK 1.6.B.2"
+      ]
+    },
+    {
+      "block_id": "blk_0260",
+      "raw_text": "Checks and balances and separation of powers allow legal actions to be taken against public officials deemed to have abused their power.",
+      "block_type": "statement",
+      "line_start": 596,
+      "line_end": 598,
+      "heading_path": [
+        "EK 1.6.B.2"
+      ]
+    },
+    {
+      "block_id": "blk_0261",
+      "raw_text": "Those legal actions include the process of impeachment (the House formally charges an official with abuse of power or misconduct) and removal (if the official is convicted in a Senate impeachment trial). |",
+      "block_type": "statement",
+      "line_start": 599,
+      "line_end": 604,
+      "heading_path": [
+        "EK 1.6.B.2"
+      ]
+    },
+    {
+      "block_id": "blk_0262",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Descriptionn Course Framework V.1 44",
+      "block_type": "statement",
+      "line_start": 605,
+      "line_end": 605,
+      "heading_path": [
+        "EK 1.6.B.2"
+      ]
+    },
+    {
+      "block_id": "blk_0263",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 606,
+      "line_end": 607,
+      "heading_path": [
+        "EK 1.6.B.2"
+      ]
+    },
+    {
+      "block_id": "blk_0264",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 609,
+      "line_end": 609,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0265",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 610,
+      "line_end": 611,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0266",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 612,
+      "line_end": 612,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0267",
+      "raw_text": "TOPIC 1.7",
+      "block_type": "heading",
+      "line_start": 613,
+      "line_end": 613,
+      "heading_path": [
+        "TOPIC 1.7"
+      ]
+    },
+    {
+      "block_id": "blk_0268",
+      "raw_text": "Argumentation Relationship Between 5.A",
+      "block_type": "statement",
+      "line_start": 614,
+      "line_end": 616,
+      "heading_path": [
+        "TOPIC 1.7"
+      ]
+    },
+    {
+      "block_id": "blk_0269",
+      "raw_text": "Articulate a defensible claim/thesis.",
+      "block_type": "statement",
+      "line_start": 617,
+      "line_end": 618,
+      "heading_path": [
+        "TOPIC 1.7"
+      ]
+    },
+    {
+      "block_id": "blk_0270",
+      "raw_text": "the States and National Government",
+      "block_type": "statement",
+      "line_start": 619,
+      "line_end": 620,
+      "heading_path": [
+        "TOPIC 1.7"
+      ]
+    },
+    {
+      "block_id": "blk_0271",
+      "raw_text": "Required Course Content ILLUSTRATIVE EXAMPLES",
+      "block_type": "statement",
+      "line_start": 621,
+      "line_end": 621,
+      "heading_path": [
+        "TOPIC 1.7"
+      ]
+    },
+    {
+      "block_id": "blk_0272",
+      "raw_text": "(NOT REQUIRED)",
+      "block_type": "heading",
+      "line_start": 622,
+      "line_end": 622,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0273",
+      "raw_text": "§",
+      "block_type": "statement",
+      "line_start": 623,
+      "line_end": 623,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0274",
+      "raw_text": "National Recovery Act of 1933 §",
+      "block_type": "statement",
+      "line_start": 624,
+      "line_end": 626,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0275",
+      "raw_text": "Devolution revolution of",
+      "block_type": "statement",
+      "line_start": 627,
+      "line_end": 627,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0276",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 628,
+      "line_end": 628,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0277",
+      "raw_text": "the 1980s §",
+      "block_type": "statement",
+      "line_start": 629,
+      "line_end": 630,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0278",
+      "raw_text": "LO 1.7.A EK 1.7.A.1",
+      "block_type": "heading",
+      "line_start": 631,
+      "line_end": 631,
+      "heading_path": [
+        "LO 1.7.A EK 1.7.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0279",
+      "raw_text": "Federal response to natural disasters such",
+      "block_type": "statement",
+      "line_start": 632,
+      "line_end": 633,
+      "heading_path": [
+        "LO 1.7.A EK 1.7.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0280",
+      "raw_text": "Explain how the Federalism is the system of government in as Hurricanes Katrina constitutional allocation of the United States in which power is shared and Sandy power between the national between the national and state governments. § National Minimum and state governments The exclusive and concurrent powers of the",
+      "block_type": "statement",
+      "line_start": 634,
+      "line_end": 641,
+      "heading_path": [
+        "LO 1.7.A EK 1.7.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0281",
+      "raw_text": "Drinking Age Act affects society. national and state governments help explain of 1984 the ongoing debate over the balance of power § State-level legalization between the two levels.",
+      "block_type": "statement",
+      "line_start": 642,
+      "line_end": 648,
+      "heading_path": [
+        "LO 1.7.A EK 1.7.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0282",
+      "raw_text": "of marijuana for",
+      "block_type": "statement",
+      "line_start": 649,
+      "line_end": 649,
+      "heading_path": [
+        "LO 1.7.A EK 1.7.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0283",
+      "raw_text": "EK 1.7.A.2",
+      "block_type": "heading",
+      "line_start": 650,
+      "line_end": 650,
+      "heading_path": [
+        "EK 1.7.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0284",
+      "raw_text": "personal use as",
+      "block_type": "statement",
+      "line_start": 651,
+      "line_end": 651,
+      "heading_path": [
+        "EK 1.7.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0285",
+      "raw_text": "Exclusive power is held by only one level of in Colorado and Washington (2012) government and includes enumerated powers",
+      "block_type": "statement",
+      "line_start": 652,
+      "line_end": 654,
+      "heading_path": [
+        "EK 1.7.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0286",
+      "raw_text": "AVAILABLE RESOURCES",
+      "block_type": "heading",
+      "line_start": 655,
+      "line_end": 655,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0287",
+      "raw_text": "that are written in the Constitution, and implied § powers that are not specifically written in",
+      "block_type": "statement",
+      "line_start": 656,
+      "line_end": 658,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0288",
+      "raw_text": "Classroom Resources > the Constitution but are inferred from the ◆ Federalism, the",
+      "block_type": "statement",
+      "line_start": 659,
+      "line_end": 662,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0289",
+      "raw_text": "Necessary and Proper Clause.",
+      "block_type": "statement",
+      "line_start": 663,
+      "line_end": 663,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0290",
+      "raw_text": "Commerce Clause,",
+      "block_type": "statement",
+      "line_start": 664,
+      "line_end": 664,
+      "heading_path": [
+        "AVAILABLE RESOURCES"
+      ]
+    },
+    {
+      "block_id": "blk_0291",
+      "raw_text": "EK 1.7.A.3",
+      "block_type": "heading",
+      "line_start": 665,
+      "line_end": 665,
+      "heading_path": [
+        "EK 1.7.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0292",
+      "raw_text": "and the Tenth Amendment",
+      "block_type": "statement",
+      "line_start": 666,
+      "line_end": 667,
+      "heading_path": [
+        "EK 1.7.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0293",
+      "raw_text": "Reserved powers are those not delegated or enumerated to the national government but are reserved to the states, as stated in the Tenth Amendment.",
+      "block_type": "statement",
+      "line_start": 668,
+      "line_end": 671,
+      "heading_path": [
+        "EK 1.7.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0294",
+      "raw_text": "EK 1.7.A.4",
+      "block_type": "heading",
+      "line_start": 672,
+      "line_end": 672,
+      "heading_path": [
+        "EK 1.7.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0295",
+      "raw_text": "Concurrent powers are shared between both levels of government such as the power to collect taxes, the power to make and enforce laws and the power to build roads.",
+      "block_type": "statement",
+      "line_start": 673,
+      "line_end": 676,
+      "heading_path": [
+        "EK 1.7.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0296",
+      "raw_text": "EK 1.7.A.5",
+      "block_type": "heading",
+      "line_start": 677,
+      "line_end": 677,
+      "heading_path": [
+        "EK 1.7.A.5"
+      ]
+    },
+    {
+      "block_id": "blk_0297",
+      "raw_text": "The distribution of power between national and state governments is demonstrated by: i. Revenue sharing (national funding with almost no restrictions to the states on its use and is the least used form of funding) continued on next page |",
+      "block_type": "statement",
+      "line_start": 678,
+      "line_end": 684,
+      "heading_path": [
+        "EK 1.7.A.5"
+      ]
+    },
+    {
+      "block_id": "blk_0298",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 45",
+      "block_type": "statement",
+      "line_start": 685,
+      "line_end": 685,
+      "heading_path": [
+        "EK 1.7.A.5"
+      ]
+    },
+    {
+      "block_id": "blk_0299",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 686,
+      "line_end": 687,
+      "heading_path": [
+        "EK 1.7.A.5"
+      ]
+    },
+    {
+      "block_id": "blk_0300",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 689,
+      "line_end": 689,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0301",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 690,
+      "line_end": 691,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0302",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 692,
+      "line_end": 692,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0303",
+      "raw_text": "LO 1.7.A",
+      "block_type": "heading",
+      "line_start": 693,
+      "line_end": 693,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0304",
+      "raw_text": "ii. Block grants (national funding with minimal restrictions to the states on its use and is",
+      "block_type": "bullet",
+      "line_start": 694,
+      "line_end": 695,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0305",
+      "raw_text": "Explain how the preferred by the states) constitutional allocation of power between the national iii. Categorical grants (national funding that and state governments is restricted to specific categories of affects society.",
+      "block_type": "statement",
+      "line_start": 696,
+      "line_end": 703,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0306",
+      "raw_text": "expenditures, is preferred by the national government, and is the most commonly used form of funding) iv. Mandates (requirements by the national government of the states) |",
+      "block_type": "statement",
+      "line_start": 704,
+      "line_end": 709,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0307",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 46",
+      "block_type": "statement",
+      "line_start": 710,
+      "line_end": 710,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0308",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 711,
+      "line_end": 712,
+      "heading_path": [
+        "LO 1.7.A"
+      ]
+    },
+    {
+      "block_id": "blk_0309",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 714,
+      "line_end": 714,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0310",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 715,
+      "line_end": 716,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0311",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 717,
+      "line_end": 717,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0312",
+      "raw_text": "TOPIC 1.8",
+      "block_type": "heading",
+      "line_start": 718,
+      "line_end": 718,
+      "heading_path": [
+        "TOPIC 1.8"
+      ]
+    },
+    {
+      "block_id": "blk_0313",
+      "raw_text": "SCOTUS",
+      "block_type": "heading",
+      "line_start": 719,
+      "line_end": 719,
+      "heading_path": [
+        "SCOTUS"
+      ]
+    },
+    {
+      "block_id": "blk_0314",
+      "raw_text": "Application Constitutional 2.A",
+      "block_type": "statement",
+      "line_start": 720,
+      "line_end": 722,
+      "heading_path": [
+        "SCOTUS"
+      ]
+    },
+    {
+      "block_id": "blk_0315",
+      "raw_text": "Describe the facts, Interpretations issue, holding, reasoning, decision, and majority opinion of required of Federalism",
+      "block_type": "statement",
+      "line_start": 723,
+      "line_end": 728,
+      "heading_path": [
+        "SCOTUS"
+      ]
+    },
+    {
+      "block_id": "blk_0316",
+      "raw_text": "Supreme Court cases.",
+      "block_type": "statement",
+      "line_start": 729,
+      "line_end": 729,
+      "heading_path": [
+        "SCOTUS"
+      ]
+    },
+    {
+      "block_id": "blk_0317",
+      "raw_text": "Required Course Content OPTIONAL READINGS AND",
+      "block_type": "statement",
+      "line_start": 730,
+      "line_end": 730,
+      "heading_path": [
+        "SCOTUS"
+      ]
+    },
+    {
+      "block_id": "blk_0318",
+      "raw_text": "ILLUSTRATIVE EXAMPLES",
+      "block_type": "heading",
+      "line_start": 731,
+      "line_end": 731,
+      "heading_path": [
+        "ILLUSTRATIVE EXAMPLES"
+      ]
+    },
+    {
+      "block_id": "blk_0319",
+      "raw_text": "(NOT REQUIRED)",
+      "block_type": "heading",
+      "line_start": 732,
+      "line_end": 732,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0320",
+      "raw_text": "§",
+      "block_type": "statement",
+      "line_start": 733,
+      "line_end": 733,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0321",
+      "raw_text": "Daniel Elazar, “Opening the Third Century of",
+      "block_type": "statement",
+      "line_start": 734,
+      "line_end": 735,
+      "heading_path": [
+        "(NOT REQUIRED)"
+      ]
+    },
+    {
+      "block_id": "blk_0322",
+      "raw_text": "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE",
+      "block_type": "heading",
+      "line_start": 736,
+      "line_end": 736,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0323",
+      "raw_text": "American Federalism:",
+      "block_type": "statement",
+      "line_start": 737,
+      "line_end": 737,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0324",
+      "raw_text": "Issues and Prospects,”",
+      "block_type": "statement",
+      "line_start": 738,
+      "line_end": 738,
+      "heading_path": [
+        "LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE"
+      ]
+    },
+    {
+      "block_id": "blk_0325",
+      "raw_text": "LO 1.8.A EK 1.8.A.1",
+      "block_type": "heading",
+      "line_start": 739,
+      "line_end": 739,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0326",
+      "raw_text": "Annals of the American",
+      "block_type": "statement",
+      "line_start": 740,
+      "line_end": 740,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0327",
+      "raw_text": "Academy of Political",
+      "block_type": "statement",
+      "line_start": 741,
+      "line_end": 741,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0328",
+      "raw_text": "Explain how the balance The Due Process and Equal Protection Clauses and Social Science of power between national of the Fourteenth Amendment give the national (1990) and state governments has government the power to enforce protections §",
+      "block_type": "statement",
+      "line_start": 742,
+      "line_end": 747,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0329",
+      "raw_text": "New Deal legislation changed over time based for any person against the states, but Supreme § on interpretations of the Court interpretations can influence the extent",
+      "block_type": "statement",
+      "line_start": 748,
+      "line_end": 751,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0330",
+      "raw_text": "Defense of Marriage",
+      "block_type": "statement",
+      "line_start": 752,
+      "line_end": 752,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0331",
+      "raw_text": "Supreme Court of the United of those protections.",
+      "block_type": "statement",
+      "line_start": 753,
+      "line_end": 753,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0332",
+      "raw_text": "Act of 1996 and state marriage laws",
+      "block_type": "statement",
+      "line_start": 754,
+      "line_end": 755,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0333",
+      "raw_text": "States. EK 1.8.A.2 §",
+      "block_type": "statement",
+      "line_start": 756,
+      "line_end": 757,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0334",
+      "raw_text": "No Child Left Behind Act",
+      "block_type": "statement",
+      "line_start": 758,
+      "line_end": 758,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0335",
+      "raw_text": "The Commerce Clause gives the national of 2001 government the power to regulate interstate § Violence Against commerce, but Supreme Court interpretations",
+      "block_type": "statement",
+      "line_start": 759,
+      "line_end": 764,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0336",
+      "raw_text": "Women Act of 1994 can influence the extent of this power.",
+      "block_type": "statement",
+      "line_start": 765,
+      "line_end": 766,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0337",
+      "raw_text": "and United States v.",
+      "block_type": "statement",
+      "line_start": 767,
+      "line_end": 767,
+      "heading_path": [
+        "LO 1.8.A EK 1.8.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0338",
+      "raw_text": "EK 1.8.A.3",
+      "block_type": "heading",
+      "line_start": 768,
+      "line_end": 768,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0339",
+      "raw_text": "Morrison (2000)",
+      "block_type": "statement",
+      "line_start": 769,
+      "line_end": 769,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0340",
+      "raw_text": "The Necessary and Proper Clause gives AVAILABLE RESOURCES §",
+      "block_type": "statement",
+      "line_start": 770,
+      "line_end": 771,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0341",
+      "raw_text": "Congress the power to make laws related",
+      "block_type": "statement",
+      "line_start": 772,
+      "line_end": 772,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0342",
+      "raw_text": "Classroom Resources > to carrying out its enumerated powers, but ◆ Analytical Reading",
+      "block_type": "statement",
+      "line_start": 773,
+      "line_end": 776,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0343",
+      "raw_text": "Supreme Court interpretations can influence (The Tenth the extent of these powers.",
+      "block_type": "statement",
+      "line_start": 777,
+      "line_end": 779,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0344",
+      "raw_text": "Amendment to the",
+      "block_type": "statement",
+      "line_start": 780,
+      "line_end": 780,
+      "heading_path": [
+        "EK 1.8.A.3"
+      ]
+    },
+    {
+      "block_id": "blk_0345",
+      "raw_text": "EK 1.8.A.4",
+      "block_type": "heading",
+      "line_start": 781,
+      "line_end": 781,
+      "heading_path": [
+        "EK 1.8.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0346",
+      "raw_text": "United States) ◆",
+      "block_type": "statement",
+      "line_start": 782,
+      "line_end": 783,
+      "heading_path": [
+        "EK 1.8.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0347",
+      "raw_text": "The Supremacy Clause gives the national Federalism, the Commerce Clause, government and its laws general precedence and the Tenth over states’ laws, but Supreme Court Amendment interpretations may affect when specific actions exceed this constitutional power. |",
+      "block_type": "statement",
+      "line_start": 784,
+      "line_end": 792,
+      "heading_path": [
+        "EK 1.8.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0348",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 47",
+      "block_type": "statement",
+      "line_start": 793,
+      "line_end": 793,
+      "heading_path": [
+        "EK 1.8.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0349",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 794,
+      "line_end": 795,
+      "heading_path": [
+        "EK 1.8.A.4"
+      ]
+    },
+    {
+      "block_id": "blk_0350",
+      "raw_text": "UNIT",
+      "block_type": "heading",
+      "line_start": 797,
+      "line_end": 797,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0351",
+      "raw_text": "Foundations of American Democracy 1",
+      "block_type": "statement",
+      "line_start": 798,
+      "line_end": 799,
+      "heading_path": [
+        "UNIT"
+      ]
+    },
+    {
+      "block_id": "blk_0352",
+      "raw_text": "SUGGESTED SKILL",
+      "block_type": "heading",
+      "line_start": 800,
+      "line_end": 800,
+      "heading_path": [
+        "SUGGESTED SKILL"
+      ]
+    },
+    {
+      "block_id": "blk_0353",
+      "raw_text": "TOPIC 1.9",
+      "block_type": "heading",
+      "line_start": 801,
+      "line_end": 801,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0354",
+      "raw_text": "Argumentation",
+      "block_type": "statement",
+      "line_start": 802,
+      "line_end": 802,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0355",
+      "raw_text": "Federalism in Action 5.B",
+      "block_type": "statement",
+      "line_start": 803,
+      "line_end": 804,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0356",
+      "raw_text": "Support an argument or claim/thesis using relevant evidence.",
+      "block_type": "statement",
+      "line_start": 805,
+      "line_end": 807,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0357",
+      "raw_text": "AVAILABLE RESOURCES Required Course Content §",
+      "block_type": "statement",
+      "line_start": 808,
+      "line_end": 809,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0358",
+      "raw_text": "Classroom Resources > ◆ Federalism, the Commerce",
+      "block_type": "statement",
+      "line_start": 810,
+      "line_end": 813,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0359",
+      "raw_text": "Clause, and the LEARNING OBJECTIVE ESSENTIAL KNOWLEDGE Tenth Amendment",
+      "block_type": "statement",
+      "line_start": 814,
+      "line_end": 815,
+      "heading_path": [
+        "TOPIC 1.9"
+      ]
+    },
+    {
+      "block_id": "blk_0360",
+      "raw_text": "LO 1.9.A EK 1.9.A.1",
+      "block_type": "heading",
+      "line_start": 816,
+      "line_end": 816,
+      "heading_path": [
+        "LO 1.9.A EK 1.9.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0361",
+      "raw_text": "Explain how the distribution The allocation of powers between national and of powers between national state governments creates multiple access and state governments points for stakeholders and institutions to impacts policymaking. influence public policy.",
+      "block_type": "statement",
+      "line_start": 817,
+      "line_end": 820,
+      "heading_path": [
+        "LO 1.9.A EK 1.9.A.1"
+      ]
+    },
+    {
+      "block_id": "blk_0362",
+      "raw_text": "EK 1.9.A.2",
+      "block_type": "heading",
+      "line_start": 821,
+      "line_end": 821,
+      "heading_path": [
+        "EK 1.9.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0363",
+      "raw_text": "National policymaking is constrained by the sharing of concurrent powers with state governments. |",
+      "block_type": "statement",
+      "line_start": 822,
+      "line_end": 825,
+      "heading_path": [
+        "EK 1.9.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0364",
+      "raw_text": "AP U.S. Government and Politics Course and Exam Description Course Framework V.1 48",
+      "block_type": "statement",
+      "line_start": 826,
+      "line_end": 826,
+      "heading_path": [
+        "EK 1.9.A.2"
+      ]
+    },
+    {
+      "block_id": "blk_0365",
+      "raw_text": "Return to Table of Contents © 2023 College Board",
+      "block_type": "statement",
+      "line_start": 827,
+      "line_end": 828,
+      "heading_path": [
+        "EK 1.9.A.2"
+      ]
+    }
+  ]
+}

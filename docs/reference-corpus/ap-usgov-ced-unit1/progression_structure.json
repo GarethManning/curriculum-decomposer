@@ -1,0 +1,25 @@
+{
+  "band_labels": [
+    "Unit 1"
+  ],
+  "band_count": 1,
+  "age_range_hint": "ages 16-18 (College Board AP US Government and Politics; typically Grades 11-12)",
+  "source_type": "us_ap_course_unit",
+  "detection_confidence": "high",
+  "detection_rationale": "Source slug '5-ap-usgov-ced-unit1' matches AP US Government and Politics pattern; unit 1 extracted. Single-unit source — band_count=1.",
+  "band_self_reflection_prompts": {
+    "Unit 1": "Describe one constitutional principle you have studied in this unit. How does it connect to debates happening in the news today, and where do you see tension between the principle as written and its application?"
+  },
+  "band_details": [
+    {
+      "label": "Unit 1",
+      "approximate_age_range": "ages 16-18",
+      "approximate_grade_year": "Grade 11-12",
+      "developmental_descriptor": "AP US Government and Politics learners in Unit 1 establish the constitutional foundations of American democracy: Enlightenment principles, Articles of Confederation limitations, Constitutional Convention compromises, Federalist and Anti-Federalist arguments, and the structure of constitutional government. They apply political science concepts to primary-source analysis and argument construction at a college-preparatory level."
+    }
+  ],
+  "progression_philosophy": "AP US Government and Politics is a college-level course, typically taken in Grades 11-12. The Course and Exam Description (CED) organises content into 9 units; this source covers Unit 1 only. Within-unit progression is a teacher and district decision; the CED specifies learning objectives and essential knowledge, not a week-by-week sequence. Single-band output reflects the source's own unit granularity, not an absence of internal structure within the teaching period. Per College Board AP US Government and Politics CED V.1 (2023).",
+  "source_reference": "/Users/garethmanning/Github/curriculum-harness/outputs/phase0-test-ap-usgov-unit1-requeued-2026-04-18/_source.pdf",
+  "source_slug": "5-ap-usgov-ced-unit1",
+  "detection_module_version": "0.1.0"
+}

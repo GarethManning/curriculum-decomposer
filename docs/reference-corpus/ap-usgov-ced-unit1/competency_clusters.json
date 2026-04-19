@@ -1,0 +1,855 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "5-ap-usgov-ced-unit1",
+  "model": "claude-haiku-4-5-20251001",
+  "temperature": 0.3,
+  "runs": 3,
+  "overall_stability_flag": "cluster_unstable",
+  "overall_stability_diagnostics": [
+    "cluster_count_differs: counts across runs = [13, 12, 13]",
+    "cluster_missing_in_run2: canonical clusters [7] have no Jaccard>=0.30 match",
+    "cluster_missing_in_run3: canonical clusters [7] have no Jaccard>=0.30 match"
+  ],
+  "unassigned_kud_item_ids": [],
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "competency_name": "Democratic Ideals and Constitutional Foundations",
+      "competency_definition": "The ability to explain how democratic ideals of natural rights, social contract, popular sovereignty, and limited government are reflected in foundational U.S. documents and the Constitution.",
+      "kud_item_ids": [
+        "blk_0027_item_01",
+        "blk_0125_item_01",
+        "blk_0137_item_01",
+        "blk_0137_item_02",
+        "blk_0142_item_01",
+        "blk_0142_item_02",
+        "blk_0142_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0027",
+        "blk_0125",
+        "blk_0137",
+        "blk_0142"
+      ],
+      "source_position_start": 49,
+      "source_position_end": 298,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 7
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Democratic Ideals and Constitutional Foundations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0027_item_01",
+            "blk_0125_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0142_item_01",
+            "blk_0142_item_02",
+            "blk_0142_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Democratic Ideals and Constitutional Foundations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0027_item_01",
+            "blk_0125_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0142_item_01",
+            "blk_0142_item_02",
+            "blk_0142_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Democratic Ideals and Constitutional Foundations",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0027_item_01",
+            "blk_0125_item_01",
+            "blk_0137_item_01",
+            "blk_0137_item_02",
+            "blk_0142_item_01",
+            "blk_0142_item_02",
+            "blk_0142_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Models of Representative Democracy",
+      "competency_definition": "The ability to explain how participatory, pluralist, and elite models of representative democracy are reflected in U.S. institutions and contemporary political behavior.",
+      "kud_item_ids": [
+        "blk_0155_item_01",
+        "blk_0155_item_02",
+        "blk_0159_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0155",
+        "blk_0159"
+      ],
+      "source_position_start": 334,
+      "source_position_end": 349,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Models of Representative Democracy",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0155_item_01",
+            "blk_0155_item_02",
+            "blk_0159_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Models of Representative Democracy",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0155_item_01",
+            "blk_0155_item_02",
+            "blk_0159_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Models of Representative Democracy",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0155_item_01",
+            "blk_0155_item_02",
+            "blk_0159_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Federalist and Anti-Federalist Perspectives",
+      "competency_definition": "The ability to explain Federalist and Anti-Federalist views on central government and democracy, and how these perspectives shaped constitutional debate.",
+      "kud_item_ids": [
+        "blk_0176_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0176"
+      ],
+      "source_position_start": 382,
+      "source_position_end": 382,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Federalist and Anti-Federalist Perspectives",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0176_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Federalist and Anti-Federalist Perspectives on Government",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0176_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Federalist and Anti-Federalist Perspectives",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0176_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_04",
+      "competency_name": "Weaknesses of the Articles of Confederation",
+      "competency_definition": "The ability to explain how specific incidents and legal challenges revealed key weaknesses of the Articles of Confederation and prompted debate over federal power.",
+      "kud_item_ids": [
+        "blk_0201_item_01",
+        "blk_0201_item_02",
+        "blk_0201_item_03"
+      ],
+      "source_block_ids": [
+        "blk_0201"
+      ],
+      "source_position_start": 439,
+      "source_position_end": 439,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 2,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Weaknesses of the Articles of Confederation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0201_item_01",
+            "blk_0201_item_02",
+            "blk_0201_item_03"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Weaknesses of the Articles of Confederation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0201_item_01",
+            "blk_0201_item_02",
+            "blk_0201_item_03"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Weaknesses of the Articles of Confederation",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0201_item_01",
+            "blk_0201_item_02",
+            "blk_0201_item_03"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_05",
+      "competency_name": "Constitutional Compromises and Ratification",
+      "competency_definition": "The ability to explain how compromises made during the Constitutional Convention and ratification debates shaped the structure and amendment process of the Constitution.",
+      "kud_item_ids": [
+        "blk_0217_item_01",
+        "blk_0217_item_02",
+        "blk_0217_item_03",
+        "blk_0217_item_04",
+        "blk_0217_item_05",
+        "blk_0219_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0217",
+        "blk_0219"
+      ],
+      "source_position_start": 487,
+      "source_position_end": 503,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Constitutional Compromises and Ratification",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0217_item_01",
+            "blk_0217_item_02",
+            "blk_0217_item_03",
+            "blk_0217_item_04",
+            "blk_0217_item_05",
+            "blk_0219_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Constitutional Compromises and Ratification",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0217_item_01",
+            "blk_0217_item_02",
+            "blk_0217_item_03",
+            "blk_0217_item_04",
+            "blk_0217_item_05",
+            "blk_0219_item_01",
+            "blk_0231_item_01",
+            "blk_0231_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Constitutional Compromises and Ratification",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0217_item_01",
+            "blk_0217_item_02",
+            "blk_0217_item_03",
+            "blk_0217_item_04",
+            "blk_0217_item_05",
+            "blk_0219_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_06",
+      "competency_name": "Separation of Powers and Checks and Balances",
+      "competency_definition": "The ability to explain how separation of powers and checks and balances distribute governmental authority and prevent abuse of power.",
+      "kud_item_ids": [
+        "blk_0248_item_01",
+        "blk_0248_item_02",
+        "blk_0248_item_03",
+        "blk_0255_item_01",
+        "blk_0255_item_02",
+        "blk_0257_item_01",
+        "blk_0257_item_02",
+        "blk_0260_item_01",
+        "blk_0261_item_01",
+        "blk_0261_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0248",
+        "blk_0255",
+        "blk_0257",
+        "blk_0260",
+        "blk_0261"
+      ],
+      "source_position_start": 569,
+      "source_position_end": 599,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 8,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Separation of Powers and Checks and Balances",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0248_item_01",
+            "blk_0248_item_02",
+            "blk_0248_item_03",
+            "blk_0255_item_01",
+            "blk_0255_item_02",
+            "blk_0257_item_01",
+            "blk_0257_item_02",
+            "blk_0260_item_01",
+            "blk_0261_item_01",
+            "blk_0261_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Separation of Powers and Checks and Balances",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0248_item_01",
+            "blk_0248_item_02",
+            "blk_0248_item_03",
+            "blk_0255_item_01",
+            "blk_0255_item_02",
+            "blk_0257_item_01",
+            "blk_0257_item_02",
+            "blk_0260_item_01",
+            "blk_0261_item_01",
+            "blk_0261_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Separation of Powers and Checks and Balances",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0248_item_01",
+            "blk_0248_item_02",
+            "blk_0248_item_03",
+            "blk_0255_item_01",
+            "blk_0255_item_02",
+            "blk_0257_item_01",
+            "blk_0257_item_02",
+            "blk_0260_item_01",
+            "blk_0261_item_01",
+            "blk_0261_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_07",
+      "competency_name": "Federalism and the Distribution of Power",
+      "competency_definition": "The ability to explain how federalism allocates power between national and state governments through exclusive, reserved, and concurrent powers, and how this distribution affects policymaking.",
+      "kud_item_ids": [
+        "blk_0285_item_01",
+        "blk_0289_item_01",
+        "blk_0293_item_01",
+        "blk_0295_item_01",
+        "blk_0297_item_01",
+        "blk_0297_item_02",
+        "blk_0304_item_01",
+        "blk_0306_item_01",
+        "blk_0306_item_02",
+        "blk_0343_item_01",
+        "blk_0347_item_01",
+        "blk_0347_item_02",
+        "blk_0361_item_01",
+        "blk_0361_item_02",
+        "blk_0363_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0285",
+        "blk_0289",
+        "blk_0293",
+        "blk_0295",
+        "blk_0297",
+        "blk_0304",
+        "blk_0306",
+        "blk_0343",
+        "blk_0347",
+        "blk_0361",
+        "blk_0363"
+      ],
+      "source_position_start": 652,
+      "source_position_end": 822,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 14,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Federalism and the Distribution of Power",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0285_item_01",
+            "blk_0289_item_01",
+            "blk_0293_item_01",
+            "blk_0295_item_01",
+            "blk_0297_item_01",
+            "blk_0297_item_02",
+            "blk_0304_item_01",
+            "blk_0306_item_01",
+            "blk_0306_item_02",
+            "blk_0343_item_01",
+            "blk_0347_item_01",
+            "blk_0347_item_02",
+            "blk_0361_item_01",
+            "blk_0361_item_02",
+            "blk_0363_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Federalism and the Distribution of Power",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0285_item_01",
+            "blk_0289_item_01",
+            "blk_0293_item_01",
+            "blk_0295_item_01",
+            "blk_0297_item_01",
+            "blk_0297_item_02",
+            "blk_0304_item_01",
+            "blk_0306_item_01",
+            "blk_0306_item_02",
+            "blk_0343_item_01",
+            "blk_0347_item_01",
+            "blk_0347_item_02",
+            "blk_0361_item_01",
+            "blk_0361_item_02",
+            "blk_0363_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Federalism and the Distribution of Power",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0285_item_01",
+            "blk_0289_item_01",
+            "blk_0293_item_01",
+            "blk_0295_item_01",
+            "blk_0297_item_01",
+            "blk_0297_item_02",
+            "blk_0304_item_01",
+            "blk_0306_item_01",
+            "blk_0306_item_02",
+            "blk_0343_item_01",
+            "blk_0347_item_01",
+            "blk_0347_item_02",
+            "blk_0361_item_01",
+            "blk_0361_item_02",
+            "blk_0363_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_08",
+      "competency_name": "Contemporary Constitutional Issues",
+      "competency_definition": "The ability to analyse how historical constitutional debates over governmental power and individual rights continue to shape present-day policy issues.",
+      "kud_item_ids": [
+        "blk_0231_item_01",
+        "blk_0231_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0231"
+      ],
+      "source_position_start": 527,
+      "source_position_end": 527,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 1,
+        "Type 2": 1
+      },
+      "stability_flag": "cluster_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Contemporary Constitutional Issues",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0231_item_01",
+            "blk_0231_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        },
+        {
+          "run": 3,
+          "competency_name": null,
+          "dominant_knowledge_type": null,
+          "kud_item_ids": [],
+          "note": "no_matched_cluster"
+        }
+      ],
+      "stability_diagnostics": [
+        "unmatched_in_run2",
+        "unmatched_in_run3"
+      ]
+    },
+    {
+      "cluster_id": "cluster_09",
+      "competency_name": "Describing Political Principles and Institutions",
+      "competency_definition": "The ability to describe political principles, institutions, processes, policies, and behaviors in different scenarios and contexts.",
+      "kud_item_ids": [
+        "blk_0063_item_01",
+        "blk_0063_item_02",
+        "blk_0119_item_01",
+        "blk_0119_item_02",
+        "blk_0167_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0063",
+        "blk_0119",
+        "blk_0167"
+      ],
+      "source_position_start": 141,
+      "source_position_end": 365,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 1": 3,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Describing Political Principles and Institutions",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0063_item_01",
+            "blk_0063_item_02",
+            "blk_0119_item_01",
+            "blk_0119_item_02",
+            "blk_0167_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Describing Political Principles and Institutions in Context",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0063_item_01",
+            "blk_0063_item_02",
+            "blk_0119_item_01",
+            "blk_0119_item_02",
+            "blk_0167_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Describing Political Principles and Institutions",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0063_item_01",
+            "blk_0063_item_02",
+            "blk_0119_item_01",
+            "blk_0119_item_02",
+            "blk_0167_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_10",
+      "competency_name": "Analysing Arguments and Sources",
+      "competency_definition": "The ability to analyse and explain how arguments and perspectives in sources relate to political principles, institutions, processes, policies, and behaviors.",
+      "kud_item_ids": [
+        "blk_0071_item_01",
+        "blk_0077_item_01",
+        "blk_0191_item_01",
+        "blk_0239_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0071",
+        "blk_0077",
+        "blk_0191",
+        "blk_0239"
+      ],
+      "source_position_start": 155,
+      "source_position_end": 551,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 4
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Analysing Arguments and Sources",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0071_item_01",
+            "blk_0077_item_01",
+            "blk_0191_item_01",
+            "blk_0239_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Analyzing Source Arguments and Perspectives",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0071_item_01",
+            "blk_0077_item_01",
+            "blk_0191_item_01",
+            "blk_0239_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Analysing Sources and Arguments",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0071_item_01",
+            "blk_0077_item_01",
+            "blk_0191_item_01",
+            "blk_0239_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_11",
+      "competency_name": "Applying Concepts to Scenarios",
+      "competency_definition": "The ability to explain how political principles, institutions, processes, policies, and behaviors apply to different scenarios and contexts.",
+      "kud_item_ids": [
+        "blk_0074_item_01",
+        "blk_0211_item_01",
+        "blk_0211_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0074",
+        "blk_0211"
+      ],
+      "source_position_start": 160,
+      "source_position_end": 469,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2,
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Applying Concepts to Scenarios",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0074_item_01",
+            "blk_0211_item_01",
+            "blk_0211_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Applying Political Principles to Scenarios",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0074_item_01",
+            "blk_0211_item_01",
+            "blk_0211_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Applying Constitutional Principles to Scenarios",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0074_item_01",
+            "blk_0211_item_01",
+            "blk_0211_item_02",
+            "blk_0231_item_01",
+            "blk_0231_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_12",
+      "competency_name": "Constructing and Supporting Arguments",
+      "competency_definition": "The ability to articulate defensible claims and support arguments with relevant evidence, explaining causes, effects, and significance.",
+      "kud_item_ids": [
+        "blk_0053_item_01",
+        "blk_0053_item_02",
+        "blk_0080_item_01",
+        "blk_0087_item_01",
+        "blk_0269_item_01",
+        "blk_0356_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0053",
+        "blk_0080",
+        "blk_0087",
+        "blk_0269",
+        "blk_0356"
+      ],
+      "source_position_start": 118,
+      "source_position_end": 805,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 6
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Constructing and Supporting Arguments",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0053_item_01",
+            "blk_0053_item_02",
+            "blk_0080_item_01",
+            "blk_0087_item_01",
+            "blk_0269_item_01",
+            "blk_0356_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Constructing and Supporting Arguments",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0053_item_01",
+            "blk_0053_item_02",
+            "blk_0080_item_01",
+            "blk_0087_item_01",
+            "blk_0269_item_01",
+            "blk_0356_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Constructing and Supporting Arguments",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0053_item_01",
+            "blk_0053_item_02",
+            "blk_0080_item_01",
+            "blk_0087_item_01",
+            "blk_0269_item_01",
+            "blk_0356_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_13",
+      "competency_name": "Understanding Governmental Terminology",
+      "competency_definition": "The ability to know and understand the definitions of governmental terms and concepts essential to studying U.S. government.",
+      "kud_item_ids": [
+        "blk_0045_item_01",
+        "blk_0084_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0045",
+        "blk_0084"
+      ],
+      "source_position_start": 99,
+      "source_position_end": 172,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Understanding Governmental Terminology",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0045_item_01",
+            "blk_0084_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Understanding Governmental Terminology and Supreme Court Cases",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0045_item_01",
+            "blk_0084_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Understanding Governmental Terminology",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0045_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ]
+}

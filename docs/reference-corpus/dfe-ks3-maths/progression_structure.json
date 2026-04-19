@@ -1,0 +1,25 @@
+{
+  "band_labels": [
+    "Key Stage 3"
+  ],
+  "band_count": 1,
+  "age_range_hint": "ages 11-14 (DfE statutory national curriculum framework, England; KS3 = Years 7-9)",
+  "source_type": "england_nc_ks3_only",
+  "detection_confidence": "high",
+  "detection_rationale": "DfE assets.publishing.service.gov.uk source with secondary NC path detected (host=assets.publishing.service.gov.uk). KS3-only single-band structure.",
+  "band_self_reflection_prompts": {
+    "Key Stage 3": "Describe one thing you have noticed about how you approach this subject this term. When does your approach work well, and when does it not?"
+  },
+  "band_details": [
+    {
+      "label": "Key Stage 3",
+      "approximate_age_range": "ages 11-14",
+      "approximate_grade_year": "Years 7-9",
+      "developmental_descriptor": "Key Stage 3 learners engage with a broad curriculum across specialised subject disciplines. They develop critical thinking, abstract reasoning, and the capacity to work independently and collaboratively, building on Key Stage 2 foundations toward Key Stage 4 qualifications."
+    }
+  ],
+  "progression_philosophy": "Key Stage 3 is a statutory curriculum phase defined by the DfE national curriculum framework, covering ages 11-14 (Years 7-9). Programmes of study specify what pupils should be taught; progression within KS3 (year-by-year sequencing) is a school and teacher decision. Single-band output reflects the source's own Key Stage granularity. Per DfE statutory national curriculum framework (England).",
+  "source_reference": "https://assets.publishing.service.gov.uk/media/5a7c1408e5274a1f5cc75a68/SECONDARY_national_curriculum_-_Mathematics.pdf",
+  "source_slug": "5-dfe-ks3-maths-pdf",
+  "detection_module_version": "0.1.0"
+}

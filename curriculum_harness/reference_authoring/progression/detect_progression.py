@@ -806,6 +806,145 @@ def _nz_curriculum_structure(
 
 
 # ---------------------------------------------------------------------------
+# AP US Government and Politics CED — single-unit band.
+#
+# College Board AP US Government and Politics Course and Exam Description
+# (CED). The course is organised into 9 units. Each unit is a standalone
+# content scope, analogous to a single Common Core grade domain. The AP
+# course is designed for Grade 11-12 (ages 16-18) per College Board
+# grade-level alignment guidance.
+#
+# Unit 1: Foundations of American Democracy. Big Ideas 1-2 (Constitutionalism,
+# Liberal Democracy), approximately 15-22% of AP exam weighting.
+# Per College Board CED V.1 (2023).
+# ---------------------------------------------------------------------------
+
+_AP_USGOV_UNIT_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Unit 1",
+        "approximate_age_range": "ages 16-18",
+        "approximate_grade_year": "Grade 11-12",
+        "developmental_descriptor": (
+            "AP US Government and Politics learners in Unit 1 establish the "
+            "constitutional foundations of American democracy: Enlightenment "
+            "principles, Articles of Confederation limitations, Constitutional "
+            "Convention compromises, Federalist and Anti-Federalist arguments, "
+            "and the structure of constitutional government. They apply political "
+            "science concepts to primary-source analysis and argument construction "
+            "at a college-preparatory level."
+        ),
+    }
+]
+
+_AP_USGOV_PROGRESSION_PHILOSOPHY = (
+    "AP US Government and Politics is a college-level course, typically taken in "
+    "Grades 11-12. The Course and Exam Description (CED) organises content into 9 "
+    "units; this source covers Unit 1 only. Within-unit progression is a teacher "
+    "and district decision; the CED specifies learning objectives and essential "
+    "knowledge, not a week-by-week sequence. Single-band output reflects the "
+    "source's own unit granularity, not an absence of internal structure within "
+    "the teaching period. Per College Board AP US Government and Politics CED V.1 "
+    "(2023)."
+)
+
+_AP_USGOV_SELF_REFLECTION_PROMPTS: dict[str, str] = {
+    "Unit 1": (
+        "Describe one constitutional principle you have studied in this unit. "
+        "How does it connect to debates happening in the news today, and where "
+        "do you see tension between the principle as written and its application?"
+    )
+}
+
+
+def _ap_usgov_unit_structure(
+    *, unit: int, source_reference: str, source_slug: str, rationale: str
+) -> "ProgressionStructure":
+    label = f"Unit {unit}"
+    return ProgressionStructure(
+        band_labels=[label],
+        band_count=1,
+        age_range_hint=(
+            "ages 16-18 (College Board AP US Government and Politics; "
+            "typically Grades 11-12)"
+        ),
+        source_type="us_ap_course_unit",
+        detection_confidence="high",
+        detection_rationale=rationale,
+        band_self_reflection_prompts=_AP_USGOV_SELF_REFLECTION_PROMPTS,
+        band_details=_AP_USGOV_UNIT_BAND_DETAILS,
+        progression_philosophy=_AP_USGOV_PROGRESSION_PHILOSOPHY,
+        source_reference=source_reference,
+        source_slug=source_slug,
+    )
+
+
+# ---------------------------------------------------------------------------
+# DfE England National Curriculum — KS3-only single-band.
+#
+# The DfE publishes subject-specific programmes of study for individual Key
+# Stages. When the source is a single-KS document (e.g. the KS3 Mathematics
+# programme of study), the correct structure is a single band for that Key
+# Stage, not the full KS1-4 sequence. The source text typically references
+# adjacent Key Stages (e.g. "building on Key Stage 2"), which would mislead
+# the source-text-inspection fallback into producing a multi-KS structure.
+# This curated entry prevents that false-positive.
+#
+# Age range per DfE statutory national curriculum framework: KS3 ages 11-14
+# (Years 7-9). Source reference URL pattern: assets.publishing.service.gov.uk.
+# ---------------------------------------------------------------------------
+
+_DFE_KS3_BAND_DETAILS: list[dict] = [
+    {
+        "label": "Key Stage 3",
+        "approximate_age_range": "ages 11-14",
+        "approximate_grade_year": "Years 7-9",
+        "developmental_descriptor": (
+            "Key Stage 3 learners engage with a broad curriculum across specialised "
+            "subject disciplines. They develop critical thinking, abstract reasoning, "
+            "and the capacity to work independently and collaboratively, building on "
+            "Key Stage 2 foundations toward Key Stage 4 qualifications."
+        ),
+    }
+]
+
+_DFE_KS3_PROGRESSION_PHILOSOPHY = (
+    "Key Stage 3 is a statutory curriculum phase defined by the DfE national "
+    "curriculum framework, covering ages 11-14 (Years 7-9). Programmes of study "
+    "specify what pupils should be taught; progression within KS3 (year-by-year "
+    "sequencing) is a school and teacher decision. Single-band output reflects "
+    "the source's own Key Stage granularity. Per DfE statutory national curriculum "
+    "framework (England)."
+)
+
+_DFE_KS3_SELF_REFLECTION_PROMPTS: dict[str, str] = {
+    "Key Stage 3": (
+        "Describe one thing you have noticed about how you approach this subject this "
+        "term. When does your approach work well, and when does it not?"
+    )
+}
+
+
+def _dfe_ks3_structure(
+    *, source_reference: str, source_slug: str, rationale: str
+) -> "ProgressionStructure":
+    return ProgressionStructure(
+        band_labels=["Key Stage 3"],
+        band_count=1,
+        age_range_hint=(
+            "ages 11-14 (DfE statutory national curriculum framework, England; KS3 = Years 7-9)"
+        ),
+        source_type="england_nc_ks3_only",
+        detection_confidence="high",
+        detection_rationale=rationale,
+        band_self_reflection_prompts=_DFE_KS3_SELF_REFLECTION_PROMPTS,
+        band_details=_DFE_KS3_BAND_DETAILS,
+        progression_philosophy=_DFE_KS3_PROGRESSION_PHILOSOPHY,
+        source_reference=source_reference,
+        source_slug=source_slug,
+    )
+
+
+# ---------------------------------------------------------------------------
 # URL- and slug-based dispatch
 # ---------------------------------------------------------------------------
 
@@ -994,6 +1133,65 @@ def _lookup_high_confidence(
             source_slug=source_slug,
             rationale=(
                 f"Source slug '{source_slug}' matches NZ Curriculum pattern."
+            ),
+        )
+
+    # --- AP US Government and Politics CED (unit-scoped source) --------------
+    # Matches slugs containing 'ap-usgov' or 'ap-us-gov'. The unit number is
+    # extracted from the slug (e.g. 'ap-usgov-ced-unit1' → unit=1). Defaults
+    # to unit 1 if no unit number is found. URL match: ap.collegeboard.org.
+    if matched is not None:
+        host, path = matched
+        if "collegeboard.org" in host and ("usgov" in path or "us-gov" in path or "government" in path):
+            m_unit = re.search(r"unit[-_]?(\d+)", slug_lower)
+            unit = int(m_unit.group(1)) if m_unit else 1
+            return _ap_usgov_unit_structure(
+                unit=unit,
+                source_reference=source_reference,
+                source_slug=source_slug,
+                rationale=(
+                    f"AP US Government and Politics CED detected (host={host}); "
+                    f"unit {unit} extracted. Single-unit source — band_count=1."
+                ),
+            )
+    if "ap-usgov" in slug_lower or "ap-us-gov" in slug_lower:
+        m_unit = re.search(r"unit[-_]?(\d+)", slug_lower)
+        unit = int(m_unit.group(1)) if m_unit else 1
+        return _ap_usgov_unit_structure(
+            unit=unit,
+            source_reference=source_reference,
+            source_slug=source_slug,
+            rationale=(
+                f"Source slug '{source_slug}' matches AP US Government and Politics "
+                f"pattern; unit {unit} extracted. Single-unit source — band_count=1."
+            ),
+        )
+
+    # --- DfE England NC — KS3-only single-band --------------------------------
+    # Matches slugs containing 'dfe-ks3' or 'ks3-maths' / 'ks3-english', etc.
+    # Also matches the assets.publishing.service.gov.uk URL pattern for DfE
+    # subject-specific KS3 PDFs. This prevents the source-text-inspection
+    # fallback from producing a multi-KS structure because KS3 documents
+    # typically reference Key Stage 2 (as prior stage) in their introductory text.
+    if matched is not None:
+        host, path = matched
+        if "assets.publishing.service.gov.uk" in host and "secondary_national_curriculum" in path.replace("-", "_"):
+            return _dfe_ks3_structure(
+                source_reference=source_reference,
+                source_slug=source_slug,
+                rationale=(
+                    f"DfE assets.publishing.service.gov.uk source with secondary NC "
+                    f"path detected (host={host}). KS3-only single-band structure."
+                ),
+            )
+    if "dfe-ks3" in slug_lower or ("ks3" in slug_lower and ("dfe" in slug_lower or "maths" in slug_lower or "english" in slug_lower)):
+        return _dfe_ks3_structure(
+            source_reference=source_reference,
+            source_slug=source_slug,
+            rationale=(
+                f"Source slug '{source_slug}' matches DfE KS3 single-subject pattern. "
+                "KS3-only single-band structure (prevents multi-KS false positive from "
+                "source-text inspection on documents that reference KS2 as prior stage)."
             ),
         )
 

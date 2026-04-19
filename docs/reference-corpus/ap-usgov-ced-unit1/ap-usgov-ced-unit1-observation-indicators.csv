@@ -1,0 +1,8 @@
+## source_type,us_ap_course_unit
+## band_count,1
+## age_range_hint,ages 16-18 (College Board AP US Government and Politics; typically Grades 11-12)
+## detection_confidence,high
+## progression_philosophy,"AP US Government and Politics is a college-level course, typically taken in Grades 11-12. The Course and Exam Description (CED) organises content into 9 units; this source covers Unit 1 only. Within-unit progression is a teacher and district decision; the CED specifies learning objectives and essential knowledge, not a week-by-week sequence. Single-band output reflects the source's own unit granularity, not an absence of internal structure within the teaching period. Per College Board AP US Government and Politics CED V.1 (2023)."
+## band_detail | Unit 1,age_range=ages 16-18,grade_year=Grade 11-12,"AP US Government and Politics learners in Unit 1 establish the constitutional foundations of American democracy: Enlightenment principles, Articles of Confederation limitations, Constitutional Convention compromises, Federalist and Anti-Federalist arguments, and the structure of constitutional government. They apply political science concepts to primary-source analysis and argument construction at a college-preparatory level."
+
+competency_cluster,lt_id,lt_name,prerequisites,band,indicator_1,indicator_2,indicator_3,self_reflection_prompt,parent_prompt_1,parent_prompt_2,parent_prompt_3,observation_stability
