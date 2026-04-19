@@ -38,7 +38,10 @@ Source snapshot: `docs/run-snapshots/2026-04-19-session-4a-5-wales-cfw-health-we
   - stability: {'band_statements_unstable': 5, 'stable': 6}
 - Observation indicator sets (Type 3): **5**
   - stability: {'observation_indicators_unstable': 3, 'stable': 2}
-- Halted at any stage: 10
+- Criterion rubrics (Type 1/2): **12** (gate pass=11; halted=2)
+  - stability: {'stable': 5, 'rubric_unstable': 7}
+- Supporting components (Type 1/2): **9** (halted=2)
+- Halted at any stage: 14
 - Pipeline: all KUD halting gates passed
 
 ## Competencies
@@ -87,6 +90,60 @@ _No band statements produced._
 | Progression Step 3 | I can perform movement skills with precision and adapt them to different contexts. |
 | Progression Step 4 | I can perform complex movement sequences and explain how to improve my technique. |
 | Progression Step 5 | I can perform and evaluate movement skills across varied contexts, justifying choices made. |
+
+**Criterion rubric** — stability `rubric_unstable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares independent performance of skills with appropriate control, coordination, and technique, standing alone as evidence the LT is met without hedging language or framing Competent as incomplete.
+
+_Propositional-thin flag:_ this is a factual Type 1 LT; the rubric is necessarily compressed.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to perform movement or exercise skills. |
+| emerging | With support, attempts movement skills but demonstrates inconsistent control or incomplete technique. |
+| developing | Independently performs basic movement and exercise skills with generally correct technique but inconsistency in execution. |
+| competent | Independently performs movement, exercise, and activity skills with control, coordination, and technique appropriate to age and context. |
+| extending | Performs movement skills with precision and adapts technique fluently across varied contexts and increasing complexity. |
+
+**Supporting components** — stability `supporting_unstable`.
+
+_Co-construction plan:_
+- stage: Show students video clips or live demonstrations of the same movement skill performed at different quality levels and ask them to describe what they notice about control and technique.
+- stage: Guide students to identify the key differences between attempts that look shaky or incomplete versus smooth and controlled.
+- stage: Work together to name what 'control,' 'coordination,' and 'technique' mean in the context of their own age-appropriate activities.
+- stage: Have students sort movement examples into levels based on the language they've developed, then refine the descriptors together.
+- prompt: What do you see happening with the person's body when they perform this skill smoothly versus when they struggle?
+- prompt: What does it mean for a movement to have 'control' or 'good technique'?
+- prompt: How would you describe the difference between doing a skill with help and doing it all by yourself?
+- prompt: When might you need to change how you do a movement depending on where you are or what you're doing?
+- anchor-examples guidance: Choose movement examples from activities students actually do in class or at home, showing the same skill at clearly different levels of control and consistency. Select clips or demonstrations where the difference between shaky/incomplete and smooth/controlled is visually obvious.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to perform the movement or exercise skill. |
+| emerging | I can attempt movement skills with help, but my control and technique are not yet steady. |
+| developing | I can perform basic movement and exercise skills on my own with mostly correct technique, though I am not always consistent. |
+| competent | I can perform movement, exercise, and activity skills on my own with control, coordination, and technique that fit my age and what I am doing. |
+| extending | I can perform movement skills with precision and change my technique smoothly when the activity or setting is different or more challenging. |
+
+- self-check: Can I do this skill on my own, or do I still need help?
+- self-check: Is my movement smooth and controlled, or does it feel shaky or incomplete?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Invite the student to try the skill with you modeling it step by step alongside them.
+  - Break the skill into smaller, simpler parts and practice one part at a time with encouragement.
+- **emerging**
+  - Reduce the amount of support gradually and have the student practice the skill independently while you observe for moments of control.
+  - Focus feedback on one specific part of the technique that, when improved, will make the whole movement smoother.
+- **developing**
+  - Ask the student to perform the skill multiple times and notice which attempts feel most controlled; discuss what they did differently.
+  - Introduce the skill in a slightly different context or with a small variation to build consistency across situations.
+- **competent**
+  - Challenge the student to perform the skill in a new or more complex setting and reflect on how they adjusted their technique.
+  - Encourage the student to teach or demonstrate the skill to a peer, which deepens their awareness of precision and control.
 
 ##### Sustaining Motivation for Active Healthy Living — `cluster_01_lt_03`
 
@@ -265,6 +322,63 @@ _No band statements produced._
 | Progression Step 3 | I can explain how specific experiences affect my emotional responses and well-being. |
 | Progression Step 4 | I can analyse how my emotional responses to experiences influence my overall mental health. |
 | Progression Step 5 | I can evaluate and justify how patterns of experiences shape my emotional well-being across different contexts. |
+
+**Criterion rubric** — stability `rubric_unstable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to connect experiences to emotional responses. |
+| emerging | With support, identifies one experience and names a feeling, but connection is unclear. |
+| developing | Independently describes an experience and its emotional response but lacks depth in explaining well-being impact. |
+| competent | Independently explains how specific experiences and emotional responses influence mental health and well-being. |
+| extending | Explains how experiences and emotional responses influence well-being and relates this to broader life patterns. |
+
+_Prerequisite edges:_
+- `cluster_04_lt_01` [ontological_prerequisite/high] — Learner must be able to identify and name feelings before explaining how those feelings influence well-being.
+- `cluster_02_lt_02` [pedagogical_sequencing/medium] — Understanding physical experiences and their effects supports recognition of how embodied experiences connect to emotional well-being.
+- `cluster_08_lt_01` [pedagogical_sequencing/medium] — Understanding healthy relationships as fundamental to well-being provides context for recognizing how relational experiences influence emotional responses.
+
+**Supporting components** — stability `stable`.
+
+_Co-construction plan:_
+- stage: Show students a short video or image of someone experiencing an emotion and ask them to name what they see.
+- stage: Guide students to brainstorm their own experiences and the feelings that came with them.
+- stage: Work together to identify what makes a connection between experience and feeling clear and strong.
+- stage: Co-create language for each level that describes how well someone can explain this connection and its effect on well-being.
+- prompt: What experience have you had that changed how you felt?
+- prompt: How did that feeling affect you—your body, your thoughts, or how you treated others?
+- prompt: What words would help someone understand the link between what happened and how it made you feel?
+- prompt: When you explain this connection really well, what details do you include that make it clear?
+- anchor-examples guidance: Choose one anchor that shows a clear, simple connection between an experience and a feeling, and one that goes deeper by explaining how that feeling shaped the student's well-being or behavior over time. Look for examples where the student's own voice is present and the reasoning is visible.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to connect an experience to a feeling or explained how it affected my well-being. |
+| emerging | I can name one experience and one feeling, but I need help explaining how they are connected. |
+| developing | I can describe an experience and the feeling it caused, but I do not fully explain how it affected my mental health or well-being. |
+| competent | I can explain how a specific experience and my emotional response influenced my mental health and well-being. |
+| extending | I can explain how experiences and emotional responses influence my well-being and connect this to patterns I notice in my life. |
+
+- self-check: Can I describe a real experience and name the feeling it caused?
+- self-check: Can I explain how that feeling affected my well-being, my thoughts, or my actions?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to share one thing that happened to them recently and how it made them feel.
+  - Model aloud how you connect an experience to a feeling, then ask them to try with their own example.
+- **emerging**
+  - Ask follow-up questions to deepen the connection: How did that feeling change what you did next or how you felt about yourself?
+  - Provide a sentence frame to help them explain the link: When [experience] happened, I felt [feeling] because …
+- **developing**
+  - Ask the student to explain one way their feeling affected their well-being, such as their sleep, mood, or relationships.
+  - Encourage them to add one more detail that shows why this experience mattered to their mental health.
+- **competent**
+  - Invite the student to explore a second experience and compare how different experiences shape their well-being differently.
+  - Ask them to reflect on whether they notice patterns in how certain types of experiences affect them over time.
 
 ##### Recognising Emotions as Fluid — `cluster_03_lt_02`
 
@@ -451,6 +565,65 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 4 | I can evaluate complex decision impacts across multiple contexts and justify how various influencing factors shape outcomes. |
 | Progression Step 5 | I can analyse decision impacts and influencing factors in unfamiliar situations and apply insights to inform future choices. |
 
+**Criterion rubric** — stability `rubric_unstable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as independently demonstrated at the LT's level of demand, with no hedging language or framing of incompleteness.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to analyse decision impacts or influencing factors. |
+| emerging | With support, identifies some impacts or factors but reasoning is incomplete or inaccurate. |
+| developing | Independently identifies impacts on self and others and some influencing factors but misses broader societal scope. |
+| competent | Independently analyses how decisions impact self, others, and society, and identifies key factors influencing decision-making. |
+| extending | Analyses decision impacts and factors across multiple contexts and recognises interconnections between influences. |
+
+_Prerequisite edges:_
+- `cluster_03_lt_01` [ontological_prerequisite/high] — Understanding how experiences and emotions influence well-being is foundational to analysing how decisions impact self and others.
+- `cluster_07_lt_01` [ontological_prerequisite/high] — Identifying social influences on identity and behaviour is essential to recognising factors that influence decision-making.
+- `cluster_02_lt_02` [pedagogical_sequencing/medium] — Demonstrating physical competence provides concrete experience of personal decision-making and its outcomes, supporting analysis of impacts.
+
+**Supporting components** — stability `supporting_unstable`.
+
+_Co-construction plan:_
+- stage: Show students a real decision scenario and ask them to list all the people and groups affected by it.
+- stage: Guide students to distinguish between immediate impacts and broader societal ripples.
+- stage: Introduce the concept of influencing factors and have students brainstorm what shapes how people decide.
+- stage: Work together to sort impacts and factors into categories and discuss what makes reasoning complete or incomplete.
+- stage: Co-author level descriptors by asking students what evidence would show they can do each level.
+- prompt: Who is affected by this decision, and in what ways?
+- prompt: What happens beyond the immediate situation—how might this decision affect the wider community or society?
+- prompt: What things influence how someone makes a decision—their beliefs, circumstances, information, or something else?
+- prompt: How do you know if your analysis of a decision is thorough or if you've missed something important?
+- prompt: Can you think of a time when one decision's impact led to another decision being made?
+- anchor-examples guidance: Choose decisions that are age-appropriate and familiar to students, with clear impacts on multiple levels (personal, peer, community). Select examples where influencing factors are visible but not obvious, so students must reason through them.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to analyse how decisions affect people or what influences decision-making. |
+| emerging | I can identify some people or groups affected by a decision and name some factors that influence decisions, but my reasoning has gaps or mistakes. |
+| developing | I can independently identify how a decision affects myself and others, and I can name some factors that influence decisions, but I do not yet consider the wider society. |
+| competent | I can independently analyse how a decision impacts myself, others, and society, and I can identify the key factors that influence how people decide. |
+| extending | I can analyse decision impacts and influencing factors across different situations and recognise how influences are connected to each other. |
+
+- self-check: Have I considered how this decision affects me, the people around me, and the wider community?
+- self-check: Can I explain what factors influenced this decision and how they are connected?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to name one person or group affected by a decision and describe what happened to them.
+  - Prompt the student to think of one thing that might make someone choose one way instead of another.
+- **emerging**
+  - Help the student check their reasoning by asking 'How do you know that?' or 'What evidence shows that?'
+  - Guide the student to add one more impact or factor they may have overlooked.
+- **developing**
+  - Ask the student to step back and consider: 'Who else might be affected by this decision beyond the people we've already named?'
+  - Encourage the student to explore how the decision might affect the community or society as a whole.
+- **competent**
+  - Invite the student to explore a different context or scenario and apply their analysis skills there.
+  - Ask the student to trace how one influencing factor connects to or affects another factor.
+
 ##### Evaluating Implications and Risks in Decisions — `cluster_05_lt_02`
 
 **Definition.** I can evaluate the possible implications and risks of decisions for myself and others before deciding.
@@ -470,6 +643,64 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 3 | I can analyse risks and benefits of decisions in familiar situations independently. |
 | Progression Step 4 | I can evaluate implications and risks of decisions, considering multiple perspectives and outcomes. |
 | Progression Step 5 | I can evaluate complex implications and risks across unfamiliar contexts, justifying my reasoning. |
+
+**Criterion rubric** — stability `stable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as independently demonstrated at the LT's level of demand (evaluating implications and risks before deciding) without hedging language or framing it as incomplete.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to identify or evaluate decision implications or risks. |
+| emerging | With support, identifies some possible consequences but reasoning is incomplete or inaccurate. |
+| developing | Independently identifies implications and risks for self or others but misses broader or longer-term consequences. |
+| competent | Independently evaluates multiple implications and risks of decisions for self and others before deciding. |
+| extending | Evaluates implications and risks across interconnected contexts and anticipates second-order consequences. |
+
+_Prerequisite edges:_
+- `cluster_05_lt_01` [ontological_prerequisite/high] — Analysing decision impacts and influencing factors is foundational; evaluation of implications and risks builds directly on that analytical capability.
+- `cluster_03_lt_01` [pedagogical_sequencing/medium] — Understanding how experiences and emotions influence well-being supports recognition of emotional and personal implications in decision-making.
+
+**Supporting components** — stability `supporting_unstable`.
+
+_Co-construction plan:_
+- stage: Show students a real or realistic decision scenario and ask them to list every possible outcome they can think of.
+- stage: Guide students to sort their outcomes into categories: effects on self, effects on others, short-term, and long-term.
+- stage: Introduce the idea of risk and have students identify which outcomes are risky or uncertain.
+- stage: Work together to distinguish between surface-level consequences and deeper, connected consequences that ripple outward.
+- stage: Co-author level descriptors by asking students what it looks like when someone does or does not think through implications before deciding.
+- prompt: What could happen if you make this decision—for you and for people around you?
+- prompt: Which of these consequences might happen soon, and which might take weeks or months to show up?
+- prompt: What could go wrong, and how confident are you that you've thought of all the risks?
+- prompt: If one consequence happens, what else might that trigger down the line?
+- prompt: How would you describe someone who rushes into a decision without thinking, and someone who carefully weighs what might happen?
+- anchor-examples guidance: Choose decisions that are age-appropriate and personally relevant to students, with consequences that span both immediate and delayed effects, and that touch multiple people or contexts. Look for examples where surface-level thinking misses important ripple effects.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to think about what might happen before I decide. |
+| emerging | I can name some things that might happen if I make a decision, but I need help and my thinking might be incomplete or mixed up. |
+| developing | I can figure out on my own what might happen for me and for others, but I might miss consequences that take longer to show up or affect people further away. |
+| competent | I can think through several different implications and risks of a decision for myself and others before I decide. |
+| extending | I can evaluate how implications and risks connect across different situations and predict consequences that trigger other consequences. |
+
+- self-check: Have I thought about what happens to me and to other people if I make this choice?
+- self-check: Am I seeing only what happens right away, or am I also thinking about what might happen later or in other areas of my life?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to pause and name one thing that could happen if they make this decision.
+  - Model thinking aloud about a consequence, then ask them to name one more consequence you did not mention.
+- **emerging**
+  - Ask: Who else might be affected by this decision, and what might happen to them?
+  - Help the student separate immediate consequences from ones that might take longer to appear.
+- **developing**
+  - Push the student to think beyond the people directly involved: What other situations or people might be touched by this decision?
+  - Ask: If that consequence happens, what else might it cause to happen?
+- **competent**
+  - Invite the student to map out how one consequence might trigger a chain of other consequences.
+  - Challenge them to identify a risk they had not considered by asking about less obvious contexts or longer time horizons.
 
 ##### Valuing Collective Decision-Making Contributions — `cluster_05_lt_03`
 
@@ -560,6 +791,65 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 4 | I can explain how career pathway decisions create interconnected lifelong consequences across personal, financial, and social domains. |
 | Progression Step 5 | I can analyse and justify the significance of career choice consequences across domains in unfamiliar contexts. |
 
+**Criterion rubric** — stability `stable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor directly mirrors the LT definition without hedging language, frames the capability as demonstrated, and stands alone as evidence the target is met.
+
+_Propositional-thin flag:_ this is a factual Type 1 LT; the rubric is necessarily compressed.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to identify consequences of career choices. |
+| emerging | With support, names one or two consequences but descriptions lack detail or accuracy. |
+| developing | Independently identifies consequences across one or two domains but misses depth or breadth. |
+| competent | Identifies and describes significant lifelong consequences of career choices across personal, financial, and social domains. |
+| extending | Identifies consequences and explains how they interconnect across domains or evolve over time. |
+
+_Prerequisite edges:_
+- `cluster_05_lt_01` [ontological_prerequisite/high] — Identifying consequences requires understanding how decisions and actions impact self and others.
+- `cluster_07_lt_01` [pedagogical_sequencing/medium] — Understanding social influences on identity supports recognition of social consequences of career choices.
+- `cluster_03_lt_01` [pedagogical_sequencing/medium] — Understanding emotional well-being supports recognition of personal consequences of career pathways.
+
+**Supporting components** — stability `stable`.
+
+_Co-construction plan:_
+- stage: Show students a career choice scenario and ask them to brainstorm all the ways that choice might affect someone's life over time.
+- stage: Guide students to sort their brainstormed consequences into three domains: personal, financial, and social.
+- stage: Work together to distinguish between surface-level and significant consequences, discussing what makes a consequence worth describing.
+- stage: Co-create descriptors for each level by asking students what evidence would show they can identify and describe consequences well.
+- prompt: If someone chose to become a teacher, what are all the ways that decision might change their life—not just at the start, but years later?
+- prompt: Which of these consequences fit into personal (how you feel, your skills, your lifestyle), financial (money and resources), or social (relationships, community, status) categories?
+- prompt: Which consequences are surface-level and which ones are truly significant or life-changing?
+- prompt: What would it look like if you could identify consequences in all three domains with real detail and accuracy?
+- anchor-examples guidance: Choose career scenarios that naturally generate consequences across all three domains and that students can relate to or research easily. Select student work samples that show varying levels of depth—from naming one consequence vaguely to explaining how a financial consequence ripples into personal and social effects over decades.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to identify or describe consequences of career choices. |
+| emerging | I can name one or two consequences of a career choice, but my descriptions are unclear or not quite accurate. |
+| developing | I can identify consequences across one or two domains on my own, but I miss some important details or do not explore them deeply enough. |
+| competent | I can identify and describe significant lifelong consequences of career choices across personal, financial, and social domains. |
+| extending | I can identify consequences and explain how they connect to each other across domains or how they change over time. |
+
+- self-check: Have I identified consequences in all three domains: personal, financial, and social?
+- self-check: Are my descriptions detailed and accurate, and do they show why these consequences matter over a lifetime?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to pick one career and name just one thing that might change in their life because of that choice.
+  - Provide a sentence starter: 'If someone chose this career, they might experience a change in their [personal life / money / relationships] because…'
+- **emerging**
+  - Ask the student to pick one consequence they named and add two or three details that explain why it matters.
+  - Introduce the three domains and ask: 'Which domain does this consequence belong to, and can you find one consequence in a different domain?'
+- **developing**
+  - Ask the student to identify at least one consequence in the domain they have not yet explored.
+  - Prompt them to explain how one consequence might lead to another consequence over time.
+- **competent**
+  - Ask the student to trace how a consequence in one domain affects or connects to consequences in another domain.
+  - Invite them to predict how a consequence might change or deepen as someone moves through different life stages.
+
 ##### Making Informed Career Pathway Decisions — `cluster_06_lt_02`
 
 **Definition.** I can evaluate multiple career pathways and justify my choices by reasoning about their alignment with my values, abilities, and long-term goals.
@@ -617,6 +907,23 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 4 | I can analyse how multiple social influences interact to shape identity and justify my responses. |
 | Progression Step 5 | I can evaluate social influences on identity across different contexts and explain their impact on well-being. |
 
+**Criterion rubric** — stability `rubric_unstable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as demonstrated independently ('Identifies how...with clear reasoning') without hedging language, incompleteness markers, or positioning it as a way-station to Extending.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to identify social influences on identity. |
+| emerging | With support, names one or two social influences but descriptions lack clarity or accuracy. |
+| developing | Independently identifies several social influences on identity but explanations remain surface-level or incomplete. |
+| competent | Identifies how family, peers, culture, and media shape identity, values, behaviours, and well-being with clear reasoning. |
+| extending | Analyses how multiple social influences interact and conflict to shape identity across different contexts and life stages. |
+
+_Prerequisite edges:_
+- `cluster_03_lt_01` [ontological_prerequisite/high] — Understanding how experiences and emotional responses influence well-being is foundational to recognising how social influences shape identity and well-being.
+- `cluster_02_lt_02` [pedagogical_sequencing/medium] — Understanding self-care and respect for self supports recognition of how social influences affect behaviours and sense of self-worth.
+- `cluster_08_lt_01` [pedagogical_sequencing/medium] — Understanding healthy relationships and belonging provides context for identifying how social connections influence identity formation.
+
 ##### Analysing Cultural Development of Norms — `cluster_07_lt_02`
 
 **Definition.** I can analyse how norms and values develop within and across different cultural contexts.
@@ -636,6 +943,64 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 3 | I can explain how norms and values develop over time within a specific cultural group. |
 | Progression Step 4 | I can analyse how norms and values are shaped by historical, social, and environmental factors across cultures. |
 | Progression Step 5 | I can evaluate how norms and values develop and change across different cultural contexts and justify cultural perspectives. |
+
+**Criterion rubric** — stability `stable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as demonstrated ('Analyses how norms and values develop within and across different cultural contexts with reasoned explanation') and directly mirrors the LT's demand without hedging, incompleteness framing, or positioning it as a way-station to Extending.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to analyse cultural norms or values. |
+| emerging | With support, identifies some norms or values but analysis lacks depth or cultural context. |
+| developing | Independently describes how norms develop in one culture but struggles to compare across contexts. |
+| competent | Analyses how norms and values develop within and across different cultural contexts with reasoned explanation. |
+| extending | Analyses norms and values development across cultures and relates patterns to broader social systems. |
+
+_Prerequisite edges:_
+- `cluster_07_lt_01` [ontological_prerequisite/high] — Identifying social influences on identity is foundational to analysing how norms develop culturally.
+- `cluster_05_lt_01` [pedagogical_sequencing/medium] — Analysing decision impacts and influencing factors supports understanding how cultural norms shape behaviour.
+
+**Supporting components** — stability `supporting_unstable`.
+
+_Co-construction plan:_
+- stage: Show students a short video or image of a cultural practice and ask them to list what they notice without judgment.
+- stage: Guide students to distinguish between a norm they observed and the reasons or values that might underlie it.
+- stage: Introduce the idea of comparing how the same value appears differently across two cultures.
+- stage: Work together to identify what 'depth of analysis' means by examining a weak versus strong explanation of cultural development.
+- stage: Co-create the five levels by having students sort example statements into categories of quality.
+- prompt: What norm or value did you spot in this cultural practice, and what clues tell you it matters to that community?
+- prompt: Why might this norm have developed in this culture—what problem or need might it solve?
+- prompt: How is this value expressed differently in another culture you know about, and what might explain the difference?
+- prompt: What makes an explanation of cultural norms 'surface-level' versus 'deep'—what details matter?
+- prompt: Which of these statements about cultural norms shows the strongest thinking, and why?
+- anchor-examples guidance: Choose anchor examples that show a clear progression from naming a norm without context, to explaining its origin in one culture, to comparing how similar values function differently across two or more cultures. Prioritize examples that reveal student reasoning, not just factual knowledge.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet attempted to analyse how cultural norms or values develop. |
+| emerging | I can identify some norms or values in a culture with support, but my explanation of why they developed is unclear or missing cultural context. |
+| developing | I can independently explain how norms develop within one culture, but I struggle to compare how similar norms function across different cultures. |
+| competent | I can analyse how norms and values develop within and across different cultural contexts and explain my reasoning clearly. |
+| extending | I can analyse how norms and values develop across cultures and connect these patterns to larger social systems and historical forces. |
+
+- self-check: Can I explain not just what a norm is, but why it developed and what it does for that culture?
+- self-check: Have I compared how the same value or need shows up differently in at least two cultures, and explained what causes those differences?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to name one norm they observe in a cultural practice and describe what it looks like in action.
+  - Prompt them to think of a reason that norm might exist—what does it help the community do or believe?
+- **emerging**
+  - Help the student dig deeper by asking 'What in the environment, history, or beliefs of this culture might have caused this norm to develop?'
+  - Introduce a second culture and ask how a similar value or need is expressed there, then guide them to notice the difference.
+- **developing**
+  - Challenge the student to select a second culture and systematically compare how the same underlying value appears in different forms.
+  - Ask them to explain what factors in each culture might account for the different expressions of that value.
+- **competent**
+  - Invite the student to explore how the norms they analysed connect to larger patterns in society, such as economics, power, or survival.
+  - Encourage them to consider how understanding these patterns helps explain cultural change over time.
 
 ### Healthy Relationships and Belonging — `cluster_08`
 
@@ -674,6 +1039,23 @@ _Self-reflection prompt (calibrated to this source's own developmental expectati
 | Progression Step 3 | I can describe how healthy relationships and belonging contribute to my physical and emotional wellbeing. |
 | Progression Step 4 | I can explain how healthy relationships and belonging support wellbeing across different areas of my life. |
 | Progression Step 5 | I can justify why healthy relationships and belonging are fundamental to overall wellbeing and health in varied contexts. |
+
+**Criterion rubric** — stability `stable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as demonstrated ('Explains why...with clear reasoning') without hedging language, incompleteness markers, or framing Competent as a stepping stone to Extending.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to explain healthy relationships or belonging. |
+| emerging | With support, names some features of healthy relationships but explanations lack depth or accuracy. |
+| developing | Independently explains some reasons why healthy relationships matter but misses connections to broader wellbeing. |
+| competent | Explains why healthy relationships and belonging are fundamental to wellbeing and health with clear reasoning. |
+| extending | Explains healthy relationships and belonging's role in wellbeing and connects to multiple health dimensions. |
+
+_Prerequisite edges:_
+- `cluster_03_lt_01` [ontological_prerequisite/high] — Understanding how emotional responses influence wellbeing is foundational to explaining why relationships matter to health.
+- `cluster_04_lt_01` [pedagogical_sequencing/medium] — Ability to communicate feelings appropriately supports understanding healthy relationship dynamics but is not strictly required to explain their importance.
+- `cluster_07_lt_01` [pedagogical_sequencing/medium] — Identifying social influences on identity helps learners understand belonging's role but explanation of healthy relationships can precede this.
 
 ##### Valuing and Prioritising Healthy Relationships — `cluster_08_lt_02`
 
@@ -724,6 +1106,65 @@ _Stability diagnostics:_
 | Progression Step 4 | I can analyse complex relationship dynamics, identify subtle warning signs, and justify why they indicate unhealthy patterns. |
 | Progression Step 5 | I can analyse relationship dynamics across contexts, identify interconnected warning signs, and evaluate their significance independently. |
 
+**Criterion rubric** — stability `rubric_unstable`, quality gate **PASS**.
+
+_Competent-framing judge:_ `pass` — The descriptor declares the capability as independently demonstrated at the LT's level of demand without hedging language, incompleteness framing, or positioning it as a way-station to Extending.
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | No attempt to identify or analyse relationship dynamics. |
+| emerging | With support, names some warning signs but analysis is incomplete or inaccurate. |
+| developing | Independently identifies several warning signs but analysis lacks depth or nuance in unfamiliar contexts. |
+| competent | Independently analyses relationship dynamics and accurately identifies multiple warning signs of unhealthy relationships. |
+| extending | Analyses relationship dynamics across diverse contexts and connects warning signs to underlying patterns of harm. |
+
+_Prerequisite edges:_
+- `cluster_08_lt_01` [ontological_prerequisite/high] — Learner must understand what healthy relationships are before identifying deviations from that standard.
+- `cluster_03_lt_01` [ontological_prerequisite/high] — Recognising emotional responses and their influence on well-being is essential to identifying unhealthy relationship impacts.
+- `cluster_04_lt_01` [pedagogical_sequencing/medium] — Ability to communicate feelings supports reflection on relationship dynamics and articulation of concerns.
+- `cluster_05_lt_01` [pedagogical_sequencing/medium] — Analysing decision impacts and influencing factors provides analytical frameworks applicable to relationship dynamics.
+
+**Supporting components** — stability `stable`.
+
+_Co-construction plan:_
+- stage: Show students a short scenario of a relationship and ask them to spot what feels wrong or concerning.
+- stage: Guide students to name the specific behaviours or patterns they noticed and discuss why those matter.
+- stage: Work together to sort their observations into categories of warning signs.
+- stage: Build shared language for what 'analysis' means by asking students how they would explain why a warning sign matters.
+- stage: Co-author level descriptors by asking students what it looks like when someone can do this well, with help, or not yet.
+- prompt: What behaviours or words in this relationship made you uncomfortable or worried?
+- prompt: Why do you think that behaviour is a warning sign rather than just a normal disagreement?
+- prompt: What pattern do you see—does this warning sign connect to other problems in the relationship?
+- prompt: How would you explain to someone else why this relationship dynamic is unhealthy?
+- anchor-examples guidance: Choose scenarios that show clear warning signs but vary in context and subtlety—one obvious example and one more nuanced case help students see that analysis requires looking beyond surface behaviour. Avoid examples that centre on only one type of relationship or harm.
+
+_Student-facing rubric:_
+
+| Level | Descriptor |
+|---|---|
+| no_evidence | I have not yet tried to identify warning signs or explain what makes a relationship unhealthy. |
+| emerging | I can name some warning signs when someone helps me, but my explanation of why they matter is incomplete or not quite accurate. |
+| developing | I can identify several warning signs on my own, but my analysis does not go deep enough or does not work well when the situation is new or different. |
+| competent | I can analyse relationship dynamics on my own and accurately identify multiple warning signs that show a relationship is unhealthy. |
+| extending | I can analyse relationship dynamics in many different contexts and connect warning signs to the deeper patterns of harm underneath them. |
+
+- self-check: Can I name at least three warning signs and explain why each one matters?
+- self-check: Have I looked at the relationship as a whole pattern, or just picked out single moments?
+
+_Feedback moves by level:_
+- **no_evidence**
+  - Ask the student to point to one behaviour in the scenario and describe what they see happening.
+  - Offer a sentence starter: 'This is a warning sign because…' and ask them to complete it.
+- **emerging**
+  - Ask the student to explain why each warning sign they named is unhealthy rather than just normal conflict.
+  - Prompt them to find a second or third warning sign they might have missed in the same scenario.
+- **developing**
+  - Ask the student to show how two or three warning signs connect to each other or repeat over time.
+  - Introduce a slightly different context and ask them to identify whether the same warning signs apply and why.
+- **competent**
+  - Ask the student to explain what deeper need or power imbalance might be driving the warning signs they identified.
+  - Challenge them to analyse a relationship scenario from a perspective they have not considered before.
+
 ##### Evaluating Support Resources and Safety Strategies — `cluster_09_lt_02`
 
 **Definition.** I can evaluate and select appropriate support resources and strategies to keep safe and seek help when relationships are unhealthy.
@@ -765,4 +1206,14 @@ _Stability diagnostics:_
 ### Observation-indicator stage halted LTs
 
 - `cluster_08_lt_02` (Valuing and Prioritising Healthy Relationships) — observation_indicators_unreliable: no signature reached 2/3 agreement; signatures=[(('Progression Step 1', 3), ('Progression Step 2', 3), ('Progression Step 3', 3), ('Progression Step 4', 3), ('Progression Step 5', 3), ('parents', 3)), (('Progression Step 1', 2), ('Progression Step 2', 2), ('Progression Step 3', 3), ('Progression Step 4', 3), ('Progression Step 5', 3), ('parents', 3)), (('Progression Step 1', 2), ('Progression Step 2', 3), ('Progression Step 3', 3), ('Progression Step 4', 3), ('Progression Step 5', 3), ('parents', 3))]
+
+### Criterion-rubric stage halted LTs
+
+- `cluster_06_lt_02` (Making Informed Career Pathway Decisions) — rubric_unreliable: only 0/3 runs produced parseable output
+- `cluster_09_lt_02` (Evaluating Support Resources and Safety Strategies) — rubric_unreliable: only 1/3 runs produced parseable output
+
+### Supporting-components stage halted LTs
+
+- `cluster_07_lt_01` (Identifying Social Influences on Identity) — supporting_unreliable: no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]
+- `cluster_08_lt_01` (Understanding Healthy Relationships and Belonging) — supporting_unreliable: no structural signature reached 2/3 agreement; signatures=[(('stages', 5), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 5), ('student_prompts', 5), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2))), (('stages', 4), ('student_prompts', 4), ('student_rubric_levels', ('no_evidence', 'emerging', 'developing', 'competent', 'extending')), ('self_check_prompts', 2), (('moves', 'no_evidence', 2), ('moves', 'emerging', 2), ('moves', 'developing', 2), ('moves', 'competent', 2)))]
 

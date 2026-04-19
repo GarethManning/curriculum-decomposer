@@ -1,9 +1,10 @@
-"""Export a reference corpus as three source-prefixed CSV files.
+"""Export a reference corpus as five source-prefixed CSV files.
 
 Reads ``kud.json``, ``lts.json``, ``band_statements.json``,
-``observation_indicators.json``, ``competency_clusters.json``, and
-``progression_structure.json`` from a reference-corpus directory and
-produces three CSVs in the same directory:
+``observation_indicators.json``, ``competency_clusters.json``,
+``progression_structure.json``, and (if present) ``criteria.json``
+and ``supporting_components.json`` from a reference-corpus directory
+and produces CSVs in the same directory:
 
 1. ``<prefix>-kud.csv`` — one row per KUD item; halted blocks
    appended at the bottom with ``kud_column = HALTED``.
@@ -19,6 +20,15 @@ produces three CSVs in the same directory:
    one row per band; for single-band sources each Type 3 LT produces
    one row. Parent prompts and developmental-conversation protocol
    appear on the FIRST band row per LT only to avoid redundancy.
+4. ``<prefix>-criteria.csv`` — one row per Type 1/2 LT with a
+   five-level rubric, showing the descriptors alongside stability,
+   gate, Competent-framing-judge, and prerequisite-edge columns.
+   Halted LTs appended at the bottom with ``stability = HALTED``.
+   Written only when ``criteria.json`` is present.
+5. ``<prefix>-supporting-components.csv`` — one row per LT that has
+   supporting components (co-construction plan, student rubric,
+   feedback guide). Written only when ``supporting_components.json``
+   is present.
 
 The export is a pure view over the corpus JSON; it runs no pipeline
 stages and does not modify any source artefact.
@@ -400,6 +410,214 @@ def export_observation_indicators(
     return rows_written
 
 
+CRITERION_LEVEL_ORDER = ("no_evidence", "emerging", "developing", "competent", "extending")
+
+
+def _format_edge(edge: dict[str, Any]) -> str:
+    parts = [
+        f"{edge.get('from_lt_id', '')}",
+        f"[{edge.get('kind', '')}/{edge.get('confidence', '')}]",
+    ]
+    rationale = (edge.get("rationale") or "").strip()
+    if rationale:
+        parts.append(rationale)
+    return " ".join(parts)
+
+
+def export_criteria(
+    *,
+    clusters: dict[str, Any] | None,
+    lts: dict[str, Any] | None,
+    criteria: dict[str, Any],
+    out_path: str,
+) -> int:
+    cluster_by_id: dict[str, dict[str, Any]] = {}
+    if clusters:
+        for c in clusters.get("clusters", []):
+            cluster_by_id[c.get("cluster_id", "")] = c
+    lt_by_id: dict[str, dict[str, Any]] = {}
+    if lts:
+        for lt in lts.get("lts", []):
+            lt_by_id[lt.get("lt_id", "")] = lt
+
+    header = [
+        "competency_cluster",
+        "lt_id",
+        "lt_name",
+        "knowledge_type",
+        "stability",
+        "gate_passed",
+        "gate_failures",
+        "competent_framing_flag",
+        "competent_framing_judge_rationale",
+        "propositional_thin_flag",
+        *CRITERION_LEVEL_ORDER,
+        "prerequisite_edges",
+        "diagnostic",
+    ]
+    empty_cols = [""] * (len(header) - 1)
+    separator_row = ["---", *empty_cols]
+
+    rubrics = criteria.get("rubrics", [])
+    halted = criteria.get("halted_lts", [])
+
+    rows_written = 0
+    with open(out_path, "w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(header)
+
+        for r in rubrics:
+            lt = lt_by_id.get(r.get("lt_id", ""), {})
+            cluster = cluster_by_id.get(lt.get("cluster_id", ""), {})
+            competency_label = _cluster_label(cluster) if cluster else _clean(
+                lt.get("competency_name", "")
+            )
+            levels_by_name = {
+                lvl.get("name", ""): lvl.get("descriptor", "")
+                for lvl in r.get("levels", [])
+            }
+            level_cells = [
+                _clean(levels_by_name.get(name, ""))
+                for name in CRITERION_LEVEL_ORDER
+            ]
+            edges_str = _clean(
+                "; ".join(_format_edge(e) for e in r.get("prerequisite_edges", []))
+            )
+            gate_passed = r.get("quality_gate_passed")
+            gate_label = "PASS" if gate_passed else "FAIL"
+            writer.writerow(
+                [
+                    _clean(competency_label),
+                    _clean(r.get("lt_id")),
+                    _clean(lt.get("lt_name")),
+                    _clean(r.get("knowledge_type")),
+                    _clean(r.get("stability_flag")),
+                    gate_label,
+                    _join_list(r.get("quality_gate_failures")),
+                    _clean(r.get("competent_framing_flag")),
+                    _clean(r.get("competent_framing_judge_rationale")),
+                    _clean(r.get("propositional_lt_rubric_thin_flag")),
+                    *level_cells,
+                    edges_str,
+                    "",
+                ]
+            )
+            rows_written += 1
+
+        if halted:
+            writer.writerow(separator_row)
+            rows_written += 1
+            for h in halted:
+                lt = lt_by_id.get(h.get("lt_id", ""), {})
+                cluster = cluster_by_id.get(lt.get("cluster_id", ""), {})
+                competency_label = _cluster_label(cluster) if cluster else _clean(
+                    lt.get("competency_name", "")
+                )
+                writer.writerow(
+                    [
+                        _clean(competency_label),
+                        _clean(h.get("lt_id")),
+                        _clean(h.get("lt_name")),
+                        _clean(lt.get("knowledge_type")),
+                        "HALTED",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "", "", "", "", "",
+                        "",
+                        _clean(
+                            f"{h.get('halt_reason', '')}: {h.get('diagnostic', '')}"
+                        ),
+                    ]
+                )
+                rows_written += 1
+    return rows_written
+
+
+def export_supporting_components(
+    *,
+    clusters: dict[str, Any] | None,
+    lts: dict[str, Any] | None,
+    supporting: dict[str, Any],
+    out_path: str,
+) -> int:
+    cluster_by_id: dict[str, dict[str, Any]] = {}
+    if clusters:
+        for c in clusters.get("clusters", []):
+            cluster_by_id[c.get("cluster_id", "")] = c
+    lt_by_id: dict[str, dict[str, Any]] = {}
+    if lts:
+        for lt in lts.get("lts", []):
+            lt_by_id[lt.get("lt_id", "")] = lt
+
+    header = [
+        "competency_cluster",
+        "lt_id",
+        "lt_name",
+        "stability",
+        "coconstruction_stages",
+        "coconstruction_student_prompts",
+        "coconstruction_anchor_examples_guidance",
+        "student_rubric_no_evidence",
+        "student_rubric_emerging",
+        "student_rubric_developing",
+        "student_rubric_competent",
+        "student_rubric_extending",
+        "student_rubric_self_checks",
+        "feedback_moves_no_evidence",
+        "feedback_moves_emerging",
+        "feedback_moves_developing",
+        "feedback_moves_competent",
+    ]
+
+    components = supporting.get("components", [])
+    rows_written = 0
+    with open(out_path, "w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(header)
+        for comp in components:
+            lt = lt_by_id.get(comp.get("lt_id", ""), {})
+            cluster = cluster_by_id.get(lt.get("cluster_id", ""), {})
+            competency_label = _cluster_label(cluster) if cluster else _clean(
+                lt.get("competency_name", "")
+            )
+            co = comp.get("co_construction_plan", {}) or {}
+            sr = comp.get("student_rubric", {}) or {}
+            fb = comp.get("feedback_guide", {}) or {}
+
+            student_levels_by_name = {
+                lvl.get("name", ""): lvl.get("descriptor", "")
+                for lvl in sr.get("levels", [])
+            }
+            moves = fb.get("moves_by_level", {}) or {}
+
+            writer.writerow(
+                [
+                    _clean(competency_label),
+                    _clean(comp.get("lt_id")),
+                    _clean(lt.get("lt_name")),
+                    _clean(comp.get("stability_flag")),
+                    _join_list(co.get("stages")),
+                    _join_list(co.get("student_prompts")),
+                    _clean(co.get("anchor_examples_guidance")),
+                    _clean(student_levels_by_name.get("no_evidence", "")),
+                    _clean(student_levels_by_name.get("emerging", "")),
+                    _clean(student_levels_by_name.get("developing", "")),
+                    _clean(student_levels_by_name.get("competent", "")),
+                    _clean(student_levels_by_name.get("extending", "")),
+                    _join_list(sr.get("self_check_prompts")),
+                    _join_list(moves.get("no_evidence")),
+                    _join_list(moves.get("emerging")),
+                    _join_list(moves.get("developing")),
+                    _join_list(moves.get("competent")),
+                ]
+            )
+            rows_written += 1
+    return rows_written
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -410,7 +628,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--prefix",
         required=True,
-        help="File-name prefix for the three CSVs (e.g. 'welsh-cfw-hwb').",
+        help="File-name prefix for the CSV files (e.g. 'welsh-cfw-hwb').",
     )
     args = parser.parse_args(argv)
 
@@ -423,6 +641,8 @@ def main(argv: list[str] | None = None) -> int:
     lts = _load(os.path.join(args.corpus, "lts.json"))
     band_sets = _load(os.path.join(args.corpus, "band_statements.json"))
     indicator_coll = _load(os.path.join(args.corpus, "observation_indicators.json"))
+    criteria = _load(os.path.join(args.corpus, "criteria.json"))
+    supporting = _load(os.path.join(args.corpus, "supporting_components.json"))
 
     progression_path = os.path.join(args.corpus, "progression_structure.json")
     if not os.path.exists(progression_path):
@@ -452,6 +672,8 @@ def main(argv: list[str] | None = None) -> int:
     kud_path = os.path.join(args.corpus, f"{args.prefix}-kud.csv")
     lt_path = os.path.join(args.corpus, f"{args.prefix}-learning-targets.csv")
     ind_path = os.path.join(args.corpus, f"{args.prefix}-observation-indicators.csv")
+    crit_path = os.path.join(args.corpus, f"{args.prefix}-criteria.csv")
+    sup_path = os.path.join(args.corpus, f"{args.prefix}-supporting-components.csv")
 
     kud_rows = export_kud(kud=kud, inventory=inventory, out_path=kud_path)
     print(f"[csv-export] {kud_path}: {kud_rows} rows", flush=True)
@@ -483,6 +705,31 @@ def main(argv: list[str] | None = None) -> int:
         print(
             "[csv-export] observation_indicators.json or lts.json missing; "
             "skipped observation-indicators CSV",
+            flush=True,
+        )
+
+    if criteria is not None:
+        crit_rows = export_criteria(
+            clusters=clusters,
+            lts=lts,
+            criteria=criteria,
+            out_path=crit_path,
+        )
+        print(f"[csv-export] {crit_path}: {crit_rows} rows", flush=True)
+    else:
+        print("[csv-export] criteria.json missing; skipped criteria CSV", flush=True)
+
+    if supporting is not None:
+        sup_rows = export_supporting_components(
+            clusters=clusters,
+            lts=lts,
+            supporting=supporting,
+            out_path=sup_path,
+        )
+        print(f"[csv-export] {sup_path}: {sup_rows} rows", flush=True)
+    else:
+        print(
+            "[csv-export] supporting_components.json missing; skipped supporting-components CSV",
             flush=True,
         )
 

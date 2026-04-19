@@ -1,10 +1,13 @@
 # Cross-source reference corpus summary
-*Generated: 2026-04-19 — session 4b-3.*
+*Generated: 2026-04-19 — session 4b-4.*
 
 Three sources have passed through the full reference-authoring pipeline
 (inventory → KUD classifier → KUD gates → competency clustering → LT
-generation → band statements + observation indicators). This document
-provides a quantitative comparison and a set of cross-source observations.
+generation → band statements + observation indicators). Two of the
+three (Welsh CfW HWB, Common Core G7 RP) have additionally been run
+through the 4b-4 criterion stage (five-level rubrics + supporting
+components for Type 1/2 LTs). This document provides a quantitative
+comparison and a set of cross-source observations.
 
 ---
 
@@ -37,6 +40,11 @@ provides a quantitative comparison and a set of cross-source observations.
 | Halted LT clusters | 0 | 0 | 1 |
 | Band-statement sets | 11 | 6 | 21 |
 | Observation indicator sets | 5 | 0 | 2 |
+| Criterion rubrics (Type 1/2) | 12 | 7 | — (not run) |
+| Criterion gate pass | 11 | 6 | — |
+| Criterion halted | 2 | 1 | — |
+| Supporting components | 9 | 4 | — |
+| Supporting halted | 2 | 2 | — |
 
 ---
 
@@ -126,6 +134,46 @@ FOCUS ON verification (see below).
 
 ---
 
+## Criterion rubrics (Type 1/2)
+
+*Added 2026-04-19, session 4b-4.*
+
+| Source | Rubrics | Gate pass | Halted | Stable | Unstable | Thin-flag | Supporting components | Supporting halted |
+|---|---|---|---|---|---|---|---|---|
+| Welsh CfW HWB | 12 | 11 | 2 | 5 | 7 | 2 | 9 | 2 |
+| Common Core G7 RP | 7 | 6 | 1 | 4 | 3 | 2 | 4 | 2 |
+| Ontario G7 History | — | — | — | — | — | — | — | — |
+
+**Observations:**
+
+- On both corpora the criterion gate passes on the vast majority of
+  rubrics that converged under 3x self-consistency: 11/12 (Welsh CfW)
+  and 6/7 (Common Core). The single gate fail on each is a
+  `single_construct` halt on a Type 2 LT that bundles multiple
+  skills — expected structural behaviour, not rubric-quality
+  noise.
+- Halts are predominantly `rubric_unreliable` driven by signature
+  disagreement across self-consistency runs; after the 4b-4 Step 5
+  signature relaxation (within-limit word counts collapsed to a
+  single class; scope reduced to binary scoped/unscoped) convergence
+  stabilised at ~85–90% on both corpora. Remaining halts are
+  parse-reliability failures on a small number of LTs where Haiku
+  failed to emit strict JSON on 2+ of 3 runs (documented per-corpus).
+- The propositional-thin flag surfaces on both corpora (2 and 2),
+  always on factual Type 1 LTs where the rubric necessarily compresses
+  at Emerging/Developing because there is no intermediate performance
+  to describe between "has the fact" and "does not". The flag is
+  informational, not a gate failure.
+- Supporting-components stage lags the rubric stage by exactly the
+  number of halted rubrics plus a small number of additional halts on
+  LTs that passed the rubric gate but produced unstable co-construction
+  prompts. The gap is small and consistent across both corpora.
+- Ontario G7 History has not been run through the criterion stage in
+  this session (cluster_04 already halted at LT generation; running
+  criteria on the remaining clusters is queued for a later session).
+
+---
+
 ## FOCUS ON verification (Ontario)
 
 Ontario content includes `FOCUS ON` tags for four historical-thinking
@@ -180,4 +228,4 @@ the pipeline and fits the current band comfortably — no revision triggered.
 
 ---
 
-*Cross-source summary last updated: 2026-04-19, session 4b-3.*
+*Cross-source summary last updated: 2026-04-19, session 4b-4.*

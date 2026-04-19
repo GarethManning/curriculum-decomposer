@@ -47,6 +47,115 @@ def _pct(n: int, total: int) -> str:
     return f"{n / total * 100:.1f}%"
 
 
+CRITERION_LEVEL_ORDER = (
+    "no_evidence",
+    "emerging",
+    "developing",
+    "competent",
+    "extending",
+)
+
+
+def _render_rubric(rubric: dict[str, Any]) -> list[str]:
+    out: list[str] = []
+    gate = "PASS" if rubric.get("quality_gate_passed") else "FAIL"
+    out.append(
+        f"**Criterion rubric** — stability `{rubric.get('stability_flag', '')}`, "
+        f"quality gate **{gate}**."
+    )
+    if rubric.get("quality_gate_failures"):
+        out.append("")
+        out.append(
+            "_Gate failures:_ " + ", ".join(rubric.get("quality_gate_failures", []))
+        )
+    framing = (rubric.get("competent_framing_flag") or "").lower()
+    if framing:
+        out.append("")
+        out.append(
+            f"_Competent-framing judge:_ `{framing}` — "
+            + _escape(rubric.get("competent_framing_judge_rationale", ""))
+        )
+    if rubric.get("propositional_lt_rubric_thin_flag"):
+        out.append("")
+        out.append(
+            "_Propositional-thin flag:_ this is a factual Type 1 LT; the "
+            "rubric is necessarily compressed."
+        )
+    out.append("")
+    levels_by_name = {
+        lvl.get("name", ""): lvl.get("descriptor", "")
+        for lvl in rubric.get("levels", [])
+    }
+    out.append("| Level | Descriptor |")
+    out.append("|---|---|")
+    for name in CRITERION_LEVEL_ORDER:
+        out.append(f"| {name} | {_escape(levels_by_name.get(name, ''))} |")
+    out.append("")
+    edges = rubric.get("prerequisite_edges", []) or []
+    if edges:
+        out.append("_Prerequisite edges:_")
+        for e in edges:
+            rationale = _escape(e.get("rationale", ""))
+            out.append(
+                f"- `{e.get('from_lt_id', '')}` "
+                f"[{e.get('kind', '')}/{e.get('confidence', '')}]"
+                + (f" — {rationale}" if rationale else "")
+            )
+        out.append("")
+    return out
+
+
+def _render_supporting(sup: dict[str, Any]) -> list[str]:
+    out: list[str] = []
+    out.append(
+        f"**Supporting components** — stability `{sup.get('stability_flag', '')}`."
+    )
+    out.append("")
+    co = sup.get("co_construction_plan") or {}
+    stages = co.get("stages") or []
+    prompts = co.get("student_prompts") or []
+    anchor = co.get("anchor_examples_guidance") or ""
+    if stages or prompts or anchor:
+        out.append("_Co-construction plan:_")
+        for s in stages:
+            out.append(f"- stage: {_escape(s)}")
+        for p in prompts:
+            out.append(f"- prompt: {_escape(p)}")
+        if anchor:
+            out.append(f"- anchor-examples guidance: {_escape(anchor)}")
+        out.append("")
+    sr = sup.get("student_rubric") or {}
+    sr_levels = {
+        lvl.get("name", ""): lvl.get("descriptor", "")
+        for lvl in sr.get("levels", [])
+    }
+    if sr_levels:
+        out.append("_Student-facing rubric:_")
+        out.append("")
+        out.append("| Level | Descriptor |")
+        out.append("|---|---|")
+        for name in CRITERION_LEVEL_ORDER:
+            out.append(f"| {name} | {_escape(sr_levels.get(name, ''))} |")
+        out.append("")
+        for p in sr.get("self_check_prompts") or []:
+            out.append(f"- self-check: {_escape(p)}")
+        if sr.get("self_check_prompts"):
+            out.append("")
+    fb = sup.get("feedback_guide") or {}
+    moves = fb.get("moves_by_level") or {}
+    if moves:
+        out.append("_Feedback moves by level:_")
+        for name in CRITERION_LEVEL_ORDER:
+            level_moves = moves.get(name) or []
+            if not level_moves:
+                continue
+            out.append(f"- **{name}**")
+            for m in level_moves:
+                out.append(f"  - {_escape(m)}")
+        out.append("")
+    return out
+
+
 def _band_order_factory(band_labels: list[str]):
     order = {label: i for i, label in enumerate(band_labels)}
 
@@ -62,6 +171,8 @@ def render(corpus_dir: str) -> str:
     lts = _load(os.path.join(corpus_dir, "lts.json"))
     bands = _load(os.path.join(corpus_dir, "band_statements.json"))
     indicators = _load(os.path.join(corpus_dir, "observation_indicators.json"))
+    criteria = _load(os.path.join(corpus_dir, "criteria.json"))
+    supporting = _load(os.path.join(corpus_dir, "supporting_components.json"))
     quality = _load(os.path.join(corpus_dir, "quality_report.json"))
 
     progression_path = os.path.join(corpus_dir, "progression_structure.json")
@@ -148,6 +259,10 @@ def render(corpus_dir: str) -> str:
     halted_clusters: list[dict[str, Any]] = (lts or {}).get("halted_clusters", [])
     halted_band_lts: list[dict[str, Any]] = (bands or {}).get("halted_lts", [])
     halted_indicator_lts: list[dict[str, Any]] = (indicators or {}).get("halted_lts", [])
+    rubrics_list: list[dict[str, Any]] = (criteria or {}).get("rubrics", [])
+    halted_rubric_lts: list[dict[str, Any]] = (criteria or {}).get("halted_lts", [])
+    supporting_list: list[dict[str, Any]] = (supporting or {}).get("components", [])
+    halted_supporting_lts: list[dict[str, Any]] = (supporting or {}).get("halted_lts", [])
 
     lines.append(f"- KUD items: **{len(kud_items)}**")
     lines.append(f"- Halted KUD blocks: **{len(halted_blocks)}**")
@@ -171,7 +286,23 @@ def render(corpus_dir: str) -> str:
     lines.append(f"- Observation indicator sets (Type 3): **{len(indicator_sets)}**")
     ind_stab: Counter[str] = Counter(s.get("stability_flag", "") for s in indicator_sets)
     lines.append(f"  - stability: {dict(ind_stab)}")
-    lines.append(f"- Halted at any stage: {len(halted_blocks) + len(halted_clusters) + len(halted_band_lts) + len(halted_indicator_lts)}")
+    if criteria is not None:
+        gate_pass = sum(1 for r in rubrics_list if r.get("quality_gate_passed"))
+        rub_stab: Counter[str] = Counter(r.get("stability_flag", "") for r in rubrics_list)
+        lines.append(
+            f"- Criterion rubrics (Type 1/2): **{len(rubrics_list)}** "
+            f"(gate pass={gate_pass}; halted={len(halted_rubric_lts)})"
+        )
+        lines.append(f"  - stability: {dict(rub_stab)}")
+    if supporting is not None:
+        lines.append(
+            f"- Supporting components (Type 1/2): **{len(supporting_list)}** "
+            f"(halted={len(halted_supporting_lts)})"
+        )
+    lines.append(
+        f"- Halted at any stage: "
+        f"{len(halted_blocks) + len(halted_clusters) + len(halted_band_lts) + len(halted_indicator_lts) + len(halted_rubric_lts) + len(halted_supporting_lts)}"
+    )
     if quality:
         if quality.get("halted_by"):
             lines.append(f"- Pipeline halted by KUD gate: `{quality['halted_by']}`")
@@ -183,6 +314,10 @@ def render(corpus_dir: str) -> str:
     kud_by_id: dict[str, dict[str, Any]] = {i["item_id"]: i for i in kud_items}
     bands_by_lt: dict[str, dict[str, Any]] = {b["lt_id"]: b for b in band_sets}
     indicators_by_lt: dict[str, dict[str, Any]] = {s["lt_id"]: s for s in indicator_sets}
+    rubrics_by_lt: dict[str, dict[str, Any]] = {r["lt_id"]: r for r in rubrics_list}
+    supporting_by_lt: dict[str, dict[str, Any]] = {
+        s["lt_id"]: s for s in supporting_list
+    }
     lts_by_cluster: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for lt in lts_list:
         lts_by_cluster[lt.get("cluster_id", "")].append(lt)
@@ -291,6 +426,13 @@ def render(corpus_dir: str) -> str:
                         f"| {bstatement.get('band', '')} | {_escape(bstatement.get('statement', ''))} |"
                     )
                 lines.append("")
+
+                rubric = rubrics_by_lt.get(lt_id)
+                if rubric is not None:
+                    lines.extend(_render_rubric(rubric))
+                sup = supporting_by_lt.get(lt_id)
+                if sup is not None:
+                    lines.extend(_render_supporting(sup))
             elif kt == "Type 3":
                 iset = indicators_by_lt.get(lt_id)
                 if not iset:
@@ -348,6 +490,8 @@ def render(corpus_dir: str) -> str:
         or bool(halted_clusters)
         or bool(halted_band_lts)
         or bool(halted_indicator_lts)
+        or bool(halted_rubric_lts)
+        or bool(halted_supporting_lts)
     )
     if any_halted:
         lines.append("## Halted items")
@@ -393,6 +537,26 @@ def render(corpus_dir: str) -> str:
                 )
                 if h.get("failures"):
                     lines.append(f"  - failures: {h.get('failures')}")
+            lines.append("")
+        if halted_rubric_lts:
+            lines.append("### Criterion-rubric stage halted LTs")
+            lines.append("")
+            for h in halted_rubric_lts:
+                lines.append(
+                    f"- `{h.get('lt_id', '')}` ({h.get('lt_name', '')}) — "
+                    f"{h.get('halt_reason', '')}: "
+                    + _escape(str(h.get("diagnostic", "")))
+                )
+            lines.append("")
+        if halted_supporting_lts:
+            lines.append("### Supporting-components stage halted LTs")
+            lines.append("")
+            for h in halted_supporting_lts:
+                lines.append(
+                    f"- `{h.get('lt_id', '')}` ({h.get('lt_name', '')}) — "
+                    f"{h.get('halt_reason', '')}: "
+                    + _escape(str(h.get("diagnostic", "")))
+                )
             lines.append("")
 
     return "\n".join(lines) + "\n"
