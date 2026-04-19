@@ -16,5 +16,14 @@ from curriculum_harness.reference_authoring.criterion.generate_criteria import (
     generate_criteria,
     generate_criteria_sync,
 )
+from curriculum_harness.reference_authoring.criterion.generate_supporting_components import (
+    generate_supporting_components,
+    generate_supporting_components_sync,
+)
 
-__all__ = ["generate_criteria", "generate_criteria_sync"]
+__all__ = [
+    "generate_criteria",
+    "generate_criteria_sync",
+    "generate_supporting_components",
+    "generate_supporting_components_sync",
+]
