@@ -4,48 +4,74 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
-**Session 4c-4 (anchor sources)** — 2026-04-19 — head `3cd7831 [4c-4] Criterion bank generation and adversarial test scripts`.
+**Session 4c-4b (remaining criterion banks)** — 2026-04-19 — head `00a692c [4c-4b] NZ Social Sciences criterion bank`.
 
-Criterion bank produced for three anchor sources: Welsh CfW H&W, Common Core 7.RP, Ontario G7 History. Pre-work committed first (schema docs, decomposition rules, DAG validation rules, hand-curated validation sets). Two-pass generation (decompose+describe per LT, then prerequisite edges whole-bank). Post-generation scope reviews on Welsh and Ontario identified and removed 7 criteria total (4 Ontario, 3 Welsh — over-decomposition and scope drift). All three pass DAG validation and meet the 50% agreement-rate floor.
+Criterion banks generated for all 4 remaining sources: AP US Gov CED Unit 1, Secondary RSHE 2025, DfE KS3 Maths, NZ Social Sciences. Pre-work committed first (Pass 1 prompt fix for enumerated-example over-decomposition, adversarial Test 9). All 4 pass DAG validation. No enumerated-example violations post-fix. One scope-drift correction (RSHE 2025 crit_0065 removed). NZ SS per-strand LT ID collision discovered and fixed (strand-slug prefixing for multi_strand_per_dir sources). Horizontal spot-check on NZ SS (5 LTs) approved by Gareth Manning 2026-04-19. Total 4c-4b cost: ~$1.62. Combined 7-source cost: ~$2.14.
 
 Commits this session:
-- `af22afa` — Pre-work: criterion-bank-v1.md updated (strand field), criterion-decomposition-rules-v1.md, dag-validation-rules-v1.md, hand-curated-prerequisite-edges-v1.md
-- `ef8fa15` — Welsh CfW H&W criterion bank (22 criteria, DAG validated)
-- `a689bd7` — Common Core 7.RP criterion bank (16 criteria, DAG validated)
-- `d8a4d16` — Ontario G7 History criterion bank (26 criteria, DAG validated)
-- `3cd7831` — Generation and adversarial test scripts
+- `7651eea` — Pass 1 prompt fix (enumerated-example counter-example) + adversarial Test 9
+- `989bd5b` — `scripts/generate_criterion_bank_4c4b.py` (4-source generator)
+- `102a97e` — AP US Gov CED Unit 1 criterion bank (42 criteria, DAG pass)
+- `489152c` — Secondary RSHE 2025 criterion bank (108 criteria, DAG pass)
+- `c6823df` — DfE KS3 Maths criterion bank (69 criteria, 6 strands, DAG pass)
+- `00a692c` — NZ Social Sciences criterion bank (115 criteria, 4 strands, DAG pass)
 
-Key results:
-- Welsh CfW H&W: 22 criteria / 14 Type 1+2 LTs / DAG pass / primary agreement 100% (9/9) / secondary 89% / actual cost $0.18
-- Common Core 7.RP: 16 criteria / 8 LTs / DAG pass / primary 92% (11/12) / secondary 92% / actual cost $0.12
-- Ontario G7 History: 26 criteria / 11 Type 1+2 LTs / DAG pass / primary 100% (12/12) / secondary 92% / actual cost $0.22
-- Total actual cost: $0.52 across 3 sources (well under $30 ceiling)
-- Adversarial tests: 8/8 pass
-- criteria.json → rubrics.json rename: OK on all 3 sources (same keys, counts, gate-fail counts)
-- LT-level prerequisite_lts regenerated from criterion bank on all 3 sources; 0 lossy cases
+Key results — 4c-4b sources:
 
-Post-generation scope corrections (not auto-fixed — manual review):
-- Welsh: 3 removed (crit_0002/0003 merged into 0001 for enumerated-examples violation; crit_0019 hallucinated content)
-- Common Core: 2 orphan criteria had missing prerequisites added manually (crit_0014, crit_0015)
-- Ontario: 4 removed (scope drift / conceptual drift per horizontal spot-check); 1 statement fixed (causes removed from recall LT); 1 direct edge added (recall→consequence). Spot-check approved by Gareth Manning.
+| Source | Criteria | Edges | DAG | Corrections | Cost |
+|---|---|---|---|---|---|
+| AP US Gov CED Unit 1 | 42 | 28 | Pass | None | ~$0.30 |
+| Secondary RSHE 2025 | 108 | 42 | Pass | crit_0065 removed (scope drift) | ~$0.52 |
+| DfE KS3 Maths | 69 | 64 | Pass | None | ~$0.32 (est) |
+| NZ Social Sciences | 115 | 76 | Pass | LT ID collision fix (prefixing) | $0.80 |
 
-Recurring pattern: generator consistently over-decomposes recall/explanatory LTs that enumerate examples (e.g. "physical activity, nutrition, sleep"), splitting examples into separate criteria. Decomposition rules correctly prohibit this but prompt does not reliably prevent it. Flag for 4c-4b: tighten Pass 1 prompt with explicit example.
+All-session totals (4c-4 + 4c-4b — all 7 sources):
+- Welsh CfW H&W: 22 / 20 edges / $0.18
+- Common Core 7.RP: 16 / 24 edges / $0.12
+- Ontario G7 History: 26 / 31 edges / $0.22
+- AP US Gov: 42 / 28 edges / ~$0.30
+- Secondary RSHE 2025: 108 / 42 edges / ~$0.52
+- DfE KS3 Maths: 69 / 64 edges / ~$0.32
+- NZ Social Sciences: 115 / 76 edges / $0.80
+- **Total: 398 criteria / 285 edges / ~$2.46**
+
+Adversarial tests: 9/9 pass (Tests 1–8 from 4c-4, Test 9 from 4c-4b).
+
+Enumerated-example prompt fix: held on all 4 sources — no enumerated-example violations detected post-fix.
+
+LT-level prerequisite_lts regenerated: AP US Gov (15 LTs), RSHE 2025 (20 LTs), DfE KS3 Maths (20 LTs), NZ SS (30 LTs). 0 lossy cases on all.
+
+Renaming regression: criteria.json → rubrics.json (or unified_criteria.json → unified_rubrics.json) verified OK on all 4 new sources.
+
+NZ SS horizontal spot-check (5 LTs): all 5 approved — correct horizontal-domain decomposition per Rule 4.
+
+**Harness v5 criterion bank milestone: COMPLETE. All 7 reference sources have criterion banks.**
+
+Post-generation corrections log:
+- RSHE 2025 crit_0065: scope drift — "STI prevalence, health impacts, treatment facts" not in `cluster_15_lt_01` definition. Removed from criterion_bank.json, edges cleared, DAG re-validated.
+- NZ SS LT ID collision: per-strand dirs all use identical LT IDs. Fixed by prefixing with strand slug in `associated_lt_ids` and `all_lts`; prefix stripped when updating per-strand lts.json. Code fix in `generate_criterion_bank_4c4b.py`.
+
+Critical failure pattern (saved to Second Brain): Per-directory multi-strand sources (`multi_strand_per_dir`) need strand-slug-prefixed LT IDs. Without prefixing, all criteria across all strands collapse to the same LT IDs in the decomposition audit.
+
+Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, len(criteria) * 100))`. For banks >60 criteria, a sparsity instruction is added (max ~3 edges per criterion). No truncation after fix.
 
 ## 2. Verified working
 
-- **Criterion bank — 3 anchor sources complete (4c-4).** Welsh CfW H&W (22 criteria), Common Core 7.RP (16 criteria), Ontario G7 History (26 criteria). Schema v1. DAG validated on all 3. `scripts/generate_criterion_bank.py`, `scripts/test_criterion_bank_adversarial.py`.
-- **Criterion bank schema v1 — updated (4c-4).** `docs/schemas/criterion-bank-v1.md` — `strand` field now mandatory; `"single_strand"` sentinel for single-strand sources.
+- **Criterion bank — all 7 sources complete (4c-4 + 4c-4b). HARNESS V5 COMPLETE.**
+  - Welsh CfW H&W (22 criteria), Common Core 7.RP (16), Ontario G7 History (26), AP US Gov (42), Secondary RSHE 2025 (108), DfE KS3 Maths (69, 6 strands), NZ Social Sciences (115, 4 strands). Schema v1. DAG validated on all 7.
+  - Scripts: `scripts/generate_criterion_bank.py` (anchor sources), `scripts/generate_criterion_bank_4c4b.py` (remaining 4), `scripts/test_criterion_bank_adversarial.py` (9/9 pass).
+- **Criterion bank schema v1 — updated (4c-4).** `docs/schemas/criterion-bank-v1.md` — `strand` field mandatory; `"single_strand"` sentinel for single-strand sources.
 - **Criterion decomposition rules v1 — written (4c-4).** `docs/schemas/criterion-decomposition-rules-v1.md`.
-- **DAG validation rules v1 — written (4c-4).** `docs/schemas/dag-validation-rules-v1.md`. Two-level agreement (primary floor 50%, secondary diagnostic).
-- **Hand-curated prerequisite edges — approved (4c-4).** `docs/validation/hand-curated-prerequisite-edges-v1.md`. 9 Welsh + 12 Common Core + 12 Ontario edges. Approved by Gareth Manning 2026-04-19.
-- **Strand detection module — complete (4c-3a/4c-3b).** `curriculum_harness/reference_authoring/strand/detect_strands.py`. Adversarial suite: 8/8 pass. Ground-truth precision/recall: 1.00/1.00 on DfE KS3 Maths and NZ SS.
+- **DAG validation rules v1 — written (4c-4).** `docs/schemas/dag-validation-rules-v1.md`.
+- **Hand-curated prerequisite edges — approved (4c-4).** `docs/validation/hand-curated-prerequisite-edges-v1.md`. 9 Welsh + 12 Common Core + 12 Ontario edges.
+- **Strand detection module — complete (4c-3a/4c-3b).** `curriculum_harness/reference_authoring/strand/detect_strands.py`. 8/8 pass.
 - **Multi-strand orchestration + stitching — complete (4c-3b).** `orchestrate.py`, `stitch.py`.
 - **Pipeline strand detection wiring — complete (4c-3b).** `run_pipeline.py`.
-- **NZ Social Sciences reference corpus (4c-3b).** `docs/reference-corpus/nz-ss-social-sciences-4c3b/`. 4 strands, 326 KUD / 59 LTs / 57 rubrics.
-- **DfE KS3 Maths reference corpus (4c-3b).** `docs/reference-corpus/dfe-ks3-maths-4c3b/`. 6 strands, 65 KUD / 29 LTs.
+- **NZ Social Sciences reference corpus (4c-3b).** `docs/reference-corpus/nz-ss-social-sciences-4c3b/`. 4 strands. Criterion bank: 115 criteria / 76 edges. Horizontal spot-check approved.
+- **DfE KS3 Maths reference corpus (4c-3b).** `docs/reference-corpus/dfe-ks3-maths-4c3b/`. 6 strands. Criterion bank: 69 criteria / 64 edges.
 - **Phase 0 acquisition layer — complete.** Five source-type primitives; manifest schema 0.6.0; ten ingestion artefacts.
-- **AP US Gov CED Unit 1 reference — complete (4c-1 re-run).** 26 LTs / 26 rubrics / 50 flags.
-- **Secondary RSHE 2025 reference — complete (4c-2b).** 149 KUD / 26 clusters / 66 LTs / 62 rubrics.
+- **AP US Gov CED Unit 1 reference — complete (4c-1 re-run).** 26 LTs / 26 rubrics. Criterion bank: 42 criteria / 28 edges.
+- **Secondary RSHE 2025 reference — complete (4c-2b).** 149 KUD / 26 clusters / 66 LTs / 62 rubrics. Criterion bank: 108 criteria / 42 edges.
 - **Reference-authoring criterion gates — recalibrated (4c-2b).** OBSERVABLE_VERBS expanded to 44. Adversarial suite: 16/16 pass.
 - **Reference-authoring pipeline — Sonnet default (4c-2a).** Token logging complete.
 - **Reference-authoring pipeline v0.6 — halts-to-flags shipped (4c-1).**
@@ -58,21 +84,19 @@ Recurring pattern: generator consistently over-decomposes recall/explanatory LTs
 - **Phase 5 strand routing.** `curriculum_harness/phases/phase5_formatting.py:70-86`.
 - **Phase 3 flag-and-continue for `classification_unreliable`.** Phase 3 still emits items without a regeneration loop.
 - **`_lemmatise()` derivational morphology.** `-ful`/`-fully` morphology, hyphen splitting, name/identify coupling. Causes 2 persistent single_construct false positives on RSHE 2025. Scoped to 4c-2c.
-- **Criterion bank Pass 1 prompt: enumerated-example over-decomposition.** Generator consistently splits "explain how [A, B, C]" LTs into per-example criteria, violating decomposition Rule 4. Required manual fix on Welsh and would likely recur on 4c-4b sources. Prompt tightening needed before 4c-4b.
 
 ## 4. Unverified
 
 - **RSHE 2025 Type 3 rate (3.4%).** Teacher review needed to confirm whether this reflects the source's propositional framing or a classification limitation.
 - **Phase 3 consolidation collapse on felvételi.** Observable only in a Phase 3 run output.
-- **Reference-authoring gate pass rates for Welsh CfW / Common Core under a fresh re-run.** Not re-verified since 4c-1. Now superseded: rubrics.json is the renamed artefact.
 - **AP US Gov rubric flag rate after gate recalibration.** Not yet re-run.
-- **4c-4b criterion banks (4 remaining sources).** AP US Gov, Secondary RSHE 2025, DfE KS3 Maths, NZ Social Sciences. Not yet generated.
+- **Reference-authoring gate pass rates for Welsh CfW / Common Core under a fresh re-run.** Not re-verified since 4c-1.
 
 ## 5. Next session
 
-**4c-4b — Criterion bank for remaining 4 sources.** Before running generation, tighten Pass 1 prompt to prevent enumerated-example over-decomposition (add explicit example showing "physical activity, nutrition, sleep → 1 criterion, not 3"). DfE KS3 Maths and NZ Social Sciences are multi-strand — set `strand` field to the strand slug, not `"single_strand"`. RSHE 2025 is predominantly Type 3 — confirm which LTs are Type 1/2 and eligible before generation.
+**4c-2c (deferred) — Lemmatiser improvements.** Fix `-ful`/`-fully` morphology, hyphen splitting, name/identify coupling in `_lemmatise()`. Defer unless teacher review flags the 2 persistent single_construct false positives as blocking.
 
-**4c-2c (deferred) — Lemmatiser improvements.** Defer unless teacher review flags the 2 persistent single_construct false positives as blocking.
+**4c-5 or later — Adaptive pipeline integration.** Begin wiring criterion bank into adaptive sequencing engine. Criterion bank is now complete across all 7 reference sources.
 
 Invocation:
 ```
@@ -81,12 +105,11 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ## 6. Open questions
 
-- **Enumerated-example over-decomposition in Pass 1.** Confirmed pattern across Welsh and Ontario. Fix: add explicit counter-example to Pass 1 prompt before 4c-4b. Decomposition rules correctly prohibit this; prompt enforcement is what's needed.
-- **RSHE KUD count (149 vs expected 30-55).** Defensible — RSHE bullets contain multiple sub-items. Not a gate failure.
 - **LOW confidence tier not seen in any run.** Defined in 4c-1; hasn't fired yet.
 - **Ontario LT halts on large Opus clusters.** Carry-forward from 4b-5. Pick up in 4c-7.
-- **AP US Gov rubric flag rate after 4c-2b gate recalibration.** Not yet re-run. Pick up in 4c-4b or dedicated session.
+- **AP US Gov rubric flag rate after 4c-2b gate recalibration.** Not yet re-run.
+- **RSHE KUD count (149 vs expected 30-55).** Defensible — RSHE bullets contain multiple sub-items. Not a gate failure.
 
 ---
 
-*Last updated 2026-04-19 at end of Session 4c-4 (anchor sources). Update at end of every session per `docs/process/state-md-discipline.md`.*
+*Last updated 2026-04-19 at end of Session 4c-4b (remaining criterion banks). Harness v5 criterion bank milestone COMPLETE. Update at end of every session per `docs/process/state-md-discipline.md`.*
