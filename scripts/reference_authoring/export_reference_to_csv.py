@@ -91,62 +91,110 @@ def _cluster_label(cluster: dict[str, Any]) -> str:
     )
 
 
+KUD_COLUMN_ORDER = ("know", "understand", "do_skill", "do_disposition")
+
+
 def export_kud(
     *,
     kud: dict[str, Any],
     inventory: dict[str, Any] | None,
     out_path: str,
 ) -> int:
+    """Write the KUD CSV grouped by ``kud_column`` in the canonical
+    order know → understand → do_skill → do_disposition, then HALTED
+    blocks at the bottom. Within each group, items are sorted
+    alphabetically by ``item_id`` (which reflects source-block order
+    because item ids carry the block id as a prefix). Groups are
+    separated by a visual blank row whose ``item_id`` is ``---`` and
+    whose other columns are empty.
+    """
+    header = [
+        "item_id",
+        "kud_column",
+        "knowledge_type",
+        "assessment_route",
+        "content",
+        "source_block_id",
+        "source_excerpt",
+        "classification_stability",
+        "underspecification_flag",
+        "rationale",
+    ]
+    empty_cols = [""] * (len(header) - 1)
+    separator_row = ["---", *empty_cols]
+
+    # Group items by kud_column, preserving source-block order via item_id.
+    grouped: dict[str, list[dict[str, Any]]] = {c: [] for c in KUD_COLUMN_ORDER}
+    unknown_column: list[dict[str, Any]] = []
+    for item in kud.get("items", []):
+        col = item.get("kud_column", "")
+        if col in grouped:
+            grouped[col].append(item)
+        else:
+            unknown_column.append(item)
+    for col in grouped:
+        grouped[col].sort(key=lambda i: i.get("item_id", ""))
+    unknown_column.sort(key=lambda i: i.get("item_id", ""))
+    halted = sorted(kud.get("halted_blocks", []), key=lambda h: h.get("block_id", ""))
+
     rows_written = 0
     with open(out_path, "w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(
-            [
-                "item_id",
-                "kud_column",
-                "knowledge_type",
-                "assessment_route",
-                "content",
-                "source_block_id",
-                "source_excerpt",
-                "classification_stability",
-                "underspecification_flag",
-                "rationale",
-            ]
-        )
-        for item in kud.get("items", []):
-            writer.writerow(
-                [
-                    _clean(item.get("item_id")),
-                    _clean(item.get("kud_column")),
-                    _clean(item.get("knowledge_type")),
-                    _clean(item.get("assessment_route")),
-                    _clean(item.get("content_statement")),
-                    _clean(item.get("source_block_id")),
-                    _clean(_source_excerpt(inventory, item.get("source_block_id", ""))),
-                    _clean(item.get("stability_flag")),
-                    _clean(item.get("underspecification_flag") or "null"),
-                    _clean(item.get("classification_rationale")),
-                ]
-            )
-            rows_written += 1
-        # Halted blocks appended at the bottom.
-        for h in kud.get("halted_blocks", []):
-            writer.writerow(
-                [
-                    _clean(h.get("block_id")),
-                    "HALTED",
-                    "",
-                    "",
-                    _clean(h.get("source_block_raw_text")),
-                    _clean(h.get("block_id")),
-                    _clean(_source_excerpt(inventory, h.get("block_id", ""))),
-                    "",
-                    "",
-                    _clean(f"{h.get('halt_reason', '')}: {h.get('diagnostic', '')}"),
-                ]
-            )
-            rows_written += 1
+        writer.writerow(header)
+
+        groups_with_content: list[tuple[str, list[Any]]] = []
+        for col in KUD_COLUMN_ORDER:
+            if grouped[col]:
+                groups_with_content.append((col, grouped[col]))
+        if unknown_column:
+            groups_with_content.append(("__unknown__", unknown_column))
+        if halted:
+            groups_with_content.append(("HALTED", halted))
+
+        for group_index, (group_name, group_items) in enumerate(groups_with_content):
+            if group_index > 0:
+                writer.writerow(separator_row)
+                rows_written += 1
+            if group_name == "HALTED":
+                for h in group_items:
+                    writer.writerow(
+                        [
+                            _clean(h.get("block_id")),
+                            "HALTED",
+                            "",
+                            "",
+                            _clean(h.get("source_block_raw_text")),
+                            _clean(h.get("block_id")),
+                            _clean(_source_excerpt(inventory, h.get("block_id", ""))),
+                            "",
+                            "",
+                            _clean(
+                                f"{h.get('halt_reason', '')}: {h.get('diagnostic', '')}"
+                            ),
+                        ]
+                    )
+                    rows_written += 1
+            else:
+                for item in group_items:
+                    writer.writerow(
+                        [
+                            _clean(item.get("item_id")),
+                            _clean(item.get("kud_column")),
+                            _clean(item.get("knowledge_type")),
+                            _clean(item.get("assessment_route")),
+                            _clean(item.get("content_statement")),
+                            _clean(item.get("source_block_id")),
+                            _clean(
+                                _source_excerpt(
+                                    inventory, item.get("source_block_id", "")
+                                )
+                            ),
+                            _clean(item.get("stability_flag")),
+                            _clean(item.get("underspecification_flag") or "null"),
+                            _clean(item.get("classification_rationale")),
+                        ]
+                    )
+                    rows_written += 1
     return rows_written
 
 
