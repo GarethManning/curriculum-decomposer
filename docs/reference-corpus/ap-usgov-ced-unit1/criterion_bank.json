@@ -1,0 +1,1253 @@
+{
+  "schema_version": "v1",
+  "source_slug": "ap-usgov-ced-unit1",
+  "source_name": "AP US Government \u2014 CED Unit 1",
+  "total_criteria": 42,
+  "strand_summaries": [
+    {
+      "strand": "single_strand",
+      "criteria_count": 42,
+      "edge_count": 28,
+      "failed_lts": [],
+      "skipped": false
+    }
+  ],
+  "criteria": [
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0001",
+      "associated_lt_ids": [
+        "cluster_02_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain the key characteristics of participatory, pluralist, and elite models of representative democracy.",
+      "criterion_label": "Democracy Models Explanation",
+      "source_provenance": [
+        "blk_0155_item_01",
+        "blk_0155_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of democracy models provided.",
+        "emerging": "Basic identification of democracy models with minimal characteristics.",
+        "developing": "Partial explanation of some key characteristics across models.",
+        "competent": "Clear explanation of key characteristics distinguishing participatory, pluralist, and elite democracy models.",
+        "extending": "Comprehensive explanation with nuanced distinctions between models."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0041"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0041",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0001",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding essential governmental terms is required to explain models of representative democracy."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0002",
+      "associated_lt_ids": [
+        "cluster_02_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Identify how participatory, pluralist, and elite models are reflected in contemporary U.S. institutions and political behavior.",
+      "criterion_label": "Identify Model Reflections",
+      "source_provenance": [
+        "blk_0159_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any model reflections in institutions or behavior.",
+        "emerging": "Identifies some basic examples of models in institutions with guidance.",
+        "developing": "Identifies clear examples of models in institutions but explanations lack depth.",
+        "competent": "Accurately identifies how all three models are reflected in contemporary U.S. institutions and behavior.",
+        "extending": "Identifies sophisticated examples with nuanced understanding of model applications."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0001"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0001",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0002",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Students must understand the characteristics of democratic models before identifying them in contemporary institutions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0003",
+      "associated_lt_ids": [
+        "cluster_02_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how participatory, pluralist, and elite models are reflected in contemporary U.S. institutions and political behavior.",
+      "criterion_label": "Explain Model Applications",
+      "source_provenance": [
+        "blk_0159_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot explain connections between models and contemporary examples.",
+        "emerging": "Provides basic explanations of model-institution connections with support.",
+        "developing": "Explains connections clearly but may miss some complexity or nuance.",
+        "competent": "Provides clear, accurate explanations of how all three models manifest in contemporary political contexts.",
+        "extending": "Offers sophisticated explanations with deep analysis of model applications."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0002"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0002",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0003",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Identification of democratic models in institutions must precede explaining how they are reflected."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0004",
+      "associated_lt_ids": [
+        "cluster_04_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify specific weaknesses of the Articles of Confederation revealed by historical incidents such as Shays' Rebellion.",
+      "criterion_label": "Identify Articles' Weaknesses",
+      "source_provenance": [
+        "blk_0201_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any weaknesses of the Articles.",
+        "emerging": "Identifies general problems but lacks specificity or connection to incidents.",
+        "developing": "Identifies some specific weaknesses with partial connection to historical incidents.",
+        "competent": "Clearly identifies specific weaknesses of the Articles revealed by incidents like Shays' Rebellion.",
+        "extending": "Identifies weaknesses with sophisticated analysis of incident-weakness connections."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0005",
+      "associated_lt_ids": [
+        "cluster_04_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain how specific incidents and legal challenges exposed gaps between the Articles' provisions and the federal government's capacity to respond.",
+      "criterion_label": "Connecting Incidents to Constitutional Inadequacies",
+      "source_provenance": [
+        "blk_0201_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No connection made between incidents and constitutional gaps.",
+        "emerging": "Identifies incidents or constitutional provisions but makes weak connections.",
+        "developing": "Explains some connections between specific incidents and constitutional inadequacies with basic reasoning.",
+        "competent": "Clearly explains how specific incidents exposed gaps between Articles' provisions and federal government capacity.",
+        "extending": "Analyzes multiple incidents showing sophisticated understanding of constitutional inadequacies."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0004"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0004",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0005",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying specific weaknesses is necessary before explaining how incidents exposed gaps in the Articles."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0006",
+      "associated_lt_ids": [
+        "cluster_04_lt_03"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Learners can explain the debate over granting greater federal power by reasoning from revealed weaknesses to arguments for constitutional reform.",
+      "criterion_label": "Federal Power Expansion Reasoning",
+      "source_provenance": [
+        "blk_0201_item_03"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of federal power debate provided.",
+        "emerging": "Basic mention of federal power debate without clear reasoning connections.",
+        "developing": "Explains debate with some reasoning from weaknesses to reform arguments.",
+        "competent": "Clearly explains federal power debate by reasoning logically from Articles' weaknesses to constitutional reform arguments.",
+        "extending": "Sophisticated reasoning connecting specific weaknesses to nuanced reform arguments."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0005"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0005",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0006",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding how incidents exposed gaps is required to explain debates over constitutional reform."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0007",
+      "associated_lt_ids": [
+        "cluster_05_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how the Great Compromise resolved representation conflicts at the Constitutional Convention.",
+      "criterion_label": "Great Compromise Explanation",
+      "source_provenance": [
+        "blk_0217_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of the Great Compromise provided.",
+        "emerging": "Identifies the Great Compromise but explanation is incomplete or unclear.",
+        "developing": "Explains the Great Compromise with minor gaps in understanding representation conflicts.",
+        "competent": "Clearly explains how the Great Compromise created bicameral legislature resolving large/small state representation disputes.",
+        "extending": "Explains the compromise with sophisticated analysis of underlying tensions."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0008",
+      "associated_lt_ids": [
+        "cluster_05_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how the Electoral College resolved presidential election conflicts at the Constitutional Convention.",
+      "criterion_label": "Electoral College Explanation",
+      "source_provenance": [
+        "blk_0217_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of Electoral College provided.",
+        "emerging": "Identifies Electoral College but explanation lacks clarity about conflicts resolved.",
+        "developing": "Explains Electoral College with minor gaps in understanding election method disputes.",
+        "competent": "Clearly explains how Electoral College balanced popular vote versus congressional selection concerns at Convention.",
+        "extending": "Explains the system with nuanced understanding of federalism tensions."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0009",
+      "associated_lt_ids": [
+        "cluster_05_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how the Three-Fifths Compromise resolved slavery-related representation conflicts at the Constitutional Convention.",
+      "criterion_label": "Three-Fifths Compromise Explanation",
+      "source_provenance": [
+        "blk_0217_item_03",
+        "blk_0217_item_04"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of Three-Fifths Compromise provided.",
+        "emerging": "Identifies compromise but explanation lacks understanding of slavery conflicts.",
+        "developing": "Explains compromise with minor gaps in understanding representation and taxation issues.",
+        "competent": "Clearly explains how Three-Fifths Compromise balanced Northern and Southern interests regarding enslaved population counting.",
+        "extending": "Explains compromise with sophisticated analysis of moral and political tensions."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0010",
+      "associated_lt_ids": [
+        "cluster_05_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Analyze how constitutional compromises influenced ratification debates between Federalists and Anti-Federalists.",
+      "criterion_label": "Compromise Impact Analysis",
+      "source_provenance": [
+        "blk_0217_item_05"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No analysis of compromise effects on ratification.",
+        "emerging": "Identifies compromises but minimal connection to ratification debates.",
+        "developing": "Explains some compromise effects on Federalist-Anti-Federalist positions with basic reasoning.",
+        "competent": "Clearly analyzes how specific compromises shaped ratification arguments and influenced debate outcomes.",
+        "extending": "Evaluates compromise effectiveness in addressing Anti-Federalist concerns during ratification."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0007",
+        "ap-usgov-ced-unit1_crit_0008",
+        "ap-usgov-ced-unit1_crit_0009"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0007",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0010",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Understanding the Great Compromise is necessary to analyze how compromises influenced ratification debates."
+        },
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0008",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0010",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Understanding the Electoral College compromise is necessary to analyze how compromises influenced ratification debates."
+        },
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0009",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0010",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Understanding the Three-Fifths Compromise is necessary to analyze how compromises influenced ratification debates."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0011",
+      "associated_lt_ids": [
+        "cluster_05_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Analyze how constitutional compromises shaped the amendment process established in Article V.",
+      "criterion_label": "Amendment Process Analysis",
+      "source_provenance": [
+        "blk_0219_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No analysis of compromise influence on amendment process.",
+        "emerging": "Identifies Article V but minimal connection to constitutional compromises.",
+        "developing": "Explains basic relationship between self-government debates and amendment process design.",
+        "competent": "Clearly analyzes how compromise negotiations influenced the structure and requirements of Article V.",
+        "extending": "Evaluates how amendment process design reflects broader constitutional compromise strategies."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0007"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0007",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0011",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Understanding constitutional compromises is necessary to analyze how they shaped the amendment process."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0012",
+      "associated_lt_ids": [
+        "cluster_06_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how separation of powers distributes specific authorities among the legislative, executive, and judicial branches.",
+      "criterion_label": "Separation of Powers Distribution",
+      "source_provenance": [
+        "blk_0248_item_01",
+        "blk_0248_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of power distribution among branches.",
+        "emerging": "Identifies branches but unclear on specific power distribution.",
+        "developing": "Explains some powers but incomplete understanding of distribution.",
+        "competent": "Clearly explains how specific powers are distributed among legislative, executive, and judicial branches.",
+        "extending": "Explains power distribution with sophisticated understanding of constitutional design."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0013",
+      "associated_lt_ids": [
+        "cluster_06_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how checks and balances prevent any single branch from becoming too powerful through inter-branch oversight mechanisms.",
+      "criterion_label": "Checks and Balances Prevention",
+      "source_provenance": [
+        "blk_0248_item_02",
+        "blk_0255_item_01",
+        "blk_0260_item_01",
+        "blk_0261_item_01",
+        "blk_0261_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of checking mechanisms between branches.",
+        "emerging": "Mentions checks but unclear on prevention mechanisms.",
+        "developing": "Explains some checking mechanisms but incomplete understanding of prevention.",
+        "competent": "Clearly explains how inter-branch checks prevent concentration of power, including specific mechanisms.",
+        "extending": "Explains checking mechanisms with nuanced understanding of constitutional safeguards."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0014",
+      "associated_lt_ids": [
+        "cluster_06_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Analyse how separation of powers and checks and balances operate in response to specific governmental actions or policy proposals.",
+      "criterion_label": "Analyzing Constitutional Operations",
+      "source_provenance": [
+        "blk_0248_item_03",
+        "blk_0255_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No analysis of constitutional principles provided.",
+        "emerging": "Basic identification of separation of powers or checks and balances.",
+        "developing": "Explains how constitutional principles respond to some governmental actions.",
+        "competent": "Clearly analyses how separation of powers and checks and balances operate in response to specific actions.",
+        "extending": "Sophisticated analysis connecting multiple constitutional mechanisms to governmental responses."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0012",
+        "ap-usgov-ced-unit1_crit_0013"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0012",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0014",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding how separation of powers distributes authorities is required to analyze its operation in specific contexts."
+        },
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0013",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0014",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding checks and balances mechanisms is required to analyze their operation in specific contexts."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0015",
+      "associated_lt_ids": [
+        "cluster_06_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how separation of powers and checks and balances create access points for policy influence.",
+      "criterion_label": "Explaining Policy Access Points",
+      "source_provenance": [
+        "blk_0257_item_01",
+        "blk_0257_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of policy influence mechanisms.",
+        "emerging": "Basic recognition that constitutional principles affect policy.",
+        "developing": "Explains some ways constitutional structure creates influence opportunities.",
+        "competent": "Clearly explains how separation of powers and checks create multiple policy access points.",
+        "extending": "Detailed explanation of diverse stakeholder influence pathways through constitutional structure."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0012",
+        "ap-usgov-ced-unit1_crit_0013"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0012",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0015",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding separation of powers is required to explain how it creates access points for policy influence."
+        },
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0013",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0015",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding checks and balances is required to explain how they create access points for policy influence."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0016",
+      "associated_lt_ids": [
+        "cluster_07_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify and distinguish between exclusive, reserved, and concurrent powers in the federal system.",
+      "criterion_label": "Power Distribution Categories",
+      "source_provenance": [
+        "blk_0285_item_01",
+        "blk_0293_item_01",
+        "blk_0295_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any power categories.",
+        "emerging": "Identifies some power categories but confuses their distinctions.",
+        "developing": "Identifies most power categories with minor confusion about boundaries.",
+        "competent": "Accurately identifies and distinguishes exclusive, reserved, and concurrent powers with clear examples.",
+        "extending": "Distinguishes power categories and explains nuanced boundary cases."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0017",
+      "associated_lt_ids": [
+        "cluster_07_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain how the distribution of powers between national and state governments constrains policymaking.",
+      "criterion_label": "Power Distribution Constraints",
+      "source_provenance": [
+        "blk_0289_item_01",
+        "blk_0297_item_02",
+        "blk_0304_item_01",
+        "blk_0306_item_01",
+        "blk_0306_item_02",
+        "blk_0343_item_01",
+        "blk_0347_item_01",
+        "blk_0347_item_02",
+        "blk_0361_item_02",
+        "blk_0363_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of power distribution constraints.",
+        "emerging": "Basic mention of federal-state power sharing affecting policy.",
+        "developing": "Explains some ways power distribution limits policymaking options.",
+        "competent": "Clearly explains how shared powers constrain national and state policy choices.",
+        "extending": "Analyzes complex constraint mechanisms with specific examples."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0016"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0016",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0017",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Distinguishing between types of powers is necessary to explain how power distribution constrains policymaking."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0018",
+      "associated_lt_ids": [
+        "cluster_07_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain how the distribution of powers creates multiple access points for influence.",
+      "criterion_label": "Multiple Access Points",
+      "source_provenance": [
+        "blk_0361_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of access points.",
+        "emerging": "Basic mention of different levels of government involvement.",
+        "developing": "Explains some ways stakeholders can influence different government levels.",
+        "competent": "Clearly explains how federalism creates various influence opportunities for stakeholders.",
+        "extending": "Analyzes strategic use of multiple access points with examples."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0016"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0016",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0018",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding power distribution is necessary to explain how it creates multiple access points for influence."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0019",
+      "associated_lt_ids": [
+        "cluster_07_lt_03"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can describe how funding mechanisms (revenue sharing, block grants, categorical expenditures, and mandates) reflect the distribution of power between national and state governments.",
+      "criterion_label": "Funding Mechanisms and Power Distribution",
+      "source_provenance": [
+        "blk_0297_item_01",
+        "blk_0304_item_01",
+        "blk_0306_item_01",
+        "blk_0306_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No description of funding mechanisms or power distribution.",
+        "emerging": "Basic identification of funding types with minimal connection to power distribution.",
+        "developing": "Describes some funding mechanisms and makes simple connections to federal-state power relationships.",
+        "competent": "Clearly describes how different funding mechanisms reflect varying degrees of national versus state government control and autonomy.",
+        "extending": "Analyzes nuanced power implications across multiple funding mechanisms with sophisticated understanding."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0016"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0016",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0019",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding power distribution is necessary to describe how funding mechanisms reflect this distribution."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0020",
+      "associated_lt_ids": [
+        "cluster_08_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify the facts, issue, holding, reasoning, and decision of required Supreme Court cases.",
+      "criterion_label": "Identify Case Components",
+      "source_provenance": [
+        "blk_0084_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any case components",
+        "emerging": "Identifies some basic facts or issues with guidance",
+        "developing": "Identifies most case components with minor gaps or errors",
+        "competent": "Accurately identifies all five components (facts, issue, holding, reasoning, decision) of Supreme Court cases",
+        "extending": "Identifies components with nuanced understanding of legal distinctions"
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0021",
+      "associated_lt_ids": [
+        "cluster_08_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain the facts, issue, holding, reasoning, and decision of required Supreme Court cases.",
+      "criterion_label": "Explain Case Components",
+      "source_provenance": [
+        "blk_0084_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot explain any case components",
+        "emerging": "Provides basic explanations with significant gaps or misconceptions",
+        "developing": "Explains most components clearly with minor inaccuracies",
+        "competent": "Clearly explains all case components demonstrating understanding of their legal significance and relationships",
+        "extending": "Explains components with sophisticated legal reasoning and connections"
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0020"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0020",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0021",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Identifying case elements must precede explaining them in detail."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0022",
+      "associated_lt_ids": [
+        "cluster_08_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain how Supreme Court interpretations of constitutional clauses (Commerce Clause, Due Process, Equal Protection, Supremacy Clause) shape the balance of federal and state power.",
+      "criterion_label": "Explaining Constitutional Doctrine Impact",
+      "source_provenance": [
+        "blk_0084_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of judicial doctrine provided.",
+        "emerging": "Basic identification of clauses with minimal connection to federalism.",
+        "developing": "Explains some connections between Court interpretations and federal-state power balance.",
+        "competent": "Clearly explains how Supreme Court interpretations of key constitutional clauses shape federal-state power dynamics.",
+        "extending": "Analyzes complex interactions between multiple constitutional doctrines and federalism."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0021"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0021",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0022",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding Supreme Court case reasoning is necessary to explain how interpretations shape federal-state power balance."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0023",
+      "associated_lt_ids": [
+        "cluster_09_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify how debates over federalism, individual rights, and government role have shaped constitutional issues across historical and contemporary contexts.",
+      "criterion_label": "Constitutional Tensions Identification",
+      "source_provenance": [
+        "blk_0231_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify constitutional tensions or debates.",
+        "emerging": "Identifies some constitutional debates but lacks connection to contexts.",
+        "developing": "Identifies constitutional tensions with basic understanding of historical or contemporary contexts.",
+        "competent": "Clearly identifies how federalism, rights, and government role debates have shaped constitutional issues across contexts.",
+        "extending": "Identifies constitutional tensions with sophisticated analysis of their evolution and impact."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0024",
+      "associated_lt_ids": [
+        "cluster_09_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can analyse present-day constitutional issues by applying historical debates about federalism, individual rights, and government power as interpretive frameworks.",
+      "criterion_label": "Historical Constitutional Analysis",
+      "source_provenance": [
+        "blk_0231_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No analysis attempted or historical connections absent.",
+        "emerging": "Basic identification of contemporary issues with minimal historical reference.",
+        "developing": "Applies some historical debates but connections lack depth or accuracy.",
+        "competent": "Systematically analyses contemporary constitutional issues using relevant historical debates as clear interpretive frameworks.",
+        "extending": "Sophisticated analysis drawing nuanced parallels between historical and contemporary constitutional tensions."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0023"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0023",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0024",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying historical debates is necessary before applying them as interpretive frameworks for contemporary issues."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0025",
+      "associated_lt_ids": [
+        "cluster_10_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify political principles, institutions, processes, policies, and behaviors in different scenarios and contexts.",
+      "criterion_label": "Identify Political Elements",
+      "source_provenance": [
+        "blk_0063_item_01",
+        "blk_0119_item_01",
+        "blk_0167_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify political elements in scenarios.",
+        "emerging": "Identifies some basic political elements with significant gaps.",
+        "developing": "Identifies most political elements but may miss subtle distinctions.",
+        "competent": "Accurately identifies political principles, institutions, processes, policies, and behaviors across varied contexts.",
+        "extending": "Identifies complex political elements and their interconnections."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0026",
+      "associated_lt_ids": [
+        "cluster_10_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Describe political principles, institutions, processes, policies, and behaviors illustrated in different scenarios.",
+      "criterion_label": "Describe Political Elements",
+      "source_provenance": [
+        "blk_0063_item_02",
+        "blk_0119_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No description of political elements provided.",
+        "emerging": "Basic identification of some political elements with minimal description.",
+        "developing": "Adequate description of political elements with some detail and accuracy.",
+        "competent": "Clear, accurate description of political principles, institutions, processes, policies, and behaviors in scenarios.",
+        "extending": "Comprehensive description with nuanced understanding of political elements."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0025"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0025",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0026",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Identifying political elements must precede describing them in scenarios."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0027",
+      "associated_lt_ids": [
+        "cluster_10_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain the contextual significance of political elements illustrated in different scenarios.",
+      "criterion_label": "Explain Contextual Significance",
+      "source_provenance": [
+        "blk_0063_item_02",
+        "blk_0119_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of contextual significance provided.",
+        "emerging": "Basic attempt to explain significance with limited understanding.",
+        "developing": "Adequate explanation of contextual significance with some reasoning.",
+        "competent": "Clear explanation of how political elements relate to their specific contextual circumstances and importance.",
+        "extending": "Sophisticated analysis of contextual significance with deeper implications."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0026"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0026",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0027",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Describing political elements must precede explaining their contextual significance."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0028",
+      "associated_lt_ids": [
+        "cluster_11_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify which political principles, institutions, processes, policies, or behaviors an argument or perspective in a source addresses.",
+      "criterion_label": "Identifying Political Concepts",
+      "source_provenance": [
+        "blk_0071_item_01",
+        "blk_0077_item_01",
+        "blk_0191_item_01",
+        "blk_0239_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify political concepts in arguments.",
+        "emerging": "Identifies some obvious political concepts with significant gaps.",
+        "developing": "Identifies most relevant political concepts but may miss subtle connections.",
+        "competent": "Accurately identifies the key political principles, institutions, processes, policies, or behaviors addressed in arguments.",
+        "extending": "Identifies complex political concepts and their interconnections in sophisticated arguments."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0029",
+      "associated_lt_ids": [
+        "cluster_11_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain how an argument or perspective in a source relates to specific political principles, institutions, processes, policies, or behaviors.",
+      "criterion_label": "Argument-Concept Relationship Analysis",
+      "source_provenance": [
+        "blk_0071_item_01",
+        "blk_0077_item_01",
+        "blk_0191_item_01",
+        "blk_0239_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No connection between argument and political concepts identified.",
+        "emerging": "Identifies basic connection but explanation lacks clarity or accuracy.",
+        "developing": "Explains connection with some detail but may miss key relationships or reasoning.",
+        "competent": "Clearly explains how argument relates to political concepts with accurate reasoning and relevant details.",
+        "extending": "Explains complex relationships with sophisticated analysis and multiple connections."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0028"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0028",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0029",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Identifying what an argument addresses must precede explaining how it relates to political elements."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0030",
+      "associated_lt_ids": [
+        "cluster_12_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how political principles apply to different scenarios in context.",
+      "criterion_label": "Political Principles Application",
+      "source_provenance": [
+        "blk_0074_item_01",
+        "blk_0211_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of political principles in scenarios.",
+        "emerging": "Basic identification of political principles with minimal contextual connection.",
+        "developing": "Explains political principles with some contextual understanding but lacks depth.",
+        "competent": "Clearly explains how political principles apply to scenarios with accurate contextual understanding.",
+        "extending": "Sophisticated analysis of political principles across complex scenarios."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0034"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0034",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0030",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying political principles is necessary before explaining how they apply to different scenarios."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0031",
+      "associated_lt_ids": [
+        "cluster_12_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how political institutions apply to different scenarios in context.",
+      "criterion_label": "Political Institutions Application",
+      "source_provenance": [
+        "blk_0074_item_01",
+        "blk_0211_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of institutional applications in scenarios.",
+        "emerging": "Basic identification of institutions with minimal contextual connection.",
+        "developing": "Explains institutional roles with some contextual understanding but lacks depth.",
+        "competent": "Clearly explains how political institutions apply to scenarios with accurate contextual understanding.",
+        "extending": "Sophisticated analysis of institutional functions across complex scenarios."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0035"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0035",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0031",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying political institutions is necessary before explaining how they apply to different scenarios."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0032",
+      "associated_lt_ids": [
+        "cluster_12_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how political processes apply to different scenarios in context.",
+      "criterion_label": "Political Processes Application",
+      "source_provenance": [
+        "blk_0074_item_01",
+        "blk_0211_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of political processes in scenarios.",
+        "emerging": "Basic identification of processes with minimal contextual connection.",
+        "developing": "Explains political processes with some contextual understanding but lacks depth.",
+        "competent": "Clearly explains how political processes apply to scenarios with accurate contextual understanding.",
+        "extending": "Sophisticated analysis of political processes across complex scenarios."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0036"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0036",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0032",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying constitutional processes is necessary before explaining how they apply to different scenarios."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0033",
+      "associated_lt_ids": [
+        "cluster_12_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain how policies and behaviors apply to different scenarios in context.",
+      "criterion_label": "Policies and Behaviors Application",
+      "source_provenance": [
+        "blk_0074_item_01",
+        "blk_0211_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No explanation of policies or behaviors in scenarios.",
+        "emerging": "Basic identification of policies/behaviors with minimal contextual connection.",
+        "developing": "Explains policies and behaviors with some contextual understanding but lacks depth.",
+        "competent": "Clearly explains how policies and behaviors apply to scenarios with accurate contextual understanding.",
+        "extending": "Sophisticated analysis of policies and behaviors across complex scenarios."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0037"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0037",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0033",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying government policies is necessary before explaining how they apply to different scenarios."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0034",
+      "associated_lt_ids": [
+        "cluster_12_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify political principles that underpin democratic governance.",
+      "criterion_label": "Identify Political Principles",
+      "source_provenance": [
+        "blk_0211_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any political principles.",
+        "emerging": "Identifies few political principles with significant gaps.",
+        "developing": "Identifies some political principles but misses key concepts.",
+        "competent": "Accurately identifies major political principles including democracy, federalism, and separation of powers.",
+        "extending": "Identifies principles and their interconnections."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0035",
+      "associated_lt_ids": [
+        "cluster_12_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify political institutions and their roles in government.",
+      "criterion_label": "Identify Political Institutions",
+      "source_provenance": [
+        "blk_0211_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify political institutions.",
+        "emerging": "Identifies few institutions with unclear understanding of roles.",
+        "developing": "Identifies some institutions but confuses their functions.",
+        "competent": "Accurately identifies major institutions including Congress, presidency, courts, and their primary roles.",
+        "extending": "Identifies institutions and their interrelationships."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0036",
+      "associated_lt_ids": [
+        "cluster_12_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify U.S. Constitution processes and procedures.",
+      "criterion_label": "Identify Constitutional Processes",
+      "source_provenance": [
+        "blk_0211_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify constitutional processes.",
+        "emerging": "Identifies few processes with major misconceptions.",
+        "developing": "Identifies some processes but lacks procedural details.",
+        "competent": "Accurately identifies key processes including amendment procedures, impeachment, and legislative processes.",
+        "extending": "Identifies processes and their strategic implications."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0037",
+      "associated_lt_ids": [
+        "cluster_12_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify government policies and their purposes.",
+      "criterion_label": "Identify Government Policies",
+      "source_provenance": [
+        "blk_0211_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify government policies.",
+        "emerging": "Identifies few policies with unclear purposes.",
+        "developing": "Identifies some policies but misunderstands their aims.",
+        "competent": "Accurately identifies major policies including fiscal, monetary, and regulatory policies and their purposes.",
+        "extending": "Identifies policies and their broader impacts."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0038",
+      "associated_lt_ids": [
+        "cluster_13_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Articulate a defensible claim or thesis that goes beyond stating facts.",
+      "criterion_label": "Articulating Defensible Claims",
+      "source_provenance": [
+        "blk_0053_item_01",
+        "blk_0080_item_01",
+        "blk_0269_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No claim or thesis presented.",
+        "emerging": "States basic facts without developing a claim or position.",
+        "developing": "Presents a claim but lacks clear defensibility or reasoning.",
+        "competent": "Articulates a clear, defensible claim that takes a position beyond factual statements with logical reasoning.",
+        "extending": "Develops sophisticated, nuanced claims with compelling defensibility."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0039",
+      "associated_lt_ids": [
+        "cluster_13_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Support an argument or claim with relevant evidence.",
+      "criterion_label": "Evidence-Based Support",
+      "source_provenance": [
+        "blk_0087_item_01",
+        "blk_0356_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No evidence provided to support claims.",
+        "emerging": "Provides some evidence but relevance unclear or weak.",
+        "developing": "Uses relevant evidence but connections to argument need strengthening.",
+        "competent": "Effectively supports argument with clearly relevant and well-connected evidence.",
+        "extending": "Uses compelling evidence with sophisticated connections to strengthen argument."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0038"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0038",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0039",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Articulating a defensible claim should precede supporting it with evidence."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0040",
+      "associated_lt_ids": [
+        "cluster_13_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "Explain causes, effects, and significance in arguments.",
+      "criterion_label": "Causal Analysis",
+      "source_provenance": [
+        "blk_0053_item_02"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No causal relationships or significance explained.",
+        "emerging": "Identifies some causes or effects but explanations unclear.",
+        "developing": "Explains basic causal relationships with limited significance analysis.",
+        "competent": "Clearly explains causes, effects, and significance with logical connections in arguments.",
+        "extending": "Provides nuanced causal analysis with sophisticated understanding of significance."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0041",
+      "associated_lt_ids": [
+        "cluster_14_lt_01"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can identify and state the definitions of essential governmental terms used in U.S. civics.",
+      "criterion_label": "Define Governmental Terms",
+      "source_provenance": [
+        "blk_0045_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot define governmental terms",
+        "emerging": "Defines some terms with partial accuracy",
+        "developing": "Defines most terms correctly with minor gaps",
+        "competent": "Accurately defines essential governmental terms with clear understanding",
+        "extending": "Defines terms precisely with nuanced understanding"
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "ap-usgov-ced-unit1_crit_0042",
+      "associated_lt_ids": [
+        "cluster_14_lt_02"
+      ],
+      "strand": "single_strand",
+      "criterion_statement": "I can explain the differences between citizens and other people in the country using accurate definitions.",
+      "criterion_label": "Distinguishing Citizen Status Categories",
+      "source_provenance": [
+        "blk_0045_item_01"
+      ],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to distinguish citizen status categories.",
+        "emerging": "Identifies some differences but with inaccurate or incomplete definitions.",
+        "developing": "Explains basic differences between citizens and non-citizens with mostly accurate definitions.",
+        "competent": "Clearly explains differences between citizens and other people using accurate, complete definitions of each category.",
+        "extending": "Explains nuanced distinctions with precise definitions and relevant examples."
+      },
+      "prerequisite_criterion_ids": [
+        "ap-usgov-ced-unit1_crit_0041"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "ap-usgov-ced-unit1_crit_0041",
+          "to_criterion_id": "ap-usgov-ced-unit1_crit_0042",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding essential governmental terms is necessary to explain differences between citizens and others."
+        }
+      ],
+      "schema_version": "v1"
+    }
+  ]
+}

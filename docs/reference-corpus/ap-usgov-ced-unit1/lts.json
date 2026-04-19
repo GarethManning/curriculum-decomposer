@@ -17,7 +17,9 @@
         "blk_0155_item_01",
         "blk_0155_item_02"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "cluster_14_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -71,7 +73,7 @@
         "blk_0159_item_01"
       ],
       "prerequisite_lts": [
-        "Distinguishing Models of Representative Democracy"
+        "cluster_02_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -188,7 +190,7 @@
         "blk_0201_item_02"
       ],
       "prerequisite_lts": [
-        "Identifying Key Weaknesses in the Articles"
+        "cluster_04_lt_01"
       ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
@@ -252,8 +254,7 @@
         "blk_0201_item_03"
       ],
       "prerequisite_lts": [
-        "Identifying Key Weaknesses in the Articles",
-        "Connecting Incidents to Constitutional Inadequacies"
+        "cluster_04_lt_02"
       ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
@@ -374,7 +375,7 @@
         "blk_0219_item_01"
       ],
       "prerequisite_lts": [
-        "Explaining Major Constitutional Compromises"
+        "cluster_05_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -490,7 +491,7 @@
         "blk_0257_item_02"
       ],
       "prerequisite_lts": [
-        "Explaining Separation of Powers and Checks"
+        "cluster_06_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -616,7 +617,7 @@
         "blk_0363_item_01"
       ],
       "prerequisite_lts": [
-        "Identifying Power Distribution Categories"
+        "cluster_07_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -679,7 +680,9 @@
         "blk_0306_item_01",
         "blk_0306_item_02"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "cluster_07_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -792,7 +795,7 @@
         "blk_0084_item_01"
       ],
       "prerequisite_lts": [
-        "Describing Supreme Court Cases"
+        "cluster_08_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -900,7 +903,7 @@
         "blk_0231_item_02"
       ],
       "prerequisite_lts": [
-        "Identifying Historical Constitutional Tensions"
+        "cluster_09_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1011,7 +1014,7 @@
         "blk_0119_item_02"
       ],
       "prerequisite_lts": [
-        "Identifying Political Principles and Institutions"
+        "cluster_10_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1125,7 +1128,7 @@
         "blk_0239_item_01"
       ],
       "prerequisite_lts": [
-        "Identifying Political Concepts in Arguments"
+        "cluster_11_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1181,7 +1184,7 @@
         "blk_0211_item_02"
       ],
       "prerequisite_lts": [
-        "Identifying Political Principles and Institutions"
+        "cluster_12_lt_02"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1346,7 +1349,7 @@
         "blk_0053_item_02"
       ],
       "prerequisite_lts": [
-        "Articulating Defensible Claims"
+        "cluster_13_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -1454,7 +1457,7 @@
         "blk_0045_item_01"
       ],
       "prerequisite_lts": [
-        "Defining Core Governmental Terms"
+        "cluster_14_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [

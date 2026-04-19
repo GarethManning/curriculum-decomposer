@@ -1,0 +1,439 @@
+{
+  "source_slug": "ap-usgov-ced-unit1",
+  "strand_summaries": [
+    {
+      "strand": "single_strand",
+      "criteria_count": 42,
+      "edge_count": 28,
+      "failed_lts": [],
+      "skipped": false
+    }
+  ],
+  "dag_validation": {
+    "passed": true,
+    "errors": []
+  },
+  "over_generation_spot_check": {
+    "total_criteria": 42,
+    "sample_size": 8,
+    "issues_found": 0,
+    "issues": []
+  },
+  "decomposition_audit": {
+    "lts_audited": 20,
+    "audit_rows": [
+      {
+        "lt_id": "cluster_13_lt_01",
+        "lt_name": "Articulating Defensible Claims",
+        "knowledge_type": "Type 2",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0038"
+        ],
+        "decomposition_rationale": "This LT represents a single cognitive skill - the ability to formulate defensible claims beyond factual statements. All KUD items target the same core competency of claim articulation."
+      },
+      {
+        "lt_id": "cluster_10_lt_01",
+        "lt_name": "Identifying Political Principles and Institutions",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0025"
+        ],
+        "decomposition_rationale": "Single criterion because this involves one cognitive act (identification) applied to enumerated examples of political content within the same domain, following the enumerated-example pattern rule."
+      },
+      {
+        "lt_id": "cluster_08_lt_01",
+        "lt_name": "Describing Supreme Court Cases",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0020",
+          "ap-usgov-ced-unit1_crit_0021"
+        ],
+        "decomposition_rationale": "Single criterion because 'identify and explain' represents one cognitive operation applied to a unified set of case analysis components that are taught and assessed together as a complete legal analysis skill."
+      },
+      {
+        "lt_id": "cluster_02_lt_01",
+        "lt_name": "Distinguishing Models of Representative Democracy",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0001"
+        ],
+        "decomposition_rationale": "Single criterion because this involves one cognitive act (explain) applied to related content within the same domain. The three models are enumerated examples of the same conceptual framework, not separately assessable sub-skills."
+      },
+      {
+        "lt_id": "cluster_07_lt_02",
+        "lt_name": "Explaining Power Distribution Effects",
+        "knowledge_type": "Type 2",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0017",
+          "ap-usgov-ced-unit1_crit_0018"
+        ],
+        "decomposition_rationale": "This is one criterion because both parts of the LT involve the same cognitive act of explaining causal relationships within the single domain of federalism and power distribution."
+      },
+      {
+        "lt_id": "cluster_07_lt_03",
+        "lt_name": "Understanding Funding Mechanisms",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0019"
+        ],
+        "decomposition_rationale": "This is one criterion because it involves a single cognitive act (describe) applied to one conceptual relationship (how funding mechanisms reflect power distribution). The enumerated funding types are examples within this single analytical task, not separately assessable sub-skills."
+      },
+      {
+        "lt_id": "cluster_14_lt_01",
+        "lt_name": "Defining Core Governmental Terms",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0041"
+        ],
+        "decomposition_rationale": "Single criterion because the LT involves one cognitive act (identify and state definitions) applied to a unified knowledge domain (governmental terms). No separable sub-skills exist."
+      },
+      {
+        "lt_id": "cluster_13_lt_02",
+        "lt_name": "Supporting Arguments with Evidence",
+        "knowledge_type": "Type 2",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0039",
+          "ap-usgov-ced-unit1_crit_0040"
+        ],
+        "decomposition_rationale": "This represents one distinct cognitive skill - selecting and deploying evidence to support claims."
+      },
+      {
+        "lt_id": "cluster_06_lt_01",
+        "lt_name": "Explaining Separation of Powers and Checks",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0012",
+          "ap-usgov-ced-unit1_crit_0013"
+        ],
+        "decomposition_rationale": "This criterion focuses on the foundational concept of how powers are allocated among the three branches, which is a distinct cognitive task from explaining the checking mechanisms."
+      },
+      {
+        "lt_id": "cluster_10_lt_02",
+        "lt_name": "Describing Political Principles in Context",
+        "knowledge_type": "Type 2",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0026",
+          "ap-usgov-ced-unit1_crit_0027"
+        ],
+        "decomposition_rationale": "This is one criterion because both the description and contextual explanation involve the same cognitive act applied to the same domain of political elements in scenarios."
+      },
+      {
+        "lt_id": "cluster_09_lt_01",
+        "lt_name": "Identifying Historical Constitutional Tensions",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0023"
+        ],
+        "decomposition_rationale": "This LT represents a single cognitive act of identification applied to constitutional tensions. The enumerated examples (federalism, individual rights, government role) are illustrative scope within the same identification task, not separately assessable sub-skills."
+      },
+      {
+        "lt_id": "cluster_05_lt_02",
+        "lt_name": "Analyzing Compromises' Impact on Ratification",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0010",
+          "ap-usgov-ced-unit1_crit_0011"
+        ],
+        "decomposition_rationale": "This represents one criterion because it involves a single analytical act applied to the relationship between compromises and ratification debates, with the Bill of Rights serving as a key example within this broader analytical framework."
+      },
+      {
+        "lt_id": "cluster_04_lt_01",
+        "lt_name": "Identifying Key Weaknesses in the Articles",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0004"
+        ],
+        "decomposition_rationale": "This LT involves a single cognitive act (identify) applied to one knowledge domain (Articles' weaknesses). The historical incidents serve as illustrative context for demonstrating the identification skill, not separate assessable components."
+      },
+      {
+        "lt_id": "cluster_05_lt_01",
+        "lt_name": "Explaining Major Constitutional Compromises",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0007",
+          "ap-usgov-ced-unit1_crit_0008",
+          "ap-usgov-ced-unit1_crit_0009"
+        ],
+        "decomposition_rationale": "The Great Compromise addresses distinct representation conflicts and can be assessed independently from other compromises."
+      },
+      {
+        "lt_id": "cluster_04_lt_02",
+        "lt_name": "Connecting Incidents to Constitutional Inadequacies",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0005"
+        ],
+        "decomposition_rationale": "This LT involves a single cognitive operation (explain) applied to one unified concept - the relationship between historical incidents and constitutional inadequacies. No separable sub-skills exist that could be independently assessed."
+      },
+      {
+        "lt_id": "cluster_04_lt_03",
+        "lt_name": "Reasoning About Federal Power Expansion",
+        "knowledge_type": "Type 2",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0006"
+        ],
+        "decomposition_rationale": "This LT involves a single cognitive operation - explaining a debate through reasoning - applied to one unified domain of federal power expansion under constitutional reform."
+      },
+      {
+        "lt_id": "cluster_12_lt_01",
+        "lt_name": "Explaining Political Principles in Context",
+        "knowledge_type": "Type 2",
+        "criteria_count": 4,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0030",
+          "ap-usgov-ced-unit1_crit_0031",
+          "ap-usgov-ced-unit1_crit_0032",
+          "ap-usgov-ced-unit1_crit_0033"
+        ],
+        "decomposition_rationale": "Single criterion as this represents one cognitive act (explain) applied to a unified domain of political concepts across scenarios."
+      },
+      {
+        "lt_id": "cluster_11_lt_01",
+        "lt_name": "Identifying Political Concepts in Arguments",
+        "knowledge_type": "Type 2",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0028"
+        ],
+        "decomposition_rationale": "This LT involves a single cognitive act of identification applied to political concepts within arguments. The enumerated categories (principles, institutions, processes, policies, behaviors) represent the scope of content rather than separately assessable sub-skills."
+      },
+      {
+        "lt_id": "cluster_14_lt_02",
+        "lt_name": "Distinguishing Citizen Status Categories",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0042"
+        ],
+        "decomposition_rationale": "This LT involves a single cognitive act (explaining differences) applied to one knowledge domain (citizen status categories). No separable sub-skills exist that could be independently assessed."
+      },
+      {
+        "lt_id": "cluster_02_lt_02",
+        "lt_name": "Analyzing Models in U.S. Institutions and Behavior",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "ap-usgov-ced-unit1_crit_0002",
+          "ap-usgov-ced-unit1_crit_0003"
+        ],
+        "decomposition_rationale": "This is one criterion because both 'identify' and 'explain' work together toward the same cognitive goal of demonstrating understanding of how theoretical models manifest in real political contexts."
+      }
+    ],
+    "flags": []
+  },
+  "scope_drift_check": {
+    "sample_size": 10,
+    "flags_found": 0,
+    "flags": [],
+    "rows": [
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0021",
+        "lt_id": "cluster_08_lt_01",
+        "overlap_word_count": 10,
+        "overlap_sample": [
+          "cases",
+          "court",
+          "decision",
+          "explain",
+          "facts"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0035",
+        "lt_id": "cluster_12_lt_02",
+        "overlap_word_count": 3,
+        "overlap_sample": [
+          "identify",
+          "institutions",
+          "political"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0003",
+        "lt_id": "cluster_02_lt_02",
+        "overlap_word_count": 10,
+        "overlap_sample": [
+          "behavior",
+          "contemporary",
+          "elite",
+          "explain",
+          "institutions"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0040",
+        "lt_id": "cluster_13_lt_02",
+        "overlap_word_count": 5,
+        "overlap_sample": [
+          "arguments",
+          "causes",
+          "effects",
+          "explain",
+          "significance"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0030",
+        "lt_id": "cluster_12_lt_01",
+        "overlap_word_count": 7,
+        "overlap_sample": [
+          "apply",
+          "context",
+          "different",
+          "explain",
+          "political"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0001",
+        "lt_id": "cluster_02_lt_01",
+        "overlap_word_count": 9,
+        "overlap_sample": [
+          "characteristics",
+          "democracy",
+          "elite",
+          "explain",
+          "key"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0023",
+        "lt_id": "cluster_09_lt_01",
+        "overlap_word_count": 14,
+        "overlap_sample": [
+          "constitutional",
+          "contemporary",
+          "contexts",
+          "debates",
+          "federalism"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0039",
+        "lt_id": "cluster_13_lt_02",
+        "overlap_word_count": 4,
+        "overlap_sample": [
+          "argument",
+          "evidence",
+          "relevant",
+          "support"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0008",
+        "lt_id": "cluster_05_lt_01",
+        "overlap_word_count": 7,
+        "overlap_sample": [
+          "college",
+          "conflicts",
+          "constitutional",
+          "convention",
+          "electoral"
+        ]
+      },
+      {
+        "criterion_id": "ap-usgov-ced-unit1_crit_0007",
+        "lt_id": "cluster_05_lt_01",
+        "overlap_word_count": 7,
+        "overlap_sample": [
+          "compromise",
+          "conflicts",
+          "constitutional",
+          "convention",
+          "explain"
+        ]
+      }
+    ]
+  },
+  "token_usage": {
+    "total_input_tokens": 44737,
+    "total_output_tokens": 13175,
+    "per_stage": {
+      "other": {
+        "input": 44737,
+        "output": 13175,
+        "calls": 27,
+        "model": "claude-sonnet-4-20250514"
+      }
+    }
+  },
+  "rename_results": [
+    {
+      "status": "ok",
+      "from": "criteria.json",
+      "to": "rubrics.json",
+      "pre_count": 26,
+      "post_count": 26,
+      "pre_gate_fail": 16,
+      "post_gate_fail": 16,
+      "regression_ok": true
+    }
+  ],
+  "lt_prerequisite_regeneration": {
+    "lt_prereqs_updated": 15,
+    "lossy_cases": [],
+    "lt_prereq_summary": {
+      "cluster_02_lt_01": [
+        "cluster_14_lt_01"
+      ],
+      "cluster_02_lt_02": [
+        "cluster_02_lt_01"
+      ],
+      "cluster_04_lt_02": [
+        "cluster_04_lt_01"
+      ],
+      "cluster_04_lt_03": [
+        "cluster_04_lt_02"
+      ],
+      "cluster_05_lt_02": [
+        "cluster_05_lt_01"
+      ],
+      "cluster_06_lt_02": [
+        "cluster_06_lt_01"
+      ],
+      "cluster_07_lt_02": [
+        "cluster_07_lt_01"
+      ],
+      "cluster_07_lt_03": [
+        "cluster_07_lt_01"
+      ],
+      "cluster_08_lt_02": [
+        "cluster_08_lt_01"
+      ],
+      "cluster_09_lt_02": [
+        "cluster_09_lt_01"
+      ],
+      "cluster_10_lt_02": [
+        "cluster_10_lt_01"
+      ],
+      "cluster_11_lt_02": [
+        "cluster_11_lt_01"
+      ],
+      "cluster_12_lt_01": [
+        "cluster_12_lt_02"
+      ],
+      "cluster_13_lt_02": [
+        "cluster_13_lt_01"
+      ],
+      "cluster_14_lt_02": [
+        "cluster_14_lt_01"
+      ]
+    }
+  }
+}
