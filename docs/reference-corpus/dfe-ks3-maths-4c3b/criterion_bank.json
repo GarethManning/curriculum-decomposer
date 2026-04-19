@@ -1,0 +1,2044 @@
+{
+  "schema_version": "v1",
+  "source_slug": "dfe-ks3-maths",
+  "source_name": "DfE KS3 Mathematics",
+  "total_criteria": 69,
+  "strand_summaries": [
+    {
+      "strand": "number",
+      "criteria_count": 12,
+      "edge_count": 10,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "algebra",
+      "criteria_count": 14,
+      "edge_count": 16,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criteria_count": 6,
+      "edge_count": 5,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "geometry-and-measures",
+      "criteria_count": 25,
+      "edge_count": 23,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "probability",
+      "criteria_count": 5,
+      "edge_count": 3,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "statistics",
+      "criteria_count": 7,
+      "edge_count": 7,
+      "failed_lts": [],
+      "skipped": false
+    }
+  ],
+  "criteria": [
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0001",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_01"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can explain place value in different number systems.",
+      "criterion_label": "Place Value Explanation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of place value shown.",
+        "emerging": "Basic recognition of place value in whole numbers only.",
+        "developing": "Explains place value in whole numbers and some decimals.",
+        "competent": "Clearly explains place value across whole numbers, decimals, and different bases.",
+        "extending": "Explains place value with sophisticated examples and connections."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0002",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_01"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can explain prime factorisation of numbers.",
+      "criterion_label": "Prime Factorisation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of prime factorisation.",
+        "emerging": "Identifies some prime numbers but struggles with factorisation.",
+        "developing": "Performs basic prime factorisation with simple numbers.",
+        "competent": "Systematically explains prime factorisation process and applies it accurately.",
+        "extending": "Uses prime factorisation to solve complex problems."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0003",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_01"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can explain relationships between fractions, decimals, and percentages.",
+      "criterion_label": "Number Form Relationships",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of number form connections.",
+        "emerging": "Recognises some equivalent forms but cannot explain relationships.",
+        "developing": "Explains basic conversions between two number forms.",
+        "competent": "Clearly explains how fractions, decimals, and percentages relate and convert.",
+        "extending": "Demonstrates deep understanding with complex examples."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0004",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_02"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can apply the four basic operations (addition, subtraction, multiplication, division) to calculate with integers, fractions, decimals, and negative numbers.",
+      "criterion_label": "Basic Operations Calculation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at basic operations.",
+        "emerging": "Attempts basic operations with some number types.",
+        "developing": "Performs basic operations with most number types, minor errors.",
+        "competent": "Accurately performs all four operations across integers, fractions, decimals, and negative numbers.",
+        "extending": "Efficiently applies operations with complex multi-step problems."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0001",
+        "dfe-ks3-maths_crit_0003"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0001",
+          "to_criterion_id": "dfe-ks3-maths_crit_0004",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding place value is essential for performing operations with different number types including decimals and negative numbers."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0003",
+          "to_criterion_id": "dfe-ks3-maths_crit_0004",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding relationships between fractions, decimals, and percentages is required to perform operations with these number types."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0005",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_02"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can apply order of operations to evaluate mathematical expressions containing multiple operations.",
+      "criterion_label": "Order of Operations",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of operation precedence.",
+        "emerging": "Recognizes some operation precedence rules.",
+        "developing": "Applies order of operations with occasional errors.",
+        "competent": "Consistently applies correct order of operations in complex expressions.",
+        "extending": "Expertly handles nested operations and grouping symbols."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0004"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0004",
+          "to_criterion_id": "dfe-ks3-maths_crit_0005",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Basic operations must be understood before applying order of operations to complex expressions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0006",
+      "associated_lt_ids": [
+        "number_cluster_01_lt_02"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can calculate with powers, roots, and standard form notation.",
+      "criterion_label": "Powers and Standard Form",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of exponential notation.",
+        "emerging": "Recognizes basic power and root notation.",
+        "developing": "Calculates simple powers and roots with some errors.",
+        "competent": "Accurately works with powers, roots, and converts to/from standard form.",
+        "extending": "Fluently manipulates complex exponential expressions."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0001",
+        "dfe-ks3-maths_crit_0004"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0001",
+          "to_criterion_id": "dfe-ks3-maths_crit_0006",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Place value understanding is fundamental for working with powers and standard form notation."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0004",
+          "to_criterion_id": "dfe-ks3-maths_crit_0006",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Mastery of basic operations provides the foundation for understanding more complex calculations with powers and roots."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0007",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_01"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can use standard units of measurement appropriately for different quantities and contexts.",
+      "criterion_label": "Standard Units Usage",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of standard units shown.",
+        "emerging": "Uses some standard units with significant errors or confusion.",
+        "developing": "Uses standard units correctly in simple contexts with occasional errors.",
+        "competent": "Consistently uses appropriate standard units across different measurement contexts with accuracy.",
+        "extending": "Selects optimal units and converts between systems fluently."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0008",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_01"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can round numbers to appropriate degrees of accuracy for given contexts.",
+      "criterion_label": "Number Rounding",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No rounding attempted or shown.",
+        "emerging": "Attempts rounding with frequent errors in place value or rules.",
+        "developing": "Rounds correctly to specified places with occasional errors.",
+        "competent": "Consistently rounds numbers to appropriate accuracy based on context and requirements.",
+        "extending": "Justifies rounding choices and applies sophisticated accuracy decisions."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0001"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0001",
+          "to_criterion_id": "dfe-ks3-maths_crit_0008",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Place value understanding is necessary for meaningful rounding to different degrees of accuracy."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0009",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_02"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can use approximation techniques to estimate numerical answers.",
+      "criterion_label": "Approximation for Estimation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No approximation attempted or shown.",
+        "emerging": "Basic rounding used but estimation unclear or inaccurate.",
+        "developing": "Appropriate approximation methods used with minor calculation errors.",
+        "competent": "Accurate approximation techniques applied to produce reasonable estimates consistently.",
+        "extending": "Sophisticated approximation strategies chosen based on context and precision needs."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0004",
+        "dfe-ks3-maths_crit_0008"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0004",
+          "to_criterion_id": "dfe-ks3-maths_crit_0009",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Basic calculation skills are needed before learning approximation techniques for estimation."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0008",
+          "to_criterion_id": "dfe-ks3-maths_crit_0009",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding rounding provides a foundation for approximation techniques used in estimation."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0010",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_02"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can calculate possible errors and express them using inequality notation.",
+      "criterion_label": "Error Calculation with Inequalities",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No error calculation attempted.",
+        "emerging": "Basic error concepts shown but inequality notation incorrect or missing.",
+        "developing": "Error calculations attempted with some correct use of inequality notation.",
+        "competent": "Accurate error calculations expressed correctly using appropriate inequality notation.",
+        "extending": "Sophisticated error analysis with precise inequality expressions and contextual interpretation."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0008"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0008",
+          "to_criterion_id": "dfe-ks3-maths_crit_0010",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding rounding and accuracy is essential for calculating and expressing possible errors."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0011",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_03"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can use calculators and other technologies to perform calculations accurately.",
+      "criterion_label": "Technology-Assisted Calculation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of technology for calculations.",
+        "emerging": "Uses technology with significant errors or confusion.",
+        "developing": "Uses technology correctly for simple calculations with minor errors.",
+        "competent": "Uses calculators and other technologies accurately for a range of calculations.",
+        "extending": "Uses technology strategically for complex calculations."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0004"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0004",
+          "to_criterion_id": "dfe-ks3-maths_crit_0011",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "low",
+          "rationale": "Basic operation understanding helps students verify calculator results and use technology effectively."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0012",
+      "associated_lt_ids": [
+        "number_cluster_02_lt_03"
+      ],
+      "strand": "number",
+      "criterion_statement": "I can understand and explain the infinite nature of number sets.",
+      "criterion_label": "Infinite Number Sets",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of infinite number sets.",
+        "emerging": "Shows basic awareness that numbers continue indefinitely.",
+        "developing": "Explains that number sets are infinite with simple examples.",
+        "competent": "Demonstrates clear understanding of infinite nature of number sets with reasoning.",
+        "extending": "Explains infinite number sets using advanced examples."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0013",
+      "associated_lt_ids": [
+        "algebra_cluster_01_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can interpret algebraic notation including coefficients, powers, brackets, and standard conventions.",
+      "criterion_label": "Interpret algebraic notation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot interpret basic algebraic notation.",
+        "emerging": "Interprets simple algebraic terms with support.",
+        "developing": "Interprets most algebraic notation with minor errors.",
+        "competent": "Accurately interprets algebraic notation including coefficients, powers, brackets, and conventions.",
+        "extending": "Interprets complex algebraic notation fluently."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0014",
+      "associated_lt_ids": [
+        "algebra_cluster_01_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can simplify algebraic expressions by collecting like terms.",
+      "criterion_label": "Collecting Like Terms",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to collect terms.",
+        "emerging": "Identifies some like terms but makes errors combining them.",
+        "developing": "Collects most like terms correctly with minor computational errors.",
+        "competent": "Accurately collects all like terms and simplifies expressions correctly.",
+        "extending": "Efficiently simplifies complex expressions with multiple variable types."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0013"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0013",
+          "to_criterion_id": "dfe-ks3-maths_crit_0014",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding algebraic notation is essential before collecting like terms can be meaningfully performed."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0015",
+      "associated_lt_ids": [
+        "algebra_cluster_01_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can expand algebraic expressions by multiplying out brackets.",
+      "criterion_label": "Expanding Brackets",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to expand brackets.",
+        "emerging": "Attempts expansion but makes systematic errors with distribution.",
+        "developing": "Expands simple brackets correctly but struggles with complex cases.",
+        "competent": "Accurately expands various bracket types including binomial products.",
+        "extending": "Efficiently expands complex nested brackets and polynomial products."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0013",
+        "dfe-ks3-maths_crit_0014"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0013",
+          "to_criterion_id": "dfe-ks3-maths_crit_0015",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Interpreting algebraic notation including brackets is required before expanding expressions."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0014",
+          "to_criterion_id": "dfe-ks3-maths_crit_0015",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Collecting like terms provides foundation skills that support expanding brackets effectively."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0016",
+      "associated_lt_ids": [
+        "algebra_cluster_01_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can factor algebraic expressions by identifying common factors and patterns.",
+      "criterion_label": "Factoring Expressions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to factor expressions.",
+        "emerging": "Identifies some common factors but cannot complete factoring process.",
+        "developing": "Factors simple expressions but misses complex patterns or makes errors.",
+        "competent": "Accurately factors expressions using common factors and basic patterns.",
+        "extending": "Recognizes and applies advanced factoring techniques and special patterns."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0013",
+        "dfe-ks3-maths_crit_0015"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0013",
+          "to_criterion_id": "dfe-ks3-maths_crit_0016",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding coefficients and powers is necessary to identify common factors in expressions."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0015",
+          "to_criterion_id": "dfe-ks3-maths_crit_0016",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Expanding brackets helps students understand structure before learning to factor expressions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0017",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can work with coordinates to plot points and identify positions on a coordinate plane.",
+      "criterion_label": "Working with coordinates",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot plot or identify coordinates",
+        "emerging": "Plots some coordinates with support or identifies basic positions",
+        "developing": "Plots coordinates accurately in most quadrants with minor errors",
+        "competent": "Accurately plots and identifies coordinates across all quadrants consistently",
+        "extending": "Uses coordinates fluently in complex multi-step problems"
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0018",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can sketch graphs of functions showing key features and behavior.",
+      "criterion_label": "Sketching function graphs",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot sketch function graphs",
+        "emerging": "Sketches basic graphs with significant support or major omissions",
+        "developing": "Sketches graphs showing some key features with minor inaccuracies",
+        "competent": "Accurately sketches function graphs showing all key features and correct behavior",
+        "extending": "Sketches complex functions with precision and insight"
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0017"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0017",
+          "to_criterion_id": "dfe-ks3-maths_crit_0018",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Plotting points and understanding coordinates is essential before sketching graphs of functions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0019",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can manipulate linear equations to convert them to standard form.",
+      "criterion_label": "Converting to standard form",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot manipulate linear equations",
+        "emerging": "Attempts equation manipulation with significant errors or support needed",
+        "developing": "Converts equations to standard form with some procedural errors",
+        "competent": "Accurately manipulates linear equations to standard form using correct procedures",
+        "extending": "Efficiently converts complex equations using multiple methods"
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0020",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can analyze gradients and intercepts from graphical representations.",
+      "criterion_label": "Analyze gradients and intercepts",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify gradients or intercepts from graphs.",
+        "emerging": "Identifies some gradients or intercepts with significant support.",
+        "developing": "Identifies gradients and intercepts with minor errors or guidance.",
+        "competent": "Accurately analyzes gradients and intercepts from various graphical representations.",
+        "extending": "Analyzes complex gradients and intercepts with sophisticated reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0017",
+        "dfe-ks3-maths_crit_0018"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0017",
+          "to_criterion_id": "dfe-ks3-maths_crit_0020",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding coordinate positions is required to analyze gradients and intercepts from graphs."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0018",
+          "to_criterion_id": "dfe-ks3-maths_crit_0020",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Sketching graphs provides visual foundation before analyzing specific features like gradients and intercepts."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0021",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can estimate values from graphs accurately.",
+      "criterion_label": "Estimate values from graphs",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot estimate values from graphical data.",
+        "emerging": "Makes basic estimates with significant inaccuracy or support.",
+        "developing": "Estimates values with reasonable accuracy but some errors.",
+        "competent": "Accurately estimates values from graphs using appropriate methods and precision.",
+        "extending": "Makes sophisticated estimates with high precision and justification."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0017",
+        "dfe-ks3-maths_crit_0018"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0017",
+          "to_criterion_id": "dfe-ks3-maths_crit_0021",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Coordinate understanding is fundamental to estimating values from graphical representations."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0018",
+          "to_criterion_id": "dfe-ks3-maths_crit_0021",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding graph behavior supports accurate estimation of values from graphs."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0022",
+      "associated_lt_ids": [
+        "algebra_cluster_02_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can solve problems using graphical representations.",
+      "criterion_label": "Solve problems using graphs",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot use graphs to solve problems.",
+        "emerging": "Attempts to use graphs for problem-solving with limited success.",
+        "developing": "Solves simple problems using graphs with some guidance needed.",
+        "competent": "Effectively solves various problems by interpreting and applying graphical information.",
+        "extending": "Solves complex problems using sophisticated graphical analysis."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0018",
+        "dfe-ks3-maths_crit_0020",
+        "dfe-ks3-maths_crit_0021"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0018",
+          "to_criterion_id": "dfe-ks3-maths_crit_0022",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Sketching graphs provides foundation for solving problems using graphical representations."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0020",
+          "to_criterion_id": "dfe-ks3-maths_crit_0022",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Analyzing graph features supports problem-solving using graphical methods."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0021",
+          "to_criterion_id": "dfe-ks3-maths_crit_0022",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Estimating values from graphs is a component skill needed for solving graphical problems."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0023",
+      "associated_lt_ids": [
+        "algebra_cluster_03_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can generate terms of a sequence using term-to-term rules.",
+      "criterion_label": "Term-to-term generation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to use term-to-term rules.",
+        "emerging": "Attempts term-to-term rules with significant errors or confusion.",
+        "developing": "Uses term-to-term rules correctly for simple sequences with minor errors.",
+        "competent": "Accurately generates sequence terms using term-to-term rules across various sequence types.",
+        "extending": "Applies term-to-term rules to complex or unfamiliar sequence patterns."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0024",
+      "associated_lt_ids": [
+        "algebra_cluster_03_lt_01"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can generate terms of a sequence using position-to-term rules.",
+      "criterion_label": "Position-to-term generation",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to use position-to-term rules.",
+        "emerging": "Attempts position-to-term rules with significant errors or confusion.",
+        "developing": "Uses position-to-term rules correctly for simple sequences with minor errors.",
+        "competent": "Accurately generates sequence terms using position-to-term rules and formulas effectively.",
+        "extending": "Applies position-to-term rules to derive terms in complex sequences."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0025",
+      "associated_lt_ids": [
+        "algebra_cluster_03_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can recognize arithmetic and geometric sequences from given terms or patterns.",
+      "criterion_label": "Recognize sequence types",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify sequence types",
+        "emerging": "Identifies some arithmetic or geometric sequences with support",
+        "developing": "Identifies most arithmetic and geometric sequences with minor errors",
+        "competent": "Accurately identifies arithmetic and geometric sequences from given terms",
+        "extending": "Identifies sequence types and explains reasoning clearly"
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0023",
+        "dfe-ks3-maths_crit_0024"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0023",
+          "to_criterion_id": "dfe-ks3-maths_crit_0025",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Generating sequence terms provides experience needed to recognize sequence patterns."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0024",
+          "to_criterion_id": "dfe-ks3-maths_crit_0025",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding position-to-term rules helps in recognizing sequence types and patterns."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0026",
+      "associated_lt_ids": [
+        "algebra_cluster_03_lt_02"
+      ],
+      "strand": "algebra",
+      "criterion_statement": "I can find the nth term formula for arithmetic and geometric sequences.",
+      "criterion_label": "Find nth terms",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot find nth terms",
+        "emerging": "Attempts nth term formulas with significant errors",
+        "developing": "Finds nth terms with some computational or formula errors",
+        "competent": "Accurately derives and applies nth term formulas for both sequence types",
+        "extending": "Finds nth terms efficiently and verifies solutions"
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0025"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0025",
+          "to_criterion_id": "dfe-ks3-maths_crit_0026",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Recognizing sequence types is essential before finding nth term formulas for those sequences."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0027",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_01"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can identify and express ratios between quantities in different forms (fraction, colon notation, word form).",
+      "criterion_label": "Express ratios",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify or express ratios.",
+        "emerging": "Identifies ratios in one form with support.",
+        "developing": "Expresses ratios in multiple forms with minor errors.",
+        "competent": "Accurately identifies and expresses ratios in fraction, colon, and word forms.",
+        "extending": "Flexibly converts between ratio forms and explains equivalence."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0028",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_01"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can determine whether two ratios are equivalent and form proportions.",
+      "criterion_label": "Identify proportions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot compare ratios for equivalence.",
+        "emerging": "Recognizes some equivalent ratios with guidance.",
+        "developing": "Determines ratio equivalence using basic methods.",
+        "competent": "Accurately identifies equivalent ratios and forms valid proportions using multiple strategies.",
+        "extending": "Explains why ratios are equivalent using multiplicative reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0027"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0027",
+          "to_criterion_id": "dfe-ks3-maths_crit_0028",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Students must understand how to express ratios in different forms before they can determine if two ratios are equivalent."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0029",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_01"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can solve problems involving proportional relationships using cross-multiplication, scaling, or unit rates.",
+      "criterion_label": "Solve proportional problems",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot solve proportional problems.",
+        "emerging": "Solves simple proportional problems with significant support.",
+        "developing": "Solves proportional problems using one strategy consistently.",
+        "competent": "Accurately solves proportional problems using appropriate strategies and checks reasonableness of solutions.",
+        "extending": "Solves complex proportional problems and explains strategy choice."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0028"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0028",
+          "to_criterion_id": "dfe-ks3-maths_crit_0029",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding equivalent ratios and proportions is fundamental to solving proportional relationship problems using various methods."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0030",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_02"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can solve problems involving rates in real-world contexts.",
+      "criterion_label": "Rate Problem Solving",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to solve rate problems.",
+        "emerging": "Identifies rates but struggles with problem setup or calculations.",
+        "developing": "Solves simple rate problems with some computational errors or incomplete reasoning.",
+        "competent": "Accurately solves rate problems using appropriate methods and clear reasoning in real-world contexts.",
+        "extending": "Solves complex rate problems and explains multiple solution approaches."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0029"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0029",
+          "to_criterion_id": "dfe-ks3-maths_crit_0030",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Solving proportional relationships provides the foundation for understanding and solving rate problems in real-world contexts."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0031",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_02"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can solve problems involving percentage changes in real-world contexts.",
+      "criterion_label": "Percentage Change Problems",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to solve percentage change problems.",
+        "emerging": "Recognizes percentage changes but struggles with calculation methods or problem interpretation.",
+        "developing": "Solves basic percentage change problems with minor errors in calculation or reasoning.",
+        "competent": "Accurately calculates percentage increases, decreases, and changes using appropriate methods in real-world situations.",
+        "extending": "Solves complex percentage problems and connects to proportional reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0027"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0027",
+          "to_criterion_id": "dfe-ks3-maths_crit_0031",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding ratio notation and forms helps students express percentage changes as ratios and proportions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0032",
+      "associated_lt_ids": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_02"
+      ],
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criterion_statement": "I can solve problems involving compound units in real-world contexts.",
+      "criterion_label": "Compound Unit Problems",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt to work with compound units.",
+        "emerging": "Identifies compound units but struggles with conversions or problem setup.",
+        "developing": "Works with compound units but makes errors in unit conversions or calculations.",
+        "competent": "Accurately solves problems involving compound units with proper conversions and clear reasoning.",
+        "extending": "Efficiently handles complex compound unit problems and explains unit relationships."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0030"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0030",
+          "to_criterion_id": "dfe-ks3-maths_crit_0032",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding rates provides a foundation for working with compound units, which often involve multiple rates combined."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0033",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_01_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can calculate perimeters of triangles, parallelograms, trapezia, circles, and composite shapes.",
+      "criterion_label": "Calculate Perimeters",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at perimeter calculation.",
+        "emerging": "Attempts perimeter calculation with significant errors or incomplete methods.",
+        "developing": "Calculates perimeters with minor errors or missing steps in reasoning.",
+        "competent": "Accurately calculates perimeters using appropriate formulas and methods for all shape types.",
+        "extending": "Efficiently calculates complex composite shape perimeters with clear reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0037",
+        "dfe-ks3-maths_crit_0038"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0037",
+          "to_criterion_id": "dfe-ks3-maths_crit_0033",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Drawing line segments is foundational for understanding and calculating perimeters of geometric shapes."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0038",
+          "to_criterion_id": "dfe-ks3-maths_crit_0033",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Measuring line segments is essential for calculating perimeters accurately."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0034",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_01_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can calculate areas of triangles, parallelograms, trapezia, circles, and composite shapes.",
+      "criterion_label": "Calculate Areas",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at area calculation.",
+        "emerging": "Attempts area calculation with significant errors or inappropriate formula use.",
+        "developing": "Calculates areas with minor errors or incomplete application of formulas.",
+        "competent": "Accurately calculates areas using appropriate formulas and methods for all shape types.",
+        "extending": "Efficiently calculates complex composite shape areas with sophisticated decomposition strategies."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0033"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0033",
+          "to_criterion_id": "dfe-ks3-maths_crit_0034",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Understanding perimeter concepts provides foundation for area calculations."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0035",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_01_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can calculate volumes of cuboids and cubes using appropriate formulas.",
+      "criterion_label": "Cuboid and Cube Volumes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at volume calculation.",
+        "emerging": "Identifies volume as a concept but struggles with basic calculations.",
+        "developing": "Calculates simple cube volumes but makes errors with cuboids.",
+        "competent": "Accurately calculates volumes of cuboids and cubes using length \u00d7 width \u00d7 height.",
+        "extending": "Efficiently calculates complex cuboid volumes with mixed units."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0034"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0034",
+          "to_criterion_id": "dfe-ks3-maths_crit_0035",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Area calculation is conceptually required to understand volume as area times height."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0036",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_01_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can calculate volumes of cylinders and other prisms using appropriate formulas.",
+      "criterion_label": "Cylinder and Prism Volumes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at cylinder volume calculation.",
+        "emerging": "Recognizes cylinders have volume but cannot apply formulas correctly.",
+        "developing": "Attempts cylinder volume calculations but makes formula or computational errors.",
+        "competent": "Accurately calculates cylinder volumes using \u03c0r\u00b2h and other prism volumes using base area \u00d7 height.",
+        "extending": "Solves complex volume problems involving composite prisms and cylinders."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0035"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0035",
+          "to_criterion_id": "dfe-ks3-maths_crit_0036",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Volume of cuboids provides the foundation for understanding volume of cylinders and other prisms."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0037",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "Draw line segments and angles in geometric figures using conventional methods.",
+      "criterion_label": "Drawing geometric elements",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot draw basic geometric elements.",
+        "emerging": "Draws simple line segments with limited accuracy.",
+        "developing": "Draws line segments and basic angles with some precision.",
+        "competent": "Accurately draws line segments and angles using appropriate tools and conventional methods.",
+        "extending": "Draws complex geometric elements with precision and efficiency."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0038",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "Measure line segments and angles in geometric figures using conventional methods.",
+      "criterion_label": "Measuring geometric elements",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot measure geometric elements.",
+        "emerging": "Measures simple line segments with limited accuracy.",
+        "developing": "Measures line segments and basic angles with some precision.",
+        "competent": "Accurately measures line segments and angles using appropriate tools and conventional methods.",
+        "extending": "Measures complex geometric elements with high precision and efficiency."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0039",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "Interpret scale drawings to understand geometric relationships and measurements.",
+      "criterion_label": "Interpreting scale drawings",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot interpret scale drawings.",
+        "emerging": "Identifies basic elements in simple scale drawings.",
+        "developing": "Interprets scale drawings with some understanding of proportional relationships.",
+        "competent": "Accurately interprets scale drawings, understanding scale factors and proportional relationships in geometric contexts.",
+        "extending": "Interprets complex scale drawings and applies understanding to solve advanced problems."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0040",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can perform standard ruler and compass constructions.",
+      "criterion_label": "Ruler and Compass Constructions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No construction attempts or incorrect methods used.",
+        "emerging": "Attempts basic constructions with significant errors in technique.",
+        "developing": "Performs some standard constructions with minor inaccuracies.",
+        "competent": "Accurately performs standard ruler and compass constructions using correct geometric methods.",
+        "extending": "Performs complex constructions with precision and efficiency."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0037",
+        "dfe-ks3-maths_crit_0038"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0037",
+          "to_criterion_id": "dfe-ks3-maths_crit_0040",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Basic drawing skills are essential before attempting formal compass constructions."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0038",
+          "to_criterion_id": "dfe-ks3-maths_crit_0040",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Measuring skills are fundamental for accurate compass constructions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0041",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply the concept of perpendicular distance from a point to a line.",
+      "criterion_label": "Perpendicular Distance Concept",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of perpendicular distance shown.",
+        "emerging": "Shows basic awareness but cannot apply the concept correctly.",
+        "developing": "Applies perpendicular distance concept with some guidance or errors.",
+        "competent": "Correctly applies perpendicular distance concept to solve geometric problems effectively.",
+        "extending": "Uses perpendicular distance in complex problem-solving contexts."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0042",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can describe geometric shapes using conventional mathematical terms and notations.",
+      "criterion_label": "Describe geometric shapes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of geometric terminology.",
+        "emerging": "Uses basic shape names with limited mathematical vocabulary.",
+        "developing": "Uses appropriate geometric terms with occasional notation errors.",
+        "competent": "Accurately describes shapes using correct mathematical terms and standard notations consistently.",
+        "extending": "Uses precise geometric language with sophisticated mathematical notation."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0043",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can sketch and draw geometric shapes accurately using appropriate techniques.",
+      "criterion_label": "Sketch and draw shapes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot produce recognizable geometric shapes.",
+        "emerging": "Creates basic shape outlines with significant inaccuracies.",
+        "developing": "Sketches shapes with reasonable proportions and some accurate features.",
+        "competent": "Draws geometric shapes accurately with correct proportions and key geometric properties represented.",
+        "extending": "Creates precise geometric drawings with excellent attention to detail."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0037"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0037",
+          "to_criterion_id": "dfe-ks3-maths_crit_0043",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Drawing line segments is a fundamental component of sketching geometric shapes."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0044",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_03_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can identify properties of triangles, quadrilaterals, and circles.",
+      "criterion_label": "Identify geometric properties",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify basic geometric properties.",
+        "emerging": "Identifies some simple properties with significant support.",
+        "developing": "Identifies most properties but may confuse similar concepts.",
+        "competent": "Accurately identifies properties of triangles, quadrilaterals, and circles consistently.",
+        "extending": "Identifies complex properties and explains relationships between them."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0042"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0042",
+          "to_criterion_id": "dfe-ks3-maths_crit_0044",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Mathematical terminology is required to identify and describe geometric properties."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0045",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_03_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply congruence criteria to determine when geometric figures are congruent.",
+      "criterion_label": "Apply congruence criteria",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot apply congruence criteria.",
+        "emerging": "Attempts to use congruence criteria with limited success.",
+        "developing": "Applies some congruence criteria correctly but inconsistently.",
+        "competent": "Correctly applies congruence criteria to determine when figures are congruent.",
+        "extending": "Applies congruence criteria flexibly and justifies reasoning clearly."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0044"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0044",
+          "to_criterion_id": "dfe-ks3-maths_crit_0045",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding geometric properties is essential for applying congruence criteria."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0046",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_03_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can construct congruent triangles using various geometric construction methods.",
+      "criterion_label": "Construct Congruent Triangles",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at triangle construction.",
+        "emerging": "Attempts construction but produces incorrect or incomplete triangles.",
+        "developing": "Constructs congruent triangles with minor errors in method or accuracy.",
+        "competent": "Accurately constructs congruent triangles using appropriate geometric construction methods with precision.",
+        "extending": "Constructs congruent triangles efficiently using multiple methods and explains construction principles."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0045",
+        "dfe-ks3-maths_crit_0040"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0045",
+          "to_criterion_id": "dfe-ks3-maths_crit_0046",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding congruence criteria is required to construct congruent triangles."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0040",
+          "to_criterion_id": "dfe-ks3-maths_crit_0046",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Compass construction skills are needed for constructing congruent triangles."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0047",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_03_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can create similar shapes through enlargement using various methods.",
+      "criterion_label": "Create Similar Shapes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at creating similar shapes.",
+        "emerging": "Attempts enlargement but produces shapes that are not similar.",
+        "developing": "Creates similar shapes with some errors in scale factor or proportions.",
+        "competent": "Accurately creates similar shapes through enlargement maintaining correct proportional relationships and scale factors.",
+        "extending": "Creates similar shapes using multiple enlargement methods and explains similarity principles clearly."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0043"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0043",
+          "to_criterion_id": "dfe-ks3-maths_crit_0047",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Basic shape drawing skills are needed before creating similar shapes through enlargement."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0048",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_04_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can identify properties of geometric transformations (translations, rotations, reflections) applied to given figures.",
+      "criterion_label": "Identify transformation properties",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot identify any transformation properties.",
+        "emerging": "Identifies basic properties of one transformation type inconsistently.",
+        "developing": "Identifies properties of most transformations with minor gaps or errors.",
+        "competent": "Accurately identifies properties of translations, rotations, and reflections applied to figures.",
+        "extending": "Identifies complex transformation properties and their relationships."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0042"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0042",
+          "to_criterion_id": "dfe-ks3-maths_crit_0048",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Mathematical terminology is needed to identify transformation properties."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0049",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_04_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can describe the results of geometric transformations (translations, rotations, reflections) applied to given figures.",
+      "criterion_label": "Describe transformation results",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "Cannot describe transformation results.",
+        "emerging": "Describes basic results of simple transformations with limited accuracy.",
+        "developing": "Describes most transformation results with appropriate mathematical language.",
+        "competent": "Clearly describes results of translations, rotations, and reflections using precise mathematical terminology.",
+        "extending": "Describes complex transformation results and predicts outcomes."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0048"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0048",
+          "to_criterion_id": "dfe-ks3-maths_crit_0049",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Identifying transformation properties is required before describing their results."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0050",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_04_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can use the properties of faces, surfaces, edges and vertices of three-dimensional shapes to solve problems.",
+      "criterion_label": "3D Shape Problem Solving",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of 3D shape properties.",
+        "emerging": "Identifies basic 3D shape properties but struggles with application.",
+        "developing": "Uses some 3D shape properties correctly in simple problems.",
+        "competent": "Systematically applies faces, edges, vertices, and surface properties to solve varied 3D problems.",
+        "extending": "Flexibly combines multiple 3D properties in complex problem contexts."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0042"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0042",
+          "to_criterion_id": "dfe-ks3-maths_crit_0050",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "medium",
+          "rationale": "Mathematical terminology for 3D shapes is needed to use their properties."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0051",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply angle properties at points and on straight lines to solve problems.",
+      "criterion_label": "Point and Line Angles",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of basic angle properties shown.",
+        "emerging": "Identifies some angle properties but struggles with application.",
+        "developing": "Applies basic angle properties with guidance or in simple contexts.",
+        "competent": "Confidently applies angle properties at points and on lines to solve problems accurately.",
+        "extending": "Applies properties flexibly in complex multi-step problems."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0038"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0038",
+          "to_criterion_id": "dfe-ks3-maths_crit_0051",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Measuring angles is fundamental for applying angle properties."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0052",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply angle properties with parallel lines to solve problems.",
+      "criterion_label": "Parallel Line Angles",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of parallel line angle properties.",
+        "emerging": "Recognizes some parallel line relationships but cannot apply them.",
+        "developing": "Applies parallel line properties with support in straightforward problems.",
+        "competent": "Confidently uses corresponding, alternate, and co-interior angles to solve problems involving parallel lines.",
+        "extending": "Applies parallel line properties in complex geometric proofs."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0051"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0051",
+          "to_criterion_id": "dfe-ks3-maths_crit_0052",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Basic angle properties provide foundation for parallel line angle properties."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0053",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_01"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply angle properties in polygons to solve problems.",
+      "criterion_label": "Polygon Angles",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No understanding of polygon angle properties shown.",
+        "emerging": "Knows some polygon angle facts but cannot apply them.",
+        "developing": "Applies polygon angle properties with guidance in simple cases.",
+        "competent": "Confidently uses interior and exterior angle properties of polygons to solve problems effectively.",
+        "extending": "Applies polygon properties in complex multi-polygon problems."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0051"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0051",
+          "to_criterion_id": "dfe-ks3-maths_crit_0053",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Basic angle properties are needed before applying them in polygons."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0054",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply geometric theorems and properties to derive mathematical results.",
+      "criterion_label": "Apply geometric theorems",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of geometric theorems.",
+        "emerging": "Attempts to use basic theorems with significant errors.",
+        "developing": "Uses some theorems correctly but with gaps in reasoning.",
+        "competent": "Consistently applies relevant theorems to derive correct results with clear reasoning.",
+        "extending": "Selects and combines multiple theorems strategically for complex derivations."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0044"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0044",
+          "to_criterion_id": "dfe-ks3-maths_crit_0054",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding geometric properties is essential for applying geometric theorems."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0055",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can use congruence and similarity relationships to solve geometric problems.",
+      "criterion_label": "Apply congruence and similarity",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No recognition of congruence or similarity.",
+        "emerging": "Identifies basic congruent or similar shapes with support.",
+        "developing": "Uses congruence or similarity with some correct reasoning steps.",
+        "competent": "Effectively applies congruence and similarity criteria to solve problems with justification.",
+        "extending": "Combines congruence and similarity strategically in complex multi-step solutions."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0045"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0045",
+          "to_criterion_id": "dfe-ks3-maths_crit_0055",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding congruence criteria is required to use congruence relationships."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0056",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can apply trigonometric relationships to solve geometric problems.",
+      "criterion_label": "Apply trigonometric relationships",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No use of trigonometric relationships.",
+        "emerging": "Attempts basic trigonometric ratios with significant errors.",
+        "developing": "Uses trigonometric relationships correctly in simple contexts.",
+        "competent": "Applies trigonometric relationships effectively to solve geometric problems with clear working.",
+        "extending": "Integrates trigonometry with other geometric concepts in sophisticated problem-solving."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0051"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0051",
+          "to_criterion_id": "dfe-ks3-maths_crit_0056",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Angle properties provide foundation for trigonometric relationships."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0057",
+      "associated_lt_ids": [
+        "geometry-and-measures_cluster_05_lt_02"
+      ],
+      "strand": "geometry-and-measures",
+      "criterion_statement": "I can construct formal geometric proofs with logical reasoning and justification.",
+      "criterion_label": "Construct geometric proofs",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No attempt at formal proof structure.",
+        "emerging": "Shows basic understanding of proof format with major gaps.",
+        "developing": "Constructs simple proofs with some logical steps and justification.",
+        "competent": "Produces well-structured proofs with clear logical progression and appropriate justification.",
+        "extending": "Creates sophisticated proofs using multiple approaches and elegant mathematical reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0054"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0054",
+          "to_criterion_id": "dfe-ks3-maths_crit_0057",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding geometric theorems is essential for constructing formal proofs."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0058",
+      "associated_lt_ids": [
+        "probability_cluster_01_lt_01"
+      ],
+      "strand": "probability",
+      "criterion_statement": "I can record the frequency of outcomes in probability experiments using appropriate methods.",
+      "criterion_label": "Record Experimental Outcomes",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No recording of experimental outcomes attempted.",
+        "emerging": "Records some outcomes but methods are unclear or inconsistent.",
+        "developing": "Records outcomes using mostly appropriate methods with minor gaps.",
+        "competent": "Systematically records all experimental outcomes using clear, appropriate methods throughout.",
+        "extending": "Records outcomes efficiently using sophisticated organizational methods."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0059",
+      "associated_lt_ids": [
+        "probability_cluster_01_lt_01"
+      ],
+      "strand": "probability",
+      "criterion_statement": "I can describe the frequency of outcomes in probability experiments using appropriate probability language.",
+      "criterion_label": "Describe Outcome Frequencies",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No description of outcome frequencies provided.",
+        "emerging": "Describes frequencies using basic everyday language with limited precision.",
+        "developing": "Uses some appropriate probability language but may lack precision or consistency.",
+        "competent": "Clearly describes outcome frequencies using accurate probability language and terminology throughout.",
+        "extending": "Uses sophisticated probability language with precise mathematical communication."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0058"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0058",
+          "to_criterion_id": "dfe-ks3-maths_crit_0059",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Students must first be able to record frequency data before they can meaningfully describe it using probability language."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0060",
+      "associated_lt_ids": [
+        "probability_cluster_01_lt_01"
+      ],
+      "strand": "probability",
+      "criterion_statement": "I can analyse the frequency of outcomes in probability experiments using the 0-1 probability scale.",
+      "criterion_label": "Analyse Using Probability Scale",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No analysis using probability scale attempted.",
+        "emerging": "Attempts to use 0-1 scale but with significant errors or misunderstanding.",
+        "developing": "Uses 0-1 scale appropriately in most cases with minor calculation errors.",
+        "competent": "Accurately analyses experimental frequencies using the 0-1 probability scale with correct interpretations.",
+        "extending": "Provides sophisticated analysis connecting experimental results to theoretical probabilities."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0059"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0059",
+          "to_criterion_id": "dfe-ks3-maths_crit_0060",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Understanding probability language is essential before students can analyze outcomes using the formal 0-1 probability scale."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0061",
+      "associated_lt_ids": [
+        "probability_cluster_01_lt_02"
+      ],
+      "strand": "probability",
+      "criterion_statement": "I can enumerate sets systematically using tables and grids.",
+      "criterion_label": "Set Enumeration",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No systematic enumeration shown",
+        "emerging": "Lists some set elements with limited organization",
+        "developing": "Uses tables or grids with minor gaps in systematic approach",
+        "competent": "Systematically enumerates sets using tables and grids with complete accuracy",
+        "extending": "Efficiently organizes complex sets using optimal systematic methods"
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0062",
+      "associated_lt_ids": [
+        "probability_cluster_01_lt_02"
+      ],
+      "strand": "probability",
+      "criterion_statement": "I can find unions and intersections of sets systematically using tables and grids.",
+      "criterion_label": "Set Operations",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No set operations attempted",
+        "emerging": "Identifies some union or intersection elements inconsistently",
+        "developing": "Applies union and intersection concepts with occasional errors in systematic approach",
+        "competent": "Systematically determines unions and intersections using tables and grids accurately",
+        "extending": "Efficiently combines multiple set operations using sophisticated organizational methods"
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0061"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0061",
+          "to_criterion_id": "dfe-ks3-maths_crit_0062",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Students must be able to systematically enumerate sets before they can find unions and intersections of those sets."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0063",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_01"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can describe distributions of single variables using appropriate graphs and measures of central tendency and spread.",
+      "criterion_label": "Describe distributions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No description attempted or completely incorrect.",
+        "emerging": "Basic description with limited use of statistical language.",
+        "developing": "Adequate description using some appropriate graphs and measures.",
+        "competent": "Clear, accurate description using appropriate graphs and statistical measures effectively.",
+        "extending": "Sophisticated description with precise statistical language and reasoning."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0066"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0066",
+          "to_criterion_id": "dfe-ks3-maths_crit_0063",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "Constructing appropriate graphs is foundational to describing distributions using those graphs."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0064",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_01"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can interpret distributions of single variables using appropriate graphs and measures of central tendency and spread.",
+      "criterion_label": "Interpret distributions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No interpretation attempted or completely incorrect.",
+        "emerging": "Basic interpretation with limited understanding of meaning.",
+        "developing": "Adequate interpretation showing some understanding of statistical concepts.",
+        "competent": "Clear interpretation demonstrating solid understanding of what data reveals about the variable.",
+        "extending": "Insightful interpretation with deep understanding and connections."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0067",
+        "dfe-ks3-maths_crit_0063"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0067",
+          "to_criterion_id": "dfe-ks3-maths_crit_0064",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "high",
+          "rationale": "General interpretation of charts and diagrams should precede the more specific skill of interpreting distributions."
+        },
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0063",
+          "to_criterion_id": "dfe-ks3-maths_crit_0064",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Describing distributions provides the foundation for interpreting what those descriptions mean."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0065",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_01"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can compare distributions of single variables using appropriate graphs and measures of central tendency and spread.",
+      "criterion_label": "Compare distributions",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No comparison attempted or completely incorrect.",
+        "emerging": "Basic comparison with limited statistical reasoning.",
+        "developing": "Adequate comparison using some appropriate statistical measures.",
+        "competent": "Clear comparison using multiple appropriate measures with sound statistical reasoning.",
+        "extending": "Sophisticated comparison with nuanced analysis and insights."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0064"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0064",
+          "to_criterion_id": "dfe-ks3-maths_crit_0065",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Students must understand how to interpret individual distributions before they can meaningfully compare multiple distributions."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0066",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_02"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can construct appropriate tables, charts and diagrams for categorical and numerical data.",
+      "criterion_label": "Construct Data Representations",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No data representations constructed.",
+        "emerging": "Constructs basic representations with significant errors or inappropriate choices.",
+        "developing": "Constructs mostly appropriate representations with minor errors in format or labeling.",
+        "competent": "Constructs clear, accurate, and appropriately chosen representations for given data types.",
+        "extending": "Constructs sophisticated representations with enhanced clarity and visual appeal."
+      },
+      "prerequisite_criterion_ids": [],
+      "prerequisite_edges_detail": [],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0067",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_02"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can interpret tables, charts and diagrams for categorical and numerical data.",
+      "criterion_label": "Interpret Data Representations",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No interpretation attempted or demonstrated.",
+        "emerging": "Basic interpretation with frequent misreadings or incomplete understanding.",
+        "developing": "Generally accurate interpretation with occasional errors in detail or context.",
+        "competent": "Accurately interprets key features, patterns, and meaning from data representations.",
+        "extending": "Provides insightful interpretation including implications and deeper patterns."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0066"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0066",
+          "to_criterion_id": "dfe-ks3-maths_crit_0067",
+          "reasoning_tag": "ontological_prerequisite",
+          "strength": "high",
+          "rationale": "Students must be able to construct tables, charts and diagrams before they can meaningfully interpret them."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0068",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_03"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can describe mathematical relationships between two variables.",
+      "criterion_label": "Describe bivariate relationships",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No description of variable relationships provided.",
+        "emerging": "Basic identification of positive or negative trends between variables.",
+        "developing": "Describes direction and general strength of relationships with some mathematical language.",
+        "competent": "Accurately describes direction, strength, and form of relationships using appropriate mathematical terminology.",
+        "extending": "Describes complex relationships including outliers and contextual interpretations."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0069"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0069",
+          "to_criterion_id": "dfe-ks3-maths_crit_0068",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Creating scatter graphs provides a visual foundation for understanding and describing mathematical relationships between variables."
+        }
+      ],
+      "schema_version": "v1"
+    },
+    {
+      "criterion_id": "dfe-ks3-maths_crit_0069",
+      "associated_lt_ids": [
+        "statistics_cluster_01_lt_03"
+      ],
+      "strand": "statistics",
+      "criterion_statement": "I can illustrate bivariate relationships using scatter graphs.",
+      "criterion_label": "Create scatter graphs",
+      "source_provenance": [],
+      "competency_level_descriptors": {
+        "no_evidence": "No scatter graph constructed.",
+        "emerging": "Basic scatter plot with points plotted but missing key elements.",
+        "developing": "Scatter graph with most points correctly plotted and basic labeling present.",
+        "competent": "Well-constructed scatter graph with accurate plotting, appropriate scales, and clear axis labels.",
+        "extending": "Sophisticated scatter graph with trend lines or additional analytical features."
+      },
+      "prerequisite_criterion_ids": [
+        "dfe-ks3-maths_crit_0066"
+      ],
+      "prerequisite_edges_detail": [
+        {
+          "from_criterion_id": "dfe-ks3-maths_crit_0066",
+          "to_criterion_id": "dfe-ks3-maths_crit_0069",
+          "reasoning_tag": "pedagogical_sequencing",
+          "strength": "medium",
+          "rationale": "Basic chart construction skills should be established before learning the specific technique of scatter graphs."
+        }
+      ],
+      "schema_version": "v1"
+    }
+  ]
+}

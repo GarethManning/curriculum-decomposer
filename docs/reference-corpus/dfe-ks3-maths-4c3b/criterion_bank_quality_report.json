@@ -1,0 +1,502 @@
+{
+  "source_slug": "dfe-ks3-maths",
+  "strand_summaries": [
+    {
+      "strand": "number",
+      "criteria_count": 12,
+      "edge_count": 10,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "algebra",
+      "criteria_count": 14,
+      "edge_count": 16,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "ratio-proportion-and-rates-of-change",
+      "criteria_count": 6,
+      "edge_count": 5,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "geometry-and-measures",
+      "criteria_count": 25,
+      "edge_count": 23,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "probability",
+      "criteria_count": 5,
+      "edge_count": 3,
+      "failed_lts": [],
+      "skipped": false
+    },
+    {
+      "strand": "statistics",
+      "criteria_count": 7,
+      "edge_count": 7,
+      "failed_lts": [],
+      "skipped": false
+    }
+  ],
+  "dag_validation": {
+    "passed": true,
+    "errors": []
+  },
+  "over_generation_spot_check": {
+    "total_criteria": 69,
+    "sample_size": 13,
+    "issues_found": 0,
+    "issues": []
+  },
+  "decomposition_audit": {
+    "lts_audited": 20,
+    "audit_rows": [
+      {
+        "lt_id": "geometry-and-measures_cluster_05_lt_01",
+        "lt_name": "Applying Angle Properties and Relationships",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0051",
+          "dfe-ks3-maths_crit_0052",
+          "dfe-ks3-maths_crit_0053"
+        ],
+        "decomposition_rationale": "This criterion covers foundational angle relationships (angles around a point, vertically opposite angles, angles on a straight line) which form a distinct skill set from parallel line properties and polygon angles."
+      },
+      {
+        "lt_id": "algebra_cluster_02_lt_01",
+        "lt_name": "Creating and Manipulating Coordinate Graphs",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0017",
+          "dfe-ks3-maths_crit_0018",
+          "dfe-ks3-maths_crit_0019"
+        ],
+        "decomposition_rationale": "This LT contains three distinct procedural sub-skills: coordinate manipulation, graph sketching, and equation manipulation. Each has separable failure modes and can be independently assessed."
+      },
+      {
+        "lt_id": "algebra_cluster_01_lt_01",
+        "lt_name": "Interpreting and Using Algebraic Notation",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0013"
+        ],
+        "decomposition_rationale": "Single criterion as both 'use' and 'interpret' represent the same cognitive operation applied to algebraic notation - demonstrating understanding of symbolic mathematical language."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_02_lt_03",
+        "lt_name": "Describing and Sketching Geometric Shapes",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0042",
+          "dfe-ks3-maths_crit_0043"
+        ],
+        "decomposition_rationale": "Description requires verbal/written mathematical communication skills distinct from visual representation abilities."
+      },
+      {
+        "lt_id": "number_cluster_02_lt_03",
+        "lt_name": "Technology-Assisted Calculation and Number Systems",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0011",
+          "dfe-ks3-maths_crit_0012"
+        ],
+        "decomposition_rationale": "This criterion focuses on the procedural skill of using technological tools for accurate computation."
+      },
+      {
+        "lt_id": "number_cluster_02_lt_01",
+        "lt_name": "Using Standard Units and Rounding",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0007",
+          "dfe-ks3-maths_crit_0008"
+        ],
+        "decomposition_rationale": "This LT contains two distinct mathematical skills: measurement with standard units and number rounding. These require different knowledge domains and have separable failure modes - a student could demonstrate competency in one without the other."
+      },
+      {
+        "lt_id": "number_cluster_01_lt_01",
+        "lt_name": "Understanding Number Properties and Representations",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0001",
+          "dfe-ks3-maths_crit_0002",
+          "dfe-ks3-maths_crit_0003"
+        ],
+        "decomposition_rationale": "Place value is a distinct mathematical concept that can be assessed independently from factorisation and number form relationships."
+      },
+      {
+        "lt_id": "algebra_cluster_03_lt_02",
+        "lt_name": "Recognizing and Analyzing Sequences",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0025",
+          "dfe-ks3-maths_crit_0026"
+        ],
+        "decomposition_rationale": "Recognition of sequence types and finding nth terms are distinct cognitive operations - one involves pattern identification while the other requires formula application and algebraic manipulation."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_04_lt_02",
+        "lt_name": "Working with Three-Dimensional Shapes",
+        "knowledge_type": "Type 1",
+        "criteria_count": 1,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0050"
+        ],
+        "decomposition_rationale": "Single criterion as this involves one cognitive act (using properties to solve problems) applied to a unified knowledge domain of 3D shape characteristics."
+      },
+      {
+        "lt_id": "algebra_cluster_03_lt_01",
+        "lt_name": "Generating Sequence Terms",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0023",
+          "dfe-ks3-maths_crit_0024"
+        ],
+        "decomposition_rationale": "Term-to-term and position-to-term rules represent distinct procedural skills with different failure modes and assessment approaches, requiring separate criteria."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_05_lt_02",
+        "lt_name": "Geometric Proof and Advanced Problem Solving",
+        "knowledge_type": "Type 1",
+        "criteria_count": 4,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0054",
+          "dfe-ks3-maths_crit_0055",
+          "dfe-ks3-maths_crit_0056",
+          "dfe-ks3-maths_crit_0057"
+        ],
+        "decomposition_rationale": "This represents the foundational skill of applying established geometric knowledge to solve problems."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_01_lt_01",
+        "lt_name": "Calculating Areas and Perimeters",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0033",
+          "dfe-ks3-maths_crit_0034"
+        ],
+        "decomposition_rationale": "Perimeter and area calculations involve distinct formulas, procedures, and potential failure modes that can be independently assessed."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_03_lt_02",
+        "lt_name": "Constructing and Transforming Geometric Figures",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0046",
+          "dfe-ks3-maths_crit_0047"
+        ],
+        "decomposition_rationale": "This LT contains two distinct geometric skills: constructing congruent triangles and creating similar shapes through enlargement, which require different construction techniques and can be assessed independently."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_04_lt_01",
+        "lt_name": "Applying Geometric Transformations",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0048",
+          "dfe-ks3-maths_crit_0049"
+        ],
+        "decomposition_rationale": "This criterion focuses on the identification aspect, requiring recognition and naming of transformation properties."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_02_lt_02",
+        "lt_name": "Standard Ruler and Compass Constructions",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0040",
+          "dfe-ks3-maths_crit_0041"
+        ],
+        "decomposition_rationale": "This criterion focuses on the procedural skill of executing geometric constructions using traditional tools."
+      },
+      {
+        "lt_id": "number_cluster_02_lt_02",
+        "lt_name": "Approximation and Error Calculation",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0009",
+          "dfe-ks3-maths_crit_0010"
+        ],
+        "decomposition_rationale": "This criterion focuses on the skill of using approximation methods to estimate answers, which is a distinct procedural skill from error calculation."
+      },
+      {
+        "lt_id": "statistics_cluster_01_lt_03",
+        "lt_name": "Analyzing Bivariate Relationships",
+        "knowledge_type": "Type 1",
+        "criteria_count": 2,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0068",
+          "dfe-ks3-maths_crit_0069"
+        ],
+        "decomposition_rationale": "This criterion focuses on the analytical skill of interpreting and describing mathematical relationships between variables."
+      },
+      {
+        "lt_id": "probability_cluster_01_lt_01",
+        "lt_name": "Conducting Probability Experiments",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0058",
+          "dfe-ks3-maths_crit_0059",
+          "dfe-ks3-maths_crit_0060"
+        ],
+        "decomposition_rationale": "Recording outcomes is a distinct procedural skill that can be assessed independently from description or analysis."
+      },
+      {
+        "lt_id": "geometry-and-measures_cluster_02_lt_01",
+        "lt_name": "Drawing and Measuring Geometric Figures",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0037",
+          "dfe-ks3-maths_crit_0038",
+          "dfe-ks3-maths_crit_0039"
+        ],
+        "decomposition_rationale": "Drawing requires different motor skills and tool usage than measuring or interpreting scale drawings, making it independently assessable."
+      },
+      {
+        "lt_id": "statistics_cluster_01_lt_01",
+        "lt_name": "Analyzing Single Variable Distributions",
+        "knowledge_type": "Type 1",
+        "criteria_count": 3,
+        "criterion_ids": [
+          "dfe-ks3-maths_crit_0063",
+          "dfe-ks3-maths_crit_0064",
+          "dfe-ks3-maths_crit_0065"
+        ],
+        "decomposition_rationale": "Description is a foundational cognitive act that can be assessed independently from interpretation and comparison."
+      }
+    ],
+    "flags": []
+  },
+  "scope_drift_check": {
+    "sample_size": 10,
+    "flags_found": 0,
+    "flags": [],
+    "rows": [
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0029",
+        "lt_id": "ratio-proportion-and-rates-of-change_cluster_01_lt_01",
+        "overlap_word_count": 5,
+        "overlap_sample": [
+          "involving",
+          "problems",
+          "proportional",
+          "relationships",
+          "solve"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0038",
+        "lt_id": "geometry-and-measures_cluster_02_lt_01",
+        "overlap_word_count": 9,
+        "overlap_sample": [
+          "angles",
+          "conventional",
+          "figures",
+          "geometric",
+          "line"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0018",
+        "lt_id": "algebra_cluster_02_lt_01",
+        "overlap_word_count": 3,
+        "overlap_sample": [
+          "functions",
+          "graphs",
+          "sketch"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0024",
+        "lt_id": "algebra_cluster_03_lt_01",
+        "overlap_word_count": 7,
+        "overlap_sample": [
+          "generate",
+          "position",
+          "rules",
+          "sequence",
+          "term"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0030",
+        "lt_id": "ratio-proportion-and-rates-of-change_cluster_01_lt_02",
+        "overlap_word_count": 7,
+        "overlap_sample": [
+          "contexts",
+          "involving",
+          "problems",
+          "rates",
+          "real"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0040",
+        "lt_id": "geometry-and-measures_cluster_02_lt_02",
+        "overlap_word_count": 5,
+        "overlap_sample": [
+          "compass",
+          "constructions",
+          "perform",
+          "ruler",
+          "standard"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0056",
+        "lt_id": "geometry-and-measures_cluster_05_lt_02",
+        "overlap_word_count": 3,
+        "overlap_sample": [
+          "geometric",
+          "relationships",
+          "trigonometric"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0011",
+        "lt_id": "number_cluster_02_lt_03",
+        "overlap_word_count": 5,
+        "overlap_sample": [
+          "accurately",
+          "calculators",
+          "other",
+          "technologies",
+          "use"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0057",
+        "lt_id": "geometry-and-measures_cluster_05_lt_02",
+        "overlap_word_count": 3,
+        "overlap_sample": [
+          "construct",
+          "geometric",
+          "proofs"
+        ]
+      },
+      {
+        "criterion_id": "dfe-ks3-maths_crit_0005",
+        "lt_id": "number_cluster_01_lt_02",
+        "overlap_word_count": 3,
+        "overlap_sample": [
+          "apply",
+          "operations",
+          "order"
+        ]
+      }
+    ]
+  },
+  "token_usage": {
+    "total_input_tokens": 38003,
+    "total_output_tokens": 20770,
+    "per_stage": {
+      "other": {
+        "input": 38003,
+        "output": 20770,
+        "calls": 35,
+        "model": "claude-sonnet-4-20250514"
+      }
+    }
+  },
+  "rename_results": [
+    {
+      "status": "ok",
+      "from": "unified_criteria.json",
+      "to": "unified_rubrics.json",
+      "pre_count": 29,
+      "post_count": 29,
+      "pre_gate_fail": 11,
+      "post_gate_fail": 11,
+      "regression_ok": true
+    }
+  ],
+  "lt_prerequisite_regeneration": {
+    "lt_prereqs_updated": 20,
+    "lossy_cases": [],
+    "lt_prereq_summary": {
+      "number_cluster_01_lt_02": [
+        "number_cluster_01_lt_01"
+      ],
+      "number_cluster_02_lt_01": [
+        "number_cluster_01_lt_01"
+      ],
+      "number_cluster_02_lt_02": [
+        "number_cluster_01_lt_02",
+        "number_cluster_02_lt_01"
+      ],
+      "number_cluster_02_lt_03": [
+        "number_cluster_01_lt_02"
+      ],
+      "algebra_cluster_01_lt_02": [
+        "algebra_cluster_01_lt_01"
+      ],
+      "algebra_cluster_02_lt_02": [
+        "algebra_cluster_02_lt_01"
+      ],
+      "algebra_cluster_03_lt_02": [
+        "algebra_cluster_03_lt_01"
+      ],
+      "ratio-proportion-and-rates-of-change_cluster_01_lt_02": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_01"
+      ],
+      "geometry-and-measures_cluster_01_lt_01": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "geometry-and-measures_cluster_01_lt_02": [
+        "geometry-and-measures_cluster_01_lt_01"
+      ],
+      "geometry-and-measures_cluster_02_lt_02": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "geometry-and-measures_cluster_02_lt_03": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "geometry-and-measures_cluster_03_lt_01": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
+      "geometry-and-measures_cluster_03_lt_02": [
+        "geometry-and-measures_cluster_02_lt_02",
+        "geometry-and-measures_cluster_02_lt_03",
+        "geometry-and-measures_cluster_03_lt_01"
+      ],
+      "geometry-and-measures_cluster_04_lt_01": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
+      "geometry-and-measures_cluster_04_lt_02": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
+      "geometry-and-measures_cluster_05_lt_01": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
+      "geometry-and-measures_cluster_05_lt_02": [
+        "geometry-and-measures_cluster_03_lt_01",
+        "geometry-and-measures_cluster_05_lt_01"
+      ],
+      "statistics_cluster_01_lt_01": [
+        "statistics_cluster_01_lt_02"
+      ],
+      "statistics_cluster_01_lt_03": [
+        "statistics_cluster_01_lt_02"
+      ]
+    }
+  }
+}

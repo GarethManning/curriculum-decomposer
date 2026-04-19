@@ -80,7 +80,7 @@
         "blk_0002_item_08"
       ],
       "prerequisite_lts": [
-        "Understanding Number Properties and Representations"
+        "number_cluster_01_lt_01"
       ],
       "stability_flag": "stable",
       "per_run_signatures": [
@@ -141,7 +141,9 @@
         "blk_0003_item_01",
         "blk_0003_item_02"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "number_cluster_01_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -207,7 +209,10 @@
       "kud_item_ids": [
         "blk_0003_item_03"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "number_cluster_01_lt_02",
+        "number_cluster_02_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -274,7 +279,9 @@
         "blk_0003_item_04",
         "blk_0003_item_05"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "number_cluster_01_lt_02"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -410,7 +417,7 @@
         "blk_0002_item_07"
       ],
       "prerequisite_lts": [
-        "Interpreting and Using Algebraic Notation"
+        "algebra_cluster_01_lt_01"
       ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
@@ -539,7 +546,9 @@
         "blk_0003_item_03",
         "blk_0003_item_04"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "algebra_cluster_02_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -658,7 +667,9 @@
         "blk_0003_item_06",
         "blk_0003_item_07"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "algebra_cluster_03_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -784,7 +795,9 @@
         "blk_0002_item_08",
         "blk_0002_item_10"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "ratio-proportion-and-rates-of-change_cluster_01_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -844,7 +857,9 @@
         "blk_0002_item_01",
         "blk_0002_item_02"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -903,7 +918,9 @@
       "kud_item_ids": [
         "blk_0002_item_01"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_01_lt_01"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1028,7 +1045,9 @@
       "kud_item_ids": [
         "blk_0002_item_04"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1094,7 +1113,9 @@
       "kud_item_ids": [
         "blk_0002_item_05"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1161,7 +1182,9 @@
         "blk_0002_item_06",
         "blk_0002_item_07"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1225,7 +1248,11 @@
       "kud_item_ids": [
         "blk_0002_item_09"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_02",
+        "geometry-and-measures_cluster_02_lt_03",
+        "geometry-and-measures_cluster_03_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1289,7 +1316,9 @@
       "kud_item_ids": [
         "blk_0002_item_08"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1348,7 +1377,9 @@
       "kud_item_ids": [
         "blk_0002_item_15"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_03"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1409,7 +1440,9 @@
         "blk_0002_item_11",
         "blk_0002_item_12"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_02_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1475,7 +1508,10 @@
         "blk_0002_item_14",
         "blk_0002_item_16"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "geometry-and-measures_cluster_03_lt_01",
+        "geometry-and-measures_cluster_05_lt_01"
+      ],
       "stability_flag": "lt_set_unstable",
       "per_run_signatures": [
         {
@@ -1658,7 +1694,9 @@
       "kud_item_ids": [
         "blk_0002_item_01"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "statistics_cluster_01_lt_02"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
@@ -1788,7 +1826,9 @@
       "kud_item_ids": [
         "blk_0002_item_03"
       ],
-      "prerequisite_lts": [],
+      "prerequisite_lts": [
+        "statistics_cluster_01_lt_02"
+      ],
       "stability_flag": "stable",
       "per_run_signatures": [
         {
