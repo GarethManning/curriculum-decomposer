@@ -129,6 +129,8 @@ Curriculum assistant. Separate product, separate plan. General tool for any curr
 
 Standard project rules apply — no overwriting planning docs, STATE.md updated at session end, Claude Code invocation named with model, no aspirational reporting, honest halts and flagged instability are features.
 
+Development runs cost more than production runs. Multiple re-runs of the same source during calibration sessions are expected; production runs (start of term, start of year) do not re-run the same source. Cost projections for the tool should distinguish these two modes.
+
 ## 9. Panel review
 
 Five-persona review run on v4 draft produced panel average 83 (below 88 threshold). v5 revisions folded in: confidence tier taxonomy specified, flag explanations layered, criterion bank schema sketched pre-4c-1, held-out test set for gate recalibration, strand detection split from sub-run orchestration, DAG validity check added. Panel re-score on v5: Wiliam 89, Claxton 88, Christodoulou 89, Koedinger 87, Wineburg 88. Average 88.2 — clears threshold.

@@ -337,6 +337,19 @@ scope.
 
 ---
 
+## Methodological lessons
+
+### Gate calibration must validate against a fresh run
+
+In-memory gate re-validation against fixed rubrics predicts gate logic
+correctness but not gate coverage on fresh generations. Fresh runs sample
+new vocabulary; a gate that passes all historical rubrics can still fail
+fresh ones. Future gate calibration work must validate against a fresh run
+before closing, not against in-memory re-evaluation of existing rubrics.
+Identified Session 4c-2b verification, 19 April 2026.
+
+---
+
 ## Meta-note
 
 This file was created at the moment Curriculum Harness had a
