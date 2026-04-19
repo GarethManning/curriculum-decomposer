@@ -11,6 +11,20 @@ Source snapshot: `docs/run-snapshots/2026-04-19-session-4a-5-wales-cfw-health-we
 - **detection confidence:** `high`
 - **detection rationale:** URL host hwb.gov.wales with /curriculum-for-wales path — Welsh Curriculum for Wales uses Progression Steps 1-5 across ages 3-16 per Welsh Government statutory specification.
 
+**Progression philosophy.**
+
+> Progression Steps are reference waypoints, not annual targets. Learners progress at different rates and may be at different Progression Steps for different Areas of Learning and Experience. Each Step describes what learners are typically expected to achieve by the associated age; they are not grade-level checklists. Per Welsh Government statutory specification under the Curriculum and Assessment (Wales) Act 2021.
+
+### Per-band developmental index
+
+| Band | Approximate age | Approximate grade/year | Developmental descriptor |
+|---|---|---|---|
+| Progression Step 1 | up to age 5 | — | Learners explore and experience the world through play, sensory engagement, and adult-supported activity. They begin to develop awareness of themselves and their immediate environment. |
+| Progression Step 2 | up to age 8 | — | Learners develop confidence and work with increasing independence. They make connections between experiences and begin to articulate thoughts about themselves and others. |
+| Progression Step 3 | up to age 11 | — | Learners build capacity to manage change and transition. They consider different perspectives, manage emotions with growing skill, and act with increasing autonomy. |
+| Progression Step 4 | up to age 14 | — | Learners demonstrate increasing maturity in navigating complex relationships and situations. They develop resilience, critical thinking, and awareness of their impact on others. |
+| Progression Step 5 | up to age 16 | — | Learners evaluate their own learning, act ethically and sustainably, and engage with wider society. They exercise independent judgement and articulate reasoned values. |
+
 ## Summary
 
 - KUD items: **33**

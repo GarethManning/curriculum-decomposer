@@ -18,6 +18,39 @@
     "Progression Step 4": "Analyse a pattern you can see in yourself across two or more different settings this term. What changes across settings, and why do you think it changes?",
     "Progression Step 5": "Trace how your understanding of yourself in this area has developed over time. What values now guide how you act, and what would you still like to develop?"
   },
+  "band_details": [
+    {
+      "label": "Progression Step 1",
+      "approximate_age_range": "up to age 5",
+      "approximate_grade_year": null,
+      "developmental_descriptor": "Learners explore and experience the world through play, sensory engagement, and adult-supported activity. They begin to develop awareness of themselves and their immediate environment."
+    },
+    {
+      "label": "Progression Step 2",
+      "approximate_age_range": "up to age 8",
+      "approximate_grade_year": null,
+      "developmental_descriptor": "Learners develop confidence and work with increasing independence. They make connections between experiences and begin to articulate thoughts about themselves and others."
+    },
+    {
+      "label": "Progression Step 3",
+      "approximate_age_range": "up to age 11",
+      "approximate_grade_year": null,
+      "developmental_descriptor": "Learners build capacity to manage change and transition. They consider different perspectives, manage emotions with growing skill, and act with increasing autonomy."
+    },
+    {
+      "label": "Progression Step 4",
+      "approximate_age_range": "up to age 14",
+      "approximate_grade_year": null,
+      "developmental_descriptor": "Learners demonstrate increasing maturity in navigating complex relationships and situations. They develop resilience, critical thinking, and awareness of their impact on others."
+    },
+    {
+      "label": "Progression Step 5",
+      "approximate_age_range": "up to age 16",
+      "approximate_grade_year": null,
+      "developmental_descriptor": "Learners evaluate their own learning, act ethically and sustainably, and engage with wider society. They exercise independent judgement and articulate reasoned values."
+    }
+  ],
+  "progression_philosophy": "Progression Steps are reference waypoints, not annual targets. Learners progress at different rates and may be at different Progression Steps for different Areas of Learning and Experience. Each Step describes what learners are typically expected to achieve by the associated age; they are not grade-level checklists. Per Welsh Government statutory specification under the Curriculum and Assessment (Wales) Act 2021.",
   "source_reference": "https://hwb.gov.wales/curriculum-for-wales/health-and-well-being/statements-of-what-matters/",
   "source_slug": "wales-cfw-health-wellbeing-sow",
   "detection_module_version": "0.1.0"
