@@ -945,6 +945,77 @@ def _dfe_ks3_structure(
 
 
 # ---------------------------------------------------------------------------
+# DfE England — RSHE statutory guidance (secondary).
+#
+# The RSHE statutory guidance sets terminal outcomes framed as "by the end of
+# secondary school" — a single developmental endpoint, not a multi-level
+# progression. It covers the full secondary phase (ages 11–16, Years 7–11,
+# KS3 + KS4). There are no Key Stage sub-divisions within the secondary
+# content; KS3 and KS4 outcomes are interleaved under topic headings.
+#
+# This curated entry prevents the source-text-inspection fallback from
+# producing a multi-KS structure because the document text references
+# "Key Stage 3" and "Key Stage 4" in the same paragraphs.
+#
+# Source: DfE "Relationships Education, Relationships and Sex Education (RSE)
+# and Health Education (for introduction 1 September 2026)".
+# Published: assets.publishing.service.gov.uk.
+# Statutory authority: Children and Social Work Act 2017.
+# ---------------------------------------------------------------------------
+
+_ENGLAND_RSHE_SECONDARY_BAND_DETAILS: list[dict] = [
+    {
+        "label": "End of Secondary",
+        "approximate_age_range": "ages 11-16",
+        "approximate_grade_year": "Years 7-11 (KS3 and KS4)",
+        "developmental_descriptor": (
+            "Secondary pupils develop the knowledge, values and personal qualities "
+            "needed to navigate relationships, health and wellbeing across the full "
+            "secondary phase. Outcomes are framed as terminal goals for all secondary "
+            "pupils; year-group sequencing is a school decision."
+        ),
+    }
+]
+
+_ENGLAND_RSHE_SECONDARY_PROGRESSION_PHILOSOPHY = (
+    "The DfE RSHE statutory guidance sets outcomes as 'by the end of secondary school' "
+    "terminal statements. Unlike the National Curriculum, which has Key Stage progression, "
+    "RSHE uses a single secondary-phase endpoint. Single-band output reflects the "
+    "guidance's own structure. Per DfE statutory RSHE guidance (England), "
+    "Children and Social Work Act 2017."
+)
+
+_ENGLAND_RSHE_SECONDARY_SELF_REFLECTION_PROMPTS: dict[str, str] = {
+    "End of Secondary": (
+        "Think about a situation this term where you had to make a decision about "
+        "a relationship or your own wellbeing. What did you consider, and what would "
+        "you do differently now?"
+    )
+}
+
+
+def _england_rshe_secondary_structure(
+    *, source_reference: str, source_slug: str, rationale: str
+) -> "ProgressionStructure":
+    return ProgressionStructure(
+        band_labels=["End of Secondary"],
+        band_count=1,
+        age_range_hint=(
+            "ages 11-16 (DfE RSHE statutory guidance; secondary phase = Years 7-11, "
+            "KS3 + KS4; outcomes framed as 'by the end of secondary school')"
+        ),
+        source_type="england_rshe_secondary",
+        detection_confidence="high",
+        detection_rationale=rationale,
+        band_self_reflection_prompts=_ENGLAND_RSHE_SECONDARY_SELF_REFLECTION_PROMPTS,
+        band_details=_ENGLAND_RSHE_SECONDARY_BAND_DETAILS,
+        progression_philosophy=_ENGLAND_RSHE_SECONDARY_PROGRESSION_PHILOSOPHY,
+        source_reference=source_reference,
+        source_slug=source_slug,
+    )
+
+
+# ---------------------------------------------------------------------------
 # URL- and slug-based dispatch
 # ---------------------------------------------------------------------------
 
@@ -1192,6 +1263,33 @@ def _lookup_high_confidence(
                 f"Source slug '{source_slug}' matches DfE KS3 single-subject pattern. "
                 "KS3-only single-band structure (prevents multi-KS false positive from "
                 "source-text inspection on documents that reference KS2 as prior stage)."
+            ),
+        )
+
+    # --- DfE England RSHE (secondary) -----------------------------------------
+    # Matches the assets.publishing.service.gov.uk URL for the RSHE statutory
+    # guidance, or slugs containing 'rshe'. Single-band 'End of Secondary'
+    # structure (ages 11-16). Prevents the source-text fallback from producing
+    # a multi-KS structure because the document references both KS3 and KS4.
+    if matched is not None:
+        host, path = matched
+        if "assets.publishing.service.gov.uk" in host and "relationships" in path:
+            return _england_rshe_secondary_structure(
+                source_reference=source_reference,
+                source_slug=source_slug,
+                rationale=(
+                    f"DfE RSHE statutory guidance detected (host={host}, "
+                    "path contains 'relationships'). Single-band End-of-Secondary "
+                    "structure (ages 11-16)."
+                ),
+            )
+    if "rshe" in slug_lower or "secondary-rshe" in slug_lower:
+        return _england_rshe_secondary_structure(
+            source_reference=source_reference,
+            source_slug=source_slug,
+            rationale=(
+                f"Source slug '{source_slug}' matches RSHE pattern. "
+                "Single-band End-of-Secondary structure (ages 11-16)."
             ),
         )
 
