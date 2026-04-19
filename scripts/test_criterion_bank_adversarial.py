@@ -27,6 +27,8 @@ from scripts.generate_criterion_bank import (
     detect_self_loops,
     detect_unresolved_ids,
     run_dag_validation,
+    DECOMPOSITION_RULES_SUMMARY,
+    decomposition_audit,
 )
 
 
@@ -272,10 +274,56 @@ def test_agreement_rate_regression() -> tuple[bool, str]:
     )
 
 
+# ── Test 9: Enumerated-example pattern guard ───────────────────────────────────
+
+def test_enumerated_example_prompt_guard() -> tuple[bool, str]:
+    """The Pass 1 system prompt must contain an explicit enumerated-example
+    counter-example, preventing the generator from splitting 'explain how
+    [A, B, C]' LTs into N separate criteria.
+
+    Two checks:
+    1. DECOMPOSITION_RULES_SUMMARY contains the sentinel text and a WRONG/RIGHT
+       counter-example pair — structural guard against future removal of the fix.
+    2. The decomposition_audit correctly flags extreme over-decomposition (>4
+       criteria for a single LT), catching cases where the prompt fix fails in
+       practice and the LLM produces many criteria for an enumerated LT.
+    """
+    sentinel = "ENUMERATED-EXAMPLE PATTERN"
+    if sentinel not in DECOMPOSITION_RULES_SUMMARY:
+        return False, f"sentinel {sentinel!r} not found in DECOMPOSITION_RULES_SUMMARY"
+
+    if "WRONG:" not in DECOMPOSITION_RULES_SUMMARY or "RIGHT:" not in DECOMPOSITION_RULES_SUMMARY:
+        return False, "WRONG/RIGHT counter-example pair not found in DECOMPOSITION_RULES_SUMMARY"
+
+    # Structural check: simulate severe over-decomposition (5 criteria for one
+    # enumerated LT). The decomposition_audit threshold fires at >4. If the LLM
+    # produces 5+ criteria for a single-act enumerated LT, this flag triggers a
+    # stop-and-report.
+    lt_id = "test_lt_enum_01"
+    lts = [{
+        "lt_id": lt_id,
+        "lt_name": "Explain how anxiety, stress, and depression affect mental health",
+        "lt_definition": "Students explain how mental health conditions affect wellbeing.",
+        "knowledge_type": "Type 1",
+    }]
+    criteria = [
+        _make_crit(f"enum_crit_000{i}", lt_ids=[lt_id])
+        for i in range(1, 6)  # 5 criteria — triggers the >4 flag
+    ]
+    audit = decomposition_audit(criteria, lts, sample_size=20)
+    flagged = [f for f in audit["flags"] if lt_id in f]
+    if not flagged:
+        return False, f"decomposition_audit did not flag {lt_id} with 5 criteria (expected flag at >4)"
+    return True, (
+        f"prompt guard present (sentinel+WRONG/RIGHT found); "
+        f"audit flags 5-criteria enumerated LT: {flagged[0]}"
+    )
+
+
 # ── Runner ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    print("Adversarial tests — criterion bank (Session 4c-4)")
+    print("Adversarial tests — criterion bank (Session 4c-4/4c-4b)")
     print("=" * 60)
 
     _run("1. Cycle detection", test_cycle_detection)
@@ -286,6 +334,7 @@ def main() -> None:
     _run("6. Simple LT non-decomposition", test_simple_lt_non_decomposition)
     _run("7. Multi-strand unified DAG", test_multi_strand_unified_dag)
     _run("8. Agreement-rate calculation regression", test_agreement_rate_regression)
+    _run("9. Enumerated-example pattern guard", test_enumerated_example_prompt_guard)
 
     print("=" * 60)
     passed = sum(1 for _, ok, _ in RESULTS if ok)

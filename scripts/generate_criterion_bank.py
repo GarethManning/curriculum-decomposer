@@ -84,6 +84,19 @@ CRITERION DECOMPOSITION RULES (apply strictly):
    (recall vs analyse vs evaluate) ARE decomposable. Description vs analysis vs
    evaluation → decompose.
 
+   CRITICAL — ENUMERATED-EXAMPLE PATTERN (produces ONE criterion, not N):
+   An LT like "explain how anxiety, stress, and depression affect mental health"
+   is ONE criterion. The list is illustrative scope applied to a single cognitive
+   act — not three independently assessable sub-skills.
+   WRONG: 3 criteria: (a) explain anxiety effects, (b) explain stress effects,
+          (c) explain depression effects.
+   RIGHT: 1 criterion: "Explain how mental health conditions (e.g. anxiety,
+          stress, depression) affect wellbeing."
+   Apply broadly: whenever an LT enumerates content examples within a single
+   cognitive act, treat the list as scope illustration, not a decomposition
+   trigger. The test: could a teacher assess (a) without touching (b)? If the
+   examples are interchangeable instances of the same act, the answer is no.
+
 5. TYPE 3 LTs: excluded from criterion bank. Do not process.
 
 6. DISPOSITIONAL CONTENT (Type 2 LTs from wellbeing/RSHE): capture the
