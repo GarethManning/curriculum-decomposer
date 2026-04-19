@@ -56,6 +56,35 @@ INDICATOR_STABILITY_FLAGS = (
     "observation_indicators_unstable",
     "observation_indicators_unreliable",
 )
+RUBRIC_STABILITY_FLAGS = (
+    "stable",
+    "rubric_unstable",
+    "rubric_unreliable",
+)
+SUPPORTING_STABILITY_FLAGS = (
+    "stable",
+    "supporting_unstable",
+    "supporting_unreliable",
+)
+RUBRIC_LEVEL_ORDER = (
+    "no_evidence",
+    "emerging",
+    "developing",
+    "competent",
+    "extending",
+)
+RUBRIC_LEVEL_WORD_LIMITS = {
+    "no_evidence": 10,
+    "emerging": 15,
+    "developing": 20,
+    "competent": 25,
+    "extending": 20,
+}
+PREREQUISITE_EDGE_KINDS = (
+    "ontological_prerequisite",
+    "pedagogical_sequencing",
+)
+PREREQUISITE_EDGE_CONFIDENCE = ("high", "medium", "low")
 
 
 @dataclass
@@ -392,6 +421,185 @@ class ObservationIndicatorCollection:
 # that was the framework error fixed in Session 4b-2.5. See
 # curriculum_harness.reference_authoring.progression.detect_progression
 # for per-jurisdiction calibration.
+
+
+@dataclass
+class RubricLevel:
+    """One level within a five-level Type 1/2 rubric.
+
+    ``name`` is one of ``RUBRIC_LEVEL_ORDER``. ``word_count`` is the
+    measured word count of ``descriptor`` (used by the word-limit gate).
+    """
+
+    name: str
+    descriptor: str
+    word_count: int = 0
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class PrerequisiteEdge:
+    """A prerequisite relationship between two LTs with explicit kind + confidence.
+
+    ``kind`` is one of ``PREREQUISITE_EDGE_KINDS``. ``confidence`` is
+    one of ``PREREQUISITE_EDGE_CONFIDENCE``. ``from_lt_id`` is the LT
+    this edge points TO (the prerequisite target).
+    """
+
+    from_lt_id: str
+    kind: str
+    confidence: str
+    rationale: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class Rubric:
+    """Five-level criterion-referenced rubric for a single Type 1/2 LT.
+
+    ``levels`` is in ``RUBRIC_LEVEL_ORDER`` order. ``prerequisite_edges``
+    carries typed prerequisite metadata (ontological vs pedagogical,
+    with per-edge confidence). ``competent_framing_flag`` captures
+    whether the LLM-as-judge agreed that Competent reads as success
+    (not "acceptable-but-deficient"). ``propositional_lt_rubric_thin_flag``
+    is informational — set when a Type 1 Understand-propositional LT
+    produces a rubric that is structurally valid but thin on
+    evidence-of-learning differentiation; a review signal, not a halt.
+    """
+
+    lt_id: str
+    knowledge_type: str
+    levels: list[RubricLevel] = field(default_factory=list)
+    prerequisite_edges: list[PrerequisiteEdge] = field(default_factory=list)
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+    quality_gate_passed: bool = True
+    quality_gate_failures: list[str] = field(default_factory=list)
+    competent_framing_flag: str = "pass"
+    competent_framing_judge_rationale: str = ""
+    propositional_lt_rubric_thin_flag: bool = False
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class RubricCollection:
+    source_slug: str
+    rubrics: list[Rubric] = field(default_factory=list)
+    halted_lts: list[dict[str, Any]] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "rubrics": [r.to_dict() for r in self.rubrics],
+            "halted_lts": list(self.halted_lts),
+        }
+
+
+@dataclass
+class CoConstructionPlan:
+    """Per-LT teacher-facing plan for co-constructing the rubric with students."""
+
+    lt_id: str
+    stages: list[str] = field(default_factory=list)
+    student_prompts: list[str] = field(default_factory=list)
+    anchor_examples_guidance: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class StudentRubric:
+    """Per-LT student-facing rubric template, with 'I can'-style descriptors."""
+
+    lt_id: str
+    levels: list[RubricLevel] = field(default_factory=list)
+    self_check_prompts: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class FeedbackGuide:
+    """Per-LT feedback guide: per-level moves that advance to the next level."""
+
+    lt_id: str
+    moves_by_level: dict[str, list[str]] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class SupportingComponents:
+    """Bundle of co-construction plan, student rubric, and feedback guide for one LT."""
+
+    lt_id: str
+    co_construction_plan: CoConstructionPlan | None = None
+    student_rubric: StudentRubric | None = None
+    feedback_guide: FeedbackGuide | None = None
+    stability_flag: str = "stable"
+    per_run_signatures: list[dict[str, Any]] = field(default_factory=list)
+    stability_diagnostics: list[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "lt_id": self.lt_id,
+            "co_construction_plan": (
+                self.co_construction_plan.to_dict()
+                if self.co_construction_plan is not None
+                else None
+            ),
+            "student_rubric": (
+                self.student_rubric.to_dict()
+                if self.student_rubric is not None
+                else None
+            ),
+            "feedback_guide": (
+                self.feedback_guide.to_dict()
+                if self.feedback_guide is not None
+                else None
+            ),
+            "stability_flag": self.stability_flag,
+            "per_run_signatures": list(self.per_run_signatures),
+            "stability_diagnostics": list(self.stability_diagnostics),
+        }
+
+
+@dataclass
+class SupportingComponentsCollection:
+    source_slug: str
+    components: list[SupportingComponents] = field(default_factory=list)
+    halted_lts: list[dict[str, Any]] = field(default_factory=list)
+    model: str = ""
+    temperature: float = 0.3
+    runs: int = 3
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "reference_authoring_version": REFERENCE_AUTHORING_VERSION,
+            "source_slug": self.source_slug,
+            "model": self.model,
+            "temperature": self.temperature,
+            "runs": self.runs,
+            "components": [c.to_dict() for c in self.components],
+            "halted_lts": list(self.halted_lts),
+        }
 
 
 def dump_json(obj: Any, path: str) -> None:
