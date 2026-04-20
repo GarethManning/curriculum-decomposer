@@ -4,6 +4,27 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session HR-1b (UK statutory RSHE cleanup — 3 fixes)** — 2026-04-20 — head `ee61a2a [HR-1b Fix 3] Rubric retry`.
+
+Three cleanup fixes applied to `uk-statutory-rshe` corpus and harness infrastructure:
+
+| Fix | File | Change |
+|---|---|---|
+| Fix 1 — type3_distribution gate | `kud_gates.py`, `run_pipeline.py`, `docs/threshold-revisions.md` | Source-type-aware thresholds: national_statutory_curriculum→5%, horizontal_dispositional→15%, default→20%. Pipeline loads architecture-diagnosis.json for context. |
+| Fix 2a — e-drop regex bug | `generate_band_statements.py` | `\brecognize(ing)\b` didn't match "recognizing". Fixed with `stem(e[sd]?|ing)` pattern for e-ending verbs. Added `express` to OBSERVABLE_VERBS. |
+| Fix 2b — compound construct | `generate_band_statements.py` | Documented limitation: gate checks verb presence but not single-construct. "express...while recognizing" passes. Fix belongs at LT authoring time. |
+| Fix 3 — unreliable rubrics | rubrics.json, criteria.json, criterion_bank.json | 5 rubric_unreliable LTs retried at temperature=0.2. All 5 resolved: 4 stable, 1 rubric_unstable. Criterion bank: 84→86 criteria. |
+
+Artefact update — `uk-statutory-rshe`:
+- band_statements.json: 33→34 sets (cluster_06_lt_01 promoted from halted; statement was valid, halt was a validator bug)
+- rubrics.json / criteria.json: 34 rubrics, 0 halted (was: 5 unreliable stubs)
+- criterion_bank.json: 86 criteria, DAG PASS (was: 84 criteria — 5 LTs had no levels)
+
+Commits this session:
+- `f330cbb` — Fix 1: type3_distribution gate source-type-aware thresholds + docs/threshold-revisions.md
+- `ed298c7` — Fix 2: e-drop regex + express verb + cluster_06_lt_01 promotion
+- `ee61a2a` — Fix 3: rubric retry (5 LTs) + criterion bank regeneration
+
 **Session HR-1 (UK statutory RSHE full programme)** — 2026-04-20 — head `5b61bb6 [HR-1] uk-statutory-rshe reference corpus — pipeline run complete`.
 
 Full reference corpus produced for DfE statutory RSHE July 2025 (full programme: primary relationships education + primary health + secondary RSE + secondary health). 9th reference corpus. New `source_type: national_statutory_curriculum`, new `progression_structure: england_rshe_full` (2-band). Architecture disagreement resolved: session brief expected KS1-4 (4 bands); actual document structure is 2-phase (End of Primary / End of Secondary) — confirmed by Gareth, implemented as Option A. Pipeline cost: ~$12.00 ($11.42 pipeline + $0.57 criterion bank).
@@ -122,7 +143,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 2. Verified working
 
-- **UK statutory RSHE reference corpus — complete (HR-1).** `docs/reference-corpus/uk-statutory-rshe/`. DfE July 2025 statutory RSHE, full programme. 19 clusters / 44 LTs / 2 bands (End of Primary + End of Secondary). source.md, architecture-diagnosis.json, inventory.json, kud.json (279 items), lts.json, band_statements.json (33 sets, 2-band), observation_indicators.json (10 sets), rubrics.json, band_statements.json, criterion_bank.json (84 criteria / 27 edges), quality_report.json, readable-output/. DAG PASS. New source_type: `england_rshe_full` in detect_progression.py. Session cost: ~$12.00.
+- **UK statutory RSHE reference corpus — complete (HR-1 + HR-1b).** `docs/reference-corpus/uk-statutory-rshe/`. DfE July 2025 statutory RSHE, full programme. 19 clusters / 44 LTs / 2 bands (End of Primary + End of Secondary). source.md, architecture-diagnosis.json, inventory.json, kud.json (279 items), lts.json, band_statements.json (34 sets, 0 halted), observation_indicators.json (10 sets), rubrics.json (34 rubrics, 0 halted), criterion_bank.json (86 criteria / DAG PASS), quality_report.json, readable-output/. New source_type: `england_rshe_full` in detect_progression.py. Session cost: HR-1 ~$12.00 + HR-1b ~$0.40 rubric retries.
 - **REAL School Budapest reference corpus — complete (REAL-1).** `docs/reference-corpus/real-wellbeing-2026-04/`. 7 competencies / 14 LTs / 4 bands. architecture-diagnosis.json, kud-by-competency-by-band.json, lt-by-band.json, criterion-bank.json (107 criteria / 247 edges), quality-report.json, readable-output/. DAG PASS. Generator: `scripts/generate_real_wellbeing.py`. New source_type: `internal_school_framework`. Deterministic edge generation (Pass 2). Morphological verb normalisation for gate checks.
 - **Developmental scope detection — complete (4c-5).** `curriculum_harness/reference_authoring/developmental_scope/detect_scope.py`. `DevelopmentalScopeResult` dataclass + `detect_developmental_scope()` + `make_developmental_scope_flag()`. Adversarial tests 8/8. Verification 7/7. Schema doc at `docs/schemas/architecture-diagnosis-schema.md`.
 - **Criterion bank — all 7 sources complete (4c-4 + 4c-4b). HARNESS V5 COMPLETE.**
@@ -184,4 +205,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-20 at end of Session HR-1 (UK statutory RSHE full programme — 9th reference corpus). Update at end of every session per `docs/process/state-md-discipline.md`.*
+*Last updated 2026-04-20 at end of Session HR-1b (UK statutory RSHE cleanup — 3 fixes complete, 0 open). Update at end of every session per `docs/process/state-md-discipline.md`.*
