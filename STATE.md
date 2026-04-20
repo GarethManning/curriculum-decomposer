@@ -4,6 +4,14 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session BT-3 (REAL Band Translation — Welsh CfW Health & Wellbeing)** — 2026-04-20 — head `a45ae3f feat: BT-3 band-tagged Welsh CfW output v1`.
+
+REAL Band Translation skill applied to Welsh CfW Health & Wellbeing AoLE. Band-tagged artefact produced and committed. 33 KUD items and 20 LTs tagged. All verification checks PASS. Key finding: Welsh CfW "Statements of what matters" has no per-item Progression Step labels — canonical PS→REAL mapping table was not applicable per item. All 32 non-career items default to Bands A–E (low confidence, teacher_review_flag true). 1 career-pathway item narrowed to Bands D–E by content inference (medium confidence). Skill generalises to Welsh CfW source type, but produces a "flat framework" result rather than a per-PS mapped result. To get PS-level mapping, Welsh CfW achievement outcomes documents (one per PS) would be needed as a separate source pass.
+
+Output: `docs/reference-corpus/welsh-cfw-health-wellbeing/band-tagged-cfw-v1.json`
+
+---
+
 **Session BT-2 (REAL Band Translation — RSHE)** — 2026-04-20 — head `7ecb8c3 feat: BT-2 band-tagged RSHE output v1`.
 
 REAL Band Translation skill applied to UK statutory RSHE reference corpus. Band-tagged artefact produced and committed. 279 KUD items and 44 LTs tagged. End of Primary → Bands A–C (medium confidence, teacher_review_flag). End of Secondary → Bands C–E (medium confidence, teacher_review_flag). 20 cross-band LTs (spanning both source phases) → Bands A–E (low confidence). All 4 verification checks PASS. Adversarial spot-check: 5/5 defensible.
@@ -151,6 +159,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 2. Verified working
 
+- **Welsh CfW Health & Wellbeing band-tagged artefact — complete (BT-3).** `docs/reference-corpus/welsh-cfw-health-wellbeing/band-tagged-cfw-v1.json`. 33 KUD items + 20 LTs tagged. All verification checks PASS. Cross-PS flat framework: all 32 non-career items → Bands A–E (low confidence), career item → Bands D–E (medium). source_voice_preserved: true on all 33 items. Skill generalises to Welsh CfW source type; per-PS mapping requires CfW achievement-outcomes documents (not the Statements of what matters).
 - **UK statutory RSHE band-tagged artefact — complete (BT-2).** `docs/reference-corpus/uk-statutory-rshe/band-tagged-rshe-v1.json`. 279 KUD items + 44 LTs tagged with REAL bands. End of Primary → [A,B,C], End of Secondary → [C,D,E], cross-band LTs → [A,B,C,D,E]. All verification checks PASS. source_voice_preserved: true on all 279 items.
 - **UK statutory RSHE reference corpus — complete (HR-1 + HR-1b).** `docs/reference-corpus/uk-statutory-rshe/`. DfE July 2025 statutory RSHE, full programme. 19 clusters / 44 LTs / 2 bands (End of Primary + End of Secondary). source.md, architecture-diagnosis.json, inventory.json, kud.json (279 items), lts.json, band_statements.json (34 sets, 0 halted), observation_indicators.json (10 sets), rubrics.json (34 rubrics, 0 halted), criterion_bank.json (86 criteria / DAG PASS), quality_report.json, readable-output/. New source_type: `england_rshe_full` in detect_progression.py. Session cost: HR-1 ~$12.00 + HR-1b ~$0.40 rubric retries.
 - **REAL School Budapest reference corpus — complete (REAL-1).** `docs/reference-corpus/real-wellbeing-2026-04/`. 7 competencies / 14 LTs / 4 bands. architecture-diagnosis.json, kud-by-competency-by-band.json, lt-by-band.json, criterion-bank.json (107 criteria / 247 edges), quality-report.json, readable-output/. DAG PASS. Generator: `scripts/generate_real_wellbeing.py`. New source_type: `internal_school_framework`. Deterministic edge generation (Pass 2). Morphological verb normalisation for gate checks.
@@ -192,7 +201,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**BT-3 (REAL Band Translation — REAL wellbeing corpus) — if needed.** Apply band translation to the REAL School Budapest wellbeing corpus (`docs/reference-corpus/real-wellbeing-2026-04/`). REAL's own corpus has explicit A–D band structure; translation should be trivial (direct 1:1). Likely very short.
+**BT-4 (REAL Band Translation — REAL wellbeing corpus) — if needed.** Apply band translation to the REAL School Budapest wellbeing corpus (`docs/reference-corpus/real-wellbeing-2026-04/`). REAL's own corpus has explicit A–D band structure; translation should be trivial (direct 1:1). Likely very short.
 
 **HR-2 (Welsh CfW schema verification) — SHORT TASK.** Verify the existing `welsh-cfw-health-wellbeing` corpus artefacts against the current harness schema. Confirm architecture-diagnosis.json format, band labels, and criterion bank schema v1 compliance. Expected to be <1 hour.
 
@@ -216,4 +225,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-20 at end of Session HR-1b (UK statutory RSHE cleanup — 3 fixes complete, 0 open). Update at end of every session per `docs/process/state-md-discipline.md`.*
+*Last updated 2026-04-20 at end of Session BT-3 (Welsh CfW band translation complete, 0 open). Update at end of every session per `docs/process/state-md-discipline.md`.*
