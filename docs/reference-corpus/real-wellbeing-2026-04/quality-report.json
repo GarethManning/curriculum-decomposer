@@ -1,0 +1,164 @@
+{
+  "source_slug": "real-wellbeing-2026-04",
+  "session": "REAL-1",
+  "generated_at": "2026-04-20",
+  "lt_gate_summary": {
+    "total_lts": 14,
+    "gate_passed": 14,
+    "gate_failed": 0,
+    "has_warnings": 7,
+    "failed_lts": []
+  },
+  "band_statement_gate_summary": {
+    "total_band_slots": 56,
+    "gate_failed": 0,
+    "has_warnings": 4
+  },
+  "kud_summary": {
+    "total_items": 161,
+    "source_derived": 146,
+    "ai_inferred": 15
+  },
+  "criterion_bank_summary": {
+    "total_criteria": 107,
+    "t1_criteria": 9,
+    "t2_criteria": 78,
+    "t3_criteria": 20,
+    "total_edges": 247
+  },
+  "dag_validation": {
+    "dag_valid": true,
+    "status": "PASS",
+    "total_criteria": 107,
+    "total_edges": 247,
+    "cycles": [],
+    "self_loops": [],
+    "unresolved_ids": []
+  },
+  "flagged_for_teacher_review": [],
+  "lt_gate_failures_detail": [],
+  "lt_gate_warnings_detail": [
+    {
+      "lt_id": "lt_1_2",
+      "lt_name": "Social Awareness & Empathy",
+      "warnings": [
+        {
+          "gate": "observable_verb_mental_state",
+          "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+        },
+        {
+          "gate": "progression_coherence",
+          "detail": "Band D statement does not contain a higher-order cognitive verb."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_2_1",
+      "lt_name": "Focused Attention & Strategy",
+      "warnings": [
+        {
+          "gate": "progression_coherence",
+          "detail": "Band D statement does not contain a higher-order cognitive verb."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_3_1",
+      "lt_name": "Health Literacy & Habits",
+      "warnings": [
+        {
+          "gate": "observable_verb_mental_state",
+          "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_3_2",
+      "lt_name": "Self-Care & Resilience",
+      "warnings": [
+        {
+          "gate": "progression_coherence",
+          "detail": "Band D statement does not contain a higher-order cognitive verb."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_4_1",
+      "lt_name": "Bodies, Boundaries & Consent",
+      "warnings": [
+        {
+          "gate": "progression_coherence",
+          "detail": "Band D statement does not contain a higher-order cognitive verb."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_4_2",
+      "lt_name": "Puberty, Health & Safe Choices",
+      "warnings": [
+        {
+          "gate": "observable_verb_mental_state",
+          "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+        },
+        {
+          "gate": "band_coverage",
+          "detail": "Bands ['A'] are N/A — intentional? Source note: 'not applicable at this developmental stage'",
+          "severity": "informational"
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_5_1",
+      "lt_name": "Interpersonal Skills & Communication",
+      "warnings": [
+        {
+          "gate": "progression_coherence",
+          "detail": "Band D statement does not contain a higher-order cognitive verb."
+        }
+      ]
+    }
+  ],
+  "band_gate_failures_detail": [],
+  "band_gate_warnings_detail": [
+    {
+      "lt_id": "lt_1_1",
+      "band": "D",
+      "warnings": [
+        {
+          "gate": "t3_observable",
+          "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_5_1",
+      "band": "D",
+      "warnings": [
+        {
+          "gate": "no_inline_examples",
+          "detail": "Inline example pattern '\\bincluding\\b' found. Check whether examples are scope illustrations or separate sub-skills."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_5_2",
+      "band": "A",
+      "warnings": [
+        {
+          "gate": "t3_observable",
+          "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+        }
+      ]
+    },
+    {
+      "lt_id": "lt_5_2",
+      "band": "D",
+      "warnings": [
+        {
+          "gate": "t3_observable",
+          "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+        }
+      ]
+    }
+  ]
+}
