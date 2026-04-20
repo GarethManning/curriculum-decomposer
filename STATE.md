@@ -4,6 +4,16 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session REAL-2a (REAL wellbeing framework — Band E/F extension + band-tagged JSON v1)** — 2026-04-20 — head `d60fd2b feat: REAL wellbeing framework extended to bands E-F; band-tagged JSON v1`.
+
+Extended the REAL School Budapest wellbeing framework (14 LTs) from Bands A–D to Bands E and F, applying the six progression levers (independence, complexity, scope, precision, reasoning, transfer) consistently across all competencies. Produced full band-tagged JSON (84 items, 14 LTs × 6 bands). All verification checks PASS. Review gate completed (all 14 LT E/F Do statements confirmed) before JSON production.
+
+Key results:
+- source.md (Bands A–D, 14 LTs, 326 lines) ingested from ~/Downloads
+- source-extended-ef.md: 14 LTs × 2 bands (E/F) authored from source
+- band-tagged-real-wellbeing-v1.json: 84 items, all fields present, 4 teacher_review_flag=true (LT 3.2/4.1/4.2/5.2 Band D — source-flagged)
+- Verification: 84 items ✓, all required fields ✓, band counts 14×6 ✓, 4 required flags exact match ✓
+
 **Session HR-2c (Welsh CfW re-run on per-PS source + BT-3b band translation)** — 2026-04-20 — head `8f07fd5 feat: HR-2c re-run Welsh CfW on per-PS source; BT-3b band-tagged v2`.
 
 Full pipeline re-run using `welsh-cfw-hwb-descriptions-of-learning.md` (per-PS descriptions of learning) as source, replacing the flat "Statements of what matters" source from BT-3. Source preprocessed to all-caps What Matters headings (depth 1) and numbered PS headings (depth 2), so inventory builder correctly tracks heading_path for every bullet. Pipeline cost: ~$6.36.
@@ -186,6 +196,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 - **Welsh CfW Health & Wellbeing band-tagged artefact v2 — complete (HR-2c + BT-3b).** `docs/reference-corpus/welsh-cfw-health-wellbeing/band-tagged-cfw-v2.json`. 136 KUD items + 45 LTs tagged. 100% medium confidence (0% low). PS→REAL canonical mapping applied. 19 PS1 items → Band A (unambiguous); PS2–PS5 → 2-band spans. source_voice_preserved: true on all items. architecture-diagnosis.json present with developmental_scope: explicit_progression. Pre-HR2c artefacts in `_pre-hr2c-archive/`.
 - **UK statutory RSHE band-tagged artefact — complete (BT-2).** `docs/reference-corpus/uk-statutory-rshe/band-tagged-rshe-v1.json`. 279 KUD items + 44 LTs tagged with REAL bands. End of Primary → [A,B,C], End of Secondary → [C,D,E], cross-band LTs → [A,B,C,D,E]. All verification checks PASS. source_voice_preserved: true on all 279 items.
 - **UK statutory RSHE reference corpus — complete (HR-1 + HR-1b).** `docs/reference-corpus/uk-statutory-rshe/`. DfE July 2025 statutory RSHE, full programme. 19 clusters / 44 LTs / 2 bands (End of Primary + End of Secondary). source.md, architecture-diagnosis.json, inventory.json, kud.json (279 items), lts.json, band_statements.json (34 sets, 0 halted), observation_indicators.json (10 sets), rubrics.json (34 rubrics, 0 halted), criterion_bank.json (86 criteria / DAG PASS), quality_report.json, readable-output/. New source_type: `england_rshe_full` in detect_progression.py. Session cost: HR-1 ~$12.00 + HR-1b ~$0.40 rubric retries.
+- **REAL wellbeing framework band-tagged JSON v1 — complete (REAL-2a).** `docs/reference-corpus/real-wellbeing/band-tagged-real-wellbeing-v1.json`. 84 items (14 LTs × 6 bands A–F). All high confidence, no ambiguity. 4 teacher_review_flag=true on source-flagged cells. source-extended-ef.md carries Bands E/F authored content. Commit d60fd2b.
 - **REAL School Budapest reference corpus — complete (REAL-1).** `docs/reference-corpus/real-wellbeing-2026-04/`. 7 competencies / 14 LTs / 4 bands. architecture-diagnosis.json, kud-by-competency-by-band.json, lt-by-band.json, criterion-bank.json (107 criteria / 247 edges), quality-report.json, readable-output/. DAG PASS. Generator: `scripts/generate_real_wellbeing.py`. New source_type: `internal_school_framework`. Deterministic edge generation (Pass 2). Morphological verb normalisation for gate checks.
 - **Developmental scope detection — complete (4c-5).** `curriculum_harness/reference_authoring/developmental_scope/detect_scope.py`. `DevelopmentalScopeResult` dataclass + `detect_developmental_scope()` + `make_developmental_scope_flag()`. Adversarial tests 8/8. Verification 7/7. Schema doc at `docs/schemas/architecture-diagnosis-schema.md`.
 - **Criterion bank — all 7 sources complete (4c-4 + 4c-4b). HARNESS V5 COMPLETE.**
@@ -225,7 +236,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**BT-4 (REAL Band Translation — REAL wellbeing corpus) — if needed.** Apply band translation to the REAL School Budapest wellbeing corpus (`docs/reference-corpus/real-wellbeing-2026-04/`). REAL's own corpus has explicit A–D band structure; translation should be trivial (direct 1:1). Likely very short.
+**REAL-2b (if needed) — Spot-check E/F authored content with REAL School teachers.** The 28 Band E/F cells in band-tagged-real-wellbeing-v1.json are newly authored. Review gate confirmed Do statements; full teacher review of Understand statements and disciplinary warrants has not yet occurred.
 
 **Welsh CfW criterion bank (HR-2d) — if needed.** Generate criterion_bank.json for the new welsh-cfw-health-wellbeing corpus (HR-2c run, 45 LTs). Use `scripts/generate_criterion_bank.py` or equivalent. Previous criterion_bank.json is archived in `_pre-hr2c-archive/` (was for the 20-LT flat-source run).
 
