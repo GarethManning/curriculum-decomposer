@@ -11,8 +11,12 @@ Gates (per session 4b-1 prompt and arc plan v3, revised in 4b-2):
      - hierarchical: [0.8, 2.5] (revised 4b-3: CC 7.RP landed at 2.2)
      - horizontal:   [0.8, 1.5] (vision v4.1 default; unchanged)
      - dispositional: [0.8, 2.2] (4b-2 PROVISIONAL revision)
-4. type3_distribution — for dispositional-domain sources, ≥20% of KUD
-   items are Type 3. Informational only.
+4. type3_distribution — source-type-aware minimum T3 share (HR-1b fix 1):
+     - national_statutory_curriculum: ≥5% (statutory law is inherently T1-dominant)
+     - horizontal_dispositional / horizontal_dispositional_mixed: ≥15%
+     - other dispositional-domain sources: ≥20% (legacy default)
+   Informational only (non-halting). Skipped when source is not dispositional
+   AND not national_statutory_curriculum.
 5. no_compound_unsplit — every KUD item's (kud_column, knowledge_type)
    pair is consistent (single type per item).
 
@@ -62,7 +66,30 @@ RATIO_BANDS: dict[str, tuple[float, float]] = {
 # continue to resolve. New code should use RATIO_BANDS[domain].
 RATIO_MIN = 0.8
 RATIO_MAX = 1.5
-TYPE3_MIN_PCT = 0.20
+TYPE3_MIN_PCT = 0.20  # legacy — use _type3_threshold() for new code
+
+# Source-type-aware Type 3 thresholds (HR-1b fix 1).
+# Statutory curricula are inherently T1-dominant (declarative law, health facts).
+# The 20% default was calibrated for dispositional frameworks like Welsh CfW.
+_TYPE3_THRESHOLDS: dict[str, float] = {
+    "national_statutory_curriculum": 0.05,
+    "horizontal_dispositional": 0.15,
+    "horizontal_dispositional_mixed": 0.15,
+}
+_TYPE3_DEFAULT_PCT = 0.20
+
+
+def _type3_threshold(
+    *,
+    arch_source_type: str | None,
+    arch_domain_type: str | None,
+) -> tuple[float, str]:
+    """Return (threshold, context_label) for the type3_distribution gate."""
+    if arch_source_type == "national_statutory_curriculum":
+        return 0.05, "national statutory curriculum"
+    if arch_domain_type in ("horizontal_dispositional", "horizontal_dispositional_mixed"):
+        return 0.15, f"{arch_domain_type} domain"
+    return _TYPE3_DEFAULT_PCT, "dispositional domain"
 
 _TYPE_TO_ROUTE = {
     "Type 1": "rubric_with_clear_criteria",
@@ -197,38 +224,54 @@ def _gate_type3_distribution(
     kud: ReferenceKUD,
     *,
     source_is_dispositional: bool,
+    arch_source_type: str | None = None,
+    arch_domain_type: str | None = None,
 ) -> GateResult:
     total = len(kud.items)
     type3 = sum(1 for i in kud.items if i.knowledge_type == "Type 3")
     pct = (type3 / total) if total else 0.0
-    if not source_is_dispositional:
-        # Not applicable; emit a pass with a note.
+
+    is_statutory = arch_source_type == "national_statutory_curriculum"
+    if not source_is_dispositional and not is_statutory:
         return GateResult(
             name="type3_distribution",
             passed=True,
             halting=False,
             diagnostic=(
                 "type3_distribution gate skipped — source is not marked as "
-                "dispositional-domain"
+                "dispositional-domain or national_statutory_curriculum"
             ),
-            details={"type3_count": type3, "total_items": total, "pct": round(pct, 4)},
+            details={
+                "type3_count": type3,
+                "total_items": total,
+                "pct": round(pct, 4),
+                "arch_source_type": arch_source_type,
+                "arch_domain_type": arch_domain_type,
+            },
         )
-    meets_min = pct >= TYPE3_MIN_PCT
+
+    threshold, context_label = _type3_threshold(
+        arch_source_type=arch_source_type,
+        arch_domain_type=arch_domain_type,
+    )
+    meets_min = pct >= threshold
     return GateResult(
         name="type3_distribution",
         passed=meets_min,
         halting=False,
         diagnostic=(
-            f"Type 3 items = {type3}/{total} = {pct:.1%} (≥{TYPE3_MIN_PCT:.0%} expected for dispositional domain)"
+            f"Type 3 items = {type3}/{total} = {pct:.1%} (≥{threshold:.0%} expected for {context_label})"
             if meets_min
             else f"dispositional_content_underrepresented: Type 3 items = {type3}/{total} = {pct:.1%} "
-            f"< expected ≥{TYPE3_MIN_PCT:.0%} for dispositional domain (informational only)"
+            f"< expected ≥{threshold:.0%} for {context_label} (informational only)"
         ),
         details={
             "type3_count": type3,
             "total_items": total,
             "pct": round(pct, 4),
-            "expected_min_pct": TYPE3_MIN_PCT,
+            "expected_min_pct": threshold,
+            "arch_source_type": arch_source_type,
+            "arch_domain_type": arch_domain_type,
             "flag": "dispositional_content_underrepresented" if not meets_min else None,
         },
     )
@@ -301,6 +344,8 @@ def run_kud_gates(
     *,
     source_is_dispositional: bool,
     source_domain: str | None = None,
+    arch_source_type: str | None = None,
+    arch_domain_type: str | None = None,
 ) -> QualityReport:
     """Run the full KUD gate suite and return a QualityReport.
 
@@ -309,6 +354,10 @@ def run_kud_gates(
     provided, it is inferred from ``source_is_dispositional`` — True →
     ``"dispositional"``, False → ``"hierarchical"`` (the safe default).
     Callers with a horizontal source must pass ``source_domain`` explicitly.
+
+    ``arch_source_type`` and ``arch_domain_type`` are the source_type and
+    domain_type fields from architecture-diagnosis.json. When provided, the
+    type3_distribution gate uses source-type-aware thresholds (HR-1b fix 1).
     """
     if source_domain is None:
         source_domain = "dispositional" if source_is_dispositional else "hierarchical"
@@ -320,7 +369,12 @@ def run_kud_gates(
         _gate_source_coverage(inventory, kud),
         _gate_traceability(inventory, kud),
         _gate_artefact_count_ratio(inventory, kud, source_domain=source_domain),
-        _gate_type3_distribution(kud, source_is_dispositional=source_is_dispositional),
+        _gate_type3_distribution(
+            kud,
+            source_is_dispositional=source_is_dispositional,
+            arch_source_type=arch_source_type,
+            arch_domain_type=arch_domain_type,
+        ),
         _gate_no_compound_unsplit(kud),
     ]
     halted_by: str | None = None

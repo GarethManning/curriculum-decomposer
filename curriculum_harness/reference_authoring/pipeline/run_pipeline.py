@@ -1327,8 +1327,22 @@ def main(argv: list[str] | None = None) -> int:
         )
 
     source_domain = args.domain or ("dispositional" if args.dispositional else "hierarchical")
+
+    # Load architecture diagnosis for source-type-aware type3 gate (HR-1b fix 1).
+    _arch_diag_path = os.path.join(args.out, "architecture-diagnosis.json")
+    _arch_source_type: str | None = None
+    _arch_domain_type: str | None = None
+    if os.path.exists(_arch_diag_path):
+        try:
+            with open(_arch_diag_path) as _fh:
+                _arch_diag = json.load(_fh)
+            _arch_source_type = _arch_diag.get("source_type")
+            _arch_domain_type = _arch_diag.get("domain_type")
+        except Exception:
+            pass
     print(
-        f"[refauth] KUD gates (dispositional={args.dispositional}, domain={source_domain})",
+        f"[refauth] KUD gates (dispositional={args.dispositional}, domain={source_domain}, "
+        f"arch_source_type={_arch_source_type}, arch_domain_type={_arch_domain_type})",
         flush=True,
     )
     report = run_kud_gates(
@@ -1336,6 +1350,8 @@ def main(argv: list[str] | None = None) -> int:
         kud,
         source_is_dispositional=args.dispositional,
         source_domain=source_domain,
+        arch_source_type=_arch_source_type,
+        arch_domain_type=_arch_domain_type,
     )
     kud_report_md = quality_report_to_markdown(report)
     report_json_path = os.path.join(args.out, "quality_report.json")
