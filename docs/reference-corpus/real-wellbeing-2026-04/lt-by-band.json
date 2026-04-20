@@ -1,0 +1,1107 @@
+{
+  "source_slug": "real-wellbeing-2026-04",
+  "schema_version": "v1",
+  "lt_gate_fail_count": 0,
+  "band_gate_fail_count": 0,
+  "lts": {
+    "lt_1_1": {
+      "lt_id": "lt_1_1",
+      "lt_name": "Self-Awareness & Regulation",
+      "competency_id": "comp_1",
+      "competency_name": "Emotional Intelligence",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "is_observation_indicators": true,
+      "prerequisite_lts": [
+        "lt_6_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_1_1",
+        "lt_name": "Self-Awareness & Regulation",
+        "knowledge_type": "Type 3",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can notice what my body is telling me, name a feeling, and use one calming strategy to return to learning.",
+          "gate": {
+            "lt_id": "lt_1_1",
+            "band": "A",
+            "statement": "I can notice what my body is telling me, name a feeling, and use one calming strategy to return to learning.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can identify a common personal trigger and choose a practised strategy to manage my response.",
+          "gate": {
+            "lt_id": "lt_1_1",
+            "band": "B",
+            "statement": "I can identify a common personal trigger and choose a practised strategy to manage my response.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can apply a chosen strategy in a challenging situation and reflect on how well it worked.",
+          "gate": {
+            "lt_id": "lt_1_1",
+            "band": "C",
+            "statement": "I can apply a chosen strategy in a challenging situation and reflect on how well it worked.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can apply my strategies under stress across different settings, explain what worked and what didn't, and state one change for next time.",
+          "gate": {
+            "lt_id": "lt_1_1",
+            "band": "D",
+            "statement": "I can apply my strategies under stress across different settings, explain what worked and what didn't, and state one cha...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": [
+              {
+                "gate": "t3_observable",
+                "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "lt_1_2": {
+      "lt_id": "lt_1_2",
+      "lt_name": "Social Awareness & Empathy",
+      "competency_id": "comp_1",
+      "competency_name": "Emotional Intelligence",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "is_observation_indicators": true,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_1_2",
+        "lt_name": "Social Awareness & Empathy",
+        "knowledge_type": "Type 3",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "observable_verb_mental_state",
+            "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+          },
+          {
+            "gate": "progression_coherence",
+            "detail": "Band D statement does not contain a higher-order cognitive verb."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can name a feeling another person might be having and offer a kind word or a specific helpful action.",
+          "gate": {
+            "lt_id": "lt_1_2",
+            "band": "A",
+            "statement": "I can name a feeling another person might be having and offer a kind word or a specific helpful action.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can describe a situation from another person's perspective and ask if they would like help before acting.",
+          "gate": {
+            "lt_id": "lt_1_2",
+            "band": "B",
+            "statement": "I can describe a situation from another person's perspective and ask if they would like help before acting.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can notice what others say and do in a group, check in when I'm unsure, and adjust my actions to match their stated needs or boundaries.",
+          "gate": {
+            "lt_id": "lt_1_2",
+            "band": "C",
+            "statement": "I can notice what others say and do in a group, check in when I'm unsure, and adjust my actions to match their stated ne...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can repair a relationship after conflict by listening, owning my part, and agreeing on a next step that works for both people.",
+          "gate": {
+            "lt_id": "lt_1_2",
+            "band": "D",
+            "statement": "I can repair a relationship after conflict by listening, owning my part, and agreeing on a next step that works for both...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_2_1": {
+      "lt_id": "lt_2_1",
+      "lt_name": "Focused Attention & Strategy",
+      "competency_id": "comp_2",
+      "competency_name": "Attention & Reflective Practices",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_2_1",
+        "lt_name": "Focused Attention & Strategy",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "progression_coherence",
+            "detail": "Band D statement does not contain a higher-order cognitive verb."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can use my senses to attend to one task for a short time and describe how I brought my attention back when it wandered.",
+          "gate": {
+            "lt_id": "lt_2_1",
+            "band": "A",
+            "statement": "I can use my senses to attend to one task for a short time and describe how I brought my attention back when it wandered...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can use a practised attention strategy during a task and describe what made it easier or harder to focus.",
+          "gate": {
+            "lt_id": "lt_2_1",
+            "band": "B",
+            "statement": "I can use a practised attention strategy during a task and describe what made it easier or harder to focus.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can evaluate how an attention strategy affected my focus during a specific task and explain why it did or didn't help.",
+          "gate": {
+            "lt_id": "lt_2_1",
+            "band": "C",
+            "statement": "I can evaluate how an attention strategy affected my focus during a specific task and explain why it did or didn't help.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can sustain attention during a challenging task, identify what is pulling it away, and use a deliberate strategy to return.",
+          "gate": {
+            "lt_id": "lt_2_1",
+            "band": "D",
+            "statement": "I can sustain attention during a challenging task, identify what is pulling it away, and use a deliberate strategy to re...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_2_2": {
+      "lt_id": "lt_2_2",
+      "lt_name": "Reflective Decision-Making",
+      "competency_id": "comp_2",
+      "competency_name": "Attention & Reflective Practices",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_2_2",
+        "lt_name": "Reflective Decision-Making",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can retell a short experience and state one thing I learned from it.",
+          "gate": {
+            "lt_id": "lt_2_2",
+            "band": "A",
+            "statement": "I can retell a short experience and state one thing I learned from it.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can stop and state at least one helpful and one harmful possible outcome before making a choice.",
+          "gate": {
+            "lt_id": "lt_2_2",
+            "band": "B",
+            "statement": "I can stop and state at least one helpful and one harmful possible outcome before making a choice.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can compare multiple options, state my choice, and give a reason based on my values.",
+          "gate": {
+            "lt_id": "lt_2_2",
+            "band": "C",
+            "statement": "I can compare multiple options, state my choice, and give a reason based on my values.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can explain the trade-offs in a decision and justify my choice by considering how it affects different people.",
+          "gate": {
+            "lt_id": "lt_2_2",
+            "band": "D",
+            "statement": "I can explain the trade-offs in a decision and justify my choice by considering how it affects different people.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_3_1": {
+      "lt_id": "lt_3_1",
+      "lt_name": "Health Literacy & Habits",
+      "competency_id": "comp_3",
+      "competency_name": "Physical Wellbeing & Self-Care",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [
+        "lt_6_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_3_1",
+        "lt_name": "Health Literacy & Habits",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "observable_verb_mental_state",
+            "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can name my body's basic needs and practise simple personal hygiene routines with reminders.",
+          "gate": {
+            "lt_id": "lt_3_1",
+            "band": "A",
+            "statement": "I can name my body's basic needs and practise simple personal hygiene routines with reminders.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can explain how sleep, food, and movement affect how I feel, and set a goal for one healthy habit.",
+          "gate": {
+            "lt_id": "lt_3_1",
+            "band": "B",
+            "statement": "I can explain how sleep, food, and movement affect how I feel, and set a goal for one healthy habit.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can track one habit for a week, identify a barrier, and explain why I want to keep or change it.",
+          "gate": {
+            "lt_id": "lt_3_1",
+            "band": "C",
+            "statement": "I can track one habit for a week, identify a barrier, and explain why I want to keep or change it.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can compare two sources of health information, create a balanced weekly habits plan, and adjust it based on logged results.",
+          "gate": {
+            "lt_id": "lt_3_1",
+            "band": "D",
+            "statement": "I can compare two sources of health information, create a balanced weekly habits plan, and adjust it based on logged res...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_3_2": {
+      "lt_id": "lt_3_2",
+      "lt_name": "Self-Care & Resilience",
+      "competency_id": "comp_3",
+      "competency_name": "Physical Wellbeing & Self-Care",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "is_observation_indicators": true,
+      "prerequisite_lts": [
+        "lt_6_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_3_2",
+        "lt_name": "Self-Care & Resilience",
+        "knowledge_type": "Type 3",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "progression_coherence",
+            "detail": "Band D statement does not contain a higher-order cognitive verb."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can name a trusted adult I can ask for help and practise a simple self-care routine.",
+          "gate": {
+            "lt_id": "lt_3_2",
+            "band": "A",
+            "statement": "I can name a trusted adult I can ask for help and practise a simple self-care routine.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can identify my body's early warning signs and choose a helpful self-care response.",
+          "gate": {
+            "lt_id": "lt_3_2",
+            "band": "B",
+            "statement": "I can identify my body's early warning signs and choose a helpful self-care response.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can make a self-care plan that works at home and school and list trusted people or services for support.",
+          "gate": {
+            "lt_id": "lt_3_2",
+            "band": "C",
+            "statement": "I can make a self-care plan that works at home and school and list trusted people or services for support.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can maintain my key self-care routines during stressful times and describe one way I support a peer to do the same.",
+          "gate": {
+            "lt_id": "lt_3_2",
+            "band": "D",
+            "statement": "I can maintain my key self-care routines during stressful times and describe one way I support a peer to do the same.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_4_1": {
+      "lt_id": "lt_4_1",
+      "lt_name": "Bodies, Boundaries & Consent",
+      "competency_id": "comp_4",
+      "competency_name": "Consent, Safety & Healthy Relationships",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_4_1",
+        "lt_name": "Bodies, Boundaries & Consent",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "progression_coherence",
+            "detail": "Band D statement does not contain a higher-order cognitive verb."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can name private body parts correctly and say who my trusted adults are that help keep me safe.",
+          "gate": {
+            "lt_id": "lt_4_1",
+            "band": "A",
+            "statement": "I can name private body parts correctly and say who my trusted adults are that help keep me safe.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can set and respect boundaries, ask for clear consent, and seek help if I feel pressured.",
+          "gate": {
+            "lt_id": "lt_4_1",
+            "band": "B",
+            "statement": "I can set and respect boundaries, ask for clear consent, and seek help if I feel pressured.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can apply consent skills in non-sexual and online contexts and state my boundaries clearly to peers.",
+          "gate": {
+            "lt_id": "lt_4_1",
+            "band": "C",
+            "statement": "I can apply consent skills in non-sexual and online contexts and state my boundaries clearly to peers.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can recognise power or peer-pressure risks, state my refusal and exit plan, and describe how I would support a peer to access help.",
+          "gate": {
+            "lt_id": "lt_4_1",
+            "band": "D",
+            "statement": "I can recognise power or peer-pressure risks, state my refusal and exit plan, and describe how I would support a peer to...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_4_2": {
+      "lt_id": "lt_4_2",
+      "lt_name": "Puberty, Health & Safe Choices",
+      "competency_id": "comp_4",
+      "competency_name": "Consent, Safety & Healthy Relationships",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [
+        "lt_4_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_4_2",
+        "lt_name": "Puberty, Health & Safe Choices",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "observable_verb_mental_state",
+            "detail": "Definition uses '{'understand'}' — a mental state verb. Consider revising to a directly observable action (e.g. 'explain', 'apply', 'demonstrate')."
+          },
+          {
+            "gate": "band_coverage",
+            "detail": "Bands ['A'] are N/A — intentional? Source note: 'not applicable at this developmental stage'",
+            "severity": "informational"
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": null,
+          "gate": {
+            "lt_id": "lt_4_2",
+            "band": "A",
+            "statement": null,
+            "gate_passed": true,
+            "status": "na_by_design",
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can explain the basic changes of puberty, use personal hygiene routines, and find reliable health information from trusted sources.",
+          "gate": {
+            "lt_id": "lt_4_2",
+            "band": "B",
+            "statement": "I can explain the basic changes of puberty, use personal hygiene routines, and find reliable health information from tru...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can manage my personal hygiene related to puberty, identify trusted sources of health information, and explain the basics of human reproduction.",
+          "gate": {
+            "lt_id": "lt_4_2",
+            "band": "C",
+            "statement": "I can manage my personal hygiene related to puberty, identify trusted sources of health information, and explain the bas...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can assess risks related to STIs, pregnancy, and substance use, explain protection methods, and identify steps to access confidential health advice.",
+          "gate": {
+            "lt_id": "lt_4_2",
+            "band": "D",
+            "statement": "I can assess risks related to STIs, pregnancy, and substance use, explain protection methods, and identify steps to acce...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_5_1": {
+      "lt_id": "lt_5_1",
+      "lt_name": "Interpersonal Skills & Communication",
+      "competency_id": "comp_5",
+      "competency_name": "Community, Purpose & Belonging",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_5_1",
+        "lt_name": "Interpersonal Skills & Communication",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [
+          {
+            "gate": "progression_coherence",
+            "detail": "Band D statement does not contain a higher-order cognitive verb."
+          }
+        ],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can take turns in conversation, use kind words, and use an I-statement.",
+          "gate": {
+            "lt_id": "lt_5_1",
+            "band": "A",
+            "statement": "I can take turns in conversation, use kind words, and use an I-statement.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can use I-statements to state my needs, ask about boundaries, and propose two options for a fair solution.",
+          "gate": {
+            "lt_id": "lt_5_1",
+            "band": "B",
+            "statement": "I can use I-statements to state my needs, ask about boundaries, and propose two options for a fair solution.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can listen in a disagreement without interrupting, choose words that stay respectful, and use a simple repair routine.",
+          "gate": {
+            "lt_id": "lt_5_1",
+            "band": "C",
+            "statement": "I can listen in a disagreement without interrupting, choose words that stay respectful, and use a simple repair routine.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can state my boundaries clearly, paraphrase before I respond, and choose words that fit the situation including in conflict.",
+          "gate": {
+            "lt_id": "lt_5_1",
+            "band": "D",
+            "statement": "I can state my boundaries clearly, paraphrase before I respond, and choose words that fit the situation including in con...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": [
+              {
+                "gate": "no_inline_examples",
+                "detail": "Inline example pattern '\\bincluding\\b' found. Check whether examples are scope illustrations or separate sub-skills."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "lt_5_2": {
+      "lt_id": "lt_5_2",
+      "lt_name": "Community Engagement & Purpose",
+      "competency_id": "comp_5",
+      "competency_name": "Community, Purpose & Belonging",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "is_observation_indicators": true,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_5_2",
+        "lt_name": "Community Engagement & Purpose",
+        "knowledge_type": "Type 3",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can do a classroom job and explain how it helps our class.",
+          "gate": {
+            "lt_id": "lt_5_2",
+            "band": "A",
+            "statement": "I can do a classroom job and explain how it helps our class.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": [
+              {
+                "gate": "t3_observable",
+                "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+              }
+            ]
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can identify when someone is left out and invite them to join an activity.",
+          "gate": {
+            "lt_id": "lt_5_2",
+            "band": "B",
+            "statement": "I can identify when someone is left out and invite them to join an activity.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can identify a need in our school, propose a simple project, and complete it with a team.",
+          "gate": {
+            "lt_id": "lt_5_2",
+            "band": "C",
+            "statement": "I can identify a need in our school, propose a simple project, and complete it with a team.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can work with a diverse group to address a need, show the impact of our project, and explain why the work matters to me.",
+          "gate": {
+            "lt_id": "lt_5_2",
+            "band": "D",
+            "statement": "I can work with a diverse group to address a need, show the impact of our project, and explain why the work matters to m...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": [
+              {
+                "gate": "t3_observable",
+                "detail": "T3 observation indicator contains reasoning-quality verb ({'explain'}). Verify this is observable behaviour, not hidden reasoning quality."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "lt_6_1": {
+      "lt_id": "lt_6_1",
+      "lt_name": "Brain, Body & Wellbeing Science",
+      "competency_id": "comp_6",
+      "competency_name": "Wellbeing Science & Literacy",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_6_1",
+        "lt_name": "Brain, Body & Wellbeing Science",
+        "knowledge_type": "Type 1",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can name body signals that tell me something about how I feel, and describe what sleep and food do for my body and brain.",
+          "gate": {
+            "lt_id": "lt_6_1",
+            "band": "A",
+            "statement": "I can name body signals that tell me something about how I feel, and describe what sleep and food do for my body and bra...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can explain what happens in my body during a fight, flight, or freeze response, and describe the three parts of the habit loop.",
+          "gate": {
+            "lt_id": "lt_6_1",
+            "band": "B",
+            "statement": "I can explain what happens in my body during a fight, flight, or freeze response, and describe the three parts of the ha...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can explain how the amygdala and prefrontal cortex interact during a stressful moment, explain what neuroplasticity means, and describe how the habit loop explains behaviour change at the level of mechanism.",
+          "gate": {
+            "lt_id": "lt_6_1",
+            "band": "C",
+            "statement": "I can explain how the amygdala and prefrontal cortex interact during a stressful moment, explain what neuroplasticity me...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can use accurate neuroscience vocabulary to explain how stress, emotion, attention, and habit interact as a system, and describe the role of the HPA axis in the stress response.",
+          "gate": {
+            "lt_id": "lt_6_1",
+            "band": "D",
+            "statement": "I can use accurate neuroscience vocabulary to explain how stress, emotion, attention, and habit interact as a system, an...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_6_2": {
+      "lt_id": "lt_6_2",
+      "lt_name": "Health Information Literacy",
+      "competency_id": "comp_6",
+      "competency_name": "Wellbeing Science & Literacy",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [
+        "lt_6_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_6_2",
+        "lt_name": "Health Information Literacy",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can identify whether a health claim comes from a trusted adult or source and explain my reasoning.",
+          "gate": {
+            "lt_id": "lt_6_2",
+            "band": "A",
+            "statement": "I can identify whether a health claim comes from a trusted adult or source and explain my reasoning.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can compare two health information sources and describe which one I trust more and why.",
+          "gate": {
+            "lt_id": "lt_6_2",
+            "band": "B",
+            "statement": "I can compare two health information sources and describe which one I trust more and why.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can analyse a health claim by examining the type of evidence it uses and identifying whether the source has a reason to be biased.",
+          "gate": {
+            "lt_id": "lt_6_2",
+            "band": "C",
+            "statement": "I can analyse a health claim by examining the type of evidence it uses and identifying whether the source has a reason t...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can evaluate a contested health claim by comparing the quality of evidence on each side, identifying the strongest and weakest arguments, and justifying my conclusion.",
+          "gate": {
+            "lt_id": "lt_6_2",
+            "band": "D",
+            "statement": "I can evaluate a contested health claim by comparing the quality of evidence on each side, identifying the strongest and...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_7_1": {
+      "lt_id": "lt_7_1",
+      "lt_name": "Pattern Analysis & Adjustment",
+      "competency_id": "comp_7",
+      "competency_name": "Metacognitive Self-Direction",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "is_observation_indicators": false,
+      "prerequisite_lts": [],
+      "lt_gate": {
+        "lt_id": "lt_7_1",
+        "lt_name": "Pattern Analysis & Adjustment",
+        "knowledge_type": "Type 2",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "I can describe one thing I noticed about how I reacted to a situation and say what I might do differently next time.",
+          "gate": {
+            "lt_id": "lt_7_1",
+            "band": "A",
+            "statement": "I can describe one thing I noticed about how I reacted to a situation and say what I might do differently next time.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "I can identify a pattern in how I tend to respond in a type of situation and give a reason for why that might happen.",
+          "gate": {
+            "lt_id": "lt_7_1",
+            "band": "B",
+            "statement": "I can identify a pattern in how I tend to respond in a type of situation and give a reason for why that might happen.",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "I can analyse a pattern across more than one situation, explain what drives it, and describe a specific adjustment I have made or will make.",
+          "gate": {
+            "lt_id": "lt_7_1",
+            "band": "C",
+            "statement": "I can analyse a pattern across more than one situation, explain what drives it, and describe a specific adjustment I hav...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "I can evaluate a pattern in my thinking or responses across different contexts, justify what sustains it, and describe the effect of a specific adjustment I have made.",
+          "gate": {
+            "lt_id": "lt_7_1",
+            "band": "D",
+            "statement": "I can evaluate a pattern in my thinking or responses across different contexts, justify what sustains it, and describe t...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    },
+    "lt_7_2": {
+      "lt_id": "lt_7_2",
+      "lt_name": "Self-Direction in Practice",
+      "competency_id": "comp_7",
+      "competency_name": "Metacognitive Self-Direction",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "is_observation_indicators": true,
+      "prerequisite_lts": [
+        "lt_7_1"
+      ],
+      "lt_gate": {
+        "lt_id": "lt_7_2",
+        "lt_name": "Self-Direction in Practice",
+        "knowledge_type": "Type 3",
+        "gate_passed": true,
+        "failures": [],
+        "warnings": [],
+        "flag_for_teacher_review": false
+      },
+      "bands": {
+        "A": {
+          "band": "A",
+          "band_label": "Water/Air Dragons (ages 5–8)",
+          "statement": "Stops and tries a different approach when the first attempt does not work, without being told to. After a setback, names what happened rather than dismissing it. Accepts a suggestion to try differently without extended resistance.",
+          "gate": {
+            "lt_id": "lt_7_2",
+            "band": "A",
+            "statement": "Stops and tries a different approach when the first attempt does not work, without being told to. After a setback, names...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "B": {
+          "band": "B",
+          "band_label": "Earth Dragons (ages 8–10)",
+          "statement": "Refers back to a strategy they have previously found helpful, without being prompted. After a task, volunteers one specific observation about how they worked. When something goes wrong, asks a question about why rather than placing blame.",
+          "gate": {
+            "lt_id": "lt_7_2",
+            "band": "B",
+            "statement": "Refers back to a strategy they have previously found helpful, without being prompted. After a task, volunteers one speci...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "C": {
+          "band": "C",
+          "band_label": "Fire Dragons (ages 10–12)",
+          "statement": "Identifies a pattern in how they tend to respond across more than one situation and names it spontaneously in conversation. Adjusts their approach mid-task in response to noticing something is not working. In reflective writing, connects a current response to a pattern they have identified previously.",
+          "gate": {
+            "lt_id": "lt_7_2",
+            "band": "C",
+            "statement": "Identifies a pattern in how they tend to respond across more than one situation and names it spontaneously in conversati...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        },
+        "D": {
+          "band": "D",
+          "band_label": "Metal/Light Dragons (ages 12–14)",
+          "statement": "Articulates a specific adjustment they have made to their thinking or behaviour and describes its effect across more than one domain. In novel or challenging situations, applies a self-awareness strategy without an adult prompt. Makes connections between wellbeing learning and behaviour in other contexts, unprompted.",
+          "gate": {
+            "lt_id": "lt_7_2",
+            "band": "D",
+            "statement": "Articulates a specific adjustment they have made to their thinking or behaviour and describes its effect across more tha...",
+            "gate_passed": true,
+            "failures": [],
+            "warnings": []
+          }
+        }
+      }
+    }
+  }
+}
