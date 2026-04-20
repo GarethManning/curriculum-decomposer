@@ -1,0 +1,95 @@
+{
+  "source_slug": "real-wellbeing-2026-04",
+  "source_name": "REAL School Budapest — Wellbeing Framework",
+  "source_type": "internal_school_framework",
+  "domain_type": "horizontal_dispositional",
+  "domain_type_notes": "Primary domain is horizontal (T2) with significant dispositional (T3) component. Competency 6 (LTs 6.1, 6.2) is the sole hierarchical (T1/T2) element and functions as foundational science knowledge prerequisite to C1 and C3.",
+  "hierarchical_elements": [
+    "comp_6 (lt_6_1 is T1 — Hierarchical)"
+  ],
+  "scale": "curriculum",
+  "contestation_level": "low",
+  "developmental_scope": "explicit_progression",
+  "developmental_scope_confidence": "high",
+  "developmental_scope_notes": "Source provides explicit per-band (A/B/C/D) statements for all 14 LTs. Bands are named learning groups with defined age/grade ranges.",
+  "jurisdiction": "REAL School Budapest",
+  "language": "English",
+  "band_reference": {
+    "A": {
+      "groups": [
+        "Water Dragons",
+        "Air Dragons"
+      ],
+      "grades": "K, Gr 1–2",
+      "uk_years": "Y1–Y3",
+      "ages": "5–8"
+    },
+    "B": {
+      "groups": [
+        "Earth Dragons"
+      ],
+      "grades": "Gr 3–4",
+      "uk_years": "Y4–Y5",
+      "ages": "8–10"
+    },
+    "C": {
+      "groups": [
+        "Fire Dragons"
+      ],
+      "grades": "Gr 5–6",
+      "uk_years": "Y6–Y7",
+      "ages": "10–12"
+    },
+    "D": {
+      "groups": [
+        "Metal Dragons",
+        "Light Dragons"
+      ],
+      "grades": "Gr 7–8",
+      "uk_years": "Y8–Y9",
+      "ages": "12–14"
+    }
+  },
+  "competency_count": 7,
+  "lt_count": 14,
+  "lt_type_breakdown": {
+    "Type 1": 1,
+    "Type 2": 8,
+    "Type 3": 5
+  },
+  "lt_type_1": [
+    "lt_6_1"
+  ],
+  "lt_type_2": [
+    "lt_2_1",
+    "lt_2_2",
+    "lt_3_1",
+    "lt_4_1",
+    "lt_4_2",
+    "lt_5_1",
+    "lt_6_2",
+    "lt_7_1"
+  ],
+  "lt_type_3": [
+    "lt_1_1",
+    "lt_1_2",
+    "lt_3_2",
+    "lt_5_2",
+    "lt_7_2"
+  ],
+  "prerequisite_structure": {
+    "competency_level": [
+      "Competency 6 prerequisite to Competencies 1 and 3 (source-stated)"
+    ],
+    "lt_level": [
+      "lt_6_1 prerequisite to lt_1_1 (source-stated: C6 knowledge-contingency)",
+      "lt_6_1 prerequisite to lt_3_1 (source-stated: C6 knowledge-contingency)",
+      "lt_6_1 prerequisite to lt_3_2 (inferred from comp-level prerequisite)",
+      "lt_6_2 prerequisite relationship to lt_6_1 (source-stated: lt_6_1 is prerequisite of lt_6_2)",
+      "lt_7_1 prerequisite to lt_7_2 (source-stated)"
+    ]
+  },
+  "flags": [],
+  "generated_at": "2026-04-20",
+  "session": "REAL-1"
+}
