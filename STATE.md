@@ -4,6 +4,16 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session CW-2b (Circle Solutions + CASEL Band F pipeline re-runs; 5-framework crosswalk v2)** — 2026-04-21 — head `740f22e fix: CW-2b complete pipeline runs for Circle Solutions and CASEL; regenerate five-framework crosswalk v2`.
+
+Circle Solutions: full pipeline re-run for all 4 year-level strands after API credit exhaustion in CW-2. 124 KUD items, 104 LTs (v1 manual: 112/48). Band-tagged v2 written. v1 archived to `_manual-archive/`. detect_progression.py fixed: per-strand inventory has `source_slug=strand-year-X` (no "circle-solutions" in slug); added `source_reference` matching on "cowie-myers" to detect correctly.
+
+CASEL: grade-band-11-12 pipeline re-run restores Band F (halt was `call_or_parse_failed` from API exhaustion, not genuine T2/T3 ambiguity — prior STATE was incorrect). 28 KUD items, 14 LTs. Unified KUD/LTS updated (175→203 items, 79→93 LTs). Band-tagged CASEL v2 written.
+
+5-framework crosswalk v2: `real-wellbeing-x-all-frameworks-v2.md` + `.csv`. 83 convergence rows (v1: 71), updated CS quotes to pipeline LT definitions throughout, 8 new CASEL Band F convergence rows, 2 new CS Band F rows (dehumanization/systemic empathy; social justice action). Verification: (a) CS pipeline-generated ✓ (b) CASEL Band F 28 KUD/14 LTs ✓ (c) both in v2 crosswalk ✓ (d) CSV 83 rows > 71 ✓.
+
+---
+
 **Session CW-2 (CASEL × Circle Solutions install, band-tag, and 5-framework crosswalk)** — 2026-04-21 — head `115421f [CW-2] CASEL × Circle Solutions install, band-tag, and 5-framework crosswalk`.
 
 CASEL SEL Skills Continuum (January 2023): full harness pipeline run (multi-strand, 7 grade bands). 175 KUD items, 79 LTs, Bands A–E (Band F = 0, pipeline halt: 5 grade-band-11-12 blocks `classification_unreliable`). `band-tagged-casel-v1.json`: all fields, source_voice_preserved=true, band_confidence=high throughout.
@@ -213,9 +223,10 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 2. Verified working
 
-- **5-framework crosswalk v1 — complete (CW-2).** `docs/reference-corpus/crosswalks/real-wellbeing-x-all-frameworks-v1.md` + `.csv`. REAL × RSHE × Welsh CfW × CASEL × Circle Solutions. 71 convergent pairs, 13 divergence topics, 5 unique-content clusters, 12 PLC questions. CSV: 71 rows (one per LT×band×framework). Commit `115421f`.
-- **CASEL SEL band-tagged artefact v1 — complete (CW-2).** `docs/reference-corpus/casel-sel-continuum/band-tagged-casel-v1.json`. 175 KUD items + 79 LTs, Bands A–E. Band F = 0 (pipeline halt). All required fields, source_voice_preserved=true, band_confidence=high.
-- **Circle Solutions SEL band-tagged artefact v1 — complete (CW-2).** `docs/reference-corpus/circle-solutions-sel/band-tagged-circle-solutions-v1.json`. 112 KUD items + 48 LTs, 4 year levels. Year 2/Year 9 ambiguous (medium confidence). Manually constructed (pipeline bypassed — API credit needed for proper run).
+- **5-framework crosswalk v2 — complete (CW-2b).** `docs/reference-corpus/crosswalks/real-wellbeing-x-all-frameworks-v2.md` + `.csv`. 83 convergent pairs, 14 divergence topics, 5 unique-content clusters, 5 PLC questions. CSV: 83 rows. CASEL Band F and CS pipeline-generated v2 both present. Commit `740f22e`.
+- **CASEL SEL band-tagged artefact v2 — complete (CW-2b).** `docs/reference-corpus/casel-sel-continuum/band-tagged-casel-v2.json`. 203 KUD items + 93 LTs, Bands A–F. Band F: 28 KUD items, 14 LTs (restored after API credit re-run). All required fields, source_voice_preserved=true.
+- **Circle Solutions SEL band-tagged artefact v2 — complete (CW-2b).** `docs/reference-corpus/circle-solutions-sel/band-tagged-circle-solutions-v2.json`. 124 KUD items + 104 LTs, 4 year levels, pipeline-generated. Year 2→Bands A/B (ambig, medium confidence), Year 6→Band C (high), Year 9→Bands D/E (ambig, medium), Year 12→Band F (high). v1 manual archived to `_manual-archive/`.
+- **5-framework crosswalk v1 — complete (CW-2).** `docs/reference-corpus/crosswalks/real-wellbeing-x-all-frameworks-v1.md` + `.csv`. 71 convergent pairs. Superseded by v2 but retained for reference. Commit `115421f`.
 - **REAL × RSHE × Welsh CfW crosswalk v1 — complete (CW-1).** `docs/reference-corpus/crosswalks/real-wellbeing-x-rshe-x-cfw-v1.md`. PLC-ready Markdown. 30 convergent pairs (11 high, 19 apparent-only), 7 divergence topics, unique-content and sequencing sections, 10 PLC questions. Commit `2f92161`.
 - **Welsh CfW Health & Wellbeing band-tagged artefact v2 — complete (HR-2c + BT-3b).** `docs/reference-corpus/welsh-cfw-health-wellbeing/band-tagged-cfw-v2.json`. 136 KUD items + 45 LTs tagged. 100% medium confidence (0% low). PS→REAL canonical mapping applied. 19 PS1 items → Band A (unambiguous); PS2–PS5 → 2-band spans. source_voice_preserved: true on all items. architecture-diagnosis.json present with developmental_scope: explicit_progression. Pre-HR2c artefacts in `_pre-hr2c-archive/`.
 - **UK statutory RSHE band-tagged artefact — complete (BT-2).** `docs/reference-corpus/uk-statutory-rshe/band-tagged-rshe-v1.json`. 279 KUD items + 44 LTs tagged with REAL bands. End of Primary → [A,B,C], End of Secondary → [C,D,E], cross-band LTs → [A,B,C,D,E]. All verification checks PASS. source_voice_preserved: true on all 279 items.
@@ -260,9 +271,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**API credit top-up required.** The harness `.env` API key ran out of credit during CW-2 Circle Solutions Year 2 KUD classification (`BadRequestError 400 credit balance too low`). Circle Solutions band-tagged artefact is manually constructed (valid). To run Circle Solutions through the full harness pipeline: top up the API key, then re-run `python scripts/run_pipeline.py` on the circle-solutions-sel snapshot.
-
-**CW-3 (if planned) — CASEL × Circle Solutions criterion banks.** Generate criterion banks for `casel-sel-continuum` and `circle-solutions-sel` corpora.
+**CW-3 (if planned) — CASEL × Circle Solutions criterion banks.** Generate criterion banks for `casel-sel-continuum` and `circle-solutions-sel` corpora. Both corpora are now pipeline-generated and have full unified artefacts. CASEL: 93 LTs, 6 bands A–F. Circle Solutions: 104 LTs, 4 year levels (A/B, C, D/E, F).
 
 **REAL-2b (if needed) — Spot-check E/F authored content with REAL School teachers.** The 28 Band E/F cells in band-tagged-real-wellbeing-v1.json are newly authored. Review gate confirmed Do statements; full teacher review of Understand statements and disciplinary warrants has not yet occurred.
 
@@ -288,4 +297,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-21 at end of Session CW-2 (CASEL × Circle Solutions install, band-tag, and 5-framework crosswalk complete). Update at end of every session per `docs/process/state-md-discipline.md`.*
+*Last updated 2026-04-21 at end of Session CW-2b (Circle Solutions + CASEL Band F pipeline re-runs; 5-framework crosswalk v2 complete). Update at end of every session per `docs/process/state-md-discipline.md`.*
