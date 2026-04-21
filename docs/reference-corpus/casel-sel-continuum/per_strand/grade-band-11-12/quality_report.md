@@ -8,14 +8,14 @@
 - **source_domain:** dispositional
 - **inventory_blocks_total:** 11
 - **inventory_non_heading_blocks:** 5
-- **kud_items_total:** 0
-- **halted_blocks_total:** 5
+- **kud_items_total:** 28
+- **halted_blocks_total:** 0
 - **halted_severe:** 0
-- **halted_unreliable:** 5
-- **knowledge_type_distribution:** (empty)
-- **kud_column_distribution:** (empty)
-- **stability_distribution:** (empty)
-- **underspecification_distribution:** (empty)
+- **halted_unreliable:** 0
+- **knowledge_type_distribution:** Type 2=19, Type 3=9
+- **kud_column_distribution:** do_disposition=9, do_skill=19
+- **stability_distribution:** classification_unstable=18, stable=10
+- **underspecification_distribution:** null=28
 
 ## Gate results
 
@@ -29,11 +29,11 @@ every KUD item has a valid source_block_id
 
 ### `artefact_count_ratio` — FAIL (halts)
 
-KUD items / expected-yield blocks = 0/5 = 0.000 (denominator excludes 0 severely-underspecified blocks) outside dispositional-domain target band [0.8, 2.2] (dispositional ceiling is PROVISIONAL per 4b-2; next dispositional source may re-trigger review)
+KUD items / expected-yield blocks = 28/5 = 5.600 (denominator excludes 0 severely-underspecified blocks) outside dispositional-domain target band [0.8, 2.2] (dispositional ceiling is PROVISIONAL per 4b-2; next dispositional source may re-trigger review)
 
-### `type3_distribution` — FLAG
+### `type3_distribution` — PASS
 
-dispositional_content_underrepresented: Type 3 items = 0/0 = 0.0% < expected ≥20% for dispositional domain (informational only)
+Type 3 items = 9/28 = 32.1% (≥20% expected for dispositional domain)
 
 ### `no_compound_unsplit` — PASS
 
@@ -50,78 +50,85 @@ every KUD item carries a single knowledge type with consistent column and route
 
 ## Stage: competency clustering
 
-- clusters: **0**
-- overall stability flag: `cluster_unreliable`
-- diagnostics:
-  - only 0/3 clustering runs produced valid output
+- clusters: **5**
+- overall stability flag: `stable`
 - per-cluster stability:
+  - `cluster_01` (Self-Awareness): stable — 5 items, dkt=Type 2
+  - `cluster_02` (Self-Management): stable — 6 items, dkt=Type 2
+  - `cluster_03` (Social Awareness): stable — 6 items, dkt=Type 3
+  - `cluster_04` (Relationship Skills): stable — 5 items, dkt=Type 2
+  - `cluster_05` (Responsible Decision-Making): stable — 6 items, dkt=Type 2
 
 ## Stage: LT generation
 
-- LTs: **0** (halted clusters: 0)
-- knowledge-type split: Type 1=0, Type 2=0, Type 3=0
-- LT stability: {}
+- LTs: **14** (halted clusters: 0)
+- knowledge-type split: Type 1=0, Type 2=8, Type 3=6
+- LT stability: {'stable': 14}
 
 ## Stage: Type 1/2 band statements
 
-- band sets: **0** (halted LTs: 0)
-- stability: {}
+- band sets: **5** (halted LTs: 3)
+- stability: {'band_statements_unstable': 3, 'stable': 2}
+- halted:
+  - `cluster_02_lt_01`: band_statements_gate_failed — 3 format/quality failures
+  - `cluster_04_lt_01`: band_statements_gate_failed — 2 format/quality failures
+  - `cluster_04_lt_02`: band_statements_gate_failed — 4 format/quality failures
 
 ## Stage: Type 3 observation indicators
 
-- indicator sets: **0** (halted LTs: 0)
-- stability: {}
+- indicator sets: **6** (halted LTs: 0)
+- stability: {'stable': 6}
 
 
 ## Flags
 Total flags: **6**
 
 
-### `blk_0003` — `classification_unreliable` — **MEDIUM**
+### `cluster_02_lt_01` — `band_statements_unreliable — 3 format/quality failures` — **MEDIUM**
 
-**Stage:** KUD classification
+**Stage:** band statements
 
-**Technical:** The KUD classifier ran 3 times on this source block; fewer than 2/3 runs agreed on the knowledge type (Type 1 / 2 / 3). The block was halted rather than forced into an uncertain classification.
+**Technical:** The band statement generator ran 3 times; fewer than 2/3 runs produced parseable output with a consistent signature. No band statements were produced for this LT.
 
-**Pedagogical:** If the classifier can't agree on whether this is declarative knowledge, a skill, or a disposition, the LT derived from it may not accurately reflect the source intent. A teacher should check the original source block and decide the classification manually before using this LT.
+**Pedagogical:** Without band statements, teachers cannot use this LT to assess learners across the source's progression bands. The content may need manual authoring of band-level descriptors.
 
-### `blk_0005` — `classification_unreliable` — **MEDIUM**
+### `cluster_04_lt_01` — `band_statements_unreliable — 2 format/quality failures` — **MEDIUM**
 
-**Stage:** KUD classification
+**Stage:** band statements
 
-**Technical:** The KUD classifier ran 3 times on this source block; fewer than 2/3 runs agreed on the knowledge type (Type 1 / 2 / 3). The block was halted rather than forced into an uncertain classification.
+**Technical:** The band statement generator ran 3 times; fewer than 2/3 runs produced parseable output with a consistent signature. No band statements were produced for this LT.
 
-**Pedagogical:** If the classifier can't agree on whether this is declarative knowledge, a skill, or a disposition, the LT derived from it may not accurately reflect the source intent. A teacher should check the original source block and decide the classification manually before using this LT.
+**Pedagogical:** Without band statements, teachers cannot use this LT to assess learners across the source's progression bands. The content may need manual authoring of band-level descriptors.
 
-### `blk_0007` — `classification_unreliable` — **MEDIUM**
+### `cluster_04_lt_02` — `band_statements_unreliable — 4 format/quality failures` — **MEDIUM**
 
-**Stage:** KUD classification
+**Stage:** band statements
 
-**Technical:** The KUD classifier ran 3 times on this source block; fewer than 2/3 runs agreed on the knowledge type (Type 1 / 2 / 3). The block was halted rather than forced into an uncertain classification.
+**Technical:** The band statement generator ran 3 times; fewer than 2/3 runs produced parseable output with a consistent signature. No band statements were produced for this LT.
 
-**Pedagogical:** If the classifier can't agree on whether this is declarative knowledge, a skill, or a disposition, the LT derived from it may not accurately reflect the source intent. A teacher should check the original source block and decide the classification manually before using this LT.
+**Pedagogical:** Without band statements, teachers cannot use this LT to assess learners across the source's progression bands. The content may need manual authoring of band-level descriptors.
 
-### `blk_0009` — `classification_unreliable` — **MEDIUM**
+### `cluster_01_lt_01` — `band_statements_unstable` — **MEDIUM**
 
-**Stage:** KUD classification
+**Stage:** band statements
 
-**Technical:** The KUD classifier ran 3 times on this source block; fewer than 2/3 runs agreed on the knowledge type (Type 1 / 2 / 3). The block was halted rather than forced into an uncertain classification.
+**Technical:** Band statement generation reached 2/3 agreement but not 3/3 stability. The majority-vote statements were retained.
 
-**Pedagogical:** If the classifier can't agree on whether this is declarative knowledge, a skill, or a disposition, the LT derived from it may not accurately reflect the source intent. A teacher should check the original source block and decide the classification manually before using this LT.
+**Pedagogical:** The band-level statements may be rephrased differently in alternative valid runs. The substance is stable but specific wording should be reviewed by a teacher before use.
 
-### `blk_0011` — `classification_unreliable` — **MEDIUM**
+### `cluster_01_lt_02` — `band_statements_unstable` — **MEDIUM**
 
-**Stage:** KUD classification
+**Stage:** band statements
 
-**Technical:** The KUD classifier ran 3 times on this source block; fewer than 2/3 runs agreed on the knowledge type (Type 1 / 2 / 3). The block was halted rather than forced into an uncertain classification.
+**Technical:** Band statement generation reached 2/3 agreement but not 3/3 stability. The majority-vote statements were retained.
 
-**Pedagogical:** If the classifier can't agree on whether this is declarative knowledge, a skill, or a disposition, the LT derived from it may not accurately reflect the source intent. A teacher should check the original source block and decide the classification manually before using this LT.
+**Pedagogical:** The band-level statements may be rephrased differently in alternative valid runs. The substance is stable but specific wording should be reviewed by a teacher before use.
 
-### `competency_clusters` — `cluster_unreliable (only 0/3 clustering runs produced valid output)` — **MEDIUM**
+### `cluster_05_lt_02` — `band_statements_unstable` — **MEDIUM**
 
-**Stage:** competency clustering
+**Stage:** band statements
 
-**Technical:** The cluster_unreliable flag means fewer than 2/3 clustering runs agreed on a stable cluster structure. No reliable canonical cluster set could be extracted; the pipeline continues with whatever clusters were produced in the first run.
+**Technical:** Band statement generation reached 2/3 agreement but not 3/3 stability. The majority-vote statements were retained.
 
-**Pedagogical:** Without stable clusters, the LTs may not accurately group related competencies. The competency structure visible in these LTs may not reflect the source's actual organisation. Human review of the source material and the resulting LT set is strongly recommended.
+**Pedagogical:** The band-level statements may be rephrased differently in alternative valid runs. The substance is stable but specific wording should be reviewed by a teacher before use.
 

@@ -14,41 +14,41 @@
 
 ### `year-2` — YEAR 2
 
-- KUD items: **0** (halted blocks: 28)
-- clusters: **0**
-- LTs: **0**
+- KUD items: **30** (halted blocks: 0)
+- clusters: **12**
+- LTs: **26**
 - rubrics: **0** (gate-fail: 0, gen-fail: 0)
 - supporting components: **0**
 
 ### `year-6` — YEAR 6
 
-- KUD items: **0** (halted blocks: 28)
-- clusters: **0**
-- LTs: **0**
+- KUD items: **31** (halted blocks: 0)
+- clusters: **12**
+- LTs: **27**
 - rubrics: **0** (gate-fail: 0, gen-fail: 0)
 - supporting components: **0**
 
 ### `year-9` — YEAR 9
 
-- KUD items: **0** (halted blocks: 28)
-- clusters: **0**
-- LTs: **0**
+- KUD items: **32** (halted blocks: 0)
+- clusters: **12**
+- LTs: **27**
 - rubrics: **0** (gate-fail: 0, gen-fail: 0)
 - supporting components: **0**
 
 ### `year-12` — YEAR 12
 
-- KUD items: **0** (halted blocks: 28)
-- clusters: **0**
-- LTs: **0**
+- KUD items: **31** (halted blocks: 0)
+- clusters: **12**
+- LTs: **24**
 - rubrics: **0** (gate-fail: 0, gen-fail: 0)
 - supporting components: **0**
 
 ## Unified totals
 
-- KUD items: **0**
-- clusters: **0**
-- LTs: **0**
+- KUD items: **124**
+- clusters: **48**
+- LTs: **104**
 - rubrics: **0**
 - supporting components: **0**
 

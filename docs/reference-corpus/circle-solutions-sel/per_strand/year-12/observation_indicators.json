@@ -1,0 +1,143 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-12",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_03_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student uses simple physical strategies like deep breathing or counting when upset with teacher prompting",
+            "The student seeks comfort from trusted adults when experiencing strong emotions"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student independently applies breathing techniques or movement breaks when feeling overwhelmed",
+            "The student talks through problems with peers or adults using basic emotional vocabulary",
+            "The student recognises when they need to step away from challenging situations"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student combines multiple regulation strategies such as cognitive reframing with physical techniques during stress",
+            "The student maintains emotional balance across different social contexts including peer conflicts",
+            "The student adapts their regulation approach based on the specific emotional challenge they are facing"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student consistently integrates physical, social, and cognitive regulation strategies across academic, social, and personal challenges",
+            "The student maintains emotional resilience during extended periods of stress or uncertainty",
+            "The student models effective emotional regulation practices for younger students or peers"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What strategies have you noticed your child using at home when they feel frustrated, anxious, or upset?",
+        "How does your child handle disappointments or setbacks, and what do they do to bounce back?",
+        "When your child faces challenging emotions, do they seek support from others or use particular techniques to calm themselves?"
+      ],
+      "prerequisite_lts": [
+        "Resilience Strategy Knowledge"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on identifying which physical, social, and cognitive regulation strategies the student finds most effective in different situations, and planning how to strengthen their regular practice of multi-strategy approaches to maintain emotional resilience.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": []
+}

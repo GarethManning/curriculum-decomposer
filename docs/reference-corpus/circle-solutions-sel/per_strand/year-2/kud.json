@@ -5,651 +5,1469 @@
   "classification_model": "claude-sonnet-4-20250514",
   "classification_temperature": 0.3,
   "self_consistency_runs": 3,
-  "items": [],
-  "halted_blocks": [
+  "items": [
     {
-      "block_id": "blk_0003",
-      "source_block_raw_text": "- A student can draw a picture of themselves and describe what they have drawn. 'This is me, my name is and I am...' Students are asked to say as much as they can.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0003_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "A student can draw a picture of themselves and describe what they have drawn using the prompt 'This is me, my name is and I am...' saying as much as they can",
+      "source_block_id": "blk_0003",
+      "classification_rationale": "This describes a specific procedural skill with clear performance criteria that can be assessed through direct observation and rubric",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0004",
-      "source_block_raw_text": "- Can say five things that they like about themselves.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0004_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Can say five things that they like about themselves",
+      "source_block_id": "blk_0004",
+      "classification_rationale": "This is a procedural skill with clear performance criteria - the learner must be able to articulate specific positive self-attributes when prompted. It's occasion-triggered (when asked) and has measurable criteria (five things).",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0005",
-      "source_block_raw_text": "- Can say three things that are important to them.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0005_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Can say three things that are important to them",
+      "source_block_id": "blk_0005",
+      "classification_rationale": "This describes a specific procedural capability - articulating personal values/priorities when prompted. It's a discrete skill with clear performance criteria (can state three specific things), not a sustained orientation or analytical reasoning across multiple lenses.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0007",
-      "source_block_raw_text": "- Can talk about what happens in their bodies when they feel happy, angry and scared.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0007_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can talk about what happens in their bodies when they feel happy, angry and scared",
+      "source_block_id": "blk_0007",
+      "classification_rationale": "Analytical capability deployed when prompted to reflect on emotional experiences - reasoning about internal bodily states across different emotional contexts",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0008",
-      "source_block_raw_text": "- Listens to different pieces of music and can say what it makes them feel.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0008_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Listens to different pieces of music and can say what it makes them feel",
+      "source_block_id": "blk_0008",
+      "classification_rationale": "Analytical capability deployed when prompted to listen and reflect - occasion-triggered skill requiring reasoning about internal emotional responses",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0010",
-      "source_block_raw_text": "- Uses regular breathing as a calming strategy.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0010_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Uses regular breathing as a calming strategy",
+      "source_block_id": "blk_0010",
+      "classification_rationale": "Describes a sustained orientation - the default use of breathing as a calming strategy across contexts, which exists only as enacted over time",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0011",
-      "source_block_raw_text": "- Uses at least twelve different words for emotion in describing: a play situation; losing something; a day at home.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0011_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Uses at least twelve different words for emotion in describing: a play situation; losing something; a day at home",
+      "source_block_id": "blk_0011",
+      "classification_rationale": "This describes a specific procedural skill with clear performance criteria (twelve different emotion words) applied to defined contexts. It is occasion-triggered (when asked to describe situations) and has measurable standards, making it Type 1 procedural knowledge.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0012",
-      "source_block_raw_text": "- Can say what cheers them up when they are fed up.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0012_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can say what cheers them up when they are fed up",
+      "source_block_id": "blk_0012",
+      "classification_rationale": "Analytical capability deployed when prompted - requires self-reflection and articulation of personal coping strategies",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0014",
-      "source_block_raw_text": "- Can say three things that are the same and three things that are different about themselves and another person.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0014_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can say three things that are the same and three things that are different about themselves and another person",
+      "source_block_id": "blk_0014",
+      "classification_rationale": "This describes analytical capability deployed when prompted to compare self and others - occasion-triggered skill requiring reasoning about similarities and differences",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0015",
-      "source_block_raw_text": "- Joins in a discussion about how this class can make sure everyone feels they belong here.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0015_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Joins in a discussion about how this class can make sure everyone feels they belong here",
+      "source_block_id": "blk_0015",
+      "classification_rationale": "Analytical capability deployed when discussion situations arise - reasoning about belonging and inclusion through multiple perspectives",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0017",
-      "source_block_raw_text": "- Can say 'personal positives' about classmates.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0017_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can say 'personal positives' about classmates",
+      "source_block_id": "blk_0017",
+      "classification_rationale": "Analytical capability deployed when occasions call for identifying and articulating positive qualities in peers - requires reasoning about character traits and appropriate expression",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0018",
-      "source_block_raw_text": "- Demonstrates the ability to share.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0018_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Demonstrates the ability to share",
+      "source_block_id": "blk_0018",
+      "classification_rationale": "This describes a sustained orientation that exists only as it is enacted over time across contexts - sharing as a default behavior pattern rather than an occasion-triggered skill",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0019",
-      "source_block_raw_text": "- In a pair share, can identify three qualities or actions that would make someone a good friend.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0019_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "In a pair share, can identify three qualities or actions that would make someone a good friend",
+      "source_block_id": "blk_0019",
+      "classification_rationale": "Analytical capability deployed when prompted - requires reasoning about friendship qualities through multiple possible frameworks, no single correct answer but better and worse analyses",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0021",
-      "source_block_raw_text": "- Can say how a teddy might feel if he: was left out; saw someone fall off a bike; had a new baby sister.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0021_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can say how a teddy might feel if he: was left out; saw someone fall off a bike; had a new baby sister",
+      "source_block_id": "blk_0021",
+      "classification_rationale": "Analytical capability deployed when prompted with specific scenarios - requires reasoning about emotional responses across different situations",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0022",
-      "source_block_raw_text": "- Can recognize non-verbal expression of basic emotions — happy, surprised, scared, sad and worried.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0022_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can recognize non-verbal expression of basic emotions — happy, surprised, scared, sad and worried.",
+      "source_block_id": "blk_0022",
+      "classification_rationale": "Analytical capability deployed when situations call for emotion recognition; involves interpreting behavioral cues through emotional understanding framework",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0024",
-      "source_block_raw_text": "- Can say three things they want to achieve this week.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0024_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Can say three things they want to achieve this week",
+      "source_block_id": "blk_0024",
+      "classification_rationale": "This describes a specific procedural capability with clear criteria (saying three specific things) that can be directly assessed through performance",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0025",
-      "source_block_raw_text": "- Invites others to join in games.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0025_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Invites others to join in games",
+      "source_block_id": "blk_0025",
+      "classification_rationale": "Describes a sustained social orientation that operates by default across contexts - the inclination to include others in play activities. This is an enacted capacity that exists only as it is demonstrated over time in real social situations.",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0026",
-      "source_block_raw_text": "- Is willing to try new things.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0026_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Is willing to try new things",
+      "source_block_id": "blk_0026",
+      "classification_rationale": "Describes a sustained default orientation - willingness to try new things operates as an ongoing disposition across contexts, not an occasion-triggered skill",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0028",
-      "source_block_raw_text": "- In a paired discussion, identifies a situation where someone is laughing at someone and how this might feel, and when someone is laughing with someone and how this might feel.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0028_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "In a paired discussion, identifies a situation where someone is laughing at someone and how this might feel, and when someone is laughing with someone and how this might feel",
+      "source_block_id": "blk_0028",
+      "classification_rationale": "Analytical capability deployed when prompted - distinguishing between social situations and reasoning about emotional impacts through empathy lens",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0029",
-      "source_block_raw_text": "- Engages with a class project on making others feel good (filling buckets).",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0029_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Engages with a class project on making others feel good (filling buckets)",
+      "source_block_id": "blk_0029",
+      "classification_rationale": "Describes a sustained orientation toward making others feel good, enacted through engagement with projects - this is a default orientation that exists only as it is enacted over time",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0031",
-      "source_block_raw_text": "- Clearly, firmly and politely states what they want — e.g. please leave me alone now.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0031_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Clearly, firmly and politely states what they want in conflict situations",
+      "source_block_id": "blk_0031",
+      "classification_rationale": "Occasion-triggered analytical/communication skill deployed when conflict situations call for assertive response; quality of execution varies with reasoning about context and approach",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0032",
-      "source_block_raw_text": "- Knows when something is fair or not and how to stand up for someone.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0032_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Knows when something is fair or not",
+      "source_block_id": "blk_0032",
+      "classification_rationale": "Propositional knowledge about fairness criteria - conceptual understanding that can be assessed through explanation or application to scenarios",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0034",
-      "source_block_raw_text": "- Checks whether a hurt was an accident or deliberate.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0032_item_02",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "how to stand up for someone",
+      "source_block_id": "blk_0032",
+      "classification_rationale": "Occasion-triggered capability deployed when a situation calls for advocacy - analytical skill requiring reasoning about context and appropriate response",
+      "underspecification_flag": null,
+      "prerequisite_lts": [
+        "Knows when something is fair or not"
+      ],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0035",
-      "source_block_raw_text": "- Can talk about things that are 'inside' hurts and those that are 'outside' hurts.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0034_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Checks whether a hurt was an accident or deliberate",
+      "source_block_id": "blk_0034",
+      "classification_rationale": "Analytical capability deployed when a situation calls for it - evaluating intent behind harmful actions through reasoning about evidence and context",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0037",
-      "source_block_raw_text": "- Can say how a lie can grow and get out of control and give three reasons why it might be better to tell the truth.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0035_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Can talk about things that are 'inside' hurts and those that are 'outside' hurts",
+      "source_block_id": "blk_0035",
+      "classification_rationale": "Analytical capability deployed when situations call for it - distinguishing between internal and external aspects of emotional hurt requires reasoning and interpretive framework",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0038",
-      "source_block_raw_text": "- Within a small group, identifies the responsibilities that go with five rights or freedoms.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0037_item_01",
+      "kud_column": "understand",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Can say how a lie can grow and get out of control and give three reasons why it might be better to tell the truth",
+      "source_block_id": "blk_0037",
+      "classification_rationale": "This describes propositional knowledge about consequences and reasoning - factual understanding that can be explained and assessed through clear criteria",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "understand",
+              "knowledge_type": "Type 1"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0040",
-      "source_block_raw_text": "- Grows a flower from a seed. Talks in a pair share about what happened: Did the flower grow by itself? What helped it grow? How much was nature and how much was what you did to help?",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0038_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Within a small group, identifies the responsibilities that go with five rights or freedoms.",
+      "source_block_id": "blk_0038",
+      "classification_rationale": "Analytical capability deployed when prompted - identifying connections between rights and responsibilities requires reasoning across multiple frameworks and contexts, with quality of analysis being the key assessment criterion",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      ]
     },
     {
-      "block_id": "blk_0041",
-      "source_block_raw_text": "- Identifies three things that would make someone happy for a short time and three things that would make someone happy all or most of the time.",
-      "halt_reason": "classification_unreliable",
+      "item_id": "blk_0040_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "content_statement": "Grows a flower from a seed",
+      "source_block_id": "blk_0040",
+      "classification_rationale": "Procedural skill with clear steps and observable outcome - Type 1 procedural",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
       "per_run_classifications": [
         {
           "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         },
         {
           "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
         }
+      ]
+    },
+    {
+      "item_id": "blk_0040_item_02",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Talks in a pair share about what happened: Did the flower grow by itself? What helped it grow? How much was nature and how much was what you did to help?",
+      "source_block_id": "blk_0040",
+      "classification_rationale": "Analytical reasoning about multiple factors and causation - occasion-triggered when prompted to reflect - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [
+        "Grows a flower from a seed"
       ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency"
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 1"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "blk_0041_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identifies three things that would make someone happy for a short time and three things that would make someone happy all or most of the time",
+      "source_block_id": "blk_0041",
+      "classification_rationale": "Analytical capability that requires reasoning about different types of happiness and their duration - multiple valid frameworks could apply (psychological, philosophical, personal values), with quality of reasoning determining assessment outcome",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "halted_blocks": []
 }

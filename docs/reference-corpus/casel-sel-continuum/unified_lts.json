@@ -5192,6 +5192,911 @@
         "strand_slug": "grade-band-9-10",
         "detection_confidence": 0.7
       }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness",
+      "lt_name": "Analyzing Personal Emotional Patterns",
+      "lt_definition": "I can identify complex emotions and explain how personal and external factors influence emotional responses.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0003_item_01",
+        "grade-band-11-12_blk_0003_item_02"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectories",
+            "Sustaining Growth-Oriented Self-Perception"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotions and Responses",
+            "Evaluating Personal Development Patterns",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectory",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness",
+      "lt_name": "Evaluating Personal Development Trajectories",
+      "lt_definition": "I can analyze how my strengths, values, and interests have evolved over time and apply this understanding to reframe challenges and adjust future plans.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0003_item_03",
+        "grade-band-11-12_blk_0003_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectories",
+            "Sustaining Growth-Oriented Self-Perception"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotions and Responses",
+            "Evaluating Personal Development Patterns",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectory",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_01_lt_03",
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness",
+      "lt_name": "Sustaining Growth-Oriented Self-Perception",
+      "lt_definition": "The student maintains a growth mindset about their abilities to succeed and persist through challenges.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0003_item_05"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Personal Emotional Patterns",
+        "Evaluating Personal Development Trajectories"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectories",
+            "Sustaining Growth-Oriented Self-Perception"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotions and Responses",
+            "Evaluating Personal Development Patterns",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Personal Emotional Patterns",
+            "Evaluating Personal Development Trajectory",
+            "Sustaining Growth-Oriented Mindset"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_02_lt_01",
+      "cluster_id": "cluster_02",
+      "competency_name": "Self-Management",
+      "lt_name": "Goal Setting and Progress Monitoring",
+      "lt_definition": "I can develop, monitor, and adapt goal-oriented plans using available resources and evaluating progress toward achievement.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0005_item_03",
+        "grade-band-11-12_blk_0005_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Sustained Emotional Self-Regulation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_02_lt_02",
+      "cluster_id": "cluster_02",
+      "competency_name": "Self-Management",
+      "lt_name": "Emotional Regulation and Reframing",
+      "lt_definition": "I can evaluate how thoughts and emotions influence decisions and analyze situations to reframe challenges as growth opportunities.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0005_item_01",
+        "grade-band-11-12_blk_0005_item_05",
+        "grade-band-11-12_blk_0005_item_06"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Sustained Emotional Self-Regulation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_02_lt_03",
+      "cluster_id": "cluster_02",
+      "competency_name": "Self-Management",
+      "lt_name": "Consistent Stress Response Management",
+      "lt_definition": "The student consistently applies coping strategies and calming techniques to process emotions and respond constructively to stressful situations.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0005_item_02"
+      ],
+      "prerequisite_lts": [
+        "Emotional Regulation and Reframing"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Sustained Emotional Self-Regulation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Goal Setting and Progress Monitoring",
+            "Emotional Regulation and Reframing",
+            "Consistent Stress Response Management"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Social Awareness",
+      "lt_name": "Empathetic Relating and Respectful Interaction",
+      "lt_definition": "The student holds a sustained orientation toward empathy and respect when engaging with diverse perspectives and people.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0007_item_01",
+        "grade-band-11-12_blk_0007_item_02",
+        "grade-band-11-12_blk_0007_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respectful Interaction",
+            "Inclusive Community Building and Contribution",
+            "Gratitude and Positive Mindset"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic and Respectful Relating",
+            "Inclusive Community Building",
+            "Gratitude and Encouragement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respect",
+            "Inclusive Community Building",
+            "Gratitude and Resilience"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Social Awareness",
+      "lt_name": "Inclusive Community Building and Contribution",
+      "lt_definition": "The student enacts strategies to build inclusive communities and actively contributes to collective well-being.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0007_item_03",
+        "grade-band-11-12_blk_0007_item_06"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respectful Interaction",
+            "Inclusive Community Building and Contribution",
+            "Gratitude and Positive Mindset"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic and Respectful Relating",
+            "Inclusive Community Building",
+            "Gratitude and Encouragement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respect",
+            "Inclusive Community Building",
+            "Gratitude and Resilience"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_03_lt_03",
+      "cluster_id": "cluster_03",
+      "competency_name": "Social Awareness",
+      "lt_name": "Gratitude and Positive Mindset",
+      "lt_definition": "The student practises gratitude and maintains a positive orientation even during challenging experiences.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0007_item_05"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respectful Interaction",
+            "Inclusive Community Building and Contribution",
+            "Gratitude and Positive Mindset"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic and Respectful Relating",
+            "Inclusive Community Building",
+            "Gratitude and Encouragement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 3",
+            "Type 3",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Empathetic Relating and Respect",
+            "Inclusive Community Building",
+            "Gratitude and Resilience"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_04_lt_01",
+      "cluster_id": "cluster_04",
+      "competency_name": "Relationship Skills",
+      "lt_name": "Building and Maintaining Relationships",
+      "lt_definition": "I can establish and maintain positive relationships through effective communication and collaboration strategies.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0009_item_01",
+        "grade-band-11-12_blk_0009_item_02",
+        "grade-band-11-12_blk_0009_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Feedback"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Problem Solving"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Problem Solving"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_04_lt_02",
+      "cluster_id": "cluster_04",
+      "competency_name": "Relationship Skills",
+      "lt_name": "Conflict Resolution and Feedback",
+      "lt_definition": "I can resolve conflicts peacefully and apply constructive feedback to strengthen relationships and achieve goals.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0009_item_03",
+        "grade-band-11-12_blk_0009_item_05"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Feedback"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Problem Solving"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Building and Maintaining Relationships",
+            "Conflict Resolution and Problem Solving"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_05_lt_01",
+      "cluster_id": "cluster_05",
+      "competency_name": "Responsible Decision-Making",
+      "lt_name": "Critical Decision-Making Process",
+      "lt_definition": "I can apply systematic critical thinking to analyze information and implement appropriate decision-making processes for complex personal and social problems.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0011_item_01",
+        "grade-band-11-12_blk_0011_item_02",
+        "grade-band-11-12_blk_0011_item_03",
+        "grade-band-11-12_blk_0011_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Community Well-Being Evaluation",
+            "Empathetic Helping Orientation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_05_lt_02",
+      "cluster_id": "cluster_05",
+      "competency_name": "Responsible Decision-Making",
+      "lt_name": "Well-Being Impact Evaluation",
+      "lt_definition": "I can evaluate factors affecting personal and community well-being and apply appropriate protective strategies.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0011_item_06"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Community Well-Being Evaluation",
+            "Empathetic Helping Orientation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "grade-band-11-12_cluster_05_lt_03",
+      "cluster_id": "cluster_05",
+      "competency_name": "Responsible Decision-Making",
+      "lt_name": "Empathetic Perspective-Taking",
+      "lt_definition": "The student holds an empathetic orientation that seeks to understand others' experiences and respond respectfully to their feelings and needs.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "grade-band-11-12_blk_0011_item_05"
+      ],
+      "prerequisite_lts": [
+        "Critical Decision-Making Process"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Community Well-Being Evaluation",
+            "Empathetic Helping Orientation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Critical Decision-Making Process",
+            "Well-Being Impact Evaluation",
+            "Empathetic Perspective-Taking"
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
     }
   ],
   "halted_clusters": []

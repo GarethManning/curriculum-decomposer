@@ -1660,13 +1660,22 @@ def _lookup_high_confidence(
     # --- Circle Solutions SEL Framework (Cowie & Myers, 2016) ----------------
     # Matches slugs containing 'circle-solutions'. Non-URL source (book).
     # 4-checkpoint structure: Year 2, Year 6, Year 9, Year 12.
-    if "circle-solutions" in slug_lower or "circle-solutions-sel" in slug_lower:
+    # Also matches per-strand sub-run inventories where source_reference contains
+    # 'cowie-myers' or 'circle-solutions' (slug is 'strand-year-X' in sub-runs).
+    _ref_lower = source_reference.lower()
+    if (
+        "circle-solutions" in slug_lower
+        or "circle-solutions-sel" in slug_lower
+        or "cowie-myers" in _ref_lower
+        or ("circle-solutions" in _ref_lower)
+    ):
         return _circle_solutions_structure(
             source_reference=source_reference,
             source_slug=source_slug,
             rationale=(
-                f"Source slug '{source_slug}' matches Circle Solutions SEL pattern "
-                "(Cowie & Myers, 2016). 4-checkpoint structure: Year 2, 6, 9, 12."
+                f"Source slug '{source_slug}' / reference '{source_reference}' matches "
+                "Circle Solutions SEL pattern (Cowie & Myers, 2016). "
+                "4-checkpoint structure: Year 2, 6, 9, 12."
             ),
         )
 

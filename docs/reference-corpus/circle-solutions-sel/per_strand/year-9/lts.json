@@ -1,0 +1,1521 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-9",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness and Identity Development",
+      "lt_name": "Articulating Personal Values and Character Development",
+      "lt_definition": "I can explain my core values, character strengths, and how these guide my life choices.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0003_item_02",
+        "blk_0004_item_01",
+        "blk_0005_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Development",
+            "Sustained Identity Reflection"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Strengths",
+            "Sustained Identity Reflection"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Strengths",
+            "Sustained Identity Reflection"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness and Identity Development",
+      "lt_name": "Sustained Identity Reflection",
+      "lt_definition": "The student practises ongoing reflection on their developing identity and personal growth.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0003_item_01"
+      ],
+      "prerequisite_lts": [
+        "Articulating Personal Values and Character Development"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Development",
+            "Sustained Identity Reflection"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Strengths",
+            "Sustained Identity Reflection"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Articulating Personal Values and Character Strengths",
+            "Sustained Identity Reflection"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "cluster_id": "cluster_02",
+      "competency_name": "Emotional Knowledge and Understanding",
+      "lt_name": "Understanding Brain Functions in Emotion",
+      "lt_definition": "I can explain how the amygdala and mirroring neurons affect emotional responses and provide examples of their operation.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02",
+        "blk_0007_item_03",
+        "blk_0007_item_04"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "cluster_id": "cluster_02",
+      "competency_name": "Emotional Knowledge and Understanding",
+      "lt_name": "Analyzing Emotional Content in Media",
+      "lt_definition": "I can analyze the emotional content of characters and experiences in films and explain their impact on my own emotional responses.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0008_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Brain Functions in Emotion",
+            "Analyzing Emotional Content in Media"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "cluster_id": "cluster_03",
+      "competency_name": "Emotional Regulation and Resilience",
+      "lt_name": "Emotional Regulation Strategies",
+      "lt_definition": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0010_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "cluster_id": "cluster_03",
+      "competency_name": "Emotional Regulation and Resilience",
+      "lt_name": "Emotional Reflection and Analysis",
+      "lt_definition": "I can reflect on emotional experiences during learning and describe the range of emotions encountered.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0011_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "cluster_id": "cluster_03",
+      "competency_name": "Emotional Regulation and Resilience",
+      "lt_name": "Relationship-Based Resilience Building",
+      "lt_definition": "I can analyze how friendships support or undermine resilience development.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0012_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Emotional Regulation Strategies",
+            "Emotional Reflection and Analysis",
+            "Relationship-Based Resilience Building"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 1', 'Type 2', 'Type 2'))",
+        "counts={(2, ('Type 1', 'Type 2')): 1, (3, ('Type 1', 'Type 2', 'Type 2')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "cluster_id": "cluster_04",
+      "competency_name": "Shared Humanity and Social Justice",
+      "lt_name": "Understanding Shared Humanity",
+      "lt_definition": "I can explain why shared humanity matters for creating a just and equitable world.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0014_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity",
+            "Creating Anti-Discrimination Materials"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity",
+            "Creating Anti-Discrimination Materials"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity's Importance",
+            "Creating Anti-Discrimination Materials"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "cluster_id": "cluster_04",
+      "competency_name": "Shared Humanity and Social Justice",
+      "lt_name": "Creating Anti-Discrimination Materials",
+      "lt_definition": "I can collaborate to design effective materials that challenge discrimination and promote inclusion.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0015_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity",
+            "Creating Anti-Discrimination Materials"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity",
+            "Creating Anti-Discrimination Materials"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Understanding Shared Humanity's Importance",
+            "Creating Anti-Discrimination Materials"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "cluster_id": "cluster_05",
+      "competency_name": "Interpersonal Communication Skills",
+      "lt_name": "Active Listening Skills",
+      "lt_definition": "I can demonstrate active listening through verbal and non-verbal attention, appropriate responses, and clarifying questions.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0017_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "cluster_id": "cluster_05",
+      "competency_name": "Interpersonal Communication Skills",
+      "lt_name": "Respectful Communication Knowledge",
+      "lt_definition": "I can explain what respect means, how it is demonstrated, and why it matters in relationships.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0018_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_05_lt_03",
+      "cluster_id": "cluster_05",
+      "competency_name": "Interpersonal Communication Skills",
+      "lt_name": "Conversation Initiation and Maintenance",
+      "lt_definition": "I can initiate and maintain meaningful conversations with unfamiliar people.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0019_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 1",
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Active Listening Skills",
+            "Respectful Communication Knowledge",
+            "Conversation Initiation and Maintenance"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "cluster_id": "cluster_06",
+      "competency_name": "Empathy and Social Awareness",
+      "lt_name": "Reading Social Situations and Timing",
+      "lt_definition": "I can identify appropriate timing for social interactions based on contextual factors and others' states.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0021_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations and Timing",
+            "Withholding Judgment About Others"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations",
+            "Withholding Quick Judgments"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations",
+            "Withholding Quick Judgments"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "cluster_id": "cluster_06",
+      "competency_name": "Empathy and Social Awareness",
+      "lt_name": "Withholding Judgment About Others",
+      "lt_definition": "The student holds a default orientation of curiosity about others' experiences rather than making quick judgments.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0022_item_01"
+      ],
+      "prerequisite_lts": [
+        "Reading Social Situations and Timing"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations and Timing",
+            "Withholding Judgment About Others"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations",
+            "Withholding Quick Judgments"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Reading Social Situations",
+            "Withholding Quick Judgments"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "cluster_id": "cluster_07",
+      "competency_name": "Leadership and Goal Achievement",
+      "lt_name": "Strategic Task Decomposition",
+      "lt_definition": "I can break down complex tasks into 8-12 achievable sequential steps.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0024_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Task Decomposition and Planning",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Analysis",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Decision Making",
+            "Supporting Others' Success"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 2', 'Type 2', 'Type 3'))",
+        "counts={(2, ('Type 2', 'Type 3')): 1, (3, ('Type 2', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "cluster_id": "cluster_07",
+      "competency_name": "Leadership and Goal Achievement",
+      "lt_name": "Risk Assessment and Analysis",
+      "lt_definition": "I can evaluate potential risks against expected outcomes when making decisions.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0025_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Task Decomposition and Planning",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Analysis",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Decision Making",
+            "Supporting Others' Success"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 2', 'Type 2', 'Type 3'))",
+        "counts={(2, ('Type 2', 'Type 3')): 1, (3, ('Type 2', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_03",
+      "cluster_id": "cluster_07",
+      "competency_name": "Leadership and Goal Achievement",
+      "lt_name": "Supporting Others' Success",
+      "lt_definition": "The student actively helps others achieve their goals and perform well.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0026_item_01"
+      ],
+      "prerequisite_lts": [
+        "Strategic Task Decomposition",
+        "Risk Assessment and Analysis"
+      ],
+      "stability_flag": "lt_set_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Task Decomposition and Planning",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Analysis",
+            "Supporting Others' Success"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 3,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Strategic Task Decomposition",
+            "Risk Assessment and Decision Making",
+            "Supporting Others' Success"
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "lt_set_signature=(3, ('Type 2', 'Type 2', 'Type 3'))",
+        "counts={(2, ('Type 2', 'Type 3')): 1, (3, ('Type 2', 'Type 2', 'Type 3')): 2}"
+      ]
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "cluster_id": "cluster_08",
+      "competency_name": "Positive Mindset and Solution Focus",
+      "lt_name": "Solution-Focused Problem Reframing",
+      "lt_definition": "I can reframe problems as solution-oriented goals that describe desired outcomes rather than what to eliminate.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0029_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Solution-Focused Problem Reframing",
+            "Sustained Gratitude Practice"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Gratitude Practice and Appreciation",
+            "Solution-Focused Problem Reframing"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Gratitude Practice and Appreciation",
+            "Solution-Focused Problem Reframing"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "cluster_id": "cluster_08",
+      "competency_name": "Positive Mindset and Solution Focus",
+      "lt_name": "Sustained Gratitude Practice",
+      "lt_definition": "The student sustains a consistent practice of identifying and recording daily blessings across multiple life domains.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0028_item_01"
+      ],
+      "prerequisite_lts": [
+        "Solution-Focused Problem Reframing"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Solution-Focused Problem Reframing",
+            "Sustained Gratitude Practice"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Gratitude Practice and Appreciation",
+            "Solution-Focused Problem Reframing"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Gratitude Practice and Appreciation",
+            "Solution-Focused Problem Reframing"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "cluster_id": "cluster_09",
+      "competency_name": "Conflict Resolution and Assertiveness",
+      "lt_name": "Analyzing Assertiveness Outcomes",
+      "lt_definition": "I can identify the short- and long-term outcomes of overt aggression, passive aggression, timidity and appropriate assertiveness.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0031_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_09_lt_02",
+      "cluster_id": "cluster_09",
+      "competency_name": "Conflict Resolution and Assertiveness",
+      "lt_name": "Constructive Conflict Engagement",
+      "lt_definition": "The student checks on intention before jumping to a negative conclusion in potential conflicts.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0032_item_01"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Assertiveness Outcomes"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Assertiveness Outcomes",
+            "Constructive Conflict Engagement"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_10_lt_01",
+      "cluster_id": "cluster_10",
+      "competency_name": "Repair and Restoration",
+      "lt_name": "Identifying Alternative Actions",
+      "lt_definition": "I can list ways to say how something could have been done differently.",
+      "knowledge_type": "Type 1",
+      "assessment_route": "rubric_with_clear_criteria",
+      "kud_item_ids": [
+        "blk_0034_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Alternative Actions",
+            "Positive Response to Repair"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Repair Strategies",
+            "Positive Response to Repair"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Repair Strategies",
+            "Positive Response to Repair"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_10_lt_02",
+      "cluster_id": "cluster_10",
+      "competency_name": "Repair and Restoration",
+      "lt_name": "Positive Response to Repair",
+      "lt_definition": "The student responds positively to attempts to repair harm caused.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0035_item_01"
+      ],
+      "prerequisite_lts": [
+        "Identifying Alternative Actions"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Alternative Actions",
+            "Positive Response to Repair"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Repair Strategies",
+            "Positive Response to Repair"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 1",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Identifying Repair Strategies",
+            "Positive Response to Repair"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_11_lt_01",
+      "cluster_id": "cluster_11",
+      "competency_name": "Ethics and Civic Engagement",
+      "lt_name": "Analyzing Democratic Participation Factors",
+      "lt_definition": "I can identify and explain factors that influence voting decisions in democratic elections.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_11_lt_02",
+      "cluster_id": "cluster_11",
+      "competency_name": "Ethics and Civic Engagement",
+      "lt_name": "Environmental Action Orientation",
+      "lt_definition": "The student enacts a sustained commitment to environmental protection through active participation in conservation projects.",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "kud_item_ids": [
+        "blk_0038_item_01"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Democratic Participation Factors"
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 3"
+          ],
+          "lt_names": [
+            "Analyzing Democratic Participation Factors",
+            "Environmental Action Orientation"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_12_lt_01",
+      "cluster_id": "cluster_12",
+      "competency_name": "Meaning and Purpose Exploration",
+      "lt_name": "Discussing Life's Meaning",
+      "lt_definition": "I can engage thoughtfully in discussions about what constitutes a meaningful or good life.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0040_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "lt_id": "cluster_12_lt_02",
+      "cluster_id": "cluster_12",
+      "competency_name": "Meaning and Purpose Exploration",
+      "lt_name": "Identifying Personal Sources of Meaning",
+      "lt_definition": "I can identify and articulate what gives my own life significance and purpose.",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "kud_item_ids": [
+        "blk_0041_item_01"
+      ],
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        },
+        {
+          "run": 2,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        },
+        {
+          "run": 3,
+          "lt_count": 2,
+          "kt_multiset": [
+            "Type 2",
+            "Type 2"
+          ],
+          "lt_names": [
+            "Discussing Life's Meaning",
+            "Identifying Personal Sources of Meaning"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ],
+  "halted_clusters": []
+}

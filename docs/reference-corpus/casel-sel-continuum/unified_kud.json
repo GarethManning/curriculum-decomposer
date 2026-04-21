@@ -19427,148 +19427,3023 @@
         "strand_slug": "grade-band-9-10",
         "detection_confidence": 0.7
       }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0003_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Identify and label a range of complex emotions and describe how personal factors influence emotions",
+      "source_block_id": "grade-band-11-12_blk_0003",
+      "classification_rationale": "Analytical capability deployed when situations call for emotional analysis - multiple valid frameworks for understanding emotion-factor relationships",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0003_item_02",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Explain how others' responses to situations can impact their emotions and identify ways to regulate their response",
+      "source_block_id": "grade-band-11-12_blk_0003",
+      "classification_rationale": "Analytical capability for understanding emotional dynamics and generating regulation strategies - occasion-prompted reasoning skill",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0003_item_03",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Compare how personal strengths, challenges, interests, and values have developed and changed over time in order to revise post-secondary plans as needed",
+      "source_block_id": "grade-band-11-12_blk_0003",
+      "classification_rationale": "Analytical capability for self-assessment and planning revision - occasion-triggered when planning decisions arise",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0003_item_04",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Reframe a current challenge or setback by reflecting on past successes",
+      "source_block_id": "grade-band-11-12_blk_0003",
+      "classification_rationale": "Analytical capability deployed when challenges arise - cognitive reframing skill triggered by specific situations",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0003_item_05",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Maintain a growth mindset about abilities to succeed, grow and persist through challenges",
+      "source_block_id": "grade-band-11-12_blk_0003",
+      "classification_rationale": "Sustained default orientation that operates across contexts over time - not occasion-triggered but maintained as ongoing stance",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Evaluate how thoughts and emotions impact decision-making and responsible behavior",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Analytical capability deployed when evaluating decisions - occasion-triggered skill requiring reasoning across multiple factors",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_02",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Consistently use coping skills and calming strategies to process emotions, reframe thoughts, and respond to stressful situations",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Sustained default orientation - 'consistently' indicates ongoing enactment across contexts, not occasion-triggered deployment",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_03",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Develop and monitor a plan, utilizing school, family and community resources, that demonstrates an understanding of how to set and reach goals that contribute to life-long success",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Analytical capability for goal-setting and resource utilization - occasion-triggered when planning is needed",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_04",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Evaluate progress toward achieving a specified goal and re-evaluate or adapt the plan or action steps as needed",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Analytical capability for progress evaluation and plan adaptation - occasion-triggered when assessment is needed",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_05",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Analyze the level of control they have over situations in academic and social life",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Analytical capability for assessing personal agency - occasion-triggered when situations require control assessment",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0005_item_06",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Demonstrate the ability to reframe difficult situations into opportunities that promote resilience and optimism",
+      "source_block_id": "grade-band-11-12_blk_0005",
+      "classification_rationale": "Analytical capability for cognitive reframing - occasion-triggered when difficult situations arise",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_01",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Relate to other people by practicing empathy and compassion by highlighting and honoring differing perspectives, abilities, backgrounds, cultures or social groups",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - practicing empathy and compassion operates by default across contexts, not just when prompted",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_02",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Demonstrate ways to model respect across settings when viewpoints or perceptions differ",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - modeling respect across settings operates by default, not just when prompted",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_03",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Reflect on and implement strategies to model inclusivity and build community",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - modeling inclusivity and building community operates by default across contexts",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_04",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Demonstrate empathy by being compassionate and encouraging others",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - being compassionate and encouraging operates by default across contexts",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_05",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Identify things and people they are grateful for, even in challenging or stressful life experiences",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - maintaining gratitude even in challenging experiences operates as a sustained practice across contexts",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0007_item_06",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Be a contributing citizen in our school community and create opportunities to contribute to the well-being of self and others",
+      "source_block_id": "grade-band-11-12_blk_0007",
+      "classification_rationale": "Sustained default orientation - being a contributing citizen operates by default across contexts, not just when prompted",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0009_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Establish and practice strategies to build and maintain positive personal, school and community relationships",
+      "source_block_id": "grade-band-11-12_blk_0009",
+      "classification_rationale": "Analytical capability deployed when relationship-building situations arise - multiple valid approaches exist",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0009_item_02",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Demonstrate collaboration in a group setting and work toward a common goal by valuing different and diverse perspectives, abilities, backgrounds, and cultures",
+      "source_block_id": "grade-band-11-12_blk_0009",
+      "classification_rationale": "Analytical capability deployed in group contexts - quality of reasoning about diverse perspectives determines outcome",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0009_item_03",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Apply constructive feedback to strengthen connections and achieve common goals",
+      "source_block_id": "grade-band-11-12_blk_0009",
+      "classification_rationale": "Analytical capability deployed when feedback situations arise - multiple valid approaches exist",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0009_item_04",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Demonstrate responsible use of social and digital media and understand the potential impact on post-secondary goals",
+      "source_block_id": "grade-band-11-12_blk_0009",
+      "classification_rationale": "Analytical capability deployed when making media use decisions - reasoning quality about consequences determines outcome",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0009_item_05",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Independently use conflict resolution skills to defuse disagreements, honor differences, and solve problems peacefully, recognizing that seeking help is a strength",
+      "source_block_id": "grade-band-11-12_blk_0009",
+      "classification_rationale": "Analytical capability deployed when conflicts arise - multiple valid approaches exist, quality of reasoning determines outcome",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "stable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_01",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Make reasoned judgments after analyzing ideas, information, data and facts for both personal and social problems",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Analytical capability deployed when decision situations arise - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_02",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Demonstrate critical thinking skills to select and implement an appropriate decision-making process to solve complex problems and challenges",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Analytical capability deployed when problem-solving situations arise - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_03",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Evaluate how external factors (i.e. media, peers, social and cultural norms and expectations of authority) impact personal decision making",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Analytical capability deployed when evaluating decision contexts - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_04",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Reflect on lessons learned from actual experiences to inform future practices",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Analytical capability deployed when reflecting on experiences - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_05",
+      "kud_column": "do_disposition",
+      "knowledge_type": "Type 3",
+      "assessment_route": "multi_informant_observation",
+      "content_statement": "Take the perspective of those they want to help, empathize with their experience, and understand how best to help in a way that is respectful and responsive to their feelings and needs",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Sustained orientation of empathy and responsiveness enacted across contexts - Type 3",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "item_id": "grade-band-11-12_blk_0011_item_06",
+      "kud_column": "do_skill",
+      "knowledge_type": "Type 2",
+      "assessment_route": "reasoning_quality_rubric",
+      "content_statement": "Evaluate factors that impact personal and community well-being, and apply appropriate preventative and protective strategies",
+      "source_block_id": "grade-band-11-12_blk_0011",
+      "classification_rationale": "Analytical capability deployed when evaluating well-being factors and selecting strategies - Type 2",
+      "underspecification_flag": null,
+      "prerequisite_lts": [],
+      "stability_flag": "classification_unstable",
+      "per_run_classifications": [
+        {
+          "run": 1,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_disposition",
+              "knowledge_type": "Type 3"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "ok": true,
+          "underspecification_flag": null,
+          "items_signature": [
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            },
+            {
+              "kud_column": "do_skill",
+              "knowledge_type": "Type 2"
+            }
+          ]
+        }
+      ],
+      "strand": {
+        "strand_name": "Grade Band 11-12",
+        "strand_slug": "grade-band-11-12",
+        "detection_confidence": 0.7
+      }
     }
   ],
-  "halted_blocks": [
-    {
-      "block_id": "grade-band-11-12_blk_0003",
-      "source_block_raw_text": "- Identify and label a range of complex emotions and describe how personal factors influence emotions - Explain how others' responses to situations can impact their emotions and identify ways to regulate their response - Compare how personal strengths, challenges, interests, and values have developed and changed over time in order to revise post-secondary plans as needed - Reframe a current challenge or setback by reflecting on past successes - Maintain a growth mindset about abilities to succeed, grow and persist through challenges",
-      "halt_reason": "classification_unreliable",
-      "per_run_classifications": [
-        {
-          "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency",
-      "strand": {
-        "strand_name": "GRADE BAND 11–12",
-        "strand_slug": "grade-band-11-12",
-        "detection_confidence": 0.7
-      }
-    },
-    {
-      "block_id": "grade-band-11-12_blk_0005",
-      "source_block_raw_text": "- Evaluate how thoughts and emotions impact decision-making and responsible behavior - Consistently use coping skills and calming strategies to process emotions, reframe thoughts, and respond to stressful situations - Develop and monitor a plan, utilizing school, family and community resources, that demonstrates an understanding of how to set and reach goals that contribute to life-long success - Evaluate progress toward achieving a specified goal and re-evaluate or adapt the plan or action steps as needed - Analyze the level of control they have over situations in academic and social life - Demonstrate the ability to reframe difficult situations into opportunities that promote resilience and optimism",
-      "halt_reason": "classification_unreliable",
-      "per_run_classifications": [
-        {
-          "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency",
-      "strand": {
-        "strand_name": "GRADE BAND 11–12",
-        "strand_slug": "grade-band-11-12",
-        "detection_confidence": 0.7
-      }
-    },
-    {
-      "block_id": "grade-band-11-12_blk_0007",
-      "source_block_raw_text": "- Relate to other people by practicing empathy and compassion by highlighting and honoring differing perspectives, abilities, backgrounds, cultures or social groups - Demonstrate ways to model respect across settings when viewpoints or perceptions differ - Reflect on and implement strategies to model inclusivity and build community - Demonstrate empathy by being compassionate and encouraging others - Identify things and people they are grateful for, even in challenging or stressful life experiences - Be a contributing citizen in our school community and create opportunities to contribute to the well-being of self and others",
-      "halt_reason": "classification_unreliable",
-      "per_run_classifications": [
-        {
-          "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency",
-      "strand": {
-        "strand_name": "GRADE BAND 11–12",
-        "strand_slug": "grade-band-11-12",
-        "detection_confidence": 0.7
-      }
-    },
-    {
-      "block_id": "grade-band-11-12_blk_0009",
-      "source_block_raw_text": "- Establish and practice strategies to build and maintain positive personal, school and community relationships - Demonstrate collaboration in a group setting and work toward a common goal by valuing different and diverse perspectives, abilities, backgrounds, and cultures - Apply constructive feedback to strengthen connections and achieve common goals - Demonstrate responsible use of social and digital media and understand the potential impact on post-secondary goals - Independently use conflict resolution skills to defuse disagreements, honor differences, and solve problems peacefully, recognizing that seeking help is a strength",
-      "halt_reason": "classification_unreliable",
-      "per_run_classifications": [
-        {
-          "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency",
-      "strand": {
-        "strand_name": "GRADE BAND 11–12",
-        "strand_slug": "grade-band-11-12",
-        "detection_confidence": 0.7
-      }
-    },
-    {
-      "block_id": "grade-band-11-12_blk_0011",
-      "source_block_raw_text": "- Make reasoned judgments after analyzing ideas, information, data and facts for both personal and social problems - Demonstrate critical thinking skills to select and implement an appropriate decision-making process to solve complex problems and challenges - Evaluate how external factors (i.e. media, peers, social and cultural norms and expectations of authority) impact personal decision making - Reflect on lessons learned from actual experiences to inform future practices - Take the perspective of those they want to help, empathize with their experience, and understand how best to help in a way that is respectful and responsive to their feelings and needs - Evaluate factors that impact personal and community well-being, and apply appropriate preventative and protective strategies (e.g., health and wellness, sleep, healthy relationships)",
-      "halt_reason": "classification_unreliable",
-      "per_run_classifications": [
-        {
-          "run": 1,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 2,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        },
-        {
-          "run": 3,
-          "ok": false,
-          "diagnostic": "call_or_parse_failed"
-        }
-      ],
-      "diagnostic": "only 0/3 runs produced parseable output; cannot resolve self-consistency",
-      "strand": {
-        "strand_name": "GRADE BAND 11–12",
-        "strand_slug": "grade-band-11-12",
-        "detection_confidence": 0.7
-      }
-    }
-  ]
+  "halted_blocks": []
 }

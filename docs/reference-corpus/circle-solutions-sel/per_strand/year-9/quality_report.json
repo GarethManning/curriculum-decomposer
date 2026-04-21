@@ -1,0 +1,186 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-9",
+  "halted_by": null,
+  "summary": {
+    "source_domain": "dispositional",
+    "inventory_blocks_total": 41,
+    "inventory_non_heading_blocks": 28,
+    "kud_items_total": 32,
+    "halted_blocks_total": 0,
+    "halted_severe": 0,
+    "halted_unreliable": 0,
+    "knowledge_type_distribution": {
+      "Type 3": 7,
+      "Type 2": 17,
+      "Type 1": 8
+    },
+    "kud_column_distribution": {
+      "do_disposition": 7,
+      "do_skill": 20,
+      "know": 5
+    },
+    "stability_distribution": {
+      "stable": 31,
+      "classification_unstable": 1
+    },
+    "underspecification_distribution": {
+      "null": 32
+    }
+  },
+  "gate_results": [
+    {
+      "name": "source_coverage",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "all non-severe, non-unreliable inventory blocks produced \u22651 KUD item",
+      "details": {
+        "required_blocks": [
+          "blk_0003",
+          "blk_0004",
+          "blk_0005",
+          "blk_0007",
+          "blk_0008",
+          "blk_0010",
+          "blk_0011",
+          "blk_0012",
+          "blk_0014",
+          "blk_0015",
+          "blk_0017",
+          "blk_0018",
+          "blk_0019",
+          "blk_0021",
+          "blk_0022",
+          "blk_0024",
+          "blk_0025",
+          "blk_0026",
+          "blk_0028",
+          "blk_0029",
+          "blk_0031",
+          "blk_0032",
+          "blk_0034",
+          "blk_0035",
+          "blk_0037",
+          "blk_0038",
+          "blk_0040",
+          "blk_0041"
+        ],
+        "covered_blocks": [
+          "blk_0003",
+          "blk_0004",
+          "blk_0005",
+          "blk_0007",
+          "blk_0008",
+          "blk_0010",
+          "blk_0011",
+          "blk_0012",
+          "blk_0014",
+          "blk_0015",
+          "blk_0017",
+          "blk_0018",
+          "blk_0019",
+          "blk_0021",
+          "blk_0022",
+          "blk_0024",
+          "blk_0025",
+          "blk_0026",
+          "blk_0028",
+          "blk_0029",
+          "blk_0031",
+          "blk_0032",
+          "blk_0034",
+          "blk_0035",
+          "blk_0037",
+          "blk_0038",
+          "blk_0040",
+          "blk_0041"
+        ],
+        "missing_blocks": [],
+        "severely_halted_blocks": [],
+        "unreliable_halted_blocks": []
+      }
+    },
+    {
+      "name": "traceability",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every KUD item has a valid source_block_id",
+      "details": {
+        "total_items": 32,
+        "untraceable_count": 0,
+        "untraceable_items": []
+      }
+    },
+    {
+      "name": "artefact_count_ratio",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "KUD items / expected-yield blocks = 32/28 = 1.143 (denominator excludes 0 severely-underspecified blocks) within dispositional-domain target [0.8, 2.2] (dispositional ceiling is PROVISIONAL per 4b-2; next dispositional source may re-trigger review)",
+      "details": {
+        "kud_item_count": 32,
+        "non_heading_block_count": 28,
+        "severely_halted_block_count": 0,
+        "expected_yield_block_count": 28,
+        "ratio": 1.1429,
+        "source_domain": "dispositional",
+        "target_min": 0.8,
+        "target_max": 2.2,
+        "dispositional_provisional": true
+      }
+    },
+    {
+      "name": "type3_distribution",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "Type 3 items = 7/32 = 21.9% (\u226520% expected for dispositional domain)",
+      "details": {
+        "type3_count": 7,
+        "total_items": 32,
+        "pct": 0.2188,
+        "expected_min_pct": 0.2,
+        "arch_source_type": null,
+        "arch_domain_type": null,
+        "flag": null
+      }
+    },
+    {
+      "name": "no_compound_unsplit",
+      "passed": true,
+      "halting": false,
+      "diagnostic": "every KUD item carries a single knowledge type with consistent column and route",
+      "details": {
+        "offenders": []
+      }
+    }
+  ],
+  "token_usage": {
+    "total_input_tokens": 145758,
+    "total_output_tokens": 30920,
+    "per_stage": {
+      "band_statements": {
+        "input": 54900,
+        "output": 8702,
+        "calls": 60,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "clustering": {
+        "input": 16017,
+        "output": 4493,
+        "calls": 3,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "lt_generation": {
+        "input": 49302,
+        "output": 9257,
+        "calls": 36,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "observation_indicators": {
+        "input": 25539,
+        "output": 8468,
+        "calls": 21,
+        "model": "claude-sonnet-4-20250514"
+      }
+    }
+  }
+}

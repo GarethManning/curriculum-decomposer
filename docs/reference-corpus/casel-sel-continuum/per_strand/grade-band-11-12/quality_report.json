@@ -6,14 +6,25 @@
     "source_domain": "dispositional",
     "inventory_blocks_total": 11,
     "inventory_non_heading_blocks": 5,
-    "kud_items_total": 0,
-    "halted_blocks_total": 5,
+    "kud_items_total": 28,
+    "halted_blocks_total": 0,
     "halted_severe": 0,
-    "halted_unreliable": 5,
-    "knowledge_type_distribution": {},
-    "kud_column_distribution": {},
-    "stability_distribution": {},
-    "underspecification_distribution": {}
+    "halted_unreliable": 0,
+    "knowledge_type_distribution": {
+      "Type 2": 19,
+      "Type 3": 9
+    },
+    "kud_column_distribution": {
+      "do_skill": 19,
+      "do_disposition": 9
+    },
+    "stability_distribution": {
+      "stable": 10,
+      "classification_unstable": 18
+    },
+    "underspecification_distribution": {
+      "null": 28
+    }
   },
   "gate_results": [
     {
@@ -22,17 +33,23 @@
       "halting": false,
       "diagnostic": "all non-severe, non-unreliable inventory blocks produced \u22651 KUD item",
       "details": {
-        "required_blocks": [],
-        "covered_blocks": [],
-        "missing_blocks": [],
-        "severely_halted_blocks": [],
-        "unreliable_halted_blocks": [
+        "required_blocks": [
           "blk_0003",
           "blk_0005",
           "blk_0007",
           "blk_0009",
           "blk_0011"
-        ]
+        ],
+        "covered_blocks": [
+          "blk_0003",
+          "blk_0005",
+          "blk_0007",
+          "blk_0009",
+          "blk_0011"
+        ],
+        "missing_blocks": [],
+        "severely_halted_blocks": [],
+        "unreliable_halted_blocks": []
       }
     },
     {
@@ -41,7 +58,7 @@
       "halting": false,
       "diagnostic": "every KUD item has a valid source_block_id",
       "details": {
-        "total_items": 0,
+        "total_items": 28,
         "untraceable_count": 0,
         "untraceable_items": []
       }
@@ -50,13 +67,13 @@
       "name": "artefact_count_ratio",
       "passed": false,
       "halting": true,
-      "diagnostic": "KUD items / expected-yield blocks = 0/5 = 0.000 (denominator excludes 0 severely-underspecified blocks) outside dispositional-domain target band [0.8, 2.2] (dispositional ceiling is PROVISIONAL per 4b-2; next dispositional source may re-trigger review)",
+      "diagnostic": "KUD items / expected-yield blocks = 28/5 = 5.600 (denominator excludes 0 severely-underspecified blocks) outside dispositional-domain target band [0.8, 2.2] (dispositional ceiling is PROVISIONAL per 4b-2; next dispositional source may re-trigger review)",
       "details": {
-        "kud_item_count": 0,
+        "kud_item_count": 28,
         "non_heading_block_count": 5,
         "severely_halted_block_count": 0,
         "expected_yield_block_count": 5,
-        "ratio": 0.0,
+        "ratio": 5.6,
         "source_domain": "dispositional",
         "target_min": 0.8,
         "target_max": 2.2,
@@ -65,17 +82,17 @@
     },
     {
       "name": "type3_distribution",
-      "passed": false,
+      "passed": true,
       "halting": false,
-      "diagnostic": "dispositional_content_underrepresented: Type 3 items = 0/0 = 0.0% < expected \u226520% for dispositional domain (informational only)",
+      "diagnostic": "Type 3 items = 9/28 = 32.1% (\u226520% expected for dispositional domain)",
       "details": {
-        "type3_count": 0,
-        "total_items": 0,
-        "pct": 0.0,
+        "type3_count": 9,
+        "total_items": 28,
+        "pct": 0.3214,
         "expected_min_pct": 0.2,
         "arch_source_type": null,
         "arch_domain_type": null,
-        "flag": "dispositional_content_underrepresented"
+        "flag": null
       }
     },
     {
@@ -89,8 +106,33 @@
     }
   ],
   "token_usage": {
-    "total_input_tokens": 0,
-    "total_output_tokens": 0,
-    "per_stage": {}
+    "total_input_tokens": 85173,
+    "total_output_tokens": 25418,
+    "per_stage": {
+      "band_statements": {
+        "input": 25278,
+        "output": 6394,
+        "calls": 24,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "clustering": {
+        "input": 11523,
+        "output": 2338,
+        "calls": 3,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "lt_generation": {
+        "input": 23373,
+        "output": 5389,
+        "calls": 15,
+        "model": "claude-sonnet-4-20250514"
+      },
+      "observation_indicators": {
+        "input": 24999,
+        "output": 11297,
+        "calls": 18,
+        "model": "claude-sonnet-4-20250514"
+      }
+    }
   }
 }

@@ -1,9 +1,1285 @@
 {
   "reference_authoring_version": "0.3.0",
   "source_slug": "strand-grade-band-11-12",
-  "model": "",
+  "model": "claude-sonnet-4-20250514",
   "temperature": 0.3,
   "runs": 3,
-  "sets": [],
-  "halted_lts": []
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can identify basic emotions like happy, sad, or mad with adult support."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can identify my emotions and notice what makes me feel different ways."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can identify multiple emotions and describe simple reasons why I feel them."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can identify complex emotions and explain how situations and people affect my feelings."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can identify complex emotions and analyze how personal traits and external factors influence my responses."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can identify complex emotions and explain how multiple personal and external factors interact to shape responses."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can identify complex emotions and analyze how personal and external factors influence emotional patterns across contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "short"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify basic emotions like happy, sad, or mad with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify simple emotions and recognize when something makes me feel different."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can identify multiple emotions and describe what situations cause these feelings."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can identify complex emotions and explain how specific events influence my emotional responses."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can identify complex emotions and analyze how both personal traits and external factors shape my emotional patterns."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can identify complex emotions and evaluate how multiple personal and environmental influences interact to create emotional responses."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can identify complex emotions and systematically analyze how diverse personal and external factors influence emotional patterns across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify basic emotions like happy, sad, or mad with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify my emotions and notice what makes me feel different ways."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can identify multiple emotions and describe simple reasons why I feel them."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can identify complex emotions and explain how situations and people affect my feelings."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can identify complex emotions and analyze how personal traits and external factors influence my responses."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can identify complex emotions and explain how multiple personal and external factors interact to shape responses."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can identify complex emotions and analyze how personal and external factors influence emotional patterns across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify basic emotions like happy, sad, or mad with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify my emotions and tell what made me feel that way."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can identify different emotions and describe simple reasons why I feel them."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can identify complex emotions and explain how specific situations affect my feelings."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can identify complex emotions and explain how both personal traits and external factors influence them."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyze complex emotional patterns and explain how multiple personal and environmental factors interact."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can analyze complex emotional patterns and evaluate how interconnected personal and external influences shape responses."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Pre-Kindergarten', 'medium'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'short'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'medium'), ('Grade Band 11-12', 'long')): 1, (('Pre-Kindergarten', 'medium'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'medium'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'medium'), ('Grade Band 11-12', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_01_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can identify things I like and things I am good at with adult support."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can describe my favorite activities and recognize when I have gotten better at something."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can compare how my interests and abilities have changed from last year to this year."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can explain how my strengths and interests have developed over time and set simple future goals."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can analyze patterns in my personal growth and use this understanding to approach new challenges differently."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can evaluate my developmental trajectory across multiple areas and systematically adjust my plans based on insights."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can synthesize complex patterns in my evolution and strategically reframe obstacles using deep self-knowledge across contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify things I like and things I am good at with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can describe my favorite activities and recognize when I have gotten better at something."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can compare how my interests and abilities have changed from last year to this year."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can explain how my strengths and interests have developed over time and set simple future goals."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can analyze patterns in my personal growth and use this understanding to approach new challenges differently."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can evaluate my developmental trajectory across multiple areas and systematically adjust my plans based on insights."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can synthesize complex patterns in my evolution and strategically reframe obstacles using deep self-knowledge across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify things I like and things I am good at with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can describe my favorite activities and recognize when I have gotten better at something."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can compare how my interests and abilities have changed from last year to this year."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can explain how my strengths and interests have developed over time and set simple future goals."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can analyze patterns in my personal growth and use this understanding to approach new challenges differently."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can evaluate how my evolving strengths and values influence my decisions and adjust my plans accordingly."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can systematically analyze my developmental trajectory and apply insights to reframe obstacles and refine long-term strategies."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "long"
+            ],
+            [
+              "Grade Band 11-12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify what I like to do and what I am good at with adult support."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can describe my favorite activities and recognize when my abilities have improved with guidance."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can compare how my interests and skills have changed from last year to this year."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can explain how my strengths and values have developed over time and identify patterns in my growth."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can analyze connections between my evolving strengths, values, and interests to understand my personal development journey."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can evaluate how my personal development influences my approach to challenges and inform my future goal-setting decisions."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can synthesize my developmental trajectory to reframe complex challenges and strategically adjust long-term plans across multiple contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Pre-Kindergarten', 'medium'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'medium'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'medium'), ('Grade Band 11-12', 'medium')): 2, (('Pre-Kindergarten', 'medium'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'medium'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'long'), ('Grade Band 11-12', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can identify my feelings with adult support and recognize when I feel happy or sad."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can name my emotions and describe how they affect my choices with guidance from others."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can explain how my thoughts and feelings influence my decisions in familiar classroom situations."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can analyze how my emotions affect my choices and identify ways to view problems differently."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can evaluate how thoughts and emotions influence decisions and reframe challenges as learning opportunities across contexts."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can analyze complex emotional patterns that influence decision-making and systematically reframe obstacles as growth opportunities."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can evaluate how cognitive and emotional processes shape decisions and apply reframing strategies across diverse challenging situations."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify my feelings with adult support and recognize when I feel happy or sad."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can name my emotions and describe how they affect my choices with guidance from others."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can explain how my thoughts and feelings influence my decisions in familiar classroom situations."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can analyze how my emotions affect my choices and identify ways to view problems differently."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate how thoughts and emotions influence decisions and reframe challenges as learning opportunities across contexts."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyze complex emotional patterns that influence decision-making and systematically reframe obstacles as growth opportunities."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can evaluate how cognitive and emotional processes shape decisions and apply reframing strategies across diverse challenging situations."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify my feelings with adult support and recognize when I feel happy or sad."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can name my emotions and describe how they make me feel in simple situations."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can explain how my feelings affect my choices and identify when challenges help me learn."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can analyze how my thoughts and emotions influence my decisions in familiar school and home situations."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate the connection between thoughts, emotions, and decisions while reframing setbacks as learning opportunities."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyze complex emotional patterns and systematically reframe challenges as growth opportunities across multiple contexts."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can evaluate how thoughts and emotions influence decisions and analyze situations to reframe challenges as growth opportunities."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify my feelings with adult support and recognize when I feel happy or upset."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can describe my emotions and notice how they affect my choices with guidance."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can explain how my thoughts and feelings influence my decisions in familiar situations."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can analyze how emotions affect my choices and identify ways to view challenges positively."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate the connection between thoughts, emotions, and decisions while reframing difficulties as learning opportunities."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyze complex emotional influences on decision-making and systematically reframe challenges as growth opportunities."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can evaluate sophisticated thought-emotion-decision patterns and apply reframing strategies across diverse challenging contexts independently."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can choose between two simple options with adult guidance when making basic decisions."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can identify good and not-so-good choices when making simple personal decisions with prompting."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can compare different options and explain my reasoning when making personal decisions independently."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can analyze multiple factors and predict outcomes when making decisions about personal and classroom situations."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can systematically evaluate information from various sources to make informed decisions about complex personal and social problems."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can apply critical thinking frameworks to analyze competing perspectives and implement decision-making processes for multifaceted problems."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can synthesize diverse information sources and apply sophisticated decision-making processes to address complex ethical and social dilemmas."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can choose between two simple options with adult guidance when making basic decisions."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify good and not-so-good choices when making simple personal decisions with prompting."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can compare different options and explain my reasoning when making personal decisions independently."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can analyze multiple factors and predict outcomes when making decisions about personal and classroom situations."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can systematically evaluate information from various sources to make informed decisions about complex personal and social problems."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can apply critical thinking frameworks to analyze competing perspectives and implement decision-making processes for multifaceted problems."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can synthesize diverse information sources and apply sophisticated decision-making processes to address complex ethical and social dilemmas."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can choose between two simple options with adult guidance when making basic decisions."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can think about what might happen before making simple decisions with some adult support."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can identify different choices and consider their consequences when making decisions about familiar problems."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can gather information and compare multiple options systematically when making decisions about personal situations."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can analyze complex information and evaluate potential outcomes when implementing decision-making processes for social problems."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can apply systematic critical thinking to analyze multiple perspectives and implement appropriate decision-making processes independently."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can apply comprehensive critical thinking frameworks to analyze complex information and implement sophisticated decision-making processes across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can choose between two simple options with adult guidance when making basic decisions."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify good and bad choices and explain why one option is better."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can compare multiple options and predict outcomes before making decisions about familiar problems."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can analyze information from different sources and apply decision-making steps to solve personal problems."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate complex information systematically and implement structured decision-making processes for social and personal challenges."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can apply critical thinking frameworks to analyze multiple perspectives and make reasoned decisions about complex issues."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can synthesize diverse information sources and implement sophisticated decision-making processes to address multifaceted personal and social problems."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can identify with help what makes me feel safe and happy."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can identify simple factors that help or hurt my well-being with guidance."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can describe factors affecting my well-being and identify basic protective strategies."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can evaluate factors affecting personal well-being and apply appropriate protective strategies independently."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can evaluate factors affecting personal and community well-being and apply multiple protective strategies."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can analyze complex factors affecting personal and community well-being and justify protective strategies."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can evaluate interconnected factors affecting well-being across diverse contexts and create comprehensive protective strategies."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "short"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify with help what makes me feel safe and happy."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify simple factors that help or hurt my well-being with guidance."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can describe factors affecting my well-being and identify basic protective strategies."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can evaluate factors affecting personal well-being and apply appropriate protective strategies independently."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate factors affecting personal and community well-being and apply multiple protective strategies."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyze complex factors affecting personal and community well-being and justify protective strategies."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can evaluate interconnected factors affecting well-being across diverse contexts and create comprehensive protective strategies."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "medium"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify with help what makes me feel safe and healthy in familiar places."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can identify simple factors that help or hurt my well-being and choose basic protective actions."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can describe factors affecting my well-being and explain why certain protective strategies work better."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can evaluate multiple factors affecting personal well-being and apply appropriate protective strategies with reasoning."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can evaluate complex factors affecting personal and community well-being and justify protective strategy selections."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can analyse interconnected factors affecting well-being across contexts and design comprehensive protective approaches."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can evaluate systemic factors affecting well-being and create adaptive protective strategies for diverse situations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Pre-Kindergarten",
+              "short"
+            ],
+            [
+              "Kindergarten-Grade 1",
+              "medium"
+            ],
+            [
+              "Grade Band 2-3",
+              "medium"
+            ],
+            [
+              "Grade Band 4-5",
+              "medium"
+            ],
+            [
+              "Grade Band 6-8",
+              "medium"
+            ],
+            [
+              "Grade Band 9-10",
+              "medium"
+            ],
+            [
+              "Grade Band 11-12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Pre-Kindergarten",
+              "statement": "I can identify with help what makes me feel safe and happy."
+            },
+            {
+              "band": "Kindergarten-Grade 1",
+              "statement": "I can describe simple things that help me and my friends stay healthy and safe."
+            },
+            {
+              "band": "Grade Band 2-3",
+              "statement": "I can explain basic factors that affect my well-being and choose helpful protective actions."
+            },
+            {
+              "band": "Grade Band 4-5",
+              "statement": "I can evaluate multiple factors affecting personal well-being and apply appropriate protective strategies independently."
+            },
+            {
+              "band": "Grade Band 6-8",
+              "statement": "I can analyze complex factors affecting personal and community well-being and implement comprehensive protective strategies."
+            },
+            {
+              "band": "Grade Band 9-10",
+              "statement": "I can evaluate interconnected factors affecting diverse community well-being and justify selection of effective protective strategies."
+            },
+            {
+              "band": "Grade Band 11-12",
+              "statement": "I can systematically evaluate multifaceted well-being factors across varied contexts and design adaptive protective strategies."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Pre-Kindergarten', 'short'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'medium'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'medium'), ('Grade Band 11-12', 'medium')): 2, (('Pre-Kindergarten', 'medium'), ('Kindergarten-Grade 1', 'medium'), ('Grade Band 2-3', 'medium'), ('Grade Band 4-5', 'medium'), ('Grade Band 6-8', 'medium'), ('Grade Band 9-10', 'medium'), ('Grade Band 11-12', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_02_lt_01",
+      "lt_name": "Goal Setting and Progress Monitoring",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "3 format/quality failures",
+      "failures": [
+        "Grade Band 2-3:no_observable_verb",
+        "Grade Band 6-8:no_observable_verb",
+        "Grade Band 11-12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can identify simple goals with adult support and recognize when I complete them."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can set basic personal goals and describe what I need to do to achieve them."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can develop simple plans for my goals and monitor my progress with occasional guidance."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can create detailed goal-oriented plans using available resources and track my progress regularly."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can develop comprehensive plans for multiple goals and adapt strategies based on progress evaluation."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can create sophisticated goal-oriented plans and systematically evaluate progress to optimize achievement strategies."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can develop complex adaptive plans for diverse goals and independently modify approaches based on comprehensive progress analysis."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "lt_name": "Building and Maintaining Relationships",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "2 format/quality failures",
+      "failures": [
+        "Pre-Kindergarten:no_observable_verb",
+        "Grade Band 6-8:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can participate in simple interactions with peers and adults with guidance and support."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can engage in basic communication and play cooperatively with others using simple strategies."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can build friendships by communicating clearly and working together on shared activities and goals."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can establish positive relationships by applying effective communication skills and collaborative problem-solving approaches."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can maintain healthy relationships by adapting communication strategies and resolving conflicts through collaborative negotiation."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can cultivate meaningful relationships by analyzing communication patterns and implementing sophisticated collaboration strategies across contexts."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can sustain complex relationships by evaluating communication effectiveness and transferring advanced collaboration skills to diverse situations."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "lt_name": "Conflict Resolution and Feedback",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "4 format/quality failures",
+      "failures": [
+        "Pre-Kindergarten:no_observable_verb",
+        "Grade Band 2-3:no_observable_verb",
+        "Grade Band 6-8:no_observable_verb",
+        "Grade Band 11-12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Pre-Kindergarten",
+          "statement": "I can ask for help when I have problems with friends and say sorry when needed."
+        },
+        {
+          "band": "Kindergarten-Grade 1",
+          "statement": "I can use simple words to solve problems with others and listen to what they tell me."
+        },
+        {
+          "band": "Grade Band 2-3",
+          "statement": "I can talk through disagreements calmly and accept feedback to improve my friendships and classroom work."
+        },
+        {
+          "band": "Grade Band 4-5",
+          "statement": "I can identify different solutions to conflicts and apply specific feedback to strengthen my relationships and goals."
+        },
+        {
+          "band": "Grade Band 6-8",
+          "statement": "I can mediate conflicts by understanding multiple perspectives and integrate constructive feedback to enhance collaborative relationships."
+        },
+        {
+          "band": "Grade Band 9-10",
+          "statement": "I can facilitate peaceful resolution of complex conflicts and systematically apply feedback to optimize relationship dynamics and outcomes."
+        },
+        {
+          "band": "Grade Band 11-12",
+          "statement": "I can design conflict resolution strategies across diverse contexts and synthesize feedback to transform relationships and achieve strategic goals."
+        }
+      ]
+    }
+  ]
 }

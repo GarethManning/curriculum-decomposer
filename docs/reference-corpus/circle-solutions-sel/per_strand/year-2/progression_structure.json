@@ -1,0 +1,49 @@
+{
+  "band_labels": [
+    "Year 2",
+    "Year 6",
+    "Year 9",
+    "Year 12"
+  ],
+  "band_count": 4,
+  "age_range_hint": "ages 7-18 (Cowie & Myers 2016; Year 2 through Year 12; sparse 4-checkpoint structure — Years 3-5, 7-8, 10-11 not explicitly covered)",
+  "source_type": "circle_solutions_sel",
+  "detection_confidence": "high",
+  "detection_rationale": "Source slug 'strand-year-2' / reference 'cowie-myers-2016-circle-solutions-student-wellbeing' matches Circle Solutions SEL pattern (Cowie & Myers, 2016). 4-checkpoint structure: Year 2, 6, 9, 12.",
+  "band_self_reflection_prompts": {
+    "Year 2": "Tell me five things you like about yourself. What is one thing that is really important to you?",
+    "Year 6": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?",
+    "Year 9": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?",
+    "Year 12": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+  },
+  "band_details": [
+    {
+      "label": "Year 2",
+      "approximate_age_range": "ages 7-8",
+      "approximate_grade_year": "Year 2 (Australian primary)",
+      "developmental_descriptor": "Learners at Year 2 develop foundational emotional vocabulary, basic self-regulation strategies, and an awareness of fairness and belonging. Observable indicators focus on concrete personal and relational skills with adult scaffolding."
+    },
+    {
+      "label": "Year 6",
+      "approximate_age_range": "ages 11-12",
+      "approximate_grade_year": "Year 6 (Australian upper primary)",
+      "developmental_descriptor": "Learners at Year 6 demonstrate expanded emotional knowledge, perspective-taking, and collaborative skills. They apply understanding of empathy, conflict, and positive communication across a wider range of social contexts."
+    },
+    {
+      "label": "Year 9",
+      "approximate_age_range": "ages 14-15",
+      "approximate_grade_year": "Year 9 (Australian junior secondary)",
+      "developmental_descriptor": "Learners at Year 9 engage with complex emotional and social challenges, including assertiveness, identity, and the neuroscience of emotion. They demonstrate self-regulation, ethical reasoning, and leadership skills with increasing independence."
+    },
+    {
+      "label": "Year 12",
+      "approximate_age_range": "ages 17-18",
+      "approximate_grade_year": "Year 12 (Australian senior secondary)",
+      "developmental_descriptor": "Learners at Year 12 demonstrate advanced self-awareness, sustained resilience strategies, and a developed philosophy for life. They apply ethical reasoning, collaborative leadership, and meaningful reflection to personal and community decisions."
+    }
+  ],
+  "progression_philosophy": "The Circle Solutions SEL Framework (Cowie & Myers, 2016) uses four year-level markers — Year 2, Year 6, Year 9, Year 12 — as assessment checkpoints across twelve dimensions of social-emotional learning. The framework does not prescribe a continuous annual progression; the four checkpoints are developmental waypoints with observable indicator tasks at each level. Bands between checkpoints (Years 3-5, 7-8, 10-11) are not explicitly described — this is a sparse source structure and interpolation requires teacher judgement. Per Cowie, H. & Myers, C-A. (2016) Circle Solutions for Student Wellbeing (Table 2.2).",
+  "source_reference": "cowie-myers-2016-circle-solutions-student-wellbeing",
+  "source_slug": "strand-year-2",
+  "detection_module_version": "0.1.0"
+}

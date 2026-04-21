@@ -1,0 +1,1586 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-9",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify that my brain controls my feelings with simple prompting."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe how specific brain parts like the amygdala affect my emotions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain how the amygdala and mirroring neurons influence emotional responses with examples."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can analyse and justify how amygdala and mirroring neuron functions create complex emotional patterns."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that my brain controls my feelings with simple prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how specific brain parts like the amygdala affect my emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how the amygdala and mirroring neurons influence emotional responses with examples."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse and justify how amygdala and mirroring neuron functions create complex emotional patterns."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that my brain controls my feelings with simple prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how specific brain parts help create emotional responses in familiar situations."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how the amygdala and mirroring neurons influence emotional reactions with basic examples."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse how amygdala and mirroring neuron functions shape complex emotional responses across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that my brain controls my feelings with simple prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how specific brain parts like the amygdala affect my emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how the amygdala and mirroring neurons influence emotional responses with examples."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse and justify how amygdala and mirroring neuron functions create complex emotional patterns."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify basic emotions shown by characters in films with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe how characters' emotions in films make me feel and explain simple connections."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyze complex emotional content in films and explain how it influences my emotional responses."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate sophisticated emotional portrayals across diverse films and justify their impact on my emotional development."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions shown by characters in films with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how characters' emotions in films make me feel and explain simple connections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze complex emotional content in films and explain how it influences my emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate sophisticated emotional portrayals across diverse films and justify their impact on my emotional development."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions shown by characters in films with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how characters' emotions in films make me feel and explain simple connections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze complex emotional content in films and explain how it influences my emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate sophisticated emotional portrayals across diverse films and justify their impact on my responses."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions shown by characters in films with teacher guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how characters' emotions in films make me feel and explain simple connections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze complex emotional content in films and explain how it influences my emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate sophisticated emotional portrayals across diverse films and justify their impact on my emotional development."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify simple emotion regulation strategies with adult guidance and support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify multiple emotion regulation strategies and describe their basic advantages."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can identify multiple emotion regulation strategies and critically evaluate their advantages and disadvantages across diverse contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify simple emotion regulation strategies with adult guidance and support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify multiple emotion regulation strategies and describe their basic advantages."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify multiple emotion regulation strategies and critically evaluate their advantages and disadvantages across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotion regulation strategies with adult support and guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify multiple emotion regulation strategies and describe their simple advantages."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify multiple emotion regulation strategies and compare their advantages and disadvantages."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages across different contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotion regulation strategies with adult guidance and support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify multiple emotion regulation strategies and describe their simple advantages."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify multiple emotion regulation strategies and compare their advantages and disadvantages."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages across different contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify basic emotions I feel during learning activities with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe different emotions I experience during learning and explain what caused them."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse patterns in my emotional responses across various learning situations and contexts."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate complex emotional experiences during learning and justify how they influence my performance."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions I feel during learning activities with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe different emotions I experience during learning and explain what caused them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse patterns in my emotional responses across various learning situations and contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex emotional experiences during learning and justify how they influence my performance."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions I felt during learning activities with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe different emotions I experienced during learning and explain what caused them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse patterns in my emotional responses across various learning situations and contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can critically evaluate my emotional experiences during complex learning and justify strategies for improvement."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions I felt during learning activities with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe different emotions I experienced during learning and explain what triggered them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse patterns in my emotional responses across various learning situations and contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex emotional experiences during learning and justify how they influenced my performance."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify when friends help me feel better or worse with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe how different friendships make me stronger or weaker during difficult times."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyze specific ways that healthy and unhealthy friendships influence my ability to bounce back."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate how various relationship patterns systematically strengthen or weaken resilience across different life contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when friends help me feel better or worse with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different friendships make me stronger or weaker during difficult times."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze specific ways that healthy and unhealthy friendships influence my ability to bounce back."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate how various relationship patterns systematically strengthen or weaken resilience across different life contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support how friends help me feel better when upset."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different friendships make me stronger or weaker during challenges."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze specific ways friendships either build or reduce my ability to handle difficulties."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex friendship dynamics and their impact on resilience across varied social contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when friends help me feel better or worse with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different friendships make me stronger or weaker during difficult times."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze specific ways friendships either build my resilience or create additional challenges."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate how various friendship dynamics systematically influence resilience development across different life contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can explain that all people are the same in important ways."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain how recognizing our shared humanity helps people treat each other fairly."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain why understanding shared humanity is essential for building fair communities and societies."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can explain and justify why shared humanity principles are fundamental to achieving systemic justice and equity."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain that all people are the same in important ways."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain how recognizing our shared humanity helps people treat each other fairly."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain why understanding shared humanity is essential for building fair communities and societies."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain and justify why shared humanity principles are fundamental to achieving systemic justice and equity."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain that all people are the same in important ways."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain how recognizing our shared humanity helps people treat each other fairly."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain why understanding shared humanity is essential for building fair communities and societies."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain how shared humanity principles drive systemic approaches to creating just and equitable societies."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain that all people are the same in important ways."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain how recognizing our shared humanity helps people treat each other fairly."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain why understanding shared humanity is essential for building fair communities and societies."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain and justify why shared humanity principles are fundamental for achieving systemic justice across diverse contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify when someone is busy or available for interaction with adult guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can recognize appropriate timing for conversations by observing others' body language and activities."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can evaluate multiple contextual factors to determine optimal timing for different types of social interactions."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can analyze complex social dynamics and emotional states to strategically time interactions across diverse contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when someone is busy or available for interaction with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can recognize appropriate timing for conversations by observing others' body language and activities."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple contextual factors to determine optimal timing for different types of social interactions."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze complex social dynamics and emotional states to strategically time interactions across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when someone is busy or available for interaction with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can recognize appropriate timing for conversations by observing others' body language and activities."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple contextual factors to determine optimal timing for different types of social interactions."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze complex social dynamics and emotional states to strategically time interactions across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when someone is busy or available for interaction with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can recognize appropriate timing for conversations by observing others' body language and activities."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple contextual factors to determine optimal timing for different types of social interactions."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze complex social dynamics and emotional states to strategically time interactions across diverse contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_07_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify what might go wrong with guidance when making simple choices."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can compare possible problems and good things that could happen before deciding."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse multiple risks and benefits to make informed decisions in various situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can systematically evaluate complex risks against expected outcomes to justify strategic decisions across contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify what might go wrong with guidance when making simple choices."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare possible problems and good things that could happen before deciding."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse multiple risks and benefits to make informed decisions in various situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can systematically evaluate complex risks against expected outcomes to justify strategic decisions across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify simple risks with teacher support when making basic choices."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare obvious risks and benefits when deciding between familiar options."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse multiple risks and expected outcomes to make informed decisions independently."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can systematically evaluate complex risks against anticipated outcomes across diverse decision-making contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify what might go wrong with guided support when making simple choices."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare possible problems and benefits when deciding between familiar options independently."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse multiple risks and outcomes systematically to inform decisions across different situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex risk-outcome relationships and justify decision-making approaches in unfamiliar contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 2, (('Year 2', 'short'), ('Year 6', 'short'), ('Year 9', 'medium'), ('Year 12', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_11_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify simple factors that help people choose who to vote for with guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify and describe several factors that influence people's voting decisions in elections."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain how multiple factors interact to influence voting decisions across different democratic contexts."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can analyze and justify how complex political, social and economic factors shape voting patterns in diverse democracies."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify simple factors that help people choose who to vote for with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify and describe several factors that influence people's voting decisions in elections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how multiple factors interact to influence voting decisions across different democratic contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze and justify how complex political, social and economic factors shape voting patterns in diverse democracies."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify simple factors that help people choose who to vote for with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify and describe several factors that influence people's voting decisions in elections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how multiple factors interact to influence voting decisions across different democratic contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze and justify how complex political, social and personal factors shape voting behaviors in diverse democratic systems."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify simple factors that help people choose who to vote for with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify and describe several factors that influence people's voting decisions in elections."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how multiple factors interact to influence voting decisions across different democratic contexts."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze and justify how complex factors systematically influence voting patterns in diverse democratic systems."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 2, (('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "lt_name": "Articulating Personal Values and Character Development",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can name things that are important to me with adult support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe my personal values and explain how they help me make choices."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse my core values and character strengths across different life situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate how my values and character development influence complex decisions and future goals."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "lt_name": "Creating Anti-Discrimination Materials",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "2 format/quality failures",
+      "failures": [
+        "Year 9:no_observable_verb",
+        "Year 12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can work with others to create simple materials that show kindness and fairness."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can collaborate to design materials that clearly communicate messages about treating everyone with respect."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can collaborate to design persuasive materials that effectively challenge specific forms of discrimination and bias."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can collaborate to design sophisticated materials that strategically promote inclusion across diverse contexts and audiences."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_01",
+      "lt_name": "Active Listening Skills",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can show I am listening by looking at the speaker and nodding."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can demonstrate active listening through eye contact, appropriate responses, and simple clarifying questions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can demonstrate active listening using verbal and non-verbal cues while asking thoughtful clarifying questions."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can demonstrate sophisticated active listening across diverse contexts using nuanced verbal and non-verbal responses."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_05_lt_02",
+      "lt_name": "Respectful Communication Knowledge",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Year 2', 'short'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'long')), (('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')), (('Year 2', 'short'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium'))]"
+    },
+    {
+      "lt_id": "cluster_05_lt_03",
+      "lt_name": "Conversation Initiation and Maintenance",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "3 format/quality failures",
+      "failures": [
+        "Year 6:no_observable_verb",
+        "Year 9:no_observable_verb",
+        "Year 12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can start simple conversations with new people using basic greetings and questions."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can initiate conversations with unfamiliar people and keep them going by asking follow-up questions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can confidently start and sustain meaningful conversations with strangers across different social situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can skillfully initiate and maintain engaging conversations with unfamiliar people while adapting to their communication styles."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "lt_name": "Strategic Task Decomposition",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "3 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb",
+        "Year 6:no_observable_verb",
+        "Year 9:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can break down simple familiar tasks into basic steps with adult guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can break down moderately complex tasks into clear sequential steps independently."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can break down complex multi-part tasks into detailed achievable steps with logical reasoning."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can break down highly complex unfamiliar tasks into comprehensive sequential steps and justify my approach."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "lt_name": "Solution-Focused Problem Reframing",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "2 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb",
+        "Year 9:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can change a problem into what I want to happen with teacher help."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can reframe simple problems as clear goals that describe what I want to achieve."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can systematically reframe complex problems as specific solution-oriented goals across different situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can independently reframe multifaceted problems as precise outcome-focused goals and justify my reframing approach."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "lt_name": "Analyzing Assertiveness Outcomes",
+      "halt_reason": "band_statements_unreliable",
+      "diagnostic": "no word-count-class signature reached 2/3 agreement; signatures=[(('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'long')), (('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')), (('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'long'), ('Year 12', 'long'))]"
+    },
+    {
+      "lt_id": "cluster_10_lt_01",
+      "lt_name": "Identifying Alternative Actions",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "2 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb",
+        "Year 6:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can suggest one or two different ways something could have been done with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can independently list several alternative ways something could have been done differently in familiar situations."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can generate multiple alternative actions and explain why each option could have produced different outcomes."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can systematically identify diverse alternative actions and evaluate their potential effectiveness across varied contexts."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_12_lt_01",
+      "lt_name": "Discussing Life's Meaning",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "4 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb",
+        "Year 6:no_observable_verb",
+        "Year 9:no_observable_verb",
+        "Year 12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can share simple ideas about what makes me happy with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can discuss different ideas about what makes life good and meaningful."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can thoughtfully explore complex perspectives on meaningful living through structured discussions."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can engage in sophisticated discourse about life's meaning across diverse philosophical and cultural contexts."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_12_lt_02",
+      "lt_name": "Identifying Personal Sources of Meaning",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "2 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb",
+        "Year 12:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can name things that make me happy and feel good about myself."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe activities and relationships that give my life meaning and importance."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain how my values and interests connect to my sense of purpose."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can articulate how my personal beliefs and experiences shape my understanding of life's significance."
+        }
+      ]
+    }
+  ]
+}

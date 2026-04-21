@@ -1,0 +1,651 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-12",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "overall_stability_flag": "stable",
+  "overall_stability_diagnostics": [],
+  "unassigned_kud_item_ids": [],
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness and Personal Identity",
+      "competency_definition": "The ability to understand one's character, values, and future aspirations with clarity and depth.",
+      "kud_item_ids": [
+        "blk_0003_item_01",
+        "blk_0004_item_01",
+        "blk_0004_item_02",
+        "blk_0005_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0003",
+        "blk_0004",
+        "blk_0005"
+      ],
+      "source_position_start": 4,
+      "source_position_end": 6,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2,
+        "Type 1": 1,
+        "Type 3": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Self-Awareness and Personal Identity",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0004_item_02",
+            "blk_0005_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Self-Awareness and Personal Identity",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0004_item_02",
+            "blk_0005_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Self-Awareness and Identity Development",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0004_item_02",
+            "blk_0005_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Emotional Knowledge and Understanding",
+      "competency_definition": "The ability to distinguish emotional states and understand emotional manipulation in personal and historical contexts.",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02",
+        "blk_0008_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0007",
+        "blk_0008"
+      ],
+      "source_position_start": 9,
+      "source_position_end": 10,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 2,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Emotional Knowledge and Understanding",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Emotional Knowledge and Understanding",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Emotional Knowledge and Understanding",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Emotional Regulation and Resilience Skills",
+      "competency_definition": "The ability to apply multiple strategies for emotional regulation and engage thoughtfully in emotional discussions.",
+      "kud_item_ids": [
+        "blk_0010_item_01",
+        "blk_0011_item_01",
+        "blk_0012_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0010",
+        "blk_0011",
+        "blk_0012"
+      ],
+      "source_position_start": 13,
+      "source_position_end": 15,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 3": 1,
+        "Type 2": 1,
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Emotional Regulation and Resilience Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Emotional Regulation and Resilience Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Emotional Regulation and Resilience Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_04",
+      "competency_name": "Shared Humanity and Social Awareness",
+      "competency_definition": "The ability to recognize dehumanization and identify ways to practice shared humanity across social levels.",
+      "kud_item_ids": [
+        "blk_0014_item_01",
+        "blk_0015_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0014",
+        "blk_0015"
+      ],
+      "source_position_start": 18,
+      "source_position_end": 19,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Shared Humanity and Social Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Shared Humanity and Social Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Shared Humanity and Social Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_05",
+      "competency_name": "Interpersonal and Collaborative Skills",
+      "competency_definition": "The ability to engage effectively in group work, build trust, and collaborate successfully on projects.",
+      "kud_item_ids": [
+        "blk_0017_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01",
+        "blk_0019_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0017",
+        "blk_0018",
+        "blk_0019"
+      ],
+      "source_position_start": 22,
+      "source_position_end": 24,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 3,
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Interpersonal and Collaborative Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Interpersonal and Collaborative Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Interpersonal and Collaborative Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01",
+            "blk_0019_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_06",
+      "competency_name": "Empathy and Perspective-Taking",
+      "competency_definition": "The ability to assess emotional situations and understand multiple perspectives in complex scenarios.",
+      "kud_item_ids": [
+        "blk_0021_item_01",
+        "blk_0022_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0021",
+        "blk_0022"
+      ],
+      "source_position_start": 27,
+      "source_position_end": 28,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Empathy and Perspective-Taking",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Empathy and Perspective-Taking",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Empathy and Perspective-Taking",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_07",
+      "competency_name": "Leadership and Personal Goal Setting",
+      "competency_definition": "The ability to reflect on achievements, resist peer pressure, and develop strategic future plans.",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0025_item_01",
+        "blk_0026_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0024",
+        "blk_0025",
+        "blk_0026"
+      ],
+      "source_position_start": 31,
+      "source_position_end": 33,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2,
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Leadership and Personal Goal Setting",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Leadership and Personal Goal Setting",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Leadership and Personal Goal Setting",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_08",
+      "competency_name": "Positive Thinking and Solution Focus",
+      "competency_definition": "The ability to maintain hopeful perspectives and recognize choice in how events are interpreted.",
+      "kud_item_ids": [
+        "blk_0028_item_01",
+        "blk_0029_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0028",
+        "blk_0029"
+      ],
+      "source_position_start": 36,
+      "source_position_end": 37,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Positive Thinking and Solution Focus",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Positive Thinking and Solution Focus",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Positive Thinking and Solution Focus",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_09",
+      "competency_name": "Conflict Resolution and Negotiation",
+      "competency_definition": "The ability to analyze conflict scenarios and negotiate compromises through understanding multiple perspectives.",
+      "kud_item_ids": [
+        "blk_0031_item_01",
+        "blk_0032_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0031",
+        "blk_0032"
+      ],
+      "source_position_start": 40,
+      "source_position_end": 41,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Conflict Resolution and Negotiation",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Conflict Resolution and Negotiation",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Conflict Resolution and Negotiation",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_10",
+      "competency_name": "Social Justice and Restoration",
+      "competency_definition": "The ability to engage with concepts of altruism and develop action plans for social justice issues.",
+      "kud_item_ids": [
+        "blk_0034_item_01",
+        "blk_0035_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0034",
+        "blk_0035"
+      ],
+      "source_position_start": 44,
+      "source_position_end": 45,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Social Justice and Restoration",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Social Justice and Restoration",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Social Justice and Restoration",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_11",
+      "competency_name": "Ethics and Human Rights Advocacy",
+      "competency_definition": "The ability to discuss ethical values and research solutions to social justice challenges.",
+      "kud_item_ids": [
+        "blk_0037_item_01",
+        "blk_0038_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0037",
+        "blk_0038"
+      ],
+      "source_position_start": 48,
+      "source_position_end": 49,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ethics and Human Rights Advocacy",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ethics and Human Rights",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ethics and Human Rights Advocacy",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_12",
+      "competency_name": "Personal Meaning and Life Purpose",
+      "competency_definition": "The ability to articulate guiding principles and express aspirations for personal contribution and growth.",
+      "kud_item_ids": [
+        "blk_0040_item_01",
+        "blk_0041_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0040",
+        "blk_0041"
+      ],
+      "source_position_start": 52,
+      "source_position_end": 53,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Personal Meaning and Life Purpose",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Meaning and Life Purpose",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Meaning-Making and Life Purpose",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ]
+}

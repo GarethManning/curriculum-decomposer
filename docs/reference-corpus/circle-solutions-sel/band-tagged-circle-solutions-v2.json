@@ -1,0 +1,4143 @@
+{
+  "source_metadata": {
+    "source_name": "Circle Solutions SEL Framework (Cowie & Myers, 2016)",
+    "source_type": "circle_solutions_sel",
+    "source_band_labels": [
+      "Year 2",
+      "Year 6",
+      "Year 9",
+      "Year 12"
+    ],
+    "target_framework": "REAL School Budapest Bands A-F",
+    "skill_version": "2.0",
+    "run_timestamp": "2026-04-21T07:01:17.492710+00:00",
+    "session": "CW-2b",
+    "note": "Pipeline-generated (harness v3-run self-consistency). Replaces CW-2 manual construction."
+  },
+  "band_tagged_kud": [
+    {
+      "item_id": "year-2_blk_0003_item_01",
+      "content_statement": "A student can draw a picture of themselves and describe what they have drawn using the prompt 'This is me, my name is and I am...' saying as much as they can",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0003",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0004_item_01",
+      "content_statement": "Can say five things that they like about themselves",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0004",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0005_item_01",
+      "content_statement": "Can say three things that are important to them",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0005",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0007_item_01",
+      "content_statement": "Can talk about what happens in their bodies when they feel happy, angry and scared",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0007",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0008_item_01",
+      "content_statement": "Listens to different pieces of music and can say what it makes them feel",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0008",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0010_item_01",
+      "content_statement": "Uses regular breathing as a calming strategy",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0010",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0011_item_01",
+      "content_statement": "Uses at least twelve different words for emotion in describing: a play situation; losing something; a day at home",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0011",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0012_item_01",
+      "content_statement": "Can say what cheers them up when they are fed up",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0012",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0014_item_01",
+      "content_statement": "Can say three things that are the same and three things that are different about themselves and another person",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0014",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0015_item_01",
+      "content_statement": "Joins in a discussion about how this class can make sure everyone feels they belong here",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0015",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0017_item_01",
+      "content_statement": "Can say 'personal positives' about classmates",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0017",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0018_item_01",
+      "content_statement": "Demonstrates the ability to share",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0018",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0019_item_01",
+      "content_statement": "In a pair share, can identify three qualities or actions that would make someone a good friend",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0019",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0021_item_01",
+      "content_statement": "Can say how a teddy might feel if he: was left out; saw someone fall off a bike; had a new baby sister",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0021",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0022_item_01",
+      "content_statement": "Can recognize non-verbal expression of basic emotions — happy, surprised, scared, sad and worried.",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0022",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0024_item_01",
+      "content_statement": "Can say three things they want to achieve this week",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0024",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0025_item_01",
+      "content_statement": "Invites others to join in games",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0025",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0026_item_01",
+      "content_statement": "Is willing to try new things",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0026",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0028_item_01",
+      "content_statement": "In a paired discussion, identifies a situation where someone is laughing at someone and how this might feel, and when someone is laughing with someone and how this might feel",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0028",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0029_item_01",
+      "content_statement": "Engages with a class project on making others feel good (filling buckets)",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0029",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0031_item_01",
+      "content_statement": "Clearly, firmly and politely states what they want in conflict situations",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0031",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0032_item_01",
+      "content_statement": "Knows when something is fair or not",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0032",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0032_item_02",
+      "content_statement": "how to stand up for someone",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0032",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0034_item_01",
+      "content_statement": "Checks whether a hurt was an accident or deliberate",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0034",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0035_item_01",
+      "content_statement": "Can talk about things that are 'inside' hurts and those that are 'outside' hurts",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0035",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0037_item_01",
+      "content_statement": "Can say how a lie can grow and get out of control and give three reasons why it might be better to tell the truth",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0037",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0038_item_01",
+      "content_statement": "Within a small group, identifies the responsibilities that go with five rights or freedoms.",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0038",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0040_item_01",
+      "content_statement": "Grows a flower from a seed",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0040",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0040_item_02",
+      "content_statement": "Talks in a pair share about what happened: Did the flower grow by itself? What helped it grow? How much was nature and how much was what you did to help?",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0040",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-2_blk_0041_item_01",
+      "content_statement": "Identifies three things that would make someone happy for a short time and three things that would make someone happy all or most of the time",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "source_block_id": "year-2_blk_0041",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0003_item_01",
+      "content_statement": "A student can draw three pictures of themselves in different roles and can talk about the different ways they behave in each of these roles",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0003",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0004_item_01",
+      "content_statement": "Can identify three things they are good at, three qualities they have and three strengths they think they might need in the future",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0004",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0005_item_01",
+      "content_statement": "Can say three things that are important to them and why they are important",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0005",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0007_item_01",
+      "content_statement": "Knows about the continuum of emotions",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0007",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0007_item_02",
+      "content_statement": "Can take part in a discussion about when you might be in control of an emotion and when it controls you and say what makes a difference",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0007",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0008_item_01",
+      "content_statement": "Can take part in a discussion about how the arts (music/dance and drama) can impact on how someone feels",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0008",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0010_item_01",
+      "content_statement": "Can identify four different ways to deal with anger and decide which is the preferred option and why",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0010",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0011_item_01",
+      "content_statement": "Can identify at least five words showing different aspects of the following emotions: happiness; sadness; interest; anger.",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0011",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0012_item_01",
+      "content_statement": "Knows how thinking can affect how you feel and says what thinking strategies are useful",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0012",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0014_item_01",
+      "content_statement": "Can write about ways in which everyone is unique and the reasons it is valuable",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0014",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0015_item_01",
+      "content_statement": "Can say what 'The Golden Rule' is and how it appears in all major religions",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0015",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0015_item_02",
+      "content_statement": "Can say what 'The Golden Rule' means in practice",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0015",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0017_item_01",
+      "content_statement": "Demonstrates the 'rules' of good conversation — a balance between talking and listening",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0017",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0018_item_01",
+      "content_statement": "Demonstrates regular small acts of kindness — goes out of their way to help others",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0018",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0019_item_01",
+      "content_statement": "Works well within a group to achieve a given target",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0019",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0021_item_01",
+      "content_statement": "Shows an understanding of what someone might feel if they: were bullied; lost something or someone; broke a leg; failed a test; were hungry or tired",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0021",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0022_item_01",
+      "content_statement": "Can view a film and identify the feelings of characters within a situation by their voice tone, body posture and facial expression",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0022",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0024_item_01",
+      "content_statement": "Demonstrates an interest in getting better at something",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0024",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0024_item_02",
+      "content_statement": "Understands the concept of personal bests",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0024",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0025_item_01",
+      "content_statement": "Is aware of those who have been left out and includes them.",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0025",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0026_item_01",
+      "content_statement": "Accepts mistakes as part of learning",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0026",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0028_item_01",
+      "content_statement": "Identifies three things to be grateful for and three things to look forward to",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0028",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0029_item_01",
+      "content_statement": "Can identify one situation in which positive thinking helped and can talk/write about the difference it made",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0029",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0031_item_01",
+      "content_statement": "Stands up for others who are less able to stand up for themselves",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0031",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0032_item_01",
+      "content_statement": "Knows when a situation is not safe and leaves",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0032",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0034_item_01",
+      "content_statement": "Knows about responsibility pie-charts: how much was down to me, how much to someone else, how much to chance",
+      "knowledge_type": "Type 1",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0034",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0035_item_01",
+      "content_statement": "Offers to make up for harm caused",
+      "knowledge_type": "Type 3",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0035",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0037_item_01",
+      "content_statement": "In a small group, talks about why people don't always get what they deserve, and what this means for how we see the world and others in it",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0037",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0038_item_01",
+      "content_statement": "In small groups, using the Strengths in Circles cards on inclusion and equity, chooses one from each set and decides how this will be put into practice in the classroom",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0038",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0040_item_01",
+      "content_statement": "Chooses a symbol or picture that illustrates what really matters in life and talks about the choice",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0040",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-6_blk_0041_item_01",
+      "content_statement": "Identifies someone who is a role model for how to live life well and researches what that person did",
+      "knowledge_type": "Type 2",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "source_block_id": "year-6_blk_0041",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0003_item_01",
+      "content_statement": "Has reflected on their developing identity",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0003",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0003_item_02",
+      "content_statement": "Writes about a role model and why they have chosen this person",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0003",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0004_item_01",
+      "content_statement": "Can talk about how they have developed up to five character strengths and what strengths they are working on and why these are valuable",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0004",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0005_item_01",
+      "content_statement": "Can identify the five values and three beliefs about the world that impact most in how they choose to live their lives",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0005",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0007_item_01",
+      "content_statement": "Knows the role of the amygdala and how it can hijack 'thinking'",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0007",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0007_item_02",
+      "content_statement": "Can give an example of when the amygdala might hijack thinking",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0007",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0007_item_03",
+      "content_statement": "Knows about 'mirroring' neurons",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0007",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0007_item_04",
+      "content_statement": "Can give an example of when mirroring neurons might operate",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0007",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0008_item_01",
+      "content_statement": "Watches a film and writes a review about the characters, what happened to them and the emotional content. What did it make them feel and why?",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0008",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0010_item_01",
+      "content_statement": "Can list five ways in which someone might change how they feel and write the pros and cons of each",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0010",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0011_item_01",
+      "content_statement": "Can reflect on a learning task and describe a range of emotions that were experienced in engagement, challenges and completion",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0011",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0012_item_01",
+      "content_statement": "Can identify ways in which friends can support resilience and ways in which this can be undermined",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0012",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0014_item_01",
+      "content_statement": "Can give five reasons why 'shared humanity' matters for the future of our world",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0014",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0015_item_01",
+      "content_statement": "With a partner makes a poster on gender, sexuality or disability to prevent discrimination",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0015",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0017_item_01",
+      "content_statement": "Demonstrates the skills of 'active listening', paying verbal and non-verbal attention, responding verbally and non-verbally, asking questions, clarifying meaning",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0017",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0018_item_01",
+      "content_statement": "Knows what respect means, how it is demonstrated and why it is important for a healthy relationship",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0018",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0019_item_01",
+      "content_statement": "Can initiate and maintain a conversation with someone who is previously unknown",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0019",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0021_item_01",
+      "content_statement": "Can say when it might be a good time to approach a parent with a request and when best to wait, and identify factors that influence the decision.",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0021",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0022_item_01",
+      "content_statement": "Recognizes that everyone has their own story and does not make quick judgements",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0022",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0024_item_01",
+      "content_statement": "Can divide a task into a series of between 8 and 12 achievable steps",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0024",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0025_item_01",
+      "content_statement": "Can discuss risk taking and look at how to assess risk against potential outcomes",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0025",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0026_item_01",
+      "content_statement": "Gives help to others so that they can do well at something",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0026",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0028_item_01",
+      "content_statement": "Keeps a daily gratitude journal for a month: writing in three different blessings, one for the day, one for life and one for anything else",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0028",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0029_item_01",
+      "content_statement": "Can take five 'problems' and give a 'solution' for each: what you are aiming for rather than what you want to get rid of",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0029",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0031_item_01",
+      "content_statement": "Identifies the short- and long-term outcomes of overt aggression, passive aggression, timidity and appropriate assertiveness",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0031",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0032_item_01",
+      "content_statement": "Checks on intention before jumping to a negative conclusion in a potential conflict",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0032",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0034_item_01",
+      "content_statement": "Can list ways to say how something could have been done differently",
+      "knowledge_type": "Type 1",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0034",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0035_item_01",
+      "content_statement": "Responds positively to an attempt to repair harm caused",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0035",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0037_item_01",
+      "content_statement": "Identifies three factors that influence how someone might vote in an election",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0037",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0038_item_01",
+      "content_statement": "Takes part in a project to protect the environment",
+      "knowledge_type": "Type 3",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0038",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0040_item_01",
+      "content_statement": "Joins in a discussion about what it means to live 'a good life'",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0040",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-9_blk_0041_item_01",
+      "content_statement": "Makes a photo portfolio of what is meaningful and writes briefly why each photo is included",
+      "knowledge_type": "Type 2",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "source_block_id": "year-9_blk_0041",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0003_item_01",
+      "content_statement": "Can write a page about themselves, who they are, what they believe and the person they hope to become in the future",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0003",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0004_item_01",
+      "content_statement": "Can identify five character strengths and also the shadow sides of strengths",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0004",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0004_item_02",
+      "content_statement": "Can say what strengths have been of most value to them in their life",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0004",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0005_item_01",
+      "content_statement": "Are clear about a range of values and the reasons they have these",
+      "knowledge_type": "Type 3",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0005",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0007_item_01",
+      "content_statement": "Can tell the difference between being sad and being depressed",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0007",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0007_item_02",
+      "content_statement": "Knows who to seek out for support when they are struggling",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0007",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0008_item_01",
+      "content_statement": "Can write a page about an historical event in which people's emotions were manipulated and how this happened",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0008",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0010_item_01",
+      "content_statement": "Is using one physical strategy, one social strategy and one cognitive strategy on a regular basis to help stay resilient",
+      "knowledge_type": "Type 3",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0010",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0011_item_01",
+      "content_statement": "Joins in a discussion about a current controversial issue or a film, talking about how people might feel about this",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0011",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0012_item_01",
+      "content_statement": "Has considered the usefulness of mindfulness or meditation as a resilience strategy",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0012",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0014_item_01",
+      "content_statement": "Can identify times where people have been dehumanized, what contributes to this and what has happened to them.",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0014",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0015_item_01",
+      "content_statement": "Is able to identify ways in which shared humanity might be put into practice from the individual to the community to the social/political level.",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0015",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0017_item_01",
+      "content_statement": "Is effective within a group discussion. Includes others and builds on their ideas.",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0017",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0018_item_01",
+      "content_statement": "Knows what trust means, how it is demonstrated and why it is important for a healthy relationship",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0018",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0019_item_01",
+      "content_statement": "Works with a group to take a project from initiation to completion",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0019",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0019_item_02",
+      "content_statement": "Can write about the factors that promoted collaboration between team members",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0019",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0021_item_01",
+      "content_statement": "Can assess the emotional content of a situation and say what might be said or done to make this worse or better. This can be from a book or film.",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0021",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0022_item_01",
+      "content_statement": "Can write a story from the different perspectives of the main characters",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0022",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0024_item_01",
+      "content_statement": "Can reflect on a personal achievement and what contributed to success",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0024",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0025_item_01",
+      "content_statement": "Can say what helps resist peer pressure so you act according to your own values",
+      "knowledge_type": "Type 1",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0025",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0026_item_01",
+      "content_statement": "Can identify plans for the future, with fall-back plans if these don't happen",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0026",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0028_item_01",
+      "content_statement": "Reflects on the future, and makes a video talking about what they hope for themselves and the world in the future. Writes three things that they will do now to help this happen.",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0028",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0029_item_01",
+      "content_statement": "Talks/writes about a life event as if it were a newspaper story, once with the headline 'Disaster' and once with the headline 'Success', identifying how things can be seen from different perspectives and we have some choice",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0029",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0031_item_01",
+      "content_statement": "With a real-life or imagined scenario, can imagine three possible resolutions and write the pros and cons of each, and give a rationale for the first choice",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0031",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0032_item_01",
+      "content_statement": "Checks out what two sides want in a situation and negotiates a compromise",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0032",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0034_item_01",
+      "content_statement": "Joins in a small group discussion on the meaning of altruism and whether this is a value to aim for",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0034",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0035_item_01",
+      "content_statement": "Within a small group, researches a social justice issue and devises an action plan to redress this",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0035",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0037_item_01",
+      "content_statement": "Joins in a small group discussion on the meaning of altruism and whether this is a value to aim for",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0037",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0038_item_01",
+      "content_statement": "Within a small group, researches a social justice issue and devises an action plan to redress this",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0038",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0040_item_01",
+      "content_statement": "Writes or speaks about the principles or values that will guide small and major decisions in the future",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0040",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "item_id": "year-12_blk_0041_item_01",
+      "content_statement": "Writes a personal statement setting out aspirations for being, becoming and contributing",
+      "knowledge_type": "Type 2",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "source_block_id": "year-12_blk_0041",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    }
+  ],
+  "band_tagged_lts": [
+    {
+      "lt_id": "year-2_cluster_01_lt_01",
+      "lt_name": "Describing Personal Identity",
+      "lt_definition": "I can describe who I am including my name, appearance, and personal characteristics.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0003_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_01_lt_02",
+      "lt_name": "Articulating Personal Values and Preferences",
+      "lt_definition": "I can identify and express what I like about myself and what matters to me.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0004_item_01",
+        "blk_0005_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_02_lt_01",
+      "lt_name": "Recognizing Physical Emotional Responses",
+      "lt_definition": "I can describe what happens in my body when I experience different emotions.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0007_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_02_lt_02",
+      "lt_name": "Identifying Emotional Responses to Stimuli",
+      "lt_definition": "I can recognize and name emotions that external stimuli evoke in me.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0008_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_03_lt_01",
+      "lt_name": "Emotional Vocabulary and Expression",
+      "lt_definition": "I can use a variety of specific words to describe my emotions in different situations.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0011_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_03_lt_02",
+      "lt_name": "Personal Coping Strategy Identification",
+      "lt_definition": "I can explain what helps me feel better when I am upset or frustrated.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0012_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_03_lt_03",
+      "lt_name": "Consistent Self-Regulation Practice",
+      "lt_definition": "The student practises calming strategies like controlled breathing when experiencing strong emotions.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0010_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_04_lt_01",
+      "lt_name": "Recognizing Similarities and Differences",
+      "lt_definition": "I can identify what I share in common with others and how I am different from them.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0014_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_04_lt_02",
+      "lt_name": "Contributing to Inclusive Communities",
+      "lt_definition": "I can participate in creating environments where everyone feels they belong.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0015_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_05_lt_01",
+      "lt_name": "Expressing Positive Affirmations",
+      "lt_definition": "I can identify and communicate positive qualities about my classmates and describe actions that build good friendships.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0017_item_01",
+        "blk_0019_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_05_lt_02",
+      "lt_name": "Sharing and Cooperation",
+      "lt_definition": "The student enacts a generous orientation toward sharing resources and opportunities with others.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0018_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_06_lt_01",
+      "lt_name": "Recognizing Emotional Expressions",
+      "lt_definition": "I can identify basic emotions from facial expressions and body language.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0022_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_06_lt_02",
+      "lt_name": "Predicting Others' Emotional Responses",
+      "lt_definition": "I can explain how someone might feel in different situations.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0021_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_07_lt_01",
+      "lt_name": "Setting Personal Goals",
+      "lt_definition": "I can identify and articulate specific goals I want to achieve.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0024_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_07_lt_02",
+      "lt_name": "Taking Initiative with Others",
+      "lt_definition": "The student enacts leadership by initiating activities and inviting others to participate.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0025_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_07_lt_03",
+      "lt_name": "Embracing New Experiences",
+      "lt_definition": "The student sustains openness and confidence when encountering unfamiliar situations.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0026_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_08_lt_01",
+      "lt_name": "Distinguishing Harmful and Supportive Behaviors",
+      "lt_definition": "I can identify the difference between behaviors that hurt others and behaviors that help others feel good.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0028_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_08_lt_02",
+      "lt_name": "Contributing to Others' Wellbeing",
+      "lt_definition": "The student actively seeks opportunities to make others feel valued and supported.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0029_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_09_lt_01",
+      "lt_name": "Assertive Communication in Conflicts",
+      "lt_definition": "I can clearly, firmly and politely communicate my needs and wants in conflict situations.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0031_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_09_lt_02",
+      "lt_name": "Advocacy for Self and Others",
+      "lt_definition": "I can recognize unfair situations and stand up for myself and others appropriately.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0032_item_01",
+        "blk_0032_item_02"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_10_lt_01",
+      "lt_name": "Assessing Nature of Harm",
+      "lt_definition": "I can distinguish between accidental and deliberate hurts and identify internal versus external factors contributing to harm.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0034_item_01",
+        "blk_0035_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_10_lt_02",
+      "lt_name": "Engaging in Restorative Processes",
+      "lt_definition": "I can participate in processes that address harm and work toward healing relationships.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0034_item_01",
+        "blk_0035_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_11_lt_01",
+      "lt_name": "Understanding Truth-Telling and Consequences",
+      "lt_definition": "I can explain how lies can escalate and provide reasons why truth-telling is beneficial.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_11_lt_02",
+      "lt_name": "Connecting Rights with Responsibilities",
+      "lt_definition": "I can identify the responsibilities that correspond to specific rights and freedoms.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0038_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_12_lt_01",
+      "lt_name": "Reflecting on Growth and Nature",
+      "lt_definition": "I can explain how natural processes and human actions work together to support growth and development.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0040_item_01",
+        "blk_0040_item_02"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-2_cluster_12_lt_02",
+      "lt_name": "Distinguishing Temporary and Lasting Happiness",
+      "lt_definition": "I can compare experiences that bring short-term satisfaction with those that create enduring fulfillment.",
+      "school_band": [
+        "A",
+        "B"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 2",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 2 (ages 6-7) spans REAL Bands A (ages 5-7) and B (ages 7-9). The year-level marker falls at the Band A/B boundary; tagged [A, B] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0041_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-2",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_01_lt_01",
+      "lt_name": "Recognizing Personal Roles and Behaviors",
+      "lt_definition": "I can identify different roles I play and explain how my behavior changes across these contexts.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0003_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_01_lt_02",
+      "lt_name": "Articulating Strengths and Qualities",
+      "lt_definition": "I can describe my current strengths and qualities and explain what capabilities I might need to develop.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0004_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_01_lt_03",
+      "lt_name": "Identifying Personal Values",
+      "lt_definition": "I can explain what matters most to me and justify why these things are important.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0005_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_02_lt_01",
+      "lt_name": "Understanding Emotional Continuum and Control",
+      "lt_definition": "I can explain emotions as a continuum and discuss when emotions control us versus when we control them.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_02_lt_02",
+      "lt_name": "Analyzing Arts Impact on Emotions",
+      "lt_definition": "I can discuss how music, dance, and drama influence emotional states.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0008_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_03_lt_01",
+      "lt_name": "Emotional Vocabulary and Thinking Strategies",
+      "lt_definition": "I can identify emotional vocabulary and explain how thinking strategies affect feelings.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0011_item_01",
+        "blk_0012_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_03_lt_02",
+      "lt_name": "Anger Management Decision Making",
+      "lt_definition": "I can evaluate different anger management strategies and justify which option is most appropriate.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0010_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_04_lt_01",
+      "lt_name": "Articulating Human Uniqueness and Value",
+      "lt_definition": "I can write about ways in which everyone is unique and explain why this uniqueness is valuable.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0014_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_04_lt_02",
+      "lt_name": "Understanding Universal Ethical Principles",
+      "lt_definition": "I can explain what The Golden Rule is, how it appears across major religions, and what it means in practice.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0015_item_01",
+        "blk_0015_item_02"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_01",
+      "lt_name": "Balanced Conversational Engagement",
+      "lt_definition": "The student holds a sustained orientation toward balanced participation in conversations through appropriate talking and listening.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0017_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_02",
+      "lt_name": "Proactive Kindness and Helpfulness",
+      "lt_definition": "The student enacts regular small acts of kindness and goes out of their way to help others.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0018_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_03",
+      "lt_name": "Collaborative Group Achievement",
+      "lt_definition": "The student practises effective collaboration within groups to achieve shared targets.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0019_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_06_lt_01",
+      "lt_name": "Inferring Emotions from Situations",
+      "lt_definition": "I can explain what emotions someone might experience in different life situations.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0021_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_06_lt_02",
+      "lt_name": "Reading Nonverbal Emotional Cues",
+      "lt_definition": "I can identify emotions by interpreting voice tone, body language, and facial expressions.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0022_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_07_lt_01",
+      "lt_name": "Understanding Personal Growth",
+      "lt_definition": "I can explain what it means to have a personal best and how improvement happens over time.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0024_item_02"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_07_lt_02",
+      "lt_name": "Sustained Growth Mindset",
+      "lt_definition": "The student holds a consistent orientation toward self-improvement and learning from mistakes.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0026_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_07_lt_03",
+      "lt_name": "Inclusive Leadership Practice",
+      "lt_definition": "The student enacts awareness of exclusion and consistently includes those who have been left out.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0025_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_08_lt_01",
+      "lt_name": "Identifying Sources of Gratitude",
+      "lt_definition": "I can identify specific things to be grateful for and explain why they matter to me.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0028_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_08_lt_02",
+      "lt_name": "Recognizing Positive Thinking Impact",
+      "lt_definition": "I can identify situations where positive thinking helped and explain the difference it made.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0029_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_09_lt_01",
+      "lt_name": "Recognizing Unsafe Situations",
+      "lt_definition": "I can identify when a situation is not safe and determine when to withdraw.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0032_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_09_lt_02",
+      "lt_name": "Advocating for Others",
+      "lt_definition": "The student stands up for others who are less able to advocate for themselves.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0031_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_10_lt_01",
+      "lt_name": "Analyzing Responsibility Distribution",
+      "lt_definition": "I can identify how much responsibility belongs to me, others, and chance when harm occurs.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0034_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_10_lt_02",
+      "lt_name": "Making Amends for Harm",
+      "lt_definition": "The student offers to make up for harm caused across various situations.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0035_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_11_lt_01",
+      "lt_name": "Analyzing Fairness and Justice",
+      "lt_definition": "I can discuss why people don't always get what they deserve and explain what this means for how we see the world and others.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_11_lt_02",
+      "lt_name": "Applying Inclusion and Equity Principles",
+      "lt_definition": "I can choose inclusion and equity principles and decide how to put them into practice in specific contexts.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0038_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_12_lt_01",
+      "lt_name": "Articulating Personal Values Through Symbols",
+      "lt_definition": "I can choose a symbol that represents what matters most in life and explain my reasoning.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0040_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-6_cluster_12_lt_02",
+      "lt_name": "Identifying Positive Role Models",
+      "lt_definition": "I can identify someone who exemplifies living well and analyze their meaningful actions.",
+      "school_band": "C",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 6",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 6 (ages 10-11) maps cleanly to REAL Band C (Fire Dragons, ages 9-11, G5-6). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0041_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-6",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_01_lt_01",
+      "lt_name": "Articulating Personal Values and Character Development",
+      "lt_definition": "I can explain my core values, character strengths, and how these guide my life choices.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0003_item_02",
+        "blk_0004_item_01",
+        "blk_0005_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_01_lt_02",
+      "lt_name": "Sustained Identity Reflection",
+      "lt_definition": "The student practises ongoing reflection on their developing identity and personal growth.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0003_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_02_lt_01",
+      "lt_name": "Understanding Brain Functions in Emotion",
+      "lt_definition": "I can explain how the amygdala and mirroring neurons affect emotional responses and provide examples of their operation.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02",
+        "blk_0007_item_03",
+        "blk_0007_item_04"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_02_lt_02",
+      "lt_name": "Analyzing Emotional Content in Media",
+      "lt_definition": "I can analyze the emotional content of characters and experiences in films and explain their impact on my own emotional responses.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0008_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_03_lt_01",
+      "lt_name": "Emotional Regulation Strategies",
+      "lt_definition": "I can identify multiple emotion regulation strategies and evaluate their advantages and disadvantages.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0010_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_03_lt_02",
+      "lt_name": "Emotional Reflection and Analysis",
+      "lt_definition": "I can reflect on emotional experiences during learning and describe the range of emotions encountered.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0011_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_03_lt_03",
+      "lt_name": "Relationship-Based Resilience Building",
+      "lt_definition": "I can analyze how friendships support or undermine resilience development.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0012_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_04_lt_01",
+      "lt_name": "Understanding Shared Humanity",
+      "lt_definition": "I can explain why shared humanity matters for creating a just and equitable world.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0014_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_04_lt_02",
+      "lt_name": "Creating Anti-Discrimination Materials",
+      "lt_definition": "I can collaborate to design effective materials that challenge discrimination and promote inclusion.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0015_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_05_lt_01",
+      "lt_name": "Active Listening Skills",
+      "lt_definition": "I can demonstrate active listening through verbal and non-verbal attention, appropriate responses, and clarifying questions.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0017_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_05_lt_02",
+      "lt_name": "Respectful Communication Knowledge",
+      "lt_definition": "I can explain what respect means, how it is demonstrated, and why it matters in relationships.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0018_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_05_lt_03",
+      "lt_name": "Conversation Initiation and Maintenance",
+      "lt_definition": "I can initiate and maintain meaningful conversations with unfamiliar people.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0019_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_06_lt_01",
+      "lt_name": "Reading Social Situations and Timing",
+      "lt_definition": "I can identify appropriate timing for social interactions based on contextual factors and others' states.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0021_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_06_lt_02",
+      "lt_name": "Withholding Judgment About Others",
+      "lt_definition": "The student holds a default orientation of curiosity about others' experiences rather than making quick judgments.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0022_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_07_lt_01",
+      "lt_name": "Strategic Task Decomposition",
+      "lt_definition": "I can break down complex tasks into 8-12 achievable sequential steps.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0024_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_07_lt_02",
+      "lt_name": "Risk Assessment and Analysis",
+      "lt_definition": "I can evaluate potential risks against expected outcomes when making decisions.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0025_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_07_lt_03",
+      "lt_name": "Supporting Others' Success",
+      "lt_definition": "The student actively helps others achieve their goals and perform well.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0026_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_08_lt_01",
+      "lt_name": "Solution-Focused Problem Reframing",
+      "lt_definition": "I can reframe problems as solution-oriented goals that describe desired outcomes rather than what to eliminate.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0029_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_08_lt_02",
+      "lt_name": "Sustained Gratitude Practice",
+      "lt_definition": "The student sustains a consistent practice of identifying and recording daily blessings across multiple life domains.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0028_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_09_lt_01",
+      "lt_name": "Analyzing Assertiveness Outcomes",
+      "lt_definition": "I can identify the short- and long-term outcomes of overt aggression, passive aggression, timidity and appropriate assertiveness.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0031_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_09_lt_02",
+      "lt_name": "Constructive Conflict Engagement",
+      "lt_definition": "The student checks on intention before jumping to a negative conclusion in potential conflicts.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0032_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_10_lt_01",
+      "lt_name": "Identifying Alternative Actions",
+      "lt_definition": "I can list ways to say how something could have been done differently.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0034_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_10_lt_02",
+      "lt_name": "Positive Response to Repair",
+      "lt_definition": "The student responds positively to attempts to repair harm caused.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0035_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_11_lt_01",
+      "lt_name": "Analyzing Democratic Participation Factors",
+      "lt_definition": "I can identify and explain factors that influence voting decisions in democratic elections.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_11_lt_02",
+      "lt_name": "Environmental Action Orientation",
+      "lt_definition": "The student enacts a sustained commitment to environmental protection through active participation in conservation projects.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0038_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_12_lt_01",
+      "lt_name": "Discussing Life's Meaning",
+      "lt_definition": "I can engage thoughtfully in discussions about what constitutes a meaningful or good life.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0040_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-9_cluster_12_lt_02",
+      "lt_name": "Identifying Personal Sources of Meaning",
+      "lt_definition": "I can identify and articulate what gives my own life significance and purpose.",
+      "school_band": [
+        "D",
+        "E"
+      ],
+      "band_confidence": "medium",
+      "source_band_preserved": "YEAR 9",
+      "source_voice_preserved": true,
+      "ambiguity_flag": true,
+      "teacher_review_flag": true,
+      "band_rationale": "Circle Solutions Year 9 (ages 13-14) spans REAL Bands D (ages 11-13) and E (ages 13-15). Age 13-14 falls at the Band D/E boundary; tagged [D, E] with ambiguity_flag=true.",
+      "kud_item_ids": [
+        "blk_0041_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-9",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_02_lt_01",
+      "lt_name": "Distinguishing Emotional States",
+      "lt_definition": "I can identify differences between various emotional states and recognize when to seek support.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_02_lt_02",
+      "lt_name": "Analyzing Historical Emotional Manipulation",
+      "lt_definition": "I can explain how emotions were manipulated in historical events and analyze the methods used.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0008_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_03_lt_01",
+      "lt_name": "Emotional Discussion Participation",
+      "lt_definition": "I can engage thoughtfully in discussions about how people feel regarding controversial issues or emotional situations.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0011_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_03_lt_02",
+      "lt_name": "Resilience Strategy Knowledge",
+      "lt_definition": "I can evaluate the usefulness of mindfulness and meditation as resilience strategies.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0012_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_03_lt_03",
+      "lt_name": "Multi-Strategy Emotional Regulation Practice",
+      "lt_definition": "The student practises using physical, social, and cognitive strategies regularly to maintain emotional resilience.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0010_item_01"
+      ],
+      "knowledge_type": "Type 3",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_04_lt_01",
+      "lt_name": "Identifying Dehumanization and Its Effects",
+      "lt_definition": "I can identify instances of dehumanization, analyze their contributing factors, and explain their consequences.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0014_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_04_lt_02",
+      "lt_name": "Designing Shared Humanity Practices",
+      "lt_definition": "I can identify and propose ways to practice shared humanity across individual, community, and social levels.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0015_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_05_lt_01",
+      "lt_name": "Understanding Trust in Relationships",
+      "lt_definition": "I can explain what trust means, how it is demonstrated, and why it is important for healthy relationships.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0018_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_05_lt_02",
+      "lt_name": "Collaborative Project Management",
+      "lt_definition": "I can work effectively with a group to complete projects and analyze factors that promote successful collaboration.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0017_item_01",
+        "blk_0019_item_01",
+        "blk_0019_item_02"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_06_lt_01",
+      "lt_name": "Assessing Emotional Situations",
+      "lt_definition": "I can assess the emotional content of situations and explain what actions would improve or worsen them.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0021_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_06_lt_02",
+      "lt_name": "Understanding Multiple Perspectives",
+      "lt_definition": "I can represent different viewpoints of the same events through multiple character perspectives.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0022_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_07_lt_01",
+      "lt_name": "Reflecting on Personal Achievements",
+      "lt_definition": "I can reflect on a personal achievement and analyze what contributed to success.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0024_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_07_lt_02",
+      "lt_name": "Strategic Future Planning",
+      "lt_definition": "I can identify plans for the future with fall-back plans if these don't happen.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0026_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_07_lt_03",
+      "lt_name": "Resisting Peer Pressure",
+      "lt_definition": "I can identify what helps resist peer pressure to act according to my own values.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0025_item_01"
+      ],
+      "knowledge_type": "Type 1",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_08_lt_01",
+      "lt_name": "Reframing Perspectives on Events",
+      "lt_definition": "I can interpret the same event from multiple perspectives and explain how different viewpoints change the meaning.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0029_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_08_lt_02",
+      "lt_name": "Future-Oriented Goal Setting",
+      "lt_definition": "I can articulate hopeful visions for the future and identify specific actions to work toward those outcomes.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0028_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_09_lt_01",
+      "lt_name": "Analyzing Multiple Conflict Perspectives",
+      "lt_definition": "I can analyze a conflict scenario by identifying what each side wants and generating multiple possible resolutions with their trade-offs.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0031_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_09_lt_02",
+      "lt_name": "Negotiating Practical Compromises",
+      "lt_definition": "I can facilitate negotiation between conflicting parties to reach a workable compromise that addresses core interests.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0032_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_10_lt_01",
+      "lt_name": "Analyzing Altruism and Social Values",
+      "lt_definition": "I can evaluate the meaning and importance of altruism as a guiding principle for social action.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0034_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_10_lt_02",
+      "lt_name": "Developing Social Justice Action Plans",
+      "lt_definition": "I can research social justice issues and create actionable plans to address them.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0035_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_11_lt_01",
+      "lt_name": "Discussing Ethical Values",
+      "lt_definition": "I can engage in reasoned discussion about ethical values and their application to real-world situations.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0037_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_11_lt_02",
+      "lt_name": "Researching Social Justice Solutions",
+      "lt_definition": "I can research social justice challenges and develop actionable plans to address them.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0038_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_12_lt_01",
+      "lt_name": "Articulating Guiding Principles",
+      "lt_definition": "I can write or speak about the principles or values that will guide my decisions.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0040_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    },
+    {
+      "lt_id": "year-12_cluster_12_lt_02",
+      "lt_name": "Expressing Personal Aspirations",
+      "lt_definition": "I can write a personal statement setting out my aspirations for being, becoming and contributing.",
+      "school_band": "F",
+      "band_confidence": "high",
+      "source_band_preserved": "YEAR 12",
+      "source_voice_preserved": true,
+      "ambiguity_flag": false,
+      "teacher_review_flag": false,
+      "band_rationale": "Circle Solutions Year 12 (ages 16-17) maps cleanly to REAL Band F (ages 15-17, G11-12). Single-band assignment; high confidence.",
+      "kud_item_ids": [
+        "blk_0041_item_01"
+      ],
+      "knowledge_type": "Type 2",
+      "strand_slug": "year-12",
+      "pipeline_generated": true
+    }
+  ],
+  "summary_counts": {
+    "total_kud_items": 124,
+    "total_lts": 104,
+    "kud_by_band": {
+      "A+B": 30,
+      "C": 31,
+      "D+E": 32,
+      "F": 31
+    },
+    "lts_by_band": {
+      "A+B": 26,
+      "C": 27,
+      "D+E": 27,
+      "F": 24
+    },
+    "teacher_review_flagged_kud": 62,
+    "teacher_review_flagged_lts": 53,
+    "medium_confidence": 62,
+    "high_confidence": 62,
+    "halted_blocks_in_pipeline": 0
+  },
+  "skill_flags": [
+    "sparse_source_structure: Circle Solutions provides observable indicators at only 4 year levels (Year 2, 6, 9, 12). REAL Bands B (Earth Dragons, G3-4), C/D boundary, and E/F boundary are not explicitly represented. Gaps between checkpoints require teacher interpolation. This is an honest structural limitation of the source, not a quality failure.",
+    "year_2_ambiguity: Year 2 (ages 6-7) straddles REAL Bands A and B. Items tagged [A, B] with ambiguity_flag=true and teacher_review_flag=true. Teacher judgment required to assign to a specific REAL band for planning purposes.",
+    "year_9_ambiguity: Year 9 (ages 13-14) straddles REAL Bands D and E. Items tagged [D, E] with ambiguity_flag=true and teacher_review_flag=true. Teacher judgment required.",
+    "pipeline_generated: Circle Solutions KUD and LT items were classified via the harness pipeline (LLM-based 3-run self-consistency). This v2 replaces the manually-constructed v1 (band-tagged-circle-solutions-manual.json in _manual-archive/)."
+  ]
+}

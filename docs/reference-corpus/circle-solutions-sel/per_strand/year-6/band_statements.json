@@ -1,0 +1,2445 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-6",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "sets": [
+    {
+      "lt_id": "cluster_01_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify different roles I play with adult prompting and support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify my different roles and describe how my behavior changes between them."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain how my behavior changes across multiple roles and analyze reasons for these differences."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate how my behavior changes across diverse roles and justify these adaptations in unfamiliar contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify different roles I play with adult prompting and support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify my different roles and describe how my behavior changes between them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how my behavior changes across multiple roles and analyze reasons for these differences."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate how my behavior changes across diverse roles and justify these adaptations in unfamiliar contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify different roles I play with adult prompting and support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify different roles I play and describe how my behavior changes between them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how my behavior changes across different roles and analyze reasons for these changes."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze how my behavior changes across multiple roles and evaluate the effectiveness of these adaptations."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify different roles I play with adult support and prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify my different roles and describe how my behavior changes between them."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how my behavior changes across multiple roles and analyze reasons for these differences."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate how my behavior changes across diverse contexts and justify these adaptations strategically."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_01_lt_03",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify things that are important to me with adult support and prompting."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain what matters most to me and give simple reasons for my choices."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain my core personal values and justify why they are important to me."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can explain my personal values and justify their importance across different life contexts and situations."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify things that are important to me with adult support and prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what matters most to me and give simple reasons for my choices."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain my core personal values and justify why they are important to me."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain my personal values and justify their importance across different life contexts and situations."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify things that are important to me with adult support and prompting."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what matters most to me and give simple reasons for my choices."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain my personal values clearly and justify why they are important to me."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain my core values comprehensively and justify their importance across different life contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "long"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can name things that are important to me with adult support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what matters most to me and give simple reasons why."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain what matters most to me and justify why these values guide my choices."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain what matters most to me and justify how these values shape my decisions across different situations."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 2, (('Year 2', 'short'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'long')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify that emotions change and sometimes feel strong with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain that emotions exist on a continuum and describe basic differences between controlling emotions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse emotions as existing on a continuum and explain when emotions control behaviour versus self-regulation."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate emotional continuum dynamics and justify strategies for distinguishing emotional control from self-control across contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that emotions change and sometimes feel strong with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain that emotions exist on a continuum and describe basic differences between controlling emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse emotions as existing on a continuum and explain when emotions control behaviour versus self-regulation."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate emotional continuum dynamics and justify strategies for distinguishing emotional control from self-control across contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that emotions can be strong or weak with adult support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain that emotions exist on a continuum and describe basic emotional control."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse the emotional continuum and explain when emotions control behaviour versus self-regulation."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex emotional dynamics and justify strategies for managing the continuum across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify that emotions change and sometimes feel strong with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain that emotions exist on a continuum and describe basic differences between controlling emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse emotional continuum patterns and explain when emotions control behaviour versus self-regulation strategies."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex emotional continuum dynamics and justify approaches for emotional control across diverse contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_02_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify how music, dance, and drama make me feel with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe how different music, dance, and drama activities affect my emotions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain how specific elements in music, dance, and drama create emotional responses."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can analyze how music, dance, and drama techniques systematically influence diverse emotional states."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify how music, dance, and drama make me feel with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different music, dance, and drama activities affect my emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how specific elements in music, dance, and drama create emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze how music, dance, and drama techniques systematically influence diverse emotional states."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify how music, dance, and drama make me feel with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different music, dance, and drama activities affect my emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how various artistic elements in music, dance, and drama influence emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze how music, dance, and drama techniques systematically shape emotional experiences across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify how music, dance, and drama make me feel with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe how different music, dance, and drama activities affect my emotions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain how specific elements in music, dance, and drama create emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyze how music, dance, and drama techniques systematically influence diverse emotional states."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify basic emotional vocabulary and simple thinking strategies with guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify emotional vocabulary and explain how thinking strategies affect my feelings."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can identify complex emotional vocabulary and analyse how different thinking strategies influence emotional responses."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can identify sophisticated emotional vocabulary and evaluate how thinking strategies affect feelings across varied contexts."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotional vocabulary and simple thinking strategies with adult support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotional vocabulary and explain how thinking strategies affect my own feelings."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify complex emotional vocabulary and analyse how various thinking strategies influence emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify sophisticated emotional vocabulary and evaluate how thinking strategies affect feelings across diverse contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotional vocabulary and simple thinking strategies with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotional vocabulary and explain how thinking strategies affect my feelings."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify complex emotional vocabulary and analyse how different thinking strategies influence emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify sophisticated emotional vocabulary and evaluate how thinking strategies affect feelings across varied contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotional vocabulary and simple thinking strategies with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotional vocabulary and explain how thinking strategies affect my feelings."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse emotional vocabulary and explain how various thinking strategies influence emotional responses."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex emotional vocabulary and justify how thinking strategies systematically affect emotional outcomes."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 1, (('Year 2', 'short'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_03_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can choose between two simple anger management strategies with adult guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can compare different anger management strategies and explain which one works best for me."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can evaluate multiple anger management strategies and justify my choice based on the specific situation."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can systematically evaluate anger management strategies and justify optimal choices across diverse interpersonal contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose between two simple anger management strategies with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare different anger management strategies and explain which one works best for me."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple anger management strategies and justify my choice based on the specific situation."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can systematically evaluate anger management strategies and justify optimal choices across diverse interpersonal contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose between two simple anger management strategies with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare different anger management strategies and explain which one works best for me."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple anger management strategies and justify my choice based on the specific situation."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can systematically evaluate anger management strategies and justify optimal choices across diverse contexts and relationships."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose between two simple anger management strategies with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can compare different anger management strategies and explain which one works best for me."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate multiple anger management strategies and justify my choice based on specific situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can systematically evaluate anger management strategies and justify optimal choices across diverse interpersonal contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_04_lt_02",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can explain what The Golden Rule means with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain The Golden Rule and identify how it appears in different religions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain The Golden Rule across major religions and describe its practical applications."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can explain The Golden Rule's universal presence across religions and analyse its practical implications."
+        }
+      ],
+      "stability_flag": "band_statements_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain what The Golden Rule means with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain The Golden Rule and identify how it appears in different religions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain The Golden Rule across major religions and describe its practical applications."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain The Golden Rule's universal presence across religions and analyse its practical implications."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain what The Golden Rule means with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain The Golden Rule and identify how it appears in different religions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain The Golden Rule across major religions and describe its practical applications."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain The Golden Rule's universal presence across religions and analyse its practical implications."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can explain what The Golden Rule means with teacher support and simple examples."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain The Golden Rule and identify how it appears in different religions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can explain The Golden Rule across major religions and describe its practical applications."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can explain The Golden Rule's universal presence across religions and analyse its practical implications."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 'short'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 2, (('Year 2', 'medium'), ('Year 6', 'medium'), ('Year 9', 'medium'), ('Year 12', 'medium')): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify basic emotions someone might feel in simple everyday situations with guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain what emotions someone might experience in familiar situations and give simple reasons."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse complex emotions someone might feel in challenging situations and explain multiple contributing factors."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate nuanced emotional responses someone might experience across diverse contexts and justify my reasoning comprehensively."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions someone might feel in simple everyday situations with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what emotions someone might experience in familiar situations and give simple reasons."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse complex emotions someone might feel in challenging situations and explain multiple contributing factors."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate nuanced emotional responses someone might experience across diverse contexts and justify my reasoning comprehensively."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions someone might feel in simple everyday situations with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what emotions someone might experience in familiar situations and give simple reasons."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse complex emotions someone might feel in challenging situations and explain underlying causes."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate multiple emotions someone might experience across diverse contexts and justify my reasoning comprehensively."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions someone might feel in simple everyday situations with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain what emotions someone might experience in familiar situations and give simple reasons."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse complex emotions someone might feel in challenging situations and explain multiple contributing factors."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate nuanced emotional responses someone might experience across diverse contexts and justify my reasoning comprehensively."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_06_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify basic emotions from clear facial expressions and voice tone with guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify emotions by interpreting obvious voice tone, body language, and facial expressions independently."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can interpret subtle emotional cues from voice tone, body language, and facial expressions across different situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can analyse complex emotional states by interpreting nuanced nonverbal cues and explain my reasoning confidently."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions from clear facial expressions and voice tone with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotions by interpreting obvious voice tone, body language, and facial expressions independently."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can interpret subtle emotional cues from voice tone, body language, and facial expressions across different situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse complex emotional states by interpreting nuanced nonverbal cues and explain my reasoning confidently."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions from clear facial expressions and voice tone with adult support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotions by interpreting obvious voice tone, body language, and facial expressions independently."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can interpret subtle emotional cues from voice tone, body language, and facial expressions across different situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse complex emotional states by interpreting nuanced nonverbal cues and explain my reasoning confidently."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify basic emotions from clear facial expressions and voice tone with guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify emotions by interpreting obvious voice tone, body language, and facial expressions independently."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can accurately interpret subtle emotional cues from voice tone, body language, and facial expressions."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can analyse complex emotional states by interpreting nuanced combinations of voice tone, body language, and facial expressions."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_08_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify things I am grateful for with prompting and simple guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify specific things I am grateful for and give basic reasons why they matter."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can identify diverse sources of gratitude and explain clearly why they are meaningful to me."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can identify complex sources of gratitude and justify their personal significance with detailed reasoning."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify things I am grateful for with prompting and simple guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify specific things I am grateful for and give basic reasons why they matter."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify diverse sources of gratitude and explain clearly why they are meaningful to me."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify complex sources of gratitude and justify their personal significance with detailed reasoning."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify things I am grateful for with prompting and simple guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify specific things I am grateful for and give basic reasons why they matter."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify diverse sources of gratitude and explain clearly why they are meaningful to me."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify complex sources of gratitude and justify their personal significance with detailed reasoning."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify things I am grateful for with adult prompting and guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify specific things I am grateful for and give simple reasons why they matter."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify diverse sources of gratitude and explain their personal significance with clear reasoning."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify complex sources of gratitude and justify their deeper meaning across different life contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_08_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify when positive thinking helped me with simple prompting from others."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify situations where positive thinking helped and describe what changed."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can identify situations where positive thinking helped and explain the specific difference it made."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can identify situations where positive thinking helped and analyse the underlying mechanisms of its impact."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when positive thinking helped me with simple prompting from others."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify situations where positive thinking helped and describe what changed."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify situations where positive thinking helped and explain the specific difference it made."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify situations where positive thinking helped and analyse the underlying mechanisms of its impact."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when positive thinking helped me with simple prompting from others."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify situations where positive thinking helped and describe what changed."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify situations where positive thinking helped and explain the specific difference it made."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify situations where positive thinking helped and explain the difference it made across various contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "short"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when positive thinking helped me with simple prompting from others."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify situations where positive thinking helped and describe what changed."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify situations where positive thinking helped and explain the specific difference it made."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify situations where positive thinking helped and explain the difference it made across various contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_10_lt_01",
+      "knowledge_type": "Type 1",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify with support whether I caused harm or someone else did."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify how much responsibility belongs to me versus others when harm happens."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyze the distribution of responsibility between myself, others, and chance across different harmful situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate and justify complex responsibility distributions among multiple parties and circumstances when analyzing harm."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support whether I caused harm or someone else did."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify how much responsibility belongs to me versus others when harm happens."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze the distribution of responsibility between myself, others, and chance across different harmful situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate and justify complex responsibility distributions among multiple parties and circumstances when analyzing harm."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support whether I caused harm or someone else did."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify how much responsibility belongs to me versus others when harm happens."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze the distribution of responsibility between myself, others, and chance across different harmful situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate and justify complex responsibility distributions considering personal actions, others' contributions, and chance factors."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support whether I or someone else caused harm in simple situations."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify how much responsibility belongs to me, others, and chance in familiar harm situations."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse and explain the distribution of responsibility between myself, others, and chance across various harm scenarios."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate and justify complex responsibility distributions between multiple parties and chance factors in unfamiliar harm contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_11_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify with support when something seems unfair to me or others."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe situations where people don't get what they deserve and explain how this feels."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can analyse why unfair outcomes occur and explain how these experiences shape people's perspectives."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate complex cases of injustice and justify how these realities influence worldviews and interpersonal relationships."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support when something seems unfair to me or others."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe situations where people don't get what they deserve and explain how this feels."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyse why unfair outcomes occur and explain how these experiences shape people's perspectives."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex cases of injustice and justify how these realities influence worldviews and interpersonal relationships."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify when something seems unfair with teacher support and share my feelings about it."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can explain why unfair situations happen and describe how this affects people's feelings and actions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze complex unfair situations and explain how they shape our understanding of justice and relationships."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate systemic inequities and justify how these experiences fundamentally influence worldviews and social perspectives."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify with support when something seems unfair to me or others."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can describe situations where people don't get what they deserve and explain how this feels."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can analyze why unfair outcomes happen and explain how these experiences shape people's perspectives."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can evaluate complex cases of injustice and justify how these realities influence worldviews and interpersonal relationships."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_11_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can choose simple inclusion principles with guidance and apply them in familiar classroom situations."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can select appropriate inclusion and equity principles and apply them effectively in school contexts."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can evaluate and choose relevant inclusion and equity principles and implement them across diverse social situations."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can critically select and justify inclusion and equity principles and strategically implement them in complex community contexts."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose simple inclusion principles with guidance and apply them in familiar classroom situations."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can select appropriate inclusion and equity principles and apply them effectively in school contexts."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate and choose relevant inclusion and equity principles and implement them across diverse social situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can critically select and justify inclusion and equity principles and strategically implement them in complex community contexts."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose simple inclusion principles with guidance and apply them in familiar classroom situations."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can select appropriate inclusion and equity principles and explain how to apply them in school contexts."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate different inclusion and equity principles and justify their application across various community situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can critically analyse inclusion and equity principles and design comprehensive implementation strategies for complex societal contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose simple inclusion principles with guidance and apply them in familiar classroom situations."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can select appropriate inclusion and equity principles and apply them effectively in school contexts."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can evaluate and choose relevant inclusion and equity principles and implement them across diverse social situations."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can critically select and justify inclusion and equity principles and strategically implement them across complex unfamiliar contexts."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_12_lt_01",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can choose a simple symbol that represents something important to me with adult guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can choose a symbol that represents my personal values and give basic reasons for my choice."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can choose a meaningful symbol that represents my core values and explain my reasoning with clear connections."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can choose a complex symbol that represents my deepest values and justify my reasoning through sophisticated analysis."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose a simple symbol that represents something important to me with adult guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can choose a symbol that represents my personal values and give basic reasons for my choice."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can choose a meaningful symbol that represents my core values and explain my reasoning with clear connections."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can choose a complex symbol that represents my deepest values and justify my reasoning through sophisticated analysis."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose a symbol that represents something important to me with adult support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can choose a symbol that represents what matters most to me and give simple reasons."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can choose a symbol that represents my core values and explain my reasoning clearly."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can choose a symbol that represents my deepest values and justify my reasoning with detailed reflection."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "medium"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can choose a symbol that shows what is important to me with help."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can choose a symbol that represents what matters most to me and give simple reasons."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can choose a symbol that represents my core values and explain my reasoning clearly."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can choose a symbol that represents my deepest values and justify my reasoning with detailed analysis."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    },
+    {
+      "lt_id": "cluster_12_lt_02",
+      "knowledge_type": "Type 2",
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify someone who does good things with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can identify someone who exemplifies living well and describe their meaningful actions."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can identify someone who exemplifies living well and analyze why their actions are meaningful."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can identify someone who exemplifies living well and analyze how their meaningful actions connect to broader principles."
+        }
+      ],
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify someone who does good things with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify someone who exemplifies living well and describe their meaningful actions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify someone who exemplifies living well and analyze why their actions are meaningful."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify someone who exemplifies living well and analyze how their meaningful actions connect to broader principles."
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify someone who does good things with teacher support."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify someone who exemplifies living well and describe their meaningful actions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify someone who exemplifies living well and analyze why their actions are meaningful."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify someone who exemplifies living well and analyze how their meaningful actions apply across contexts."
+            }
+          ]
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              "short"
+            ],
+            [
+              "Year 6",
+              "medium"
+            ],
+            [
+              "Year 9",
+              "medium"
+            ],
+            [
+              "Year 12",
+              "medium"
+            ]
+          ],
+          "statements": [
+            {
+              "band": "Year 2",
+              "statement": "I can identify someone who does good things with teacher guidance."
+            },
+            {
+              "band": "Year 6",
+              "statement": "I can identify someone who exemplifies living well and describe their meaningful actions."
+            },
+            {
+              "band": "Year 9",
+              "statement": "I can identify someone who exemplifies living well and analyze why their actions are meaningful."
+            },
+            {
+              "band": "Year 12",
+              "statement": "I can identify someone who exemplifies living well and analyze how their meaningful actions connect to broader principles."
+            }
+          ]
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": []
+    }
+  ],
+  "halted_lts": [
+    {
+      "lt_id": "cluster_01_lt_02",
+      "lt_name": "Articulating Strengths and Qualities",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can name some things I am good at with teacher support."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can describe my strengths and identify areas where I need to improve."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain my current strengths and analyse what capabilities I need to develop further."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can articulate my strengths with evidence and justify development priorities across different contexts."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_04_lt_01",
+      "lt_name": "Articulating Human Uniqueness and Value",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can write simple sentences about what makes me different and why differences are good."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can write detailed descriptions of human uniqueness and explain specific reasons why individual differences matter."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can write comprehensive explanations of human uniqueness and analyse why diversity strengthens communities and relationships."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can write sophisticated arguments about human uniqueness and evaluate how individual differences contribute to collective human flourishing."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_07_lt_01",
+      "lt_name": "Understanding Personal Growth",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 2:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can tell what personal best means with help from others."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can explain what personal best means and describe how people improve."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can explain personal best and analyse different ways improvement happens over time."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can explain personal best concepts and evaluate how improvement processes apply across contexts."
+        }
+      ]
+    },
+    {
+      "lt_id": "cluster_09_lt_01",
+      "lt_name": "Recognizing Unsafe Situations",
+      "halt_reason": "band_statements_gate_failed",
+      "diagnostic": "1 format/quality failures",
+      "failures": [
+        "Year 9:no_observable_verb"
+      ],
+      "statements": [
+        {
+          "band": "Year 2",
+          "statement": "I can identify when a situation feels unsafe with adult guidance."
+        },
+        {
+          "band": "Year 6",
+          "statement": "I can recognize unsafe situations and decide when to remove myself from them."
+        },
+        {
+          "band": "Year 9",
+          "statement": "I can assess complex situations for safety risks and determine appropriate withdrawal strategies."
+        },
+        {
+          "band": "Year 12",
+          "statement": "I can evaluate nuanced safety concerns across varied contexts and justify withdrawal decisions."
+        }
+      ]
+    }
+  ]
+}

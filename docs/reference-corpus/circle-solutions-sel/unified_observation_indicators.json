@@ -1,4 +1,2768 @@
 {
-  "sets": [],
+  "sets": [
+    {
+      "lt_id": "year-2_cluster_03_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student takes deep breaths when prompted by an adult during moments of frustration or upset",
+            "The student uses simple breathing techniques for short periods when feeling overwhelmed in structured activities"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student independently initiates controlled breathing when experiencing strong emotions during classroom or playground situations",
+            "The student maintains calming breathing practices for several minutes when upset or anxious",
+            "The student applies breathing strategies consistently across different emotional triggers throughout the school day"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student automatically engages controlled breathing and other calming strategies when facing academic stress or social conflict",
+            "The student sustains self-regulation practices during extended challenging situations without adult prompting",
+            "The student adapts breathing techniques to different intensity levels of emotional experiences"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student seamlessly integrates controlled breathing and calming strategies into daily routines across academic, social and personal contexts",
+            "The student maintains consistent self-regulation practices during high-stakes situations like exams or relationship difficulties",
+            "The student demonstrates sustained emotional regulation through breathing techniques even when supporting others through their emotional challenges"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child handles strong emotions at home, particularly whether they use breathing or other calming techniques?",
+        "When your child becomes upset or frustrated during homework or family activities, what strategies do you see them trying?",
+        "Have you observed your child taking time to breathe deeply or use other calming methods when they feel overwhelmed or angry?"
+      ],
+      "prerequisite_lts": [
+        "Personal Coping Strategy Identification"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on reviewing observed instances of the student's self-regulation practice, discussing which calming strategies are most effective in different situations, and identifying opportunities to strengthen consistent application of breathing and other emotional regulation techniques.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              2
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 2), ('Year 6', 3), ('Year 9', 2), ('Year 12', 3), ('parents', 3)): 1, (('Year 2', 2), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 2}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 2",
+        "strand_slug": "year-2",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-2_cluster_05_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student offers to share materials or toys when prompted by an adult",
+            "The student takes turns with playground equipment when reminded",
+            "The student gives others a chance to participate in group activities after encouragement"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student voluntarily shares resources during collaborative work without being asked",
+            "The student includes peers who are left out of group activities",
+            "The student offers help or materials to classmates who are struggling"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student actively creates opportunities for others to contribute in group discussions",
+            "The student shares leadership roles and decision-making responsibilities in team projects",
+            "The student advocates for equitable distribution of resources or opportunities when imbalances arise"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student consistently models generous resource-sharing across diverse social contexts",
+            "The student initiates systems or practices that promote equitable access to opportunities for peers",
+            "The student mentors younger students in developing their own sharing and cooperative practices"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child shares their belongings or space with siblings, friends, or family members at home?",
+        "When your child has something special or limited, how do they respond when others want to use or have it too?",
+        "Have you observed your child creating opportunities for others to be included in family activities or decisions?"
+      ],
+      "prerequisite_lts": [
+        "Expressing Positive Affirmations"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student demonstrated generous sharing or cooperation, examining their motivations and the impact on others. Discussion includes identifying opportunities to extend this orientation into new contexts and relationships.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 3), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 2, (('Year 2', 2), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 2",
+        "strand_slug": "year-2",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-2_cluster_07_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student suggests simple activities to classmates during free play and waits to see if others join",
+            "The student raises their hand to volunteer for classroom helper roles and looks around to encourage peers to also volunteer"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student proposes group projects or games and actively invites specific classmates to participate",
+            "The student organizes informal activities during breaks and ensures quieter students are included",
+            "The student steps forward to coordinate when the class needs to organize itself for transitions or activities"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates study groups or collaborative projects and reaches out to peers who might benefit from participation",
+            "The student creates opportunities for social connection by organizing events or activities that bring different groups together",
+            "The student takes the lead in addressing group challenges by proposing solutions and rallying others to take action"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student identifies community or school needs and mobilizes peers to address them through sustained initiatives",
+            "The student mentors younger students by creating programs or opportunities that invite their participation",
+            "The student builds coalitions across different social groups to tackle complex projects or causes"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about your child taking the lead in organizing activities with siblings, friends, or neighbors?",
+        "When has your child invited others to join them in something they wanted to do, and how did they handle it if others weren't initially interested?",
+        "Have you seen your child step up to get others involved when there's something that needs to be done at home or in your community?"
+      ],
+      "prerequisite_lts": [
+        "Setting Personal Goals"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student has initiated activities and invited others to participate, examining their growing confidence in leadership roles and their developing ability to mobilize peers around shared purposes.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 2",
+        "strand_slug": "year-2",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-2_cluster_07_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student approaches new classroom activities or games with curiosity rather than immediate resistance",
+            "The student tries unfamiliar foods, materials, or equipment when offered gentle encouragement"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student volunteers for new roles or responsibilities in group activities",
+            "The student engages with unfamiliar peers or adults in social situations without prolonged hesitation",
+            "The student adapts to changes in routine or unexpected events with minimal distress"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates participation in new extracurricular activities or community events",
+            "The student takes on leadership roles in unfamiliar contexts or with new team members",
+            "The student seeks out challenging academic or creative projects beyond their established comfort zone"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student independently pursues opportunities that require significant personal growth or skill development",
+            "The student maintains composure and problem-solving focus when facing unexpected obstacles or setbacks",
+            "The student encourages others to embrace new experiences and models confident engagement with uncertainty"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when the family tries new activities, visits new places, or meets new people?",
+        "When your child encounters something they have never done before, what do you observe about their initial reaction and willingness to engage?",
+        "How does your child handle unexpected changes to plans or routines at home, and what do you see in terms of their confidence during these moments?"
+      ],
+      "prerequisite_lts": [],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student encountered unfamiliar situations, examining their emotional responses, decision-making processes, and growth in confidence over time. Teacher, student, and optionally parent identify patterns in the student's openness to new experiences and collaborative strategies for building sustained confidence in uncertainty.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 2",
+        "strand_slug": "year-2",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-2_cluster_08_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student offers comfort items or gentle touches when classmates are upset",
+            "The student includes peers who are sitting alone during play activities",
+            "The student celebrates others' achievements with genuine enthusiasm"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student notices when others need help and offers specific assistance without being asked",
+            "The student actively invites new students or those on the margins into group activities",
+            "The student acknowledges others' contributions and strengths in group work"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates check-ins with peers who seem stressed or withdrawn",
+            "The student advocates for classmates who are being excluded or treated unfairly",
+            "The student creates opportunities for others to showcase their talents or interests"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student mentors younger students or peers facing challenges",
+            "The student organizes activities or initiatives that bring people together and build community",
+            "The student consistently recognizes and affirms others' worth through words and actions across different social contexts"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when family members or friends are having a difficult time?",
+        "When has your child gone out of their way to make someone else feel included or special?",
+        "How does your child show care for others' feelings and wellbeing in everyday situations at home or in the community?"
+      ],
+      "prerequisite_lts": [
+        "Distinguishing Harmful and Supportive Behaviors"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student has actively contributed to others' wellbeing, examining their motivations and the impact of their actions. Discussion focuses on how the student recognizes opportunities to support others and their growing capacity to sustain caring behaviors across different relationships and contexts.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 3), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 2, (('Year 2', 2), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 2",
+        "strand_slug": "year-2",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_01",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student waits for others to finish speaking before contributing to group conversations",
+            "The student asks simple questions to show interest in what classmates are saying"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student monitors their own talking time and creates space for quieter peers to contribute",
+            "The student builds on others' ideas before introducing their own perspectives",
+            "The student notices when conversations become one-sided and adjusts their participation accordingly"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student facilitates balanced participation by drawing out different viewpoints from group members",
+            "The student adapts their conversational style to match the needs and comfort levels of different speakers"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student sustains balanced conversational engagement across diverse social and academic contexts without prompting",
+            "The student models inclusive conversation practices that encourage equitable participation from all group members",
+            "The student recognizes and addresses conversational imbalances in real-time while maintaining natural flow"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child shares talking time during family conversations or when friends visit?",
+        "When your child is in group discussions at home, how do they respond when someone else is speaking?",
+        "Have you observed your child encouraging quieter family members or friends to share their thoughts during conversations?"
+      ],
+      "prerequisite_lts": [],
+      "developmental_conversation_protocol": "The conversation focuses on observed patterns of talking and listening balance, exploring specific situations where the student demonstrated or struggled with equitable conversational participation and identifying contexts for continued growth.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              2
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              2
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 2), ('Year 6', 3), ('Year 9', 2), ('Year 12', 3), ('parents', 3)): 2, (('Year 2', 2), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student offers to share materials or snacks with classmates without being asked",
+            "The student notices when someone looks sad or upset and offers a hug or asks if they are okay"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student regularly volunteers to help with classroom tasks and assists peers who are struggling with work",
+            "The student includes new students or those sitting alone in games and activities during breaks",
+            "The student remembers to check on friends who were absent or unwell"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates support for peers facing academic or social challenges without waiting to be asked",
+            "The student organises or participates in helping activities for younger students or community members",
+            "The student consistently notices and responds to others' emotional needs across different social contexts"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student takes leadership in creating inclusive environments and addressing social issues within the school community",
+            "The student maintains helping relationships and acts of kindness even when facing their own stress or challenges",
+            "The student mentors others in developing their own capacity for kindness and helpfulness"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when family members or neighbours need help around the house or community?",
+        "When your child sees someone who looks upset or left out, what do they typically do?",
+        "Can you think of times when your child has gone out of their way to do something kind for someone else without being asked?"
+      ],
+      "prerequisite_lts": [],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student has demonstrated proactive kindness and helpfulness, discussing the impact of their actions on others and identifying opportunities to extend these behaviours across different contexts and relationships.",
+      "stability_flag": "observation_indicators_unstable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [
+        "signature_counts={(('Year 2', 2), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 2, (('Year 2', 3), ('Year 6', 3), ('Year 9', 3), ('Year 12', 3), ('parents', 3)): 1}"
+      ],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_05_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student takes turns speaking when working with others on a shared task",
+            "The student shares materials and resources with group members when prompted by the teacher",
+            "The student stays with their assigned group during collaborative activities"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student actively listens to group members' ideas and builds on them during discussions",
+            "The student divides tasks fairly among group members and follows through on their own responsibilities",
+            "The student helps resolve minor disagreements by suggesting compromises or alternative approaches"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student facilitates group discussions by asking clarifying questions and ensuring all voices are heard",
+            "The student adapts their communication style to work effectively with diverse group members",
+            "The student monitors group progress toward shared goals and suggests adjustments when needed"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student initiates collaborative opportunities across different contexts and with unfamiliar peers",
+            "The student coaches other group members in collaborative skills while maintaining focus on shared objectives",
+            "The student navigates complex group dynamics and conflicting perspectives to maintain productive collaboration"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When your child works on projects or activities with siblings or friends at home, what have you noticed about how they share responsibilities and work toward common goals?",
+        "How does your child handle disagreements or different opinions when working with others on family tasks or neighborhood activities?",
+        "What have you observed about your child's ability to listen to others' ideas and contribute their own thoughts during group activities or family discussions?"
+      ],
+      "prerequisite_lts": [],
+      "developmental_conversation_protocol": "The conversation synthesizes observations of the student's collaborative behaviors across classroom group work, peer interactions, and home/community settings to identify growth patterns and next steps in developing effective group collaboration skills.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              3
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_07_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student tries again after making a mistake without becoming upset or giving up",
+            "The student asks for help when something is difficult rather than avoiding the task"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student reflects on what went wrong when a strategy doesn't work and adjusts their approach",
+            "The student seeks out challenging tasks even when they might not succeed immediately",
+            "The student celebrates learning something new even when the process was difficult"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student actively seeks feedback from peers and teachers to improve their work",
+            "The student views setbacks as information about what to try next rather than as personal failures",
+            "The student takes on leadership roles in group work even when uncertain about outcomes"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student initiates conversations about their own learning gaps and creates plans to address them",
+            "The student mentors others by sharing their own mistakes and what they learned from them",
+            "The student pursues opportunities outside their comfort zone to develop new capabilities"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When your child faces a difficult homework problem or project, what do you notice about how they respond to the challenge?",
+        "How does your child talk about mistakes they make at school or in activities at home?",
+        "What have you observed about how your child approaches learning something completely new to them?"
+      ],
+      "prerequisite_lts": [
+        "Understanding Personal Growth"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on identifying specific instances where the student demonstrated growth mindset behaviors and exploring how they can transfer these approaches to new challenges. Teacher, student, and optionally parent discuss patterns in the student's response to difficulty and celebrate progress in maintaining learning orientation.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_07_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student notices when a classmate is sitting alone and invites them to join group activities",
+            "The student tells an adult when they see someone being left out of games or conversations"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student actively seeks out peers who appear isolated during unstructured time and creates opportunities for their participation",
+            "The student speaks up when witnessing exclusionary behavior and suggests alternative ways to include everyone",
+            "The student modifies group activities or rules to ensure all members can meaningfully participate"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student identifies patterns of social exclusion across different contexts and takes initiative to address them",
+            "The student facilitates conversations that help excluded individuals find their voice and place within group dynamics",
+            "The student challenges exclusionary practices even when it creates social tension or personal discomfort"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student designs and implements systems or structures that proactively prevent exclusion in various settings",
+            "The student mentors others in developing inclusive leadership skills and recognizing their own exclusionary behaviors",
+            "The student sustains inclusive practices across multiple contexts while adapting their approach to different cultural and social environments"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when they see someone being left out at home, in the neighborhood, or during family gatherings?",
+        "When your child talks about friendships or social situations, do they mention including others who might be on the outside?",
+        "Have you observed your child taking action to make sure everyone feels welcome in group activities or conversations?"
+      ],
+      "prerequisite_lts": [],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student noticed exclusion and their response, examining both successful inclusive actions and missed opportunities. Discussion focuses on developing the student's awareness of exclusionary patterns and their growing capacity to create welcoming environments for others.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_09_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student tells a teacher when they see someone being left out or treated unfairly",
+            "The student invites a peer who is sitting alone to join their group or activity"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student speaks up when witnessing teasing or exclusion of classmates",
+            "The student includes peers with different abilities in games and activities",
+            "The student seeks adult help when another student is being mistreated"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student challenges discriminatory comments or jokes directed at others",
+            "The student supports peers who are struggling with social acceptance or academic challenges",
+            "The student takes initiative to address unfair treatment without being prompted"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student advocates for systemic changes that benefit marginalized groups in their school or community",
+            "The student mentors younger students who face social or academic difficulties",
+            "The student organizes or participates in initiatives that support vulnerable community members"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when they see someone being treated unfairly at home, in the neighborhood, or in other settings?",
+        "When has your child stood up for a sibling, friend, or someone else who needed support?",
+        "How does your child react when they witness bullying, exclusion, or unfair treatment of others?"
+      ],
+      "prerequisite_lts": [
+        "Recognizing Unsafe Situations"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student has advocated for others, examining their motivation, approach, and reflection on outcomes. Discussion includes identifying opportunities for advocacy and developing strategies for effective intervention while maintaining personal safety.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-6_cluster_10_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student says sorry and offers to help fix something they broke or clean up a mess they made",
+            "The student draws a picture or makes something small for someone they hurt or upset"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student voluntarily offers specific actions to repair harm they caused without being told what to do",
+            "The student follows through on promised amends over several days or weeks",
+            "The student asks the person they harmed what would help them feel better"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates conversations about making amends even when the harm happened days or weeks earlier",
+            "The student offers meaningful repair actions that address the specific type of harm caused",
+            "The student adjusts their amends approach based on feedback from those they harmed"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student proactively develops comprehensive plans to address both immediate and long-term effects of harm they caused",
+            "The student seeks to understand and address systemic or relationship patterns that contributed to the harm",
+            "The student maintains commitment to making amends even when it requires significant personal effort or sacrifice"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When your child has hurt someone or broken something at home, what have you noticed about how they try to make things right?",
+        "Have you seen your child offer to fix or replace things they damaged, or do something kind for someone they upset?",
+        "What does your child do when they realize their actions have caused problems for family members or friends?"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Responsibility Distribution"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on reviewing specific instances where the student offered to make amends, examining the appropriateness and effectiveness of their repair efforts, and identifying opportunities to strengthen their capacity for meaningful restoration.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 6",
+        "strand_slug": "year-6",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_01_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student talks about things they like about themselves when prompted by adults",
+            "The student notices when they have grown or changed in simple ways"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student voluntarily shares observations about their own strengths and areas for growth",
+            "The student compares how they handle situations now versus in the past",
+            "The student seeks feedback from trusted adults about their personal development"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates conversations about their evolving sense of self with peers and adults",
+            "The student actively explores different aspects of their identity through various activities and relationships",
+            "The student reflects on how their values and beliefs are developing"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student engages in sustained self-examination across multiple contexts and relationships",
+            "The student articulates how their identity continues to evolve through new experiences and challenges",
+            "The student demonstrates ongoing commitment to understanding their authentic self"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child talks about themselves and who they are becoming?",
+        "When does your child seem most reflective about their own growth and development?",
+        "How does your child respond when family experiences or changes prompt them to think about themselves?"
+      ],
+      "prerequisite_lts": [
+        "Articulating Personal Values and Character Development"
+      ],
+      "developmental_conversation_protocol": "The conversation explores patterns in the student's identity reflection practices, examining how they engage with questions about their developing sense of self and personal growth across different contexts and relationships.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_06_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student asks questions about why someone might be acting differently before deciding they are being mean or weird",
+            "The student pauses to wonder aloud what might be happening for a classmate who seems upset or angry"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student consistently seeks to understand the reasons behind peers' unexpected behaviors rather than immediately labeling them negatively",
+            "The student demonstrates genuine curiosity about different perspectives when conflicts arise in group activities",
+            "The student notices when they are making assumptions about others and actively works to gather more information"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student maintains an exploratory stance toward peers whose choices or values differ significantly from their own",
+            "The student regularly questions their initial impressions of new people or unfamiliar social situations",
+            "The student demonstrates sustained interest in understanding the experiences that shape others' viewpoints during discussions"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student consistently approaches interpersonal tensions and misunderstandings with genuine inquiry about underlying factors",
+            "The student maintains curiosity about others' motivations even when those behaviors challenge their own beliefs or comfort",
+            "The student actively seeks multiple perspectives before forming opinions about complex social situations or community issues"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When your child encounters someone whose behavior seems strange or different, what do you notice about their first response?",
+        "How does your child typically react when they hear about conflicts or disagreements between their friends or classmates?",
+        "What have you observed about how your child approaches understanding people whose backgrounds or choices are very different from your family's?"
+      ],
+      "prerequisite_lts": [
+        "Reading Social Situations and Timing"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student demonstrated curiosity versus judgment about others, examining what supported their orientation toward inquiry and identifying contexts where maintaining this stance feels most challenging.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_07_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student offers to share materials or tools when they see a classmate struggling with a task",
+            "The student celebrates when others succeed by clapping or saying encouraging words"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student notices when peers need help and offers specific assistance without being asked",
+            "The student provides encouragement to teammates during group activities and acknowledges their contributions",
+            "The student adjusts their own approach to better support a struggling group member"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student actively seeks to understand others' goals and offers targeted support strategies",
+            "The student recognizes different strengths in peers and connects them with opportunities that match their abilities",
+            "The student follows up with others to check on their progress toward goals they are working on"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student mentors younger students or peers by sharing knowledge and providing ongoing guidance",
+            "The student creates opportunities for others to showcase their talents and achieve recognition",
+            "The student advocates for resources or support that others need to reach their objectives"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about how your child responds when siblings or friends are trying to accomplish something difficult?",
+        "When your child is part of a team or group project, what do you observe about how they interact with others who might be struggling?",
+        "Have you seen your child go out of their way to help someone else succeed at something they care about?"
+      ],
+      "prerequisite_lts": [
+        "Strategic Task Decomposition",
+        "Risk Assessment and Analysis"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student has supported others' success, examining their motivation, strategies used, and reflection on the impact of their support on others' achievement.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_08_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student spontaneously mentions good things that happened during their day when prompted by adults",
+            "The student draws or writes simple lists of things they like about their family, friends, or activities"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student maintains a weekly gratitude journal or chart with minimal adult reminders",
+            "The student verbally shares appreciation for different aspects of their life during class discussions or family conversations",
+            "The student notices and comments on positive moments across school, home, and friendship contexts"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student independently maintains daily gratitude records using their preferred format or medium",
+            "The student identifies blessings across diverse life domains including relationships, learning, personal growth, and community experiences",
+            "The student references their gratitude practice when discussing challenges or setbacks with peers or adults"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student sustains consistent daily gratitude documentation without external accountability systems",
+            "The student articulates appreciation for complex or abstract blessings such as personal values, growth opportunities, and meaningful connections",
+            "The student integrates gratitude awareness into their decision-making and goal-setting conversations"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about your child mentioning or recording things they are grateful for at home?",
+        "When does your child seem to naturally notice or appreciate good things happening in their daily life?",
+        "How does your child express thankfulness for different parts of their life like family time, friendships, or personal achievements?"
+      ],
+      "prerequisite_lts": [
+        "Solution-Focused Problem Reframing"
+      ],
+      "developmental_conversation_protocol": "The conversation explores how the student's gratitude practice has evolved in consistency and depth, examining their ability to identify blessings across multiple life domains and integrate appreciation into their daily awareness.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_09_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student pauses and asks simple questions like 'Did you mean to?' when something feels unfair",
+            "The student seeks adult help to understand what someone meant before getting upset"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student asks clarifying questions about intentions before reacting to perceived slights",
+            "The student distinguishes between accidental and purposeful actions in peer interactions",
+            "The student verbalizes uncertainty about others' motives rather than assuming negative intent"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student consistently checks assumptions about others' intentions before escalating conflicts",
+            "The student reframes potential conflicts by exploring different interpretations of ambiguous situations",
+            "The student models intention-checking for peers during group disagreements"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student automatically applies intention-checking across diverse conflict contexts including academic, social, and community settings",
+            "The student coaches others in separating impact from intent during complex interpersonal situations",
+            "The student maintains curiosity about others' perspectives even when feeling personally attacked"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When your child feels hurt or upset by something someone did, what have you noticed about how they figure out whether it was on purpose?",
+        "How does your child typically respond when they think someone might have treated them unfairly?",
+        "What have you observed about your child's ability to give others the benefit of the doubt during disagreements at home?"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Assertiveness Outcomes"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student checked or could have checked on intentions before reacting, examining their growing capacity to separate impact from intent and maintain curiosity about others' motivations during potential conflicts.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_10_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student accepts simple apologies from peers without continuing to express anger or upset",
+            "The student participates willingly when a teacher guides them through making up after a conflict"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student acknowledges when someone tries to make things right after causing harm",
+            "The student engages constructively in peer-led repair conversations without adult prompting",
+            "The student shows willingness to rebuild relationships after conflicts are addressed"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student responds thoughtfully to repair attempts even when initially skeptical or hurt",
+            "The student recognizes genuine effort in repair attempts and distinguishes these from superficial gestures",
+            "The student actively participates in restorative processes to rebuild trust and connection"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student responds positively to repair attempts across different relationship contexts and conflict types",
+            "The student supports others in accepting repair attempts when serving as a peer mediator or witness",
+            "The student maintains openness to repair even in complex or emotionally charged situations"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "When someone in your family tries to make things right after hurting your child's feelings, how does your child typically respond?",
+        "Have you noticed your child being willing to accept apologies or efforts to fix problems at home?",
+        "What have you observed about how your child handles it when siblings or friends try to make up after conflicts?"
+      ],
+      "prerequisite_lts": [
+        "Identifying Alternative Actions"
+      ],
+      "developmental_conversation_protocol": "The conversation explores specific instances where the student responded to repair attempts, examining their openness to rebuilding relationships and their growing capacity to recognize genuine efforts to make amends.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-9_cluster_11_lt_02",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student participates in classroom recycling activities when prompted by the teacher",
+            "The student shows concern when they see litter in the playground and tells an adult"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student volunteers for school environmental projects like garden maintenance or waste audits",
+            "The student reminds peers about environmental practices during group activities",
+            "The student brings environmental concerns from home to share with the class"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student initiates environmental action projects within the school community",
+            "The student maintains consistent environmental practices across different settings without reminders",
+            "The student advocates for environmental changes in student council or peer groups"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student leads community-based environmental conservation initiatives beyond the school setting",
+            "The student mentors younger students in environmental action projects",
+            "The student integrates environmental considerations into academic work across multiple subjects"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What have you noticed about your child's involvement in environmental activities or projects at home or in the community?",
+        "How does your child respond when they encounter environmental issues like waste or pollution in your neighborhood?",
+        "What environmental practices has your child initiated or maintained in your household?"
+      ],
+      "prerequisite_lts": [
+        "Analyzing Democratic Participation Factors"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on documenting the student's demonstrated commitment to environmental action through specific examples of participation, leadership, and sustained engagement across different contexts and time periods.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 9",
+        "strand_slug": "year-9",
+        "detection_confidence": 0.7
+      }
+    },
+    {
+      "lt_id": "year-12_cluster_03_lt_03",
+      "bands": [
+        {
+          "band": "Year 2",
+          "observable_behaviours": [
+            "The student uses simple physical strategies like deep breathing or counting when upset with teacher prompting",
+            "The student seeks comfort from trusted adults when experiencing strong emotions"
+          ],
+          "self_reflection_prompt": "Tell me five things you like about yourself. What is one thing that is really important to you?"
+        },
+        {
+          "band": "Year 6",
+          "observable_behaviours": [
+            "The student independently applies breathing techniques or movement breaks when feeling overwhelmed",
+            "The student talks through problems with peers or adults using basic emotional vocabulary",
+            "The student recognises when they need to step away from challenging situations"
+          ],
+          "self_reflection_prompt": "Draw three pictures of yourself in different situations. How do you behave differently in each, and why?"
+        },
+        {
+          "band": "Year 9",
+          "observable_behaviours": [
+            "The student combines multiple regulation strategies such as cognitive reframing with physical techniques during stress",
+            "The student maintains emotional balance across different social contexts including peer conflicts",
+            "The student adapts their regulation approach based on the specific emotional challenge they are facing"
+          ],
+          "self_reflection_prompt": "Reflect on your developing identity. Who is a role model for you and what strengths are you working on, and why?"
+        },
+        {
+          "band": "Year 12",
+          "observable_behaviours": [
+            "The student consistently integrates physical, social, and cognitive regulation strategies across academic, social, and personal challenges",
+            "The student maintains emotional resilience during extended periods of stress or uncertainty",
+            "The student models effective emotional regulation practices for younger students or peers"
+          ],
+          "self_reflection_prompt": "Write about who you are now and the person you hope to become. What values will guide your decisions in the future?"
+        }
+      ],
+      "parent_prompts": [
+        "What strategies have you noticed your child using at home when they feel frustrated, anxious, or upset?",
+        "How does your child handle disappointments or setbacks, and what do they do to bounce back?",
+        "When your child faces challenging emotions, do they seek support from others or use particular techniques to calm themselves?"
+      ],
+      "prerequisite_lts": [
+        "Resilience Strategy Knowledge"
+      ],
+      "developmental_conversation_protocol": "The conversation focuses on identifying which physical, social, and cognitive regulation strategies the student finds most effective in different situations, and planning how to strengthen their regular practice of multi-strategy approaches to maintain emotional resilience.",
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 2,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        },
+        {
+          "run": 3,
+          "signature": [
+            [
+              "Year 2",
+              2
+            ],
+            [
+              "Year 6",
+              3
+            ],
+            [
+              "Year 9",
+              3
+            ],
+            [
+              "Year 12",
+              3
+            ],
+            [
+              "parents",
+              3
+            ]
+          ],
+          "parent_prompt_count": 3
+        }
+      ],
+      "stability_diagnostics": [],
+      "quality_gate_passed": true,
+      "quality_gate_failures": [],
+      "strand": {
+        "strand_name": "YEAR 12",
+        "strand_slug": "year-12",
+        "detection_confidence": 0.7
+      }
+    }
+  ],
   "halted_lts": []
 }

@@ -37,10 +37,10 @@
   "per_strand_counts": {
     "year-2": {
       "strand_name": "YEAR 2",
-      "kud_items": 0,
-      "halted_blocks": 28,
-      "clusters": 0,
-      "lts": 0,
+      "kud_items": 30,
+      "halted_blocks": 0,
+      "clusters": 12,
+      "lts": 26,
       "rubrics": 0,
       "rubric_gate_fail": 0,
       "rubric_gen_fail": 0,
@@ -48,10 +48,10 @@
     },
     "year-6": {
       "strand_name": "YEAR 6",
-      "kud_items": 0,
-      "halted_blocks": 28,
-      "clusters": 0,
-      "lts": 0,
+      "kud_items": 31,
+      "halted_blocks": 0,
+      "clusters": 12,
+      "lts": 27,
       "rubrics": 0,
       "rubric_gate_fail": 0,
       "rubric_gen_fail": 0,
@@ -59,10 +59,10 @@
     },
     "year-9": {
       "strand_name": "YEAR 9",
-      "kud_items": 0,
-      "halted_blocks": 28,
-      "clusters": 0,
-      "lts": 0,
+      "kud_items": 32,
+      "halted_blocks": 0,
+      "clusters": 12,
+      "lts": 27,
       "rubrics": 0,
       "rubric_gate_fail": 0,
       "rubric_gen_fail": 0,
@@ -70,10 +70,10 @@
     },
     "year-12": {
       "strand_name": "YEAR 12",
-      "kud_items": 0,
-      "halted_blocks": 28,
-      "clusters": 0,
-      "lts": 0,
+      "kud_items": 31,
+      "halted_blocks": 0,
+      "clusters": 12,
+      "lts": 24,
       "rubrics": 0,
       "rubric_gate_fail": 0,
       "rubric_gen_fail": 0,
@@ -81,9 +81,9 @@
     }
   },
   "unified_counts": {
-    "kud_items": 0,
-    "clusters": 0,
-    "lts": 0,
+    "kud_items": 124,
+    "clusters": 48,
+    "lts": 104,
     "rubrics": 0,
     "supporting_components": 0
   },
@@ -97,26 +97,10 @@
     "total_output_tokens": 0,
     "estimated_cost_usd": null,
     "by_strand": {
-      "year-2": {
-        "total_input_tokens": 0,
-        "total_output_tokens": 0,
-        "per_stage": {}
-      },
-      "year-6": {
-        "total_input_tokens": 0,
-        "total_output_tokens": 0,
-        "per_stage": {}
-      },
-      "year-9": {
-        "total_input_tokens": 0,
-        "total_output_tokens": 0,
-        "per_stage": {}
-      },
-      "year-12": {
-        "total_input_tokens": 0,
-        "total_output_tokens": 0,
-        "per_stage": {}
-      }
+      "year-2": {},
+      "year-6": {},
+      "year-9": {},
+      "year-12": {}
     }
   }
 }

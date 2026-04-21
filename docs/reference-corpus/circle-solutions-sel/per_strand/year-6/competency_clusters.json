@@ -1,0 +1,650 @@
+{
+  "reference_authoring_version": "0.3.0",
+  "source_slug": "strand-year-6",
+  "model": "claude-sonnet-4-20250514",
+  "temperature": 0.3,
+  "runs": 3,
+  "overall_stability_flag": "stable",
+  "overall_stability_diagnostics": [],
+  "unassigned_kud_item_ids": [],
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "competency_name": "Self-Awareness",
+      "competency_definition": "The ability to recognize and articulate one's roles, strengths, qualities, and values across different contexts.",
+      "kud_item_ids": [
+        "blk_0003_item_01",
+        "blk_0004_item_01",
+        "blk_0005_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0003",
+        "blk_0004",
+        "blk_0005"
+      ],
+      "source_position_start": 4,
+      "source_position_end": 6,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Self-Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0005_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Self-Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0005_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Self-Awareness and Identity",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0003_item_01",
+            "blk_0004_item_01",
+            "blk_0005_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_02",
+      "competency_name": "Emotional Knowledge",
+      "competency_definition": "The ability to understand emotions as a continuum and discuss their control and external influences.",
+      "kud_item_ids": [
+        "blk_0007_item_01",
+        "blk_0007_item_02",
+        "blk_0008_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0007",
+        "blk_0008"
+      ],
+      "source_position_start": 9,
+      "source_position_end": 10,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 1": 1,
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Emotional Knowledge",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Emotional Knowledge",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Emotional Knowledge and Understanding",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0007_item_01",
+            "blk_0007_item_02",
+            "blk_0008_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_03",
+      "competency_name": "Emotional Skills",
+      "competency_definition": "The ability to regulate, express, and build resilience through emotional vocabulary and thinking strategies.",
+      "kud_item_ids": [
+        "blk_0010_item_01",
+        "blk_0011_item_01",
+        "blk_0012_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0010",
+        "blk_0011",
+        "blk_0012"
+      ],
+      "source_position_start": 13,
+      "source_position_end": 15,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 1,
+        "Type 1": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Emotional Skills",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Emotional Skills and Regulation",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Emotional Regulation and Expression",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0010_item_01",
+            "blk_0011_item_01",
+            "blk_0012_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_04",
+      "competency_name": "Shared Humanity",
+      "competency_definition": "The ability to understand and articulate human uniqueness and universal ethical principles.",
+      "kud_item_ids": [
+        "blk_0014_item_01",
+        "blk_0015_item_01",
+        "blk_0015_item_02"
+      ],
+      "source_block_ids": [
+        "blk_0014",
+        "blk_0015"
+      ],
+      "source_position_start": 18,
+      "source_position_end": 19,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 2": 1,
+        "Type 1": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Shared Humanity",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0015_item_02"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Shared Humanity",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0015_item_02"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Understanding Human Diversity and Universal Values",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0014_item_01",
+            "blk_0015_item_01",
+            "blk_0015_item_02"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_05",
+      "competency_name": "Interpersonal Skills",
+      "competency_definition": "A sustained orientation toward effective communication, kindness, and collaborative group work.",
+      "kud_item_ids": [
+        "blk_0017_item_01",
+        "blk_0018_item_01",
+        "blk_0019_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0017",
+        "blk_0018",
+        "blk_0019"
+      ],
+      "source_position_start": 22,
+      "source_position_end": 24,
+      "dominant_knowledge_type": "Type 3",
+      "knowledge_type_breakdown": {
+        "Type 3": 3
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Interpersonal Skills",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Interpersonal Skills",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Interpersonal Communication and Collaboration",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0017_item_01",
+            "blk_0018_item_01",
+            "blk_0019_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_06",
+      "competency_name": "Empathy and Awareness of Others",
+      "competency_definition": "The ability to recognize and understand others' emotions through situational context and nonverbal cues.",
+      "kud_item_ids": [
+        "blk_0021_item_01",
+        "blk_0022_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0021",
+        "blk_0022"
+      ],
+      "source_position_start": 27,
+      "source_position_end": 28,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Empathy and Awareness of Others",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Empathy and Awareness of Others",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Empathy and Social Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0021_item_01",
+            "blk_0022_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_07",
+      "competency_name": "Leadership and Personal Growth",
+      "competency_definition": "A sustained orientation toward self-improvement, inclusion, and learning from mistakes.",
+      "kud_item_ids": [
+        "blk_0024_item_01",
+        "blk_0024_item_02",
+        "blk_0025_item_01",
+        "blk_0026_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0024",
+        "blk_0025",
+        "blk_0026"
+      ],
+      "source_position_start": 31,
+      "source_position_end": 33,
+      "dominant_knowledge_type": "Type 3",
+      "knowledge_type_breakdown": {
+        "Type 3": 3,
+        "Type 1": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Leadership and Personal Growth",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Leadership and Personal Growth",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Leadership and Personal Growth",
+          "dominant_knowledge_type": "Type 3",
+          "kud_item_ids": [
+            "blk_0024_item_01",
+            "blk_0024_item_02",
+            "blk_0025_item_01",
+            "blk_0026_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_08",
+      "competency_name": "Positive Thinking and Gratitude",
+      "competency_definition": "The ability to identify sources of gratitude and recognize the impact of positive thinking.",
+      "kud_item_ids": [
+        "blk_0028_item_01",
+        "blk_0029_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0028",
+        "blk_0029"
+      ],
+      "source_position_start": 36,
+      "source_position_end": 37,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Positive Thinking and Gratitude",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Positive Thinking and Gratitude",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Positive Thinking and Gratitude",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0028_item_01",
+            "blk_0029_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_09",
+      "competency_name": "Conflict Management",
+      "competency_definition": "The ability to advocate for others and recognize unsafe situations requiring withdrawal.",
+      "kud_item_ids": [
+        "blk_0031_item_01",
+        "blk_0032_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0031",
+        "blk_0032"
+      ],
+      "source_position_start": 40,
+      "source_position_end": 41,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 3": 1,
+        "Type 2": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Conflict Management",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Conflict Resolution and Safety",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Conflict Resolution and Safety Awareness",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0031_item_01",
+            "blk_0032_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_10",
+      "competency_name": "Repair and Restoration",
+      "competency_definition": "The ability to understand responsibility distribution and take action to repair harm caused.",
+      "kud_item_ids": [
+        "blk_0034_item_01",
+        "blk_0035_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0034",
+        "blk_0035"
+      ],
+      "source_position_start": 44,
+      "source_position_end": 45,
+      "dominant_knowledge_type": "Type 1",
+      "knowledge_type_breakdown": {
+        "Type 1": 1,
+        "Type 3": 1
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Repair and Restoration",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Repair and Restoration",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Responsibility and Restorative Justice",
+          "dominant_knowledge_type": "Type 1",
+          "kud_item_ids": [
+            "blk_0034_item_01",
+            "blk_0035_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_11",
+      "competency_name": "Ethics and Human Rights",
+      "competency_definition": "The ability to discuss fairness, justice, and apply principles of inclusion and equity.",
+      "kud_item_ids": [
+        "blk_0037_item_01",
+        "blk_0038_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0037",
+        "blk_0038"
+      ],
+      "source_position_start": 48,
+      "source_position_end": 49,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Ethics and Human Rights",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Ethics and Human Rights",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Ethics and Social Justice",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0037_item_01",
+            "blk_0038_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    },
+    {
+      "cluster_id": "cluster_12",
+      "competency_name": "Meaning and Spirituality",
+      "competency_definition": "The ability to identify and articulate what matters in life and recognize positive role models.",
+      "kud_item_ids": [
+        "blk_0040_item_01",
+        "blk_0041_item_01"
+      ],
+      "source_block_ids": [
+        "blk_0040",
+        "blk_0041"
+      ],
+      "source_position_start": 52,
+      "source_position_end": 53,
+      "dominant_knowledge_type": "Type 2",
+      "knowledge_type_breakdown": {
+        "Type 2": 2
+      },
+      "stability_flag": "stable",
+      "per_run_signatures": [
+        {
+          "run": 1,
+          "competency_name": "Meaning and Spirituality",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        },
+        {
+          "run": 2,
+          "competency_name": "Meaning and Spirituality",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        },
+        {
+          "run": 3,
+          "competency_name": "Meaning-Making and Role Models",
+          "dominant_knowledge_type": "Type 2",
+          "kud_item_ids": [
+            "blk_0040_item_01",
+            "blk_0041_item_01"
+          ]
+        }
+      ],
+      "stability_diagnostics": []
+    }
+  ]
+}
