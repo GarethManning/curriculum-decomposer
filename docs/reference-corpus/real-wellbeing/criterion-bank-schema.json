@@ -1,0 +1,69 @@
+{
+  "schema_version": "v2",
+  "description": "Canonical schema for REAL wellbeing criterion bank entries. Every entry must conform to this schema. Read this file at the start of any session that generates or modifies criterion bank entries.",
+  "t1_t2_entry": {
+    "required_fields_in_order": [
+      "criterion_id",
+      "associated_lt_ids",
+      "band",
+      "band_label",
+      "lt_type",
+      "strand",
+      "criterion_statement",
+      "criterion_label",
+      "source_kud_item_ids",
+      "competency_level_descriptors",
+      "decomposition_rationale",
+      "prerequisite_criterion_ids",
+      "prerequisite_edges_detail",
+      "schema_version"
+    ],
+    "competency_level_descriptors_field_order": [
+      "no_evidence",
+      "emerging",
+      "developing",
+      "competent",
+      "extending"
+    ],
+    "criterion_statement_rule": "First-person 'I can...' statement capturing the full cognitive demand of the KUD Do statement for this LT at this band. Must not truncate or reduce the cognitive level of the Do statement.",
+    "competent_rule": "The Do statement from the KUD chart, verbatim or as a precise equivalent. This is the anchor for the whole rubric.",
+    "forbidden_fields": ["observation_indicators", "confusable_behaviours", "absence_indicators", "conversation_prompts"]
+  },
+  "t3_entry": {
+    "required_fields_in_order": [
+      "criterion_id",
+      "associated_lt_ids",
+      "band",
+      "band_label",
+      "lt_type",
+      "strand",
+      "criterion_statement",
+      "criterion_label",
+      "source_kud_item_ids",
+      "observation_indicators",
+      "confusable_behaviours",
+      "absence_indicators",
+      "conversation_prompts",
+      "decomposition_rationale",
+      "prerequisite_criterion_ids",
+      "prerequisite_edges_detail",
+      "schema_version"
+    ],
+    "criterion_statement_rule": "Third-person description of the dispositional quality being observed: 'The student [dispositional quality description]'. Not a rubric criterion.",
+    "forbidden_fields": ["competency_level_descriptors"],
+    "observation_indicators_rule": "Array of 3-5 specific observable third-person statements beginning 'The student...'. Calibrated to developmental band.",
+    "confusable_behaviours_rule": "Array of 2-3 entries naming a behaviour that looks like the disposition but is not, with explicit distinction.",
+    "absence_indicators_rule": "Array of 2-3 descriptions of what absence looks like in contexts where the disposition could reasonably be expected.",
+    "conversation_prompts_rule": "Array of 2-3 open questions. Bands A-B: concrete story-based. Bands C-D: pattern-focused. Bands E-F: metacognitive and cross-context."
+  },
+  "band_labels": {
+    "A": "Water/Air Dragons (ages 5-8)",
+    "B": "Earth Dragons (ages 8-10)",
+    "C": "Fire Dragons (ages 10-12)",
+    "D": "Metal/Light Dragons (ages 12-14)",
+    "E": "Light Dragons (ages 13-15)",
+    "F": "Post-Metal Dragons (ages 15-17)"
+  },
+  "criterion_id_format": "real-wellbeing-2026-04_crit_NNNN",
+  "edge_types": ["within_lt_band", "cross_lt_source_stated"]
+}
