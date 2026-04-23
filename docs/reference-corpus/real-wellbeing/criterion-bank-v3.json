@@ -4191,7 +4191,9 @@
       "prerequisite_criterion_ids": [
         "real-wellbeing-2026-04_crit_0098",
         "real-wellbeing-2026-04_crit_0099",
-        "real-wellbeing-2026-04_crit_0100"
+        "real-wellbeing-2026-04_crit_0100",
+        "real-wellbeing-2026-04_crit_0080",
+        "real-wellbeing-2026-04_crit_0082"
       ],
       "prerequisite_edges_detail": [
         {
@@ -4208,6 +4210,16 @@
           "from": "real-wellbeing-2026-04_crit_0100",
           "to": "real-wellbeing-2026-04_crit_0101",
           "edge_type": "within_lt_band"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0080",
+          "to": "real-wellbeing-2026-04_crit_0101",
+          "edge_type": "hard_prerequisite"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0082",
+          "to": "real-wellbeing-2026-04_crit_0101",
+          "edge_type": "hard_prerequisite"
         }
       ],
       "schema_version": "v2"
@@ -4237,7 +4249,9 @@
       "prerequisite_criterion_ids": [
         "real-wellbeing-2026-04_crit_0098",
         "real-wellbeing-2026-04_crit_0099",
-        "real-wellbeing-2026-04_crit_0100"
+        "real-wellbeing-2026-04_crit_0100",
+        "real-wellbeing-2026-04_crit_0080",
+        "real-wellbeing-2026-04_crit_0082"
       ],
       "prerequisite_edges_detail": [
         {
@@ -4254,6 +4268,16 @@
           "from": "real-wellbeing-2026-04_crit_0100",
           "to": "real-wellbeing-2026-04_crit_0102",
           "edge_type": "within_lt_band"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0080",
+          "to": "real-wellbeing-2026-04_crit_0102",
+          "edge_type": "hard_prerequisite"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0082",
+          "to": "real-wellbeing-2026-04_crit_0102",
+          "edge_type": "hard_prerequisite"
         }
       ],
       "schema_version": "v2"
@@ -6330,7 +6354,9 @@
       "prerequisite_criterion_ids": [
         "real-wellbeing-2026-04_crit_0098",
         "real-wellbeing-2026-04_crit_0099",
-        "real-wellbeing-2026-04_crit_0100"
+        "real-wellbeing-2026-04_crit_0100",
+        "real-wellbeing-2026-04_crit_0080",
+        "real-wellbeing-2026-04_crit_0082"
       ],
       "prerequisite_edges_detail": [
         {
@@ -6347,6 +6373,16 @@
           "from": "real-wellbeing-2026-04_crit_0100",
           "to": "real-wellbeing-2026-04_crit_0180",
           "edge_type": "within_lt_band"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0080",
+          "to": "real-wellbeing-2026-04_crit_0180",
+          "edge_type": "hard_prerequisite"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0082",
+          "to": "real-wellbeing-2026-04_crit_0180",
+          "edge_type": "hard_prerequisite"
         }
       ],
       "schema_version": "v2"
@@ -6374,13 +6410,25 @@
       },
       "decomposition_rationale": "Original criterion combined (1) describing an adjustment I implemented and (2) reporting the empirical effect observed. A student may document the intervention clearly without having accurately tracked the effect. Now separately assessable.",
       "prerequisite_criterion_ids": [
-        "real-wellbeing-2026-04_crit_0180"
+        "real-wellbeing-2026-04_crit_0180",
+        "real-wellbeing-2026-04_crit_0080",
+        "real-wellbeing-2026-04_crit_0082"
       ],
       "prerequisite_edges_detail": [
         {
           "from": "real-wellbeing-2026-04_crit_0180",
           "to": "real-wellbeing-2026-04_crit_0181",
           "edge_type": "within_lt_band"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0080",
+          "to": "real-wellbeing-2026-04_crit_0181",
+          "edge_type": "hard_prerequisite"
+        },
+        {
+          "from": "real-wellbeing-2026-04_crit_0082",
+          "to": "real-wellbeing-2026-04_crit_0181",
+          "edge_type": "hard_prerequisite"
         }
       ],
       "schema_version": "v2"
