@@ -350,3 +350,45 @@ The remaining 93 T1/T2 criteria were judged to describe a single integrated cogn
 ## Next step
 
 Human review of this candidate report. Approved decompositions will be executed in Phase 2 (Opus) per STATE.md section 5 step 4. No Phase 2 work has been performed in this session.
+
+---
+
+## Phase 2 completion — 2026-04-23
+
+Phase 2 executed: decomposition applied to all 34 Phase-1 candidates plus all 10 Band F criteria re-reviewed under Phase 2 Step 2. All 10 Band F criteria were decomposed on the basis that a teacher marking student work on each one would need to distinguish components to give honest feedback.
+
+**Band F decisions (all ten decompose):**
+
+| crit_id | LT | Reason |
+|---|---|---|
+| crit_0157 | lt_1_3 | Three distinct rubric foci: analytic quality, engagement disposition, non-universalising acknowledgement. |
+| crit_0109 | lt_2_1 | Audit, analysis, and proposal are distinct skills. |
+| crit_0111 | lt_2_2 | Four separable hallmarks of mature decision-making. |
+| crit_0115 | lt_4_1 | Facilitation with three distinct rubric dimensions. |
+| crit_0117 | lt_4_2 | Four rubric dimensions: evidence, interests, uncertainty, position. |
+| crit_0131 | lt_4_3 | Analysis, contextual evaluation, research-grounded proposal. |
+| crit_0125 | lt_6_1 | Four distinct analytic moves map cleanly to four rubric dimensions. |
+| crit_0123 | lt_7_1 | Framework, cross-domain evidence, application plan. |
+| crit_0137 | lt_8_1 | Explicit (a)(b)(c) structure signals three assessable moves. |
+| crit_0141 | lt_8_2 | Explicit (a)(b)(c) structure with distinct rubric dimensions. |
+
+**Execution summary:**
+
+- Originals decomposed: **44** (34 Phase-1 + 10 Band F)
+- New criteria created: **125**, numbered `real-wellbeing-2026-04_crit_0170` to `real-wellbeing-2026-04_crit_0294`
+- Criterion bank entry count: **169 → 250**
+- Total edges: 388 → 469
+- DAG: PASS (no cycles, no self-loops, no unresolved IDs)
+- strand_summaries updated per competency group
+- Backup: `criterion-bank-v2-pre-decomposition.json`
+
+Each new criterion: inherits associated_lt_ids, band, band_label, lt_type, strand, schema_version, and source_kud_item_ids from its original; carries a decomposition_rationale naming what the original combined and why the split is justified; has fresh, criterion-specific competency_level_descriptors written for this specific operation (no_evidence → emerging → developing → competent → extending); chains within-band so the first replacement inherits the original's prereqs (any removed IDs remapped to their last replacement) and subsequent replacements chain on the prior replacement.
+
+**What this session did not cover:**
+
+- Flat prerequisite structure fix (QA step 5). Cross-LT prerequisite edges that do not hold at early bands have not been audited.
+- KUD chart panel review (QA step 6).
+- T3 observation indicator review for LTs 1.1, 1.2, 3.2, 7.2, 8.3 (QA step 8).
+- Factual accuracy check of LT 6.1 neuroscience content (QA step 7).
+- Rebuild of `unified-wellbeing-data.json` and `wellbeing-index.json` from the expanded criterion bank (QA step 9) — these files still reference the pre-decomposition 169-criterion structure.
+
