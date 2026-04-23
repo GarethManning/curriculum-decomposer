@@ -22,6 +22,12 @@
 
 **School-agnostic outputs.** No skill output may reference any named school, programme, unit, or institution. Skills work from LT definitions and framework theory only.
 
+**Panel gate before downstream build.** No downstream artefact is built until the upstream artefact has passed a panel review gate with human sign-off. For the REAL wellbeing framework: KUD charts → criterion bank → unified data file → programme guide. Schema checks confirm well-formedness only — they are not quality gates.
+
+**Generic output is a failure.** Any descriptor, criterion, or artefact that could apply to any other entry without modification is a failure. Every generation prompt must include an explicit rule prohibiting generic output.
+
+**Fix scope must be stated.** Every targeted fix session must end with an explicit statement of what the fix did not cover. A fix that addresses one flaw while leaving adjacent flaws untouched must name the adjacent flaws before closing.
+
 ## Criterion bank invariants
 
 **Field order for competency_level_descriptors** — always in this exact order, no exceptions:

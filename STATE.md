@@ -296,22 +296,21 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**CW-3 complete.** Next: CASEL × Circle Solutions criterion banks (was labelled CW-3 in prior STATE — now CW-4 or next session). Generate criterion banks for `casel-sel-continuum` and `circle-solutions-sel` corpora. Generate criterion banks for `casel-sel-continuum` and `circle-solutions-sel` corpora. Both corpora are now pipeline-generated and have full unified artefacts. CASEL: 93 LTs, 6 bands A–F. Circle Solutions: 104 LTs, 4 year levels (A/B, C, D/E, F).
+**QA phase — REAL wellbeing framework.** The criterion bank and unified data file have known quality problems identified 2026-04-23. The QA phase must complete before any programme guide or dashboard work begins. Steps in strict order:
 
-**REAL-2b (if needed) — Spot-check E/F authored content with REAL School teachers.** The 28 Band E/F cells in band-tagged-real-wellbeing-v1.json are newly authored. Review gate confirmed Do statements; full teacher review of Understand statements and disciplinary warrants has not yet occurred.
-
-**Welsh CfW criterion bank (HR-2d) — if needed.** Generate criterion_bank.json for the new welsh-cfw-health-wellbeing corpus (HR-2c run, 45 LTs). Use `scripts/generate_criterion_bank.py` or equivalent. Previous criterion_bank.json is archived in `_pre-hr2c-archive/` (was for the 20-LT flat-source run).
-
-**REAL-2 (if needed) — Spot-check KUD and criteria with REAL School teachers.** Gate warnings surfaced (7 LT-level, 4 band-level) should be reviewed with Gareth / REAL teachers. Particular items: `lt_4_2` mental-state verb "understand", `lt_5_1` band_coverage warning (Band D inline examples), T3 observation indicators with reasoning verbs.
-
-**Track 1b — Band decomposer scoping review.** Review scope and approach for the band decomposer tool (single-grade planning from `range_without_bands` sources). The three affected sources (RSHE 2025, DfE KS3 Maths, NZ SS) are now flagged with `developmental_scope_range_without_bands` at detection time. Band decomposer is the next architectural piece.
-
-**4c-2c (deferred) — Lemmatiser improvements.** Fix `-ful`/`-fully` morphology, hyphen splitting, name/identify coupling in `_lemmatise()`. Defer unless teacher review flags the 2 persistent single_construct false positives as blocking.
+1. Review Prompt 1 output (generic descriptor rewrite — Opus session complete 2026-04-23). Read printed sample entries and confirm descriptors are criterion-specific and register-consistent. [GATE — human sign-off required]
+2. Run Prompt 2 Phase 1: decomposition audit. Produces decomposition-candidates.md only. No file modifications.
+3. Review decomposition-candidates.md and approve proposed splits. [GATE — human sign-off required]
+4. Run Prompt 2 Phase 2: execute approved decompositions (Opus).
+5. Fix flat prerequisite structure: audit all 19 LTs for prerequisite_lt_ids that don't hold at early bands. Fix band-by-band (Sonnet).
+6. Panel review all 19 KUD charts: five-persona panel, Opus, chat session. Any LT below 88 requires revision. [GATE — human sign-off required]
+7. Factual accuracy check: LT 6.1 neuroscience content, with web search.
+8. Review T3 observation indicators for LTs 1.1, 1.2, 3.2, 7.2, 8.3 — five-persona panel. [GATE — human sign-off required]
+9. Rebuild unified-wellbeing-data.json and wellbeing-index.json from all corrected sources (Sonnet).
+10. Final cross-artefact consistency check: criterion IDs, entry counts, DAG, T3 indicators, schema versions. [GATE — human sign-off required]
 
 Invocation:
-```
 cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model sonnet
-```
 
 ## 6. Open questions
 
@@ -322,4 +321,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-23 at end of Session REAL-3 (unified wellbeing data files for all 19 LTs complete). Update at end of every session per `docs/process/state-md-discipline.md`.*
+*Last updated 2026-04-23 — QA phase defined; STATE section 5 updated; CLAUDE.md and PROMPT_STANDARDS additions committed. Update at end of every session per `docs/process/state-md-discipline.md`.*
