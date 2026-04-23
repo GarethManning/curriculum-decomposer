@@ -321,4 +321,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-23 — Phase 2 decomposition complete. criterion-bank-v2.json updated. New entry count: 250. DAG: PASS. Awaiting prerequisite structure fix (QA step 5).*
+*Last updated 2026-04-23 — QA step 5 complete. Prerequisite structure fixed band-by-band across all 19 LTs. 237 → 200 edges (37 removed). Awaiting KUD chart panel review (QA step 6).*

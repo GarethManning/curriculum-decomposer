@@ -552,7 +552,8 @@
             "real-wellbeing-2026-04_crit_0019"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -569,7 +570,8 @@
             "real-wellbeing-2026-04_crit_0021"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -587,7 +589,8 @@
             "real-wellbeing-2026-04_crit_0024"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -604,7 +607,8 @@
             "real-wellbeing-2026-04_crit_0026"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -620,7 +624,8 @@
             "real-wellbeing-2026-04_crit_0110"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -636,7 +641,8 @@
             "real-wellbeing-2026-04_crit_0111"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         }
@@ -668,7 +674,8 @@
             "real-wellbeing-2026-04_crit_0028"
           ],
           "prerequisite_lt_ids": [
-            "lt_6_1"
+            "lt_6_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -686,7 +693,8 @@
             "real-wellbeing-2026-04_crit_0030"
           ],
           "prerequisite_lt_ids": [
-            "lt_6_1"
+            "lt_6_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -704,7 +712,8 @@
             "real-wellbeing-2026-04_crit_0033"
           ],
           "prerequisite_lt_ids": [
-            "lt_6_1"
+            "lt_6_1",
+            "lt_6_2"
           ],
           "observation_indicators": []
         },
@@ -791,7 +800,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_3_1",
-            "lt_6_1"
+            "lt_6_1",
+            "lt_1_2"
           ],
           "observation_indicators": [
             "The student names a specific trusted adult (parent, class teacher, school counsellor) they could go to for help, unprompted.",
@@ -813,7 +823,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_3_1",
-            "lt_6_1"
+            "lt_6_1",
+            "lt_1_2"
           ],
           "observation_indicators": [
             "The student names a bodily early-warning sign in themselves (tiredness, irritability, headache, tight chest) in their own words.",
@@ -835,7 +846,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_3_1",
-            "lt_6_1"
+            "lt_6_1",
+            "lt_1_2"
           ],
           "observation_indicators": [
             "The student articulates — spontaneously or on brief prompt — a self-care plan with context-specific strategies for both home and school.",
@@ -941,6 +953,8 @@
             "real-wellbeing-2026-04_crit_0042"
           ],
           "prerequisite_lt_ids": [
+            "lt_1_2",
+            "lt_5_1",
             "lt_6_1"
           ],
           "observation_indicators": []
@@ -1082,7 +1096,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_6_2",
-            "lt_6_1"
+            "lt_6_1",
+            "lt_4_1"
           ],
           "observation_indicators": []
         },
@@ -1104,7 +1119,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_6_2",
-            "lt_6_1"
+            "lt_6_1",
+            "lt_4_1"
           ],
           "observation_indicators": []
         },
@@ -1201,7 +1217,9 @@
             "real-wellbeing-2026-04_crit_0126"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_2"
+            "lt_1_2",
+            "lt_6_1",
+            "lt_4_1"
           ],
           "observation_indicators": []
         },
@@ -1219,7 +1237,9 @@
             "real-wellbeing-2026-04_crit_0127"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_2"
+            "lt_1_2",
+            "lt_6_1",
+            "lt_4_1"
           ],
           "observation_indicators": []
         },
@@ -1237,7 +1257,9 @@
             "real-wellbeing-2026-04_crit_0128"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_2"
+            "lt_1_2",
+            "lt_6_1",
+            "lt_4_1"
           ],
           "observation_indicators": []
         },
@@ -1256,6 +1278,7 @@
           ],
           "prerequisite_lt_ids": [
             "lt_1_2",
+            "lt_6_1",
             "lt_4_1"
           ],
           "observation_indicators": []
@@ -1276,6 +1299,7 @@
           ],
           "prerequisite_lt_ids": [
             "lt_1_2",
+            "lt_6_1",
             "lt_4_1"
           ],
           "observation_indicators": []
@@ -1295,6 +1319,7 @@
           ],
           "prerequisite_lt_ids": [
             "lt_1_2",
+            "lt_6_1",
             "lt_4_1"
           ],
           "observation_indicators": []
@@ -1460,7 +1485,9 @@
             "real-wellbeing-2026-04_crit_0072"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_2"
+            "lt_1_2",
+            "lt_5_1",
+            "lt_7_2"
           ],
           "observation_indicators": [
             "The student carries out their classroom job (monitor, tidying, door-holder, register-helper) on most occasions without adult reminders.",
@@ -1480,7 +1507,9 @@
             "real-wellbeing-2026-04_crit_0073"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_2"
+            "lt_1_2",
+            "lt_5_1",
+            "lt_7_2"
           ],
           "observation_indicators": [
             "The student spontaneously includes a peer who appears left out (sitting alone, not being chosen, quieter than usual, declining to join), across multiple occasions in varied group contexts.",
@@ -1501,7 +1530,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_1_2",
-            "lt_5_1"
+            "lt_5_1",
+            "lt_7_2"
           ],
           "observation_indicators": [
             "Across at least one D2R (discover-to-refine) project cycle, the student identifies a real school need unprompted, rather than only responding to an adult's suggested project.",
@@ -1981,7 +2011,8 @@
           ],
           "prerequisite_lt_ids": [
             "lt_7_1",
-            "lt_1_1"
+            "lt_1_1",
+            "lt_6_1"
           ],
           "observation_indicators": [
             "The student stops and tries a different approach when a first attempt does not work, without needing to be told, on most occasions of minor setback.",
@@ -2353,7 +2384,10 @@
             "real-wellbeing-2026-04_crit_0164"
           ],
           "prerequisite_lt_ids": [
-            "lt_1_1"
+            "lt_1_1",
+            "lt_5_1",
+            "lt_8_2",
+            "lt_4_1"
           ],
           "observation_indicators": [
             "The child stops using a digital device when a trusted adult asks, without significant distress, on most occasions. (Parental observation is primary at this band; teacher observation supplements.)",
@@ -2375,7 +2409,9 @@
           ],
           "prerequisite_lt_ids": [
             "lt_1_1",
-            "lt_5_1"
+            "lt_5_1",
+            "lt_8_2",
+            "lt_4_1"
           ],
           "observation_indicators": [
             "The child exits digital content they recognise as unkind, distressing, or inappropriate, without needing an adult to direct them, on most observed occasions. (Parental observation remains primary.)",
@@ -2398,6 +2434,7 @@
           "prerequisite_lt_ids": [
             "lt_1_1",
             "lt_5_1",
+            "lt_8_2",
             "lt_4_1"
           ],
           "observation_indicators": [
