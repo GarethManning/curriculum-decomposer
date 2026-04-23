@@ -80,3 +80,18 @@ and do not reintroduce any of the removed T2 edges.
 | real-wellbeing-2026-04_crit_0296 | real-wellbeing-2026-04_crit_0163 | within_lt_band | restore LT 1.3 Band E → Band F progression after regeneration |
 
 Final v3 DAG: 237 criteria, 439 edges, 0 cycles, 0 self-loops, 0 dangling refs, 0 orphans.
+
+---
+
+## Addendum — cross_lt_source_stated anchor repoint (LT 5.1 Band F)
+
+Two edges repointed after framework-level anchor review against v2 action-primacy at Band F Dos. The LT 5.1 Band F Do is a compound ("complete a communication task across significant difference... and demonstrate in written reflection my awareness of power dynamics"). crit_0212 represents the task-performance half; crit_0213 represents the written-reflection half. Repointing to crit_0212 better matches the v2 action-primacy of the downstream Band F Dos without changing the LT-level prerequisite relationship.
+
+LT 6.1 Band F anchor (crit_0234) was reviewed under the same framing and retained — crit_0234 is the gestalt move at LT 6.1 Band F (integrative positioning on contested wellbeing-science claims); repointing to crit_0231 (a sub-move) would under-represent the LT-level prerequisite.
+
+| from_old | from_new | to | edge_type | reason |
+|---|---|---|---|---|
+| real-wellbeing-2026-04_crit_0213 | real-wellbeing-2026-04_crit_0212 | real-wellbeing-2026-04_crit_0149 | cross_lt_source_stated | anchor repointed from written-reflection half to task-performance half of LT 5.1 Band F compound Do; better matches LT 5.2 Band F v2 action-primacy |
+| real-wellbeing-2026-04_crit_0213 | real-wellbeing-2026-04_crit_0212 | real-wellbeing-2026-04_crit_0169 | cross_lt_source_stated | same rationale, for LT 8.3 Band F (dispositional digital assertiveness is action-primacy, not reflection-primacy) |
+
+Edge count unchanged (repointing preserves count). Final v3 DAG: 237 criteria, 439 edges, 0 cycles, 0 self-loops, 0 dangling refs, 0 orphans.

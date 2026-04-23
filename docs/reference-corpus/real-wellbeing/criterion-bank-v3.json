@@ -4963,7 +4963,7 @@
       "prerequisite_criterion_ids": [
         "real-wellbeing-2026-04_crit_0148",
         "real-wellbeing-2026-04_crit_0234",
-        "real-wellbeing-2026-04_crit_0213"
+        "real-wellbeing-2026-04_crit_0212"
       ],
       "prerequisite_edges_detail": [
         {
@@ -4977,7 +4977,7 @@
           "edge_type": "cross_lt_source_stated"
         },
         {
-          "from": "real-wellbeing-2026-04_crit_0213",
+          "from": "real-wellbeing-2026-04_crit_0212",
           "to": "real-wellbeing-2026-04_crit_0149",
           "edge_type": "cross_lt_source_stated"
         }
@@ -5642,7 +5642,7 @@
       "prerequisite_criterion_ids": [
         "real-wellbeing-2026-04_crit_0168",
         "real-wellbeing-2026-04_crit_0143",
-        "real-wellbeing-2026-04_crit_0213",
+        "real-wellbeing-2026-04_crit_0212",
         "real-wellbeing-2026-04_crit_0282"
       ],
       "prerequisite_edges_detail": [
@@ -5657,7 +5657,7 @@
           "edge_type": "cross_lt_source_stated"
         },
         {
-          "from": "real-wellbeing-2026-04_crit_0213",
+          "from": "real-wellbeing-2026-04_crit_0212",
           "to": "real-wellbeing-2026-04_crit_0169",
           "edge_type": "cross_lt_source_stated"
         },
