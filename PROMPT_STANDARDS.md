@@ -46,3 +46,13 @@
 **schema_version** on new or modified entries is always "v2" or higher.
 
 **DAG validation must pass** before any criterion bank file is committed. Run the validation check and report the result.
+
+**`within_lt_band` edge semantics depend on LT type.** The `within_lt_band` edge type has two distinct meanings, and applying the wrong reading produces spurious review flags.
+
+- **T1 and T2 LTs:** `within_lt_band` is a **strict skill prerequisite**. Band N+1 cannot be demonstrated without Band N being secured first — the Band N+1 observable requires the Band N capacity as a building block. An edge is semantically correct only if the downstream criterion literally depends on the upstream skill or knowledge being in place.
+
+- **T3 LTs:** `within_lt_band` is **developmental staging**, not a gated task dependency. Band N+1 represents a more mature expression of the same underlying disposition — it presupposes the developmental ground of Band N (the earlier-band dispositional move having become available to the student) but does not require Band N to have been evidenced first in order for Band N+1 evidence to count. Dispositions do not gate on prior-band performance the way skills do; they deepen and integrate across bands.
+
+Consequence for review: do not remove T3 `within_lt_band` edges on the basis that the Band N+1 observable is "achievable without demonstrating Band N". That test applies to T2 strict prerequisites; under T3 developmental-staging semantics, the edge is correct even when each band's observable can in principle be evidenced independently. Removing T3 staging edges under the T2 test breaks the schema convention that every T3 LT carries an unbroken A→B→C→D→E→F chain.
+
+If a T3 Band N+1 observable is genuinely unrelated to the Band N developmental ground (not merely a "different move that could arrive by other routes"), the issue is a KUD-chart defect, not an edge-semantics defect. Flag at chart level, not by edge removal.
