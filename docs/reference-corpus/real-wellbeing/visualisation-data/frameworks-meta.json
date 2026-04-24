@@ -71,7 +71,7 @@
       },
       "source_file_path": "docs/reference-corpus/casel-sel-continuum/band-tagged-casel-v2.json",
       "confidence": "high",
-      "license_note": "© CASEL 2023. Educational use permitted; not for commercial redistribution."
+      "license_note": "© CASEL 2023. Non-commercial educational display with attribution permitted per casel.org/terms-of-use; reproduction or redistribution requires prior written permission from CASEL (info@casel.org). Corpus content is paraphrased from the SEL Skills Continuum for educational research purposes."
     },
     {
       "framework_id": "Circle Solutions",
@@ -87,7 +87,7 @@
       },
       "source_file_path": "docs/reference-corpus/circle-solutions-sel/band-tagged-circle-solutions-v2.json",
       "confidence": "medium",
-      "license_note": "© Cowie & Myers 2016. Academic publication; educational use permitted."
+      "license_note": "© Cowie & Myers 2016, published by SAGE Publications. Standard academic copyright applies; systematic reproduction requires SAGE Rights & Permissions approval. Corpus content paraphrased from Tables 2.1–2.2 for educational research purposes; not verbatim reproduction from the book."
     }
   ]
 }

@@ -52,6 +52,8 @@
 
 **Convention inherited without change.** Theme codes T01–T23 and their labels (same 23 themes as v3); matrix column ordering (Theme | Band | REAL | RSHE | Welsh CfW | CASEL SEL | Circle Solutions | gap_count); verbatim-quote policy on external framework cells (`†` for LT-label substitutes); skill_flags and theme_grouping_flags sections at document bottom; no overwriting of v3 matrix files.
 
+**Correction (Phase 2a verification, 2026-04-24):** Summary count table corrected — original v4 commit had arithmetic error (stated 19/42/0/23; actual per-LT detail table gives 20/40/0/24). Per-LT detail table was and remains correct; JSON derivatives (`visualisation-data/crosswalk.json`) correctly parsed the detail table and were not affected by this error.
+
 ---
 
 ## Theme Index
@@ -369,10 +371,10 @@ For each of the 21 REAL LTs, the alignment with each of the four external framew
 
 | Form | Count | Percentage |
 |---|---|---|
-| aligned-with-reciprocal-treatment | 19 | 23% |
-| partial-alignment | 42 | 50% |
+| aligned-with-reciprocal-treatment | 20 | 24% |
+| partial-alignment | 40 | 48% |
 | reversed | 0 | 0% |
-| absent | 23 | 27% |
+| absent | 24 | 29% |
 
 No `reversed` alignments were recorded in this pass. The form remains available for future LT–framework pairs; the closest candidate (RSHE framing sexual-health content propositionally where REAL frames it as rights-based navigation — noted in v3 convergence section 3b) has been classified as `partial-alignment` with the grain difference explicitly stated, because both frameworks cover the same territory rather than approaching it from genuinely divergent directions.
 
