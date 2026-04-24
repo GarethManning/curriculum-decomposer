@@ -4,6 +4,18 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session REAL-9c (Phase 0.2 Pass B — preflight 8→12 checks + PROMPT_STANDARDS gate criteria, specificity rule, gate-failure procedure)** — 2026-04-24 — COMMITTED.
+
+Extended preflight from 8 to 12 checks (criterion-to-LT integrity, LT-to-criterion integrity, orphan detection, criterion-level prerequisite DAG). Added four new sections to PROMPT_STANDARDS.md: preflight session-start discipline, specificity rule, named gate criteria (four gates), gate-failure procedure (three-cycle). Interim notes documented for shared-context panel mode (until Phase 0.3) and 88 threshold (until Phase 0.5).
+
+- **scripts/preflight.py — extended to 12 checks.** New Check 9 (criterion→LT referential integrity: every `associated_lt_ids` entry resolves in unified data; lt_type matches unified knowledge_type where populated). New Check 10 (LT→criterion referential integrity: every `criterion_ids` reference in unified-data bands resolves in the criterion bank). New Check 11 (orphan detection, both directions: criteria with no valid LT refs; LTs with zero criteria associating back). New Check 12 (criterion-level prerequisite edge integrity + DAG validity over `prerequisite_criterion_ids`). Check 3 relabelled "DAG validity, unified" to disambiguate from Check 12. Output format updated; OVERALL aggregates all 12.
+- **PROMPT_STANDARDS.md — four new sections appended.** "Preflight as session-start discipline" (unskippable; every session runs preflight first and pastes full output into the session report; twelve checks enumerated). "Specificity rule" (blind-band identification test; Adjacency and Observable-behaviour sub-tests; five-random-criterion measurement procedure for Gate 2). "Named gate criteria" (Gate 1 KUD→criteria invokes kud-chart-author Checks 1–6; Gate 2 criteria→unified; Gate 3 unified→artefact; Gate 4 artefact→publication; interim note on shared-context panel mode removed when Phase 0.3 ships; note on 88 threshold validated or recalibrated when Phase 0.5 ships). "Gate-failure procedure" (three-cycle escalation: targeted revision → expanded-scope revision → methodology review).
+- **Preflight 12/12 PASS** on 269 criteria / 21 LTs / 267 unified-data edges / 523 criterion-level prereq edges. Check 9: 269/269 refs valid, 0 broken. Check 10: 21/21 LTs with all refs valid, 269/269 band→criterion refs valid. Check 11: 0 criterion orphans, 0 LT orphans. Check 12: 523/523 edges valid, DAG OK. First end-to-end verification that the criterion bank and unified data are mutually referentially consistent at both directions; no broken refs or orphans surfaced.
+- **Current state:** 21 LTs, 269 criteria, 267 unified-data edges, 523 criterion-bank prereq edges. Preflight 12/12 PASS.
+- **This session did NOT:** implement independent panel mode (Phase 0.3); draft teacher validation protocol (Phase 0.4); validate the 88 threshold (Phase 0.5); modify any skill files; modify the kud-chart-author skill's Check 1–6 definitions (they are canonical; PROMPT_STANDARDS.md references them, does not redefine them).
+
+---
+
 **Session REAL-9b (Phase 0.1C — deprecate generate_real_wellbeing.py to scripts/legacy/)** — 2026-04-24 — COMMITTED.
 
 Deprecated `scripts/generate_real_wellbeing.py` — confirmed legacy by investigation (wrong output path `real-wellbeing-2026-04/` vs live `real-wellbeing/`, schema v1 vs live v2, missing T3 observation fields, not wired to any pipeline, last run REAL-1 2026-04-20). Moved to `scripts/legacy/` with README. Preflight Check 6 scoped to exclude `scripts/legacy/`. Preflight 8/8 PASS.
@@ -476,7 +488,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**First action next session: Phase 0.2 — add named gate criteria and gate-failure procedure to PROMPT_STANDARDS.md.** Define what a gate failure looks like, who is notified, and what the stop condition is. Required before any downstream artefact generation session that invokes a gate.
+**First action next session: Phase 0.3 — add independent-mode option to panel review skill.** Separate API calls per persona (no shared context) with at least one reviewer on a non-Opus model. Closes the interim note in PROMPT_STANDARDS.md "Named gate criteria" section; until then all "independent-mode panel mean ≥ 88" gate criteria operate under shared-context mode as an explicit interim.
 
 **Deferred — T3 observation protocol extension (reinstated after Phase 0.2 gate is in place).** Add LT 4.5 to `T3_observation_protocol_20260423.md` (currently covers LTs 1.1, 1.2, 1.3, 3.2, 7.2, 8.3 only). LT 4.5 requires a Band D rupture-and-repair section (distinguishing genuine initiation from defensive acknowledgement) and a Band F pattern-articulation section (distinguishing genuine model use from performed articulation).
 

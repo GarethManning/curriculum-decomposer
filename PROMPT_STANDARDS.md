@@ -56,3 +56,63 @@
 Consequence for review: do not remove T3 `within_lt_band` edges on the basis that the Band N+1 observable is "achievable without demonstrating Band N". That test applies to T2 strict prerequisites; under T3 developmental-staging semantics, the edge is correct even when each band's observable can in principle be evidenced independently. Removing T3 staging edges under the T2 test breaks the schema convention that every T3 LT carries an unbroken A→B→C→D→E→F chain.
 
 If a T3 Band N+1 observable is genuinely unrelated to the Band N developmental ground (not merely a "different move that could arrive by other routes"), the issue is a KUD-chart defect, not an edge-semantics defect. Flag at chart level, not by edge removal.
+
+## Preflight as session-start discipline
+
+Every Claude Code session brief working on the REAL Wellbeing Framework begins with a run of python scripts/preflight.py, with the full output pasted into the session report before any other action. This rule is unskippable: no session brief, no matter how targeted or narrow, is exempt. Preflight status is recorded in every session report alongside all other deliverables.
+
+If preflight fails at session start, the session does not proceed to its intended work. It addresses the preflight failure first — either as the substantive task for that session or by explicitly halting and reporting the failure.
+
+This converts verification from "operator remembers to check" to "every session visibly reports on it". Preflight is the single integration-verification tool for the framework; it covers band-label compliance, LT count, DAG validity at both unified-data and criterion-level, schema compliance, field-derivation consistency, absence of inline BAND_LABELS in active scripts, unified-data band consistency, canonical self-check, criterion-to-LT referential integrity, LT-to-criterion referential integrity, orphan detection, and criterion-level prerequisite edge integrity. Twelve checks, all of which must pass.
+
+## Specificity rule
+
+A criterion-bank descriptor or competency-level descriptor is specific if and only if a teacher, reading the descriptor without knowing which band it describes, could correctly identify the band from the descriptor alone. The rule has two operational tests.
+
+**Adjacency test.** The descriptor distinguishes this band from the bands immediately above and below it — a teacher given the same descriptor for Band C and Band D side-by-side can tell which is which on content alone, not on a "more" or "better" modifier.
+
+**Observable-behaviour test.** For Type 1 and Type 2 criteria, the descriptor names a specific student action, product, or demonstration that could be observed or assessed. For Type 3 criteria, the descriptor names a specific observable behaviour, absence, confusable behaviour, or conversation prompt tied to that band's developmental territory — not a trait claim abstracted from behaviour.
+
+A descriptor fails the rule if it uses vague modifiers ("appropriately", "effectively", "with increasing independence") without naming what the student does that justifies the modifier. A descriptor fails the rule if removing the band-letter header from the descriptor block makes two bands indistinguishable.
+
+**Measurement procedure for gates.** At Gate 2, five random criteria are drawn from the criterion bank. Each is presented to a reviewer (persona or human) without its band header alongside the descriptors for the two adjacent bands, also headerless. The reviewer assigns band letters. If the reviewer assigns all five correctly, the rule is satisfied. If the reviewer misassigns one or more, the rule is failed and the gate-failure procedure applies.
+
+## Named gate criteria
+
+Four gates sit between the build stages of the REAL Wellbeing Framework. Each gate has specific, named pass criteria. An artefact does not proceed past a gate until every criterion is met.
+
+### Gate 1 — KUD authoring → criterion generation
+
+All six quality checks from the kud-chart-author skill pass on the KUD chart (Check 1: Understand independence; Check 2: Understand transfer; Check 3: Know specificity; Check 4: Progression lever; Check 5: Compound knowledge-type; Check 6: Know placement). Supplementary Checks A–D used in authoring annotations are not gate criteria. Zero unresolved compound-Do flags. Canonical band labels throughout. Preflight clean (all twelve checks pass). Independent-mode panel mean on the KUD chart ≥ 88.
+
+### Gate 2 — Criterion generation → unified data integration
+
+Independent-mode panel mean on the criterion bank ≥ 88. Preflight clean. The specificity rule is satisfied on a spot-check of five random criteria drawn from the newly-authored set (see Specificity rule section above for measurement procedure).
+
+### Gate 3 — Unified data → external-facing artefact
+
+Preflight clean on the integrated state (all twelve checks, including Checks 9–12 covering referential integrity). No remaining integration warnings from the build script's own verification steps. The independent-mode panel mean requirement does not apply to integration per se — integration is a mechanical operation, not a generative one — but any artefact derived from the integrated state downstream is subject to Gate 4.
+
+### Gate 4 — External-facing artefact → publication
+
+Independent-mode panel mean on the artefact ≥ 88. Teacher validation convergence above the thresholds set in the teacher validation protocol (docs/reference-corpus/real-wellbeing/teacher-validation-protocol-v1.md once Phase 0.4 ships; interim: documented external reviewer sign-off). Gareth's explicit sign-off on accuracy.
+
+### Interim note on panel mode
+
+Until Phase 0.3 ships independent-mode panel review, gate criteria referencing "independent-mode panel mean ≥ 88" operate under shared-context mode as an explicit interim. This interim is unsafe as a long-term state because shared-context personas correlate; panel means under shared context are less meaningful. The interim is accepted on the explicit understanding that Phase 0.3 closes it. This paragraph is removed from PROMPT_STANDARDS.md when Phase 0.3 ships.
+
+### Note on the 88 threshold
+
+The 88 threshold is currently convention — no calibration study has validated it. Phase 0.5 empirically validates the threshold against a known-high-quality artefact (LT 4.5 KUD v2) and a known-flawed artefact (LT 4.4 KUD v1 or a constructed flawed version with seeded issues). If the threshold discriminates meaningfully, 88 stands with evidence recorded in this document. If it does not, 88 is recalibrated and the new threshold is documented here alongside the supporting evidence. This note is updated or removed when Phase 0.5 ships.
+
+## Gate-failure procedure
+
+When an artefact fails a gate, the following three-cycle procedure applies.
+
+**Cycle 1 — targeted revision.** The session that produced the artefact is re-opened with specific revision scope drawn from the panel flags, check failures, or preflight failures that caused the gate failure. Only the flagged elements get revised; unrelated content is preserved. The gate is re-run.
+
+**Cycle 2 — expanded-scope revision.** If the revised artefact still fails the gate, revision scope expands. Previously-unflagged elements are re-examined for why they did not surface issues earlier. A second revision pass addresses both the original flags and any newly-surfaced concerns. The gate is re-run.
+
+**Cycle 3 — methodology review escalation.** If the artefact still fails after two revision cycles, work on that artefact halts. Gareth is notified explicitly. A methodology review session is triggered. The assumption shifts from "this artefact needs more revision" to "the authoring approach or the gate criteria themselves may be miscalibrated". Methodology review produces one of three outcomes: a revised authoring approach (and the artefact is re-authored under the new approach); revised gate criteria (and the gate is re-applied under the new criteria); or an explicit decision to accept the artefact at its current state, with caveats recorded in both this document and the artefact itself.
+
+An artefact that has been through all three cycles without acceptance is surfaced to Gareth as a structural blocker for the build plan, not a completed artefact.

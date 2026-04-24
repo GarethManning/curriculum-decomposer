@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """REAL wellbeing preflight.
 
-Run at session start. Six checks against the canonical band convention and the
-live structured artefacts. Exit 0 on all-pass, 1 on any fail.
+Run at session start. Twelve checks against the canonical band convention,
+the live structured artefacts, and cross-artefact referential integrity.
+Exit 0 on all-pass, 1 on any fail.
 
 Usage:
     python scripts/preflight.py
@@ -410,6 +411,233 @@ def check_band_conventions_self(repo_root: Path) -> tuple[bool, str]:
     return False, "; ".join(issues)
 
 
+# ── Check 9 — criterion → LT referential integrity ──────────────────────────
+
+
+def check_criterion_to_lt_integrity(
+    criteria: list[dict], lts: list[dict]
+) -> tuple[bool, str]:
+    """Every criterion's associated_lt_ids must resolve to an LT in unified data,
+    and if lt_type is populated on the criterion it must match the unified LT's
+    knowledge_type.
+    """
+    lt_by_id: dict[str, dict] = {lt["lt_id"]: lt for lt in lts if lt.get("lt_id")}
+
+    kt_map = {
+        "Type 1": {"S", "Sequential", "Type 1", "T1"},
+        "Type 2": {"H", "Horizontal", "Type 2", "T2"},
+        "Type 3": {"D", "Dispositional", "Type 3", "T3"},
+    }
+
+    checked = 0
+    valid = 0
+    broken: list[tuple[str, str, str]] = []
+    for c in criteria:
+        cid = c.get("criterion_id", "<missing id>")
+        lt_refs = c.get("associated_lt_ids") or []
+        lt_type = c.get("lt_type")
+        has_issue = False
+        for lt_id in lt_refs:
+            checked += 1
+            if lt_id not in lt_by_id:
+                broken.append((cid, lt_id, "not_found"))
+                has_issue = True
+                continue
+            if lt_type:
+                unified_kt = lt_by_id[lt_id].get("knowledge_type")
+                allowed = kt_map.get(lt_type)
+                if allowed is not None and unified_kt not in allowed:
+                    broken.append(
+                        (
+                            cid,
+                            lt_id,
+                            f"type_mismatch (criterion.lt_type='{lt_type}' "
+                            f"vs unified knowledge_type='{unified_kt}')",
+                        )
+                    )
+                    has_issue = True
+        if lt_refs and not has_issue:
+            valid += 1
+
+    details = (
+        f"{len(criteria)} criteria checked, {valid} fully valid, "
+        f"{len({cid for cid, _, _ in broken})} with broken refs "
+        f"({len(broken)} total broken refs over {checked} edges)"
+    )
+    if broken:
+        sample = "; ".join(
+            f"{cid}→{lt_id} ({reason})" for cid, lt_id, reason in broken[:10]
+        )
+        details += f". First {min(10, len(broken))}: {sample}"
+    return not broken, details
+
+
+# ── Check 10 — LT → criterion referential integrity ──────────────────────────
+
+
+def check_lt_to_criterion_integrity(
+    lts: list[dict], criteria: list[dict]
+) -> tuple[bool, str]:
+    """Every criterion_id referenced from unified-data LT bands must exist in
+    the criterion bank.
+    """
+    crit_id_set = {c.get("criterion_id") for c in criteria if c.get("criterion_id")}
+    checked = 0
+    valid = 0
+    broken: list[tuple[str, str, str]] = []  # (lt_id, band_letter, bad_criterion_id)
+    any_refs_present = False
+    lts_with_valid_refs = 0
+
+    for lt in lts:
+        lt_id = lt.get("lt_id", "<missing id>")
+        bands = lt.get("bands") or {}
+        if not isinstance(bands, dict):
+            continue
+        lt_has_any = False
+        lt_has_issue = False
+        for letter, band_obj in bands.items():
+            if not isinstance(band_obj, dict):
+                continue
+            refs = band_obj.get("criterion_ids") or []
+            if refs:
+                any_refs_present = True
+                lt_has_any = True
+            for cid in refs:
+                checked += 1
+                if cid in crit_id_set:
+                    valid += 1
+                else:
+                    broken.append((lt_id, letter, cid))
+                    lt_has_issue = True
+        if lt_has_any and not lt_has_issue:
+            lts_with_valid_refs += 1
+
+    if not any_refs_present:
+        return True, (
+            "no explicit criterion references in unified data — "
+            "implicit via lt_id reverse lookup, covered by Check 9"
+        )
+
+    details = (
+        f"{len(lts)} LTs checked, {lts_with_valid_refs} with all refs valid, "
+        f"{len({lid for lid, _, _ in broken})} with broken refs "
+        f"({valid}/{checked} refs valid)"
+    )
+    if broken:
+        sample = "; ".join(
+            f"{lid} band {letter}: {cid}" for lid, letter, cid in broken[:10]
+        )
+        details += f". First {min(10, len(broken))}: {sample}"
+    return not broken, details
+
+
+# ── Check 11 — orphan detection ──────────────────────────────────────────────
+
+
+def check_orphans(
+    criteria: list[dict], lts: list[dict]
+) -> tuple[bool, str]:
+    """Two directions:
+      - Criterion orphans: criteria whose associated_lt_ids is missing/empty,
+        or contains only ids not present in unified data.
+      - LT orphans: LTs in unified data that have zero criteria in the bank
+        associating back to them.
+    """
+    lt_id_set = {lt.get("lt_id") for lt in lts if lt.get("lt_id")}
+
+    # Direction A — criterion orphans
+    criterion_orphans: list[str] = []
+    for c in criteria:
+        cid = c.get("criterion_id", "<missing id>")
+        refs = c.get("associated_lt_ids") or []
+        if not refs:
+            criterion_orphans.append(cid)
+            continue
+        if not any(r in lt_id_set for r in refs):
+            criterion_orphans.append(cid)
+
+    # Direction B — LT orphans
+    lts_with_criteria: set[str] = set()
+    for c in criteria:
+        for lt_id in c.get("associated_lt_ids") or []:
+            lts_with_criteria.add(lt_id)
+    lt_orphans = sorted(lt_id_set - lts_with_criteria)
+
+    ok = not criterion_orphans and not lt_orphans
+    details = (
+        f"criterion orphans: {len(criterion_orphans)}; "
+        f"LT orphans: {len(lt_orphans)}"
+    )
+    if criterion_orphans:
+        details += (
+            f". Criterion orphans (first 10): "
+            f"{criterion_orphans[:10]}"
+        )
+    if lt_orphans:
+        details += f". LT orphans: {lt_orphans}"
+    return ok, details
+
+
+# ── Check 12 — criterion-level prerequisite DAG ──────────────────────────────
+
+
+def check_criterion_prereq_dag(criteria: list[dict]) -> tuple[bool, str]:
+    """Every prerequisite_criterion_ids entry must resolve to a criterion in
+    the bank, and the resulting graph must be a DAG (topological sort succeeds).
+    """
+    crit_ids = {c.get("criterion_id") for c in criteria if c.get("criterion_id")}
+
+    edges: list[tuple[str, str]] = []
+    broken: list[tuple[str, str]] = []  # (downstream_criterion, bad_prereq)
+    for c in criteria:
+        cid = c.get("criterion_id")
+        if not cid:
+            continue
+        for p in c.get("prerequisite_criterion_ids") or []:
+            if p not in crit_ids:
+                broken.append((cid, p))
+            else:
+                edges.append((p, cid))
+
+    # Topological sort over the criterion-id nodes that participate in any edge
+    # or exist in the bank.
+    indeg: dict[str, int] = {cid: 0 for cid in crit_ids}
+    out: dict[str, list[str]] = {cid: [] for cid in crit_ids}
+    for u, v in edges:
+        out[u].append(v)
+        indeg[v] = indeg.get(v, 0) + 1
+        indeg.setdefault(u, indeg.get(u, 0))
+
+    q = deque([n for n, d in indeg.items() if d == 0])
+    visited = 0
+    while q:
+        n = q.popleft()
+        visited += 1
+        for m in out.get(n, []):
+            indeg[m] -= 1
+            if indeg[m] == 0:
+                q.append(m)
+
+    total_nodes = len(indeg)
+    dag_ok = visited == total_nodes
+    cycle_nodes: list[str] = []
+    if not dag_ok:
+        cycle_nodes = sorted(n for n, d in indeg.items() if d > 0)[:20]
+
+    ok = not broken and dag_ok
+    details = (
+        f"{len(edges) + len(broken)} edges checked, {len(edges)} valid, "
+        f"{len(broken)} broken; "
+        f"DAG: {'OK' if dag_ok else 'CYCLE'} ({total_nodes} nodes, {visited} visited)"
+    )
+    if broken:
+        sample = "; ".join(f"{cid}←{bad}" for cid, bad in broken[:10])
+        details += f". First {min(10, len(broken))} broken: {sample}"
+    if cycle_nodes:
+        details += f". Cycle nodes (sample): {cycle_nodes}"
+    return ok, details
+
+
 # ── Runner ────────────────────────────────────────────────────────────────────
 
 
@@ -445,17 +673,28 @@ def main(argv: list[str] | None = None) -> int:
     c6_ok, c6 = check_no_inline_band_labels()
     c7_ok, c7 = check_unified_data_bands(unified)
     c8_ok, c8 = check_band_conventions_self(REPO_ROOT)
+    c9_ok, c9 = check_criterion_to_lt_integrity(criteria, lts)
+    c10_ok, c10 = check_lt_to_criterion_integrity(lts, criteria)
+    c11_ok, c11 = check_orphans(criteria, lts)
+    c12_ok, c12 = check_criterion_prereq_dag(criteria)
 
-    print(f"Check 1 (band_label compliance):       {_fmt_pass_fail(c1_ok)} — {c1}")
-    print(f"Check 2 (LT count):                    {_fmt_pass_fail(c2_ok)} — {c2}")
-    print(f"Check 3 (DAG validity):                {_fmt_pass_fail(c3_ok)} — {c3}")
-    print(f"Check 4 (schema compliance):           {_fmt_pass_fail(c4_ok)} — {c4}")
-    print(f"Check 5 (field-derivation):            {_fmt_pass_fail(c5_ok)} — {c5}")
-    print(f"Check 6 (no inline BAND_LABELS):       {_fmt_pass_fail(c6_ok)} — {c6}")
-    print(f"Check 7 (unified data bands):          {_fmt_pass_fail(c7_ok)} — {c7}")
-    print(f"Check 8 (canonical self-check):        {_fmt_pass_fail(c8_ok)} — {c8}")
+    print(f"Check 1  (band_label compliance):       {_fmt_pass_fail(c1_ok)} — {c1}")
+    print(f"Check 2  (LT count):                    {_fmt_pass_fail(c2_ok)} — {c2}")
+    print(f"Check 3  (DAG validity, unified):       {_fmt_pass_fail(c3_ok)} — {c3}")
+    print(f"Check 4  (schema compliance):           {_fmt_pass_fail(c4_ok)} — {c4}")
+    print(f"Check 5  (field-derivation):            {_fmt_pass_fail(c5_ok)} — {c5}")
+    print(f"Check 6  (no inline BAND_LABELS):       {_fmt_pass_fail(c6_ok)} — {c6}")
+    print(f"Check 7  (unified data bands):          {_fmt_pass_fail(c7_ok)} — {c7}")
+    print(f"Check 8  (canonical self-check):        {_fmt_pass_fail(c8_ok)} — {c8}")
+    print(f"Check 9  (criterion→LT integrity):      {_fmt_pass_fail(c9_ok)} — {c9}")
+    print(f"Check 10 (LT→criterion integrity):      {_fmt_pass_fail(c10_ok)} — {c10}")
+    print(f"Check 11 (orphans):                     {_fmt_pass_fail(c11_ok)} — {c11}")
+    print(f"Check 12 (criterion prereq DAG):        {_fmt_pass_fail(c12_ok)} — {c12}")
     print()
-    overall_ok = all([c1_ok, c2_ok, c3_ok, c4_ok, c5_ok, c6_ok, c7_ok, c8_ok])
+    overall_ok = all(
+        [c1_ok, c2_ok, c3_ok, c4_ok, c5_ok, c6_ok, c7_ok, c8_ok,
+         c9_ok, c10_ok, c11_ok, c12_ok]
+    )
     print(f"OVERALL: {_fmt_pass_fail(overall_ok)}")
     return 0 if overall_ok else 1
 
