@@ -4,6 +4,18 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session REAL-8e (LT 4.5 observation exemplar library — Bands D and F)** — 2026-04-24 — COMMITTED.
+
+Authored observation exemplar library for LT 4.5 — Emotional Self-Management in Practice — covering Band D (three criteria) and Band F (four criteria). Seven exemplar sections, each with authentic observation vignettes, confusable-behaviour anchors, absence indicators, and observer-calibration notes. Bands A, B, C, E deferred to v2.
+
+- **LT_4_5_exemplar_library_v1_20260424.md** — `docs/reference-corpus/real-wellbeing/LT_4_5_exemplar_library_v1_20260424.md`. Bands D and F. Seven criteria: crit_0319–crit_0321 (Band D), crit_0325–crit_0328 (Band F). Format matches T3 observation protocol appendices (LT 7.2 Band F and LT 8.3 Band F). School-agnostic; age-appropriate to G7–8 (Band D) and G11–12 (Band F). 6,436 words.
+- **Priority calibration emphases:** crit_0321 distinguishes student-initiated repair from teacher-brokered acknowledgement (timing + specificity of self-acknowledgement); crit_0326 distinguishes relationship-motivated repair from consequence-motivated repair (timing relative to consequence + framing of forward step — hardest Band F calibration call); crit_0328 applies partial-evidence protocol explicitly — components 1–3 typically met before component 4; a student may legitimately meet 1, 2, or 3 without yet meeting 4.
+- **Cross-band Section 3** added: two recurring calibration patterns across Band D and Band F — authenticity vs performance of authenticity; student-under-stress vs student presentation.
+- **Outstanding commissions unchanged:** extend T3 observation protocol to include LT 4.5 cross-references (next session); emotional-activation safeguarding protocol; exemplar library v2 (Bands A, B, C, E).
+- **This session did NOT:** push to remote; extend T3_observation_protocol_20260423.md itself; author Bands A/B/C/E exemplars; run panel review on exemplar library; modify any existing file.
+
+---
+
 **Session REAL-8d (LT 4.5 unified data integration — v6)** — 2026-04-24 — COMMITTED.
 
 Integrated LT 4.5 — Emotional Self-Management in Practice — into the unified wellbeing data, producing `unified-wellbeing-data-v6.json` and `wellbeing-index-v6.json`. All 10 verification checks PASS. Framework now at 21 LTs.
@@ -492,4 +504,4 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 
 ---
 
-*Last updated 2026-04-24 — REAL-8d: unified-wellbeing-data-v6.json (21 LTs, 269 criteria, 523 edges) and wellbeing-index-v6.json committed. REAL-8c: criterion-bank-v5_1.json committed at 21702f6. REAL-8b: criterion-bank-v5.json committed at d42a6ec. REAL-8a: KUD v4 + LT_4_5_KUD_v2 committed at 027b4c1. Next: T3 observation protocol extension for LT 4.5 (Band D rupture-and-repair; Band F pattern-articulation).*
+*Last updated 2026-04-24 — REAL-8e: LT 4.5 exemplar library v1 committed (Bands D and F; seven criteria). REAL-8d: unified-wellbeing-data-v6.json (21 LTs, 269 criteria, 523 edges) and wellbeing-index-v6.json committed. REAL-8c: criterion-bank-v5_1.json committed at 21702f6. REAL-8b: criterion-bank-v5.json committed at d42a6ec. REAL-8a: KUD v4 + LT_4_5_KUD_v2 committed at 027b4c1. Next: Extend T3 observation protocol to include LT 4.5 cross-references (Band D rupture-and-repair; Band F pattern-articulation).*
