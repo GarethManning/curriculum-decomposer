@@ -1,0 +1,24 @@
+theme_code,theme_label,REAL_covers,REAL_band_range,REAL_primary_LTs,RSHE_covers,RSHE_band_range,CfW_covers,CfW_band_range,CASEL_covers,CASEL_band_range,CS_covers,CS_band_range,frameworks_covering,v3_to_v4_change,notes
+T01,Emotional Awareness Vocabulary & Self-Regulation,yes,A–F,LT 1.1 + LT 4.5,yes,A–E,yes,A–F,yes,A–F,yes,A–F,5,LT 4.5 added as T3 companion for regulation practice,Universal coverage A–F (RSHE ends at E); LT 4.5 reinforces D–F
+T02,Empathy & Perspective-Taking,yes,A–F,LT 1.2 + LT 4.4,partial,A–B / D–E,yes,A–F,yes,A–F,yes,A–F,5,LT 4.4 adds relational-development content at B–F,RSHE has limited empathy-specific content at C
+T03,Conflict Resolution & Relationship Repair,partial,C–F,LT 5.1 + LT 1.2 + LT 4.5,yes,A–E,partial,D–F,yes,A–F,yes,C–F,5,LT 4.5 D adds repair initiation,REAL still lacks A–B content; RSHE and CASEL cover from Band A
+T04,Focused Attention & Mindfulness,yes,A–F,LT 2.1 + LT 8.2,no,—,partial,C–D,partial,A–E,partial,D,2,LT 8.2 adds digital-attention layer C–F,REAL distinctive strength — Band F unique to REAL
+T05,Reflective & Values-Based Decision-Making,yes,A–F,LT 2.2,partial,D–E,yes,A–F,yes,A–F,partial,B–F,5,no change,RSHE limited at lower bands
+T06,Physical Health Habits,yes,A–F,LT 3.1,partial,D–E,partial,A–E,no,—,no,—,3,no change,REAL has strongest full-band progression
+T07,Self-Care Help-Seeking & Resilience,yes,A–F,LT 3.2 + LT 4.5,yes,A–E,yes,A–F,yes,A–F,partial,C–F,5,LT 4.5 reinforces help-seeking at A and D,Strong multi-framework coverage
+T08,Bodies Boundaries & Consent,yes,A–F,LT 4.1,yes,A–E,partial,B–E,partial,A–D,partial,A–F,5,no change,CASEL and CS address assertiveness but not explicit consent framing
+T09,Puberty Sexual Health & Safe Choices,yes,B–F,LT 4.2,yes,A–E,no,—,no,—,no,—,2,no change,Unique to REAL and RSHE; LT 4.2 Band D/F teacher-review flag preserved
+T10,Interpersonal & Assertive Communication,yes,A–F,LT 5.1 + LT 8.3,yes,A–E,yes,A–F,yes,A–F,yes,A–F,5,LT 8.3 adds digital-assertiveness layer A–F,Universal coverage — strongest multi-framework convergence
+T11,Community Engagement Purpose & Civic Action,yes,A–F,LT 5.2,no,—,partial,D–F,yes,C–F,partial,A–F,4,no change,RSHE notable gap
+T12,Wellbeing Science & Neuroscience Literacy,yes,A–F,LT 6.1 + LT 4.4,partial,D–E,partial,A–D,no,—,partial,D,2,LT 4.4 adds emotional/relational development science at B–F,Substantially unique to REAL
+T13,Health & Evidence Literacy,yes,A–F,LT 6.2 + LT 8.1,partial,D–E,partial,B–E,no,—,no,—,2,LT 8.1 adds digital-information literacy A–F,Unique REAL strength at A–C and F
+T14,Metacognition & Self-Directed Learning,yes,A–F,LT 7.1 + LT 7.2,no,—,partial,C–D,partial,A–F,partial,C–F,4,no change,RSHE gap; REAL strongest full-band metacognition
+T15,Personal Identity & Self-Concept,yes,A–F,LT 1.3,no,—,partial,D–E,yes,A–F,yes,A–F,4,REAL GAP CLOSED — LT 1.3 adds A–F coverage,v3 flagged as structural gap; resolved in v4
+T16,Family Diversity & Relationship Structures,no,—,—,yes,A–E,partial,C–D,no,—,no,—,2,no change,REAL GAP preserved — RSHE statutory; out of scope for REAL by design
+T17,Online Safety & Digital Wellbeing,yes,A–F,LT 8.1 + LT 8.2 + LT 8.3,yes,A–E,no,—,no,—,no,—,2,MAJOR EXPANSION — LT 8.1 + 8.2 + 8.3 supply systematic A–F,v3 flagged as REAL gap; REAL now has most systematic digital-wellbeing coverage
+T18,Bullying Stereotyping & Anti-Discrimination,yes,A–F,LT 4.3,yes,A–E,no,—,partial,D–F,partial,C–F,4,REAL GAP CLOSED — LT 4.3 adds A–F coverage,v3 flagged as structural gap; resolved in v4
+T19,Physical Activity & Movement,no,—,—,no,—,yes,A–F,no,—,no,—,1,no change,Unique to Welsh CfW; REAL gap preserved (PE delivery context)
+T20,Nutrition & Food Literacy,no,—,—,partial,D–E,yes,A–F,no,—,no,—,2,no change,Welsh CfW distinctive strength; REAL gap preserved
+T21,Risk Assessment & Safety,partial,A–F,LT 4.1 + LT 4.3,yes,A–E,yes,A–E,no,—,partial,C–E,4,LT 4.3 adds bystander/safety reasoning A–F,REAL coverage expanded A–F via LT 4.3
+T22,Growth Mindset & Self-Efficacy,no,—,—,no,—,no,—,yes,A–F,yes,C–F,2,no change,REAL GAP preserved; not named as construct in REAL
+T23,Social Justice Rights & Advocacy,partial,D–F,LT 5.2 + LT 4.3 + LT 1.2,partial,D–E,partial,C–F,partial,D–F,partial,A–F,5,LT 4.3 D/E/F adds discrimination recognition,REAL entry expanded from E–F to D–F via LT 4.3
