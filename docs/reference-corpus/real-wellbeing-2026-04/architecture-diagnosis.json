@@ -22,7 +22,7 @@
       ],
       "grades": "K, Gr 1–2",
       "uk_years": "Y1–Y3",
-      "ages": "5–8"
+      "ages": "5–7"
     },
     "B": {
       "groups": [
@@ -47,7 +47,19 @@
       ],
       "grades": "Gr 7–8",
       "uk_years": "Y8–Y9",
-      "ages": "12–14"
+      "ages": "12–13"
+    },
+    "E": {
+      "groups": [],
+      "grades": "Gr 9–10",
+      "uk_years": "Y10–Y11",
+      "ages": null
+    },
+    "F": {
+      "groups": [],
+      "grades": "Gr 11–12",
+      "uk_years": "Y12–Y13",
+      "ages": null
     }
   },
   "competency_count": 7,

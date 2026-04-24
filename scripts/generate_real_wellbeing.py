@@ -42,6 +42,9 @@ load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 from curriculum_harness._anthropic import LEDGER, get_async_client
 from curriculum_harness.types import SONNET_MODEL, extract_json_object
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from band_constants import BAND_LABELS, BAND_META  # noqa: E402
+
 # ── Paths ──────────────────────────────────────────────────────────────────────
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -54,12 +57,6 @@ SOURCE_NAME = "REAL School Budapest — Wellbeing Framework"
 SCHEMA_VERSION = "v1"
 
 BANDS = ["A", "B", "C", "D"]
-BAND_LABELS = {
-    "A": "Water/Air Dragons (ages 5–8)",
-    "B": "Earth Dragons (ages 8–10)",
-    "C": "Fire Dragons (ages 10–12)",
-    "D": "Metal/Light Dragons (ages 12–14)",
-}
 
 # ── Source data ────────────────────────────────────────────────────────────────
 
@@ -382,30 +379,13 @@ def make_architecture_diagnosis() -> dict:
         "jurisdiction": "REAL School Budapest",
         "language": "English",
         "band_reference": {
-            "A": {
-                "groups": ["Water Dragons", "Air Dragons"],
-                "grades": "K, Gr 1–2",
-                "uk_years": "Y1–Y3",
-                "ages": "5–8",
-            },
-            "B": {
-                "groups": ["Earth Dragons"],
-                "grades": "Gr 3–4",
-                "uk_years": "Y4–Y5",
-                "ages": "8–10",
-            },
-            "C": {
-                "groups": ["Fire Dragons"],
-                "grades": "Gr 5–6",
-                "uk_years": "Y6–Y7",
-                "ages": "10–12",
-            },
-            "D": {
-                "groups": ["Metal Dragons", "Light Dragons"],
-                "grades": "Gr 7–8",
-                "uk_years": "Y8–Y9",
-                "ages": "12–14",
-            },
+            letter: {
+                "groups": [f"{d} Dragons" for d in meta["dragons"]],
+                "grades": meta["grades"],
+                "ages_approx": meta["ages_approx"],
+                "band_label": meta["band_label"],
+            }
+            for letter, meta in BAND_META.items()
         },
         "competency_count": 7,
         "lt_count": 14,

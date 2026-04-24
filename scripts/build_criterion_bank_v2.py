@@ -11,8 +11,12 @@ Actions:
 """
 import json
 import copy
+import sys
 from collections import defaultdict, deque
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from band_constants import BAND_LABELS  # noqa: E402
 
 BASE = Path("/Users/garethmanning/Github/curriculum-harness/docs/reference-corpus/real-wellbeing")
 IN = BASE / "criterion-bank-v2-partial.json"
@@ -22,16 +26,6 @@ PREFIX = "real-wellbeing-2026-04_crit_"
 
 
 def cid(n): return f"{PREFIX}{n:04d}"
-
-
-BAND_LABELS = {
-    "A": "Water/Air Dragons (ages 5–8)",
-    "B": "Earth Dragons (ages 8–10)",
-    "C": "Fire Dragons (ages 10–12)",
-    "D": "Metal/Light Dragons (ages 12–14)",
-    "E": "Light Dragons (ages 13–15)",
-    "F": "Post-Metal Dragons (ages 15–17)",
-}
 
 
 # ---------------------------------------------------------------------------

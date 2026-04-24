@@ -1,3 +1,6 @@
+> SUPERSEDED — 24 April 2026
+> This document predates the canonical band convention established in REAL_Wellbeing_KUD_v4_20260424.md and docs/reference-corpus/real-wellbeing/band-conventions.json. Band convention assertions in this document do NOT reflect current canonical. Retained as historical record only. Do not use as reference for new work.
+
 # Scope and Sequence: REAL School Budapest Wellbeing Programme
 
 **Programme:** REAL School Budapest Wellbeing Programme — 8 competencies, 19 LTs, spanning the full school journey from age 5 to age 17. C1 Emotional Intelligence (LT 1.1, 1.2, 1.3); C2 Attention & Reflective Decision-Making (LT 2.1, 2.2); C3 Physical Wellbeing & Self-Care (LT 3.1, 3.2); C4 Consent, Safety & Healthy Relationships (LT 4.1, 4.2, 4.3); C5 Community, Purpose & Belonging (LT 5.1, 5.2); C6 Wellbeing Science & Literacy (LT 6.1, 6.2); C7 Metacognitive Self-Direction (LT 7.1, 7.2); C8 Critical Digital Literacy (LT 8.1, 8.2, 8.3).

@@ -63,14 +63,7 @@
     "absence_indicators_rule": "Array of 2-3 descriptions of what absence looks like in contexts where the disposition could reasonably be expected.",
     "conversation_prompts_rule": "Array of 2-3 open questions. Bands A-B: concrete story-based. Bands C-D: pattern-focused. Bands E-F: metacognitive and cross-context."
   },
-  "band_labels": {
-    "A": "Water/Air Dragons (ages 5-8)",
-    "B": "Earth Dragons (ages 8-10)",
-    "C": "Fire Dragons (ages 10-12)",
-    "D": "Metal/Light Dragons (ages 12-14)",
-    "E": "Light Dragons (ages 13-15)",
-    "F": "Post-Metal Dragons (ages 15-17)"
-  },
+  "band_labels_note": "Canonical band labels are defined in docs/reference-corpus/real-wellbeing/band-conventions.json. This schema no longer enumerates band_label values; validation of band_label is the responsibility of scripts/preflight.py (Check 1 and Check 5).",
   "criterion_id_format": "real-wellbeing-2026-04_crit_NNNN",
   "edge_types": [
     "within_lt_band",

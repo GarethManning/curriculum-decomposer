@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "created": "2026-04-24",
+  "source_of_truth": "docs/reference-corpus/real-wellbeing/REAL_Wellbeing_KUD_v4_20260424.md",
+  "description": "Canonical REAL School Budapest band convention. Grade levels are primary identifiers; ages are approximations. Bands E and F have no Dragon names. Metal and Light Dragons both belong to Band D and are not split across bands.",
+  "bands": {
+    "A": {"letter": "A", "band_label": "Water + Air Dragons — K–2 (approx ages 5–7)", "dragons": ["Water", "Air"], "grades": "K–2", "ages_approx": "5–7"},
+    "B": {"letter": "B", "band_label": "Earth Dragons — G3–4 (approx ages 8–10)", "dragons": ["Earth"], "grades": "G3–4", "ages_approx": "8–10"},
+    "C": {"letter": "C", "band_label": "Fire Dragons — G5–6 (approx ages 10–12)", "dragons": ["Fire"], "grades": "G5–6", "ages_approx": "10–12"},
+    "D": {"letter": "D", "band_label": "Metal + Light Dragons — G7–8 (approx ages 12–13)", "dragons": ["Metal", "Light"], "grades": "G7–8", "ages_approx": "12–13"},
+    "E": {"letter": "E", "band_label": "G9–10", "dragons": [], "grades": "G9–10", "ages_approx": null},
+    "F": {"letter": "F", "band_label": "G11–12", "dragons": [], "grades": "G11–12", "ages_approx": null}
+  }
+}

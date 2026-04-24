@@ -1,3 +1,6 @@
+> SUPERSEDED — 24 April 2026
+> This document predates the canonical band convention established in REAL_Wellbeing_KUD_v4_20260424.md and docs/reference-corpus/real-wellbeing/band-conventions.json. Band convention assertions in this document do NOT reflect current canonical. Retained as historical record only. Do not use as reference for new work.
+
 # REAL School Budapest — Wellbeing Framework Build
 ## Session 1 output | 21 April 2026
 
