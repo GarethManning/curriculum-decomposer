@@ -183,3 +183,21 @@
 **Item 8 (verbatim, primary "Respectful, kind relationships" topic).** "The importance of self-respect and how this links to their own happiness. Pupils should have opportunities to think about how they foster their own self-esteem and build a strong sense of their own identity, including through developing skills and interests."
 
 *Capture note:* added during Batch 3 citation-verification pass (commit following `7f0dae3`). Quote cited in lt-1-3 × RSHE since Batch 1 but the underlying paragraph hadn't been extracted into this corpus until now. Source: `docs/run-snapshots/uk-statutory-rshe/content.txt` lines 105–107 (Primary, "Respectful, kind relationships" topic, item 8).
+
+---
+
+## Primary — Respectful relationships (relevant to LT 5.1) — late capture
+
+§37
+**Item 3 (verbatim, primary "Respectful relationships" topic).** "How to communicate effectively and manage conflict with kindness and respect; how to be assertive and express needs and boundaries; how to manage feelings, including disappointment and frustration."
+
+*Capture note:* added during Stop 5 baseline-audit pass. Quote cited in lt-5-1 × RSHE since Batch 1 but the underlying paragraph hadn't been extracted into this corpus until now. Source: `docs/run-snapshots/uk-statutory-rshe/content.txt` lines 91–93 (Primary, "Respectful relationships" topic, item 3). The card's "from primary" framing aligns with this primary scope.
+
+---
+
+## Secondary — Mental wellbeing (continued, relevant to LT 3.2, LT 5.2) — late capture
+
+§38
+**Item 2 (verbatim, secondary "Mental wellbeing" topic).** "The benefits and importance of physical activity, sleep, time outdoors, community participation and volunteering or acts of kindness for mental wellbeing and happiness."
+
+*Capture note:* added during Stop 5 baseline-audit pass. Quote cited in lt-3-2 × RSHE (Batch 2) and lt-5-2 × RSHE (Batch 3) but the underlying paragraph hadn't been extracted into this corpus until now. Source: `docs/run-snapshots/uk-statutory-rshe/content.txt` lines 611–612 (Secondary, "Mental wellbeing" topic, item 2).
