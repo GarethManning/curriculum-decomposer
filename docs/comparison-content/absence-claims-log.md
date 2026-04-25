@@ -199,6 +199,31 @@ The Stop 5 baseline audit detected 6 absence-claim sections present in the exist
 
 ---
 
+## Architectural findings (distinct from absence-claims)
+
+Architectural findings record observations about a framework's structural choices that emerged during comparison work. They are not LT × external-framework absence claims — they are facts about a framework's own design that are relevant to comparison and worth noting in a single place.
+
+### REAL — no structural parental role in the seer-of-progress system
+
+**Surfaced by:** Theme 7 ("How progress gets seen, and by whom") — Stop 5 drafting, commit `83778d1`.
+
+**Observation:** REAL's observation indicators across LT 1.1 / 1.2 / 1.3 / 4.5 / 7.2 / 8.3 name "the teacher", "the teacher or mentor", or the student (articulating without prompting in Reflection 360 conversations) as the seer of progress. No parental role is named as a structural seer in the framework's recording standard.
+
+**Source paragraphs supporting the observation:**
+- `real-framework-overview §5, §6, §7` — LT 1.1 Bands B, D, F observation indicators ("The teacher notices the student…").
+- `real-framework-overview §8` — LT 7.2 Band F (teacher or mentor; Reflection 360 conversation).
+- `real-framework-overview §25, §26` — LT 1.2 Bands D, F (teacher noticing).
+- `real-framework-overview §29` — LT 1.3 Band E (teacher noticing voluntary student articulation).
+- `real-framework-overview §49` — LT 4.5 Band D (teacher noticing across emotional situations).
+- `real-framework-overview §66` — LT 7.2 Band D (teacher notices unprompted articulation).
+- `real-framework-overview §73` — LT 8.3 Band F (student articulates when asked, not as performance).
+
+**Comparison reference:** RSHE structurally embeds parents as policy-consultees with withdrawal rights from sex education ([rshe-foreword §12, §15b, §16, §19]). CASEL positions Families & Caregivers as one of the four nested settings within the framework ([casel-framework-definition §12]). CfW positions the learner as increasingly co-directing, but does not name parents as a structural seer ([cfw-rse-statutory-principles §9]).
+
+**Verdict:** ARCHITECTURAL-FACT. This is a true claim about REAL's framework design supported by the source corpus. It is not framed as a deficiency — schools using REAL distribute parent communication through their own pedagogical practice; the framework simply does not pre-specify a parental seer role in its recording standard. Worth recording as a comparison-relevant architectural feature distinct from per-LT absence claims.
+
+---
+
 ## Process going forward
 
 For Batch 3 and Stop 5 onward:
