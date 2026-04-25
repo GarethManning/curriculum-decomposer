@@ -40,9 +40,9 @@ LEVEL_1 = COMP / "level-1-essay.md"
 COG_BRIEFS = COMP / "centre-of-gravity-briefs.md"
 ABSENCE_LOG = COMP / "absence-claims-log.md"
 
-CITATION_RE = re.compile(r"\[([a-z][a-z0-9-]+)((?:\s*§\s*\d+)(?:\s*,\s*§\s*\d+)*)\]")
-PARA_IDS_RE = re.compile(r"§\s*(\d+)")
-PARA_HEADER_RE = re.compile(r"^§\s*(\d+)\s*$")
+CITATION_RE = re.compile(r"\[([a-z][a-z0-9-]+)((?:\s*§\s*\d+[a-z]?)(?:\s*,\s*§\s*\d+[a-z]?)*)\]")
+PARA_IDS_RE = re.compile(r"§\s*(\d+[a-z]?)")
+PARA_HEADER_RE = re.compile(r"^§\s*(\d+[a-z]?)\s*$")
 QUOTE_RE = re.compile(r"[\"“]([^\"“”]+?)[\"”]")
 
 ABSENCE_PATTERNS = [
@@ -71,23 +71,27 @@ def log(level: str, msg: str) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-def load_sources() -> dict[tuple[str, int], str]:
-    """Return mapping {(slug, paragraph_id_int): paragraph_text} for every source paragraph."""
-    paragraphs: dict[tuple[str, int], str] = {}
+def load_sources() -> dict[tuple[str, str], str]:
+    """Return mapping {(slug, paragraph_id): paragraph_text} for every source paragraph.
+
+    Paragraph IDs are strings to support sub-numbered IDs like '15a', '15b'.
+    Pure-numeric IDs are stored as their decimal string representation (e.g. '15').
+    """
+    paragraphs: dict[tuple[str, str], str] = {}
     for src_file in sorted(SOURCES_DIR.rglob("*.md")):
         if src_file.name == "README.md":
             continue
         slug = src_file.stem
         text = src_file.read_text(encoding="utf-8")
         # Walk lines, accumulate text under each §N header until the next §M or section heading.
-        current_id: int | None = None
+        current_id: str | None = None
         buf: list[str] = []
         for line in text.splitlines():
             m = PARA_HEADER_RE.match(line.strip())
             if m:
                 if current_id is not None:
                     paragraphs[(slug, current_id)] = "\n".join(buf).strip()
-                current_id = int(m.group(1))
+                current_id = m.group(1)
                 buf = []
             else:
                 if current_id is not None:
@@ -186,6 +190,9 @@ def quote_matches_source(quote: str, source_text: str) -> bool:
       - American → British verb-ending anglicisation (override; nouns preserved)
       - mid-quote ellipsis-elision marked with '...' (segments matched in order)
       - truncation up to natural sentence boundary (substring match accepts)
+      - trailing punctuation tolerance (period/comma/semicolon/colon at end of
+        quote may be part of the citing prose's punctuation rather than the
+        source; matched both with and without trailing punctuation)
     NOT accepted: verb-form changes elsewhere in the quote, pronoun strips that
     change meaning, paraphrase presented as quote, prefix strips that remove
     framework-context which disambiguated the quote.
@@ -194,16 +201,22 @@ def quote_matches_source(quote: str, source_text: str) -> bool:
     src = normalize_text(source_text)
     if not q:
         return False
-    if _substring_or_segments_in_order(q, src):
-        return True
-    q_flip = (q[0].swapcase() + q[1:]) if q else q
-    if _substring_or_segments_in_order(q_flip, src):
-        return True
-    src_ang = anglicise(src)
-    if _substring_or_segments_in_order(q, src_ang):
-        return True
-    if _substring_or_segments_in_order(q_flip, src_ang):
-        return True
+    # Generate quote variants: original + trailing-punctuation-stripped.
+    candidates = [q]
+    q_trimmed = q.rstrip(",.;:")
+    if q_trimmed and q_trimmed != q:
+        candidates.append(q_trimmed)
+    for cand in candidates:
+        if _substring_or_segments_in_order(cand, src):
+            return True
+        cand_flip = (cand[0].swapcase() + cand[1:]) if cand else cand
+        if _substring_or_segments_in_order(cand_flip, src):
+            return True
+        src_ang = anglicise(src)
+        if _substring_or_segments_in_order(cand, src_ang):
+            return True
+        if _substring_or_segments_in_order(cand_flip, src_ang):
+            return True
     return False
 
 
@@ -212,17 +225,20 @@ def quote_matches_source(quote: str, source_text: str) -> bool:
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-def parse_citations_in_text(text: str) -> list[tuple[str, list[int], int, int]]:
-    """Return list of (slug, [paragraph_ids], start_offset, end_offset) for each citation tag in text."""
+def parse_citations_in_text(text: str) -> list[tuple[str, list[str], int, int]]:
+    """Return list of (slug, [paragraph_ids], start_offset, end_offset) for each citation tag in text.
+
+    Paragraph IDs are strings to preserve sub-numbered suffix (e.g. '15b').
+    """
     out = []
     for m in CITATION_RE.finditer(text):
         slug = m.group(1)
-        ids = [int(x) for x in PARA_IDS_RE.findall(m.group(2))]
+        ids = list(PARA_IDS_RE.findall(m.group(2)))
         out.append((slug, ids, m.start(), m.end()))
     return out
 
 
-def check_citation_resolution(artefacts: list[Path], sources: dict[tuple[str, int], str]) -> tuple[bool, list[str]]:
+def check_citation_resolution(artefacts: list[Path], sources: dict[tuple[str, str], str]) -> tuple[bool, list[str]]:
     failures: list[str] = []
     total_cites = 0
     for art in artefacts:
@@ -242,7 +258,7 @@ def check_citation_resolution(artefacts: list[Path], sources: dict[tuple[str, in
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-def find_following_citation(text: str, after: int) -> tuple[str, list[int], int] | None:
+def find_following_citation(text: str, after: int) -> tuple[str, list[str], int] | None:
     """Find the next [slug §N…] that follows position `after`.
     Bound the search to end of current sentence (period+space, period+newline, or blank line).
     Intervening quotes do NOT close the search window — the corpus uses the pattern
@@ -262,12 +278,12 @@ def find_following_citation(text: str, after: int) -> tuple[str, list[int], int]
     cite_match = CITATION_RE.search(snippet[:boundary])
     if cite_match:
         slug = cite_match.group(1)
-        ids = [int(x) for x in PARA_IDS_RE.findall(cite_match.group(2))]
+        ids = list(PARA_IDS_RE.findall(cite_match.group(2)))
         return (slug, ids, after + cite_match.end())
     return None
 
 
-def check_quote_to_source(artefacts: list[Path], sources: dict[tuple[str, int], str]) -> tuple[bool, list[str]]:
+def check_quote_to_source(artefacts: list[Path], sources: dict[tuple[str, str], str]) -> tuple[bool, list[str]]:
     failures: list[str] = []
     quotes_checked = 0
     skip_short = 0
@@ -296,7 +312,7 @@ def check_quote_to_source(artefacts: list[Path], sources: dict[tuple[str, int], 
                     break
             if not matched:
                 failures.append(
-                    f"{art.relative_to(REPO_ROOT)}:{line_no} quote not in source [{slug} §{','.join(str(i) for i in ids)}]: \"{quoted[:120]}\""
+                    f"{art.relative_to(REPO_ROOT)}:{line_no} quote not in source [{slug} §{','.join(ids)}]: \"{quoted[:120]}\""
                 )
     log("CHECK 2", f"quote-to-source: {quotes_checked} quoted spans checked ({skip_short} short skipped), {len(failures)} mismatches")
     return (len(failures) == 0, failures)
@@ -382,15 +398,15 @@ def check_absence_claims(artefacts: list[Path]) -> tuple[bool, list[str]]:
 # are duplicates of each other (verbatim same competency text under different grade
 # bands), citations to either are acceptable cross-artefact. Add new entries here as
 # they are documented.
-DOCUMENTED_BUNDLE_EQUIVALENCES: list[set[tuple[str, int]]] = [
+DOCUMENTED_BUNDLE_EQUIVALENCES: list[set[tuple[str, str]]] = [
     # CASEL §22 (G11–12 Self-Management) and §6 (G6–8 Self-Management) both contain
     # "Practice various coping skills to process thoughts and manage stressful situations"
     # verbatim. Either citation is acceptable when this phrase appears.
-    {("casel-pilot-extracts", 6), ("casel-pilot-extracts", 22)},
+    {("casel-pilot-extracts", "6"), ("casel-pilot-extracts", "22")},
 ]
 
 
-def _ids_under_same_bundle(slug_a: str, ids_a: tuple[int, ...], slug_b: str, ids_b: tuple[int, ...]) -> bool:
+def _ids_under_same_bundle(slug_a: str, ids_a: tuple[str, ...], slug_b: str, ids_b: tuple[str, ...]) -> bool:
     if slug_a != slug_b:
         return False
     set_a = {(slug_a, i) for i in ids_a}
@@ -405,7 +421,7 @@ def check_cross_artefact_consistency(artefacts: list[Path]) -> tuple[bool, list[
     """Quoted phrases appearing in more than one artefact must cite the same canonical paragraph ID(s),
     except where citations fall under a documented bundle-equivalence (see DOCUMENTED_BUNDLE_EQUIVALENCES)."""
     failures: list[str] = []
-    occurrences: dict[str, list[tuple[Path, str, tuple[int, ...], int]]] = defaultdict(list)
+    occurrences: dict[str, list[tuple[Path, str, tuple[str, ...], int]]] = defaultdict(list)
     for art in artefacts:
         text = art.read_text(encoding="utf-8")
         for qm in QUOTE_RE.finditer(text):
@@ -444,7 +460,7 @@ def check_cross_artefact_consistency(artefacts: list[Path]) -> tuple[bool, list[
         inconsistent += 1
         grp_lines = []
         for (a, s, ids, ln) in occs:
-            grp_lines.append(f"  {a.relative_to(REPO_ROOT)}:{ln} [{s} §{','.join(str(i) for i in ids)}]")
+            grp_lines.append(f"  {a.relative_to(REPO_ROOT)}:{ln} [{s} §{','.join(ids)}]")
         failures.append(
             f"Quote cited under different paragraph IDs in different artefacts:\n  \"{qnorm[:100]}\"\n" + "\n".join(grp_lines)
         )
