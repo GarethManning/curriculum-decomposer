@@ -492,7 +492,21 @@ def build_crosswalk(matrix_text, unified):
 # 4. frameworks-meta.json
 # ─────────────────────────────────────────
 
-def build_frameworks_meta():
+def _real_band_mapping_from_conventions(bands_meta):
+    out = {}
+    for letter, b in bands_meta["bands"].items():
+        grades = b["grades"]
+        dragons = b.get("dragons") or []
+        ages = b.get("ages_approx")
+        if dragons:
+            ages_part = f" (approx ages {ages})" if ages else ""
+            out[letter] = f"{grades} — {' + '.join(dragons)} Dragons{ages_part}"
+        else:
+            out[letter] = grades
+    return out
+
+
+def build_frameworks_meta(bands_meta):
     frameworks = [
         {
             "framework_id": "REAL",
@@ -508,14 +522,7 @@ def build_frameworks_meta():
             ),
             "source_jurisdiction": "Hungary (Budapest)",
             "year_published": 2026,
-            "band_mapping": {
-                "A": "K–2 — Water + Air Dragons (approx ages 5–7)",
-                "B": "G3–4 — Earth Dragons (approx ages 8–10)",
-                "C": "G5–6 — Fire Dragons (approx ages 10–12)",
-                "D": "G7–8 — Metal + Light Dragons (approx ages 12–13)",
-                "E": "G9–10",
-                "F": "G11–12",
-            },
+            "band_mapping": _real_band_mapping_from_conventions(bands_meta),
             "source_file_path": "docs/reference-corpus/real-wellbeing/unified-wellbeing-data-v6.json",
             "confidence": "high",
             "license_note": "Proprietary — REAL School Budapest internal framework. All rights reserved.",
@@ -590,7 +597,7 @@ def build_frameworks_meta():
             },
             "source_file_path": "docs/reference-corpus/casel-sel-continuum/band-tagged-casel-v2.json",
             "confidence": "high",
-            "license_note": "© CASEL 2023. Educational use permitted; not for commercial redistribution.",
+            "license_note": "© CASEL 2023. Non-commercial educational display with attribution permitted per casel.org/terms-of-use; reproduction or redistribution requires prior written permission from CASEL (info@casel.org). Corpus content is paraphrased from the SEL Skills Continuum for educational research purposes.",
         },
         {
             "framework_id": "Circle Solutions",
@@ -613,7 +620,7 @@ def build_frameworks_meta():
             },
             "source_file_path": "docs/reference-corpus/circle-solutions-sel/band-tagged-circle-solutions-v2.json",
             "confidence": "medium",
-            "license_note": "© Cowie & Myers 2016. Academic publication; educational use permitted.",
+            "license_note": "© Cowie & Myers 2016, published by SAGE Publications. Standard academic copyright applies; systematic reproduction requires SAGE Rights & Permissions approval. Corpus content paraphrased from Tables 2.1–2.2 for educational research purposes; not verbatim reproduction from the book.",
         },
     ]
 
@@ -913,7 +920,7 @@ def main():
     print(f"    pairs: {crosswalk_data['meta']['pair_count']}, themes: {crosswalk_data['meta']['theme_count']}")
 
     print("Building frameworks-meta.json...")
-    meta_data = build_frameworks_meta()
+    meta_data = build_frameworks_meta(bands_meta)
     fm_path = OUT_DIR / "frameworks-meta.json"
     with open(fm_path, "w") as f:
         json.dump(meta_data, f, indent=2, ensure_ascii=False)

@@ -1,6 +1,6 @@
 # REAL Wellbeing Framework — Visualisation-Ready Data
 
-**Generated**: 2026-04-24
+**Generated**: 2026-04-25
 **Schema version**: 1.0
 **Source of truth**: `unified-wellbeing-data-v6.json` and `criterion-bank-v5_1.json`
 
