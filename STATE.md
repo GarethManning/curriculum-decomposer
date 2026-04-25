@@ -578,6 +578,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 - **Phase 3 consolidation collapse on felvételi.** Observable only in a Phase 3 run output.
 - **AP US Gov rubric flag rate after gate recalibration.** Not yet re-run.
 - **Reference-authoring gate pass rates for Welsh CfW / Common Core under a fresh re-run.** Not re-verified since 4c-1.
+- **Pre-existing quote-to-source defects in `centre-of-gravity-briefs.md` (6) and `level-1-essay.md` (1).** Detected by the new four-check audit suite (`scripts/comparison_content_audit.py`) when run at `--scope all` after Stop 5 baseline cleanup. These artefacts were drafted before the audit suite existed; their failures were not part of the cleared 63-card baseline. **To be cleared in a single sweep after Theme 8 drafting, before final Stop 5 commit.** Not blocking per-theme commits — Theme 1 onwards committed under `--scope themes` PASS plus `--scope cards` carry-forward PASS.
 
 ## 5. Next session
 
