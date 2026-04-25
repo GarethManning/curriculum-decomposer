@@ -4,7 +4,24 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
-**Session REAL-12 (Comparison content — Batch 2 drafted + revision pass 1; awaiting panel re-review)** — 2026-04-25 — UNCOMMITTED. Model: opus 4.7.
+**Session REAL-13 (Comparison content — Batch 3, 18 cards drafted; awaiting panel review)** — 2026-04-25 — UNCOMMITTED. Model: opus 4.7.
+
+Batch 3 of comparison-content Stop 4 drafted (18 cards: LTs 5.2, 6.1, 6.2, 7.2, 8.2, 8.3) including both committed reciprocity cards. Per-LT audit cadence held: each trio audited before the next was drafted, three trios needed in-flight word-count or 4-gram fixes during drafting, all six trios clean before final cumulative audit. Full cumulative audit across all 63 cards passes on all seven dimensions. Awaiting panel review before commit — will commit after sign-off following the Batch 2 pattern.
+
+- **Batch 3 draft (18 cards).** `docs/comparison-content/level-2-cards/lt-{5-2,6-1,6-2,7-2,8-2,8-3}.md`. Three cards per LT (RSHE / Welsh CfW / CASEL). Two committed reciprocity cards landed: **LT 5.2 × CASEL** (equity-oriented civic engagement: "CASEL pairs its Social Awareness competency with a Transformative SEL framing aimed at 'justice-oriented school and civic engagement'… REAL's LT 5.2… doesn't develop the civic-equity lens that CASEL builds in here"); **LT 7.2 × CfW** (deepening-progression structure: "CfW's progression model is the spiral revisit… REAL's LT 7.2 has a Bands A–F arc but doesn't name spiral-revisit at the framework level"). Reciprocity tracker now: **7 of 7 reciprocity cards landed** across Batches 1–3 plus 1 of 2 opportunistic.
+- **Source corpora extended.** `docs/comparison-content/sources/real/real-framework-overview.md` extended with §52–§74 (LT 5.2 description plus Bands C–F Do; LT 6.1 description plus Band B Know, Band D Know, Band F Do; LT 6.2 description plus Bands C, D, F; LT 7.2 description plus Band D Do; LT 8.2 description plus Bands C, E, F; LT 8.3 description plus Bands D, F, B). External source files (RSHE/CfW/CASEL pilot extracts and framework documents) not extended — all Batch 3 citations resolved against existing paragraph IDs.
+- **Per-LT audit cadence held.** Each trio audited (trio-level overlap on opening trigrams / opening 3rd-word / closing 4-grams; word counts; banned phrases; forbidden vocab) before drafting the next LT. Three trios needed in-flight fixes: LT 6.1 CASEL closing 4-gram collided with RSHE's "contested wellbeing science claim" → CASEL closer rewritten to end "claim using those mechanisms"; LT 7.2 CfW (88w over) and CASEL (82w over) trimmed by paraphrasing PS5 quote and tightening Band F descriptor; LT 8.3 RSHE/CfW/CASEL — CfW (88w) and CASEL (82w with accidental "dispositional" usage) both rewritten, CfW closer rotated to "expression by band f" and CASEL closer rotated to "values made visible without performance" to break a shared "values at band f" 4-gram and remove the banned word.
+- **Citation tightness patch during read-back.** During end-to-end read-back, LT 8.3 × RSHE referenced "Band B safeguarding ground" but cited only §72 (Band D) and §73 (Band F). Added §74 (LT 8.3 Band B Do verbatim) and split the citation. No other read-back issues found.
+- **Absence-claims log updated — 11 new entries.** `docs/comparison-content/absence-claims-log.md`. CLEAN verdicts: LT 6.1 × CfW (zero hits on neuroscience vocabulary in cfw-* corpora); LT 6.1 × CASEL (zero hits in casel-* corpora); LT 7.2 × RSHE (zero hits on metacognition / self-direction). QUALIFIED verdicts (8): LT 5.2 × RSHE (RSHE §11 mentions community participation as wellbeing ingredient — claim refined to "as a sustained curriculum thread"); LT 6.1 × RSHE (§14 "brain development" mentioned — claim scoped to "at mechanism level"); LT 6.2 × RSHE (§8, §18 partial coverage — claim scoped to "sustained evidence-evaluation thread"); LT 6.2 × CfW (WM3 §10, §13 generic — claim scoped to "health-specific" and "explicit evidence hierarchy"); LT 6.2 × CASEL (§10, §16 generic decision-process — claim scoped to specifying evidence types); LT 7.2 × CASEL (§7, §13 reflection-on-goal — claim scoped to "sustained disposition holding in novel/unfamiliar contexts"); LT 8.2 × CfW (Purpose 1 §4 productive-use only — claim scoped to "sits outside that framing"); LT 8.3 × CfW (claim scoped to "WM5 runs without a digital-specific subdivision", not CfW as a whole).
+- **Cumulative audit clean across all 63 cards.** [1] word counts 60–80 (canonical method): PASS. [2] banned phrases ("While X, REAL…", "Unlike X, REAL…", "Both X and REAL…"): PASS, zero hits. [3] forbidden vocabulary including "dispositional" and "register-calibration": PASS, zero hits. [4] trio-level overlap on all 21 trios (opening trigrams / opening 3rd-words / closing 4-grams): PASS, zero overlaps. [5] cumulative opening trigrams: max 3 hits (passes ≥4 = rewrite threshold). [6] cumulative connective signatures: max 3 hits (passes; "CASEL covers" and "REAL covers" each at 3 = warn). [7] citation resolution: PASS, zero unresolved across all 63 cards.
+- **Absent-content opener ratio.** 11 of 11 Batch 3 absence-claim cards lead with content (the framework's positive scope or relevant content) rather than with the absence statement. Cumulative across batches: 17 of 21 absent-content cards content-led = 81% (well above ≥50% threshold).
+- **Out of scope this pass — explicitly not changed.** No external-framework source files modified (RSHE / CfW / CASEL extracts already covered the citations needed). No revisions to Batch 1 / Batch 2 / Pilot 15 cards. No changes to the absence-claims-log entries from prior batches. No changes to any harness or framework artefacts. No copy to either site repo (separate distribution step after Stop 5 approval).
+- **Incidental observation flagged for panel.** Batch 3 produced one citation-tightness patch during read-back (LT 8.3 × RSHE — added §74 for Band B Do); flagged here so panel knows the read-back catch-net worked. No other incidental changes beyond the 18 card additions, source-file extension, absence-log update, and STATE.md update.
+- **This session did NOT:** commit any changes (Batch 3 awaiting panel review, will commit after sign-off following Batch 2 pattern); draft Stop 5 (8 Level 3 themes); modify any harness or framework artefacts; copy comparison content to either site repo.
+
+---
+
+**Session REAL-12 (Comparison content — Batch 2 drafted + revision pass 1)** — 2026-04-25 — COMMITTED `16e1ed4` (feature) + `5902755` (STATE). Model: opus 4.7.
 
 Batch 2 of comparison-content Stop 4 drafted (15 cards: LTs 3.2, 4.1, 4.3, 4.5, 5.1) including four reciprocity cards. Panel review identified four issues the rule-based audits do not catch; revision pass 1 applied targeted fixes to six card sections across three trios (LT 3.2, LT 4.5, LT 5.1). All seven audits re-run clean across all 45 cards. Awaiting panel re-review before commit.
 
@@ -564,7 +581,7 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**First action next session: panel re-review of Batch 2 (15 cards), then commit.** Batch 2 drafted and revision-pass-1 applied (REAL-12). Panel re-review focuses on whether the four issues raised in the prior panel are resolved: (a) LT 3.2 trio closers now visibly different in sentence shape; (b) "dispositional" gone from LT 4.5 RSHE + CASEL; (c) "register-calibration" gone from LT 5.1 RSHE; (d) LT 5.1 RSHE rotated off the "Band E / Band F adds X" template. All seven audits re-run clean. If panel passes, commit Batch 2 + revision pass 1 + STATE update. Then Batch 3 (LTs 5.2, 6.1, 6.2, 7.2, 8.2, 8.3 — 18 cards including 2 reciprocity: LT 5.2 × CASEL and LT 7.2 × Welsh CfW). Then Stop 5 (8 Level 3 themes at ~600w each; ~5,000w total). Distribution to `~/Github/rwf-site-claude/content/comparison/` and `~/Github/rwf-site-codex/content/comparison/` is a separate copy step after Stop 5 approval.
+**First action next session: panel review of Batch 3 (18 cards), then commit.** Batch 3 drafted (REAL-13) — six trios for LTs 5.2, 6.1, 6.2, 7.2, 8.2, 8.3, including both committed reciprocity cards (LT 5.2 × CASEL equity-civic; LT 7.2 × CfW deepening-progression). All seven audits clean across all 63 cards. Panel review covers: (a) all six trios on cross-framework fairness, methodological rigour, writing craft, and parent-reader accessibility; (b) the two reciprocity cards specifically — does each land the distinction plainly without retreating from the reciprocity claim; (c) the QUALIFIED absence claims (8 of 11 in Batch 3) — are scope refinements precise. If panel passes (≥88 mean, no role mean <70), commit Batch 3 + STATE update following the Batch 2 pattern. Then Stop 5 (8 Level 3 themes at ~600w each; ~5,000w total). Distribution to `~/Github/rwf-site-claude/content/comparison/` and `~/Github/rwf-site-codex/content/comparison/` is a separate copy step after Stop 5 approval.
 
 **Then (Gareth to decide), parallel non-comparison tracks remain available:**
 - **Programme guide authoring** (all 21 LTs, unified-wellbeing-data-v6.json as source; gated open by crosswalk v4 + KUD stability)
@@ -703,12 +720,12 @@ Without this discipline, absence claims drift into unfalsifiable territory.
 | Card | LT | Framework | Batch | Status |
 |---|---|---|---|---|
 | Day-to-day physical literacy | LT 3.1 | Welsh CfW | 1 | ✓ landed |
-| Child-protection specificity | LT 4.1 | RSHE | 2 | pending |
-| Multi-context practice | LT 5.1 | CASEL | 2 | pending |
-| Sociological-influences frame | LT 4.3 | Welsh CfW | 2 | pending |
-| Equity-oriented civic engagement | LT 5.2 | CASEL | 3 | pending |
-| Deepening-progression structure | LT 7.2 | Welsh CfW | 3 | pending |
-| Culture-of-mental-health-talk (opportunistic) | LT 4.5 | Welsh CfW | 2 | pending |
+| Child-protection specificity | LT 4.1 | RSHE | 2 | ✓ landed |
+| Multi-context practice | LT 5.1 | CASEL | 2 | ✓ landed |
+| Sociological-influences frame | LT 4.3 | Welsh CfW | 2 | ✓ landed |
+| Equity-oriented civic engagement | LT 5.2 | CASEL | 3 | ✓ landed |
+| Deepening-progression structure | LT 7.2 | Welsh CfW | 3 | ✓ landed |
+| Culture-of-mental-health-talk (opportunistic) | LT 4.5 | Welsh CfW | 2 | ✓ landed |
 
 ### Citation discipline
 
