@@ -33,6 +33,7 @@ The substring match in Check 2 applies the following normalisations to both the 
 - **Truncation up to natural sentence boundary.** A quote may truncate the source mid-clause at a natural punctuation boundary (comma, semicolon, full stop). Substring match accepts this.
 - **Mid-quote ellipsis-elision with marker.** A card may omit intervening source text mid-quote *only* when the omission is marked with `…` or `...`. The audit splits the quote on the ellipsis marker and requires each segment to appear in the source in order. The marker is required — unmarked elision is treated as paraphrase regardless of how short or innocuous the omitted material seems (this includes parentheticals such as `(interests)` and qualifying clauses such as `, where appropriate, I can`).
 - **American → British verb-ending anglicisation.** Card prose is consistently anglicised (British English). Source verbs ending in `-ize`, `-izing`, `-ized`, `-ization`, `-yze`, `-yzing`, `-yzed` may be matched against their British equivalents (`-ise`, etc.). Anglicisation is scoped to verb suffixes only — American noun spellings (e.g. `behaviors`, `colors`) are preserved verbatim from source. Source-language preservation is the default; verb anglicisation is the only spelling override.
+- **Trailing-punctuation tolerance.** A quote ending with a period, comma, semicolon, or colon is matched both with and without that trailing mark. The trailing punctuation is often the citing prose's sentence-level punctuation (placed inside the closing quote mark per house style) rather than the source's. This is continuous with the truncation-at-sentence-boundary tolerance above — the punctuation marks the boundary; the substring up to it is the verbatim portion.
 
 ### Not accepted
 
@@ -45,6 +46,12 @@ The substring match in Check 2 applies the following normalisations to both the 
 - **Section-header quoting.** Section headers (e.g. `## Secondary — Respectful relationships`) are structural metadata about how the source document is organised, not paragraph content the source statutorily commits to. They may not be enclosed in quote marks as if they were source paragraph text. Cards that need to refer to a section name use it in card prose without quote marks, with the citation pointing to the relevant `§N` paragraph(s) under that section.
 
 The four-check audit suite enforces this definition. It does not redefine it. Changes to the definition require a deliberate update to this document and an explanation of the reason.
+
+---
+
+## Citation-tag format
+
+Citations take the form `[slug §N]` or `[slug §N, §M]` with multiple paragraph IDs comma-separated. Paragraph IDs are typically purely numeric (`§1`, `§22`) but the source-manifest convention also addresses sub-numbered IDs of the form `§N[a-z]` (e.g. `§15a`, `§15b`, …, `§15g` in `rshe-foreword.md`). The audit script's `CITATION_RE`, `PARA_IDS_RE`, and `PARA_HEADER_RE` recognise both forms; sub-numbered paragraphs load as distinct entries in `load_sources`. A citation to `§15` resolves to the parent paragraph's text only (which may be a brief intro to its sub-clauses); to cite a sub-clause's content, cite the sub-numbered ID directly.
 
 ---
 
@@ -78,3 +85,4 @@ When an absence-claim section appears under an existing log entry but with refin
 ## Change log
 
 - **2026-04-25.** Initial version. Drafted alongside Stop 5 baseline audit. Captures the operational definition of verbatim quotation as accepted by 14 prior panel reviews of the existing 63-card corpus, plus the bundle-citation exception introduced in Batch 3.
+- **2026-04-25** (post-Theme-8 sweep). Added "Trailing-punctuation tolerance" to the Accepted normalisations list. Added "Citation-tag format" section documenting sub-numbered paragraph ID handling (`§N[a-z]?`). Audit script extended in lockstep: `CITATION_RE`, `PARA_IDS_RE`, `PARA_HEADER_RE` recognise sub-numbered IDs; `quote_matches_source` strips trailing `,.;:` as a matching variant. Existing carry-forward defects in `centre-of-gravity-briefs.md` and `level-1-essay.md` cleared as a consequence.
