@@ -4,6 +4,22 @@ Live state register. Updated at the end of every Claude Code session. Distinct f
 
 ## 1. Last session
 
+**Session REAL-11 (Comparison content — Stops 1–3 + Batch 1, 30 cards committed)** — 2026-04-25 — COMMITTED `71a5c73`. Model: opus 4.7.
+
+Reader-facing content for the REAL Wellbeing site's "Comparing approaches" pages. Three-level structure per PRD §8 of `~/Github/rwf-site-claude/PRD.md` (whole-framework philosophy, per-LT cards, theme treatments). This session shipped Stops 1–3 of the comparison-content build plan plus Batch 1 of Stop 4. Stop 5 (Level 3 themes) remains.
+
+- **Stop 1 — source corpus + centre-of-gravity briefs + manifest.** Eight philosophical-layer source files captured verbatim from RSHE, Welsh CfW and CASEL with paragraph-level §N citation IDs. Three centre-of-gravity briefs (~300w each) reading each framework on its own terms before any comparison. Source manifest with capture method per file. WebFetch sources spot-checked against live pages (5 random claims per file, 4 files). Drift found in 5/20 spot-checks; corrected in source files before commit. Files: `docs/comparison-content/sources/{rshe,cfw,casel}/`, `centre-of-gravity-briefs.md`, `source-manifest.md`.
+- **Stop 2 — Level 1 essay (~750w).** `docs/comparison-content/level-1-essay.md`. Four framework paragraphs (RSHE, Welsh CfW, CASEL, REAL) each describing the framework on its own terms, citing ≥2 paragraphs from that framework's materials. No comparative paragraph until each framework described first. Closing paragraph plus ongoing-conversation invitation listing four next frameworks (Ireland SPHE, Australian Curriculum HPE, OECD Learning Compass, EU LifeComp). 15 citations all resolve. REAL framework overview file created at `sources/real/real-framework-overview.md` (extended through Batch 1 to §38 covering pilot + Batch 1 LT descriptions and key band content).
+- **Stop 3 — pilot 15 cards (5 LTs × 3 frameworks).** Format-validation gate. Five LTs chosen to stress different alignment forms: LT 1.1 (universal coverage), LT 4.2 (sharply asymmetric), LT 4.4 (overlap with grain difference), LT 7.1 (REAL-distinctive), LT 8.1 (REAL strength). Format locked at panel mean 88.0. Revisions applied: LT 8.1 trio rewritten with three different angles (list / concrete example / distinctive step); citation discipline extended to REAL's own content; LT 1.1 trio closing-rhythm overlap fixed.
+- **Batch 1 — 15 cards (LTs 1.2, 1.3, 2.1, 2.2, 3.1).** Trio-level lexical audit added per-LT. Reciprocity card #1 of 5 landed: LT 3.1 × Welsh CfW names plainly that CfW carries more comprehensive day-to-day physical literacy than REAL. Panel mean 88.0. Revisions applied: 5 of 9 absent-content cards flipped from absence-led to content-led openers (≥50% threshold added to per-LT audit); LT 1.3 × CASEL rewritten to acknowledge developmental fit of CASEL's affirmative framing for K–1; nominalisation cleanups across 4 cards; "REAL covers" signature word brought below 4-hit threshold.
+- **Audit infrastructure — `absence-claims-log.md`.** Every absence claim in the corpus runs a source-corpus search and logs as CLEAN / QUALIFIED / RETRACTED before commit. LT 1.3 × RSHE flagged QUALIFIED (RSHE mentions "identity" once incidentally as a by-product of self-esteem; card refined to acknowledge).
+- **Cumulative corpus state at end of Batch 1:** 30 cards, 102 citations all resolving, zero banned phrases, zero forbidden vocabulary, no within-trio lexical overlaps, opening trigrams and signature words all under 4+ threshold. Word counts 60–80 across all 30 cards. Content-led opener ratio at 56% (passes ≥50% threshold).
+- **This session did NOT:** draft Batch 2 (LTs 3.2, 4.1, 4.3, 4.5, 5.1) — next; draft Batch 3 (LTs 5.2, 6.1, 6.2, 7.2, 8.2, 8.3); draft Stop 5 (8 Level 3 theme treatments at ~600w each); modify any harness or framework artefacts (criterion bank, KUD, unified data, skills); copy comparison content to either site repo (`~/Github/rwf-site-claude/` or `~/Github/rwf-site-codex/`) — that's a separate distribution step after Stop 5.
+
+Parallel site work in `~/Github/rwf-site-claude/` (separate repo, separate commits): `/how` page built end to end (4 sections — pedagogical stance; three kinds of learning, three kinds of evidence with `#three-kinds-of-learning` anchor for future cross-link from comparison cards; distinctive practices grid; anchor moment stub); home How-teaser line corrected to "Wellbeing isn't just a class. It's the texture of the day."; footer attribution line removed; Vercel deployment protection disabled; `https://rwf-site-claude.vercel.app/` is now publicly accessible without auth.
+
+---
+
 **Session REAL-10 (Phase 1 — crosswalk v4 refresh against 21-LT framework)** — 2026-04-24 — COMMITTED `8acd20b`.
 
 Phase 1 crosswalk refresh v4 produced. Framework-neutral matrix, summary CSV, and convergence document covering the current 21 REAL LTs against RSHE, Welsh CfW, CASEL, and Circle Solutions. Seven LTs new since v3 integrated (LT 1.3, 4.3, 4.4, 4.5, 8.1, 8.2, 8.3). Three gap changes. 84 LT × framework pairs labelled. v3 preserved as historical record.
@@ -455,7 +471,18 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 2. Verified working
 
+### Comparison content (REAL-11)
+
+- **Comparison content corpus — 30 of 63 cards complete (REAL-11, `71a5c73`).** `docs/comparison-content/`. Stops 1–3 + Batch 1 shipped. Pilot LTs (1.1, 4.2, 4.4, 7.1, 8.1) and Batch 1 LTs (1.2, 1.3, 2.1, 2.2, 3.1). 102 citations all resolving. Zero banned phrases. Zero forbidden vocabulary. Cumulative-corpus opening trigrams and signature words all under 4+ threshold. Trio-level lexical audit clean. Word counts 60–80 across all 30 cards. Reciprocity card #1 of 5 landed (LT 3.1 × CfW). Panel reviews 88.0 average across both batches.
+- **Source corpus — eight philosophical-layer files.** `docs/comparison-content/sources/{rshe,cfw,casel}/`. RSHE: foreword + strand-introductions; CfW: what-matters + four-purposes + RSE-statutory-principles; CASEL: framework-definition + equity-transformative-SEL. Plus three pilot-extracts files (rshe/cfw/casel) for per-topic verbatim extracts citable from cards. Plus `sources/real/real-framework-overview.md` (§1–§38) for citable REAL claims. Verbatim text with §N paragraph IDs.
+- **Level 1 essay — `level-1-essay.md`.** ~750w. Four framework paragraphs each describing on its own terms, with closing comparison paragraph plus ongoing-conversation invitation. 15 citations all resolve.
+- **Level 2 cards — 30 of 63 in `level-2-cards/lt-*.md`.** One file per LT, three cards per file (RSHE / CfW / CASEL). 60–80w each, single paragraph, no labelled subsections. Format locked at Stop 3 (panel 88.0). Reciprocity quota 5 committed + 2 opportunistic across remaining 33 cards; 1 landed; 4 in Batch 2 plan; 2 in Batch 3 plan.
+- **Audit infrastructure — `absence-claims-log.md`.** Every absent-content claim runs source-corpus search before commit. Pilot + Batch 1 retroactive verifications logged.
+
+### Framework artefacts (prior sessions)
+
 - **Crosswalk v4 — complete (REAL-10, `8acd20b`).** `docs/reference-corpus/crosswalks/real-wellbeing-x-all-frameworks-v4-{matrix.md, summary.csv, convergence.md}`. Framework-neutral crosswalk against 21 REAL LTs. Three gap changes (T15, T18 closed; T17 flipped to distinctive strength). 84 LT × external-framework alignment pairs labelled. Gareth spot-check 5/5. v3 retained as historical record.
+- **Visualisation-ready data — complete (Phase 2a, `dce30d7` + `a9975fb`).** `docs/reference-corpus/real-wellbeing/visualisation-data/{framework.json, criteria.json, crosswalk.json, frameworks-meta.json}` plus README. Derivative read-only outputs from `unified-wellbeing-data-v6.json` + `criterion-bank-v5_1.json`. Source for the comparison-content authoring and for the rwf-site-claude / rwf-site-codex builds.
 - **KUD charts v4 — committed (REAL-8a).** `docs/reference-corpus/real-wellbeing/REAL_Wellbeing_KUD_v4_20260424.md`. All band labels corrected to canonical grade-level convention. Content identical to v3. 163,949 bytes. Commit `027b4c1`. v3 retained as historical record.
 - **LT 4.5 KUD v2 — committed (REAL-8a).** `docs/reference-corpus/real-wellbeing/LT_4_5_KUD_v2_20260423.md`. T3 dispositional LT, Bands A–F, 6 quality checks PASS. Commit `027b4c1`.
 - **unified-wellbeing-data-v6.json — committed (REAL-8d).** `docs/reference-corpus/real-wellbeing/unified-wellbeing-data-v6.json`. 21 LTs, 269 criteria, 523 edges. lt_4_5 (T3) inserted after lt_4_4 in C4 competency group. T3 observation_indicators populated from criterion-bank-v5_1.json. All 10 verification checks PASS.
@@ -522,8 +549,10 @@ Pass 2 truncation pattern: Fixed by scaling `max_tokens = min(8192, max(4096, le
 
 ## 5. Next session
 
-**First action next session: Gareth to decide.** Natural candidates after Phase 1 crosswalk v4 ship:
-- **Programme guide authoring** (all 21 LTs, unified-wellbeing-data-v6.json as source; now gated open by crosswalk v4 + KUD stability)
+**First action next session: Batch 2 of comparison-content Stop 4.** LTs 3.2 (Self-Care & Resilience), 4.1 (Bodies, Boundaries & Consent), 4.3 (Bullying, Stereotyping & Anti-Discrimination), 4.5 (Emotional Self-Management in Practice), 5.1 (Interpersonal & Assertive Communication). 15 cards. Four reciprocity cards landing in this batch: LT 4.1 × RSHE (child-protection specificity), LT 5.1 × CASEL (multi-context practice), LT 4.3 × Welsh CfW (sociological-influences frame), LT 4.5 × Welsh CfW (opportunistic — culture-of-talking-about-mental-health). Per-LT audit cycle (see section 7). Panel review at end of batch. Then Batch 3 (LTs 5.2, 6.1, 6.2, 7.2, 8.2, 8.3 — 18 cards including 2 reciprocity: LT 5.2 × CASEL and LT 7.2 × Welsh CfW). Then Stop 5 (8 Level 3 themes at ~600w each; ~5,000w total). Distribution to `~/Github/rwf-site-claude/content/comparison/` and `~/Github/rwf-site-codex/content/comparison/` is a separate copy step after Stop 5 approval.
+
+**Then (Gareth to decide), parallel non-comparison tracks remain available:**
+- **Programme guide authoring** (all 21 LTs, unified-wellbeing-data-v6.json as source; gated open by crosswalk v4 + KUD stability)
 - **Safeguarding protocol commission** for LT 4.4 (attraction / rejection / loss scenarios at Band D) and LT 4.5 (emotional-activation in practice)
 - **LT 4.2 Band D/F unit-plan session** (deferred from QA Step 6: Band D sequencing plan; Band F contested-claim curation protocol)
 - **T22 growth-mindset gap decision** (PLC question from v4: author dedicated LT, subsume into LT 7.2, or document out-of-scope)
@@ -584,6 +613,102 @@ cd ~/Github/curriculum-harness && claude --dangerously-skip-permissions --model 
 - **Ontario LT halts on large Opus clusters.** Carry-forward from 4b-5. Pick up in 4c-7.
 - **AP US Gov rubric flag rate after 4c-2b gate recalibration.** Not yet re-run.
 - **RSHE KUD count (149 vs expected 30-55).** Defensible — RSHE bullets contain multiple sub-items. Not a gate failure.
+
+---
+
+## 7. Operational discipline — comparison content authoring
+
+This section is rehydration material. If a future session compacts and loses memory of the comparison-content build conventions, this is the source of truth. Read before drafting any new card. Update this section whenever a discipline changes.
+
+### Card structure
+
+- **Word count:** 60–80 words per card. Strict.
+- **Format:** one file per LT at `docs/comparison-content/level-2-cards/lt-{N-N}.md`. Each file: H1 with LT name, a one-line LT description, then three H2 sections — `## Comparison with RSHE`, `## Comparison with Welsh CfW`, `## Comparison with CASEL`. Single prose paragraph under each H2. No labelled sub-sections inside a card.
+- **Four moves natural per card:** what the external framework says about this content; what REAL says; what's the same; what's different and why. The "why" describes difference in observable terms (what students do, when, how), not in Level 1 philosophical vocabulary.
+- **Cards stand alone.** A reader who hasn't read the Level 1 essay should still understand any single card.
+
+### Voice
+
+Plain, direct, sometimes uncertain, never overpromising. Each framework described on its own terms before comparison. Honest neutrality — REAL has a position; cards describe differences, not verdicts. One author's voice across the corpus.
+
+### Banned phrases (zero tolerance)
+
+The following templates were identified as the patterns that would compound across 63 cards into corpus monotony. Zero hits across the entire corpus:
+
+- "While X, REAL…"
+- "Unlike X, REAL…"
+- "Both X and REAL…"
+
+If reaching for any of these, the card needs a different lead.
+
+### Forbidden vocabulary (parent-facing prose)
+
+Internal architecture vocabulary that doesn't belong in reader-facing content:
+
+- T1 / T2 / T3 (the knowledge-type taxonomy — translate as "three kinds of learning")
+- KUD / Know / Understand / Do (translate as "what students should know, understand, and do")
+- "construct validity"
+- "load-bearing"
+- "alignment density"
+- "interrogative" (use concrete description of what students actually do)
+- "propositional content" (use "what RSHE specifies" or similar)
+- "practised disposition" (Level 1 phrase — paraphrase in cards)
+
+### Audit thresholds (run after each LT trio is drafted, before next LT)
+
+- **Trio-level lexical audit:** within each trio of 3 cards (one LT × three frameworks), no two cards may share opening trigrams, opening verbs, or closing 4-grams. Zero overlaps tolerated within a trio. Run with the audit script in shell history (regex on first/last words across the three card bodies).
+- **Cumulative-corpus opening trigrams:** if any opening trigram appears in 4+ cards across the cumulative corpus, rewrite at least one to break the pattern.
+- **Cumulative-corpus signature words:** the audit watches for connective phrases that have crept in repeatedly. Currently watched at ≥3 hits, rewrite required at ≥4: "isn't part of", "covers the same", "REAL adds", "CASEL covers" (3 each as of end of Batch 1). Also "REAL covers" was at 5 — brought back to 3 by rewrites.
+- **Word counts:** 60–80w per card. Out-of-range: rewrite.
+- **Banned phrases:** zero hits required.
+- **Forbidden vocabulary:** zero hits required.
+- **Citation resolution:** every `[slug §N]` tag must resolve to an existing paragraph in `docs/comparison-content/sources/`. Tag-and-resolve audit must run clean before commit.
+
+### Absent-content opener discipline
+
+- **Ratio rule:** across all absent-content cards in the cumulative corpus, ≥50% must lead with content (the topic itself, or what the framework's positive scope is) rather than with the absence statement. This catches the cross-trio opener pattern that the trio audit cannot see. As of end of Batch 1: 9 absent cards, 5 content-led (56%) — passing.
+- **Construction variation:** where opening with absence is genuinely the right move (e.g. punchy 5-word lead), still vary the construction — don't repeat the same `"[X] isn't part of [framework]"` shape twice.
+- **Per-batch check:** after each batch, recount the ratio and rewrite as needed to stay ≥50%.
+
+### Absence-claim verification (process addition from Batch 1 panel)
+
+For every card making a claim about absence in an external framework:
+
+1. Search the framework's source corpus for the absent topic (multiple synonym terms — e.g. attention, attention strategies, focus, concentration).
+2. Document the search in `docs/comparison-content/absence-claims-log.md`.
+3. Certify the verdict: **CLEAN** (zero source hits), **QUALIFIED** (some source hits — claim refined to acknowledge what's there), or **RETRACTED** (claim wrong, card rewritten without absence).
+4. If QUALIFIED, the card must explicitly acknowledge the partial overlap rather than overclaiming absence.
+
+Without this discipline, absence claims drift into unfalsifiable territory.
+
+### Reciprocity quota
+
+5 committed reciprocity cards + 2 opportunistic across the 63-card corpus. A reciprocity card explicitly names where the external framework does something REAL doesn't, anchors it in source, then states what REAL adds without retreating from the reciprocity claim. Tracker:
+
+| Card | LT | Framework | Batch | Status |
+|---|---|---|---|---|
+| Day-to-day physical literacy | LT 3.1 | Welsh CfW | 1 | ✓ landed |
+| Child-protection specificity | LT 4.1 | RSHE | 2 | pending |
+| Multi-context practice | LT 5.1 | CASEL | 2 | pending |
+| Sociological-influences frame | LT 4.3 | Welsh CfW | 2 | pending |
+| Equity-oriented civic engagement | LT 5.2 | CASEL | 3 | pending |
+| Deepening-progression structure | LT 7.2 | Welsh CfW | 3 | pending |
+| Culture-of-mental-health-talk (opportunistic) | LT 4.5 | Welsh CfW | 2 | pending |
+
+### Citation discipline
+
+- Every claim about an external framework resolves to a source paragraph in `docs/comparison-content/sources/{rshe,cfw,casel}/`.
+- Every claim about REAL's content resolves to a paragraph in `docs/comparison-content/sources/real/real-framework-overview.md` (extend as new content needs to be cited).
+- Tag form: `[file-slug §N]` — e.g. `[rshe-foreword §1]`, `[cfw-rse-statutory-principles §11]`, `[real-framework-overview §25]`.
+- Tag-and-resolve audit runs before every commit.
+
+### Panel review at end of each batch
+
+Four reviewers per batch — Tim Oates (cross-framework fairness), Daisy Christodoulou (methodological rigour), William Zinsser (writing craft), parent-reader proxy (accessibility, register, neutrality). Aggregate ≥88 to proceed. If below, revisions before next batch starts.
+
+### STATE.md update cadence
+
+Update STATE.md at end of every batch and end of every Stop. Commit STATE.md separately from feature commits per the established discipline. Next updates: end of Batch 2, end of Batch 3, end of Stop 5.
 
 ---
 
