@@ -174,6 +174,10 @@ SONNET_MODEL = "claude-sonnet-4-20250514"
 API_HARD_TIMEOUT = 240.0
 MCP_BETA = "mcp-client-2025-11-20"
 
+# LearnOS object-lifecycle markers (see LearningTarget.modality). A
+# tentative object is never silently upgraded to "decided".
+MODALITY_VALUES = frozenset({"decided", "proposed", "open"})
+
 
 class OutputLevel(TypedDict):
     id: str
@@ -485,11 +489,42 @@ class LearningTarget:
     # {parent_id, score, matched_text}. parent_id is the KUDItem's
     # kud_source-style index; matched_text is the KUD item's content.
     kud_provenance: list[dict[str, Any]] = field(default_factory=list)
+    # ------------------------------------------------------------------
+    # LearnOS spine fields (added on branch learnos-minnesota per
+    # harness-audit-2026-07-06-v1.md §3 / HIGH-1). These carry the
+    # crosswalk spine directly on the target instead of reconstructing
+    # provenance by lexical match downstream. All default empty so every
+    # existing caller (REAL track, other jurisdictions) is unaffected.
+    # ------------------------------------------------------------------
+    # source_benchmark_id: the source statement's identifier as published,
+    # or a stable constructed id when the source publishes none. This is
+    # the authoritative parent trace — not a fuzzy score.
+    source_benchmark_id: str = ""
+    # source_verbatim: the parent benchmark's exact source wording, carried
+    # forward as a field. NOT re-derived by the token-overlap matcher.
+    source_verbatim: str = ""
+    # casel_competency / casel_secondary: CASEL 5-competency tag(s). Primary
+    # required for LearnOS output; secondary optional.
+    casel_competency: str = ""
+    casel_secondary: str = ""
+    # developmental_band: the target's placement band. String, source-native
+    # or mapped; an orientation aid, never asserted as a placement rule.
+    developmental_band: str = ""
+    # strategy_links: candidate strategy/vocabulary links as
+    # [{name, modality}]. Names only (no third-party teaching content).
+    strategy_links: list[dict[str, Any]] = field(default_factory=list)
+    # modality: lifecycle marker for this object as a whole — one of
+    # MODALITY_VALUES (decided / proposed / open). A tentative object is
+    # never silently upgraded.
+    modality: str = ""
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> LearningTarget:
         stmt = str(data.get("statement", ""))
         wc = int(data.get("word_count") or len(stmt.split()))
+        modality = str(data.get("modality", "")).strip().lower()
+        if modality and modality not in MODALITY_VALUES:
+            modality = "open"
         return cls(
             statement=stmt,
             type=int(data.get("type") or 1),
@@ -501,6 +536,18 @@ class LearningTarget:
             lt_statement_format=str(data.get("lt_statement_format", "")).strip(),
             source_provenance=list(data.get("source_provenance") or []),
             kud_provenance=list(data.get("kud_provenance") or []),
+            source_benchmark_id=str(data.get("source_benchmark_id", "")).strip(),
+            source_verbatim=str(data.get("source_verbatim", "")),
+            casel_competency=str(data.get("casel_competency", "")).strip(),
+            casel_secondary=str(data.get("casel_secondary", "")).strip(),
+            developmental_band=str(data.get("developmental_band", "")).strip(),
+            strategy_links=[
+                {"name": str(s.get("name", "")).strip(),
+                 "modality": str(s.get("modality", "proposed")).strip().lower()}
+                for s in (data.get("strategy_links") or [])
+                if isinstance(s, dict)
+            ],
+            modality=modality,
         )
 
     def to_dict(self) -> dict[str, Any]:

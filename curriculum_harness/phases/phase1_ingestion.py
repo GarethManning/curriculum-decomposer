@@ -364,8 +364,8 @@ def _scope_system_prompt(profile: dict[str, Any], subject: str, grade: str, juri
         )
     if fam == "school_scoped_programme":
         return (
-            "You extract text from **school- or trust-scoped curriculum documents** (e.g. REAL School, "
-            "academy, or district programmes).\n"
+            "You extract text from **school- or trust-scoped curriculum documents** (e.g. a school-, "
+            "academy-, or district-scoped programme).\n"
             f"{base_rules}\n"
             f"Keep goals, strands, outcomes, and progressions for **{subj}** at **{lvl}** under **{juris}**.\n"
             "Exclude unrelated grades/subjects unless they are explicitly cross-referenced in the same block.\n"
